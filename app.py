@@ -6,7 +6,7 @@
 
 from logging import debug
 from typing import Dict
-
+import os
 import dash
 import dash_bootstrap_components as dbc
 import pandas as pd
@@ -228,8 +228,8 @@ def update_button_recommened_visibility(values):
     return not list(filter(None, values))
 
 if __name__ == "__main__":
-    app.run_server(port=8080, debug=True)
-
+    port = int(os.environ.get("PORT", 8080))  # Use PORT environment variable if it's set, otherwise default to 8080
+    app.run_server(port=port, debug=True)
 
 # In[ ]:
 
