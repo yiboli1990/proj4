@@ -1,3 +1,92 @@
+Below is a more detailed explanation of the DRC (sometimes referred to as “Decentralized Risk Categories” or similarly named regulatory/capital calculations) discussion and how they can be categorized, based on the transcript. The ultimate goal is to provide clarity on which DRC items fall under current policy scope (U.S. capital), which apply to specific non-U.S. legal entities, and which may fall outside capital rules altogether (e.g., liquidity requirements).
+
+Why Categorize DRCs?
+
+In the transcript, there was a concern that “DRCs” appear in multiple contexts—some are for U.S. capital calculations, some apply to foreign legal entities, and some may be tied to other regulations beyond capital (like liquidity or resolution planning). The team needs a systematic way to track each DRC so they can:
+	1.	Explain the current state: Which DRCs are already covered by policy?
+	2.	Identify gaps: Where do we lack clarity on coverage (e.g., newly discovered DRC items for non-U.S. entities)?
+	3.	Plan next steps: Decide what to uplift, what to address later, and how to handle DRCs outside the “official” policy scope.
+
+Three-Tier Categorization Approach
+
+A straightforward approach is to create separate sections or tables that group DRCs by their applicability and underlying regulation:
+	1.	Table A: U.S. Capital (Current Policy Scope)
+	•	What’s included: All DRCs that fall under existing U.S. regulatory capital rules (Federal Reserve, OCC, FDIC).
+	•	Subsections:
+	•	Already Uplifted: DRCs that have been identified and fully addressed in policies/procedures.
+	•	Pending Prioritization: DRCs recognized as in-scope for U.S. capital but not yet remediated or prioritized.
+	•	In Development: Future changes (e.g., Basel 3 Endgame, FRTB) that will require new or updated DRCs.
+	2.	Table B: Non-U.S. Legal Entities
+	•	What’s included: DRCs that apply to legal entities beyond the U.S. scope, such as GSI (in the UK), GSIB, GSPE, or more specialized entities (e.g., GSJC for real estate).
+	•	Goal: Clarify whether each DRC is (or should be) covered under your firm’s global capital policy, or if it’s governed by local rules (e.g., PRA in the UK, ECB for EU entities).
+	•	Format: For each legal entity, list:
+	•	DRC Name
+	•	Purpose (e.g., local regulatory capital requirement, local liquidity coverage, resolution planning)
+	•	Governing Regulator
+	•	Current Status (covered in existing policy or not)
+	3.	Table C: Non-Capital Requirements (Liquidity, Resolution Planning, etc.)
+	•	What’s included: DRC items that are not strictly capital-related but may be risk or regulatory-driven, such as LCR (Liquidity Coverage Ratio), resolution planning, or other reporting requirements.
+	•	Key Question: Are these truly DRCs (in the sense of capital/risk models), or are they something else (like a purely operational or accounting reserve)? If they’re capital-like items, do they fall under any existing policy or do they need a new governance path?
+
+Sample Breakdown of Each Category
+
+Here is a simplified illustration of how you might lay out the tables. (The exact content and naming conventions would depend on your firm’s taxonomy.)
+
+Table A: U.S. Capital
+
+DRC Name	Regulatory Source	Policy Status	Next Steps
+DRC 1 – US Fed	Federal Reserve	Uplifted in 2023	Periodic review in Q1 2024
+DRC 2 – FDIC Rule	FDIC (US)	Pending Prioritization	Finalize by Q2 2024
+DRC 3 – Basel 3E	US Implementation	In Development	Monitor upcoming Basel 3 Endgame framework
+
+Table B: Non-U.S. Legal Entities
+
+Legal Entity	DRC Name	Regulator	Included in Policy?	Notes
+GSI (UK)	DRC 4 – PRA Capital	PRA/BoE (UK)	Not in current US scope	Potential alignment with group-level capital policy
+GSJC (Real Estate)	DRC 5 – FDIC Reserve?	FDIC? or Local Reg?	Unclear (entity-specific)	Needs further confirmation from Controllers or Tiago
+GSIB (Int’l)	DRC 6 – EBA?	European Regulators	Not in current US scope	Evaluate if it belongs to a group-wide policy extension
+
+Table C: Non-Capital Requirements
+
+Requirement	DRC or Similar	Regulatory Driver	Policy / Governance
+Liquidity Coverage (LCR)	LCR DRC?	Federal Reserve / Basel	Potentially outside capital policy
+Resolution Planning	-	FDIC / Fed – Title I	Separate resolution planning processes
+Other Reporting	-	Varies (ECB, PRA, etc.)	Not capital-related; governance unclear
+
+Key Points from the Transcript
+	1.	Clarify Missing or “Random” DRCs
+	•	Some DRCs appear to be for very narrow applications (e.g., a real estate entity’s reserve calculation).
+	•	Verify with Controllers (or relevant owners) whether these items belong in your consolidated capital/risk policy scope.
+	2.	Understand the Regulatory Source
+	•	FDIC might apply to certain U.S. entities, PRA/BoE for UK entities, ECB/EBA for EU, etc.
+	•	If the DRC is truly U.S. capital-related, it should already be in scope (or at least flagged for inclusion). If it’s missing, you need to determine why.
+	3.	Push for a Unified View
+	•	The conversation suggests you can rely on Tiago or a Controllers resource to collect and confirm the correct universe of DRCs.
+	•	Once you have that list, present it in a coherent structure (e.g., the three tables above).
+	4.	Ultimate Purpose
+	•	Make it easy for senior management (e.g., Brian, Alex) to decide which items need urgent uplifting, which can wait, and how to expand policy scope if needed.
+
+Action Items to Finalize DRC Categorization
+	1.	Gather Detailed Inventory
+	•	Work with Controllers, Finance, and other first-line teams to get the complete list of DRC items (both U.S. and non-U.S.).
+	2.	Identify the Regulator & Entity
+	•	For each DRC, confirm if it’s governed by Fed, FDIC, PRA, ECB, or another body.
+	3.	Determine Policy Inclusion
+	•	Check whether each DRC is already covered in the current U.S. capital policy.
+	•	If not, decide whether to include it in a future global policy update or treat it separately.
+	4.	Draft the Tables
+	•	Create the “3-Table” framework (U.S. Capital, Non-U.S. Entities, Non-Capital Requirements) and populate with the data.
+	5.	Review & Approval
+	•	Present to management (e.g., Brian/Alex) for alignment on next steps, prioritization, or expansions of the policy scope.
+
+Final Thoughts
+
+The DRC categorization is intended to give you a clear roadmap of which rules belong where, who oversees them, and how they relate to your existing policies. By separating U.S. capital items from non-U.S. legal entities and non-capital items, you gain a straightforward, “bite-sized” view of a potentially complex web of regulatory requirements.
+
+
+
+
+
 #!/usr/bin/env python
 # coding: utf-8
 
