@@ -1,3 +1,100 @@
+Below is a structured, detailed summary of the conversation. It reflects the key points, the context surrounding each, and the follow-up actions or concerns raised during the discussion.
+
+1. Upcoming Meeting with Brian (MRM Exit Meeting)
+	•	Schedule Confirmation: There is an MRM (Model Risk Management) exit meeting planned with Brian on Monday (or possibly Tuesday).
+	•	Agenda Items:
+	•	Regulatory Updates: The team wants to finalize and present various regulatory updates, including Basel-related developments and some second collateral allocator issues.
+	•	AI Updates:
+	•	Recent internal “guardrail” approvals.
+	•	Governance process changes for AI usage.
+	•	Overview of AI initiatives in production and a forward-looking view (next quarter or two).
+
+2. AI Initiatives and Business Use Cases
+	•	Large Language Models (LLMs): There is a mention of a “long list” of large LLM-based tools that will impact more models soon.
+	•	Generative BI (Business Intelligence): Discussion of projects integrating generative AI for reporting and decision support.
+	•	Project Mentions:
+	•	“TBMs, the strocking with lia project piano” (the details are somewhat unclear, but these appear to be internal code names or project references).
+	•	A “phase two” rollout is coming soon, possibly for a next-stage AI or machine-learning tool.
+	•	User Feedback:
+	•	The group wants someone unbiased (e.g., Erica or Wesley) to provide feedback on AI’s accuracy and utility.
+	•	Current AI accuracy is reported at 91%, which they note is often better than what humans achieve—though there’s some question about the thoroughness of the resources supporting it.
+
+3. Discussion on Electronic Trading & Market Conduct
+	•	Market Conduct Rules: Brief mention of “market conduct for ETPs” (Exchange-Traded Products) and possible inclusion in the upcoming Brian meeting agenda.
+	•	CBA Switch / Puzzle 3: There is a mention of a “puzzle for CBA switch,” though the relevance to the meeting’s main agenda is uncertain. It might be included in broader regulatory updates (e.g., “Basel 3,” European submission).
+
+4. Regulatory / Basel 3 Updates
+	•	Follow-Up for Brian: They want to combine recent updates on Basel 3 and other European regulatory changes into one summary for Brian.
+	•	Addressing Brian’s Questions: There were questions posed by Brian previously (possibly about Basel or capital adequacy), and the team intends to provide a verbal update or bullet points clarifying those.
+
+5. Second Collateral Allocator Issue
+	•	Year-End Material Issues:
+	•	There were multiple DRC (Default Risk Charge) and SOKR (possibly “Securities or Collateral” references) issues discovered before year-end.
+	•	A new “bill” was posted, but the conversation implies that some details might still be unresolved.
+	•	Open Points: The team is trying to recall specifics and ensure Brian is updated on these items if they are significant.
+
+6. Metrics & Remediation Progress
+	•	ATLC Findings:
+	•	Initially quite high (21 issues), reduced to 14, but further progress has been slow or complicated by new items.
+	•	Term Structure / “Tier One Age” Findings:
+	•	Talk of metrics going from 54 down to around 20-something. The official numbers are stale (from November) and likely improved by year-end.
+	•	GBM Findings:
+	•	Not as much progress as hoped. Internal push is needed since the front office is apparently comfortable breaching “track” but not “work” (i.e., not meeting internal deadlines but not necessarily failing official regulatory deadlines).
+	•	The team wants to escalate this reluctance to Brian and/or Alex to enforce accountability.
+
+7. Communication & Escalation Strategy
+	•	Follow-Up with GBM:
+	•	The group has trouble getting consistent updates from GBM on remediation.
+	•	Leadership in GBM told staff it is fine to breach the internal trackers (frack?), just not the official regulatory ones—a stance the MRM/validation team finds unacceptable.
+	•	Involving Senior Leadership:
+	•	Alex and Brian may intervene directly (e.g., phone calls) to reiterate the importance of meeting internal timelines and obligations, not just external regulatory ones.
+	•	Maintaining “Statute”:
+	•	The MRM team wants to keep up pressure and avoid undermining their own authority. They plan to phrase remediation deadlines as mandatory rather than negotiable.
+
+8. Market & Trading-Book Observations
+	•	Discount Curve Steepening:
+	•	Nearly 200 basis point difference between lower short-term rates and the 10-year, while the Fed has cut rates 75 bps.
+	•	The team wonders if there are notable trades or modeling issues tied to this rate environment.
+	•	Risk Limits and VAR:
+	•	In GTM space, the desk is apparently long USD 2.7 billion, but net risk is offset or “carnations inside,” so the VAR isn’t drastically affected. The group wants color on the rationale behind these positions.
+
+9. Additional Model-Related Items
+	•	CCAR Scenario & Narratives:
+	•	Some new or ongoing approach to running the CCAR scenario with narrative explanation.
+	•	The governance around these new modeling efforts is still being documented.
+	•	“Canal” Ambitious Model:
+	•	Possibly focusing on hedge funds or natural resources counterparties.
+	•	There’s some confusion over classification by counterparty (natural resources) vs. classification by risk factor.
+
+10. Final Preparations & Next Steps
+	•	Meeting with Alex (Friday):
+	•	The team plans to brief Alex or run certain items by him before bringing them up with Brian.
+	•	There may be “red items” or urgent topics to discuss, but details are limited.
+	•	Action Items:
+	1.	Regulatory/AI/Model Updates: Finalize bullet points for Brian.
+	2.	Finalize Basel 3 Follow-Up: Combine into a single document/summary.
+	3.	Escalation on GBM Findings: Provide specific examples and names if needed so Alex/Brian can intervene.
+	4.	Check on Market Risk Positions: Look into the discount curve steepening trades and how the bank is positioned.
+	5.	Continue Gathering User Feedback on AI Tools: Identify an unbiased user champion (e.g., Erica, Wesley).
+
+Overall Takeaway
+
+The conversation revolves around preparing a thorough update for senior management (notably Brian, possibly Alex) covering:
+	1.	Regulatory developments and outstanding remediation items (particularly around Basel 3 and the year-end findings).
+	2.	AI initiatives and governance (accuracy rates, use cases, next-phase deployments).
+	3.	Internal compliance challenges (GBM’s reluctance to meet MRM internal timelines).
+	4.	Market insights (steepening rate curves, large positional bets).
+
+The team is focused on ensuring a clear, consolidated message for Brian’s meeting, spotlighting progress, risks, and necessary escalations for effective remediation and accountability across business units.
+
+
+
+
+
+
+
+
+
 Summary of the Transcript
 
 The transcript outlines various updates and discussions on model risk management (MRM), remediation timelines, validation processes, and upcoming regulatory exams. Below is a summarized version of the key points:
