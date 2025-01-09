@@ -1,3 +1,51 @@
+Summary of the Transcript
+
+The transcript outlines various updates and discussions on model risk management (MRM), remediation timelines, validation processes, and upcoming regulatory exams. Below is a summarized version of the key points:
+
+1. Model Submissions and Remediation Timelines:
+	•	Abilitiesization and Launch Timeline: The project has started but is not fully on track; the deadline is March.
+	•	Prime Model BCD Review: Due by the end of January, focusing on outcomes analysis and implementation. Challenges are manageable, and findings will likely be combined with GSSEV validation (due mid-February).
+	•	MR Remediation: Several findings with staggered timelines:
+	•	Fed-raised issues require resolution by March.
+	•	Sequencing steps involve December, February, and March milestones.
+	•	Risk of findings remaining open for MR submission, though efforts are being made to avoid this.
+
+2. Backtesting:
+	•	Implementation has been received and is under review.
+	•	Milestones for thresholds and frameworks are delayed until March.
+	•	High-level testing is ongoing; main flaws may lie in the implementation phase.
+
+3. Model Group and Gap Analysis:
+	•	Reviews are on track, including:
+	•	Theta model gaps (targeting 2025).
+	•	Non-parallel scenarios (pending timeline adjustments after December 24th communication).
+
+4. Calibrations and Monitoring:
+	•	A decision on full model recalibration versus annual reassessment is pending, with recalibration likely, potentially resolving findings.
+	•	New scenarios and metrics are being developed for cross-currency bases and sensitivity analysis.
+	•	Frameworks for identifying key assumptions in sensitivity analysis are being finalized.
+
+5. Exams and Exercises:
+	•	ILST Exam: Materials are due by January 15th, with the exam in March. Key focus areas include governance, IT data, modeling documentation, and ongoing monitoring.
+	•	BAU LGD Exercise: Scope is broad, including dependencies like FLR models, with a focus on inventory findings and validation logs.
+
+6. General Risks and Concerns:
+	•	Several findings are delayed, but efforts are being made to manage risks and ensure compliance with deadlines.
+	•	Scope creep in certain exercises (e.g., BAU LGD) may require additional clarification and resource management.
+
+Overall, the discussion reflects ongoing progress with manageable delays, a focus on implementation reviews, and preparations for regulatory exams and validations.
+
+
+
+
+
+
+
+
+
+
+
+
 Below is a more detailed explanation of the DRC (sometimes referred to as “Decentralized Risk Categories” or similarly named regulatory/capital calculations) discussion and how they can be categorized, based on the transcript. The ultimate goal is to provide clarity on which DRC items fall under current policy scope (U.S. capital), which apply to specific non-U.S. legal entities, and which may fall outside capital rules altogether (e.g., liquidity requirements).
 
 Why Categorize DRCs?
