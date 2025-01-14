@@ -1,3 +1,38 @@
+Summary of the Meeting
+	1.	Overall Exam Objective and Process
+	•	The Federal Reserve exam focused on assessing the firm’s Model Risk Management (MRM) framework and practices, including governance, model development, model validation, and ongoing monitoring procedures.
+	•	The examiners conducted transaction testing to evaluate how well the firm executes its MRM procedures in practice.
+	•	The exam occurred virtually between September 20, 2024, and November 15, 2024.
+	2.	Key Conclusion: Generally Satisfactory but One MRA Issued
+	•	Examiners concluded that most components of the firm’s MRM framework are “generally satisfactory.”
+	•	However, the exam identified a control deficiency in the validation framework for “in-use” models. This deficiency may impede the firm’s ability to confirm that models remain appropriately calibrated and fit for purpose over time.
+	•	As a result, an MRA (Matter Requiring Attention) is being issued regarding weaknesses in the model validation controls framework.
+	3.	Details of the MRA
+	•	Deficiency in Qualitative Assessments: Although the firm uses both qualitative and quantitative tools to assess model performance, there is insufficient documentation or substantiation for qualitative assessments, except in cases that trigger additional validation or remediation.
+	•	Limited Evidence of Qualitative Reviews: During quarterly and annual reviews, examiners saw little evidence that qualitative assessments had actually been performed or documented.
+	•	Infrequent Revalidations: A significant proportion of models have not been revalidated over recent years, raising safety and soundness concerns—particularly for higher-risk models that are not automatically subject to periodic revalidation.
+	•	Remediation Required by December 31, 2025: The firm must enhance its MRM practices so that both quantitative and qualitative assessments are adequately and consistently supported, especially in quarterly/annual reviews for higher-risk models.
+	4.	Clarifications on Revalidation Frequency
+	•	The Federal Reserve does not mandate specific revalidation intervals in the guidance. However, the examiners emphasized the importance of confirming that models remain fit for purpose on a regular basis.
+	•	The MRA focuses on ensuring ongoing, evidence-based checks rather than dictating a particular revalidation schedule.
+	5.	Observations on the Apple Card CECL Model (Model 2381)
+	•	While these issues are not new findings (they were already noted in a previous ACL exam), examiners reiterated concerns regarding:
+	1.	Model Development: Issues in regression inputs, regression-output evaluation, and insufficient model-fit testing.
+	2.	Model Documentation: Limitations and compensating controls were not prominently highlighted, and documentation did not meet MRM standards.
+	3.	Model Validation: Validators did not sufficiently justify use of the same approach for Apple Card and the Apple Card monthly installment product. Excessive use of time dummy variables raised concerns about overfitting, which was not challenged by validators.
+	4.	Ongoing Monitoring: Thresholds are set such that red performance is only triggered if both the Apple Card model and an alternative model underperform—this dependency might mask issues.
+	•	Supervisory findings related to this model remain open from the previous ACL exam, so no new formal findings are being issued here. However, the examiners encouraged continued remediation and deeper engagement if needed.
+	6.	Next Steps
+	•	The firm plans to review the final exam letter in detail and then discuss with the Federal Reserve examiners how best to address the MRA.
+	•	Examiners will continue quarterly monitoring; during these updates, the firm can raise any questions about the MRA or other related issues.
+
+Overall, the meeting emphasized the importance of comprehensive and well-documented qualitative assessments, alongside quantitative monitoring, to ensure all models in use remain appropriately calibrated and truly fit for their intended purpose—particularly in rapidly changing market or business environments.
+
+
+
+
+
+
 Below is a structured, detailed summary of the conversation. It reflects the key points, the context surrounding each, and the follow-up actions or concerns raised during the discussion.
 
 1. Upcoming Meeting with Brian (MRM Exit Meeting)
