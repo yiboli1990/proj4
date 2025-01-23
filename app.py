@@ -1,3 +1,22 @@
+Below is a concise summary of the main points discussed in the transcript:
+	1.	Lotus Data Source Changes
+	•	There is a plan to move certain Lotus-related calculations from existing (“non-alternative”) data sources to a new, presumably higher-quality data source.
+	•	The team expects fewer manual overrides and improved data quality once these new sources are implemented.
+	•	Follow-up reviews may be required after the switch, but the team will perform checks to ensure the transition does not worsen data quality.
+	2.	Expansion of LCO (Europe Scope)
+	•	There is discussion about expanding LCO coverage in Europe.
+	•	This expansion was not previously budgeted, so the team needs to determine resource requirements, timeline, and headcount.
+	•	Further planning with senior stakeholders (e.g., “BB”) is needed to clarify scope and funding.
+	3.	UK’s Stance on Basel 3 and Resulting Budget/Planning Implications
+	•	The UK has decided not to proceed with full Basel 3 implementation.
+	•	This decision impacts prior plans, budgets, and potentially the technical approach to regulatory calculations.
+	•	The team notes that any rework (e.g., rewriting certain calculations) could be as large an undertaking as the initial DRC (Default Risk Charge) build.
+	•	They emphasize the need for a strategic discussion on how to manage the additional workload and align resources accordingly.
+
+Overall, the conversation centers on upcoming data-source transitions, regulatory scope expansion in Europe, and the budget/timeline adjustments required in light of the UK’s Basel 3 decision.
+
+
+
 Below is a concise summary of the main points and discussion threads in the transcript:
 	1.	Upcoming Meeting With Brian (Monday)
 	•	The speakers are planning to update Brian on several topics, including AI guardrails (previously discussed), final adjustments to the ETSC framework, and an introduction of a “pro reject” approach and systematic consumer testing.
