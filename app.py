@@ -1,3 +1,51 @@
+Below is a concise summary of the main points and discussion threads in the transcript:
+	1.	Upcoming Meeting With Brian (Monday)
+	•	The speakers are planning to update Brian on several topics, including AI guardrails (previously discussed), final adjustments to the ETSC framework, and an introduction of a “pro reject” approach and systematic consumer testing.
+	•	They also want to bundle together updates around MRM, ETSC, and ETP commitments to provide a cohesive “end state” picture.
+	2.	AI Topics & T/Risk Coordination
+	•	There is friction regarding how T/Risk and second-line teams process reviews and the perception that second-line processes are slowing down AI initiatives.
+	•	T/Risk appears to be deferring some steps or waiting until after MRM reviews to avoid repetitive rework.
+	•	The team notes that developers (and others) sometimes blame risk/control functions for delays, but emphasize that T/Risk is independent and has its own process.
+	•	The group considers having a direct conversation with T/Risk (possibly with “Car”) to clarify procedures and reduce miscommunication—ideally in person rather than via email.
+	3.	New Detection Model for T2
+	•	There is a mention of a new AI-related detection model with shorter latency (around one second).
+	•	The plan is to pilot it for bankers and eventually expand it for GS or broader usage.
+	•	It would be “preventative” rather than “detective,” checking documents in real time.
+	4.	Transformer Model for Short-Term Trading Signals
+	•	A separate team is building a transformer-based model to generate trading signals over very short windows (e.g., ten seconds).
+	•	Discussion centers on how MRM or second-line could effectively validate or test these kinds of real-time models, which can be challenging with fast market data.
+	•	There is a question of whether this transformer approach qualifies as “GI/AI” given it is presumably much smaller scale than large language models (LLMs).
+	5.	Buyback Trade and MMLat Update
+	•	Brief reference to a new client-related buyback trade (about 500 million EUR) with some discontinuities in payoff.
+	•	Possible plan to mention this to Brian if relevant, though it may be more detail than he needs.
+	6.	FRAC Breaches and New Workflow Tool
+	•	They discuss persistent FRAC (Framework for Risk Appetite Compliance) breaches and the firm’s protocol for addressing them (e.g., obtaining new committed dates, root-cause explanations).
+	•	A new “breach action plan protocol” and workflow tool from risk engineering might soon be mandatory.
+	•	Concern is raised that this new process was built primarily with market risk in mind and might be too cumbersome or less relevant for non-financial risk.
+	•	They note it will require some scrutiny to ensure it makes sense for their specific use cases before they adopt it.
+	7.	Regulatory Exam (Michaela / Next Steps)
+	•	The team wants clarity on how aggressively to respond to exam feedback from regulators.
+	•	They sense the regulatory examination team might be split: some think the current approach is adequate, others believe more thorough documentation is required.
+	•	They plan to see if they can glean more information informally during upcoming meetings (e.g., an MRM “conclave”).
+	•	They also discuss whether scheduling time directly with Michaela after some internal alignment might be beneficial.
+	8.	General Approach & Next Steps
+	•	The speakers plan to provide Brian with a summary of all these points: AI guardrails, ETSC framework, T/Risk coordination, FRAC breaches, CCR updates, and possible buyback trade updates.
+	•	They will also flag any overhead or headcount concerns if new processes (e.g., the FRAC workflow tool) become mandatory.
+	•	They consider setting up a timeline for year-end tasks (e.g., internal sign-offs, next regulatory discussions) and ensure they coordinate well with leadership and exam teams.
+
+Overall, the conversation focuses on preparing for an upcoming leadership update (with Brian), addressing AI model governance (especially T/Risk interactions), dealing with repeated FRAC breaches, and strategizing regulatory engagements and next steps.
+
+
+
+
+
+
+
+
+
+
+
+
 Summary of the Meeting
 	1.	Overall Exam Objective and Process
 	•	The Federal Reserve exam focused on assessing the firm’s Model Risk Management (MRM) framework and practices, including governance, model development, model validation, and ongoing monitoring procedures.
