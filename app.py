@@ -1,3 +1,45 @@
+Below is a concise summary of what was discussed (and planned) for the upcoming Monday “PO” call based on the transcript:
+
+Purpose of the Monday PO Call
+	•	Gather and review any pressing regulatory items that need to be communicated or escalated.
+	•	Check in on outstanding action items (e.g., T TBP cleanup, Fed submissions, etc.).
+
+Main Discussion Topics
+	1.	Regulatory Updates (SEC, FINRA, Fed)
+	•	SEC AP Model Request:
+	•	A minor submission item; no major concerns expected.
+	•	Team will confirm details are finalized or if any clarifications are needed.
+	•	FINRA Follow-ups:
+	•	There may be outstanding follow-up items to communicate or confirm.
+	•	Fed-Related Items:
+	•	Briefly mention the upcoming CEU meeting with the Fed.
+	•	The team will also touch on the submission of the latest inventory to the Fed (Ariana is handling details).
+	2.	T TBP (Trade/Transaction Booking Policy) Cleanup
+	•	The group wants to highlight the revamp of the T TBP process.
+	•	Open Tickets: People with older booking policy exceptions need to review or close them.
+	•	The call is a chance to remind owners of outstanding tickets to address them by a certain deadline.
+	•	Follow-up Strategy:
+	•	Phil (and possibly Prashant) will help chase updates from London-based or harder-to-reach teams.
+	•	If no response is received from owners, tickets may be closed or escalated.
+	3.	CCAR / General Fed-Submission Updates
+	•	A short update on any CCAR-related progress or requirements if relevant.
+	•	Mention if there are any regulatory due dates or deliverables in the next couple of weeks.
+	4.	High-Level Reminders
+	•	Governance Team Constraints: The governance team is understaffed at the moment (with Lena’s departure and someone else out sick), so be mindful of how much is assigned to them.
+	•	Upcoming Committee Meetings: BRC and FRAC are on the same timeline (February 27). The call might briefly confirm any dependencies or next steps related to preparing materials.
+
+Outcome / Next Steps for the PO Call
+	•	Finalize which items to present: The group will decide which updates (SEC AP model, FINRA follow-ups, Fed inventory submission) need more attention on the call.
+	•	Set a Deadline for T TBP Ticket Closures: Communicate a clear plan for owners to respond or close their tickets.
+	•	Coordinate with Key Stakeholders: Ensure people like Ariana, Phil, Prashant, and others are looped in for their respective pieces of work.
+	•	Confirm Prep for Regulatory Meetings: Decide if any additional materials or summaries are needed for the Fed or other regulators.
+
+That covers the main points expected to be addressed in the next Monday PO call based on the conversation.
+
+
+
+
+
 Below is a concise summary of the main points discussed in the transcript:
 	1.	Lotus Data Source Changes
 	•	There is a plan to move certain Lotus-related calculations from existing (“non-alternative”) data sources to a new, presumably higher-quality data source.
