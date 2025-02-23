@@ -1,3 +1,7 @@
+A new “staple-shaped” IFR discontinuity—two offsetting jumps one month apart—was introduced to the USD SOFR curve to address short-end constraints and enable more granular 1-month-level control within each 3-month IMM period.
+
+
+
 Below is a consolidated, detailed summary of the conversation. It organizes the main points and clarifies the various threads that came up during the discussion:
 
 1. Purpose of the Conversation
