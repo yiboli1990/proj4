@@ -1,3 +1,100 @@
+Below is a detailed, thematic summary of the conversation. It focuses on the main topics discussed, the context behind them, and the next steps or action items that arose.
+
+1. Upcoming Meeting With Brian (Wednesday Morning)
+	•	Schedule and Materials
+	•	The speakers confirm that a meeting with Brian is still planned for Wednesday morning (referred to as “Wednesday 45”).
+	•	They note that materials being circulated are updates that were originally prepared for a prior meeting which “got bumped.”
+	•	Topics to Cover
+	1.	Emery Remediation: Provide an update and refresh of the remediation bid, given schedule changes.
+	2.	AI Topics:
+	•	Growth and modality of AI resources (e.g., HPC usage).
+	•	“AI acceleration proposal” and a related summary from “AI governance from table.”
+	3.	Leslie’s Request:
+	•	There is a question about integrating an ask from Leslie.
+	•	The group is unclear on the background or context of Leslie’s query and wonders where it originated.
+	•	This might be an opportunity to review the DAIS process for Brian, including divisional representation (e.g., Jay, Constantine).
+	4.	Additional AI Initiatives:
+	•	The team wants to get a comprehensive list of ongoing or potential AI ideas from Jay.
+	•	They plan to be “opinionated”—assessing which ideas are more likely to succeed and which are less so, potentially identifying gaps or overlooked opportunities.
+	•	They also discuss how success in production (e.g., an AI-driven validation or summarization tool) could reinvigorate interest.
+	5.	Resources and Headcount:
+	•	Part of the AI discussion centers on highlighting resource constraints, budget (ZPP), and headcount needs.
+	•	They mention HPC usage charts, exponential growth, and how to represent (or exclude) certain large allocations (e.g., T204, AI platform) to make the data clearer.
+
+2. Additional AI Updates and Observations
+	•	Big Models / AI 2.0
+	•	There are bank-wide efforts around large model initiatives.
+	•	Upcoming pilot projects (e.g., “blockingination detection”) for GBM public vs. private.
+	•	Positioning and Ownership
+	•	Speakers note they want it clear that their team is spearheading AI efforts, rather than another department (OAS).
+	•	They also mention synergy with AI HPC resources and that there’s ongoing work with other teams (e.g., “AirCC stuff”).
+
+3. Other Agenda Items for Brian
+	1.	IRR & CCAR
+	•	They plan to refresh Brian on the status of IRR work and CCAR updates.
+	2.	Lotus, RCSA, and Issue Management
+	•	They have bullets to discuss, given Brian’s ongoing focus on RCSA (Risk and Control Self-Assessment) and issue management.
+	•	One point is the milestone reached on some RCSA deliverables (control library sign-off, for instance).
+	•	They need final confirmation on a control-library spreadsheet from compliance (“someone in compliance emailed a spreadsheet”).
+	•	The group believes the changes align with prior agreements and likely just require official sign-off.
+
+4. Metrics and Findings
+	•	Current ‘No Breach’ Moment
+	•	The team discusses how for certain key metrics, there are currently no active breaches.
+	•	However, there may be potential upcoming breaches (e.g., a repo-related one).
+	•	Tracking the Overall Findings Count
+	•	They recall the count of open findings used to be quite high (possibly 40–50), and they are now aiming for a lower number (around 22).
+	•	They see progress in some areas but mention continued friction in others (e.g., market risk consistently missing deadlines unless escalated).
+	•	Possible Thematic Findings
+	•	They are considering raising “thematic findings” for any group that remains in persistent metric “red” status.
+	•	One idea is to pick a date (e.g., April 1) after which the team will systematically raise findings if certain metrics remain red, ensuring consistent application across GBM and other divisions.
+	•	RCSA Integration
+	•	Ongoing conversations about how the new RCSA processes (led by the central risk organization) align with day-to-day controls and findings management.
+	•	There is mention of how risk teams only do RCSA events semiannually, making control-effectiveness updates slow.
+
+5. “Breach Response Plan” and Workflow Tool
+	•	New Policy Requirement
+	•	A new policy mandates that any breach must have a response plan (with an ETA) approved by the CRO (Alex).
+	•	The group references a “breach workflow tool” originally developed for Market Risk.
+	•	Challenges
+	•	The tool is not well-suited to ongoing or long-standing breaches (as often happens in this group’s processes, which can remain “over” for extended periods rather than a short event).
+	•	Using the tool daily for repeated, unchanged breaches would be an administrative burden.
+	•	Seeking Clarification
+	•	They want clarity on how detailed Alex wants these response plans to be.
+	•	They had initially thought an exemption might be possible, but it appears certain stakeholders (e.g., Motrum) insist on using the new tool regardless.
+	•	Next Steps
+	•	There is a follow-up call scheduled (moved to “tomorrow”) to discuss a possible exemption or a more streamlined process for these “long-running” or “operational” types of breaches.
+	•	They note that other teams (like OpRisk) have similar issues, though some (like Phil’s group) appear to have already acquiesced.
+
+6. Action Items & Points of Emphasis
+	1.	AI Resource & Budget Discussion
+	•	Finalize HPC usage charts, deciding whether to include or exclude large platform allocations, to clarify the growth story for Brian.
+	•	Emphasize how the AI demands and expansions fit into the existing headcount and budget constraints (ZPP).
+	2.	List of AI Initiatives
+	•	Obtain the comprehensive list from Jay/Constantine.
+	•	Formulate opinions on which projects have the highest chance of success or strategic value, plus mention any new opportunities not currently on that list.
+	3.	Sign-off on Control Library
+	•	Confirm agreement with the recent spreadsheet from compliance and provide official go-ahead.
+	4.	Metrics Updates
+	•	Refresh the table for Brian, highlight improvement trends, but also outline the areas (e.g., Market Risk) still needing regular escalation.
+	5.	Thematic Findings Escalation
+	•	Potentially propose a set start date (e.g., April 1) for systematic escalation via thematic findings when certain divisions remain in red status.
+	6.	Breach Response Plan Tool
+	•	Attend the follow-up meeting to see if an exemption or adapted process can be reached.
+	•	Seek Brian’s input on the best approach to manage daily operational/long-term breaches under the new policy.
+
+Overall Takeaways
+	•	Preparation for Brian: The team plans to cover AI updates (including acceleration proposals, resource constraints), risk metrics (breaches, findings, and open issues), and RCSA progress.
+	•	Administrative & Policy Burdens: New policy requirements (e.g., breach response tool) may be ill-suited to how this team typically manages longer-running issues, prompting them to seek alternatives or clarifications.
+	•	Governance & Ownership: They want to highlight clearly where AI efforts truly sit (their team vs. other groups), underscore successes in HPC usage, and clarify budgetary needs.
+	•	Ongoing Friction Points: Persistent challenges with market risk’s responsiveness to escalations and confusion over RCSA processes remain important discussion items for Brian’s input.
+
+This summary reflects the key points and context from the transcript. It consolidates who is doing what, where the main pressures or problems lie, and which decisions or clarifications need leadership input.
+
+
+
+
+
 A new “staple-shaped” IFR discontinuity—two offsetting jumps one month apart—was introduced to the USD SOFR curve to address short-end constraints and enable more granular 1-month-level control within each 3-month IMM period.
 
 
