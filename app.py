@@ -1,3 +1,6 @@
+A new 1-month “staple-shaped” instantaneous forward rate (IFR) discontinuity for the USD Secured Overnight Financing Rate (SOFR) curve, which is based on 3-month SOFR International Money Market (IMM) futures, addresses short-end constraints and enables more granular control at the 1-month level.
+
+
 A new “staple-shaped” IFR discontinuity—two offsetting jumps spaced one month apart—was introduced to the USD SOFR curve to address short-end constraints driven by 3-month SOFR IMM futures and CFR interpolation in IFR space, while preserving CER interpolation and enabling more granular 1-month control, specifically allowing the desk to manage 1-month serial SOFR/FF basis levels previously beyond their reach.
 
 
