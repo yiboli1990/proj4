@@ -1,3 +1,8 @@
+A new “staple-shaped” IFR discontinuity—two offsetting jumps spaced one month apart—was introduced to the USD SOFR curve to address short-end constraints driven by 3-month SOFR IMM futures and CFR interpolation in IFR space, while preserving CER interpolation and enabling more granular 1-month control, specifically allowing the desk to manage 1-month serial SOFR/FF basis levels previously beyond their reach.
+
+
+
+
 The USD SOFR curve is constructed to reflect future financing rates, but in practice, traders often need finer adjustments at shorter intervals—particularly around monthly roll dates—so this new “staple-shaped” IFR discontinuity, composed of two offsetting jumps spaced one month apart, was introduced to allow more precise control at the 1-month point within each 3-month IMM period, ensuring better alignment with market realities and short-term rate movements.
 
 
