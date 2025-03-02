@@ -1,3 +1,17 @@
+Below is a revised version you might find clearer and more concise:
+
+Revised Response:
+
+The CEU calculation is embedded within the Tier D1 SA-CCR DRC. In alignment with the Firmwide Standards for Deterministic Regulatory Calculations, MRM conducts an annual review of all Tier D1 DRCs to confirm their ongoing validity, considering potential changes to the DRC itself or the surrounding operating environment. In addition, Tier D1 DRC developers are required to obtain IRG approval for any DRC modifications before implementing them in production.
+
+Furthermore, continuous monitoring procedures are in place to maintain the accuracy of the DRC. These procedures include daily regression tests and weekly ongoing monitoring reports to verify the CEU determination logic.
+
+This version groups the key points more clearly, highlights responsibilities, and streamlines the language. You can adjust the level of detail or formality to suit your specific needs.
+
+
+
+
+
 A new 1-month “staple-shaped” instantaneous forward rate (IFR) discontinuity for the USD Secured Overnight Financing Rate (SOFR) curve, which is based on 3-month SOFR International Money Market (IMM) futures, addresses short-end constraints and enables more granular control at the 1-month level.
 
 
