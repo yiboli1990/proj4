@@ -1,3 +1,115 @@
+From the discussion, the main reason for the uptick in findings near the end of the year is that new model development, model changes, and scheduled revalidations all came together in Q4. In other words:
+	1.	New or Enhanced Models
+	•	Whenever the firm introduces a new model or significantly changes an existing one, the Model Risk team performs fresh validation. This typically leads to new findings being raised.
+	2.	Revalidations
+	•	A large batch of Tier 1 model revalidations was wrapped up at year-end. These reviews can also generate findings—especially around documentation, calibration details, or minor code fixes—even when the model itself is fundamentally sound.
+	3.	Close-Out vs. New Findings
+	•	In Q4, the number of new findings (from all the model changes and revalidations) slightly outpaced the number of closed findings, causing a net increase (or “uptick”) in open items for that quarter.
+
+
+
+
+Below is a structured, detailed summary of the discussion, based on the transcript provided. The conversation is primarily between representatives from a financial institution’s Model Risk Management (MRM) group (including Caroline, Bill, Bo, Bingwen, OJ, and others) and regulators from the Federal Reserve (“the Fed”) and FDIC (with Michaela and Caleb representing the regulators). The main topics include quarterly model risk updates, threshold tightening for certain metrics, the use of generative AI models, and the status of various validation activities and findings.
+
+⸻
+
+1. Meeting Logistics and Introductions
+	•	The call begins with attendees confirming who is present from both the firm and the regulators.
+	•	Michaela joins, and the group confirms they have the relevant participants from the Fed, FDIC, and the bank’s MRM team.
+	•	The bank’s team mentions that it sent over meeting materials in advance, confirming that the Fed received and reviewed them.
+
+⸻
+
+2. Recent Submissions and Regulatory Review
+	•	The Fed acknowledges receipt of the firm’s recent project plan/response to supervisory requests and indicates that an acknowledgment letter will be sent soon.
+	•	The firm reiterates it is available to address any questions about the plan or any other materials, either during the meeting or offline.
+
+⸻
+
+3. Updates on Risk Appetite Thresholds and Governance
+	•	Tightening of waiver aging thresholds:
+	•	The firm explains that it previously established a threshold of nine months for certain model waivers at the FRAC (Firmwide Risk and Controls Committee) level but decided to reduce it to six months.
+	•	The Board Risk Committee (BRC) retains a one-year zero-tolerance threshold for these same items, meaning if a waiver is still unresolved after one year (relative to its original due date), it breaches the BRC’s risk appetite.
+	•	The shortened six-month threshold provides an earlier escalation path while leaving a three-month buffer before hitting the Board-level one-year limit.
+
+⸻
+
+4. Discussion on Generative AI (GAI) and Large Language Models
+	•	A regulator inquires about a recently approved ESG-related large language model (an “ESGAI” model) and the firm’s broader generative AI strategy.
+	•	AI governance structure:
+	•	The bank has a dedicated AI policy and an AI Risk & Controls Committee, formed in 2023.
+	•	The committee includes representatives from various control functions (Model Risk, Operational Risk, Legal, Compliance, etc.) to address potential risks of new AI use cases.
+	•	Model Risk Management approach:
+	•	Generative AI models are subject to the same core model-risk controls and require model validations similar to traditional models.
+	•	The firm uses specialized documentation and validation templates for AI/ML models.
+	•	They have introduced a separate AI inventory process so that not only validated AI models but also certain AI “tools” and “platforms” are tracked.
+	•	Use cases and outlook:
+	•	Most generative AI models so far are in lower-risk, operational efficiency use cases.
+	•	The ESGAI model is the first “Tier 1” generative AI model (i.e., of higher materiality/risk) that has gone through full validation.
+	•	Additional generative AI expansions are expected, but each is examined under the AI policy and standard model risk controls.
+
+⸻
+
+5. Status of Validation Findings and Internal Audit (IA) Items
+	•	Open and closed findings:
+	•	The MRM team reviews charts illustrating open findings, newly raised findings, and those closed during the quarter.
+	•	They note a slight uptick in total findings for Q4 but highlight a downward trend on a year-over-year basis.
+	•	Findings are concentrated where model inventory is largest (e.g., Risk, Global Banking & Markets).
+	•	Internal Audit (IA) observations:
+	•	Seven IA findings were closed in the quarter, all of them lower-severity (general) items, primarily documentation-related.
+	•	A new, low-severity IA finding was raised noting a “pattern” of validation documentation gaps over a few years. IA did not question the firm’s validation conclusions but felt it warranted a broader training initiative.
+	•	The firm agreed to roll out training to reinforce comprehensive documentation standards by the end of April.
+
+⸻
+
+6. Board and FRAC-Level Metrics (RAS Utilization)
+	•	The firm tracks several risk appetite statement (RAS) metrics around unvalidated or rejected models and the aging of those conditions.
+	•	Waiver framework:
+	•	If a model is in use without a finalized validation (unvalidated) or with a “reject” rating, it must have a time-bound waiver, typically remedied within 90 days.
+	•	Age-based metrics (how long a model or finding remains unresolved past its original due date) are set to zero tolerance at nine months (now shortened to six months) at the FRAC level and one year at the Board level.
+	•	Current usage:
+	•	There were no Board-level or FRAC-level breaches during the quarter for unvalidated or rejected models.
+	•	Some items did breach the age threshold for “severity 2” findings. Two specific GBM models triggered the FRAC threshold, but those findings have since been remediated.
+
+⸻
+
+7. Model Inventory and Ongoing Monitoring
+	•	Inventory overview:
+	•	The firm reports a stable overall model inventory, noting a modest increase of around 100 models over the past year.
+	•	They break it down by tier (materiality) and business line (e.g., Risk Division, GBM, etc.).
+	•	Market volatility considerations:
+	•	Regulators ask whether the firm has enhanced monitoring due to recent market volatility (particularly interest-rate-related).
+	•	The firm explains that its daily risk tests, ongoing performance assessments, and close scrutiny of code changes help identify potential breakage or model underperformance.
+	•	As of now, there have been no major issues from volatile conditions.
+
+⸻
+
+8. Model Changes and Significant Revalidations
+	•	Enhancements and new approvals:
+	•	The firm highlights approvals for collateralized lending models (private equity, direct CRE, etc.), interest rate risk enhancements, and other operational models.
+	•	Validation teams identified a few low-severity issues (e.g., minor code bugs) that were fixed pre-approval.
+	•	Significant Tier 1 revalidation cycle:
+	•	The two-year cycle for the highest-materiality (Tier 1) models concluded at year-end.
+	•	No high-severity findings emerged; medium-severity findings primarily involved methodology, parameter calibration, or documentation improvements.
+	•	The firm is already beginning the next two-year revalidation cycle for Tier 1 models and is also performing annual validations for CCAR/stress-testing models.
+
+⸻
+
+9. Meeting Conclusion
+	•	The regulators express appreciation for the comprehensive materials and clarity of updates.
+	•	They confirm they will follow up with any additional questions and will send an official acknowledgment of the firm’s supervisory response.
+	•	Both parties end on a positive note, and the meeting concludes with thanks exchanged.
+
+⸻
+
+Overall, the discussion centers on the bank’s continued enhancements to model risk governance—tightening certain thresholds, validating and monitoring advanced AI models, and staying on top of internal audit findings. Regulators appear satisfied with the bank’s progress and reaffirm that they will remain in contact regarding any needed clarifications on model risk and supervisory items.
+
+
+
+
+
+
+
 MEETING MINUTES
 Date: [Insert Date of Meeting]
 Time: [Insert Time of Meeting]
