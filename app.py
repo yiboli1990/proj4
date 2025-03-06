@@ -1,3 +1,44 @@
+Below is a concise “Q&A style” summary of the data quality discussion that took place during the transcript, highlighting the question from the regulator and the response from the firm’s Model Risk Management (MRM) team.
+
+⸻
+
+1. Regulator’s Question on Data Quality
+	1.	Context of the Inquiry
+	•	The regulator observed mentions of data quality issues in the revalidation process and asked how the firm is addressing data governance—particularly as it expands into Generative AI (GAI).
+	2.	Core Question
+	•	“How is the firm thinking about data quality issues, especially around Generative AI? Are there new or enhanced data management and governance frameworks in place to handle the heightened data risk from advanced AI models?”
+
+⸻
+
+2. Firm’s Response on Data Quality
+	1.	Enterprise Data Governance Uplifts
+	•	The firm noted that it is already engaged in enterprise-wide data governance enhancements, partly tied to broader regulatory expectations (e.g., BCBS 239 or internal “EMF uplift” efforts).
+	•	These ongoing programs aim to improve data lineage, data quality controls, and overall consistency of data usage across the firm.
+	2.	Model Risk Perspective
+	•	From an MRM viewpoint, data validation is already a core requirement. The firm emphasized that it verifies not only the input data but also the accuracy of the “ground truth” or reference data used to train or benchmark models.
+	•	Particularly for AI/ML models, validators focus on how raw inputs are processed into features and whether the labeled outcomes (ground truth) are reliable.
+	3.	Generative AI-Specific Measures
+	•	Generative AI models must follow the same model validation framework, but with additional scrutiny around:
+	•	Data provenance: Where the training data or reference data is coming from.
+	•	Comparison across AI engines: For instance, using two different Large Language Model (LLM) providers to cross-check results for consistency or potential drift.
+	•	The firm’s newly formed AI Risk & Controls Committee adds supplemental reviews of data usage, model outputs, and risk to ensure that these models comply with legal, compliance, and privacy standards.
+	4.	Real-World Example
+	•	For the ESGAI model (the first Tier 1 “generative AI” model at the firm), MRM paid close attention to:
+	•	Data labeled by humans: Ensuring labels or reference data were validated.
+	•	Potential mismatch among multiple AI engines: Identifying if different LLMs yield divergent outputs, which might point to data or labeling inconsistencies.
+	5.	Ongoing Controls and Monitoring
+	•	Daily or frequent performance tests ensure that if data streams degrade or become inconsistent, the model’s performance metrics will flag it.
+	•	The firm also proactively watches for unexpected code changes—a spike in urgent code fixes may signal data or model under “pressure” that warrants closer review.
+
+⸻
+
+Final Takeaway
+	•	The regulator asked how the firm is managing data quality—especially in the Generative AI realm.
+	•	The firm explained that it has robust data governance efforts in progress, validates ground truth and feature processing for AI/ML, and employs ongoing monitoring plus a specialized AI Risk & Controls Committee to address new challenges posed by advanced models. The focus is on ensuring reliable inputs and consistent labeling so that AI and other models remain accurate, even under heightened market or operational “pressure.”
+
+
+
+
 What “Pressure” Means in This Setting
 	1.	Market Volatility or Stress Events
 	•	Large swings in interest rates, foreign exchange rates, or credit spreads can introduce unexpected behaviors in a model’s inputs or outputs.
