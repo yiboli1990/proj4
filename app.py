@@ -1,3 +1,107 @@
+MEETING MINUTES
+Date: [Insert Date of Meeting]
+Time: [Insert Time of Meeting]
+Location: Virtual Conference
+
+⸻
+
+1. Attendees
+	•	Regulatory Representatives
+	•	Federal Reserve (Fed): Attendee(s) not fully specified
+	•	FDIC: Attendee(s) not fully specified
+	•	Michaela (Regulator)
+	•	Caleb (Regulator)
+	•	Firm Representatives
+	•	Caroline (Model Risk Management, “MRM”)
+	•	Ajan
+	•	Bo
+	•	Bill
+	•	Ibo
+	•	Additional MRM and Risk Team members (names not fully specified)
+
+⸻
+
+2. Meeting Purpose
+	•	To provide a quarterly update on Model Risk Management (MRM) to the Federal Reserve and FDIC.
+	•	To discuss recent changes to the firm’s model risk thresholds (including waiver aging), internal audit findings, and Generative AI (GAI) models.
+
+⸻
+
+3. Agenda Highlights
+	1.	Introductions and confirmation of participants
+	2.	Acknowledgment of materials (confirming regulators received the deck)
+	3.	Quarterly model risk updates (including waiver threshold changes and status of findings)
+	4.	Generative AI model discussion (ESGAI model and broader GAI governance)
+	5.	Internal audit findings review
+	6.	Revalidation activities and model inventory trends
+	7.	Questions, next steps, and action items
+
+⸻
+
+4. Detailed Updates and Discussion
+
+4.1 Waiver Thresholds and Aging
+
+The firm reiterated that it has a zero-tolerance policy at the Board Risk Committee (BRC) level for models or findings aged beyond one year from the original due date. As an intermediate check, the firm’s Model Risk Control Committee (FRAC) threshold was previously set at nine months. To better align with other control functions, the FRAC threshold has been shortened to six months. The firm explained that this adjustment creates an additional buffer, ensuring potential concerns are flagged and addressed before reaching the Board’s one-year threshold.
+
+4.2 Generative AI (GAI) Models
+
+The firm has observed an increase in the number of AI/ML models, including those using large language models (LLMs). While most uses remain low-risk and focused on operational efficiencies, the firm noted its first Tier 1 Generative AI model (ESGAI). The validation approach for GAI follows the firm’s existing model risk framework, supplemented by an AI Risk and Controls Committee. This committee includes representatives from legal, compliance, operational risk, and other control functions to address emerging risks such as data privacy, unintended model behaviors, and compliance considerations.
+
+4.3 Internal Audit Findings
+
+The firm reported that many of the recent internal audit findings were of lower severity, typically related to documentation enhancements. Internal audit had also identified a pattern of documentation inconsistencies over several years. The firm has responded by committing to additional training sessions on comprehensive model validation documentation. Most findings have already been remediated or are in the process of closure, with no impact on the fundamental integrity of any model conclusions.
+
+4.4 Model Inventory and Revalidations
+
+The firm’s model inventory remains relatively stable. A slight uptick in Q4 was attributed to normal development and enhancements in existing models. The firm tracks outstanding waivers carefully and ensures that no waiver is extended indefinitely without proper justification. Significant Tier 1 revalidations, required on a two-year cycle, have been completed for the current period with no high-severity findings. The firm is also in the midst of annual reviews tied to regulatory exercises such as CCAR. Overall, there have been no major performance issues in daily run tests, and no models have experienced unexpected breakage during recent market volatility.
+
+⸻
+
+5. Questions and Responses (in Third Person)
+	1.	Regulators inquired about the rationale for tightening waiver thresholds
+The firm responded that it sought to align its Model Risk processes with similar frameworks in other control functions (e.g., Internal Audit). By reducing the FRAC threshold from nine to six months, the firm provided additional time to address potential issues well before the Board’s one-year zero-tolerance deadline.
+	2.	Regulators asked for an update on the firm’s progress with Generative AI
+The firm explained that it continues to see new GAI applications, often focusing on operational efficiencies. It has validated its first Tier 1 GAI model (ESGAI) and uses AI-specific validation templates. The AI Risk and Controls Committee reviews AI models for potential legal, compliance, and operational risks that go beyond traditional model risk.
+	3.	Regulators requested information on recent Internal Audit findings
+The firm stated that the majority of new findings related to documentation gaps rather than fundamental model performance. Some issues had been self-identified in the course of prior reviews. To address these gaps, the firm is rolling out targeted training for validators, emphasizing thorough documentation standards.
+	4.	Regulators inquired about model performance during market volatility
+The firm reported that daily run tests remain stable. There have been no noteworthy breakages, code failures, or unusual parameter shifts resulting from market events. The firm also indicated it monitors changes in model code for any signs of stress or anomalies.
+	5.	Regulators asked whether any unvalidated Tier 1 models had exceeded their remediation deadlines
+The firm confirmed that all unvalidated or rejected models require waivers and are tracked for timeliness. Extended waivers are granted only after a robust internal process, and aging metrics (nine months previously, now six months) ensure issues are escalated before becoming overdue at the Board level.
+
+⸻
+
+6. Next Steps and Action Items
+	•	Acknowledgment Letters:
+Regulators plan to issue formal letters acknowledging the firm’s recent supervisory response.
+	•	Severity 1 Finding Confirmation:
+The firm will verify the status of a Severity 1 finding in the Risk division to confirm whether the model is in production or still under development.
+	•	Documentation Training Completion:
+The firm will finalize and conduct training sessions on validation documentation best practices by the end of April.
+	•	Generative AI Oversight:
+The firm will continue to provide updates on new GAI models and any significant policy or governance changes under the AI Risk and Controls Committee.
+	•	Continued Market Monitoring:
+Daily run tests will continue, with attention to volatility and potential code updates that might signal underlying stress.
+
+⸻
+
+7. Conclusion
+
+Regulators expressed appreciation for the comprehensive update and noted that no significant concerns emerged from the quarterly materials. The firm will continue its proactive approach to model risk, especially around new AI applications and any documentation improvements suggested by internal audit. Both parties agreed to maintain open communication on model risk developments and to reconvene at the next scheduled quarterly update (or sooner if needed).
+
+⸻
+
+These minutes summarize the main points of discussion, the firm’s responses to regulators’ questions, and the agreed-upon action items.
+
+
+
+
+
+
+
+
+
 Meeting Minutes
 Date: [Insert Date of Meeting]
 Time: [Insert Time of Meeting]
