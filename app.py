@@ -1,3 +1,126 @@
+Meeting Minutes
+Date: [Insert Date of Meeting]
+Time: [Insert Time of Meeting]
+Location: Virtual Conference
+
+⸻
+
+1. Attendees
+	•	Regulatory Representatives
+	•	Federal Reserve (Fed): [Name(s) not fully specified in transcript]
+	•	FDIC: [Name(s) not fully specified in transcript]
+	•	Michaela (Regulator)
+	•	Caleb (Regulator)
+	•	Firm Representatives
+	•	Caroline (Model Risk Management, “MRM”)
+	•	Ajan
+	•	Bo
+	•	Bill
+	•	Ibo
+	•	Others from the MRM and Risk Teams
+
+(Note: Some names were partially mentioned or not fully introduced in the transcript.)
+
+⸻
+
+2. Meeting Purpose
+	•	Quarterly Model Risk Management Update to the regulators (Fed and FDIC).
+	•	Review of:
+	•	Recent changes to Model Risk thresholds (including waiver aging).
+	•	Firm’s approach to Generative AI (GAI) models.
+	•	Status of internal audit findings and overall validation progress.
+	•	Model inventory trends, revalidation cycles, and key issues.
+
+⸻
+
+3. Agenda & Key Discussion Topics
+	1.	Introductions and Confirmation of Attendance
+	2.	Acknowledgement of Meeting Materials
+	•	Regulators confirmed receipt of the firm’s materials.
+	•	The regulators noted an acknowledgment letter regarding a recent supervisory submission would be sent soon.
+	3.	Quarterly Model Risk Update
+	•	Overview of findings and remediation status.
+	•	Discussion of the firm’s Risk Appetite Statement (RAS) thresholds and recent tightening of waiver aging thresholds.
+	4.	Discussion on Generative AI (GAI) Models
+	•	First Tier 1 GAI model approval (ESGAI).
+	•	Broader firm strategy and governance approach for AI and large language models.
+	5.	Internal Audit Findings & Closure
+	•	Review of recent and ongoing internal audit findings (documentation, validation templates, potential patterns observed).
+	•	Discussion of training plans to address documentation consistency.
+	6.	Model Inventory & Revalidations
+	•	Updates on model inventory statistics.
+	•	High-level review of revalidation activities (especially “significant Tier 1” revalidations).
+	•	Status of daily run tests/monitoring given market volatility.
+	7.	Next Steps & Action Items
+
+⸻
+
+4. Detailed Discussion and Q&A
+
+Below is a summary of questions raised during the meeting and the firm’s responses.
+
+4.1 Changes to Waiver Thresholds
+	•	Question (Regulator):
+“You recently tightened the waiver aging threshold from nine months to six months. Could you provide background on why you lowered it and how it aligns with the board’s existing threshold?”
+	•	Response (Firm):
+“Previously, we introduced zero tolerance for waivers older than one year at the Board level. We had an internal (FRAC) threshold of nine months but decided to tighten that to six months for better alignment with other control functions (e.g., internal audit) and to ensure we have ample time to remediate before reaching Board-level thresholds. This gives the FRAC additional buffer to address potential issues before one year elapses.”
+
+4.2 Generative AI (GAI) Model and Future Plans
+	•	Question (Regulator):
+“We noticed the ESGAI model was recently approved. It’s a large language model. Could you talk about your broader approach to Generative AI? Are you looking at many use cases? Any specific risk governance for GAI?”
+	•	Response (Firm):
+“Yes, ESGAI is our first Tier 1 GAI model. Most GAI uses here have been low-risk, operational-efficiency tools. All GAI models go through our existing model risk process with dedicated AI/ML validation templates. In addition, we’ve established an AI Risk and Controls Committee, which includes operational risk, legal, compliance, and other relevant control functions. This committee provides an additional oversight layer beyond standard model validation due to heightened concerns like data usage and privacy. We have indeed seen growth in AI models, but many are Tier 2 or Tier 3, and they must follow the same rigorous validation processes.”
+
+4.3 Internal Audit Findings and Documentation
+	•	Question (Regulator):
+“You mentioned a few internal audit findings related to documentation. How is the firm addressing these gaps? Is there specific training for staff?”
+	•	Response (Firm):
+“Most findings identified by internal audit focused on documentation clarity, not on the validity of model outputs or effective challenge. We’ve already remedied several of these items. For the most recent one (raised in Q4), we are developing a formal training program for our validators to reinforce comprehensive documentation standards. Our target is to complete this training by the end of April.”
+
+4.4 Model Inventory Trends
+	•	Question (Regulator):
+“Your inventory is generally stable, but there was a slight uptick in Q4. What drove that, and do you see any issues with timely validations?”
+	•	Response (Firm):
+“The small increase reflects typical new-model approvals and changes in existing models. We’re closely monitoring them through our waiver process. Each model requiring validation has a remediation timeline, and we track these carefully. We haven’t identified any major delays beyond standard extensions. Our aged metrics help ensure nothing languishes past the original due date.”
+
+4.5 Market Volatility and Model Performance
+	•	Question (Regulator):
+“Given recent market volatility, have you enhanced your daily model monitoring processes? Notably, are any pricing or risk models showing stress or breakage?”
+	•	Response (Firm):
+“We conduct daily run tests, and so far, we haven’t seen any unusual breakage or unexpected parameter shifts. Our teams also proactively check for large market shocks. If we see unusual code changes or anomalies, that prompts deeper scrutiny. At this time, we’re not seeing significant performance issues.”
+
+⸻
+
+5. Action Items and Next Steps
+	1.	Acknowledgment Letters:
+	•	Regulators will send acknowledgement letters regarding the firm’s recent supervisory response.
+	2.	Follow-Up on Severity 1 Model:
+	•	The firm to confirm details regarding a Severity 1 finding in the Risk division (to clarify if the model was in use or in development).
+	3.	Documentation Training:
+	•	The firm to complete the new training program for validation staff by end of April.
+	4.	Monitoring of Market Volatility:
+	•	The firm will continue daily run tests and step up monitoring for any potential volatility-driven model errors or breakages.
+	5.	Generative AI Governance:
+	•	The firm to keep regulators informed of further developments, approvals, or changes in the GAI framework and usage.
+
+⸻
+
+6. Conclusion
+	•	The regulators confirmed receipt of the quarterly update materials.
+	•	The firm provided detailed updates on the model risk inventory, waiver threshold changes, and the status of internal audit findings.
+	•	Generative AI governance remains a focus, with new oversight committees and processes in place.
+	•	No immediate concerns were raised regarding market volatility or model performance.
+	•	Both parties agreed to continue close communication and follow up on open items and training initiatives.
+
+⸻
+
+These minutes capture the primary points of discussion, key questions and responses, and agreed-upon next steps.
+
+
+
+
+
+
 Below is a revised version you might find clearer and more concise:
 
 Revised Response:
