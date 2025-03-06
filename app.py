@@ -1,3 +1,67 @@
+Below is an expanded explanation of how granular the reporting is—particularly what information the firm’s Board Risk Committee (BRC), the Firmwide Risk & Controls Committee (FRAC), and other senior groups see with respect to model risk.
+
+⸻
+
+1. Board-Level Reporting
+	1.	High-Level Risk Appetite Metrics
+	•	The Board primarily sees aggregate Model Risk metrics—these are the same top-level Key Risk Indicators (KRIs) that form part of the firm’s Risk Appetite Statement (RAS).
+	•	Examples include the number of unvalidated or rejected Tier 1 models in use, breaches of model risk thresholds (e.g., how many models have been “aged” past one year), and any zero-tolerance threshold violations.
+	2.	Model Inventory Overview
+	•	The Board is given a snapshot of the total number of models, categorized by business unit (Risk, GBM, etc.) and by approval status (validated, unvalidated, rejected).
+	•	This helps them gauge the overall size and complexity of the firm’s modeling landscape.
+	3.	Significant Updates and Thematic Issues
+	•	For important emerging topics—like Generative AI, stress-testing enhancements, or high-profile regulatory findings—the Board receives summary updates or short thematic discussions.
+	•	These overviews give them a sense of why certain issues are arising, where potential risks are concentrated, and how management is remediating them.
+	4.	Escalation of Major Problems
+	•	Any “high-severity” or Tier 1 model concerns (e.g., a large breach or a critical supervisory finding) is escalated immediately to the Board.
+	•	If a threshold is breached at the Board level—for instance, if a model’s unvalidated status goes beyond one year—this is highlighted in the Board materials as a zero-tolerance breach.
+
+	Key Takeaway: The Board sees top-level model risk metrics, major trends, and serious exceptions. They do not typically see the full granular “line-by-line” detail for every finding or model.
+
+⸻
+
+2. FRAC and Model Risk Control Committee Reporting
+	1.	More Detailed Breakdowns
+	•	The FRAC and Model Risk Control Committee (MRCC) get the same top-level metrics the Board sees, plus more granular reporting.
+	•	For instance, they might see a breakdown of the exact number of findings by severity, open vs. closed status, and how many days past due each item is.
+	2.	Qualitative Approaches, Deterministic Reg Calculations
+	•	Beyond typical quantitative models, these committees also see detailed metrics on qualitative approaches and deterministic regulatory calculations (such as certain capital or compliance calculations).
+	•	This ensures coverage of all tool types under the broader “model” or “model-like” umbrella.
+	3.	In-Depth Thematic Reviews
+	•	If there is a specific area of heightened focus—e.g., new large language models, a revalidation wave for stress-testing, or interest-rate volatility—FRAC/MRCC may receive a deeper “spotlight” analysis or a short write-up showing key observations and any open issues.
+	4.	Focus on Remediation and Progress
+	•	These committees track whether open findings are being closed on schedule and monitor areas with higher volumes of new findings.
+	•	They also see trend analyses (e.g., quarter-over-quarter changes in the number of open findings, average days to close a finding, etc.).
+
+⸻
+
+3. Subcommittees and Working Groups
+	•	Working-Level Detail
+	•	At the most granular level—within MRM or specialized working groups—teams might review the individual findings line by line. This includes severity scores, root causes, and exact remediation steps.
+	•	These working groups feed summarized information up to FRAC and eventually to the Board, so the level of detail filters appropriately based on the audience.
+
+⸻
+
+4. Why Different Audiences See Different Levels of Detail
+	1.	Audience and Purpose
+	•	Board: Oversees risk at a strategic level. They want to know if there are large or systemic issues jeopardizing the firm’s risk appetite.
+	•	FRAC/MRCC: Operate at a more tactical and operational level, ensuring robust controls are actually implemented and that meaningful issues or rising trends are handled before they become Board-level breaches.
+	•	Working Groups / Validation Teams: Perform the day-to-day analysis, root cause identification, model reviews, and produce the raw data that rolls up to the committees.
+	2.	Escalation Tiers
+	•	The firm’s governance model sets out which types of issues must be escalated to which committee—and on what timetable—to prevent any critical or overdue items from going unnoticed.
+
+⸻
+
+Final Summary
+	•	The Board receives a high-level, strategic view: key metrics, risk appetite thresholds, serious exceptions, and thematic summaries.
+	•	The FRAC/Model Risk Control Committee sees a more detailed breakdown of open findings, model statuses, business-line splits, and thematic deep-dives.
+	•	Working groups handle the most granular, line-by-line model details, feeding that information upward as summarized reports for senior stakeholders.
+
+In essence, the reporting grows more granular as you move from the Board (highest level) down to the committees and working groups.
+
+
+
+
 In the transcript, there is a reference to six Tier 1 unvalidated models “quarter over quarter.” The concern was whether these six were the same models staying unvalidated too long or if the number “6” simply reappeared each quarter for different reasons (new models, model updates, etc.).
 
 Key Points
