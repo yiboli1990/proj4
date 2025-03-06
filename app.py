@@ -1,3 +1,24 @@
+In the transcript, there is a reference to six Tier 1 unvalidated models “quarter over quarter.” The concern was whether these six were the same models staying unvalidated too long or if the number “6” simply reappeared each quarter for different reasons (new models, model updates, etc.).
+
+Key Points
+	1.	It is not necessarily the same six models
+	•	During the quarter, some Tier 1 models get validated and come off the unvalidated list, while new or changed models are added to the unvalidated list. So the figure may remain around six each quarter, but it reflects different models over time.
+	2.	New Model Development & Significant Model Changes
+	•	Tier 1 models often arise from highly complex or critical areas (e.g., trading, risk management). Whenever the firm introduces new Tier 1 models or makes material changes to existing ones, those models must go through revalidation.
+	•	That revalidation process can temporarily increase the number of unvalidated Tier 1 models.
+	3.	Waiver & Aging Controls
+	•	The firm uses a 90-day waiver for unvalidated models in use, plus tight aging metrics (six or nine months at the FRAC level, one year at the Board level). These thresholds ensure that unvalidated models cannot remain outstanding indefinitely.
+	•	If any model is in use without validation past its original remediation date, the firm tracks it as an “aged” item, which triggers increased scrutiny.
+	4.	Ongoing ‘Churn’
+	•	The firm describes a “churn” or turnover: some Tier 1 unvalidated models in use resolve each quarter and drop off the list, while new ones (due to fresh development or updates) come on. That can keep the number around six, even though they are not the same exact six from quarter to quarter.
+
+⸻
+
+In short, the number “six” showing up quarter over quarter does not imply that the same six Tier 1 models are perpetually unvalidated; rather, it’s a recurring level driven by ongoing model development, enhancements, and validation turnover.
+
+
+
+
 From the discussion, the main reason for the uptick in findings near the end of the year is that new model development, model changes, and scheduled revalidations all came together in Q4. In other words:
 	1.	New or Enhanced Models
 	•	Whenever the firm introduces a new model or significantly changes an existing one, the Model Risk team performs fresh validation. This typically leads to new findings being raised.
