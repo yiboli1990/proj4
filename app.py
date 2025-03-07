@@ -1,3 +1,18 @@
+In the transcript, the acknowledgment letter comes up when the Federal Reserve representative confirms that they have received and reviewed the firm’s recent project plan/response and notes that an official acknowledgment letter will be sent soon. Here’s the relevant excerpt in context:
+
+	Regulator (Fed): “We did … and I was able to review those and also I wanted to let the firm know that we did render the process of reviewing the response. So … we should be sending acknowledgment letters soon—just wanted to let you know that.”
+
+The key points regarding the acknowledgment letter are:
+	1.	Purpose: It is a formal notification from the Fed acknowledging receipt and initial review of the firm’s submission (such as a supervisory response or project plan).
+	2.	Timing: The Fed representative explains that the letter will go out “soon” but does not specify an exact date.
+	3.	Next Steps: The letter generally confirms that regulators have reviewed the material and outlines whether there will be any follow-up questions or additional steps expected from the firm.
+
+So, in short, the acknowledgment letter is the official communication from the Fed that they have received the firm’s materials and are moving forward with their supervisory review process.
+
+
+
+
+
 Below is a concise “Q&A style” summary of the data quality discussion that took place during the transcript, highlighting the question from the regulator and the response from the firm’s Model Risk Management (MRM) team.
 
 ⸻
