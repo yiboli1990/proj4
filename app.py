@@ -1,3 +1,92 @@
+Detailed Breakdown of ECB Submissions: ICAAP, ILAAP & Prudential Valuation
+
+1. ECB Submissions Overview
+	•	Submission of key regulatory documents to the ECB, focusing on risk management, capital adequacy, and liquidity.
+	•	The primary focus areas are:
+	•	ICAAP (Internal Capital Adequacy Assessment Process)
+	•	ILAAP (Internal Liquidity Adequacy Assessment Process)
+	•	Prudential Valuation (PV) Review & Follow-Ups
+
+⸻
+
+2. ICAAP (Internal Capital Adequacy Assessment Process)
+
+Purpose:
+	•	Ensures that the institution holds sufficient capital to cover all material risks.
+	•	Aligns with Basel III/CRR requirements and ECB’s SREP (Supervisory Review and Evaluation Process).
+
+Key Deliverables & Updates:
+	•	Submission of ICAAP methodology documents and models.
+	•	Includes 30 key documents submitted today, with 16 major ones sent to PCB for IAP.
+	•	Focus on:
+	•	Risk identification & materiality assessments for Pillar 2 risks.
+	•	Stress testing framework—covering both base and adverse scenarios.
+	•	Capital planning under different scenarios to ensure resilience.
+	•	Alignment with latest ECB guidelines and expectations.
+
+Challenges & Follow-Ups:
+	•	ECB has raised questions on the risk-weighted asset (RWA) calculation methodology.
+	•	Next steps: Provide detailed breakdowns of the risk appetite framework and stress testing assumptions.
+
+⸻
+
+3. ILAAP (Internal Liquidity Adequacy Assessment Process)
+
+Purpose:
+	•	Ensures the institution can withstand liquidity stress and meet obligations under various scenarios.
+	•	Aligned with ECB’s Liquidity Stress Testing and Contingency Funding Plan requirements.
+
+Key Deliverables & Updates:
+	•	Submission of ILAAP documents, liquidity stress test models, and funding plans.
+	•	Emphasis on:
+	•	Liquidity buffer calculations and resilience assessment.
+	•	Survival horizon analysis under different stress conditions.
+	•	Net Stable Funding Ratio (NSFR) and Liquidity Coverage Ratio (LCR) compliance.
+	•	Intraday liquidity risk assessment based on ECB’s expectations.
+
+Challenges & Follow-Ups:
+	•	ECB has requested further details on liquidity stress assumptions and outflow scenarios.
+	•	Next steps include refining the liquidity risk framework documentation to align with ECB’s latest supervisory expectations.
+
+⸻
+
+4. Prudential Valuation (PV) Review & Follow-Ups
+
+Purpose:
+	•	Ensures institutions apply fair value adjustments (FVA) properly, reflecting valuation uncertainty.
+	•	Aligns with CRR Article 105 and ECB’s Prudential Valuation Guidelines.
+
+Key Deliverables & Updates:
+	•	Submission of valuation adjustments methodology and impact analysis.
+	•	Covers FVA across Level 1, Level 2, and Level 3 assets, ensuring compliance with regulatory standards.
+	•	Addressing ECB’s concerns:
+	•	Valuation model risks and uncertainty calibration.
+	•	Methodology for market price uncertainty, close-out costs, and concentrated positions.
+	•	Independent price verification (IPV) processes.
+	•	Alignment with Basel requirements and IFRS 13 fair value hierarchy.
+
+Challenges & Follow-Ups:
+	•	BCP has raised concerns about specific methodologies used for prudent valuation adjustments.
+	•	Next week: Detailed response to BCP follow-up questions, focusing on:
+	•	Justification for valuation methodologies.
+	•	Additional stress test results to support prudent valuation adjustments.
+	•	Potential recalibration of specific valuation adjustments for Level 3 assets.
+
+⸻
+
+5. Next Steps & Ongoing Monitoring
+	•	ICAAP & ILAAP:
+	•	Address ECB’s RWA calculation and liquidity stress testing methodology concerns.
+	•	Refine the capital and liquidity risk framework documentation.
+	•	Prudential Valuation:
+	•	Respond to BCP’s methodology concerns with additional data and supporting analysis.
+	•	Align prudent valuation adjustments with ECB’s supervisory expectations.
+	•	Governance & Reporting:
+	•	Ensure ongoing ECB compliance through quarterly validation updates.
+	•	Monitor evolving ECB regulatory guidance for potential future refinements.
+
+Let me know if you need further details or specific refinements!
+
 In the transcript, the acknowledgment letter comes up when the Federal Reserve representative confirms that they have received and reviewed the firm’s recent project plan/response and notes that an official acknowledgment letter will be sent soon. Here’s the relevant excerpt in context:
 
 	Regulator (Fed): “We did … and I was able to review those and also I wanted to let the firm know that we did render the process of reviewing the response. So … we should be sending acknowledgment letters soon—just wanted to let you know that.”
