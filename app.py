@@ -1,3 +1,85 @@
+Here’s a detailed summary of the key points discussed, structured clearly by topic, for drafting purposes:
+
+⸻
+
+Meeting Agenda Items for Brian:
+
+1. AI Updates & Audit
+	•	Provide updates on current AI-related initiatives.
+	•	Include status on the ongoing audit concluding this week and key opinions or findings.
+
+2. Board Presentation
+	•	Include the board presentation deck and summarize any relevant items.
+
+3. MRA Remediation
+	•	Summarize recent clarifications from regulatory meetings.
+	•	Possibly include estimates previously provided to Alex.
+	•	Update status on broader regulatory commitments.
+
+4. Regulatory Updates
+	•	Briefly update on CCAR developments.
+	•	Provide updates on other regulatory items, specifically:
+	•	ILST Exam currently in progress.
+	•	Pearl Street Initiative (Commodities Business Review):
+	•	Clarify which models (Tier 1 and Tier 2) are associated with battery storage in UK energy markets.
+	•	Outline model inputs, specifically predictive power prices and operational schedules for charging/releasing energy.
+	•	Explain associated derivatives markets and risk exposures.
+
+5. DRC (Data Risk Controls)
+	•	Address confusion regarding DRCs, particularly where issues exist (possibly related to 6G or LCR).
+	•	Highlight uncertainty regarding next steps due to unclear regulatory guidance.
+	•	Note concerns from controllers and Finance regarding capital implications and the strategic alignment of DRC usage.
+	•	Address potential European regulatory impacts or discussions on similar matters.
+
+6. EMF-related Updates
+	•	Clarify responsibility around breach response plan due to an upcoming deadline.
+	•	Note interactions with Tom’s team to minimize unnecessary processes, possibly adjusting meeting frequency and sign-off responsibilities.
+	•	Consider pragmatic approaches suggested by Tom regarding minimum viable processes.
+
+7. Operational Risk Issues
+	•	Discuss concerns over adoption and mapping of Assessment Units (AUs) between Model Risk Management (MRM) and Operational Risk.
+	•	Highlight that Jenny’s team is responsible, but offer assistance due to complexities.
+	•	Emphasize risks involved in restructuring or remapping AUs unnecessarily, suggesting pragmatic alternatives.
+
+8. RCSA (Risk and Control Self-Assessment)
+	•	Expectation of a second review round by Ross’s team informed by other risk areas.
+	•	Consider whether the team should officially be recognized as independent Model Monitoring Team (MMT) versus divisional MMT, noting implications for being viewed as a key control versus a second-line review function.
+	•	Clarify if RTG and other divisions are labeled as independent or divisional MMT and implications for MRM.
+
+9. Thematic Findings
+	•	Discuss planned launch (targeted for April 1) of thematic finding processes, starting potentially with Risk division.
+	•	Address the operational readiness for this step, noting manual aspects that might require automation.
+	•	Suggest initiating weekly summary emails highlighting problematic areas, with links to dashboards in ModelIt for visibility.
+
+10. Metrics and Waivers
+	•	Highlight metrics showing an increase in overdue findings now affecting Tier 1 and Tier 2 models, including AVA models.
+	•	Note current issues around unvalidated waivers sitting with Controllers, emphasizing Bo’s rejection recommendation due to significant gaps.
+	•	Clarify that a validated rejection is preferable to unvalidated status from a risk management perspective.
+
+11. Internal Audit (IA)
+	•	Summarize ongoing IA issues, specifically related to intake forms for AI.
+	•	Note continuing frustrations and time-consuming interactions with IA, highlighting IA’s use of audits as learning opportunities, creating inefficiencies.
+	•	Seek a pragmatic resolution with IA, involving Gareth for support.
+
+12. Data Governance Issues
+	•	Highlight concerns around model input, development, and production data as raised by Engineering.
+	•	Identify ambiguity regarding boundaries between data governance and model governance frameworks, specifically:
+	•	Whether models must strictly source data from authorized data services (ADS).
+	•	Clarify if data governance expectations explicitly cover data used for model development or only production inputs and outputs.
+	•	Anticipate challenges with the ECB guidance on model data governance and potential implications from upcoming examinations.
+	•	Suggest reviewing the model control framework and data governance standards for clarity around model data handling requirements.
+
+⸻
+
+These structured points can serve as a solid basis for drafting materials and subsequent discussions with Brian.
+
+
+
+
+
+
+
+
 Detailed Breakdown of ECB Submissions: ICAAP, ILAAP & Prudential Valuation
 
 1. ECB Submissions Overview
