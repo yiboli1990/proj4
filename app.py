@@ -1,3 +1,32 @@
+Here’s an expanded and detailed summary specifically highlighting the PR call items:
+
+⸻
+
+PR Call Items (Detailed):
+	•	CCAR Updates:
+	•	Provide a briefing on recent internal CCAR-related meetings held this week.
+	•	Update the team on the NPR (Notice of Proposed Rulemaking) issued by the Federal Reserve (Fed):
+	•	The Fed is seeking industry comments regarding potential changes to the CCAR process.
+	•	Expectation set that this NPR is part of broader adjustments anticipated later this year.
+	•	Industry groups, including possibly GS, are preparing detailed responses, coordinated by EO and Controllers teams, on proposed CCAR-related regulatory changes.
+	•	Other Regulatory Updates:
+	•	Mention that FRB exams recently concluded a follow-up meeting, specifically discussing updates and follow-ups regarding ALST (Asset Liability Stress Testing).
+	•	Highlight any critical points from the exam follow-ups, stressing continued regulatory engagement and ongoing compliance requirements.
+	•	General acknowledgment of active regulatory oversight, potentially noting positive developments or progress in addressing prior regulatory feedback.
+	•	General Expectations:
+	•	Reinforce awareness of ongoing regulatory developments relevant to the firm, emphasizing preparedness and proactive management.
+	•	Clarify that although no immediate action items from the NPR for CCAR are currently assigned to the team, staying informed remains important due to potential future implications.
+
+⸻
+
+This expanded version ensures clarity on the CCAR-related NPR, highlighting the regulatory engagement’s strategic relevance, and explicitly notes the ongoing follow-ups from recent FRB meetings as important discussion points.
+
+
+
+
+
+
+
 Here’s a concise summary of the provided transcript, emphasizing the final part titled “PL Call Items”:
 
 ⸻
