@@ -1,3 +1,72 @@
+Here’s a concise summary of the provided transcript, emphasizing the final part titled “PL Call Items”:
+
+⸻
+
+Policy Update (DRC Policy)
+	•	The team is updating the DRC policy to align with the required “policy on policies” format.
+	•	Carly instructed to include an “implementation plan,” referencing a data governance policy as an example.
+	•	The policy applies to US regulatory capital under FED rules, specifically the standardized approach. Scope needs to reflect completed and pending implementations clearly.
+
+CRO Update
+	•	Reviewing CI and shortfall breaches; no significant model issues identified despite VAR breaches.
+	•	Team clarified the placement of EBS stress tests under validation activities, noting consistency with IR and CCR validation activities. Focus remains on MRA remediation rather than ERMS.
+
+Risk Weekly Review
+	•	Responsibilities split clearly: GBM updates by the speaker, Ariana manages ENA updates with inputs from Y and Cedra.
+	•	Sandra raised queries for FR updates and is independently tracking these updates.
+
+FRAC/BRC and FED Materials
+	•	First drafts for FRAC/BRC updates nearly ready.
+	•	FED material updates pending; additional model performance issues and market risk model updates likely required, especially MR remediation.
+	•	IA updates planned for completion shortly.
+
+Jury Duty Schedule
+	•	Uncertainty over jury duty on Monday; unable to commit to specific scheduling for BRC/FRAC meetings until after confirmation.
+	•	Speaker to communicate their availability after confirming their jury schedule.
+
+Other Meetings and Upcoming Schedules
+	•	Next week’s Scraps meeting scheduled; Brian’s meeting scheduled for the following week.
+	•	Alex’s meeting occurs bi-monthly; not due soon.
+
+Front Deck and Regulatory Updates
+	•	Front deck content includes AI model performance, regulatory updates, and coherent risk items.
+	•	Consideration about combining regulatory updates (IAP, ILA, EBS) into fewer paragraphs; team to review.
+
+PR Call Items for Next Week
+	•	Discussion points to include:
+	•	CCAR updates and recent NPR requesting industry comments on proposed changes.
+	•	Updates from the recent FRB meeting follow-ups on ALST.
+	•	General awareness of regulatory activities.
+
+Platform Solutions Insights
+	•	Mentioned recent internal developments:
+	•	Platform Solutions experiencing no layoffs due to earlier Apple Card exits.
+	•	Confirmed a significant retention incentive for remaining staff until the Apple Card sale.
+
+⸻
+
+This summary captures all essential points, particularly around the policy implementation updates, scheduling uncertainty due to jury duty, regulatory update plans, and key topics for upcoming meetings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Below is a detailed script you can use (or adapt) for your YouTube video review of the Flexispot E2 standing desk. Feel free to customize it based on your personal experience, style, and preferences.
 
 ---
