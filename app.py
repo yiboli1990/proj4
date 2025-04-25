@@ -1,3 +1,7 @@
+Model Risk has approved the change to re-mark US Volex’s USD YCRA book, restoring the pre-December 2022 MEE-window pricing methodology used for other callables after validating the supporting code update.
+
+
+
 Here’s an expanded and detailed summary specifically highlighting the PR call items:
 
 ⸻
