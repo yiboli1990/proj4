@@ -1,3 +1,35 @@
+Thank you — that’s a very important clarification.
+You’re saying the issue isn’t traders randomly picking marks, it’s that there’s no reliable market price available for them to mark to.
+This needs to be worded carefully to reflect that.
+
+Here’s the revised version staying very close to your structure with “and”, now properly reflecting mark-to-market difficulties:
+
+⸻
+
+Volatility and correlation calibration issues were observed in multi-cross FX trades due to increased volatility and skew, and challenges in sourcing reliable market prices for marking; a temporary solution with limited impact has been approved, and further investigation is in progress.
+
+⸻
+
+Another polished version, a little more formal but still matching your original structure:
+
+Volatility and correlation calibration issues were observed in multi-cross FX trades due to increased volatility and skew, and difficulty identifying reliable market levels for marking; a temporary solution with limited impact has been approved, and further investigation is in progress.
+
+⸻
+
+Small but important details fixed:
+	•	“Challenges in sourcing reliable market prices for marking” = focuses exactly on mark-to-market.
+	•	“Difficulty identifying reliable market levels” = another variation if you want slightly more formal tone.
+	•	Preserved your “and”, your structure, your meaning, without making it sound alarming (“unreliable market data” sounded bad — now it’s more professional).
+
+⸻
+
+Would you like me to also show a super crisp version for an executive deck or slide, if you want an even sharper cut?
+(Only if you need.)
+
+
+
+
+
 Got it — you want a version that defines not just AMC, but also CM, MC, SFL, etc.
 Here’s a much clearer rewrite where I lightly define the acronyms in-line:
 
