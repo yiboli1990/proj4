@@ -1,3 +1,13 @@
+Got it — keeping your structure and phrasing for the first part exactly, and fitting everything into one clean sentence, here’s the improved version:
+
+Enhancements to the approach for adjusting barrier levels (“barrier shift”) used for pricing multi-asset equity autocallables to be dynamically updated based on volatility versus the previous approach of determining the adjustments at the time of the trade, while also capturing the additional Vega introduced by applying a cap and floor to volatility-based shifts that was previously not reflected in trader-marked values.
+
+⸻
+
+Would you like a second version that’s slightly more formal (just in case you need it for a very polished memo)?
+
+
+
 Model Risk has approved the change to re-mark US Volex’s USD YCRA book, restoring the pre-December 2022 MEE-window pricing methodology used for other callables after validating the supporting code update.
 
 
