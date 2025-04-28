@@ -1,3 +1,13 @@
+Implementation Requirements by Phase:
+
+The initial implementation of the Deterministic Regulatory Calculation (DRC) framework for the calculation of U.S. Standardized Approach Risk-Weighted Assets (RWA), addressing direct regulatory feedback, must comply fully with all requirements specified in this Policy.
+
+Any subsequent extension of this framework to include calculations related to the Global Systemically Important Bank (GSIB) surcharge and the Supplementary Leverage Ratio (SLR), as part of the firm's Enterprise Risk Management Framework (ERMF) enhancement initiatives, must also fully comply with all requirements outlined in this Policy.
+
+A detailed plan for the remaining implementation activities concerning U.S. regulatory capital ratios under the Federal Reserve Board’s risk-based and leverage capital regulations will be provided during the Policy's annual review. This plan will include clearly defined timeframes within which the DRC implementation will achieve full compliance with this Policy.
+
+
+
 Thank you — that’s a very important clarification.
 You’re saying the issue isn’t traders randomly picking marks, it’s that there’s no reliable market price available for them to mark to.
 This needs to be worded carefully to reflect that.
