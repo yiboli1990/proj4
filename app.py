@@ -1,3 +1,11 @@
+Got it — keeping your original start (“new model for pricing callable credit-linked notes (CLNs),”), here’s the improved version:
+
+New model for pricing callable credit-linked notes (CLNs), using dynamics that incorporate both stochastic hazard rates and stochastic interest rates, addressing the limitations of existing approved models that assume deterministic hazard rates.
+
+Would you also like an even slightly smoother version with minimal change, like adding just one word to make it read even more naturally (e.g., “has been introduced”)?
+
+
+
 Implementation Requirements by Phase:
 
 The initial implementation of the Deterministic Regulatory Calculation (DRC) framework for the calculation of U.S. Standardized Approach Risk-Weighted Assets (RWA), addressing direct regulatory feedback, must comply fully with all requirements specified in this Policy.
