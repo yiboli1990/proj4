@@ -1,3 +1,13 @@
+Here’s a cleaner and more polished version of your sentence:
+
+There is continued growth in the development of generative AI models, including the recent approval of enhancements to the model serving as a monitoring framework for the GS AI Platform, designed to detect potential unsafe conversations between users and a large language model (LLM) (e.g., hallucination, profanity, prompt injection, personally identifiable information), and now extended to enable real-time hallucination blocking, shifting its role from monitoring to preventative control.
+
+Would you also like an even slightly more concise option?
+
+
+
+
+
 Issue-Management Talking Points
 	•	Clarify the remit
 	•	Issues Management (IM) is a first-line tool to record and remediate model-performance or control gaps; Model Risk remains a facilitator, not the owner.
