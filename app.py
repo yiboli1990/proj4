@@ -1,3 +1,85 @@
+Executive-level take-away
+
+Brian’s next update needs to knit together three threads: (1) growing regulatory/exam pressure around model performance vs. model‐control governance, (2) near-term deliverables and deadlines across validation, waivers, and AI governance, and (3) the emerging need to escalate overdue models and findings through a more systematic issues-management playbook.  The talking points below are ordered the way the team suggested presenting them to Brian.
+
+⸻
+
+1. Exam response & “IRR/IDDR confusion”
+	•	Clarify the purpose of the Liquidity-Risk/Engineering tracker – it is first-line performance monitoring, not a Model Control Policy artefact.
+	•	Stress that Model Risk is coordinating but must not become the de-facto owner of exam findings; ownership stays with first line.
+	•	Flag risk of leaving the exam with an unintended “model-risk cutting” finding; action: align vocabulary and responsibilities before the next Fed touchpoint.
+
+2. Model-Control & RCSA roll-out
+	•	Status by division
+	•	IDDR AUs fully stood-up target → end-Q2 2025
+	•	Firm-wide roll-out target → end-2025
+	•	Show-and-tell for Brian
+	•	One-pager matrix: all Risk AUs with their Model-Risk controls, RCSA mapping, primary/secondary sign-offs.
+	•	If possible, a parallel view for Controllers (IPV vs. RevCap split still under discussion).
+	•	Note GBM–Model-Control meeting likely to move forward (check new date).
+
+3. Personnel / capacity
+	•	Introduce Emma (May intake) now assisting the team.
+
+4. AI / Generative-model governance
+	•	MRM AI Assistant pilot and related regulatory threads – bundle under one bullet.
+	•	VerCopilot (S-1 generation) status; highlight AWS-Hosting & Engineering pushback (WM driven).
+	•	Two weeks until FID-T Explainability & Data-Science submission → offline working session to finalise, then release to Compliance.
+
+5. Validation pipeline & “Lotus” deadlines
+	•	US vs. PRA divergence
+	•	US models will stick to 2025 Lotus timeline; PRA path still undecided but will likely rely on current QAs/manual processes in the interim.
+	•	Provide Brian any colour on feasibility of running parallel rating methodologies.
+	•	Early validation themes – data representativeness, conceptual soundness (e.g., Antonas Ray conceptual issue).
+
+6. CCAR & firm-wide stress metrics
+	•	New Firm-Wide Asset Loss Metric (extension of un-margined metric) moving from exposure to loss basis.
+	•	Validation working to reconcile weak- vs. six-month shocks; need written methodology.
+	•	Confirm June deliverables and any further phases for Canal and related projects.
+
+7. Controller CVA waivers (critical path)
+	•	Mid-May target at risk; Controllers still refining justification language.
+	•	Action for Controllers: if the date will slip, surface a revised plan immediately with root-cause detail.
+	•	Escalate to Brian that this waiver is closely tracked by Zero Committee.
+
+8. Inventory, metrics & issues-management escalation
+
+Area	Total models	Overdue / waiver	%
+GBM (all)	~1,500	156	≈10%
+Risk	~750	90	≈12%
+
+	•	Most overdue Risk models sit in Market-Risk Strats & Risk-Economic Strats AUs.
+	•	Proposed next steps
+	1.	Finalise severity thresholds (already drafted) and set a go-live date for systematic raising in Issues Management.
+	2.	Communicate grace period end to AU owners; remediation playbooks ready.
+	3.	Prepare for potential Internal Audit scrutiny if delays persist.
+
+9. Miscellaneous regulatory items (one-line bullets)
+	•	ILST methodology updates – ready to brief.
+	•	SEC NPR (new market-risk rules) – no immediate action for Model Risk; monitor.
+	•	FIS code exam wrap-up – largely handled by MRM; worth a closing remark.
+	•	ETSC findings – four on-track for June closure; credit-mark negotiation completed.
+
+⸻
+
+Suggested deck structure for Brian
+	1.	Exam & Ownership Clarification (slide)
+	2.	Model-Control / RCSA Map – Risk & Controllers (tables)
+	3.	Key Deliverables Calendar (timeline graphic)
+	4.	AI Governance Snapshot (bullet slide)
+	5.	Validation & Lotus Status (narrative + heat-map)
+	6.	Waivers & Overdue Models – Metrics & Next Steps (chart)
+	7.	Regulatory Odds-and-Ends (overflow slide)
+
+This coverage should equip Brian to answer likely questions on governance scope, upcoming deadlines, and the plan to impose more disciplined issue escalation.
+
+
+
+
+
+
+
+
 Got it — keeping your original start (“new model for pricing callable credit-linked notes (CLNs),”), here’s the improved version:
 
 New model for pricing callable credit-linked notes (CLNs), using dynamics that incorporate both stochastic hazard rates and stochastic interest rates, addressing the limitations of existing approved models that assume deterministic hazard rates.
