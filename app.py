@@ -1,3 +1,28 @@
+Issue-Management Talking Points
+	•	Clarify the remit
+	•	Issues Management (IM) is a first-line tool to record and remediate model-performance or control gaps; Model Risk remains a facilitator, not the owner.
+	•	Avoid “model-risk cutting” perceptions by keeping ownership with Liquidity/Res Engineering, Finance Risk, etc.
+	•	Current coverage & pain points
+	•	IDDR AUs: controls stand-up targeted for end-Q2 2025; firm-wide by year-end 2025.
+	•	Controls not yet embedded ⇒ IM metrics red-flag many items that are actually implementation lag, not true defects.
+	•	Overdue inventory (Apr-29-2025 cut): GBM 156 / Risk 90 models (~10–12 % of their inventories) driving the red status.
+	•	Metrics & thresholds
+	•	Draft severity thresholds (count & aging) complete; ready for production once controls are live.
+	•	Proposal: announce a go-live date now (e.g., 1 Oct 2025) and a grace period during which AUs must clear or formally waive aged items.
+	•	Escalation path
+	•	Models breaching thresholds auto-generate High-Severity findings with predefined remediation milestones.
+	•	Mid-May Controller CVA waiver is a test-case: if timeline slips, AU must table a revised plan immediately.
+	•	Regulatory & audit backdrop
+	•	Fed exam teams already probing link between ER tracker and IM; mixed vocabulary is causing confusion.
+	•	Internal Audit likely to raise a finding if systematic IM isn’t demonstrated in 2H 2025.
+	•	Actions for Brian
+	1.	Endorse the proposed go-live date and grace-period message.
+	2.	Signal to AU heads that overdue backlogs will trigger automatic High-Severity findings post–go-live.
+	3.	Support resource allocation to the two heaviest offenders (Market-Risk Strats & Risk-Economic Strats) to reduce red items before Q4.
+
+
+
+
 Executive-level take-away
 
 Brian’s next update needs to knit together three threads: (1) growing regulatory/exam pressure around model performance vs. model‐control governance, (2) near-term deliverables and deadlines across validation, waivers, and AI governance, and (3) the emerging need to escalate overdue models and findings through a more systematic issues-management playbook.  The talking points below are ordered the way the team suggested presenting them to Brian.
