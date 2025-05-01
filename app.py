@@ -1,3 +1,68 @@
+
+https://www.atlassian.com/data/charts/stacked-bar-chart-complete-guide
+
+“One important consideration in building a stacked bar chart is to decide which of the two categorical variables will be the primary variable (dictating major axis positions and overall bar lengths) and which will be the secondary (dictating how each primary bar will be subdivided). The most ‘important’ variable should be the primary; use domain knowledge and the specific type of categorical variables to make a decision on how to assign your categorical variables.”
+
+In your case:
+
+Model Tier reflects hierarchy or domain importance (Tier 1–4), and likely drives the structure of validation efforts.
+
+Validation Outcome is a dependent result of the process.
+
+Therefore, the guidance suggests that Model Tier is the more appropriate variable for the x-axis (primary category), while Outcome is suited for stacking (secondary category).
+
+Also relevant is:
+
+“Variables with more levels are generally better as primary variables; we want to limit the number of secondary levels to a fairly small amount to make the stack breakdowns easier to read.”
+
+Since your Model Tier variable has 4 levels and Outcome has 2, the document supports placing Model Tier on the x-axis, with Outcome as the stacked segments.
+
+Let me know if you'd like a one-page summary or visual aid referencing this guidance.
+
+
+
+
+That’s a very good question — and it touches on an important nuance in data visualization: chart titles describe what is being measured, but not necessarily how the data must be structured.
+
+📌 Key Consideration: What is the primary comparison you want to show?
+Let’s break it down:
+
+🟦 Chart Title: "Model Validation Outcomes"
+This tells the viewer what the chart is about — i.e., the result of the validation process — but it doesn’t dictate whether outcomes or tiers belong on the x-axis. That decision depends on what dimension you want to compare across:
+
+Option 1: X-axis = Model Tiers
+Interpretation: “Here’s how outcomes (Approved/Rejected) differ across model tiers.”
+
+Viewer takeaway: Outcome patterns by tier
+
+Typical for internal model inventory reviews or governance presentations
+
+✅ Recommended when your goal is:
+
+"How do validation outcomes vary across different tiers?"
+
+Option 2: X-axis = Outcomes
+Interpretation: “Here’s how the number of models from each tier contributes to each outcome.”
+
+Viewer takeaway: Tier contribution within each outcome
+
+Less common unless focused on categorizing models by outcome
+
+✅ Valid when your goal is:
+
+"What tiers are most represented in Approved vs. Rejected categories?"
+
+🧠 Visualization Practice Consensus
+Most data visualization guidelines (e.g., from Atlassian, Storytelling with Data, and Datawrapper) emphasize that:
+
+The x-axis should represent the categorical variable you're comparing (e.g., Tiers)
+
+The stacks or bars should reflect composition or outcome breakdown
+
+So even though the chart is named “Model Validation Outcomes,” that does not mean the x-axis must be “Outcomes.”
+
+
+
 Here’s a cleaner and more polished version of your sentence:
 
 There is continued growth in the development of generative AI models, including the recent approval of enhancements to the model serving as a monitoring framework for the GS AI Platform, designed to detect potential unsafe conversations between users and a large language model (LLM) (e.g., hallucination, profanity, prompt injection, personally identifiable information), and now extended to enable real-time hallucination blocking, shifting its role from monitoring to preventative control.
