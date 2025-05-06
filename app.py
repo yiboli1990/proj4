@@ -1,4 +1,9 @@
-	•	A loss of $121k occurred due to incorrect market data used by an automated trading system for equity risk management in Japan.
+Continue regulatory engagement, including recent follow-ups from the FRB CTO quarterly on ESG AI, preparation for the upcoming Generative AI meeting with SEC/FINRA, and responses to FCA inquiries related to the GS AI Assistant.
+	
+		
+			
+				
+						•	A loss of $121k occurred due to incorrect market data used by an automated trading system for equity risk management in Japan.
 	•	The issue was caused by a system failure; the error was manually corrected by a trader, as existing controls didn’t detect this specific scenario.
 	•	New automated controls have been implemented to prevent similar incidents, with additional risk assessment planned.
 
