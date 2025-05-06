@@ -1,3 +1,8 @@
+	•	A loss of $121k occurred due to incorrect market data used by an automated trading system for equity risk management in Japan.
+	•	The issue was caused by a system failure; the error was manually corrected by a trader, as existing controls didn’t detect this specific scenario.
+	•	New automated controls have been implemented to prevent similar incidents, with additional risk assessment planned.
+
+
 
 https://www.atlassian.com/data/charts/stacked-bar-chart-complete-guide
 
