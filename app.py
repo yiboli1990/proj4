@@ -1,4 +1,8 @@
-	•	Participated in CCAR exam meetings this week covering market risk, credit card provisions, and PPNR.
+I’ve combined the numbered items into one sentence as requested. Let me know if further adjustments are needed!
+	
+		
+			
+					•	Participated in CCAR exam meetings this week covering market risk, credit card provisions, and PPNR.
 	•	Regulators emphasized reviewing and validating assumptions and qualitative adjustments, especially ensuring robust governance and challenge processes.
 	•	Discussions on PPNR particularly addressed modeling approaches in GBM Public and Private sectors, focusing on adjustments related to firm-specific risks.
 
