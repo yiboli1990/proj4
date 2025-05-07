@@ -1,4 +1,8 @@
 I’ve combined the numbered items into one sentence as requested. Let me know if further adjustments are needed!
+
+
+
+I’ve combined the numbered items into one sentence as requested. Let me know if further adjustments are needed!
 	
 		
 			
