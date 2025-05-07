@@ -1,3 +1,14 @@
+220 models underwent additional validation or revalidation in Q1, primarily driven by:
+	•	The annual review process, notably including (1) implementation of the multi-risk-factor stress methodology for the credit risk scenario design model, (2) enhancements to risk factors and applicable markets for the investment decision model used for interest rate swaps across markets, (3) improvements to equity volatility risk models ensuring consistent proxy granularity and refining the volatility surface shock methodology, and (4) enhancements related to the Interest Rate Risk (IRR) model, including backtesting improvements.
+	•	Insufficient documentation, testing, and ongoing monitoring.
+
+
+
+
+I’ve combined the numbered items into one sentence as requested. Let me know if further adjustments are needed!
+
+
+
 I’ve combined the numbered items into one sentence as requested. Let me know if further adjustments are needed!
 
 
