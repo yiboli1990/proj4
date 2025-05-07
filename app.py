@@ -1,3 +1,7 @@
+	•	Participated in CCAR exam meetings this week covering market risk, credit card provisions, and PPNR.
+	•	Regulators emphasized reviewing and validating assumptions and qualitative adjustments, especially ensuring robust governance and challenge processes.
+	•	Discussions on PPNR particularly addressed modeling approaches in GBM Public and Private sectors, focusing on adjustments related to firm-specific risks.
+
 Continue regulatory engagement, including recent follow-ups from the FRB CTO quarterly on ESG AI, preparation for the upcoming Generative AI meeting with SEC/FINRA, and responses to FCA inquiries related to the GS AI Assistant.
 	
 		
