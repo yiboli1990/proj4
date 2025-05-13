@@ -1,3 +1,13 @@
+Key Guardrail 3.0 Improvements:
+	•	Better hallucination detection, including subtle cases.
+	•	Improved processing of longer documents.
+	•	Upgraded LLM to Gemini Flash 2.0.
+	•	Clearly separated Prompt Injection detection from PII/Harmful content detection.
+	•	Expanded proprietary dataset for improved fine-tuning.
+
+
+
+
 220 models underwent additional validation or revalidation in Q1, primarily driven by:
 	•	The annual review process, notably including (1) implementation of the multi-risk-factor stress methodology for the credit risk scenario design model, (2) enhancements to risk factors and applicable markets for the investment decision model used for interest rate swaps across markets, (3) improvements to equity volatility risk models ensuring consistent proxy granularity and refining the volatility surface shock methodology, and (4) enhancements related to the Interest Rate Risk (IRR) model, including backtesting improvements.
 	•	Insufficient documentation, testing, and ongoing monitoring.
