@@ -1,3 +1,52 @@
+Does this structured summary meet your expectations, or would you like any refinements?
+
+Meeting Minutes – Regulator Meeting
+
+Invalidated and Rejected Models:
+	•	Regulator inquired about unvalidated models in use and whether there were thematic issues.
+	•	MRM responded:
+	•	Tier 1 Models: Utilization is low, mainly due to significant model changes implemented before validation.
+	•	Tier 2 Models: Primarily driven by GBM, AWM, and Controllers. Controllers’ issues relate to capital add-on calculations for EMEA legal entities.
+	•	Tier 3 Models: Utilization relatively low.
+	•	Regulator asked about rejected models.
+	•	MRM explained rejections were due to regression testing failures exceeding 14 days, triggering model rejections and escalations, which have since been resolved.
+
+Threshold Breaches (Page 10):
+	•	Regulator inquired about breaches related to invalidated Tier 2 models aged over six months and Tier 1 models with findings aged over nine months.
+	•	MRM responded:
+	•	Tier 2: Breaches related to capital add-on calculations delays, with one resolved and two expected to be approved shortly.
+	•	Tier 1: Issues were primarily in the counterparty credit risk area (margin shortfall calculations) with significant management attention and ongoing remediation efforts.
+
+Generative AI (Gen AI) Usage:
+	•	Regulator asked about increased usage and governance of generative AI models.
+	•	MRM explained proactive steps initiated in 2023, establishing firm-wide AI governance and the AI Risk and Controls Committee. Growth has been gradual, focusing on low-risk productivity-enhancing tools.
+	•	MRM highlighted two Tier 1 AI models: one for AI platform monitoring (guardrail model), and one related to ESG metrics.
+	•	Regulator asked about committee composition and risk coverage.
+	•	MRM explained committee membership includes stakeholders from Legal, Compliance, Operational Risk, Tech Risk, Engineering, and MRM, ensuring comprehensive risk review and monitoring of all AI use cases.
+
+MRA Remediation Progress:
+	•	Regulator requested an update on MRA remediation.
+	•	MRM provided an overview:
+	•	Completed first milestone (enhanced annual review templates) with external consultant input.
+	•	Scheduled to review enhancements with MRCC.
+	•	Created differentiated templates for Tiers 1-3 and Tier 4 models, enhanced question structure and guidance, requiring detailed commentary for all questions.
+	•	Proposed exemption from annual reviews in revalidation years, aligning with industry practice.
+	•	Next steps include system enhancements and team-wide training, starting with mock reviews.
+
+Tier 4 Model Reviews:
+	•	Regulator asked about newly introduced Tier 4 models (low-risk AI/ML models).
+	•	MRM explained:
+	•	Tier 4 specifically addresses low-risk AI/ML models recently included in inventory.
+	•	Annual reviews focus on ongoing monitoring and maintaining low risk, elevating tier and review rigor as necessary.
+
+Conclusion:
+	•	Regulator acknowledged remediation progress, expressing satisfaction with proposed enhancements.
+	•	MRM committed to providing further documentation (examples, MRCC materials) and remaining available for additional meetings.
+	•	Regulator agreed to have additional internal review by David Palmer for final feedback.
+
+
+
+
 Key Guardrail 3.0 Improvements:
 	•	Better hallucination detection, including subtle cases.
 	•	Improved processing of longer documents.
