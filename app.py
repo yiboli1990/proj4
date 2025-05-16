@@ -1,3 +1,13 @@
+Certainly! Here’s a direct quote from the transcript you can include to reflect that addition clearly:
+
+“We’ll also provide you with those MRCC materials once they’re finalized and after the meeting. So you can actually see the exact changes that we’re proposing.”
+
+“We’re also happy to provide you with those examples once they’re ready. And we, of course, would welcome any feedback.”
+
+You can incorporate this into your notes to explicitly document MRM’s offer to share both MRCC materials and annual review mock-up examples once available.
+
+
+
 MRM offered to submit finalized MRCC materials following their review meeting, as well as detailed annual review mock-up examples once ready. These materials aim to clearly demonstrate the proposed changes and enhancements to the regulator, and feedback was specifically invited.
 
 
