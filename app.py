@@ -1,3 +1,29 @@
+Here’s a detailed summary of key items to include for Brian’s update and the Alex/CRO update based on the provided transcript:
+
+For Brian’s Update:
+	•	ERMF Uplift: Include detailed updates on the Enterprise Risk Management Framework (ERMF).
+	•	DRC Program: Summarize key issues regarding the DRC extension, including uncertainties around capital governance, regulatory implications, and proposed paths forward.
+	•	Capital Governance: Emphasize the proposed approach involving three key programs: M&T (Model & Testing), Data Governance, and DRC, highlighting Simon’s recommended approach.
+	•	CCR (Counterparty Credit Risk): Provide detailed updates, noting that substantial CCR content has not been given recently and should now be addressed.
+
+For Alex/CRO Update:
+	•	MRA Remediation: Highlight recent feedback from the Fed meeting, noting particularly positive feedback on the progress and detailed enhancements discussed in MRCC.
+	•	AI Guardrail 3.0: Emphasize recent updates or developments, given its importance.
+	•	CCAR: Provide any recent updates or notable items, acknowledging that significant changes or updates might be minimal.
+
+General Guidance for Updates:
+	•	Include specific summaries where the information is confirmed and clear.
+	•	For uncertain topics, use placeholders pending further confirmation or input from Bill.
+	•	Clearly highlight the positive feedback from recent regulator interactions to underscore progress.
+
+This structure will ensure both Brian and Alex/CRO updates are comprehensive and aligned with current strategic priorities and recent developments.
+
+
+
+
+
+
+
 Certainly! Here’s a direct quote from the transcript you can include to reflect that addition clearly:
 
 “We’ll also provide you with those MRCC materials once they’re finalized and after the meeting. So you can actually see the exact changes that we’re proposing.”
