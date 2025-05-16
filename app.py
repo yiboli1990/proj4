@@ -1,3 +1,10 @@
+MRM offered to submit finalized MRCC materials following their review meeting, as well as detailed annual review mock-up examples once ready. These materials aim to clearly demonstrate the proposed changes and enhancements to the regulator, and feedback was specifically invited.
+
+
+
+
+
+
 Does this structured summary meet your expectations, or would you like any refinements?
 
 Meeting Minutes – Regulator Meeting
