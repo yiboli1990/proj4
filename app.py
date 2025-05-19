@@ -1,3 +1,85 @@
+Here’s a structured summary for Brian’s update based on the provided discussion transcript:
+
+1. MRM / MRA Remediation
+	•	Update Brian on the recent Fed meeting outcomes and immediate next steps.
+	•	MRCC review scheduled before Thursday; highlight importance of MRCC engagement given the substantial nature of framework changes.
+	•	Plan to distribute review materials to MRCC today to encourage pre-meeting familiarization.
+
+2. Enterprise Metrics Framework (EMF) Uplift
+	•	Progressing on using a three-point scale for IDR (Issue, Deficiency, and Risk) areas; summary to be prepared in Brian’s preferred new format.
+	•	Solicit Brian’s view on consistency between three-point vs. four-point scales across different areas (e.g., issues management vs. RCSA).
+	•	Consider additional metrics for tracking, e.g., attestation lateness.
+	•	Initiate preliminary discussions on metrics for Electronic Trading Supervision and Control (ETSC), to be established by year-end.
+	•	Clarify current state and completeness of the risk taxonomy, specifically regarding electronic trading risks and associated control effectiveness metrics.
+
+3. ERM and Breach Response Plan
+	•	Provide status update on the breach response plan submissions to FRAC (Financial Risk and Control Committee).
+	•	Start with weekly updates on breach response submissions, transitioning to bi-weekly once established processes stabilize.
+
+4. EMEA Capital Governance
+	•	Summarize key points from Simon’s planned EMEA capital governance sessions, noting current delay/rescheduling.
+	•	Outline intended discussion topics clearly for Brian’s concurrence.
+
+5. EMEA Data Governance (DGO)
+	•	Recap previous skepticism from Brian regarding the materiality of perceived gaps.
+	•	Provide update on recent gap assessment by KPMG, specifically their findings on data usage in model development/calibration.
+	•	Clarify KPMG’s involvement scope and the sponsoring party for their assessment.
+
+6. CCR (Counterparty Credit Risk)
+	•	Provide updates on recent validations and findings.
+	•	Highlight status on larger, firm-wide CCR model projects.
+	•	Prepare explanations addressing Brian’s consistent concern about delays, particularly focusing on historical context rather than recent extensions.
+
+7. Resolution Planning
+	•	Summarize internal audit (IA) findings related to implementation review obligations for QA (Quality Assurance) tasks.
+	•	Propose approach to manage the transfer of these tasks to the team, focusing on robust implementation validation, following IA’s raised concerns.
+	•	Clarify and confirm with Brian and Alex the interpretation and adequacy of current QA policy vs. actual practices.
+
+8. AI / Guardrail Updates
+	•	Update Brian on recent Guardrail 3 approval, emphasizing enhancements (improved detection capabilities, explainability, preventative blocking plans).
+	•	Provide outlook on testing plans (initially observational, transitioning to preventative blocking).
+	•	Discuss preliminary ideas or future roadmap considerations for Guardrail 4 (though currently no defined plans exist).
+
+9. Copilot and Generative AI Tools
+	•	Inform Brian on the pilot rollout of Microsoft 365 Copilot, highlighting user feedback on interface convenience and general usability.
+	•	Provide updates on the streamlined approval of Anthropic as an additional LLM provider.
+	•	Briefly note recent IRCC discussions and debates around AI implementations, control vs. engineering perspectives.
+	•	Mention upcoming FRB AI-focused meeting (June 18); seek attendee list clarification.
+
+10. Pricing Models / Market Risk Updates
+	•	Review current discussions with market risk specialists, particularly:
+	•	Positional stress tests around funding spreads in equities.
+	•	Private equity valuation discrepancies, especially in tech and fintech sectors.
+	•	Verify with specialists if current developments warrant Brian’s attention from a model risk perspective.
+
+11. Electronic Trading Incident
+	•	Detail recent critical issue in Equity Delta Hedging Facility (EDHF) involving stale risk data caused by overloaded servers.
+	•	Clearly explain the risks posed by incorrect hedging, implications if incident duration was longer, and highlight gaps in existing controls.
+	•	Propose steps for deeper analysis and possibly enhancing electronic trading control infrastructure.
+
+12. Other Regular Updates
+	•	Highlight recent validation of pricing models, if noteworthy.
+	•	Include brief mention of the National Futures Association (NFA) updates, subtly indicating ongoing irritations/issues without explicit detail.
+
+13. MRCC Administrative Items
+	•	Announce upcoming MRCC membership changes (Ken leaving; additions include Giuseppe, David Jeria, Ariana).
+
+This structured outline captures all major topics discussed, clearly delineating items to update Brian on, questions requiring his input, and key points needing further action or clarification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Here’s a detailed summary of key items to include for Brian’s update and the Alex/CRO update based on the provided transcript:
 
 For Brian’s Update:
