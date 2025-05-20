@@ -1,3 +1,17 @@
+	•	Resolution Recovery Plan (RRP):
+	•	MRM validated and approved 7 Tier 1 models and 4 Tier A qualitative approaches, including 2 initial validations, for the RRP Title 1 bi-annual submission.
+	•	Key enhancements included:
+	•	Added business-level segmentation for trading wind-down, addressing FRB feedback, resulting in a $9bn reduction in Peak Funding Need (PFN).
+	•	Implemented various improvements and bug fixes based on MRM findings and developer self-identified issues.
+	•	Adjusted treatment of intercompany repo/reverse repos to align with MLO, reducing PFN by $10bn, which required Board approval due to its impact.
+	•	GSI Trading Activity Wind-Down (TWD):
+	•	Validated and approved 26 models and 6 qualitative approaches as part of enhancements to comply with PRA’s TWD requirements effective from March 3.
+	•	Of 57 findings identified, 26 have been resolved and closed, including all high-severity issues. One qualitative approach is currently under validation and used with a waiver.
+	•	Submission to PRA included findings from MRM validations and self-assessment against SS 3/18 model risk management principles.
+	•	Held a 4-hour meeting with PRA on May 15, addressing questions on validation approaches and open issues. PRA expects to finalize their review by January.
+
+
+
 Here’s a clear, concise draft for the footnote:
 
 Footnote:
