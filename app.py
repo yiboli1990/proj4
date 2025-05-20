@@ -1,3 +1,11 @@
+Here’s a clear, concise draft for the footnote:
+
+Footnote:
+For Development Control and Model Control, metrics are calculated based on IR model scope with data as of May 16. For Inventory OM and Change Control, metrics reflect data as of the end of Q1 at the assessment level, not specifically scoped to TI models.
+
+
+
+
 Detailed Transcript Summary
 
 RTSA Results for IDDR Models
