@@ -1,3 +1,8 @@
+Please review and let me know if any adjustments are needed!
+
+
+
+
 Here’s the simplified and refined summary:
 
 AI Guardrail 3.0: MRM has approved the enhanced AI Guardrail 3.0 (Tier-1), enabling the GS AI Assistant to handle larger and multiple documents, supporting up to 500,000 tokens (~750 pages). Guardrails include both monitoring and preventative controls, applicable across the firmwide AI platform. A new feature is under development to indicate hallucinated content to users before enabling preventative blocking.
