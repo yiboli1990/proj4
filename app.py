@@ -1,3 +1,11 @@
+Sure, here’s a concise version in two sentences:
+
+Assessment Units are ranked from worst to best based on the number of Ineffective ratings, followed by Adequately Effective ratings. If there is a tie, the unit with more models is ranked worse.
+
+
+
+
+
 Here’s a structured summary for Brian’s update based on the provided discussion transcript:
 
 1. MRM / MRA Remediation
