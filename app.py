@@ -1,3 +1,47 @@
+Detailed Transcript Summary
+
+RTSA Results for IDDR Models
+	•	Results were presented in a summarized table format, printed concisely onto one page.
+	•	Metrics are based on a four-point scale defining thresholds clearly.
+	•	Specific clarifications requested:
+	•	Footnote required:
+	•	Metrics for Development Control and Model Control based on IR model scope data as of May 16.
+	•	Inventory OM and Change Control metrics calculated as of end of Q1 at the assessment (uter) level, not scoped specifically to TI models.
+	•	The “IDDR” models discussed are a one-time ad hoc exercise for July; thus, additional detailed clarifications for these are unnecessary.
+	•	Confirmation that ineffective remediation findings and excessive indicators should not be assumed as fully effective and should be excluded.
+
+Table Ranking and Additional Analysis
+	•	Current ranking in tables is based on the number of models.
+	•	Received a request from Bill to rank Assessment Units (AUs) by “badness” (risk level).
+	•	An additional table will address Bill’s specific request.
+	•	The team agreed sorting by number of models is currently practical, pending Bill’s feedback.
+
+Brian’s Update
+	•	Progress ongoing; feedback gathering from various stakeholders continues.
+	•	Recommendation given to simplify and make internal feedback notes less formal and more direct, highlighting essential actions clearly.
+	•	Confirmed the recalibration of the threshold scale from a four-point to a three-point scale may be considered going forward, but verification is required on whether to show Q1 results again using the new scale to Brian, pending Bill’s decision.
+
+Regulatory and Audience-specific Communications
+	•	Acknowledgment that updates for Brian should differ significantly from broader audience updates.
+	•	Communication to general stakeholders (excluding detailed audience like Alex, Bryant, Gopi, who have already received extensive information) needs to be concise, high-level, and clear.
+	•	Main points for the broader audience include:
+	•	Enhancements reviewed positively with the Fed and MRCC.
+	•	Next steps clearly outlined.
+	•	Simplified bullet points recommended for communicating Fed feedback.
+
+Additional Suggested Topics
+	•	ERMF uplift: Include recalibration to a three-point scale and preliminary results on model risk metrics.
+	•	Regulatory updates: Briefly mention ongoing initiatives:
+	•	Capital model approval requests.
+	•	Preparations for the 2025 examinations.
+
+Next Steps
+	•	Aim to finalize a clear and concise draft for Brian’s update by the following morning.
+
+
+
+
+
 Please review and let me know if any adjustments are needed!
 
 
