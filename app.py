@@ -1,3 +1,12 @@
+Here’s the simplified and refined summary:
+
+AI Guardrail 3.0: MRM has approved the enhanced AI Guardrail 3.0 (Tier-1), enabling the GS AI Assistant to handle larger and multiple documents, supporting up to 500,000 tokens (~750 pages). Guardrails include both monitoring and preventative controls, applicable across the firmwide AI platform. A new feature is under development to indicate hallucinated content to users before enabling preventative blocking.
+
+AI FX Algo Trading Signal: MRM approved a transformer-based AI model for the FX eDealing Client Pricing algorithm, enhancing the FX algorithmic market-making business. The model effectively predicts the direction of price movements for a basket of major FX currency pairs, demonstrating strong performance in high-frequency trading scenarios.
+
+
+
+
 Sure, here’s a concise version in two sentences:
 
 Assessment Units are ranked from worst to best based on the number of Ineffective ratings, followed by Adequately Effective ratings. If there is a tie, the unit with more models is ranked worse.
