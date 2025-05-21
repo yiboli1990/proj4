@@ -1,4 +1,16 @@
-	•	Resolution Recovery Plan (RRP):
+Here’s a trimmed and simplified version of your update:
+
+Resolution Recovery Plan (RRP):
+MRM approved seven Tier 1 models and four Tier A qualitative approaches for the RRP Title 1 bi-annual submission. Key enhancements included:
+	•	Business-level segmentation for trading wind-down in response to FRB feedback
+	•	Alignment of intercompany repo/reverse repo treatment with Modeled Liquidity Outflow (MLO), following a reassessment by modelers and MRM
+	•	Additional updates based on MRM findings and developer-identified issues, including alignment of runway assumptions with MLO
+	
+		
+			
+				
+					
+							•	Resolution Recovery Plan (RRP):
 	•	MRM validated and approved 7 Tier 1 models and 4 Tier A qualitative approaches, including 2 initial validations, for the RRP Title 1 bi-annual submission.
 	•	Key enhancements included:
 	•	Added business-level segmentation for trading wind-down, addressing FRB feedback, resulting in a $9bn reduction in Peak Funding Need (PFN).
