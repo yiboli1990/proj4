@@ -1,3 +1,59 @@
+Here’s the detailed methodology and a downloadable Excel-style table shown above:
+
+⸻
+
+🧮 Detailed RCSA Model Control Rating Methodology (3-Point Weighted)
+
+Step 1: Input Data Structure
+
+Each Assessment Unit (AU) includes:
+	•	Number of models
+	•	Three control effectiveness ratings:
+	•	Model Development Control
+	•	Model Change Control
+	•	Model Ongoing Monitoring Control
+
+Step 2: Convert Ratings to Numeric Scale
+
+We assign a numeric score for qualitative control ratings:
+
+Rating Label	Numeric Score
+Ineffective	1
+Adequately Effective	2
+Fully Effective	3
+
+Step 3: Compute Average Score per AU
+
+\text{Average Control Score}_{AU} = \frac{\text{Dev Score} + \text{Change Score} + \text{Monitoring Score}}{3}
+
+Step 4: Apply Model Weighting
+
+\text{Weighted Control Score}_{AU} = \text{Average Score} \times \text{# Models}
+
+\text{Overall Weighted Score} = \frac{\sum (\text{Weighted Control Score})}{\sum (\text{# Models})}
+
+Step 5: Map Overall Score to Qualitative Rating
+
+Weighted Score Range	Final Rating
+1.00 – 1.66	Ineffective
+1.67 – 2.33	Adequately Effective
+2.34 – 3.00	Fully Effective
+
+
+⸻
+
+The displayed table shows:
+	•	Each AU’s scores
+	•	The model-weighted contribution
+	•	A calculated final qualitative rating
+	•	A summary row with the overall weighted rating
+
+Let me know if you’d like this exported as an Excel file or extended to include more AUs. ￼
+
+
+
+
+
 Here’s a trimmed and simplified version of your update:
 
 Resolution Recovery Plan (RRP):
