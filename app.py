@@ -1,3 +1,59 @@
+Here is a draft for the second page summary on how model risk is incorporated into the RCSA (Risk and Control Self-Assessment), including definitions, assessment steps, and implications of ineffective controls:
+
+⸻
+
+RCSA Model Risk Assessment Summary
+
+Background
+
+Model Risk is formally integrated into the Risk and Control Self-Assessment (RCSA) process under the GBM Public Strats Assessment Unit (AU), specifically within the “Develop & Maintain Models” process. This includes two key model risk types:
+	•	Risk 1: Incorrect Model Design / Implementation
+	•	Risk 2: Incorrect or Inappropriate Model Usage
+
+Each risk is assessed across defined control suites, with resulting ratings impacting firmwide risk visibility and action plans.
+
+⸻
+
+Definitions of Key Terms
+	•	IRR (Inherent Risk Rating): The level of risk present assuming no controls are in place.
+	•	CSR (Control Suite Rating): An aggregate control effectiveness rating derived from the effectiveness of individual controls.
+	•	RRR (Residual Risk Rating): The remaining level of risk after controls have been applied. It is a function of both IRR and CSR.
+
+⸻
+
+Assessment Steps
+	1.	Inherent Risk Rating (IRR):
+Each model-related risk is evaluated based on its potential impact and likelihood, assuming no controls are present. Both risks currently carry a High IRR.
+	2.	Control Rating:
+Each control associated with the risk is individually rated as:
+	•	Fully Effective
+	•	Adequately Effective
+	•	Ineffective
+	3.	Control Suite Rating (CSR):
+The CSR is calculated based on thresholds:
+	•	Fully Effective: ≥70% of controls are Fully Effective and <15% are Ineffective
+	•	Adequately Effective: Combined (FE + AE) ≥85%, with FE <70% and IE <15%
+	•	Ineffective: ≥15% of controls are Ineffective
+	4.	AU Assessment / Residual Risk Rating (RRR):
+Based on the CSR and IRR, the residual risk is mapped using the RRR matrix. For example:
+	•	R1 (with a CSR of Ineffective and IRR of High) results in a High RRR
+	•	R2 (with a CSR of Fully Effective and IRR of High) results in a Low RRR
+
+⸻
+
+Implications of Ineffective Controls
+	•	Risks assessed with Ineffective CSR lead to formal Issues being raised.
+	•	These issues are recorded as Thematic Findings in ModelIT, which automatically feeds into Enterprise Issue Repository (EIR) for central issue tracking, governance, and remediation oversight.
+
+⸻
+
+Let me know if you’d like this in presentation format or want to include visual excerpts from the image.
+
+
+
+
+
+
 Here’s the detailed methodology and a downloadable Excel-style table shown above:
 
 ⸻
