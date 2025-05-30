@@ -1,3 +1,18 @@
+Here’s a clearer and more concise version of your update:
+
+⸻
+
+Artificial Intelligence Updates
+	•	Graph Retriever Model: Approved for retrieving relevant data from knowledge graphs to support Q&A on MD Bios. The model improves semantic search by leveraging structured relationships and contextual understanding. Benchmarking against MRM models confirmed its robustness, though two findings were raised on insufficient ongoing monitoring and code control.
+	•	Agni Snowball Autocallables: The neural network-based fast pricer and RFQ tool has been extended to support multi-asset underliers, expanding the Agni suite beyond last year’s single-asset approval. Four medium-severity findings were raised, primarily concerning model performance and implementation.
+
+
+
+
+
+
+
+
 Here is a draft for the second page summary on how model risk is incorporated into the RCSA (Risk and Control Self-Assessment), including definitions, assessment steps, and implications of ineffective controls:
 
 ⸻
