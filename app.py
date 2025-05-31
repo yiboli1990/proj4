@@ -1,3 +1,40 @@
+Yibo Li
+200 Angelo Cifelli Dr, Apt 263
+Harrison, NJ 07029
+Phone: (571) 269-7933
+Email: yiboli@gwu.edu
+
+June 1, 2025
+
+To: U.S. Customs and Border Protection
+
+Dear Immigration Officer,
+
+I am writing to confirm that my parents, Mr. Guanyao Li and Mrs. Yafang Li, are visiting the United States as tourists. They hold valid B2 visitor visas and are traveling here to spend time with me, visit multiple cities, and experience American culture.
+
+They are scheduled to stay from June 2, 2025, to June 24, 2025, and have confirmed return flight tickets. During their visit, they will initially stay in San Francisco at the Holiday Inn San Francisco-Golden Gateway, located at 1500 Van Ness Ave, San Francisco, CA 94109, before continuing their travels to other destinations. Later in the trip, they will also stay with me at my residence listed above in New Jersey.
+
+I am currently employed under an H-1B visa at Goldman Sachs in New York City. I will be fully responsible for their accommodation and daily living expenses throughout their visit. They do not intend to work, study, or remain in the U.S. beyond their authorized stay.
+
+As they do not speak English, I kindly request your patience and understanding during their entry process. The details of their return flight itinerary are included on the following page for your reference.
+
+If you need any further information, please feel free to contact me using the information provided above.
+
+Thank you very much for your time and assistance.
+
+Sincerely,
+(signature if printed)
+Yibo Li
+
+
+
+
+
+
+
+
+
+
 Here’s a clearer and more concise version of your update:
 
 ⸻
