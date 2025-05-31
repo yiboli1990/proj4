@@ -27,7 +27,39 @@ Sincerely,
 Yibo Li
 
 
+Travel Itinerary for Mr. Guanyao Li and Mrs. Yafang Li
+U.S. Visit: June 2, 2025 – June 24, 2025
 
+June 2 – Arrival flight: PVG → SFO, arriving at 9:05 AM
+Stay in San Francisco, California
+
+June 3 – Stay in San Francisco, California
+
+June 4 – Travel from San Francisco to San Luis Obispo, California
+
+June 5 – Travel from San Luis Obispo to Los Angeles, California
+
+June 6 – Stay in Los Angeles, California
+
+June 7 – Travel from Los Angeles to Las Vegas, Nevada
+
+June 8 – Travel from Las Vegas to Zion National Park, Utah
+
+June 9 – Travel from Zion to Bryce Canyon to Page, Arizona
+
+June 10 – Travel from Page to Grand Canyon South Rim, Arizona
+
+June 11 – Travel from Grand Canyon to Las Vegas, Nevada
+
+June 12 – Travel from Las Vegas to Fresno, California via Death Valley
+
+June 13 – Travel from Fresno to San Francisco, California via Yosemite
+
+June 14 – Fly from San Francisco to New York
+
+June 15–23 – Stay in Harrison, New Jersey
+Address: 200 Angelo Cifelli Dr, Apt 263, Harrison, NJ 07029
+June 24 – Return flight: JFK → PVG
 
 
 
