@@ -1,3 +1,28 @@
+Here is a bullet-point summary of the Operational Risk (Op Risk) Event spoken by Youness in the transcript:
+
+⸻
+
+Op Risk Event (Youness):
+	•	Event Description:
+	•	Due to a market move, the 30-year minus 2-year rate spread widened to 50 basis points.
+	•	This triggered the early call of about 20 callable range accrual notes that were nearing maturity (within 1–2 years).
+	•	Cause:
+	•	High spread levels increase the cost of future coupon payments, which made it uneconomical for the firm to continue holding the trades.
+	•	As a result, the issuer called the notes early to avoid paying further high coupon costs.
+	•	Impact:
+	•	The operational event primarily involved trade cancellations to avoid further coupon payments, not a model or system error.
+	•	Additional Notes:
+	•	The issue was flagged due to financial impact from changing interest rate spreads.
+	•	It’s unclear whether this was formally logged as an operational risk event, but a follow-up was requested in the meeting.
+
+⸻
+
+Let me know if you’d like summaries of other speakers or model changes as well.
+
+
+
+
+
 Yibo Li
 200 Angelo Cifelli Dr, Apt 263
 Harrison, NJ 07029
