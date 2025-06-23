@@ -1,3 +1,33 @@
+You’re absolutely right — the actual Op Risk event referred to by Youness occurs later in his section and relates to DVA (Debt Valuation Adjustment). Here’s a corrected and focused summary of that specific Op Risk event:
+
+⸻
+
+✅ Operational Risk Event (Youness – DVA Issue)
+	•	Event Description:
+	•	Two risk-free notes incorrectly showed non-zero DVA exposure.
+	•	These trades were expected to have zero DVA, but due to a code logic error, DVA was calculated and booked.
+	•	Root Cause:
+	•	The DVA calculation relies on a hardcoded filter that excludes certain trades by ID.
+	•	These two trades were not added to the exclusion list, so the system treated them as having credit risk.
+	•	This resulted in an incorrect DVA of approximately -$3 million being booked.
+	•	Discovery:
+	•	The issue was identified in Q1 2025.
+	•	It was brought to MRM’s attention recently by the desk.
+	•	Remediation Actions:
+	•	The desk is conducting a global check to ensure no other risk-free notes are impacted.
+	•	MRM recommended replacing the hardcoded filter with a systematic, programmatic solution.
+	•	The suggestion was also made to reflect risk-free status directly in the trade booking, reducing reliance on manual filters.
+	•	Follow-up:
+	•	It was unclear during the meeting whether the issue was formally logged as an Op Risk event, but it was flagged as having operational risk implications.
+	•	A follow-up was proposed to determine if it should be logged and tracked accordingly.
+
+⸻
+
+Let me know if you’d like this turned into a formal Op Risk event report or if you need other sections summarized.
+
+
+
+
 Here is a bullet-point summary of the Operational Risk (Op Risk) Event spoken by Youness in the transcript:
 
 ⸻
