@@ -1,3 +1,73 @@
+Here’s a detailed summary organized by key points discussed:
+
+1. Personal Updates (Vacation and Family)
+	•	Carol recently returned from vacation on the U.S. West Coast.
+	•	Traveled to three major cities and five national parks, covering about 3,000 miles.
+	•	Carol’s parents enjoyed the trip and have returned safely to Shanghai.
+	•	Tried visiting the office on the weekend but forgot passwords, took photos around the building instead.
+	•	Mentioned long flights (10 hours to San Francisco and 20+ hours returning from New York).
+
+2. Preparation of BRC Deck and Upcoming Reports
+	•	Carol is preparing the BRC deck for review on Monday.
+	•	Planning for BRC involves selecting thematic topics rather than deep technical details.
+	•	Agreed on major topics for the BRC deck:
+	•	AI Guardrail 3.0 (keep thematic, not overly technical)
+	•	CCR model enhancements
+	•	Liquidity Risk Management (LRM)
+	•	Potential inclusion of Resolution and Recovery Plan (RRP) and GSI Trading Wind-down updates
+	•	Incremental updates on MRM MRA remediation
+
+3. Updates for Brian and CRO
+	•	Brian’s update will include CCR and LRM completions.
+	•	Possible inclusion of the recent Op Risk (EMMA equity delta hedging) event.
+	•	CRO update may mention CCR and LRM completions and the upcoming validation of CECL MRIA/MRA by the Fed.
+	•	GSII Capital review status needs verification with the EM team.
+
+4. Regulatory Interactions and Upcoming Meetings
+	•	Discussed regulatory engagements:
+	•	Fed topical study explicitly restricted AI and recording tools.
+	•	Upcoming regulatory meetings related to trading models scheduled for the end of next month and October.
+	•	Preliminary impact analysis for the SLR/LR regulatory changes by the research team.
+	•	Potential regulatory finding related to a broken link in a TRC model; the team is currently pushing back.
+
+5. Efficiency and AI Initiatives
+	•	Emphasized importance of AI and automation for the second half of the year.
+	•	Highlighted need for efficiency improvements and automation in processes, especially:
+	•	Reporting workflows (Strat PMMD update, Brian update, and RCSA automation).
+	•	Encouraging team experimentation and ideation for practical AI uses.
+	•	Mentioned the recent AI Hackathon event that aimed at creating efficient prompt engineering examples.
+	•	Carol noted ongoing efforts to automate manual reporting burdens, especially inventory and findings pages.
+
+6. M365 Copilot Functionality and Team’s Transition
+	•	Carol and the team expect to receive access to Microsoft 365 Copilot soon.
+	•	Discussed anticipated capabilities of Copilot:
+	•	Assisting in finding and summarizing emails/documents.
+	•	Potential functionalities in Excel and PowerPoint.
+	•	Noted feedback from peers about Teams Meetings having significant AI utility (summarizing and transcribing meetings).
+	•	Firm may eventually transition from Zoom to Teams Meetings, although there’s uncertainty about confidentiality concerns in regulatory contexts.
+
+7. Planning for the Second Half of the Year
+	•	Emphasis on:
+	•	AI initiatives and efficiency improvements.
+	•	Regulatory interaction skills and preparation.
+	•	Scheduled follow-up discussion for further strategic planning.
+
+8. Upcoming Key Dates and Deliverables
+	•	BRC on July 31st (first draft due around July 8th).
+	•	MRCC meeting scheduled for August 16th.
+	•	FRA meeting on August 5th and another critical meeting on August 6th.
+	•	Ongoing MRA implementation planning.
+
+Overall Focus:
+	•	Prioritizing thematic updates to senior management and board.
+	•	Continued focus on AI-driven efficiency enhancements.
+	•	Ensuring clear communication and preparedness for regulatory interactions.
+	•	Planning ongoing automation and improving processes for reporting and internal operations.
+
+
+
+
+
 You’re absolutely right — the actual Op Risk event referred to by Youness occurs later in his section and relates to DVA (Debt Valuation Adjustment). Here’s a corrected and focused summary of that specific Op Risk event:
 
 ⸻
