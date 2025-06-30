@@ -1,3 +1,8 @@
+Liquidity Risk Enhancements: Validation efforts continue to focus on improving liquidity risk models. Recent key approvals include a new qualitative approach for classifying liquid and readily-marketable (LRM) assets, aimed at optimizing capital and liquidity metrics, reducing risk-weighted asset (RWA) requirements, and meeting regulatory expectations, as well as models and qualitative approaches supporting our Recovery and Resolution Planning (RRP) submissions to the Federal Reserve Board (FRB) and Federal Deposit Insurance Corporation (FDIC).
+
+
+
+
 Enhancements to the models used for calculating credit exposure under stress scenarios, extending coverage from hedge funds to all margined funds and firmwide unmargined counterparties within the natural resources industry.
 	•	Migration of equities franchise business to the Unified Benchmark Model for calculating margin shortfall, aligning with broader ongoing efforts to standardize and ensure consistency across Prime and Franchise businesses.Artificial Intelligence (AI)/Machine Learning (ML) Models: We continue to see significant growth in AI/ML model development and the adoption of new technologies. Recent notable approvals include:
 	•	The first AI model utilizing transformer-based deep learning techniques to predict price movements for FX algorithmic trading.
