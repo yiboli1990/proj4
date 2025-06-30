@@ -1,4 +1,8 @@
-Does this revised draft meet your needs, or would you like further refinements?
+Does this revised draft meet your needs, or would you like further Model sensitivity noted regarding “high trading volume” thresholds and Bloomberg data quality, with future enhancements planned to refine classifications and address unintuitive outcomes.
+
+
+
+
 Weekly CRO Update
 
 Top of Mind
