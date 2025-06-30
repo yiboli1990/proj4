@@ -1,3 +1,18 @@
+Artificial Intelligence (AI)/Machine Learning (ML) Models: We continue to see significant growth in AI/ML model development and the adoption of new technologies. Recent notable approvals include:
+	•	The first AI model utilizing transformer-based deep learning techniques to predict price movements for FX algorithmic trading.
+	•	Expansion of our neural network-based pricing tool to include multi-asset structured products.
+	•	Enhancements to the generative AI monitoring framework supporting our GS AI Platform, which improves performance, enables the GS AI Assistant to handle multiple document uploads, and provides real-time alerts for detected inaccuracies (pending deployment).
+
+Counterparty Credit Risk (CCR): We remain focused on enhancing and validating our CCR management models in alignment with our Enterprise Risk Management Framework (ERMF) improvement initiatives. Recent significant approvals include:
+	•	Extending our stress scenario credit exposure models beyond hedge funds to encompass all margined funds and firmwide unmargined counterparties within natural resources.
+	•	Transitioning our equities franchise business to the Unified Benchmark Model, standardizing margin shortfall calculations and ensuring consistency across our Prime and Franchise operations.
+
+Liquidity Risk Enhancements: Validation efforts continue to focus on improving liquidity risk models. Recent key approvals include:
+	•	A new qualitative approach for classifying liquid and readily-marketable (LRM) assets, aimed at optimizing capital and liquidity metrics, reducing risk-weighted asset (RWA) requirements, and meeting regulatory expectations.
+	•	Models and qualitative approaches supporting our Recovery and Resolution Planning (RRP) submissions to the Federal Reserve Board (FRB) and Federal Deposit Insurance Corporation (FDIC).
+
+
+
 Does this revised draft meet your needs, or would you like further Model sensitivity noted regarding “high trading volume” thresholds and Bloomberg data quality, with future enhancements planned to refine classifications and address unintuitive outcomes.
 
 
