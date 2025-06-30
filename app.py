@@ -1,3 +1,45 @@
+Does this revised draft meet your needs, or would you like further refinements?
+Weekly CRO Update
+
+Top of Mind
+
+CCR Validations:
+	•	Coherent Shortfall Model: Validation completed ahead of the June 30 Lotus deadline.
+	•	Model scope extended from hedge fund clients to all margined funds.
+	•	Six new medium-severity findings identified, addressing unjustified parameters, modeling choices, unidentified risk factors, testing deficiencies, and gaps in ongoing monitoring.
+	•	Stressed CCE Model: Extended validation completed ahead of the deadline.
+	•	Scope expanded from unmargined natural resources counterparties to firmwide implementation.
+	•	Four new medium-severity findings noted, focused on implementation issues and ongoing monitoring gaps.
+
+Liquid & Readily-Marketable (LRM) Classification:
+	•	Validation completed prior to June 30 commitment.
+	•	Successfully remediated all seven high-severity findings relating to insufficient development evidence, implementation, testing, and documentation.
+	•	Model sensitivity noted regarding the threshold determination for “high trading volume” and dependency on Bloomberg data quality. Future enhancements planned to refine Equities classification and address unintuitive outcomes (low materiality or overly conservative results).
+
+⸻
+
+Validation Activities
+
+CCR:
+	•	Migration of Franchise Equity Benchmark Model (FEBM) to Unified Benchmark Model (UBM) approved by MRM for shortfall calculations.
+	•	This migration aligns with previous SPG model transitions and contributes to broader standardization and consistency across Prime and Franchise segments.
+
+⸻
+
+Regulatory Updates
+
+MRM MRA Remediation:
+	•	On track for completion of infrastructure enhancements and training by September 30, ahead of rolling out the enhanced annual review framework.
+
+CECL RVE Examination:
+	•	The FRB initiated validation steps for remediation of existing ACL MRIA1 (Inadequate Risk Capture and Ongoing Monitoring for ACL Models) and MRA2 (Weaknesses in Model Risk Management).
+	•	Meetings scheduled to occur over a 3–4 week period from July 15 to August 15, prioritizing Wholesale followed by Retail.
+
+
+
+
+
+
 Here’s a detailed summary organized by key points discussed:
 
 1. Personal Updates (Vacation and Family)
