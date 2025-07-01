@@ -1,3 +1,100 @@
+Here’s a detailed summary of the transcript, organized clearly by topic, including all discussion points and additional items intended for Brian’s updates:
+
+⸻
+
+Topics Discussed for Brian’s Update:
+
+1. MRA Remediation
+	•	Included, but limited updates available.
+	•	Mention tech-related questions circulating regarding the practical implementation process.
+
+2. ER Mesh Uplift
+	•	Plans for 2025: Establish a centralized Assessment Unit (AU) for firmwide programs such as Model Risk.
+	•	Highlight that the current effectiveness metrics were set intentionally harshly, resulting in many “reds,” even in IDDR areas.
+	•	Potential feedback from GBM anticipated due to these strict ratings.
+	•	Important to verify Brian’s comfort level with the severity calibration; emphasize that CCR metrics currently appear worst-performing, potentially prompting a recalibration.
+
+3. Control Effectiveness Finalization
+	•	Finalization expected this or early next week, but possible delays due to unclear accountability within O-Risk.
+
+4. Encouraging Self-Identified Issues
+	•	Discuss with Brian the idea of promoting self-raised issues (thematic findings) by business lines.
+	•	Clarify how this would interact with credit received under the RCSA process.
+
+5. LRM and ETSC Updates
+	•	Confirm LRM model approval completion.
+	•	Clarify the governance around ETSC, as there’s uncertainty if controls are centrally imposed by Compliance or Risk.
+	•	Need to discuss with Compliance whether ETSC controls should be standardized and centrally imposed, possibly enhancing consistency in governance.
+
+6. Validation Findings and Metrics
+	•	For recent major validations (Items C and D), highlight the notably large number of findings identified.
+	•	Emphasize these as indicators of poor model-development practices, reinforcing the need for stronger upfront controls.
+
+7. AI Models and LLM Versioning
+	•	Discuss concerns related to frequent LLM version updates (e.g., OpenAI moving from 4.0 to 4.1).
+	•	Suggest a more scalable solution, potentially through automated testing like “AI regression tests,” run by the first line.
+	•	Emphasize first-line responsibility for ongoing tests, with second-line focusing on ensuring the testing program itself remains robust.
+	•	Propose that frequent LLM updates (every 2-3 months) need automated handling rather than manual re-validation approvals.
+
+8. AI Code Repositories and Development Practices
+	•	Highlight concerns over fragmentation in AI development practices (e.g., multiple repositories with differing library versions, reduced visibility, and inconsistent testing practices).
+	•	Emphasize the importance of maintaining transparency and open-code testing, akin to historical Goldman Sachs practices (e.g., STV’s success).
+	•	Flag concerns around proprietary patents filed by GBM and Engineering, possibly creating silos and further complicating transparency and validation efficiency.
+
+9. GSI/GSIB Board Updates
+	•	Include updates related to Brian’s role on the GSIB board.
+	•	Mention any significant updates from the GSI and GSIB board meetings.
+
+10. Training and Issues Management Terminology
+	•	Clarify confusion around “issues management” terminology, as current terminology is creating unnecessary ambiguity internally and externally.
+	•	Highlight MRM-specific items relevant to MRAs, especially weaknesses in validation practices and findings management.
+
+11. SR Inventory Completeness Feedback
+	•	Note concerns raised by SR about the completeness of model inventories, specifically the Controllers’ decision to exclude certain risks (e.g., strategic or business risk) from capital calculations without a documented methodology.
+	•	Clarify ECB’s recommendation: even decisions not to calculate capital (effectively “zero capital”) should be formally documented in inventory.
+	•	Consider raising thematic findings against Controllers for not fully ensuring completeness in inventory identification processes.
+
+12. EMA Updates
+	•	Include updates on upcoming EMA items:
+	•	AQR (Asset Quality Review)
+	•	ProVal model updates
+	•	UK ICAP completion
+	•	Recent ECB submission adjustments (residual risk reclassification from DRC to qualitative approaches).
+	•	Mention upcoming EY audit for Purely PSM, noting it will significantly involve MRM documentation review.
+	•	Flag differences in regulatory compliance notification responsibility in MRM for UK entities versus the global group.
+
+13. EmoLex DVA Error
+	•	Confirm if EmoLex DVA error warrants a formal mention or escalation.
+
+⸻
+
+Additional Items to Include for Brian’s Awareness:
+	•	CCR Lotus Completion: Finalize CCR work related to Lotus (including model migration and LRM validation).
+	•	AI Committee Meeting Updates: Recent approvals and ongoing issues related to AI/ML models.
+	•	Validation Activities: Updates on CCR equities migration to the unified benchmark model and completion of UK ICAP.
+	•	Regulatory Updates: MRAs and ongoing CECL model validations.
+
+⸻
+
+Next Steps:
+	•	Clarify accountability and timelines for control effectiveness reviews.
+	•	Confirm Brian’s comfort level with the severity calibration of model control effectiveness ratings.
+	•	Pursue clarification from Compliance on centralized control imposition for ETSC.
+	•	Implement scalable testing solutions for managing frequent AI/LLM updates.
+	•	Consider a thematic finding on Controllers regarding inventory completeness issues.
+	•	Verify and clearly document the ECB’s expectations for model inventory completeness and zero-capital approaches.
+
+This structured summary should provide clear guidance for preparing Brian’s updates and next steps for addressing identified issues.
+
+
+
+
+
+
+
+
+
+
 Sure, here’s a simplified and clearer version:
 
 Firmwide AI/ML Development Training 2025:
