@@ -1,4 +1,9 @@
-Liquidity Risk Enhancements: Validation efforts continue to focus on improving liquidity risk models. Recent key approvals include a new qualitative approach for classifying liquid and readily-marketable (LRM) assets, aimed at optimizing capital and liquidity metrics, reducing risk-weighted asset (RWA) requirements, and meeting regulatory expectations, as well as models and qualitative approaches supporting our Recovery and Resolution Planning (RRP) submissions to the Federal Reserve Board (FRB) and Federal Deposit Insurance Corporation (FDIC).
+Sure, here’s a simplified and clearer version:
+
+Firmwide AI/ML Development Training 2025:
+MRM organized a training program for all AI/ML developers to promote best practices, improve model quality, and support more efficient reviews.
+The session included 10 real-life approval/rejection case studies and featured four strong first-line use cases in partnership with Engineering, GBM, and AWM.
+Firmwide AI/ML applications grew to ~200, and the number of model owners increased from ~200 to 300 over the past nine months, reflecting growing interest and engagement.Liquidity Risk Enhancements: Validation efforts continue to focus on improving liquidity risk models. Recent key approvals include a new qualitative approach for classifying liquid and readily-marketable (LRM) assets, aimed at optimizing capital and liquidity metrics, reducing risk-weighted asset (RWA) requirements, and meeting regulatory expectations, as well as models and qualitative approaches supporting our Recovery and Resolution Planning (RRP) submissions to the Federal Reserve Board (FRB) and Federal Deposit Insurance Corporation (FDIC).
 
 
 
