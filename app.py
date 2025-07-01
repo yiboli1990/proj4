@@ -1,3 +1,7 @@
+We presented 10 real-life approval/rejection case studies and, in partnership with Engineering, GBM, and AWM, showcased four strong first-line use cases.
+
+
+
 Here’s a detailed summary of the transcript, organized clearly by topic, including all discussion points and additional items intended for Brian’s updates:
 
 ⸻
