@@ -1,3 +1,8 @@
+Enhancements to margin shortfall modeling, such as (1) inclusion of collateral in the worst-case loss and shortfall calculations for CREST Derivative Clearing Services (DCS) and Futures business to capture risk more accurately, and (2) methodology enhancements to address validation findings relating to the treatment of triparty repos and recalibration of interest rate shocks in shortfall
+
+
+
+
 We presented 10 real-life approval/rejection case studies and, in partnership with Engineering, GBM, and AWM, showcased four strong first-line use cases.
 
 
