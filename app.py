@@ -1,4 +1,10 @@
-Enhancements to margin shortfall modeling, such as (1) inclusion of collateral in the worst-case loss and shortfall calculations for CREST Derivative Clearing Services (DCS) and Futures business to capture risk more accurately, and (2) methodology enhancements to address validation findings relating to the treatment of triparty repos and recalibration of interest rate shocks in shortfall
+Here’s a refined and more concise version of your bullet points:
+	•	The firm’s AI governance framework builds upon and complements the existing model risk management framework.
+	•	Per the Firmwide Policy on Artificial Intelligence, all AI platforms, applications, and their specific use cases must be captured in the firmwide model inventory and included in the quarterly attestation process to ensure completeness and accuracy.
+	•	To strengthen oversight and ensure consistent governance of AI use, Model Risk enhanced the control framework in late 2023 to:
+– Align the definition of AI with the Firmwide Policy and mandate its inclusion in the model inventory
+– Introduce a Tier 4 model risk classification to cover very low-risk AI use cases that were not previously in scope
+	•	All AI use cases are treated as individual models and are subject to Model Risk Management (MRM) validation, in line with the firm’s standards for model approval.Enhancements to margin shortfall modeling, such as (1) inclusion of collateral in the worst-case loss and shortfall calculations for CREST Derivative Clearing Services (DCS) and Futures business to capture risk more accurately, and (2) methodology enhancements to address validation findings relating to the treatment of triparty repos and recalibration of interest rate shocks in shortfall
 
 
 
