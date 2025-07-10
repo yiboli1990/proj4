@@ -1,3 +1,20 @@
+Thanks for the clear feedback. Here’s a revised version of the callout box, incorporating all your points:
+
+⸻
+
+The firm’s AI governance framework builds on and complements existing model risk management practices. All AI is included in the model inventory to ensure appropriate governance standards are applied.
+
+AI use cases are classified into model risk tiers, which determine the scope and intensity of applicable controls. All AI use cases are treated as individual models and require Model Risk validation and approval prior to use.
+
+While AI-related models continue to grow in number, they remain a small portion of the overall model inventory and are primarily concentrated in lower risk tiers.
+
+⸻
+
+Let me know if you’d like a more concise version or to tailor it for a specific format (e.g., memo, slide, report).
+
+
+
+
 The firm’s AI governance framework is built on—and complements—the existing model risk management framework. As AI adoption continues to grow significantly across business lines, the framework ensures consistent oversight through model inventory, tiering, and validation standards.
 
 	Here’s a refined and more concise version of your bullet points:
