@@ -1,4 +1,6 @@
-Here’s a refined and more concise version of your bullet points:
+The firm’s AI governance framework is built on—and complements—the existing model risk management framework. As AI adoption continues to grow significantly across business lines, the framework ensures consistent oversight through model inventory, tiering, and validation standards.
+
+	Here’s a refined and more concise version of your bullet points:
 	•	The firm’s AI governance framework builds upon and complements the existing model risk management framework.
 	•	Per the Firmwide Policy on Artificial Intelligence, all AI platforms, applications, and their specific use cases must be captured in the firmwide model inventory and included in the quarterly attestation process to ensure completeness and accuracy.
 	•	To strengthen oversight and ensure consistent governance of AI use, Model Risk enhanced the control framework in late 2023 to:
