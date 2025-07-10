@@ -1,3 +1,14 @@
+Key drivers of ongoing validation work:
+AI continues to show growth, with increasing adoption of new techniques that present novel risks. This spans both the generative AI space—such as enhancements to the Guardrails model, which supports the GS AI Platform monitoring framework—and the non-generative space, highlighted by the first deep learning neural network-based model deployed for algorithmic trading.
+Strategic enhancements to risk management capabilities, particularly in counterparty credit risk, remain a focus as part of the firm’s ERMF uplift plans and efforts to address model validation findings.
+Additional drivers relate to the firm’s regulatory capital and liquidity requirements, which continue to shape validation priorities.
+A key area of focus for 2025 is the planned enhancement of the annual review process to address supervisory feedback. The associated remediation remains on track for year-end completion.
+
+
+
+
+
+
 Thanks for the clear feedback. Here’s a revised version of the callout box, incorporating all your points:
 
 ⸻
