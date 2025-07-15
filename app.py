@@ -1,3 +1,13 @@
+Loans AI leverages Large Language Models (LLMs) to classify the purpose or use of loan proceeds as either “credit” or “liquidity” for 6G reporting purposes.
+
+Model validation is currently underway, following AIRCC’s conditional approval pending human verification of ground truth data for the testing sample and subsequent discussion with ORR leadership.
+
+The current model demonstrates approximately 95% accuracy, with 16% of loans flagged for human review due to complexity or uncertainty. Within this subset, there is roughly a 12.5% disagreement rate between AI-generated results and human assessments.
+
+Consistency and repeatability remain concerns, as approximately 10% of loan classifications produce different outcomes upon retesting. Remediation efforts are ongoing, targeting resolution before the November regulatory submission deadline.
+
+
+
 Halo (Agni Framework) – Summary Updates:
 	•	The Agni AI framework is transitioning training responsibilities directly to trading desks, enabling business-specific customization across equities, FX, and bond markets.
 	•	Halo aims to enhance adaptability by allowing desks to independently develop tailored AI models, leveraging the core Agni infrastructure provided centrally.
