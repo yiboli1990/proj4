@@ -1,3 +1,8 @@
+I’ve refined the updates for clarity and conciseness. Let me know if further adjustments are needed!
+
+
+
+
 Loans AI leverages Large Language Models (LLMs) to classify the purpose or use of loan proceeds as either “credit” or “liquidity” for 6G reporting purposes.
 
 Model validation is currently underway, following AIRCC’s conditional approval pending human verification of ground truth data for the testing sample and subsequent discussion with ORR leadership.
