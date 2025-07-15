@@ -1,4 +1,4 @@
-Loans AI – Summary Updates:
+	•	Content AI: GIR portal now leverages Generative AI to contextually reorder search results, enhancing relevance and usability.Loans AI – Summary Updates:
 	•	Model accuracy currently at 95%, with 16% of loans requiring human review.
 	•	12.5% disagreement rate between AI and human reviewers in the flagged subset.
 	•	10% repeatability issue due to code inconsistencies; fixes targeted before November submission.
