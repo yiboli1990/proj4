@@ -1,3 +1,8 @@
+Halo (Agni Framework) – Summary Updates:
+	•	The Agni AI framework is transitioning training responsibilities directly to trading desks, enabling business-specific customization across equities, FX, and bond markets.
+	•	Halo aims to enhance adaptability by allowing desks to independently develop tailored AI models, leveraging the core Agni infrastructure provided centrally.
+
+
 Here’s a simplified version suitable for non-technical readers:
 
 Loans AI – Summary Updates:
