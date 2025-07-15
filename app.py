@@ -1,3 +1,18 @@
+Loans AI – Summary Updates:
+	•	Model accuracy currently at 95%, with 16% of loans requiring human review.
+	•	12.5% disagreement rate between AI and human reviewers in the flagged subset.
+	•	10% repeatability issue due to code inconsistencies; fixes targeted before November submission.
+
+Loans AI – Summary Updates:
+	•	Current testing indicates 95% accuracy for automated AI review, with 16% of loans flagged for human review due to uncertainty or loan complexity.
+	•	Of the loans undergoing human review, there is approximately a 12.5% disagreement rate between AI and human assessments, highlighting higher complexity in the manually reviewed subset.
+	•	Repeatability remains a key concern, with roughly 10% of classifications switching outcomes upon retesting, primarily due to inconsistent code logic; ongoing development efforts aim to address these issues before the November regulatory submission deadline.
+
+
+
+
+
+
 Here is a detailed, structured summary of the provided transcript:
 
 AI Loan Review and Model Accuracy Discussion:
