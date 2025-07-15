@@ -1,3 +1,25 @@
+CRO Update
+
+Top of Mind
+	•	RCSA: Central guidance for divisions approved today by the Model Risk Control Committee (MRCC).
+	•	IDR Assessments: Wrapping up assessments; thematic finding raised regarding timely remediation of GBM validation findings.
+
+Artificial Intelligence
+	•	Loans AI: Leveraging Large Language Models (LLMs) to classify loan proceeds as “credit” or “liquidity” for 6G reporting.
+	•	Validation in progress following AIRCC’s conditional approval, pending verification of testing data and alignment with ORR leadership.
+	•	Current accuracy stands at 95%, with 16% flagged for human review and approximately 12.5% disagreement between AI and human evaluations.
+	•	Consistency remains a concern; around 10% of classifications vary upon retesting. Remediation underway to address this before the November regulatory deadline.
+
+Regulatory Updates
+	•	MRM MRA Remediation: On track with infrastructure improvements and training scheduled for completion by September 30, ahead of the rollout of the enhanced annual review framework.
+	•	ACL MRIA/MRA Remediation: Submitted required materials to the FRB addressing ACL MRIA 1 (Inadequate Risk Capture and Ongoing Monitoring for ACL Models) and MRA 2 (Weaknesses in Model Risk Management).
+	•	Submitted documents include model and validation reports, ongoing monitoring updates, policies and templates, finding extensions, and MRM reporting materials. Kickoff scheduled for July 21.
+	•	AQR Findings: Completed remediation of all four MRM-owned Asset Quality Review (AQR) findings, covering enhancements in GSBE oversight, annual review processes, significant Tier 1 revalidations workflow, and related policies and procedures.
+
+
+
+
+
 I’ve refined the updates for clarity and conciseness. Let me know if further adjustments are needed!
 
 
