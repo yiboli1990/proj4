@@ -1,3 +1,13 @@
+Here’s a simplified version suitable for non-technical readers:
+
+Loans AI – Summary Updates:
+	•	Current AI testing shows 95% accuracy overall, with 16% of loans flagged for human review due to complexity or unclear information.
+	•	For loans requiring human review, there is around 12.5% disagreement between AI results and human assessments, indicating these loans are generally more challenging.
+	•	Consistency remains a concern, as about 10% of loan assessments produce different results when repeated; improvements are underway to resolve these issues before the November regulatory deadline.
+
+
+
+
 Here’s a detailed yet concise summary suitable for the CRO updates based on the last part of the transcript:
 
 CRO Updates:
