@@ -1,4 +1,24 @@
-	•	Content AI: GIR portal now leverages Generative AI to contextually reorder search results, enhancing relevance and usability.Loans AI – Summary Updates:
+Here’s a detailed yet concise summary suitable for the CRO updates based on the last part of the transcript:
+
+CRO Updates:
+	•	MRCC and RCSA:
+	•	MRCC reviewing the central RCSA guidance, with ongoing discussions about IDDR assessment calibration.
+	•	Market Risk showed improved effectiveness in Q2 assessments; GBM continues to lag.
+	•	AI and Model Validation:
+	•	Validation in progress for Loans AI (mortgage and wholesale loans) targeting resolution of repeatability issues ahead of the November regulatory deadline.
+	•	GitHub Copilot and agentic AI implementations progressing, with engineering planning to deploy three agentic use cases by year-end.
+	•	Generative AI (Content AI) now active in GIR, improving client search result relevance through contextual reordering.
+	•	Remediation and Findings:
+	•	Ongoing remediation efforts for ACL RVE and AQR completions are advancing.
+	•	Attention required for overdue model validations, ensuring accurate reporting and adherence to newly adjusted timelines.
+
+
+
+
+
+
+
+•	Content AI: GIR portal now leverages Generative AI to contextually reorder search results, enhancing relevance and usability.Loans AI – Summary Updates:
 	•	Model accuracy currently at 95%, with 16% of loans requiring human review.
 	•	12.5% disagreement rate between AI and human reviewers in the flagged subset.
 	•	10% repeatability issue due to code inconsistencies; fixes targeted before November submission.
