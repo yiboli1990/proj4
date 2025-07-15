@@ -1,3 +1,82 @@
+Here is a detailed, structured summary of the provided transcript:
+
+AI Loan Review and Model Accuracy Discussion:
+	•	Model Performance:
+	•	The AI model accuracy is currently around 95% based on the P-metric.
+	•	84% of loans are processed entirely by AI without human review; 16% require human review.
+	•	Of the loans reviewed by humans, 12.5% show disagreement between human reviewers and AI results.
+	•	Error Rates:
+	•	Approximately 3% of total loan processing is incorrect, based on ground-truth validation.
+	•	Discrepancy noted: the 16% of loans flagged for review are inherently more complicated, thus having a higher error rate.
+	•	Data Sampling and Validation:
+	•	Humans performed detailed sampling on 285 loans to estimate error rates.
+	•	Clarification was needed about the sampling method as initial understanding was unclear.
+	•	Challenges with Repeatability:
+	•	There is a significant repeatability issue: approximately 10% of cases flip classification results (e.g., between equity and credit) when tests are repeated multiple times.
+	•	Main cause: poorly structured code with redundant logic paths and inconsistent prompt usage.
+	•	Developers are actively updating the model, causing instability in the validation results.
+	•	Timeline:
+	•	Initially, the deadline for Fed submission was set for the end of the month but later extended to November.
+	•	An internal push exists to resolve mortgage-related components sooner.
+	•	Oversight and Approval:
+	•	MRM approval is critical, yet there was confusion about why the DR (Designated Reviewer) was involved.
+	•	Normally DR does not directly involve itself in the approval of models validated by MRM.
+
+⸻
+
+MRM and Control Framework Updates:
+	•	IDR Control Assessment:
+	•	Discussion highlighted significant pushback from business areas regarding IDR control assessments.
+	•	Market Risk showed improved performance in Q2, but GBM’s scores remain problematic.
+	•	RCSA Assessments:
+	•	Assessments were due recently, but operational challenges arose related to permission issues for accessing confidential findings.
+	•	Concerns raised about inappropriate modifications made by other teams to the provided metrics and tables.
+	•	Emphasized the need for accuracy and consistency in self-assessment reporting.
+
+⸻
+
+AI Developments and Updates:
+	•	Generative AI (GenerVI) Implementation:
+	•	Implemented in GIR web portal, enhancing relevance by reordering search results contextually.
+	•	Positive reception from users with limited resistance from GIR, who generally prefer minimal oversight over their IP.
+	•	Copilot and Agentic AI:
+	•	Updates provided on GitHub Copilot and agentic AI initiatives.
+	•	Engineering planning to roll out 3 agentic use-cases by year-end from a total of 5 candidates.
+	•	Agni Framework:
+	•	Training ownership of the Agni framework shifting to the trading desks, allowing customized model training across various business areas (equities, FX, bond market).
+
+⸻
+
+Administrative and Reporting Notes:
+	•	Metrics and Reporting:
+	•	Discussed appropriate coloring schemes for tables and metrics highlighting urgency or overdue items (e.g., white, yellow).
+	•	Noted ongoing cleanup efforts for reporting clarity, specifically regarding overdue findings and waiver-related items.
+	•	Q2 Updates and Meetings:
+	•	Preparation of summaries and bullet points required for Brian and MRCC updates, covering:
+	•	MRA remediation status.
+	•	MRCC review of central RCSA guidance.
+	•	Updates on IDDR and ongoing validation activities.
+	•	ACL, RVE (Reserve Verification Exam), and AQR completion updates.
+
+⸻
+
+Miscellaneous:
+	•	Concerns expressed about unclear naming conventions for models (e.g., mortgages, wholesale loans, liquidity).
+	•	Brief mention of client-related implications of GIR AI updates, noting that no major complaints or risks emerged from their rollout.
+
+⸻
+
+Key Actions and Next Steps:
+	•	Clarify data sampling methods and ensure repeatability issues are resolved before Fed submission deadline.
+	•	Reinforce clarity and permissions related to RCSA assessments to prevent inappropriate data modification.
+	•	Finalize and clearly document Q2 performance and IDR results for MRCC and Brian updates.
+	•	Ensure proper oversight, and accurate documentation is maintained as model updates continue, especially regarding AI loan reviews.
+
+
+
+
+
+
 Key drivers of ongoing validation work:
 AI continues to show growth, with increasing adoption of new techniques that present novel risks. This spans both the generative AI space—such as enhancements to the Guardrails model, which supports the GS AI Platform monitoring framework—and the non-generative space, highlighted by the first deep learning neural network-based model deployed for algorithmic trading.
 Strategic enhancements to risk management capabilities, particularly in counterparty credit risk, remain a focus as part of the firm’s ERMF uplift plans and efforts to address model validation findings.
