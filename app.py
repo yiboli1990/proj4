@@ -1,4 +1,20 @@
 AIL FRAC Breaches Resolved
+	•	All remaining breaches have been resolved, including:
+	•	4 unvalidated activities
+	•	1 rejected activity
+	•	1 activity under waiver
+	•	20 activities with medium severity findings aged over 6 months
+	•	Since ETSC risk metrics were established in FRAC (Oct ’24), all metrics have been reduced to zero
+
+E-trading Policy / Standard Update
+	•	The E-trading Policy and Standard have been updated to establish ETSC validation and approval as a standalone requirement
+	•	Applies to all new or modified E-trading activities before trading can commence
+	•	Formalizes ETSC validation as a parallel process to ATRACG review
+	•	Supports greater efficiency in approvals and better aligns with the model validation framework
+
+
+
+AIL FRAC Breaches Resolved
 All outstanding breaches were resolved, including aged medium-severity items related to E-trading.
 Since launching ETSC risk metrics in FRAC in Oct ‘24, we’ve reduced all key breach categories to zero:
 	•	Unvalidated Activities: 4 → 0
