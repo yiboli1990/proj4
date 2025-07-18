@@ -1,3 +1,27 @@
+Trade Description:
+
+The proposed transaction is a 5-year Contractual Dividend Autocallable on a worst-of basket of South African bank stocks (ABG1.J, NEDJ.J, OMUJ.J) with a notional equivalent of approximately $15 million (3 tranches of ZAR 90 million each). The trade is structured to pay fixed dividends and includes an Asian-style observation feature for autocall triggers, intended to mitigate liquidity concerns around spot fixing on observation dates.
+
+This trade combines two features—fixed dividend handling and Asianing of autocall observations—which are individually supported in existing tradeable templates:
+	•	EQ Auto Callable MA supports Asianing without fixed dividends
+	•	EQ Auto Callable MA CS supports fixed dividends without Asianing
+
+However, the system currently does not support both features simultaneously within a single tradeable template, hence the need for a model waiver.
+
+Rationale:
+	•	Asianing on autocall observations is introduced to address liquidity challenges in the South African equity market.
+	•	Fixed dividend treatment aligns with client expectations and economic modeling assumptions.
+
+Booking Approach:
+	•	The trade will be booked initially without the Asianing feature.
+	•	If the trade is executed, we plan to implement and stratify a new tradeable version that incorporates both features by the end of this week.
+	•	The trade will be rebooked into the updated version once available. The Asianing period spans only a few days and is not expected to materially impact P&L at inception.
+
+Remediation Plan:
+	•	Feature enhancement in EQ Auto Callable MA CS to support Asianing will be completed by end of this week.
+	•	Full documentation, testing, and submission to MRM for review and model approval will be completed by end of next week.
+
+
 Transaction Model Waiver Summary
 
 Terms:
