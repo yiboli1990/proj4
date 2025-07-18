@@ -1,3 +1,33 @@
+Transaction Model Waiver Summary
+
+Terms:
+	•	Trade Type: Contractual Dividend Autocall on Worst-off South African Banks
+	•	Notional: ~$15 million (3 x 90mm ZAR)
+	•	Maturity: 5 years
+	•	Underliers: ABG1.J, NEDJ.J, OMUJ.J
+	•	Expected P&L: ~$1 million
+	•	Client: Abax
+
+Economic Description:
+	•	Classical Fixed Dividend Autocall structure with the additional Asianing feature for autocall observations. Asianing is introduced to mitigate liquidity concerns.
+
+Reason for Waiver:
+	•	Existing tradables separately support autocall with Asianing (eq auto callable ma) and fixed dividend (eq auto callable ma cs), but no single tradable supports both simultaneously. Immediate trading capability required as the transaction is imminent.
+
+Booking During Waiver Period:
+	•	Initially booked without the Asianing feature.
+	•	The Asianing impact is minimal for the first few days, thus negligible initial impact.
+	•	Rebooking planned once the Asianing-enabled strat is available, anticipated by end of the current week.
+
+Compensating Controls:
+	•	Implementation of Asianing feature into “EQ Auto Callable ma CS” to be completed by end of this week.
+	•	Documentation, testing, and formal submission to Model Risk Management (MRM) to occur by end of next week to remediate the waiver promptly.
+
+
+
+
+
+Please let me know if any further adjustments are required!
 AIL FRAC Breaches Resolved
 	•	All remaining breaches have been resolved, including:
 	•	4 unvalidated activities
