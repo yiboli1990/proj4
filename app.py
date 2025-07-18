@@ -1,3 +1,25 @@
+Guardrail Model Enhancements
+
+MRM approved a significant upgrade to the Guardrail Model (now Tier 1) used to safeguard the firm’s Generative AI platform, including real-time hallucination blocking capabilities. This marks a transition from a monitoring-only tool to a preventative control.
+
+Key improvements in the newly validated Guardrail 3.0 include:
+	•	Enhanced detection of hallucinations and prompt injection
+	•	Improved processing of long documents
+	•	Integration of a new LLM with better reasoning capabilities
+	•	Expansion of the training dataset for broader coverage
+
+Since the model’s initial approval in early 2024, MRM has raised 16 findings across the Guardrail family (covering hallucinations, bias, prompt injection, PII, and unsafe use), with 13 already remediated — resulting in measurable performance gains.
+
+MRM’s validation included independent benchmarking against Guardrail 2.0. One Sev2 finding was raised regarding limited ability to retrieve and synthesize information across multiple documents, requiring further enhancement.
+
+Despite progress, MRM continues to monitor three key limitations:
+	•	21.6% of hallucinations remain undetected
+	•	Detection may be biased by the LLM’s own stereotypes
+	•	Performance degrades in tasks requiring logical inference or big-picture understanding
+
+
+
+
 Trade Description:
 
 Goldman Sachs intends to acquire bilaterally a Mandatory Exchangeable Bond (MEB) from an issuer, collateralized by a pledged share position. Economically, the trade resembles a funded equity collar, with embedded structuring features including:
