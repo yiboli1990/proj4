@@ -1,5 +1,36 @@
 Trade Description:
 
+Goldman Sachs intends to acquire bilaterally a Mandatory Exchangeable Bond (MEB) from an issuer, collateralized by a pledged share position. Economically, the trade resembles a funded equity collar, with embedded structuring features including:
+	•	An averaging period for final settlement (similar to a tranched collar),
+	•	A voluntary acceleration right allowing the issuer to settle early,
+	•	Reverse Asian-style payoff elements, including a daily cap/floor and harmonic mean calculation.
+
+Key Terms:
+	•	Notional: ~$300 million USD
+	•	Maturity: 4.5 months from trade date
+	•	Target Return: ≥3.5% pre-fee (with potential for ~2% fee uplift via GBM Private)
+
+Reason for Waiver:
+The current booking model (Eq CASB Threshold) does not support all features required for this trade—specifically, it lacks functionality for:
+	•	Reverse averaging (reverse ASB),
+	•	Daily cap/floor, and
+	•	Harmonic mean averaging.
+
+Booking Approach During Waiver Period:
+	•	Trade will be booked under Eq CASB Threshold, wrapped via SP Shadow, which will represent all features except daily cap/floor and harmonic mean.
+	•	Reverse ASB support will be enabled in production under the waiver.
+	•	Local code modifications will be used to approximate P&L and Greeks, which will be taken into account in trading’s risk management.
+
+Model Enhancement Plan:
+	•	Full support for daily cap/floor and harmonic mean averaging will be added to Eq CASB Threshold during the waiver period.
+	•	Enhancements will be documented and submitted for model approval and deployment post-trade.
+
+
+
+
+
+Trade Description:
+
 The proposed transaction is a 5-year Contractual Dividend Autocallable on a worst-of basket of South African bank stocks (ABG1.J, NEDJ.J, OMUJ.J) with a notional equivalent of approximately $15 million (3 tranches of ZAR 90 million each). The trade is structured to pay fixed dividends and includes an Asian-style observation feature for autocall triggers, intended to mitigate liquidity concerns around spot fixing on observation dates.
 
 This trade combines two features—fixed dividend handling and Asianing of autocall observations—which are individually supported in existing tradeable templates:
