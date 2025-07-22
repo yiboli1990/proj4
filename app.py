@@ -1,3 +1,33 @@
+Certainly! Here’s a refined version with improved clarity and flow, while preserving your original structure and content:
+
+⸻
+
+Artificial Intelligence (AI) / Machine Learning (ML) Models
+There continues to be growth in the development of AI/ML models and adoption of new techniques, including the recent approval of the following:
+
+Non-generative AI models, including:
+	•	A Tier 2 deep learning neural network (transformer)-based AI signal, trained on FX trading data to predict directional price movements for a basket of major FX currency pairs, used to dynamically adjust bid-offer spreads in FX algorithmic trading.
+	•	A new Tier 2 Global Banking & Markets (GBM) Public neural network-based model, designed to calculate valuation adjustment charges for multi-asset snowball autocallables, expanding the Agni fast pricer suite across FX and Equities while significantly reducing computational time.
+
+Enhancements to the GS AI Platform monitoring framework
+	•	Improvements address prior model validation findings and enhance hallucination detection, particularly in longer documents.
+	•	The model continues to monitor and flag unsafe interactions between users and LLMs, including hallucinations, profanity, prompt injection, and exposure of personally identifiable information.
+
+Generative AI productivity tools leveraging large language models (LLMs), including:
+	•	Tier 2 Engineering models that (1) identify trends and patterns in equity market data, news articles, and industry research, and (2) extract and verify Net Asset Value (NAV) of externally administered investments from financial documents.
+	•	Tier 3 GBM models that (1) translate natural language queries into market data series and visualizations, and (2) summarize earnings call transcripts for investment bankers.
+	•	Tier 3 Asset & Wealth Management (AWM) models that (1) assess portfolio exposures to specific themes such as tariffs, inflation, or AI, and (2) respond to advisor queries using AI to retrieve the most relevant content from Private Wealth Management (PWM) materials.
+	•	A Tier 3 Global Investment Research (GIR) model that reorders search results contextually based on relevance, improving both usability and informational value.
+
+⸻
+
+Let me know if you’d like this reformatted for a slide or summary version.
+
+
+
+
+
+
 Guardrail Model Enhancements
 
 MRM approved a significant upgrade to the Guardrail Model (now Tier 1) used to safeguard the firm’s Generative AI platform, including real-time hallucination blocking capabilities. This marks a transition from a monitoring-only tool to a preventative control.
@@ -32,7 +62,9 @@ Key Terms:
 	•	Maturity: 4.5 months from trade date
 	•	Target Return: ≥3.5% pre-fee (with potential for ~2% fee uplift via GBM Private)
 
-Reason for Waiver:
+
+					      
+					      Reason for Waiver:
 The current booking model (Eq CASB Threshold) does not support all features required for this trade—specifically, it lacks functionality for:
 	•	Reverse averaging (reverse ASB),
 	•	Daily cap/floor, and
