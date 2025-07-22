@@ -1,3 +1,25 @@
+Artificial Intelligence (AI) / Machine Learning (ML) Models
+
+There continues to be significant growth in the development and adoption of AI/ML models, including recent approvals and implementations.
+
+Non-generative AI models:
+	•	The first Tier 2 transformer-based deep learning neural network model, developed to analyze FX trading data, predict price movement directions for major currency pairs, and dynamically adjust bid-offer spreads in FX algorithmic trading.
+	•	A new Tier 2 Global Banking & Markets (GBM) public neural network model, designed to calculate valuation adjustment charges for multi-asset snowball autocallables, expanding the coverage of the Agni fast pricer suite across FX and Equities, while significantly reducing computational time.
+
+Enhancements to the GS AI Platform monitoring framework:
+	•	Improvements addressing model validation findings, including advanced detection of hallucinations and enhanced performance when analyzing longer documents.
+	•	The model detects potentially unsafe interactions with large language models (LLMs), specifically targeting issues such as hallucinations, profanity, prompt injection, and exposure of personally identifiable information.
+
+Generative AI productivity tools utilizing Large Language Models (LLMs):
+	•	Tier 2 Engineering models developed to (1) summarize trends and patterns from equity market data, news articles, and industry research and (2) extract and validate Net Asset Values (NAV) from externally administered investment financial documents.
+	•	Tier 3 Global Banking & Markets (GBM) models designed to (1) convert natural language queries into relevant market data series and visualizations and (2) summarize earnings call transcripts to support investment banking activities.
+	•	Tier 3 Asset & Wealth Management (AWM) models used to (1) evaluate portfolio exposure to specific themes such as tariffs, inflation, or AI and (2) respond to advisors’ queries by selecting and presenting the most relevant Private Wealth Management (PWM) content.
+	•	A Tier 3 Global Investment Research (GIR) model developed to contextually reorder search results to enhance relevance and usability.
+
+
+
+
+
 Certainly! Here’s a refined version with improved clarity and flow, while preserving your original structure and content:
 
 ⸻
