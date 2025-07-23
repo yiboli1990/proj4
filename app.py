@@ -1,3 +1,23 @@
+Validation activities during the period primarily focused on:
+
+Risk management enhancements, including approvals of:
+	•	An enhancement to the Monte Carlo-based credit contagion model used for calculating Credit Valuation Adjustment (CVA) and gap exposure in secured funding trades. This update allows multiple collateral assets within a single trade and designates a benchmark collateral asset whose default triggers correlated price jumps in other counterparties’ collateral assets. This enhancement captures diversification benefits and collateral default correlations, supports multiple CVA bookings within a single trade, and enables gap CVA modeling for secured lending and Total Return Swap (TRS) trades involving portfolios of bonds or loans as collateral.
+	•	A new model for estimating Delta risk in commodity products, utilizing a central difference method implemented within the advanced Griffin infrastructure, replacing the previous forward difference method to improve accuracy and computational speed.
+	•	Two new models for calculating X-Valuation Adjustment (XVA) on USD-denominated cancellable swaps and Bermudan swaptions, which were previously not modeled.
+	•	An enhancement to the multi-asset barrier options pricing model to incorporate control variates (adjustments to align with market prices) for European-type payoffs, thereby reducing Monte Carlo variance and enhancing stability in risk calculations.
+	•	Enhancements to the electricity price prediction model, including adjustments to load inputs accounting for load ramp-up periods, input restrictions to mitigate outlier impacts, and unified battery dispatch post-load adjustment to ensure consistency across prediction blocks.
+
+Counterparty Credit Risk (CCR) model enhancements, including recent approvals of:
+	•	Migration of the Equities franchise business to the Unified Benchmark Model for margin shortfall calculations, following the earlier migration of Synthetic Products Group (SPG) portfolios, supporting ongoing standardization and consistency efforts across Prime and Franchise businesses.
+	•	An enhancement to the Prime Brokerage (PB) SPIRE margin model, now incorporating eligible bank loans into worst-case loss calculations, previously benchmarked at 100% of market value for all bank loans.
+	•	Additional improvements to margin shortfall modeling, including collateral inclusion, repurchase agreement treatment, recalibration of interest rate shocks, and migration of the franchise credit model to the “V30” version, addressing model validation findings.
+
+London Interbank Offered Rate (LIBOR) transition-related enhancements, including:
+	•	Approval of fallback logic for trades linked to the Israel Tel Aviv Inter-Bank Offered Rate, now referencing the Shekel Overnight Interest Rate (SHIR) plus a fixed spread.
+
+
+
+
 An enhancement to the Monte Carlo-based credit contagion model for calculating Credit Valuation Adjustment (CVA) and gap exposure in secured funding trades, allowing multiple collateral assets in a single trade and the designation of a benchmark collateral whose default triggers correlated price jumps among other collateral assets.
 
 This enhancement captures diversification benefits and default correlations among collateral assets, supports multiple CVA bookings within a single trade, and enables modeling of gap CVA for secured lending and Total Return Swap (TRS) trades involving portfolios of bonds or loans as collateral.
