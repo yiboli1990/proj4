@@ -1,3 +1,10 @@
+An enhancement to the Monte Carlo-based credit contagion model for calculating Credit Valuation Adjustment (CVA) and gap exposure in secured funding trades, allowing multiple collateral assets in a single trade and the designation of a benchmark collateral whose default triggers correlated price jumps among other collateral assets.
+
+This enhancement captures diversification benefits and default correlations among collateral assets, supports multiple CVA bookings within a single trade, and enables modeling of gap CVA for secured lending and Total Return Swap (TRS) trades involving portfolios of bonds or loans as collateral.
+
+
+
+
 An enhancement to the Monte Carlo-based credit contagion model for calculating Credit Valuation Adjustment (CVA) and gap exposure in secured funding trades. The update allows multiple collaterals in a single trade and designates a benchmark credit name whose default triggers correlated defaults among other collateral names.
 This enhancement captures diversification benefits and correlations between collateral defaults, supports multiple CVA bookings in a single off-balance sheet trade, and enables modeling gap CVA for secured lending and Total Return Swap (TRS) trades involving portfolios of bonds or loans for both private credit SPVs and on-balance sheet lending.
 
