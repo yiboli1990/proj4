@@ -1,3 +1,7 @@
+A new model for estimating Delta risk in commodity products, replacing the previous forward difference method with a central difference method for improved accuracy, implemented within the advanced Griffin infrastructure to enhance computational speed.
+
+
+
 A new model for estimating Delta risk in commodity products, utilizing a central difference method for improved accuracy, implemented within the advanced Griffin infrastructure to enhance computational speed.
 
 
