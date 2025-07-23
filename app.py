@@ -1,3 +1,6 @@
+A new model for estimating Delta risk in commodity products, utilizing a central difference method for improved accuracy, implemented within the advanced Griffin infrastructure to enhance computational speed.
+
+
 Validation activities during the period primarily focused on:
 
 Risk management enhancements, including approvals of:
