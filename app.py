@@ -1,3 +1,26 @@
+Counterparty Credit Risk (CCR)
+
+There is continued focus on enhancing CCR management capabilities as part of the firm’s ERM uplift plans. Recent approvals include extensions to credit exposure models under stress scenarios to cover (1) all margined funds and (2) all unmargined counterparties firmwide.
+Key improvements include updates to margin determination logic, incorporation of client-level defaults, assessment of previously unmodeled risk factors, and strengthened documentation and testing to address validation findings.
+
+Recovery and Resolution Planning (RRP)
+
+Model Risk validated and approved seven Tier 1 models and four qualitative approaches to estimate liquidity needs post-parent bankruptcy and support the firm’s RRP submission to the FRB and FDIC.
+Enhancements were driven by FRB feedback on business-level segmentation, validation findings, and developer-identified issues. Outstanding medium-severity findings relate to intraday liquidity risk methodology, unjustified runway assumptions, uncaptured contingent pricing features, and incomplete reflection of recent stressed scenarios in deposit modeling.
+
+Liquid & Readily Marketable (LRM) Classification
+
+Model Risk validated and approved a new qualitative approach for classifying securities as “Liquid & Readily Marketable” for liquidity metrics and capital requirements, improving upon prior simpler methods. All seven high-severity findings were remediated through enhanced analysis and justification of model choices. Medium-severity issues remain, requiring refinements to classification logic, mitigation of unintuitive outcomes, and addressing uncertainty in volume thresholds and Bloomberg data quality.
+
+Asset Secured Lending (ASL)
+
+Development of new models to support ASL continues, with recent approvals of 11 Risk Engineering-owned usages of Facility Level Rating (FLR) models for underwriting. Common outstanding issues include inconsistencies with post-trade model assumptions and required enhancements to documentation, monitoring, and platform user interface
+
+
+
+
+
+
 A new model for estimating Delta risk in commodity products, replacing the previous forward difference method with a central difference method for improved accuracy, implemented within the advanced Griffin infrastructure to enhance computational speed.
 
 
