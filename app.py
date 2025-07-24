@@ -1,3 +1,16 @@
+During Q3, several trading model performance enhancements were implemented that impacted valuation:
+	1.	Control Variates (CV) for Monte Carlo Pricer (Multi-Asset Barrier Options):
+Model Risk approved the application of control variates within the Monte Carlo pricing framework using local volatility for multi-asset barrier options (Eq MA Barrier). This enhancement is applied exclusively to European-style payoffs. Control variates—European calls, puts, and/or digital options—are selected based on the original option and barrier structures specified in the trade’s payoff. The primary objective is to reduce Monte Carlo variance, particularly for vega sensitivities, thereby improving risk calculation stability. As of May 30, 2025, the cumulative P&L impact from enabling CV functionality was approximately $445K.
+	2.	Close-Out Modeling Enhancements for CVA Pricing under CSAs:
+Model Risk approved updates to the close-out modeling for CVA calculations where Credit Support Agreements (CSAs) permit claiming of FVA value at default. Key changes include:
+	•	(a) FVA exposure at default is now modeled within the same netting node as related trades (previously modeled separately).
+	•	(b) The claimable haircut on FVA at default has been revised from 62.5% to 70%, reflecting agreement between Controllers and Trading.
+
+These adjustments ensure consistent alignment of MTM and FVA when their signs differ and update the haircut to match current contractual terms. For FX Latam counterparties as of May 2, 2025, this change resulted in an increase of approximately $14MM on an overall XVA exposure of ~$130MM.
+
+
+
+
 Counterparty Credit Risk (CCR)
 
 There is continued focus on enhancing CCR management capabilities as part of the firm’s ERM uplift plans. Recent approvals include extensions to credit exposure models under stress scenarios to cover (1) all margined funds and (2) all unmargined counterparties firmwide.
