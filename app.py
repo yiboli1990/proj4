@@ -1,3 +1,56 @@
+Here’s the improved version with each item as a separate paragraph for readability, while maintaining clarity and completeness:
+
+⸻
+
+Trading Model Performance and Valuation Updates
+
+Market Context:
+No significant model performance issues were observed during tariff-driven market volatility at the end of March and early April. However, the following notable changes and breaches occurred:
+
+⸻
+
+USD Yield Curve Range Accrual (YCRA) Callable Notes:
+Model Risk validated and approved a methodology change for marking callable prices (MEE) in the USD YCRA book, reverting to the pre-Dec 2022 approach used for other callables. This change was driven by two factors: (1) pricing in earlier call options eliminates the need to hedge later coupons, and (2) market observations showed YCRAs priced at the system-optimal call. As of April 8, the impact included Delta of –$0.6MM and Vega of +0.3MM per abp.
+
+⸻
+
+Commodity Volatility Calibration:
+Calibration failures were observed in Gold volatility, particularly for structured exotic trades. These issues were caused by record-high spot prices during tariff uncertainty and heavily skewed volatility. The problem was addressed by temporarily disabling short-tenor calibration, which had a limited overall impact.
+
+⸻
+
+FX Model Calibration:
+Volatility and correlation calibration failures occurred in multi-cross FX trades due to increased volatility/skew and difficulty sourcing reliable market data for marking. A temporary solution was implemented with limited impact, and further investigation is ongoing.
+
+⸻
+
+Forward Risk Dividend Logic:
+At year-end, the Exotics trading desk discovered an error in forward risk calculations caused by incorrect dividend projections. The logic referenced the pricing date year as the starting point, and when adjusted for forward risk, it pointed to a year with no dividends, leading to omitted dividends in risk calculations. This resulted in an equity delta misstatement of approximately $50MM. The issue was corrected through a model change, which has been validated and approved by Model Risk.
+
+⸻
+
+Approved Modeling Enhancements (H1 2025)
+
+Dynamic Barrier Shift for Multi-Asset Equity Autocallables:
+Model Risk approved a new methodology enabling barrier shifts to dynamically adjust based on volatility. Previously, barrier shifts were static, either set by traders or calculated only at trade inception. This enhancement allows desks to tighten widths during low volatility, improving competitiveness, and ensures caps on large barriers scale with volatility. The change released approximately $1.7MM from the Barrier Shift Reserve on October 7, 2024, and resulted in a DP impact of –$7K and a Vega impact of –$374K on January 22, 2025.
+
+⸻
+
+Control Variates for Monte Carlo Pricer:
+Model Risk approved the application of control variates (CV) within the Monte Carlo pricing framework using local volatility for multi-asset barrier options (Eq MA Barrier). Currently, this enhancement is limited to European-style payoffs, where European calls, puts, and/or digital options serve as CV instruments based on the original payoff structures. The primary goal is to reduce Monte Carlo variance, particularly for Vega, thereby improving risk calculation stability. As of May 30, 2025, enabling CV resulted in a cumulative P&L impact of approximately $445K.
+
+⸻
+
+XVA Pricing Enhancement:
+Enhancements were approved for CVA pricing under Credit Support Agreements (CSAs), specifically allowing the claim of FVA value at default. Key updates include: (1) modeling FVA exposure at default within the same netting node as related trades (previously in a separate node), and (2) increasing the claimable portion (“haircut”) of FVA from 62.5% to 70%. These changes align MTM and FVA when their signs differ and reflect agreed adjustments between Controllers and Trading. For FX Latam counterparties—where CSAs are concentrated—this change resulted in an approximate $14MM increase in XVA exposure on an overall exposure of about $130MM as of May 2, 2025.
+
+⸻
+
+✅ Do you want me to make it even more concise for a regulatory response (shorter paragraphs, less technical jargon), or keep this detailed version but add an executive summary on top?
+
+
+
+
 During Q3, several trading model performance enhancements were implemented that impacted valuation:
 	1.	Control Variates (CV) for Monte Carlo Pricer (Multi-Asset Barrier Options):
 Model Risk approved the application of control variates within the Monte Carlo pricing framework using local volatility for multi-asset barrier options (Eq MA Barrier). This enhancement is applied exclusively to European-style payoffs. Control variates—European calls, puts, and/or digital options—are selected based on the original option and barrier structures specified in the trade’s payoff. The primary objective is to reduce Monte Carlo variance, particularly for vega sensitivities, thereby improving risk calculation stability. As of May 30, 2025, the cumulative P&L impact from enabling CV functionality was approximately $445K.
