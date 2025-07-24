@@ -1,3 +1,10 @@
+During Q1 2025, a modeling issue was identified by the Exotios trading desk:
+At year-end, the desk observed that forward risk calculations did not correctly incorporate dividend impacts. The issue arose because dividend projections were dropped when the forward date was adjusted in the risk calculation. This occurred due to the projection logic referencing the pricing date year as the starting point for dividends; when this shifted during forward risk calculations, it pointed to a year with no dividends, resulting in incorrect inputs.
+
+Impact: Equity delta was misstated by approximately $50 million.
+
+Resolution: The issue was remediated through model changes, which were validated and approved by Model Risk.
+
 Here’s the improved version with each item as a separate paragraph for readability, while maintaining clarity and completeness:
 
 ⸻
