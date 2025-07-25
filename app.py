@@ -1,3 +1,6 @@
+A new Tier 2 generative AI model designed to extract and validate Net Asset Values (NAV) of externally administered investments from financial statements, streamlining operations and strengthening the accuracy and reliability of accounting processes.
+
+
 Here’s a refined and more professional version with improved flow and grammar:
 
 ⸻
