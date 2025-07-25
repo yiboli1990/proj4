@@ -1,3 +1,4 @@
+Model Risk validated and approved a new positional stress test (PST) within the interest rate stress testing framework to capture basis risk across futures, bonds, and swaps. This enhancement was introduced following observed P&L volatility during the April Trump tariff announcements, where previous limits accounted only for bond–futures basis, while losses were primarily driven by bond–swap basis risk.
 new model for estimating Delta risk in commodity products, using an improved numerical implementation for greater accuracy and deployed on the Griffin infrastructure for faster computation, relative to the previously used CNPL platform.
 
 
