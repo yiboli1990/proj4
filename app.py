@@ -1,3 +1,34 @@
+Here’s a refined and more professional version with improved flow and grammar:
+
+⸻
+
+Regulatory Updates
+	•	FINRA/GSCO 2024 Cycle Exam:
+The final report was issued in May with no findings for Model Risk. The exam, spanning from September 2024 to May 2025, placed significant focus on Model Risk. A total of 59 requests were addressed, including written responses and eight onsite/Zoom meetings. These covered all aspects of the firm’s model risk management framework, including policies and standards, model inventory and tiering, model validation, model change management, and ongoing monitoring.
+	•	Prudent Valuation / Additional Valuation Adjustments (AVAs):
+Model Risk completed initial validation and approved twelve prudent valuation methodologies developed to address ECB findings from an onsite inspection. In total, 33 findings were raised by Model Risk, including three high-severity issues related to unapproved model code, methodologies not meeting regulatory guidance, underestimation of AVAs, and documentation weaknesses. All high-severity findings were remediated and closed prior to approval.
+	•	Internal Capital Adequacy Assessment Process (ICAAP):
+Model Risk reviewed and approved models used by GSI, GSIB, and GSG UK for the current ICAAP cycle. Validation work focused on reassessing model appropriateness for these entities, including evaluation of limitations, uncertainties, and overlays under ICAAP scenarios and in light of portfolio changes. All model changes introduced since the previous ICAAP cycle underwent MRM validation and approval, including improvements to residual risk add-on quantification within the Economic Capital model to remediate prior findings.
+MRM also validated and approved ICAAP usage of two climate risk models to assess physical and transition risks, as well as a new qualitative approach for projecting Prudent Valuation Adjustments (PVA). Seventeen new findings were raised, including one high-severity issue for the PVA projection approach, which was addressed through additional testing and documentation enhancements. Remaining lower-severity findings relate primarily to methodology and implementation of limited materiality, insufficient justification for modeling choices, and gaps in ongoing monitoring.
+	•	Asset Quality Review (AQR) Exam:
+Remediation of four ECB findings from the AQR exam has been completed. These related to GSBE oversight, annual review and validation practices, and process documentation.
+	•	ECB Counterparty Credit Risk Exploratory Scenario (ECB CCR-ES):
+Model Risk validated models used for the ECB CCR-ES exercise, conducted in parallel with the EU-wide stress test to assess banks’ ability to model CCR under stress and vulnerabilities from interlinkages with non-bank financial institutions, such as hedge funds. The review resulted in improved documentation on specific wrong-way risk within the submission, additional justification for the selection of leverage metrics across counterparties, and a medium-severity finding regarding shortcomings in FX modeling.
+
+⸻
+
+✅ Key improvements:
+	•	Fixed grammatical inconsistencies and repetitive phrasing.
+	•	Consolidated redundant phrases like “Model Risk has validated and approved” → Model Risk validated and approved.
+	•	Organized content into structured, readable bullet points for clarity.
+	•	Formalized language for regulatory readiness.
+
+⸻
+
+Would you like me to apply the same editing style to your entire draft so that it reads consistently professional and regulator-friendly?
+
+
+
 Model Risk validated and approved a new positional stress test (PST) within the interest rate stress testing framework to capture basis risk across futures, bonds, and swaps. This enhancement was introduced following observed P&L volatility during the April Trump tariff announcements, where previous limits accounted only for bond–futures basis, while losses were primarily driven by bond–swap basis risk.
 new model for estimating Delta risk in commodity products, using an improved numerical implementation for greater accuracy and deployed on the Griffin infrastructure for faster computation, relative to the previously used CNPL platform.
 
