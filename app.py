@@ -1,5 +1,5 @@
 Low-tier generative AI models, including Tier 2 and Tier 3 tools, were developed to support productivity across businesses by summarizing market and research content, extracting financial data, generating visualizations from natural language queries, analyzing portfolio exposures, enhancing search relevance, and assisting advisors with curated content.
-
+Low-tier generative AI models were developed to enhance productivity across businesses, including summarizing market and research content, extracting financial data, generating visualizations from natural language queries, analyzing portfolio exposures, improving search relevance, and assisting advisors with curated content.
 
 
 
