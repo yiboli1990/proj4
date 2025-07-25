@@ -1,3 +1,8 @@
+Low-tier generative AI models, including Tier 2 and Tier 3 tools, were developed to support productivity across businesses by summarizing market and research content, extracting financial data, generating visualizations from natural language queries, analyzing portfolio exposures, enhancing search relevance, and assisting advisors with curated content.
+
+
+
+
 During Q1 2025, a modeling issue was identified by the Exotios trading desk:
 At year-end, the desk observed that forward risk calculations did not correctly incorporate dividend impacts. The issue arose because dividend projections were dropped when the forward date was adjusted in the risk calculation. This occurred due to the projection logic referencing the pricing date year as the starting point for dividends; when this shifted during forward risk calculations, it pointed to a year with no dividends, resulting in incorrect inputs.
 
