@@ -1,3 +1,6 @@
+new model for estimating Delta risk in commodity products, using an improved numerical implementation for greater accuracy and deployed on the Griffin infrastructure for faster computation, relative to the previously used CNPL platform.
+
+
 Low-tier generative AI models, including Tier 2 and Tier 3 tools, were developed to support productivity across businesses by summarizing market and research content, extracting financial data, generating visualizations from natural language queries, analyzing portfolio exposures, enhancing search relevance, and assisting advisors with curated content.
 Low-tier generative AI models were developed to enhance productivity across businesses, including summarizing market and research content, extracting financial data, generating visualizations from natural language queries, analyzing portfolio exposures, improving search relevance, and assisting advisors with curated content.
 
