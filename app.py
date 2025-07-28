@@ -1,3 +1,23 @@
+Here’s a simplified and clearer version of your bullet points:
+
+⸻
+
+Validation Activities
+	•	Enhancement to Credit Contagion Model
+MRM approved improvements to the credit contagion model for CVA and gap exposure in secured funding trades. The enhancement allows:
+	•	Inclusion of multiple collateral assets in one trade
+	•	Designation of a benchmark name whose default can trigger correlated price jumps in other collateral assets
+	•	Better modeling of diversification benefits and default correlations, enabling CVA and gap exposure calculations for secured lending and TRS trades with collateral portfolios
+	•	ECB Counterparty Credit Risk Exploratory Scenario (ECB CCR-ES)
+Validation completed for models used in this exercise, which runs alongside the EU-wide Stress Test to evaluate CCR modeling under stress and vulnerabilities linked to non-bank financial institutions (e.g., hedge funds).
+	•	Key improvements include clearer justification for leverage metrics across counterparties and stronger documentation on wrong-way risk
+
+⸻
+
+Would you like me to make this even shorter (one sentence per bullet) for a high-level executive summary?
+
+
+
 This includes approvals of Mortgage Loans AI, used in the U.S. Mortgage Warehousing Desk to assist by flagging loans that may be for liquidity, and Corporate Loans AI, used across GBM and AWM portfolios and relied on more heavily to classify loans as credit or liquidity.A new Tier 2 generative AI model designed to extract and validate Net Asset Values (NAV) of externally administered investments from financial statements, streamlining operations and strengthening the accuracy and reliability of accounting processes.
 
 
