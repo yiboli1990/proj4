@@ -1,3 +1,21 @@
+Certainly! Here’s a clearer, more concise rewrite of your bullet points:
+
+⸻
+
+Validation Activities
+	•	MRM approved enhancements to the credit contagion model for CVA and gap exposure in secured funding trades, now allowing multiple collateral assets and the use of a benchmark whose default can trigger correlated price jumps in other collaterals.
+	•	These changes allow the model to capture diversification benefits, account for default correlations among collaterals, and support CVA and gap exposure calculations for trades with bond or loan portfolios as collateral.
+	•	Validation completed for models used in the ECB Counterparty Credit Risk Exploratory Scenario (ECB CCR-ES) exercise.
+	•	This exercise, run in parallel with the EU-wide Stress Test, tests banks’ ability to model CCR under stress and risks from connections to non-bank financial institutions like hedge funds.
+	•	Key improvements include better justifications for leverage metric selection across counterparties and improved documentation for specific wrong-way risk.
+
+⸻
+
+Let me know if you want this made even shorter or have other edits!
+
+
+
+
 Here’s a simplified and clearer version of your bullet points:
 
 ⸻
