@@ -1,4 +1,4 @@
-A new Tier 2 generative AI model designed to extract and validate Net Asset Values (NAV) of externally administered investments from financial statements, streamlining operations and strengthening the accuracy and reliability of accounting processes.
+This includes approvals of Mortgage Loans AI, used in the U.S. Mortgage Warehousing Desk to assist by flagging loans that may be for liquidity, and Corporate Loans AI, used across GBM and AWM portfolios and relied on more heavily to classify loans as credit or liquidity.A new Tier 2 generative AI model designed to extract and validate Net Asset Values (NAV) of externally administered investments from financial statements, streamlining operations and strengthening the accuracy and reliability of accounting processes.
 
 
 Here’s a refined and more professional version with improved flow and grammar:
