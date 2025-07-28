@@ -1,3 +1,18 @@
+Here is your text with minor grammar and clarity improvements only (no major restructuring):
+
+⸻
+
+Model Performance Under Tariff Uncertainty: During the volatile market period, the trading valuation models performed well and remained robust overall. However, calibration issues were observed under the multi-FX model:
+	•	Basket Options with Multiple Crosses: For basket options with a large number (five or more) of crosses, calibration issues were noted at the short end, resulting in unstable Vega risk. The model infers local correlations from the local volatilities of the underlying crosses. Due to increased volatility/skew, this led to implied correlations falling outside acceptable bounds. The model has an internal calibration check to ensure the impact of bounding is not too large. This check failed for some basket trades. The issue was temporarily fixed with limited impact, and further model enhancements are in progress.
+	•	Control Variates (CVs) for Monte Carlo Pricer: For multi-asset barrier trades in Equity, control variates have been introduced within the Monte Carlo pricing framework to reduce MC noise. This improves price alignment for vanilla payoffs and enhances risk calculation stability for Vega and higher-order risks. Currently, it has been rolled out for Eq MA Barriers (as of May 30, 2025, the P&L impact was approximately $445K), and additional work is underway to extend it to other tradables.
+	•	XVA Pricing Enhancement: XVA pricing has been enhanced to better model Credit Support Agreements (CSAs) that allow for claiming FVA value at default, which is present in the LATAM market. Market price quotes suggested trades were priced with such CSAs, and cases of actual defaults confirmed such close-out amount calculations. In the enhanced model, the FVA exposure at default will be netted with the NPV at default, which is beneficial for liability FVA. With this change, there was an approximate $14mm XVA reserve release, mainly from liability FVA benefit with LATAM counterparties.
+	•	Forward Risk Dividend Logic [Q1]: An implementation issue occurred in projecting future dividends in forward risk calculations. This only affected risk calculations at year-end. Specifically, the dividend projection logic referenced the pricing date year as the starting point to determine the marked dividend period by adding a fixed number of years. When shifting the pricing date forward during forward risk calculations, it added an additional year without dividend data at the back end of the dividend marks, resulting in incorrect future dividend projections under the risk scenario. This caused an equity delta misstatement of approximately $50mm, with no P&L impact. The issue has been fixed with MRM review.
+
+⸻
+
+✅ Would you like me to make this more concise and executive-friendly (for reporting) while keeping the technical details accurate? Or keep this detailed version as is?
+
+
 Certainly! Here’s a clearer, more concise rewrite of your bullet points:
 
 ⸻
