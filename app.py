@@ -1,3 +1,73 @@
+Here’s your original text with all changes highlighted. I’ll show original → revised differences in bold so you can easily see what I changed.
+
+⸻
+
+Title
+	•	Original: Model Performance Under Tariff Uncertainty: During the volatile market period, the trading valuation models performed well and robustly overall.
+	•	Revised: Model Performance Under Tariff Uncertainty: During the volatile market period, the trading valuation models performed well and remained robust overall.
+(✔ Added “remained” for better flow)
+
+⸻
+
+Section 1: Basket Options
+	•	Original: There was calibration issues observed under multi-FX model:
+	•	Revised: However, calibration issues were observed under the multi-FX model:
+(✔ Fixed plural agreement: “issues were” instead of “issues was”; ✔ Added “However,” for readability; ✔ Added “the” before multi-FX model)
+	•	Original: For basket option with large number (5 or more) of crosses, there was calibration issues at the short end and observed unstable Vega risk.
+	•	Revised: For basket options with a large number (five or more) of crosses, calibration issues were noted at the short end, resulting in unstable Vega risk.
+(✔ Pluralized “option” → “options”; ✔ Added “a” before large number; ✔ Spelled out “5” → “five” for formal tone; ✔ Changed “there was calibration issues” → “calibration issues were noted”; ✔ Changed “and observed unstable Vega risk” → “resulting in unstable Vega risk” for smoother grammar)
+	•	Original: The model implies local correlations from the local volatilities of underlying crosses.
+	•	Revised: The model infers local correlations from the local volatilities of the underlying crosses.
+(✔ “implies” → “infers” for technical accuracy; ✔ Added “the” before underlying)
+	•	Original: Due to increased volatility/skew, it led to implied correlations out of the bounds.
+	•	Revised: Due to increased volatility/skew, this led to implied correlations falling outside acceptable bounds.
+(✔ Replaced “it led” → “this led”; ✔ Added “falling outside acceptable bounds” for clarity)
+	•	Original: The model has an internal calibration check to make sure the impact from the bounding is not too large.
+	•	Revised: The model has an internal calibration check to ensure the impact of bounding is not too large.
+(✔ “make sure” → “ensure”; ✔ “from the bounding” → “of bounding” for grammar)
+	•	Original: The check failed for some basket trades. The issue was temporarily fixed with limited impact, and further model enhancement is in progress.
+	•	Revised: This check failed for some basket trades. The issue was temporarily fixed with limited impact, and further model enhancements are in progress.
+(✔ Added “This” for continuity; ✔ Changed “enhancement” → “enhancements” since multiple changes are likely)
+
+⸻
+
+Section 2: Control Variates
+	•	Original: Control Variates (CVs) for Monte Carlo Pricer: For multi-asset barrier trades in Equity, control variates have been introduced within the Monte Carlo pricing framework to reduce MC noise, which can better match prices for vanilla payoffs and enhance risk calculation stability for Vega and high order risk. Currently it’s rolled out for Eq MA Barriers (As of May 30, 2025, the P&L impact was ~ $445K), and additional ongoing work is underway to roll it out to other tradables.
+	•	Revised: Control Variates (CVs) for Monte Carlo Pricer: For multi-asset barrier trades in Equity, control variates have been introduced within the Monte Carlo pricing framework to reduce MC noise. This improves price alignment for vanilla payoffs and enhances risk calculation stability for Vega and higher-order risks. Currently, it has been rolled out for Eq MA Barriers (as of May 30, 2025, the P&L impact was approximately $445K), and additional work is underway to extend it to other tradables.
+(✔ Split long sentence into two for readability; ✔ Changed “which can better match” → “This improves price alignment”; ✔ Changed “high order risk” → “higher-order risks”; ✔ Added comma after “Currently”; ✔ Replaced “~” with “approximately” for formal tone; ✔ Changed “roll it out” → “extend it” for variety)
+
+⸻
+
+Section 3: XVA Pricing
+	•	Original: XVA Pricing Enhancement: XVA pricing has been enhanced to better model Credit Support Agreements (SAs) which allow for claiming of FVA value at default and presents in LATAM market. The market price quotes suggested trades were priced with such CSA and cases of actual defaults confirmed such close out amount calculation. In the enhanced model, the FVA exposure at default will be netted with NPV at default, and this is beneficial for liability FVA. With this change, there were ~$14mm XVA reserve release, which was mainly from liability FVA benefit with LATAM counterparties.
+	•	Revised: XVA Pricing Enhancement: XVA pricing has been enhanced to better model Credit Support Agreements (CSAs) that allow for claiming FVA value at default, which is present in the LATAM market. Market price quotes suggested trades were priced with such CSAs, and cases of actual defaults confirmed such close-out amount calculations. In the enhanced model, the FVA exposure at default will be netted with the NPV at default, which is beneficial for liability FVA. With this change, there was an approximate $14mm XVA reserve release, mainly from liability FVA benefit with LATAM counterparties.
+(✔ Changed “SAs” → “CSAs” for accuracy; ✔ Changed “and presents in LATAM market” → “which is present in the LATAM market” for grammar; ✔ Added commas for clarity; ✔ “such close out amount calculation” → “such close-out amount calculations”; ✔ Added “the” before NPV; ✔ Changed “there were ~$14mm” → “there was an approximate $14mm”)
+
+⸻
+
+Section 4: Forward Risk Dividend Logic
+	•	Original: Forward Risk Dividend Logic[Q1]: There was an implementation issue on projecting future dividends in forward risk calculations. It only affects the risk calculations at the year end. Specifically, dividend projection logic references the pricing date year as start point to determine marked dividend period by adding fixed number of years. When shifting pricing date forward during forward risk calculations, it added additional year without dividend data in back end of dividend marks, and it resulted in incorrect future dividend projection under the risk scenario. This resulted in an equity delta misstatement of ~ $50mm, no PL impact. The issue has been fixed with MRM review.
+	•	Revised: Forward Risk Dividend Logic [Q1]: An implementation issue occurred in projecting future dividends in forward risk calculations. This only affected risk calculations at year-end. Specifically, the dividend projection logic referenced the pricing date year as the starting point to determine the marked dividend period by adding a fixed number of years. When shifting the pricing date forward during forward risk calculations, it added an additional year without dividend data at the back end of the dividend marks, resulting in incorrect future dividend projections under the risk scenario. This caused an equity delta misstatement of approximately $50mm, with no P&L impact. The issue has been fixed with MRM review.
+(✔ Changed “There was an implementation issue on projecting” → “An implementation issue occurred in projecting”; ✔ Changed “It only affects” → “This only affected”; ✔ Added “the” before start point → “the starting point”; ✔ Added “a” before fixed number; ✔ Changed “added additional year without dividend data in back end” → “added an additional year without dividend data at the back end”; ✔ “it resulted in incorrect future dividend projection” → “resulting in incorrect future dividend projections”; ✔ Changed “This resulted in” → “This caused”; ✔ “~” → “approximately”; ✔ “no PL impact” → “with no P&L impact”)
+
+⸻
+
+✅ Summary of edits:
+	•	Fixed subject-verb agreement
+	•	Improved readability by breaking up long sentences
+	•	Changed informal phrasing (e.g., “make sure” → “ensure”)
+	•	Added missing articles (“the,” “a”)
+	•	Adjusted technical word choice for accuracy (“implies” → “infers”)
+	•	Standardized currency and numeric expressions
+	•	Added commas for clarity and consistency
+
+⸻
+
+Would you like me to produce a clean final version with all changes accepted and also a separate executive summary version (short and clear for reporting)?
+
+
+
+
 Here is your text with minor grammar and clarity improvements only (no major restructuring):
 
 ⸻
