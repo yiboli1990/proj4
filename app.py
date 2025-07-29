@@ -1,3 +1,7 @@
+NFA issued follow-up requests from the May 2025 Capital Enquiry, mainly on P&L breaches, positional P&L construction, and VaR model; while MRM is not the main focus, NFA requested our input on some topics.
+
+
+
 Here’s a cleaner and more concise version of your text while keeping “went well” and combining sentences where appropriate:
 
 ⸻
