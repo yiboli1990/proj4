@@ -1,3 +1,24 @@
+Here’s a cleaner and more concise version of your text while keeping “went well” and combining sentences where appropriate:
+
+⸻
+
+Regulatory Updates
+
+Supervisory Finding Remediation:
+	•	MRM MRA Remediation: On track, with infrastructure enhancements and training to be completed by Sep 30 ahead of the enhanced annual review framework rollout.
+	•	Allowance for Credit Loss (MRIA 1: Risk Capture & Ongoing Monitoring; MRA 2: Weaknesses in MRM): Development and validation meetings on Apple Card, Asset Secured Lending (ASL), and Commercial Real Estate (CRE) went well.
+	•	TxB AML MRIA 2 (Optimization, Testing & Risk-Based Monitoring): FRB has initiated validation, with the kickoff meeting completed.
+
+Quarterly Meetings with FRB:
+	•	FRB-MRM Quarterly Meeting: Scheduled for Aug 7. In addition to the usual agenda, the Fed requested updates on open IA findings, AI/ML inventory segmentation, and MRM MRA remediation progress.
+	•	CCR Modeling Quarterly Meeting (Jul 22): Went well, focusing on the commodities potential exposure (PE) model. Follow-up includes modeling choices and a list of PE models across asset classes.
+	•	Market Risk Trading Model Quarterly Meeting (Jul 30): Went well; we reviewed notable pricing model enhancements approved during H1.
+
+⸻
+
+Would you like me to make it more executive-friendly (shorter, for senior management) or slightly more technical (for internal risk/regulatory audiences)?
+
+
 Enhancement to Credit Contagion Model
 	•	MRM approved improvements enabling multiple collaterals in a single trade and modeling correlated defaults.
 	•	Enhances CVA and gap risk calculations by capturing diversification and default correlations.
