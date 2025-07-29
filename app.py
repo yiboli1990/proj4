@@ -1,3 +1,11 @@
+Enhancement to Credit Contagion Model
+	•	MRM approved improvements enabling multiple collaterals in a single trade and modeling correlated defaults.
+	•	Enhances CVA and gap risk calculations by capturing diversification and default correlations.
+	•	Paired with the multi-credit jump model, this is a key milestone for CSG model development.
+	•	Benefits include better risk representation for private credit SPV notes and on-balance sheet lending, improving accuracy of trade risk depiction.
+
+
+
 Here’s your original text with all changes highlighted. I’ll show original → revised differences in bold so you can easily see what I changed.
 
 ⸻
