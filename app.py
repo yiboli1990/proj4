@@ -1,3 +1,7 @@
+AI Web Grounding, which uses web search to provide real-time context and improve response accuracy and timeliness
+
+
+
 Here’s a clearer and more polished version of your text:
 
 ⸻
