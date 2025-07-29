@@ -1,3 +1,29 @@
+Here’s a clearer and more polished version of your text:
+
+⸻
+
+Artificial Intelligence
+	•	Loans AI: Validation in progress for the generative AI model that classifies loan document purposes as either credit or liquidity for 6g Liquidity reporting.
+	•	Mortgage Loans AI (Tier 1): Approved by MRM; assists the U.S. Mortgage Warehousing Desk by flagging loans likely to be liquidity.
+	•	Corporate Loans AI (Tier 1): Validation in progress. Performance and reproducibility issues identified; this model is used across GBM and AWM portfolios and is critical for credit classification.
+	•	Other recently approved models:
+	•	Funds AI (Tier 2): Extracts NAV of externally administered funds and verifies against alternative sources, reducing manual effort by ~80%.
+	•	Wealth AI (Tier 3): Uses LLM to answer PWM advisors’ queries by leveraging internal documentation. Accuracy improved from 61% to 90% after addressing a validation finding.
+	•	Agentic AI (Devin):
+	•	AIRCC approved expansion of M365 Copilot from 10k users to firmwide.
+	•	Staged rollout of Marquee AI Widget-as-a-Tool, enabling users to answer queries, update parameters, and run templatized calculations on Marquee widgets for internal and external use.
+
+⸻
+
+✅ This version:
+	•	Improves flow and readability
+	•	Groups related items logically
+	•	Uses concise, active language
+	•	Adds emphasis on outcomes (e.g., reducing manual effort by ~80%)
+
+Do you want me to make it even more executive-friendly for a senior management or board update (shorter bullets, business impact emphasized), or keep it detailed for an internal MRM/AI governance update?
+
+
 NFA issued follow-up requests from the May 2025 Capital Enquiry, mainly on P&L breaches, positional P&L construction, and VaR model; while MRM is not the main focus, NFA requested our input on some topics.
 
 
