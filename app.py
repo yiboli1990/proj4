@@ -1,3 +1,7 @@
+During Q2, Model Risk identified a P&L breach in the Vega PST for the EMEA Volex portfolio during the monitoring report review. The issue stemmed from static scenario shocks that were not appropriately calibrated to reflect recent market data. A medium-severity finding was raised, recommending shock recalibration. Remediation is currently in progress.
+
+
+
 AI Web Grounding, which uses web search to provide real-time context and improve response accuracy and timeliness
 
 
