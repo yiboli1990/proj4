@@ -1,3 +1,103 @@
+Thank you for sharing the Q2 transcript. Based on the Q1 format and the extensive Q2 discussion, here is a draft of the Q2 2025 Quarterly MRM Meeting Minutes with the FRB, following the same structure:
+
+⸻
+
+Meeting Minutes: Q2 2025 Quarterly MRM Meeting with FRB – August 5, 2025
+
+On August 5, 2025, the firm hosted its Q2 2025 Quarterly Model Risk Management (MRM) meeting with the Federal Reserve Board (FRB). The discussion focused on supervisory feedback received during the 2024 CCAR exam, ongoing MRA remediation efforts, internal audit findings, validation activities, RAS exceptions, AI/ML model developments, and counterparty credit risk model enhancements. Joyce Kim (Regulatory Relations) and Makaylah (FRB) participated in the meeting, which concluded with appreciation for the firm’s transparency and commitment to ongoing improvement.
+
+⸻
+
+Key Discussions:
+
+1. MRA Remediation and Ongoing Monitoring Feedback
+	•	Makaylah opened the meeting by referencing CCAR feedback related to the Apple Card loss forecasting model’s ongoing monitoring and asked how this would be incorporated into MRA remediation plans.
+	•	Caroline confirmed that internal discussions were underway and that stakeholders would convene to determine how to address the incremental feedback. Additional updates will be shared with the FRB once a remediation plan is finalized.
+	•	Makaylah emphasized the importance of incorporating CCAR feedback into MRA remediation, especially ahead of RVE.
+
+2. Internal Audit Findings
+	•	Makaylah also flagged a recently closed internal audit finding related to model validation documentation and ongoing monitoring.
+	•	Caroline clarified that:
+	•	The finding was general/low severity.
+	•	The issue was not about weaknesses in ongoing monitoring, but rather comprehensiveness of validation documentation.
+	•	MRM responded by conducting live training sessions to reinforce expectations around documentation completeness and maintenance over time.
+
+3. Validation Activities
+	•	MRM provided updates on validation findings and trends:
+	•	336 findings closed during the period; highest volume in GBM and Risk, in line with their large inventories.
+	•	13 models were revalidated based on annual review outcomes, not due to external triggers. MRM will follow up on whether any themes emerged from these revalidations.
+	•	Additional validations were explained as targeted deep dives into specific aspects of a model when full revalidation is not warranted.
+	•	Qualitative Approaches (QAs) and Deterministic Regulatory Calculations (DRCs) saw an increase in findings due to new developments, primarily across Controllers, Treasury, and Risk.
+
+4. Internal Audit (IA) Finding Status
+	•	All IA findings are low severity and model-specific.
+	•	Two findings remain outstanding (documentation enhancements only).
+	•	Several findings were closed in Q2 following actions such as:
+	•	Broadening developer monitoring scope.
+	•	Enhancing sensitivity analysis.
+	•	Strengthening documentation to reflect ongoing monitoring and model changes.
+
+5. RAS Exceptions and Aged Items
+	•	No breaches at the Board or firm-wide risk appetite committee (FRAC) thresholds for models under waiver.
+	•	Aged waiver breaches noted in prior quarters have been resolved.
+	•	Breach remains for Tier 1 models with aged findings (related to CCR), which are under active remediation.
+	•	Makaylah inquired about the frequency of RAS threshold reviews. MRM explained that departments revisit them annually and that thresholds have been ratcheted down over time to reflect a steady state post-2018 uplift.
+
+6. Model Inventory and AI Usage
+	•	Model inventory has remained stable overall.
+	•	AI/ML model inventory was presented by:
+	•	Business unit
+	•	Risk tier
+	•	GenAI vs. non-GenAI
+	•	AI platforms (LLMs used as infrastructure)
+	•	AI usage remains concentrated in lower-tier models, with Tier 1 models being exceptions (e.g., Guardrails).
+	•	Makaylah acknowledged the utility of the update and asked that AI/ML inventory be included in future meetings.
+
+7. AI/ML Model Developments
+
+Highlighted developments:
+	•	FX Algo (Tier 3): Transformer-based neural network model for predicting next-tick FX price movement in auto-quoting. Validated using benchmark models.
+	•	Guardrails Model (Tier 1): Enhanced to improve detection of prompt injection and hallucination, particularly for issues embedded mid-text.
+	•	AI Web Grounding (Tier 2): New model leveraging vetted web search results to reduce hallucination in chatbot responses.
+
+Clarifications:
+	•	Guardrails enhancements addressed validation findings, not used for model validation itself.
+	•	Most lower-tier AI models referenced fall under Tier 3 (not Tier 4).
+
+8. Counterparty Credit Risk (CCR) and Other Model Enhancements
+
+Key enhancements:
+	•	Credit Contagion Model (CVA): Now supports multiple collaterals and jump-to-default effects for wrong-way risk.
+	•	Bermudan Product CVA Modeling: Enhanced for FRTB standard approach and treatment of FVA at default.
+	•	Unified CCR Short Form Model (EBM Crest): Standardized across SPG and Equities, enabling combined exposure analysis and improved concentration charge modeling.
+	•	New Coherent CCR Models:
+	•	One for margined hedge funds (symmetric historical VAR).
+	•	One for unmargined counterparties (natural resources) applying CCAR-based 6-month stress scenarios.
+	•	LRM Enhancements: Reclassified convertible bonds as LRM, reducing ~$6–7B in RWAs; impact on liquidity metrics (e.g., HQLA) expected to be limited, with follow-up promised.
+	•	Swap Spread vs. Bond Basis Risk: New positional stress test introduced to enhance monitoring of hedging imbalances in the NY rates book.
+
+9. MRA Remediation Execution Plan
+	•	MRM confirmed:
+	•	Phase 1.1 and 1.2 completed (enhanced templates approved by MRCC).
+	•	Phase 1.3 (infrastructure uplift) and 1.4 (training) are underway.
+	•	Execution of enhanced annual reviews scheduled to begin in Q4 with completion expected by mid-December.
+	•	Makaylah reiterated the importance of ensuring CCAR feedback on Apple Card loss forecasting is incorporated.
+
+⸻
+
+Closing and Next Steps:
+	•	Makaylah thanked the firm for its transparency and proactive approach.
+	•	Caleb and other FRB members will send follow-up questions in writing for firm response.
+	•	FRB will review MRA remediation materials with David Palmer and others; feedback to be shared in due course.
+	•	Next quarterly meeting expected in Q3. FRB encouraged submission of questions in advance to facilitate participation from senior staff.
+
+⸻
+
+Would you like this version as a Word or PDF document as well?
+
+
+
+
 Great — I’ve reviewed both the Q1 example and your full Q2 transcript.
 
 Here’s a draft of the Q2 2025 Quarterly MRM Meeting Minutes, aligned with the structure, tone, and level of detail used in the Q1 version but adapted to reflect the longer and more substantive Q2 meeting:
