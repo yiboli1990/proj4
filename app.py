@@ -1,3 +1,32 @@
+You’re right — Makaylah did follow up with a question during the Internal Audit Findings section regarding the training conducted for validators. Here’s the updated Section 4: Internal Audit (IA) Finding Status, with a detailed sub-bullet on training in response to her question:
+
+⸻
+
+4. Internal Audit (IA) Finding Status
+	•	All IA findings are general or low severity and model-specific rather than thematic.
+	•	Two findings remain outstanding, both related to enhancements in validation documentation (no issues with model soundness or monitoring frameworks).
+	•	Several findings were closed in Q2, including:
+	•	Developer monitoring scope was broadened in response to feedback.
+	•	Sensitivity analysis and parameter recalibration were introduced in specific models.
+	•	Validation documentation was enhanced to address staleness and completeness concerns.
+
+Makaylah inquired about the training conducted for validators, specifically:
+	•	Whether the training addressed the importance of ongoing monitoring, as well as documentation expectations.
+	•	Caroline clarified:
+	•	The internal audit finding was not about deficiencies in monitoring practices but about how monitoring was documented in validation reports.
+	•	The training emphasized:
+	•	Clear articulation of how validators assessed the completeness and appropriateness of developers’ ongoing monitoring plans.
+	•	Comprehensive documentation of all aspects of validation, including monitoring, assumptions, limitations, and model changes.
+	•	Importance of maintaining and updating validation documentation over time — especially during annual reviews or following any model changes.
+	•	The training was conducted as live sessions and completed across the validation team.
+	•	Makaylah acknowledged the clarification and appreciated the focus on documentation integrity, noting that many of the IA findings were indeed documentation-related.
+
+⸻
+
+Let me know if you’d like me to integrate this directly into the full draft again or export it as a document.
+
+
+
 Thank you for sharing the Q2 transcript. Based on the Q1 format and the extensive Q2 discussion, here is a draft of the Q2 2025 Quarterly MRM Meeting Minutes with the FRB, following the same structure:
 
 ⸻
