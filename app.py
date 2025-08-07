@@ -1,3 +1,27 @@
+Certainly — here is a bullet-point summary of the MRA remediation discussion from the end of the Q2 2025 meeting:
+
+⸻
+
+MRA Remediation – Summary of Discussion
+	•	Makaylah asked for an update on remediation progress and whether CCAR feedback (Apple Card model’s ongoing monitoring) would be incorporated.
+	•	Caroline explained:
+	•	Phases 1.1 and 1.2 (enhanced templates and standards) were completed and approved by MRCC.
+	•	Phases 1.3 and 1.4 (workflow tool updates and validator training) are underway.
+	•	Enhanced annual reviews will begin in Q4 2025, with all due reviews completed by mid-December.
+	•	Makaylah emphasized:
+	•	CCAR feedback must be formally addressed in the MRA remediation.
+	•	This will be a key focus during the Fed’s Remediation Validation Examination (RVE).
+	•	Caroline confirmed:
+	•	Internal discussions are ongoing to determine how to incorporate the CCAR feedback.
+	•	The firm will follow up with the Fed once the approach is finalized.
+	•	Makaylah noted she will discuss the firm’s remediation materials with David Palmer and others and will provide feedback.
+	•	She offered to invite David to the next quarterly meeting and encouraged the firm to send any questions in advance.
+
+⸻
+
+Let me know if you’d like a version combining this with other section summaries.
+
+
 Certainly — here is the expanded version of the positional stress test discussion, incorporating more detail while keeping the Q&A format consistent:
 
 ⸻
