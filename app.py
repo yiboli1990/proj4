@@ -1,3 +1,43 @@
+Certainly — here is the expanded version of the positional stress test discussion, incorporating more detail while keeping the Q&A format consistent:
+
+⸻
+
+10. Positional Stress Test for Swap Spread vs. Bond Basis
+
+Caleb asked for clarification on the new positional stress test covering swap spread vs. bond basis risk. He sought to understand what the model measures, how it differentiates from existing approaches, and whether it aligns with what Market Risk refers to as a “deleveraging stress scenario.”
+
+David explained that the new stress test was developed by Market Risk in response to observed concentrations in the New York rates trading portfolio, where the desk was:
+	•	Long U.S. Treasuries
+	•	Hedging with short bond futures and receiver swaps
+
+Previously, the desk was monitored using a simple DVO1-based stress, which compared the size of bond futures positions against the underlying treasury positions. However, this did not capture the full basis risk between:
+	•	Treasuries and futures (CTD basis)
+	•	Treasuries and swaps (swap spread risk)
+
+The new stress test includes:
+	•	OAS spreads on the Treasury securities
+	•	Net basis on the cheapest-to-deliver (CTD) bond futures
+	•	Historical stress scenarios that simulate joint movements in these metrics
+
+The stress test uses percentile-based historical losses (e.g., 95th percentile) rather than static sensitivities, making it more risk-sensitive and reflective of historical co-movements.
+
+Caleb followed up to ask how the swap spread component was modeled and whether the different hedging instruments were commingled.
+
+David confirmed that:
+	•	The swap spread component is captured through changes in the OAS of the bond (i.e., the difference between the bond yield and discount curve derived from swaps).
+	•	The overall position — combining Treasuries, futures, and swaps — is modeled as a commingled exposure, with risk captured through co-movements in those spread relationships.
+	•	Time series are bond-specific, accounting for on-the-run/off-the-run status, and adjusted accordingly.
+
+David noted that this test helps better capture basis risk across instruments and replaces simplistic metrics with a robust stress-driven approach.
+
+Caroline added that the team would follow up to confirm whether this model is referred to internally as the “deleveraging stress scenario.”
+
+⸻
+
+Let me know if you’d like this paragraph dropped into the full minutes document or exported in a preferred format.
+
+
+
 Absolutely — here is the revised Q2 2025 Fed Meeting Minutes, written exclusively in Q&A format, using “Makaylah asked/inquired” and “Caroline explained” (or other names where appropriate). The content remains detailed and structured around the key discussions.
 
 ⸻
