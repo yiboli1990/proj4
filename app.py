@@ -1,3 +1,25 @@
+Certainly — here is a bullet-point summary of the positional stress test discussion:
+
+⸻
+
+Positional Stress Test – Swap Spread vs. Bond Basis
+	•	Caleb asked for clarification on the new stress test capturing basis risk between Treasuries, swaps, and bond futures, and whether it aligns with Market Risk’s “deleveraging stress scenario.”
+	•	David explained:
+	•	The test was developed for the NY rates trading portfolio, which held long Treasuries hedged with short bond futures and receiver swaps.
+	•	Previously, exposure was monitored using a simple DVO1-based metric, which didn’t fully capture basis risk.
+	•	The new test uses historical stress scenarios to simulate losses based on:
+	•	OAS spreads on Treasuries,
+	•	Net basis on bond futures (CTD),
+	•	And swap spreads.
+	•	Positions across bonds, swaps, and futures are treated as a commingled exposure.
+	•	Bond-specific time series (e.g., on-the-run vs. off-the-run) are used to increase precision.
+	•	Caroline noted the team will confirm whether the model is internally referred to as the “deleveraging stress scenario.”
+
+⸻
+
+Let me know if you’d like all these bullet summaries compiled into a single meeting recap.
+
+
 Certainly — here is a bullet-point summary of the MRA remediation discussion from the end of the Q2 2025 meeting:
 
 ⸻
