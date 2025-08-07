@@ -1,3 +1,131 @@
+Absolutely — here is the revised Q2 2025 Fed Meeting Minutes, written exclusively in Q&A format, using “Makaylah asked/inquired” and “Caroline explained” (or other names where appropriate). The content remains detailed and structured around the key discussions.
+
+⸻
+
+Meeting Minutes: Q2 2025 Quarterly MRM Meeting with FRB – August 5, 2025
+
+On August 5, 2025, the firm hosted the Q2 2025 Quarterly Model Risk Management (MRM) meeting with the Federal Reserve Board (FRB). The meeting covered supervisory feedback, validation activity, internal audit findings, RAS exceptions, AI/ML model usage, and MRA remediation progress. Below summarizes the FRB’s questions and the firm’s responses.
+
+⸻
+
+1. CCAR Feedback on Ongoing Monitoring and MRA Remediation
+
+Makaylah asked how the firm plans to incorporate CCAR feedback on ongoing monitoring, particularly related to the Apple Card loss forecasting model, into its MRA remediation efforts.
+
+Caroline explained that the feedback was received only the prior Friday, and internal discussions are ongoing. The firm expects to address the Apple Card feedback in addition to the existing MRA remediation plan, and will provide further updates once internal alignment is reached.
+
+⸻
+
+2. Internal Audit Finding and Validator Training
+
+Makaylah inquired about a recently closed internal audit finding related to comprehensiveness of validation documentation, and asked for details on the training conducted for validators, including whether ongoing monitoring was covered.
+
+Caroline explained that the finding was low severity and focused on validation documentation—not monitoring effectiveness itself. The training emphasized:
+	•	The importance of clearly documenting how validators assess developer monitoring plans.
+	•	Ensuring validation documents remain up to date through model changes and annual reviews.
+	•	Comprehensive coverage of assumptions, limitations, and monitoring assessments.
+
+Oliver added that the training was delivered as live sessions and completed across the validator group.
+
+⸻
+
+3. Revalidations and Additional Validation
+
+Makaylah asked whether any of the 13 revalidations were triggered by performance or monitoring issues and requested clarification on “additional validation.”
+
+Caroline explained that the 13 revalidations were triggered by annual review outcomes—not by performance concerns. Additional validation refers to targeted reviews of specific model aspects (e.g., monitoring or a key assumption) rather than a full revalidation.
+
+She noted that the team would follow up with more detail on themes across the 13 revalidations.
+
+⸻
+
+4. RAS Thresholds and Aged Findings
+
+Makaylah asked how often the firm revisits RAS thresholds and how the aged Tier 1 findings are being addressed.
+
+Caroline explained that thresholds are revisited annually. Following the 2018 model uplift, thresholds were gradually tightened to reflect a steady-state framework. The remaining breach relates to Tier 1 counterparty credit risk models within GBM, which are actively being remediated.
+
+⸻
+
+5. AI/ML Inventory and Usage
+
+Makaylah inquired about the firm’s current usage of AI/ML models and requested ongoing quarterly updates on AI inventory in light of broader topical reviews at the Fed.
+
+Caroline explained that AI/ML models remain concentrated in lower tiers, with only a small number of Tier 1 models such as Guardrails. AI platforms (e.g., underlying LLMs) are included in inventory but are validated only in the context of specific use cases.
+
+She confirmed that AI/ML inventory updates will be included in future quarterly meetings.
+
+⸻
+
+6. Validation Findings for Guardrails Model
+
+Makaylah asked whether the Guardrails model update referenced in the deck was intended to remediate validation findings.
+
+David explained that validation had identified the model’s inability to detect issues embedded in the middle of long prompts. The enhancement improved detection across full input texts and addressed the finding. The model is not used for model validation purposes.
+
+⸻
+
+7. FX Algo Model Usage
+
+Caleb asked whether the FX algo model is currently used in production, what markets it applies to, and how bid/offer spreads are adjusted.
+
+David explained that the model is used in cash FX trading, specifically G10 currencies, within the firm’s automated market-making system. It predicts next-tick price direction to guide quoting. Follow-up will be provided regarding execution venues and trading specifics.
+
+⸻
+
+8. Credit Contagion and CCR Model Enhancements
+
+Makaylah and Caleb asked for more detail on the new CCR models and how exposure to un-margined counterparties is tracked.
+
+David explained that:
+	•	The enhanced Credit Contagion Model now allows for:
+	•	Multiple collaterals per trade.
+	•	Default-driven price jumps to better capture wrong-way risk.
+	•	Two new coherent CCR models were developed:
+	•	One for margined hedge funds, using symmetric historical VAR scenarios.
+	•	One for un-margined counterparties, applying 6-month CCAR stress scenarios.
+
+David confirmed that the firm will follow up with exposure data for un-margined counterparties (e.g., energy clients).
+
+⸻
+
+9. LRM Reclassification and Liquidity Impact
+
+Caleb asked whether enhancements to the Liquid and Readily Marketable (LRM) classification impacted capital or liquidity metrics.
+
+Caroline explained that the enhancements—primarily the reclassification of convertible bonds—reduced RWAs by $6–7B. The impact on liquidity metrics (e.g., HQLA and GCLA) was limited. The team will follow up with specific impacts and any planned refinements to LRM classification.
+
+⸻
+
+10. Positional Stress Test for Swap Spread vs. Bond Basis
+
+Caleb asked for clarification on the new positional stress test that monitors the swap spread vs. bond basis risk, and how basis risk between treasuries, swaps, and futures is captured.
+
+David explained that the new model was designed to replace simple DVO1-based measures. It uses historical stress scenarios to capture movements in:
+	•	Bond OAS spreads.
+	•	Net basis on bond futures.
+	•	Swap spreads embedded in bond leg pricing.
+
+The model addresses concentrations in NY rates trading books, particularly those hedging long treasury positions with futures and swaps. David will confirm whether this aligns with what market risk refers to as the “deleveraging stress scenario.”
+
+⸻
+
+11. Execution Status of MRA Remediation Plan
+
+Makaylah asked for an update on execution of the MRA remediation plan and whether CCAR feedback is being incorporated.
+
+Caroline explained that:
+	•	Templates and policy enhancements (Phases 1.1 and 1.2) were approved by MRCC.
+	•	Infrastructure enhancements and validator training (Phases 1.3 and 1.4) are in progress.
+	•	Execution of enhanced annual reviews will begin in Q4, targeting completion by mid-December.
+	•	The CCAR feedback will be addressed as part of the broader remediation plan, and the firm will circle back once a path forward is finalized.
+
+⸻
+
+Let me know if you’d like this saved to Word or PDF format — or if you’d like a version with only the most critical questions summarized.
+
+
+
 You’re right — Makaylah did follow up with a question during the Internal Audit Findings section regarding the training conducted for validators. Here’s the updated Section 4: Internal Audit (IA) Finding Status, with a detailed sub-bullet on training in response to her question:
 
 ⸻
