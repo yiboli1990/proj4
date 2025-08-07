@@ -1,3 +1,111 @@
+Great — I’ve reviewed both the Q1 example and your full Q2 transcript.
+
+Here’s a draft of the Q2 2025 Quarterly MRM Meeting Minutes, aligned with the structure, tone, and level of detail used in the Q1 version but adapted to reflect the longer and more substantive Q2 meeting:
+
+⸻
+
+Meeting Minutes: Q2 2025 Quarterly MRM Meeting with FRB – August 5, 2025
+
+MRM hosted the Q2 2025 Quarterly Model Risk Management meeting with the FRB on August 5. The meeting covered updates on MRA remediation efforts, validation findings, RAS exceptions, AI/ML model usage, and model development. Joyce Kim from Regulatory Relations introduced herself as the new engagement lead. Michaela from the FRB requested the meeting begin with updates on ongoing monitoring and its connection to the open MRA.
+
+⸻
+
+Key Discussions:
+
+1. MRA Remediation and Ongoing Monitoring Feedback (Primary Focus)
+	•	Michaela requested an update on how the firm plans to incorporate CCAR feedback into the MRA remediation, particularly concerns around ongoing monitoring of the Apple Card projection model.
+	•	Caroline acknowledged the feedback was received recently (prior Friday) and is under internal discussion with model developers. Next steps will include a plan to address this incremental feedback.
+	•	Caroline confirmed the remediation plan remains on track:
+	•	Milestones 1.1 and 1.2 (enhanced templates and MRCC approval) have been completed.
+	•	Milestones 1.3 and 1.4 (system enhancements and validator training) are in progress.
+	•	Live training sessions for validators have commenced; Q4 annual reviews will be executed under the enhanced framework with completion targeted by mid-December.
+	•	Michaela emphasized the importance of addressing CCAR feedback within the remediation to ensure it is trusted during RVE. The Fed expects follow-up once the firm aligns internally on remediation approach.
+	•	Caroline confirmed willingness to follow up and noted FRB feedback had already been socialized with the MRCC.
+	•	Michaela noted a broader Fed review of the remediation effort was upcoming and that she had circulated Goldman’s deck and templates to David Palmer and others for internal discussion.
+
+⸻
+
+2. Internal Audit (IA) Findings
+	•	Caroline clarified that recent IA findings were all low severity and model-specific, with no thematic weaknesses.
+	•	Of note:
+	•	A general IA finding was issued regarding comprehensiveness of validation documentation (not deficiencies in ongoing monitoring).
+	•	This was remediated by conducting live training for all validators focused on documentation practices, including how to assess developer-provided monitoring plans and maintain validation documentation as models evolve.
+	•	Several IA findings were closed during the quarter, including:
+	•	Expanded developer monitoring requirements following IA feedback.
+	•	Enhancements to parameter monitoring and documentation for specific models.
+	•	Closure of a finding related to monitoring limitations and uncertainties in a loan settlement risk model, remediated via additional monitoring requirements and parameter recalibration.
+
+⸻
+
+3. Validation Findings
+	•	336 findings were closed during the quarter, primarily within Risk and GBM, which hold the largest share of Tier 1 models.
+	•	13 models were triggered for revalidation as a result of annual review outcomes; these were not routine cadence revalidations.
+	•	Michaela inquired whether any of the revalidations were triggered by specific issues (e.g., ongoing monitoring). Caroline committed to following up with details.
+	•	Caroline clarified the distinction between full revalidations and “additional validations” — the latter refers to targeted validation work focused on specific areas, e.g., model performance or monitoring, rather than full-scope revalidations.
+
+⸻
+
+4. RAS Exceptions
+	•	Utilization of models under waiver remained low across all tiers, with no breaches of BRC or firm-wide RAS thresholds.
+	•	All aged waiver breaches noted in prior meetings have been resolved.
+	•	One RAS breach remains outstanding: Tier 1 approved models with aged findings, primarily in the counterparty credit risk area (e.g., margin shortfall calculations).
+
+⸻
+
+5. AI/ML and Generative AI Inventory
+	•	AI inventory remains concentrated in lower risk tiers (Tier 3 and 4).
+	•	Few Tier 1 models exist; guardrails and ESG AI models were highlighted as examples.
+	•	Inventory updates now include “AI platforms” (e.g., underlying LLMs used across multiple applications), which are tracked but not validated standalone.
+	•	Michaela requested that this AI inventory breakdown be included in future meetings for ongoing monitoring of AI/ML model usage across the industry.
+
+⸻
+
+6. AI/ML Model Enhancements
+
+David summarized recent developments, including:
+	•	FX Algo Model (Tier 1): First deployment of a transformer-based deep learning model to auto-quote FX crosses. Validated using benchmark models and feature attribution analyses. The model outperformed simpler neural networks and demonstrated low hallucination risk.
+	•	Guardrails Model Enhancements: Detection performance was improved to address prompt injection vulnerabilities occurring mid-text. Enhancements were in response to initial validation findings.
+	•	AI Web Grounding Model (Tier 2): Introduced a model leveraging web search engines to reduce hallucinations in LLM responses by grounding outputs in vetted, real-time sources. Significant reduction in hallucination observed during validation.
+
+⸻
+
+7. Model Inventory
+	•	Overall model inventory remained stable. No thematic shifts were observed in newly added or reclassified models.
+	•	Inventory of Qualitative Approaches and DRCs also remained steady.
+
+⸻
+
+8. Model Development Highlights
+
+David highlighted several key developments:
+	•	Credit Contagion CVA Model: Enhanced to support multiple collaterals and model jump-to-default contagion effects between counterparty and collateral.
+	•	FEA Enhancements: Improvements to modeling recovery of FVA at default in bilateral derivatives, especially relevant for corporate counterparties.
+	•	Unified Short-Form CCR Model: Adoption of a consolidated benchmark model across SPG and Equities, enabling more efficient cross-portfolio aggregation and improved concentration charge modeling.
+	•	Coherent CCR Models:
+	•	Short-form Coherent Model: Developed for margined funds using symmetric historical return scenarios.
+	•	Stress Metric Model: For un-margined counterparties (e.g., natural resources), simulating six-month CCAR-like scenarios to capture extended MPOR risk.
+	•	LRM Model Enhancement: Classification of convertible bonds as LRM led to ~$6–7B RWA reduction. Limited impact to internal or regulatory liquidity metrics; further enhancements under consideration.
+
+⸻
+
+9. Closing and Follow-Ups
+	•	Michaela emphasized the importance of incorporating CCAR feedback into the MRA remediation to avoid duplication during RVE.
+	•	The Fed expects follow-up from the firm once internal planning is complete.
+	•	Michaela noted an upcoming internal meeting with David Palmer and others to review the firm’s remediation materials.
+	•	Caleb will submit trading-specific follow-up questions in writing. Caroline welcomed written follow-ups for clarity and tracking.
+
+⸻
+
+Let me know if you’d like:
+	•	a clean Word or PDF version for formal distribution,
+	•	shortened bullets for an executive summary,
+	•	or help with highlighting changes since Q1.
+
+I’m happy to tailor it.
+
+
+
+
 During Q2, Model Risk identified a P&L breach in the Vega PST for the EMEA Volex portfolio during the monitoring report review. The issue stemmed from static scenario shocks that were not appropriately calibrated to reflect recent market data. A medium-severity finding was raised, recommending shock recalibration. Remediation is currently in progress.
 
 
