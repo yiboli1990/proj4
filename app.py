@@ -1,3 +1,18 @@
+Here’s a cleaned-up, more concise version while keeping the meaning intact:
+
+⸻
+
+Notable recent approvals for CCR model enhancements include:
+	•	Updated shortfall calculation for SPG on the Unified Benchmark Model (UBM), following the migration earlier this year, improving model consistency across business lines and reducing total worst-case loss (WL) by $3.2Bn.
+	•	Implementation of collateral stress monitoring for WL and shortfall calculations in DCS and Futures, approved in April, replacing the prior counterparty shortfall limit framework.
+	•	These changes deliver more robust benchmark stress loss/shortfall metrics, mitigate wrong-way risk, and address regulators’ prior inquiries on including collateral in stress testing.
+
+⸻
+
+If you want, I can also make it even tighter and more “regulatory-update style” so it’s easier to drop into a meeting minutes or a deck.
+
+
+
 Here’s a tightened, clearer rewrite of your text while keeping all details intact:
 
 ⸻
