@@ -1,3 +1,31 @@
+Here’s a tightened, clearer rewrite of your text while keeping all details intact:
+
+⸻
+
+Artificial Intelligence
+	•	GBM Private Tier 1 Loan Classification Models – Validation nearing completion for generative AI models classifying ~3,000 corporate loan back book records as liquidity or credit.
+	•	Findings – Two high-severity issues identified and remediated:
+	1.	Accuracy below target and inconsistent performance between seen/unseen samples.
+	2.	High output fragility.
+Both were addressed through model enhancements and have been closed.
+	•	AI Risk & Controls Committee (AIRCC) – [TBU for Devin update after tomorrow’s meeting].
+	•	Recent Approvals – Integration of Doc AI into the Tier 1 ESG AI model for extracting ESG data from public company disclosures.
+	•	Enhancement improves handling of tables, numerical data, and complex layouts, and incorporates the latest LLM capabilities.
+
+ERMF Integration – [TBU]
+
+⸻
+
+Regulatory Updates
+	•	Allowance for Credit Loss MRIA 1 & MRA 2 – Scheduled meetings concluded this week [TBU for final outcome].
+	•	Validation focus areas: independent analyses for CRE, ASL, and Apple Card; model uncertainty evaluation; QRF validation approach; and validation findings, including overdue finding extensions.
+
+⸻
+
+If you’d like, I can also make a more concise “headlines-only” version so it fits into a compact meeting deck without losing impact. That would make it feel cleaner for an executive audience. Would you like me to prepare that?
+
+
+
 Certainly — here is a bullet-point summary of the positional stress test discussion:
 
 ⸻
