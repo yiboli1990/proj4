@@ -1,3 +1,13 @@
+Here’s a simpler 4–5 bullet version:
+	•	Overview – Bermuda-based GS reinsurance entity with formal governance (Board, council, underwriting panel) and regular cross-divisional updates.
+	•	Portfolio – $8bn across 11 deals with Japanese insurers:
+	•	VA – market risk hedged, keeps mortality/lapse risk.
+	•	FIA – reinsurance on STS-linked option upside.
+	•	Composite VA – hybrid of VA and FIA (1 active deal).
+	•	Risk – Most market risk passed to GSI; small residual (~$50k VaR). Mortality/lapse risk unhedged but monitored; not yet in VaR or credit models.
+	•	Credit – ~$192mm exposure to 2 IG Japanese insurers, collateralized; trades count toward ~$170mm RWA.
+	•	Expansion – Seeking approval for HK deal (Project Vista, VIF monetization). Broader HK/Singapore expansion under review; would raise mortality/lapse risk, so new limits and modelling are in progress.
+
 Here’s a simplified bullet version:
 	•	ECB IMM onsite exam starts 25 Aug, runs until Nov, covering FFT, WSW, and LDN.
 	•	48 pre-exam requests sent 8 Aug (includes model and validation docs).
