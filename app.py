@@ -1,3 +1,18 @@
+Here’s your simplified short bullet version:
+	•	ECB IMM Onsite Exam
+	•	Kick-off: 25 Aug → runs until Nov; covers FFT, WSW, and LDN.
+	•	48 pre-exam requests submitted (8 Aug), incl. model/validation docs.
+	•	13 meetings in first two weeks; one dedicated to validation.
+	•	Focus: remediation of past ECB findings + topics with limited prior coverage.
+	•	ECB SREP Feedback
+	•	Draft SREP letter includes finding on model inventory completeness; 4-week response window.
+	•	Policy/governance is robust, but execution by Divisions may need improvement.
+	•	Finding triggered by:
+	•	Models not in inventory until ECB feedback.
+	•	Remediated AVA declaration gaps.
+	•	Risks without quantification/capital (not considered inventory gaps per policy).
+
+
 Here’s a much simpler version of your text:
 
 ⸻
