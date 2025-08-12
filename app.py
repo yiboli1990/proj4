@@ -1,3 +1,18 @@
+Here’s a much simpler version of your text:
+
+⸻
+
+E-Trading Oprisk Event – $1.2m Loss in US Rates (7/28/2025)
+	•	The Rates Central Risk Book (CRB) recently began internalizing hedge orders from IRP desks to lower costs, trading only residual risk on the exchange.
+	•	On July 28, a pilot linked CRB to the Optex auto-hedging algorithm to offset risks between the two. CRB relied on Heracles system data to track net risk.
+	•	A 15-second data delay in Heracles meant Optex’s risk reduction wasn’t shown in time, causing CRB to trade the same risk again.
+	•	Within 7 seconds, traders noticed a spike and used the kill switch. By then, CRB had traded 106 times (~1.5m/bps DV01), leading to a $1.2m loss.
+	•	The CRB–Optex link was cut. CRB will resume its original standalone flow, with tighter exposure controls to be validated by ETSC, which is also reviewing all CRB control parameters.
+
+⸻
+
+If you want, I can also make a one-sentence “headline” version for a report. That would make it even sharper.
+
 Here’s a much shorter, simpler version of your text:
 
 ⸻
