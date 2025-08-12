@@ -1,3 +1,19 @@
+Here’s a much shorter, simpler version of your text:
+
+⸻
+
+E-Trading Oprisk Event – $1.2m Loss in US Rates (7/28/2025)
+	•	A pilot trade linked the Rates Central Risk Book (CRB) hedger with the Optex auto-hedging algo to net interest rate risk.
+	•	Due to a 15-second delay in the Heracles risk update, CRB Hedger repeatedly traded the same risk, executing 106 times and building an excessive position.
+	•	Traders stopped the algo within 7 seconds, but closing the position caused a $1.2m loss.
+	•	Connection between CRB and Optex was removed. Additional exposure controls will be added and validated before any future integration.
+
+⸻
+
+If you want, I can also make a one-sentence ultra-condensed version for quick slide updates.
+
+
+
 Here’s a detailed summary of the transcript with emphasis on what to draft/include for Brian’s updates:
 
 ⸻
