@@ -1,3 +1,14 @@
+Here’s the simplified summary with the proposal and next steps included:
+	•	Overview – Bermuda-based GS reinsurance entity with formal governance (Board, council, underwriting panel) and regular cross-divisional updates.
+	•	Portfolio – $8bn across 11 deals with Japanese insurers:
+	•	VA – market risk hedged, keeps mortality/lapse risk.
+	•	FIA – reinsurance on STS-linked option upside.
+	•	Composite VA – hybrid of VA and FIA (1 active deal).
+	•	Risk – Most market risk passed to GSI; small residual (~$50k VaR). Mortality/lapse risk unhedged but monitored; not yet in VaR or credit models.
+	•	Credit – ~$192mm exposure to 2 IG Japanese insurers, collateralized; trades count toward ~$170mm RWA.
+	•	Proposal & Next Steps – Seeking NAC approval (Aug 6) for Project Vista, a Hong Kong deal using Value in Force (VIF) monetization—a pre-paid derivative linked partly to lapse risk. Originally planned as a broader HK/Singapore rollout, now narrowed to one transaction for approval. Market and Credit Risk teams are setting new mortality/lapse limits and developing models to capture these risks before further expansion.
+
+
 Here’s a simpler 4–5 bullet version:
 	•	Overview – Bermuda-based GS reinsurance entity with formal governance (Board, council, underwriting panel) and regular cross-divisional updates.
 	•	Portfolio – $8bn across 11 deals with Japanese insurers:
