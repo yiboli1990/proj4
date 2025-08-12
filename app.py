@@ -1,3 +1,13 @@
+Here’s a simplified bullet version:
+	•	ECB IMM onsite exam starts 25 Aug, runs until Nov, covering FFT, WSW, and LDN.
+	•	48 pre-exam requests sent 8 Aug (includes model and validation docs).
+	•	13 meetings in first two weeks, including a validation session.
+	•	Focus on changes from previous inspection remediation and areas with limited prior coverage.
+	•	ECB SREP feedback: draft letter includes finding on model inventory completeness; 4-week response period.
+	•	While policy/governance is strong, execution gaps remain in some divisions.
+	•	Finding relates to models not in inventory until ECB flagged them, meaning no independent review occurred.
+	•	Examples: previously remediated AVA declaration gaps, and cases where risks were not quantified or capital was not taken (latter not considered an inventory gap under policy).
+
 Here’s your simplified short bullet version:
 	•	ECB IMM Onsite Exam
 	•	Kick-off: 25 Aug → runs until Nov; covers FFT, WSW, and LDN.
