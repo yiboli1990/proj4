@@ -1,3 +1,108 @@
+Here’s a detailed summary of the transcript with emphasis on what to draft/include for Brian’s updates:
+
+⸻
+
+Key Topics Covered
+
+1. MRA / Remediation Updates
+	•	Training will be completed after tomorrow.
+	•	Tech enhancements for MRMT are progressing, nearing UAT phase.
+	•	Incremental CR feedback received from last week’s Fed meeting to be incorporated.
+	•	Plan to show Brian a draft modified remediation plan that reflects this feedback.
+	•	Timeline: Aim to implement annual monitoring enhancements by Nov 1, review by year-end (aligned with SECARD timelines).
+
+Include for Brian:
+	•	Status of training completion.
+	•	UAT readiness for tech enhancements.
+	•	Fed feedback incorporated into remediation plan (show draft).
+	•	Target dates for implementation/review.
+
+⸻
+
+2. EMF Uplift – Open Issues
+	•	Inherent risk rating formula still WIP; tied to OpRisk’s reconsideration of excluding divisions based on materiality.
+	•	Two separate scoping questions:
+	1.	Which divisions/AUs can be excluded entirely.
+	2.	Within included AUs, which processes can be excluded.
+	•	Internal Audit’s role unclear; OpRisk may be revising approach.
+	•	Processes and controls now aligned with MRM AUs, but scoping still unsettled.
+	•	Plan to get latest from OpRisk in tomorrow’s touchpoint.
+
+Include for Brian:
+	•	Clarify two separate scoping decisions.
+	•	Flag that OpRisk is rethinking criteria; Internal Audit involvement unclear.
+	•	Note dependencies for inherent risk formula completion.
+
+⸻
+
+3. AI / GenAI Validation and Controls
+	•	26 GenAI model validations completed (Tier 1–3).
+	•	Grouped by function (e.g., summarization, extraction).
+	•	Capture KPIs, thresholds; note that some models have multiple KPIs.
+	•	Highlight big-ticket items: CGI model, Devin.
+	•	Related RCSA work for AI controls follows same timeline as model controls.
+	•	Additional AI initiatives:
+	•	W Pager plug-in and ETSC tools for ANI writeups.
+	•	Early testing of agentic AI for committee material gathering.
+	•	Interest from other divisions (OpRisk, Ross’s group) to replicate MRM AI setup — MRM will provide templates but not build or staff their work.
+	•	AISG policy change expected in September; current API access still gated via RSD.
+
+Include for Brian:
+	•	Summary of 26 validations, grouped by category, with KPI/threshold status.
+	•	Key models (CGI, Devin) and ongoing RCSA/controls work.
+	•	New tools/pilots (W Pager, agentic AI).
+	•	Divisional interest in replication; MRM role limited to template/advice.
+	•	AISG process changes and current API approval requirements.
+
+⸻
+
+4. Policy & Governance Issues
+	•	EY Europe “change notification” misunderstanding — now clarified that MRM not part of the process.
+	•	Internal confusion on policy linkages and ownership — risk of divisions writing MRM requirements without MRM involvement.
+	•	Example: ILST tracker policy derived from incorrect sources; guidance given to list as “related policies” instead.
+	•	Need for training across division on how to read and link policies correctly.
+	•	Possible role for divisional risk governance group (RPOG) to enforce linkage/approval rules.
+
+Include for Brian:
+	•	Awareness item: policy linkage confusion persists, risk of MRM requirements being added without review.
+	•	Recommendation: divisional training on policy linkage/approval.
+
+⸻
+
+5. CCR & Regulatory Updates
+	•	Current ACL and TxB exams ongoing.
+	•	Participation in CCR and trading quarterly meetings.
+	•	Mention CCR validation updates in CO report.
+
+⸻
+
+6. Market Model Topics for Awareness
+	•	Central risk book in ALCO — unclear if model involved; recent operational event shut it down.
+	•	Equity buyback model switching from GAXA to Constant model.
+	•	Suggest MRM track modeling developments across all asset classes (commodities, rates, FX, derivatives, cash, GSS).
+	•	Arrow project — possible business opportunity; Brian’s perspective may be useful.
+
+Include for Brian:
+	•	Flag central risk book issue and equity buyback model change.
+	•	Propose systematic tracking of modeling developments by asset class.
+	•	Arrow project awareness.
+
+⸻
+
+7. Draft CO Update Content (to show Brian)
+	•	MRA remediation status (training, tech enhancements, Fed feedback).
+	•	AI updates (validations, controls, new tools, key models).
+	•	CCR validation updates.
+	•	ACL MRIA/MRA progress.
+
+⸻
+
+✅ If you want, I can also draft the actual Brian’s update talking points from this, in a concise, presentation-ready format so you can drop them into your meeting notes or slides. This would make it much easier for him to hit all points without wading through detail.
+
+Do you want me to prepare that next?
+
+
+
 Here’s a cleaned-up, more concise version while keeping the meaning intact:
 
 ⸻
