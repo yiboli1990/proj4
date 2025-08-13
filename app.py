@@ -1,3 +1,8 @@
+ECB IMM Onsite Exam – Starts Aug 25, runs until Nov, covering Frankfurt, Warsaw, and London.
+	•	Preparation: 48 pre-exam requests submitted Aug 8, including model and validation documentation; 13 meetings set in first two weeks, with a dedicated validation session.
+	•	Focus Areas: Model changes from prior ECB inspection remediation and topics with limited previous coverage.
+
+
 Here’s the simplified summary with the proposal and next steps included:
 	•	Overview – Bermuda-based GS reinsurance entity with formal governance (Board, council, underwriting panel) and regular cross-divisional updates.
 	•	Portfolio – $8bn across 11 deals with Japanese insurers:
