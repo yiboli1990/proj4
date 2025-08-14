@@ -1,3 +1,5 @@
+https://click.mail.cfainstitute.org/?qs=f0565be3c13e00d25eb5054550c449e43b74dce2552a2a5c18e799b4cecb5d89ed4971f331177b4bc9edb8204a2f4f532359bf59a5445633
+
 ECB IMM Onsite Exam – Starts Aug 25, runs until Nov, covering Frankfurt, Warsaw, and London.
 	•	Preparation: 48 pre-exam requests submitted Aug 8, including model and validation documentation; 13 meetings set in first two weeks, with a dedicated validation session.
 	•	Focus Areas: Model changes from prior ECB inspection remediation and topics with limited previous coverage.
