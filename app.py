@@ -1,3 +1,58 @@
+Here’s a cleaned-up, detailed summary of the transcript you shared:
+
+⸻
+
+Review of RC Draft Responses
+	•	Managers are reviewing RC responses; each section already has an assigned reviewer:
+	•	CCR – Bo / Natalia
+	•	LRM – R
+	•	MRA – Reviewed
+	•	Market Risk – David (with Marcus’s input)
+	•	Last section – S
+	•	Procedure: Bill’s approval is required before sending to the Fed.
+	•	If no major issues, Bill can be sent the reviewed package now instead of waiting until the 21st.
+	•	Messaging to Bill should note that all relevant managers have reviewed and ask if he wants any changes before submission.
+
+⸻
+
+Items for STR Meeting (During Out-of-Office)
+	•	MRA Remediation – Keep at the top of updates.
+	•	Secar Feedback – Mention to the Fed without revealing detailed action plans; note that a targeted plan will be submitted for that model.
+	•	RCSA – Include remaining 2025 tasks.
+	•	Policy Uplift – Not critical to highlight.
+	•	GBM Q2 Results – Include results excluding CCR models; send to Bill now for potential inclusion in STRAP partner meeting.
+	•	AI Section – Add any incremental updates.
+	•	Worth flagging Devon (E-Trading AI) to the Fed as they would be interested.
+	•	ESG/EG model items – optional, depending on Bill’s preference.
+	•	AI App Approval Task Force – include, along with AI efficiency task force updates.
+	•	E-Trading OpRisk Event – Likely to be included; flag to Bill to confirm.
+	•	AI Model KPI Performance – Already covered under AI task force.
+	•	Residual Risk Rating – No strong need to re-calculate for results without IDR models; let Bill decide.
+
+⸻
+
+Monday P&L Call Prep
+	•	Mention that the ACL meeting has concluded (with follow-up meeting on Aug 26).
+	•	Fed is focusing heavily on handling of past-due findings — worth making the group aware.
+	•	ECB SERP finding – to be mentioned; also IMM status (check with Cassandra).
+	•	New MRM AI Assistant applications in EC and ANR – mention to the group.
+	•	CR Feedback – note that a project plan is being prepared.
+	•	FRB follow-up – to be included in the discussion.
+
+⸻
+
+Other Notes
+	•	No major additional items to include beyond regular updates.
+	•	CSG AI (public and private) impressed GBM; may be worth adding.
+	•	For ETSC metrics, remove the first two tables — all relevant data is already in the third table.
+	•	Bill will be sent RCSA results and asked if he wants them included for RAT updates.
+
+⸻
+
+If you’d like, I can also turn this into a condensed bullet-only “ready-to-send” version for your internal minutes so it’s easier to drop into your tracking doc. Would you like me to prepare that?
+
+
+
 https://click.mail.cfainstitute.org/?qs=f0565be3c13e00d25eb5054550c449e43b74dce2552a2a5c18e799b4cecb5d89ed4971f331177b4bc9edb8204a2f4f532359bf59a5445633
 
 ECB IMM Onsite Exam – Starts Aug 25, runs until Nov, covering Frankfurt, Warsaw, and London.
