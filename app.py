@@ -1,4 +1,9 @@
-	•	MRM validated and approved enhancements to EqSp Koala and EqSp YMCA models (Tier 1) to support Project Solaris, a reinsurance agreement with a Japanese insurer on a new VA product.
+•	MRM validated and approved the SVT Quoting (ID 25381) and SVT Volatility (ID 26432) Tier 2 models, resolving the prior waiver.
+	•	SVT Quoting generates bid/offer quotes for American warrants via Halo Streaming, using adjusted volatility surfaces from SVT Volatility for market making, including out-of-hours quoting.
+
+
+
+•	MRM validated and approved enhancements to EqSp Koala and EqSp YMCA models (Tier 1) to support Project Solaris, a reinsurance agreement with a Japanese insurer on a new VA product.
 	•	FX hedge is booked in EqSp YMCA, while the GMAB hedge and swap hedge on SPV notes are booked in EqSp Koala.
 	•	Both models are used for pricing, risk management, and stress testing of the hedges and swap related to the reinsurance agreement.
 
