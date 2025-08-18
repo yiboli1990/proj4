@@ -1,3 +1,20 @@
+Here’s a clearer and more concise rewrite of your section, with the 4 changes simplified:
+
+⸻
+
+SPG to CREST UBM Migration
+We have approved the following enhancements to the SPG to CREST UBM Migration:
+	•	Eq Delta methodology: Replaced CREST Delta Liquidation with SPIRE V30 Eq Delta functional form, reducing WCL by $1.5Bn.
+	•	Currency scenarios: Removed CNO/CNH/CNY and SGD from de-pegging scenario and recalibrated shocks, reducing WCL by $845MM (aligned with prior FX Benchmark Model change).
+	•	USD Forwards: Redirected to IR stress (instead of default EQ charge), reducing WCL by $645MM.
+	•	MPS swaps: Corrected treatment of swap underliers to prevent default CREST charge, reducing WCL by $240MM.
+
+⸻
+
+Would you like me to condense this further into just a headline + one-liner per change (e.g., 4 short bullets only with action + impact)?
+
+
+
 Here’s a cleaner, simplified version:
 
 ⸻
