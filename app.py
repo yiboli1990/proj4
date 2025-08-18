@@ -1,3 +1,8 @@
+	•	MRM validated and approved enhancements to EqSp Koala and EqSp YMCA models (Tier 1) to support Project Solaris, a reinsurance agreement with a Japanese insurer on a new VA product.
+	•	FX hedge is booked in EqSp YMCA, while the GMAB hedge and swap hedge on SPV notes are booked in EqSp Koala.
+	•	Both models are used for pricing, risk management, and stress testing of the hedges and swap related to the reinsurance agreement.
+
+
 Here’s a cleaned-up, detailed summary of the transcript you shared:
 
 ⸻
