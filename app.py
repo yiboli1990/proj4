@@ -1,3 +1,20 @@
+Here’s a cleaner, simplified version:
+
+⸻
+
+Approvals of New Execution Algos
+We have approved the TargetClose and Canada Trailblazer Algos within the Atlas Execution Algorithms (Tier 2) and Atlas SOR (Tier 2).
+	•	TargetClose Algo: A schedule-based strategy designed to trade into the market close, aiming to minimize slippage by executing near the auction while trading earlier if needed to limit market impact.
+	•	Canada Trailblazer Algo: A hidden liquidity-seeking strategy (mirroring the US SOR version) that searches dark and gray pools to maximize fill rates while minimizing market impact.
+
+During validation, MRM raised a Sev2 finding requiring regular recalibration of Transaction Cost Model (TCM) coefficients.
+
+⸻
+
+Do you want me to make it even shorter, like 2–3 bullets only?
+
+
+
 •	MRM validated and approved the SVT Quoting (ID 25381) and SVT Volatility (ID 26432) Tier 2 models, resolving the prior waiver.
 	•	SVT Quoting generates bid/offer quotes for American warrants via Halo Streaming, using adjusted volatility surfaces from SVT Volatility for market making, including out-of-hours quoting.
 
