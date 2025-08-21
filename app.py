@@ -1,3 +1,16 @@
+class Solution(object):
+    def canPlaceFlowers(self, flowerbed, n):
+        i, L = 0, len(flowerbed)
+        while i < L and n > 0:
+            if flowerbed[i] == 0 and (i == 0 or flowerbed[i-1] == 0) and (i == L-1 or flowerbed[i+1] == 0):
+                n -= 1          # plant here
+                i += 2          # skip next (must stay empty)
+            else:
+                i += 2 if flowerbed[i] == 1 else 1
+        return n <= 0
+
+
+
 1071. Greatest Common Divisor of Strings
 Easy
 Topics
