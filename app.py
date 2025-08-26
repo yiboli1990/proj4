@@ -1,3 +1,10 @@
+Got it — here’s a tighter 3-bullet version:
+	•	Aug 21: MRM call with Fed on ETL country-code logic, $1k filter threshold, and rule replicability; MRM clarified these as standard or FCC-driven, with validation support.
+	•	Fed requested details on independent validation of critical data inputs; MRM cited a remediated 2023 data-quality finding, with Compliance/FCC noting first-line testing.
+	•	Response provided to Fed on Aug 25.
+
+
+
 345. Reverse Vowels of a String
 Easy
 Topics
