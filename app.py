@@ -1,3 +1,99 @@
+Here’s a detailed structured summary of the updates (framed so you can take them to Brian tomorrow at 9am). I’ve organized them into clear sections, with bullets under each for ease of use:
+
+⸻
+
+1. Brian Meeting – Key Notes to Raise
+	•	Due dates / Deliverables
+	•	IRR proposal due mid-September → artifact is presentation to MRCC, not full implementation.
+	•	Implementation with divisions will run through November.
+	•	AU Applicability / Formula
+	•	Need Brian’s alignment on AU applicability scoping (strapped vs non-strapped AUs).
+	•	Proposal: show examples (GBM, Public Shared Services) → highlight controls (5-control strapped vs minimal control non-strapped).
+	•	Include rough counts for context.
+	•	Traceability Effort
+	•	Regulators are mapping regulatory guidance → policies → AUs/risks/controls.
+	•	Issues: CCR rules (e.g. SR 11-10) bring prescriptive requirements not always in templates (e.g. counterparty backtesting).
+	•	Clarify whether model obligations are explicitly in scope.
+
+⸻
+
+2. Regulatory Engagements
+	•	ECB / IM Exam
+	•	Onsite kicked off this week (Frankfurt → Warsaw → London).
+	•	Need Sandra’s latest readout from recent ECB conversations.
+	•	Concerning feedback: ECB suggests “inventory of non-modeled risks” (risks excluded from capital). → Feels like risk ID vs model inventory. Pushback needed.
+	•	MIA Capital Proposal
+	•	Simon proposing DRC-like framework for “holes.”
+	•	Split views: Leslie supportive, Gopi strongly opposed, Monique neutral.
+	•	Worth raising with Brian – outcome will affect broader capital treatment.
+	•	EY / Exam Status
+	•	No recent noise; possibly due to summer schedules.
+	•	ACL MRIA
+	•	Examiner meeting today canceled; they indicated they have all materials needed.
+	•	Likely next step = soft close and final confirmation.
+	•	Other Exams
+	•	Fed data controls exam: focus is on inputs rather than model logic.
+	•	Example: country code assignment in ETL.
+	•	MRM clarified: tested independently, prior finding closed (thresholds).
+	•	Compliance Eng. described UAT testing; regulators probing sufficiency of controls.
+
+⸻
+
+3. AI / Model Governance
+	•	AI Intake Form
+	•	Targeting end-September.
+	•	Streamlining: merge “streamlined” + AISG forms → new two-tier form:
+	•	Stop at simple “No” answers.
+	•	If “Yes,” full form required.
+	•	Trimming duplicative RM/MRM questions.
+	•	Still Word format → tooling digitization TBD (ModelIT not guaranteed).
+	•	Governance Enhancements
+	•	Alexis presenting Thursday.
+	•	Roles/responsibilities unclear; Brian should be briefed.
+	•	AI Project Mapping (Bo / Schley / Alley)
+	•	Mapping AI projects to business processes + headcount to measure impact.
+	•	Idea: link AI initiatives to risk/control processes and scale of people impacted.
+	•	Risk overlay concept still fuzzy. Need Brian’s steer.
+	•	Other AI Updates
+	•	Guardrail model approved last week.
+	•	Loans AI largely wrapped up.
+	•	KPI work: Bo pulled validated models’ metadata (thresholds, KPIs) → can aggregate for comparability.
+
+⸻
+
+4. Other Risk / Model Updates
+	•	Market Risk Metrics
+	•	Limit changes scheduled to go live Oct 1 (FAC approval Sept 16).
+	•	Daily calculations; comms should start now in weekly/strat updates.
+	•	Validation Activities
+	•	GBM validation in London: Turkey bonds model → identified issues, material PnL ($3m).
+	•	Not formally in “offs,” but still material – highlight to Brian.
+	•	72 Findings
+	•	Targeting October 23 closeout.
+	•	Market Risk carefully tracking; GBM/risk still exposed.
+
+⸻
+
+5. Action Items Before Brian
+	•	Align with Sandra for ECB / IM exam feedback.
+	•	Confirm with Simon details on MIA capital proposal.
+	•	Get from Bo the latest KPI mapping + AI process linkage work.
+	•	Review Alexis’ Thursday AI governance draft.
+	•	Finalize IRR AU applicability examples (strapped vs non-strapped) → bring to Brian.
+	•	Prep comms on Oct 1 market risk limit changes.
+	•	Flag material GBM validation issue (Turkey bonds) for transparency.
+
+⸻
+
+✅ This way, tomorrow you’ll have:
+	1.	A clear structure for Brian (regulators → AI governance → model/risk updates).
+	2.	Talking points on contentious items (ECB inventory, MIA capital, AU applicability).
+	3.	Action items to chase before the meeting.
+
+Do you want me to also draft a one-page “Brian prep note” in bullet format that you could paste directly into an email?
+
+
+
 Got it — here’s a tighter 3-bullet version:
 	•	Aug 21: MRM call with Fed on ETL country-code logic, $1k filter threshold, and rule replicability; MRM clarified these as standard or FCC-driven, with validation support.
 	•	Fed requested details on independent validation of critical data inputs; MRM cited a remediated 2023 data-quality finding, with Compliance/FCC noting first-line testing.
