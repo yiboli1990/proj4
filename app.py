@@ -1,3 +1,20 @@
+Here’s a simplified bullet-point version of your text:
+	•	Scope: MRM revalidated the pricing model for TRY xccy zero-coupon Bermudan cancellable swaps (LDN New Markets). Found modelling issues and built improved benchmark model.
+	•	Total impact: -$2.8mm, broken down as:
+	•	Incorrect Mean Reversion (-1.3mm): Default MR of ~7% used instead of 1%, overstating optionality value.
+	•	Inaccurate skew calibration (-0.3mm): CorrRatio mis-marked at -1.1 vs correct -0.1, causing unstable skew calibration.
+	•	Inaccurate calibration instruments (-1.2mm): Approximate LGM calibration replaced with near-exact approach; steep TRY curve makes impact large.
+	•	Remediation:
+	•	First two issues fixed, offset by reserve release from Controllers.
+	•	Last issue needs modelling enhancements → raised as a finding.
+	•	Impact across desks:
+	•	No other desks affected by mean reversion issue.
+	•	Other issues exist in desks trading zero Berms on LGM, but smaller impact (lower accretion rates than TRY).
+	•	MRM extending analysis to those desks.
+
+Do you want me to make this even shorter (2–3 lines) for quick talking points, or keep this level of detail?
+
+
 Here’s a detailed structured summary of the updates (framed so you can take them to Brian tomorrow at 9am). I’ve organized them into clear sections, with bullets under each for ease of use:
 
 ⸻
