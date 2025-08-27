@@ -1,3 +1,11 @@
+Here’s a cleaner, streamlined version of your text:
+
+MRM identified issues during revalidation of the TRY cross-currency zero-coupon Bermudan cancellable swaps model for the LDN New Markets desk.
+• Problems included incorrect mean reversion, skew calibration, and calibration instruments, with a total impact of -$2.8mm; the first two have been remediated, while the calibration instruments issue is tracked as a validation finding.
+• Review confirmed no material impact on other desks, though analysis is being extended to ensure full coverage.
+
+Do you want me to also create a one-sentence exec summary version of this for quick updates?
+
 Here’s a simplified bullet-point version of your text:
 	•	Scope: MRM revalidated the pricing model for TRY xccy zero-coupon Bermudan cancellable swaps (LDN New Markets). Found modelling issues and built improved benchmark model.
 	•	Total impact: -$2.8mm, broken down as:
