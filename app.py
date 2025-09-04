@@ -1,3 +1,28 @@
+Got it — thanks for clarifying. You meant the posting email to Bill about the PRC/BRC cadence change (last part of the transcript). Here’s a clean draft you can send:
+
+⸻
+
+Subject: Heads-up: PRC/BRC cadence change for 2026
+
+Hi Bill,
+
+Quick FYI on the committee schedule:
+	•	PRC cadence will increase from 6 to 8 meetings per year starting next year. Each meeting will now request updates from every risk stripe, which means our team’s updates will also increase from ~6 to 8 times annually.
+	•	BRC remains on the annual review cycle (December). As part of that session, the MCP change will be included for review.
+
+We are engaging with Ross’s team to explore ways to reduce the incremental burden (e.g., moving certain supplementary metrics to a quarterly cadence). Will keep you posted once we have confirmation.
+
+Let me know if you’d like me to prepare a short slide for MRCC/FRAC to note this change explicitly.
+
+Thanks,
+Yibo
+
+⸻
+
+Do you want me to also prepare a 1-liner “executive summary” version that you can use if Bill wants to forward this directly to senior leadership?
+
+
+
 Here’s a cleaner, streamlined version of your text:
 
 MRM identified issues during revalidation of the TRY cross-currency zero-coupon Bermudan cancellable swaps model for the LDN New Markets desk.
