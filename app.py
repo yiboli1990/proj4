@@ -1,3 +1,99 @@
+Here’s a concise draft you can paste into Outlook/Gmail:
+
+⸻
+
+Subject: Updates & asks: AI tooling feedback, surveillance AI, and PRC cadence change
+
+Hi Bill,
+
+Quick heads-up and a few asks based on this week’s check-ins:
+
+1) AI tooling – candid feedback (early read)
+	•	MRM AI Assistant (tone & format): Summaries skew too “adjectival.” We’ll tighten prompts to enforce factual tone and fixed bullet counts (e.g., 3–4 bullets).
+	•	Plugins UX: Validators prefer plugins default OFF so they can start in general chat and opt-in per task.
+	•	Governance-Check AI: Useful for batch doc scans, but not live/UAT; currently run locally by Bo for batch use. We’ll track readiness before wider use.
+	•	Usage & efficiency logging: The “time-saved” spreadsheet has low adoption (many zeros/unused). Team feedback suggests clearer comms and expectations would help.
+
+Asks:
+	•	Are you supportive of (a) default-OFF plugins and (b) a short guidance note from you to reinforce logging of efficiency/time-saved? I can draft the note for your review.
+
+2) Surveillance AI
+	•	Recommend including a brief update for Brian and in the CO update. I’ll prepare a crisp paragraph unless you’d like a slide instead.
+
+3) PRC cadence change (FYI)
+	•	PRC moving from 6 to 8 meetings next year, with requests for updates from each risk stripe per meeting → net increase in our update workload.
+	•	We’re engaging with Ross’s team to see where supplementary info can be streamlined (e.g., quarterly cadence for certain metrics).
+
+Asks:
+	•	Any guidance on where to push hardest on burden reduction before we revert to Ross’s team?
+
+4) Near-term follow-ups
+	•	EIA/UI preliminary findings: I’ll coordinate with George for a summary.
+	•	IMM exam: Awaiting update from Sandra.
+	•	AI feedback summary: Phil and I will send you a one-pager by Monday covering: what we’re tracking, early sentiment, concrete examples, and adoption hurdles.
+
+Happy to adjust any of the above—please let me know preferences (e.g., plugin default stance, comms tone, slide vs. paragraph for Surveillance AI).
+
+Thanks,
+Yibo
+
+CC: Phil, Bo, (add others as needed)
+
+⸻
+
+Want me to tailor this for a senior-leadership tone (even tighter, with a 5-line executive summary at the top), or draft the “time-saved logging” note in your voice for Bill to send?
+
+
+
+Here’s a concise draft you can paste into Outlook/Gmail:
+
+⸻
+
+Subject: Updates & asks: AI tooling feedback, surveillance AI, and PRC cadence change
+
+Hi Bill,
+
+Quick heads-up and a few asks based on this week’s check-ins:
+
+1) AI tooling – candid feedback (early read)
+	•	MRM AI Assistant (tone & format): Summaries skew too “adjectival.” We’ll tighten prompts to enforce factual tone and fixed bullet counts (e.g., 3–4 bullets).
+	•	Plugins UX: Validators prefer plugins default OFF so they can start in general chat and opt-in per task.
+	•	Governance-Check AI: Useful for batch doc scans, but not live/UAT; currently run locally by Bo for batch use. We’ll track readiness before wider use.
+	•	Usage & efficiency logging: The “time-saved” spreadsheet has low adoption (many zeros/unused). Team feedback suggests clearer comms and expectations would help.
+
+Asks:
+	•	Are you supportive of (a) default-OFF plugins and (b) a short guidance note from you to reinforce logging of efficiency/time-saved? I can draft the note for your review.
+
+2) Surveillance AI
+	•	Recommend including a brief update for Brian and in the CO update. I’ll prepare a crisp paragraph unless you’d like a slide instead.
+
+3) PRC cadence change (FYI)
+	•	PRC moving from 6 to 8 meetings next year, with requests for updates from each risk stripe per meeting → net increase in our update workload.
+	•	We’re engaging with Ross’s team to see where supplementary info can be streamlined (e.g., quarterly cadence for certain metrics).
+
+Asks:
+	•	Any guidance on where to push hardest on burden reduction before we revert to Ross’s team?
+
+4) Near-term follow-ups
+	•	EIA/UI preliminary findings: I’ll coordinate with George for a summary.
+	•	IMM exam: Awaiting update from Sandra.
+	•	AI feedback summary: Phil and I will send you a one-pager by Monday covering: what we’re tracking, early sentiment, concrete examples, and adoption hurdles.
+
+Happy to adjust any of the above—please let me know preferences (e.g., plugin default stance, comms tone, slide vs. paragraph for Surveillance AI).
+
+Thanks,
+Yibo
+
+CC: Phil, Bo, (add others as needed)
+
+⸻
+
+Want me to tailor this for a senior-leadership tone (even tighter, with a 5-line executive summary at the top), or draft the “time-saved logging” note in your voice for Bill to send?
+
+
+
+
+
 Got it — thanks for clarifying. You meant the posting email to Bill about the PRC/BRC cadence change (last part of the transcript). Here’s a clean draft you can send:
 
 ⸻
