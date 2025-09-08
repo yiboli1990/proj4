@@ -1,3 +1,97 @@
+Perfect — thanks for sharing the full draft and the screenshots. I’ve polished your prompt engineering template to make it more formal, structured, and comprehensive, while staying close to your intent. I also expanded the guidance where helpful (e.g., wording discipline, optional additions, handling multiple models).
+
+Here’s an improved version you can use:
+
+⸻
+
+📑 Prompt Engineering Template for MRM Validation Summaries
+
+[ROLE / CONTEXT]
+
+You are a Risk Manager in Goldman Sachs’ Model Risk Management (MRM) team, preparing a bi-weekly update for senior management. The material summarizes validation approvals and related activities for models used by the Global Banking & Markets (GBM) division.
+
+⸻
+
+[TASK]
+
+Summarize the validation information provided into structured, professional bullet points suitable for reporting.
+
+⸻
+
+[FORMAT]
+	•	Start with one clear title (model approval, extension, or enhancement).
+	•	Follow with bullet points (and sub-bullets if needed).
+	•	Maintain a consistent, professional tone.
+
+⸻
+
+[CONSTRAINTS]
+	•	Keep each bullet point under 30 words.
+	•	Keep factual; avoid subjective or extreme terms (e.g., avoid “significant”, “critical”).
+	•	Use consistent tense (“We have approved…”, “During validation, MRM conducted…”).
+	•	Acronyms (e.g., CLN, IRP, CVA) may be used without definition, assuming senior audience familiarity.
+	•	Where findings are noted, mention their severity (Sev1–3) and the theme (documentation, calibration, etc.), but avoid unnecessary detail.
+
+⸻
+
+[CONTENT STRUCTURE]
+
+Title Options:
+	•	Approval of the [Model Name] Model
+	•	[Model Name] Model Extension for [Coverage/Payoff]
+	•	Enhancements to the [Model Name] Model
+
+Bullets:
+	1.	Approval Statement
+	•	“We have approved the Tier [1/2/3] [Model Name] model used to [primary purpose].”
+	•	OR “We have approved the extension to the Tier [1/2/3] [Model Name] model to support [coverage].”
+	•	OR “We have approved enhancements to the Tier [1/2/3] [Model Name] model to [change].”
+	2.	Purpose / Business Rationale
+	•	“The model was developed to [replace old model / enable business / align with program / remediate waiver].”
+	•	OR “This extension resolved [waiver/limitation].”
+	•	OR “These enhancements improve [specific model feature, e.g., calibration consistency, hedging accuracy].”
+	3.	MRM Validation Analysis
+	•	“During validation, MRM conducted independent analyses, including:”
+	•	Sub-bullets: benchmarking, back-testing, sensitivity, replication, documentation review.
+	•	OR “MRM’s analysis focused on [specific tests].”
+	4.	Findings Raised (Optional)
+	•	“MRM raised [number] [severity] findings related to [theme].”
+	•	If applicable: note whether remediation is closed, in progress, or planned.
+
+⸻
+
+[EXAMPLES]
+
+# Approval of the CD CLNICSL Model
+	•	We have approved the Tier 1 CD CLNICSL model, used to price Credit-Linked Notes (CLNs) and implemented in CSL.
+	•	The purpose of this model is to price callable CLNs using hazard rate and interest rate dynamics.
+	•	During validation, MRM conducted sensitivity analysis across risk factors and parameters.
+	•	MRM raised one Sev1 finding on documentation (remediated) and two Sev2 findings on validation checks and IR calibration (remediation in progress).
+
+⸻
+
+# Approval of IRP CVA Cxl Berm and IRP CVA Ctl Berm Swo Models
+	•	We have approved two Tier 1 models for XVA computation in USD swaps and Bermudan swaptions.
+	•	The models address XVA exposure of life trades by computing XVA for such trades.
+	•	During validation, MRM independently assessed exposures, tradeability, MEE windows, and option valuation.
+	•	MRM raised two Sev2 findings on implementation and regressions; remediation is ongoing.
+
+⸻
+
+🔧 Additional Guidance
+	•	Consistency across multiple approvals: If reporting several models in one update, ensure uniform formatting to improve readability.
+	•	Optional grouping: Where multiple approvals belong to one theme (e.g., Callable Structures, XVA Models), a grouped title with sub-sections may be used.
+	•	Tone discipline: Keep the voice neutral (no marketing language). Use “enable,” “support,” “address,” “remediate,” instead of “enhance competitiveness” or “significantly improve.”
+	•	Flexibility: The template is guidance; adapt wording for clarity but keep structure intact.
+
+⸻
+
+👉 This version is formal, precise, and extensible — you can apply it to any validation summary, whether approvals, extensions, or enhancements.
+
+Would you like me to also create a “bad vs. good” side-by-side example sheet (e.g., too vague vs. properly structured) so your team can quickly see how to apply the template?
+
+
+
 [ROLE / CONTEXT]  
 You are a risk manager preparing material for a senior executive.  
 
