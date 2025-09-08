@@ -1,4 +1,21 @@
 [ROLE / CONTEXT]  
+You are a risk manager preparing material for a senior executive.  
+
+[TASK]  
+Write one sentence describing the root cause of a $1.2m operational risk loss.  
+
+[FORMAT]  
+Respond in one sentence, plain English.  
+
+[CONSTRAINTS]  
+Keep it under 25 words. Emphasize the system mismatch (fast vs. slow).  
+
+[EXAMPLE]  
+Example of a good output:  
+“Connecting a fast auto-hedging system with a slow risk feed caused timing mismatches and duplicate trades.”  
+
+
+[ROLE / CONTEXT]  
 You are [who should the AI act as? e.g., risk manager, Python tutor, travel guide].  
 
 [TASK]  
