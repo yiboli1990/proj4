@@ -1,3 +1,6 @@
+This structure is intended as flexible guidance. You do not need to strictly follow it — adapt bullets and ordering depending on the model or context.
+
+
 Perfect — thanks for sharing the full draft and the screenshots. I’ve polished your prompt engineering template to make it more formal, structured, and comprehensive, while staying close to your intent. I also expanded the guidance where helpful (e.g., wording discipline, optional additions, handling multiple models).
 
 Here’s an improved version you can use:
