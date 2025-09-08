@@ -1,3 +1,20 @@
+[ROLE / CONTEXT]  
+You are [who should the AI act as? e.g., risk manager, Python tutor, travel guide].  
+
+[TASK]  
+Your task is to [specific action: summarize, explain, draft, calculate].  
+
+[FORMAT]  
+Respond in [bullets / table / one sentence / paragraph / code].  
+
+[CONSTRAINTS]  
+Keep it [under X words / formal tone / plain English / include examples / no jargon].  
+
+[EXAMPLES (optional)]  
+Example of a good output: “...”  
+
+
+
 Great question — think of prompt engineering as designing instructions for an AI the way you’d design requirements for a junior analyst: clear, structured, and contextual.
 
 Here’s a practical framework you can use:
