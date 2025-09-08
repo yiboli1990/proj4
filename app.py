@@ -1,3 +1,42 @@
+Here’s a slightly tightened and polished version of your draft. I kept your structure but improved flow, readability, and consistency:
+
+⸻
+
+Top of Mind®
+	•	MRM MRA Remediation (Annual Review): Remediation remains on track, with infrastructure enhancements and training completed ahead of the Sep 30 deadline
+	•	Rollout is underway, with reviews for ~700 models to be completed under the enhanced framework by Dec 19
+	•	We plan to schedule time with the FRB in the coming weeks to review the approach for addressing incremental CCAR feedback
+
+Artificial Intelligence
+	•	Validation is in progress for the Tier 1 Compliance surveillance AI used to review insider trading cases and narrow the scope of matters escalated for human review
+	•	First AI model with fully agentic components, where the system both determines workflow and executes tasks
+	•	Notable recent validations include:
+	•	Equity Share Buyback Pricer: Revalidation of the first Tier 1 GBM Public machine-learning pricer; approval of 13 additional exotic features frequently requested by clients
+	•	Model leverages a neural network to fair-value equity share buyback transactions, improving execution and client pricing competitiveness
+	•	Fast Quoting (Agni Sharkfin): Approval of Tier 2 GBM Public neural network pricer that reduces quoting time by 72% for equity structured product charges
+
+Validation Activities
+	•	Approved migration of the mortgage prepayment model to the Delphi framework for pricing PWM mortgages
+	•	Addresses a validation finding and aligns methodology across AWM and GBM
+	•	Approved enhancements to the commodity margin shortfall model for GSEC clients, following annual review assessments in Q1
+	•	Enhancements include recalibrated Cocoa shocks after recent volatility, plus new ongoing monitoring for missing Delta and Vega liquidation charges
+
+Regulatory Updates
+	•	FRB held the soft-close call last week for the Transaction Banking AML Remediation Verification Event (RVE)
+	•	Confirmed all findings, including one on Compliance models requiring development and testing enhancements, are expected to close with no new findings
+	•	NFA 2025 Swap Dealer Exam: Initial response submitted Sep 5
+	•	Questionnaire requested pricing/risk model inventory and policy breaches; awaiting scope clarification from NFA
+	•	Compliance expects heightened focus on model governance in this year’s exam
+	•	PRA Periodic Summary Meeting (PSM): E&Y audit of model changes under IMM and IRB approaches completed
+	•	Six preliminary findings identified on model change notification process, covering missing notifications, process scope, governance, and documentation
+
+⸻
+
+Would you like me to make this more executive-friendly (shorter, more headlines, fewer details), or keep it in this technical but polished format for internal tracking?
+
+
+
+
 Here’s a concise draft you can paste into Outlook/Gmail:
 
 ⸻
