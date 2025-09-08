@@ -1,3 +1,48 @@
+Great question — think of prompt engineering as designing instructions for an AI the way you’d design requirements for a junior analyst: clear, structured, and contextual.
+
+Here’s a practical framework you can use:
+
+⸻
+
+🔑 Steps to Construct a Good Prompt
+	1.	Set the Role / Context
+	•	Tell the model who it should act as and what the situation is.
+	•	Example: “You are a risk manager summarizing an operational loss for senior management.”
+	2.	Specify the Task Clearly
+	•	State exactly what you want (summarize, draft, translate, compute, etc.).
+	•	Example: “Write a one-sentence description of the root cause.”
+	3.	Define the Format / Style
+	•	Indicate whether you want bullets, tables, headlines, code, formal/informal tone.
+	•	Example: “Respond in 3 concise bullets, using plain English.”
+	4.	Add Constraints / Rules
+	•	Set length, scope, or exclusions.
+	•	Example: “Keep under 20 words. Do not mention technical system names.”
+	5.	Provide Examples (if possible)
+	•	Show the model what “good” looks like.
+	•	Example: “Good example: ‘System integration caused a timing mismatch leading to losses.’”
+	6.	Iterate & Refine
+	•	Start broad, then tighten.
+	•	Treat it like coaching: you give feedback, and the prompt evolves.
+
+⸻
+
+🧩 Prompt Template You Can Reuse
+
+Role/Context: “You are [X] working on [Y]…”
+Task: “Please [do Z]…”
+Format: “Respond in [bullets / table / one sentence / code].”
+Constraints: “Keep under [N words / no jargon / include examples].”
+Examples (optional): “For example: [give 1-2 good outputs].”
+
+⸻
+
+✅ Example for your op risk case:
+“You are a risk manager preparing material for a senior exec. Write one sentence describing the root cause of the $1.2m op risk event. Keep it plain English, under 25 words, and emphasize system mismatch (fast vs. slow).”
+
+⸻
+
+Do you want me to create a cheat sheet of reusable prompt templates (e.g., summarize, draft, explain, code, translate) that you can copy-paste for different tasks?
+
 Here’s a slightly tightened and polished version of your draft. I kept your structure but improved flow, readability, and consistency:
 
 ⸻
