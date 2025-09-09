@@ -1,3 +1,14 @@
+LDN NM Bermudan Callables Summary
+	•	Since Oct 2023, desk trades SSA callables with EBRD, mainly in TRY; also expanded to ZAR and MXN. Business generated ~$60mm PNL.
+	•	Typical structure: 10yNC1, GS pays TRY zero coupon, receives USD floating, holds call option; new trades accrete ~20%.
+	•	Early trades (7yNC1y) had ~40% accretion, almost always called at first date.
+	•	Smaller GS-issued callable notes in ZAR, HUF, PLN, RUB traded pre-EBRD, minor size.
+	•	Mar 2024: +$1.7mm from correcting MEE window pricing; Aug 2025: -$2.8mm modeling losses (mean reversion, calibration, zero-coupon Berm approach).
+
+Would you like me to make an even shorter 3-bullet executive version for senior management decks?
+
+
+
 I apologize for the oversight. Let’s correct that.
 
 For Kainan as a colleague:
