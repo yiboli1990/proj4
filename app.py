@@ -1,3 +1,30 @@
+Here’s a concise structured summary of your text:
+
+⸻
+
+LN NM Callable Activity & Issues
+	•	Business Activity
+	•	Entered SSA callable market in Oct 2023 with EBRD Bermudans.
+	•	Started in TRY (waiver 8759), expanded to ZAR & MXN. TRY remains largest.
+	•	~$60mm PnL generated to date.
+	•	Trade Structure
+	•	Typical: 10y NC1y with annual calls, TRY zero vs USD floating.
+	•	GS holds call option; notional exchanged at call.
+	•	Earlier trades had ~40% accretion (called early); new trades ~20%.
+	•	Desk also trades smaller GS-issued callables (ZAR, HUF, PLN, RUB).
+	•	March 2024 Issue (+$1.7mm)
+	•	Non-continuous MEE window used (Oct24/26/28), mis-reflecting early-call likelihood.
+	•	MRM required continuous MEE windows; remarking added +$1.7mm.
+	•	August 2025 Issues (-$2.8mm est.)
+	•	-$1.3mm: Incorrect mean reversion mark (default vs trading value).
+	•	-$0.3mm: Unstable calibration (LMFS parameter inherited, unsuitable for short trades).
+	•	-$1.2mm: Approximate calibration for zero-coupon Berms inaccurate under TRY OIS–Xccy basis; MRM alternative reduced value.
+
+⸻
+
+Do you want me to simplify this further into just 4–5 bullets (like a high-level “executive summary”), or keep the current slightly more detailed breakdown?
+
+
 LDN NM Bermudan Callables Summary
 	•	Since Oct 2023, desk trades SSA callables with EBRD, mainly in TRY; also expanded to ZAR and MXN. Business generated ~$60mm PNL.
 	•	Typical structure: 10yNC1, GS pays TRY zero coupon, receives USD floating, holds call option; new trades accrete ~20%.
