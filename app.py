@@ -1,3 +1,16 @@
+I apologize for the oversight. Let’s correct that.
+
+For Kainan as a colleague:
+
+1. What are this person’s top strengths that make them effective in their role?
+
+Kainan exhibits an exceptional technical aptitude that has been foundational to our team’s accomplishments. Her ability to communicate complex ideas succinctly is noteworthy. Her invaluable contributions, especially in areas such as transaction waivers, various reporting decks, and Model IT matters, underline her comprehensive skill set.
+
+2. What is at least one thing this person should consider doing to increase their effectiveness?
+
+While Kainan’s collaborations within the team are commendable, a minor suggestion would be for her to further extend her interactions with colleagues beyond our direct team. By broadening her outreach, she can glean diverse insights and viewpoints, potentially enriching our team’s approach and solutions. This slight expansion in networking can further enhance her already significant impact.
+
+
 This structure is intended as flexible guidance. You do not need to strictly follow it — adapt bullets and ordering depending on the model or context.
 
 
