@@ -1,3 +1,14 @@
+For Ariana as a colleague:
+
+1. What are this person’s top strengths that make them effective in their role?
+
+Ariana’s prowess in coordination stands out distinctly. She seamlessly interacts with various teammates within Model Risk and liaises effectively with other divisions. Her ability to guide and assist, especially evident from my personal experience as a new joiner last year, is truly commendable. Her support has been instrumental in my smooth integration into the team.
+
+2. What is at least one thing this person should consider doing to increase their effectiveness?
+
+Considering Ariana’s strength in coordination and liaison, she might benefit from occasionally attending inter-departmental workshops or seminars. By broadening her network and understanding of the intricacies of other divisions, she can further hone her liaison skills, ensuring even more streamlined communication and collaboration across divisions.
+
+
 Here’s a concise structured summary of your text:
 
 ⸻
