@@ -1,3 +1,30 @@
+Here’s a refined version of your summaries, keeping the same structure but making each bullet exactly one sentence:
+
+⸻
+
+Tier 1 Compliance surveillance AI
+Tier 1 Compliance surveillance AI is used to review insider trading cases and reduce escalations for human review, currently under MRM validation and in the pipeline for AIRCC and ERC review.
+	•	This is the first AI model with agentic components, enabling the system to both shape the review workflow and execute tasks.
+
+Notable recent model validations include:
+Revalidation of the Equity Share Buyback pricing model (Tier 1 GBM Public ML pricer) with approval of 13 exotic features frequently requested by clients.
+	•	This update deprecates the slang pricer and migrates all features to Python.
+	•	The model leverages a neural network to fair-value equity share buyback transactions, improving execution and pricing competitiveness.
+
+Fast Quoting
+MRM approved the Agni Sharkfin model (Tier 2 GBM Public), a neural network pricer reducing quoting time by 72% (from 3 minutes to 50 seconds) for equity structured product charges.
+	•	This improvement addresses client feedback that quoting latency above two minutes is increasingly unacceptable as peers accelerate.
+
+Private Wealth mortgages
+MRM approved the migration of Private Wealth mortgages from Cyprus to Delphi, aligning methodology across AWM and GBM with distinct parameters for different uses, impacting $12Bn of notional.
+	•	The change remediates a validation finding and enables the model to capture a wider set of borrower behaviors.
+
+⸻
+
+Would you like me to make this even tighter (e.g., merge the sub-bullets into one line each) so that the whole section reads like a set of concise highlights?
+
+
+
 Alright, here’s a structured response to the first question about Caroline:
 
 1. What is one thing your manager does well and should continue doing?
