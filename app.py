@@ -1,3 +1,10 @@
+Alright, here’s a structured response to the first question about Caroline:
+
+1. What is one thing your manager does well and should continue doing?
+
+Caroline excels in recognizing the potential in her team members and nurturing their professional growth. One standout instance of this was when she involved me in the Deterministic Regulatory calculations (DRCs) project. Her decision to include me not only showcased her trust in my abilities but also provided me with a valuable opportunity to enhance my skill set and understanding. I sincerely hope she continues with this approach, as it’s been instrumental in my personal and professional development.
+
+
 For Ariana as a colleague:
 
 1. What are this person’s top strengths that make them effective in their role?
