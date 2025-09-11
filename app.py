@@ -1,3 +1,30 @@
+Likelihood:
+S = SUM(w[n], n=1..M)    where w[n] = weight of model n, M = number of models
+
+Likelihood(S) = {
+   Systemic     if S ≥ 101
+   Repeated     if 41 ≤ S ≤ 100
+   Occasional   if 16 ≤ S ≤ 40
+   Remote       if 0 ≤ S ≤ 15
+}
+
+
+Impact (per dimension i: financial, regulatory, reputational...):
+T[i] = SUM(x[i,n], n=1..M)    where x[i,n] = 1 if model n has High impact on dimension i, else 0
+
+Impact[i] = {
+   Critical     if T[i] ≥ 401
+   High         if 101 ≤ T[i] ≤ 400
+   Moderate     if 51 ≤ T[i] ≤ 100
+   Low          if 0 ≤ T[i] ≤ 50
+}
+
+Overall Impact = worst( Impact[i] across all dimensions )
+
+
+
+
+
 Here’s a clearer, more structured version of your email draft. I kept the tone professional but collaborative, made the points sharper, and grouped them into clear sections for Bill and others to follow easily:
 
 ⸻
