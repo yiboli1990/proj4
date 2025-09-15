@@ -1,3 +1,46 @@
+Here’s a clear summary of the key points from the image you shared:
+
+⸻
+
+CMT Validation Overview
+	•	Context: MRM validating extensions to CMT tradables (popular in IRP this year).
+	•	Rationale: Clients prefer CMT over CMS since investors are more familiar with treasury yields vs. swap rates.
+	•	Activity: Most trading occurred earlier in the year, driven by treasury issuance appetite.
+
+⸻
+
+Current Configurations
+	•	10y USD CMT
+	•	Reference: US Treasuries
+	•	Forward: Forward 10y USD Swap rate + Spot Spread + Forward basis
+	•	Vol: 10y USD Vol + Vol & Skew (basis benchmarked)
+	•	EUR Approved and Traded
+	•	Reference: France OATs, Germany Bunds, EU Commission Bonds
+	•	Forward: Linear interpolation between nearest shorter and longer maturity bonds relative to 10y
+	•	Vol: 10y EUR Vol + Basis of (France/Germany/EU) Bond Options
+	•	EUR Approved (Not Traded Yet)
+	•	Reference: Spain Bonds (SPGB)
+	•	Forward & Vol: Same as EUR traded
+
+⸻
+
+Portfolio Size
+	•	10y USD CMT
+	•	Portfolio Notional: ~USD 1.4bn
+	•	Total Vega: ~700 $K/bp
+	•	Risk concentrated in NYC Volex desk (~528 $K/bp Vega on CMTs).
+	•	Remaining portfolio split across Asia and EMEA desks.
+	•	EUR CMTs
+	•	Portfolio: ~$127mm Notional
+	•	Total Vega: ~90 $K/bp
+	•	Products: Mainly autocallables on Tec10 (France’s CMT).
+
+⸻
+
+Would you like me to also prepare a 1-page executive version (very short bullets with only the most material numbers and facts) for senior management circulation?
+
+
+
 Likelihood:
 S = SUM(w[n], n=1..M)    where w[n] = weight of model n, M = number of models
 
