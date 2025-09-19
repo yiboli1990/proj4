@@ -1,4 +1,62 @@
-Here’s a polished version of your draft. I kept the same structure (with the “There is continued…” phrasing) and ensured each bullet is one sentence:
+Here’s a detailed structured summary of the transcript you provided:
+
+⸻
+
+URC / Deck Preparation
+	•	First draft of the URC deck will be ready next week, along with Bryan’s and CR updates.
+	•	Previous issue about findings not appearing on the landing page/exported document has been fixed.
+	•	Clarification needed on PRC topics: emails from Bill suggest possible content/style changes vs original format; action item is to confirm expectations with Jalen/coordination team.
+
+AI Governance & ETSC Policy
+	•	Question raised on whether ETSC policy and firmwide AI standards should be presented to the Board.
+	•	Historically, detailed ETSC policy updates were given to the Board; AI governance was reported to FRAC, but unclear if to the Board—need to verify past precedent.
+	•	Newly published firmwide AI standard should be confirmed with Phil (owner of AI governance publications).
+
+CRO / AI Updates
+	•	Discussion on whether repeating “in-progress” AI model updates every 2 weeks is useful.
+	•	Agreement to focus on notable milestones: e.g., surveillance AI approved by RCC and referred to ERC (likely ERC-approved by next week).
+	•	Validation progress should only be highlighted once per milestone (e.g., approval or completion).
+
+Regulatory Updates
+	•	Alex and regulatory engagement team are consolidating updates across divisions.
+	•	MRM should continue to provide updates but focus only on items directly relevant to MRM (avoid generic or tangential regulatory topics).
+	•	IMM exam and ECPU updates should be framed through an MRM lens if mentioned.
+
+CR Update / Inventory
+	•	Kenan is working on inventory materials for ETSC; final content is TBD but will be included once available.
+
+CRO Update – Broader Themes
+	•	Discussion on CMP-related product validation—question of whether it is worth including for Alex.
+	•	Bill emphasized desire for more reporting on major model categories (pricing, market risk, credit risk, liquidity risk, IRM).
+	•	Current issue: large teams (40+ per area) but little visibility into themes/trends. Need more “stories” or thematic insights.
+	•	Suggestion to brainstorm with David or Beau on how to surface themes across thousands of models.
+
+IRR / Control Metrics Slides
+	•	Updates needed on thresholds and outcome tables in the IRR/control metrics slides.
+	•	Bill requested format improvements (logical ordering, possible additional column).
+	•	Clarification that methodology is already defined in policy, so slides only need to show logical presentation of metrics and thresholds.
+
+Risk Model Performance Updates (FRAC)
+	•	Missed quarterly FRAC risk model performance update; responsibility now consolidated under one person to upload updates.
+	•	Hui and Sergei will feed content, but one owner will handle submissions to avoid surprises for Bill.
+	•	Emphasis: Bill must never be caught off guard by MRM material presented externally; tighter coordination with Chris and others required.
+
+⸻
+
+✅ Key Action Items Identified
+	1.	Confirm PRC/URC deck expectations with Jalen or coordinators.
+	2.	Check historical precedent for presenting AI governance/ETSC updates to Board.
+	3.	Confirm AI standard publication with Phil.
+	4.	Ensure CRO update only highlights milestone AI approvals (e.g., ERC).
+	5.	Prepare regulatory updates focusing on MRM-relevant items; coordinate with reg engagement consolidation.
+	6.	Incorporate Kenan’s inventory work once available.
+	7.	Brainstorm with David/Beau on surfacing broader thematic insights from pricing/risk models.
+	8.	Update IRR/control metrics slides to Bill’s preferred format.
+	9.	Tighten coordination for FRAC risk model performance reporting (one owner, consistent updates).
+
+⸻
+
+Would you like me to also reformat this into a “meeting minutes” style (with attendees, topics, decisions, and follow-ups) so you can use it directly for circulation?Here’s a polished version of your draft. I kept the same structure (with the “There is continued…” phrasing) and ensured each bullet is one sentence:
 
 ⸻
 
