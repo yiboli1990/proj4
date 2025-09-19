@@ -1,4 +1,30 @@
-Here’s a clear summary of the key points from the image you shared:
+Here’s a polished version of your draft. I kept the same structure (with the “There is continued…” phrasing) and ensured each bullet is one sentence:
+
+⸻
+
+Validation Activity
+There is continued growth in the use of artificial intelligence (AI) models and new techniques, including recent approvals of:
+	•	Two generative AI models to classify ~3,000 corporate loans and ~300 mortgages as “credit” or “liquidity” for regulatory reporting.
+	•	A new neural network–based fast pricer for equity structured products, improving speed and expanding the existing family of FX and equity fast pricers, with further extensions planned.
+
+There is continued focus on validation work related to Counterparty Credit Risk (CCR) management enhancements under the firm’s Enterprise Risk Management Framework uplift, including recent approval of volatility scenario design and interest rate loss aggregation updates for the Franchise shortfall model, addressing validation findings.
+
+⸻
+
+Regulatory Updates
+FRB Model Risk Management (MRM) Matter Requiring Attention (MRA) remediation is on track for year-end completion:
+	•	Enhancements to the annual review framework were approved by the Model Risk Control Committee in May, with infrastructure upgrades and training completed ahead of the September 30 deadline.
+	•	Rollout is progressing, with reviews of ~700 models scheduled for completion under the enhanced framework by December 19.
+
+⸻
+
+Program Updates
+There is continued progress in formalizing AI oversight, with Model Risk establishing the Firmwide Standard on AI to codify controls, risk assessment, and approval processes.
+	•	The standard has been reviewed with AIRC and supports both an Enterprise Risk Committee follow-up and remediation of an internal audit finding on ERMF integration and AI usage monitoring.
+
+⸻
+
+Would you like me to make it even tighter (fewer words, almost “board-level headline style”) or keep this polished but still detailed tone?Here’s a clear summary of the key points from the image you shared:
 
 ⸻
 
