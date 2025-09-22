@@ -1,3 +1,12 @@
+Perfect — here’s a refined 4-bullet version that emphasizes validation outcome and clearly describes the change + impact:
+	•	Model risk validated and approved changes to incorporate third-party custodian collateral (equities/govies, enforceable on default) into GMS stress capital, consistent with Legal/Reg Policy and RWA treatment.
+	•	The change allows collateral to offset stress losses, reducing modeled top counterparty default losses from ~$4bn (CA) / ~$3bn (OH) toward ~$1.5bn or lower.
+	•	RAS still shows outsized losses versus CCAR-2025 ($1.3bn), largely driven by stock loan exposures with state pensions.
+	•	Approval is targeted before October to mitigate stress capital buffer impacts, with no concerns on PCC or methodology.
+
+Would you like me to keep the state-level detail (California/Ohio) in the bullets, or simplify it into a generic “large state pension exposures” for senior audiences?
+
+
 Here’s a 3-bullet model risk–focused summary you can use:
 	•	RAS highlights outsized counterparty default losses (California ~$4bn, Ohio $3bn) versus CCAR-2025 ($1.3bn), largely driven by stock loan exposures.
 	•	Proposed approach leverages third-party custodian collateral (equities, govies) for GMS stress capital; approved by Legal/Reg Policy and aligned with RWA treatment.
