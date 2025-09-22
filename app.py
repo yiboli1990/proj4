@@ -1,3 +1,13 @@
+Here’s a refined CRO-level version starting with “Model Risk has been validating…”:
+	•	Model Risk has been validating Constant Maturity Treasury (CMT) products, which are linked to U.S. Treasury yields and are more intuitive for investors than swap-based products.
+	•	Approvals now cover USD 10-year CMTs and Euro CMTs, with Spain CMTs approved but not yet traded.
+	•	The largest exposure is in USD 10-year CMTs (~$1.4bn notes), with risk concentrated in the New York desk.
+	•	Euro CMTs are smaller (~$127mm) and mainly used in structured products, providing portfolio diversification.
+
+Do you want me to shorten further into 3 bullets (focusing only on validation progress, USD concentration, and EUR diversification), or keep this 4-bullet structure?
+
+
+
 Here’s a detailed structured summary of the transcript you provided:
 
 ⸻
