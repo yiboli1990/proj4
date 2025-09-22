@@ -1,4 +1,9 @@
-Here’s a refined CRO-level version starting with “Model Risk has been validating…”:
+Here’s a 3-bullet model risk–focused summary you can use:
+	•	RAS highlights outsized counterparty default losses (California ~$4bn, Ohio $3bn) versus CCAR-2025 ($1.3bn), largely driven by stock loan exposures.
+	•	Proposed approach leverages third-party custodian collateral (equities, govies) for GMS stress capital; approved by Legal/Reg Policy and aligned with RWA treatment.
+	•	Model risk has no concerns with methodology or PCC; approval is targeted before October to reduce stress capital buffer impacts.
+
+Do you want me to also simplify the counterparty/state details for a CRO-level audience?Here’s a refined CRO-level version starting with “Model Risk has been validating…”:
 	•	Model Risk has been validating Constant Maturity Treasury (CMT) products, which are linked to U.S. Treasury yields and are more intuitive for investors than swap-based products.
 	•	Approvals now cover USD 10-year CMTs and Euro CMTs, with Spain CMTs approved but not yet traded.
 	•	The largest exposure is in USD 10-year CMTs (~$1.4bn notes), with risk concentrated in the New York desk.
