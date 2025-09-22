@@ -1,4 +1,9 @@
-Perfect — here’s a refined 4-bullet version that emphasizes validation outcome and clearly describes the change + impact:
+Got it — here’s the streamlined 3-bullet flow using your structure:
+	•	Model risk validated and approved incorporation of third-party custodian collateral (equities/govies, enforceable on default) into GMS stress capital, consistent with Legal/Reg Policy and RWA treatment.
+	•	Change was due to outsized RAS counterparty default losses ($4bn California, $3bn Ohio vs $1.3bn in CCAR-2025), largely from stock loan exposures with state pensions.
+	•	Impacts include reducing modeled top counterparty losses toward ~$1.5bn, mitigating stress capital buffer pressure, with no concerns on PCC or methodology.
+
+Do you want me to keep the numbers in the second and third bullets, or make them more high-level for CRO slides?Perfect — here’s a refined 4-bullet version that emphasizes validation outcome and clearly describes the change + impact:
 	•	Model risk validated and approved changes to incorporate third-party custodian collateral (equities/govies, enforceable on default) into GMS stress capital, consistent with Legal/Reg Policy and RWA treatment.
 	•	The change allows collateral to offset stress losses, reducing modeled top counterparty default losses from ~$4bn (CA) / ~$3bn (OH) toward ~$1.5bn or lower.
 	•	RAS still shows outsized losses versus CCAR-2025 ($1.3bn), largely driven by stock loan exposures with state pensions.
