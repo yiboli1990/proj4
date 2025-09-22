@@ -1,4 +1,9 @@
-Got it — here’s the streamlined 3-bullet flow using your structure:
+Here’s the updated version with previous vs. current approach built in:
+	•	Model risk validated and approved incorporation of third-party custodian collateral (equities/govies, enforceable on default) into GMS stress capital, consistent with Legal/Reg Policy and RWA treatment.
+	•	Change was due to outsized RAS counterparty default losses ($4bn California, $3bn Ohio vs $1.3bn CCAR-2025), with the previous approach requiring trade reductions to manage stress buffer impacts.
+	•	Current approach recognizes enforceable third-party collateral, reducing modeled top counterparty losses toward ~$1.5bn, mitigating stress capital buffer pressure, with no concerns on PCC or methodology.
+
+Do you want me to separate the “previous vs. current approach” into two distinct bullets, or keep it blended as above for brevity?Got it — here’s the streamlined 3-bullet flow using your structure:
 	•	Model risk validated and approved incorporation of third-party custodian collateral (equities/govies, enforceable on default) into GMS stress capital, consistent with Legal/Reg Policy and RWA treatment.
 	•	Change was due to outsized RAS counterparty default losses ($4bn California, $3bn Ohio vs $1.3bn in CCAR-2025), largely from stock loan exposures with state pensions.
 	•	Impacts include reducing modeled top counterparty losses toward ~$1.5bn, mitigating stress capital buffer pressure, with no concerns on PCC or methodology.
