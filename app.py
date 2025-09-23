@@ -1,3 +1,6 @@
+Counterparties may post excess collateral in securities borrowing/lending, held with third-party custodians and enforceable on default.
+
+
 Here’s a refined 3-bullet version focusing on model risk and keeping it simple:
 	•	Model risk validated inclusion of excess financial collateral (equities/govies above margin/haircut, enforceable on default) into Large Counterparty Default calculations feeding GMS stress capital.
 	•	Previous approach excluded these excess collaterals, driving outsized RAS losses ($54bn California, $3bn Ohio vs $1.3bn CCAR) and forcing trade reductions to manage stress buffer.
