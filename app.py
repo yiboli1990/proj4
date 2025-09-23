@@ -6,6 +6,15 @@ Here’s a refined 3-bullet version focusing on model risk and keeping it simple
 Would you like me to also prepare a “before vs after” mini-table version (previous vs new approach) so you can drop it straight into your deck?
 
 
+
+Here’s a refined 3-bullet version focusing on model risk and keeping it simple:
+	•	Model risk validated inclusion of excess financial collateral (equities/govies above margin/haircut, enforceable on default) into Large Counterparty Default calculations feeding GMS stress capital.
+	•	Previous approach excluded these excess collaterals, driving outsized RAS losses ($54bn California, $3bn Ohio vs $1.3bn CCAR) and forcing trade reductions to manage stress buffer.
+	•	New approach recognizes enforceable excess collateral, lowering modeled top counterparty losses toward ~$1.5bn, easing stress capital buffer pressure (note: not included in credit shortfall/CPE).
+
+Would you like me to also prepare a “before vs after” mini-table version (previous vs new approach) so you can drop it straight into your deck?
+
+
 Here’s the updated version with previous vs. current approach built in:
 	•	Model risk validated and approved incorporation of third-party custodian collateral (equities/govies, enforceable on default) into GMS stress capital, consistent with Legal/Reg Policy and RWA treatment.
 	•	Change was due to outsized RAS counterparty default losses ($4bn California, $3bn Ohio vs $1.3bn CCAR-2025), with the previous approach requiring trade reductions to manage stress buffer impacts.
