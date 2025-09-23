@@ -1,3 +1,5 @@
+The new approach aligns with Legal/Reg Policy and RWA treatment but is not applied in credit shortfall analysis, since clients can recall collateral absent default or dispute.
+
 Counterparties may post excess collateral in securities borrowing/lending, held with third-party custodians and enforceable on default.
 
 
