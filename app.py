@@ -1,4 +1,15 @@
-The new approach aligns with Legal/Reg Policy and RWA treatment but is not applied in credit shortfall analysis, since clients can recall collateral absent default or dispute.
+Here’s a smoother version of your text, with tighter phrasing and more consistent structure:
+
+⸻
+
+There is continued growth in the use of artificial intelligence (AI) models and new techniques, including recent approvals of:
+	•	A Tier 1 generative AI model to classify loan proceeds as “credit” or “liquidity” for 6G reporting of the back book, as part of efforts to address supervisory feedback
+	•	Enhancements to neural network–based pricing models, adding new features and products for large equity accelerated share buybacks and structured product valuation adjustments
+	•	Lower-tier generative AI models for data extraction, search enhancement, and information retrieval, developed primarily to improve productivity and strengthen the GS AI Assistant
+
+⸻
+
+Would you like me to make this even more concise (one line per bullet, stripped of context like “part of efforts to address supervisory feedback”), or keep the fuller explanations?The new approach aligns with Legal/Reg Policy and RWA treatment but is not applied in credit shortfall analysis, since clients can recall collateral absent default or dispute.
 
 Counterparties may post excess collateral in securities borrowing/lending, held with third-party custodians and enforceable on default.
 
