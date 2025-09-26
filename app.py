@@ -1,3 +1,50 @@
+Here’s a transaction waiver summary in the same structure as the TWL STRIPS one — simplified, structured, and with jargon explained. I also gave the trade a name: Brazil Inflation-Linked Swap Package.
+
+⸻
+
+Transaction Waiver Summary
+
+Product: Brazil Inflation-Linked Swap Package (~$7m max PnL across 4 swaps)
+
+Structure
+	•	Trades involve Brazil inflation-linked swaps where the inflation leg starts as floating (linked to NTNB yield + spread) and later becomes fixed using Anbima’s closing yield (official Brazilian bond index).
+	•	Four swaps to be executed with clients:
+	•	Client A: BRL 1bn, 15y, ETA today
+	•	Client B: BRL 1bn, 12–15y, ETA next week
+	•	Client C: BRL 500m, 15y, ETA October
+	•	Client D: BRL 2bn, 10–12y, ETA October
+
+Day-1 Booking
+	•	Trades booked as vanilla swaps (standardized swaps) due to system limitation.
+	•	Risk in front-office (FO) systems will be shown incorrectly, but corrected risk can be run offline using the proper model and shared daily with the desk.
+	•	Expected resolution in less than a week once DTP Tech team enables the fixing event mapping.
+
+Reason for Waiver
+	•	The correct model exists, but system mapping of the fixing event (date when inflation leg rate is locked) is not yet supported in DTP.
+	•	Booking workaround (vanilla swaps) avoids rebooking later with new confirmations (ETI).
+
+Remediation Plan
+	•	DTP Tech team (led by Felipe Carvalho) has prioritized fixing event mapping.
+	•	Target completion in under a week; waiver requested to cover interim trades.
+
+⸻
+
+Definitions of Jargon
+	•	Inflation-linked swap: A swap where payments depend on inflation index (here, Brazilian NTNB bond yields).
+	•	NTNB: Long-term Brazilian government bonds indexed to inflation (benchmark for swaps).
+	•	Spread: Additional fixed margin added to a reference rate.
+	•	Anbima close yield: Official end-of-day yield from Anbima (Brazilian financial market association), used to fix swap rates.
+	•	Fixing event: The point when a floating rate is locked and becomes fixed in the trade.
+	•	Vanilla swap: A plain, standard interest rate swap (used here as a placeholder).
+	•	FO systems: Front-office systems used by traders for pricing and risk.
+	•	ETI confirmation: Standard client trade confirmation; avoids rebooking.
+
+⸻
+
+Do you also want me to condense this into a 3-bullet executive tracker version (like I did with the STRIPS deal), for easier inclusion in a waiver deck?
+
+
+
 Understood — here’s a very simplified version of your trade structure summary, with jargon kept minimal and explained in brackets:
 
 ⸻
