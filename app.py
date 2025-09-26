@@ -1,3 +1,42 @@
+Here’s a clean transaction waiver summary draft you can use. I also gave the trade product a name: TWL STRIPS Forward Repack.
+
+⸻
+
+Transaction Waiver Summary
+
+Product: TWL STRIPS Forward Repack ($275mm)
+
+Structure
+	•	Day 1: Client invests USD 285mm into SPV.
+	•	~$85mm allocated to 26y zero-coupon component:
+	•	10y NYL zero-coupon bond accreting to ~$135mm.
+	•	10y forward purchase of $285mm UST P-strip (05/15/51).
+	•	~$200mm allocated to subordinated note of a CFO (pure passthrough, not modeled).
+	•	Year 0–10: GS provides passthrough swap.
+	•	Year 10: NYL bond matures; redemption funds settle the UST P-strip forward, delivering $285mm P-strip to SPV.
+	•	Year 10–26: GS provides zero-coupon passthrough swap until UST P-strip matures.
+	•	Year 26: $285mm UST P-strip matures and returned to client.
+	•	Credit Event: Default of NYL bond (0–10y) → unwind at MtM, GS claims up to NYL bond value.
+
+Day-1 Booking
+	•	Underlying: short CT Discrete Lock (UST P-strip forward).
+	•	FVA: CT CVA Participation with exposure defined by underlying.
+	•	Day-1 economics: ~$2.9mm PV (1mm PnL + 800k XVA + 1.1mm SPV fee).
+	•	All PnL reserved Day 1.
+
+Reason for Waiver
+	•	Repack tradable system does not support bond forwards as underlyings.
+	•	CVA requires enhanced repo curve modelling not yet available in repack calculator.
+
+Remediation Plan
+	•	Enhance exposure generation logic under CD CLN Bond Switch MC framework.
+	•	Target timeline: 60 days for development + 30 days for MRM approval review.
+
+⸻
+
+Would you like me to also prepare a short version (3-bullet summary) that could be dropped directly into a waiver tracker deck, alongside this detailed version?
+
+
 Here’s a smoother version of your text, with tighter phrasing and more consistent structure:
 
 ⸻
