@@ -1,4 +1,22 @@
-Here’s a clean transaction waiver summary draft you can use. I also gave the trade product a name: TWL STRIPS Forward Repack.
+Understood — here’s a very simplified version of your trade structure summary, with jargon kept minimal and explained in brackets:
+
+⸻
+
+Simplified Trade Structure Summary
+
+Product: TWL STRIPS Forward Repack ($275mm)
+	•	Day 1: Client invests $285m into a vehicle (SPV).
+	•	~$85m goes into a zero-coupon bond (a bond that grows in value but pays no coupons) and a forward contract (agreement today to buy later) on U.S. Treasury principal STRIPS (Treasury bonds stripped of coupons).
+	•	~$200m goes into a fund obligation note (CFO subordinated note; treated as passthrough).
+	•	Years 0–10: Goldman provides a swap (cash-flow pass-through agreement). If the New York Life bond defaults during this period, the deal is unwound at market value.
+	•	At Year 10: The zero-coupon bond matures; proceeds are used to settle the forward, giving the client $285m of Treasury STRIPS.
+	•	Years 10–26: Client holds the STRIPS with another passthrough swap. At Year 26, the STRIPS mature and $285m is returned to the client.
+
+⸻
+
+This keeps the structure easy to follow without too much technical detail.
+
+👉 Do you want me to make this even shorter (3 bullets) for something like a waiver tracker slide, or is this level good for now?Here’s a clean transaction waiver summary draft you can use. I also gave the trade product a name: TWL STRIPS Forward Repack.
 
 ⸻
 
