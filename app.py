@@ -1,4 +1,60 @@
+Here’s a rewritten transaction waiver summary based on your new information — simplified, structured, and with jargon explained inline where useful.
+
+⸻
+
+Transaction Waiver Summary
+
+Product: Brazil Inflation Notional-Fix Swap (BRL 300m)
+
+Structure
+	•	Swap where Goldman Sachs pays fixed (IPA leg) and receives floating (BRR leg).
+	•	Notional: BRL 300m.
+	•	Notional-fix feature: The notional for the inflation leg is converted into Brazilian reals upfront.
+	•	Day-1 PnL: ~$500k.
+
+Special Feature (Fixing Event)
+	•	The inflation-linked leg begins as floating:
+	•	Defined as NTN-B bond yield + spread.
+	•	The bond yield is only fixed at a future date (already known at trade inception).
+	•	This makes it different from standard swaps — it requires a “fixing event” (system event that locks the yield on the scheduled date).
+
+Day-1 Booking
+	•	Correct model exists and is already approved by MRM.
+	•	However, DTP systems do not yet support the new fixing event.
+	•	Interim booking: trade entered as a vanilla fixed vs floating swap (as if yield already fixed), with daily amendments to mimic the correct exposure.
+	•	Risk workaround: Trading receives correct risk calculations offline from the approved model, but FO systems show incorrect risk until DTP mapping is in place.
+
+Reason for Waiver
+	•	Temporary workaround needed due to missing DTP system support for the fixing event.
+	•	Without waiver, trade would require repeated rebooking and client re-confirmations (ETIs), creating operational friction.
+
+Remediation Plan
+	•	DTP Tech team to map the new fixing event in booking systems.
+	•	Once complete, the trade can be booked directly in the approved model.
+	•	ETI reference: SDBB7MM3334P6WWTZK.
+
+⸻
+
+Jargon Definitions
+	•	IPA fixed / BRR floating: Swap legs — one side pays fixed in IPA terms, the other receives floating in BRL.
+	•	Notional-fix: Swap structure where the notional is converted into local currency upfront.
+	•	NTN-B bond: Brazilian government inflation-linked bond (benchmark for these swaps).
+	•	Spread (spd): Additional fixed margin added on top of the reference yield.
+	•	Fixing event: A scheduled system event to lock a floating yield into a fixed rate on a future date.
+	•	Vanilla swap: A plain fixed vs floating swap, without optional features.
+	•	FO systems: Front-office risk and booking platforms used by trading.
+	•	ETI confirmation: Standardized electronic client trade confirmation.
+
+⸻
+
+Do you want me to also condense this into a short 3-bullet “tracker” version (like for waiver decks), alongside this detailed write-up?
+
+
+
 Here’s a transaction waiver summary in the same structure as the TWL STRIPS one — simplified, structured, and with jargon explained. I also gave the trade a name: Brazil Inflation-Linked Swap Package.
+
+
+	
 
 ⸻
 
