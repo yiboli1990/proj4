@@ -1,5 +1,8 @@
 Here’s a rewritten transaction waiver summary based on your new information — simplified, structured, and with jargon explained inline where useful.
 
+Special Event (Fixing Mechanism): The trade structure allows the client to start the inflation leg on a floating basis, defined as NTN-B bond yield + spread. The bond yield fixing date is predetermined at trade inception but only locked at a future date. This creates a “Notional Fix Swap,” distinct from vanilla fixed-vs-float swaps.
+
+	
 ⸻
 
 Transaction Waiver Summary
