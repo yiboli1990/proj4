@@ -1,3 +1,23 @@
+Here’s a cleaner, sharper rewrite of the table content you shared. I kept the same structure (Stripe / Focus Area / Description / Risk Management Action & Next Steps), but tightened the language, removed redundancy, and made it more “executive-ready”:
+
+⸻
+
+Stripe: MRM
+
+Focus Area: AI Model Validations
+	•	Description: Continued growth in AI model usage, including the recent approval of a Tier 1 generative AI model with agentic components (owned by Compliance) to resolve surveillance alerts without requiring human review.
+	•	Risk Management Action / Next Steps: Validation focuses on governance of generative AI and large language models, ensuring adequacy of controls, oversight, and risk management coverage.
+
+Focus Area: AI Governance
+	•	Description: Model Risk established the Firmwide Standard on AI to formalize controls and oversight, including AI risk assessment and approval processes.
+	•	Risk Management Action / Next Steps: Standard approved by the AI Risk & Controls Committee (AIRCC) as part of a broader program to address Enterprise Risk Committee (ERC) follow-up and remediate internal audit findings. Next steps include integration into risk and control self-assessments (RCSA) and enhancement of monitoring and testing of AI usage.
+
+⸻
+
+Would you like me to also restructure this into a bullet-point slide format (shorter phrases, easier for presentation), or keep it in this more formal “reporting” table style?
+
+
+
 Here’s a rewritten transaction waiver summary based on your new information — simplified, structured, and with jargon explained inline where useful.
 
 Special Event (Fixing Mechanism): The trade structure allows the client to start the inflation leg on a floating basis, defined as NTN-B bond yield + spread. The bond yield fixing date is predetermined at trade inception but only locked at a future date. This creates a “Notional Fix Swap,” distinct from vanilla fixed-vs-float swaps.
