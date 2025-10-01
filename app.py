@@ -1,3 +1,12 @@
+Here’s a simplified 3-bullet version:
+	•	Continued adoption of AI models, including the first Tier 1 generative AI with agentic components (Compliance) to automate surveillance alert closure.
+	•	Tier 1 generative AI (GBM) approved for classifying loan proceeds for regulatory reporting, alongside enhancements to neural network pricing models for equity products.
+	•	Lower-tier generative AI models deployed for data extraction, search, and information retrieval to boost productivity.
+
+Would you like me to make each bullet even shorter (one-liners) for slide-style use?
+
+
+
 Here’s a cleaner, sharper rewrite of the table content you shared. I kept the same structure (Stripe / Focus Area / Description / Risk Management Action & Next Steps), but tightened the language, removed redundancy, and made it more “executive-ready”:
 
 ⸻
