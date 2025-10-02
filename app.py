@@ -1,3 +1,12 @@
+Here’s a 2–3 bullet summary focusing on the observations:
+	•	Training & awareness gaps: Patomak observed that FICC Strats are conservative when flagging SIMM model changes as material, partly due to limited understanding of SIMM regulatory requirements and materiality thresholds; enhanced training is recommended.
+	•	Incomplete model inventory: The Firm has not fully identified all feeder/pricing models impacting SIMM. While PCC controls exist, Patomak noted the lack of comprehensive documentation showing all pricing model changes are consistently evaluated for SIMM materiality.
+	•	Execution/documentation inconsistencies: Although the Firm reviewed 13,509 PCC tickets, Patomak found rationale for why changes were not material to SIMM was not consistently documented, preventing them from concluding that PCC controls are operating effectively.
+
+Would you like me to also propose how to phrase this as a regulatory response draft (i.e., showing acknowledgment + remediation steps), or keep it purely as observation notes?
+
+
+
 Here’s a simplified 3-bullet version:
 	•	Continued adoption of AI models, including the first Tier 1 generative AI with agentic components (Compliance) to automate surveillance alert closure.
 	•	Tier 1 generative AI (GBM) approved for classifying loan proceeds for regulatory reporting, alongside enhancements to neural network pricing models for equity products.
