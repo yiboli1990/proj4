@@ -1,3 +1,13 @@
+Here’s a simplified version in 4 bullets, keeping it crisp but still covering the key points:
+	•	Overall: The paper reflects many SR11-7 design principles, which are already embedded in GS MRM and AIRCC processes.
+	•	Common Ideas: Topics like model lifecycle management, guardrails, and stress testing are already incorporated in Surveillance AI model development and validation.
+	•	Partially Implemented at GS: Concepts like confidence scoring, automated learning loops, and work graphs are applied only for higher-risk models; Surveillance AI currently uses confidence scores.
+	•	GS Additions Beyond the Paper: GS has more detailed policies and templates, and MRM validation applies advanced AI techniques such as agentic benchmarking, hallucination detection, and AI robustness scoring.
+
+Do you want me to make it even more concise (2–3 bullets) for an exec-level audience?
+
+
+
 Here’s a 2–3 bullet summary focusing on the observations:
 	•	Training & awareness gaps: Patomak observed that FICC Strats are conservative when flagging SIMM model changes as material, partly due to limited understanding of SIMM regulatory requirements and materiality thresholds; enhanced training is recommended.
 	•	Incomplete model inventory: The Firm has not fully identified all feeder/pricing models impacting SIMM. While PCC controls exist, Patomak noted the lack of comprehensive documentation showing all pricing model changes are consistently evaluated for SIMM materiality.
