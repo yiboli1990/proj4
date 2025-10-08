@@ -1,3 +1,13 @@
+Here’s a simplified and structured bullet version of your note:
+	•	Meeting Purpose: Discussed PRA’s views on potential discounting of VaR backtesting breaches caused by idiosyncratic single-name moves, in cases where no VaR model deficiencies are identified.
+	•	Context: Concern relates to the capital impact from the backtesting multiplier, despite sufficient capitalization already held in IRC (which covers credit migration and default risks in the trading book).
+	•	Specific Case: A May 12 VaR breach was reviewed, driven by hedge break between the Beigene block trade and its HSI hedges.
+	•	PRA Feedback: PRA emphasized that VaR and IRC capital requirements are not interchangeable, as the risks they cover are distinct, and adjustments for potential double-counting require like-for-like measures.
+
+Would you like me to make this even more executive-summary style (just 2–3 bullets, very high-level), or keep the current 4-bullet detail?
+
+
+
 Here’s a simplified version in 4 bullets, keeping it crisp but still covering the key points:
 	•	Overall: The paper reflects many SR11-7 design principles, which are already embedded in GS MRM and AIRCC processes.
 	•	Common Ideas: Topics like model lifecycle management, guardrails, and stress testing are already incorporated in Surveillance AI model development and validation.
