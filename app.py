@@ -1,3 +1,77 @@
+Executive Summary
+
+Validation activity over the quarter
+** Continued growth in Artificial Intelligence (AI) models and use of new techniques, including approvals of:
+*** The first Tier 1 generative AI model with agentic components, owned by Compliance, used to close insider trading alerts that would otherwise require human review
+*** Tier 1 generative AI models owned by Global Banking & Markets (GBM) Public to classify loan proceeds as "credit" or "liquidity" for 6G reporting for the back book, as part of efforts to address supervisory feedback
+** Continued focus on validation work related to Counterparty Credit Risk (CCR) management enhancements in line with the Enterprise Risk Management Framework (ERMF) uplift, including approval of a Tier 1 model developed to monitor incremental netting and enforceability (N&E) risk across Futures, Derivative Clearing Services, and Securities Lending
+** Ongoing validation work in the Collateralized Lending business, with recent approvals of enhancements to Tier 1 models owned by Risk Engineering and GBM to calculate facility level ratings (FLR) and tail risk measures, extending coverage to asset classes previously handled by fallback models and addressing validation findings
+
+Regulatory updates
+** Federal Reserve Board (FRB) Model Risk Management (MRM) Matter Requiring Attention (MRA) remediation remains on track for completion by year-end
+*** Infrastructure enhancements and training completed ahead of September 30 deadline, following Model Risk Control Committee approval of framework changes in May
+*** Rollout in progress, with reviews of approximately 700 models to be completed under the enhanced framework by December 19
+*** A remediation plan established to address incremental feedback from the 2025 Comprehensive Capital Analysis and Review (CCAR) exam on ongoing monitoring of the credit card loss forecasting model
+
+Program updates
+** Model Risk has established the Firmwide Standard on AI to formalize existing controls and oversight, including AI risk assessment and approval
+*** Standard approved by the AI Risk and Controls Committee (AIRCC) as part of broader actions to address a Firmwide Enterprise Risk Committee (ERC) follow-up and an internal audit finding on RCSA integration and AI usage monitoring
+
+Artificial Intelligence / Machine Learning (ML) Models
+
+Continued growth in development and use of AI/ML models, including approvals of:
+** The first Tier 1 Compliance generative AI model (Surveillance AI) with agentic components that shape review workflow and execute tasks, used to close insider trading alerts that would otherwise require human review
+*** The model closes about 25% of alerts and provides reasoning to help humans process the rest more efficiently
+** The Tier 1 GBM Private generative AI model (Loans AI) used to classify loan proceeds as "credit" or "liquidity" for 6G reporting for the back book, supporting supervisory feedback
+*** Three high-severity issues on accuracy, performance, and fragility were addressed through out-of-sample testing, prompt refinements, and added guardrails, resulting in improved performance
+** Enhancements to neural network-based pricing models, including approvals of:
+*** Extension of the Tier 1 GBM Public equity share buyback pricing model to add features frequently requested by clients
+*** Enhancements to Tier 2 fast pricers for equity structured products, with architectural and feature changes, expanded product coverage, and improved performance, while addressing validation findings
+** Lower-tier generative AI models for tasks such as data extraction, search enhancement, and information retrieval, developed mainly for productivity gains
+
+Collateralized Lending
+
+Continued focus on validation and development work supporting the collateralized lending business, including:
+** Extension of Tier 1 Risk Engineering-owned FLR model for asset-based loans, and Tier 1 Risk Engineering-owned FLR and tail risk models for home equity line of credit (HELOC)
+** Enhancements to Tier 1 business-owned collateral valuation models used in downstream mortgage FLR and tail risk models, extending coverage to transitional single-family rental facilities previously handled by fallback methods, and improving prepayment and default modeling for fix-and-flip loans, addressing findings on performance deterioration
+** Enhancements to the Risk Engineering-owned tail risk fallback model to increase coverage of bespoke deal features
+
+Global Banking & Markets
+
+Validation activity during the period included:
+** Risk management enhancements, including approvals of:
+*** Enhancement to the Tier 1 structured note European options pricing model to incorporate adjustments for market alignment, reducing simulation variance and improving stability in risk calculations
+*** New Tier 2 models for bid and offer quotes on GS-issued American warrants on the Halo platform, replacing the prior quoting function with improved stability and adjustments for illiquid options markets
+** Valuation adjustments, including approvals of:
+*** Enhancements to the Tier 1 stochastic volatility reserve model, with additional parameter testing and calibration penalties to reduce week-over-week noise and improve fit quality
+*** A new Tier 2 equity volatility reserve model for systematic trading and London exotic trades, capturing jump dynamics of underlying assets and strengthening risk management
+** CCR model enhancements, including approvals of:
+*** A new Tier 1 model to monitor incremental N&E risk across Futures, Derivative Clearing Services, and Securities Lending, enabling consistent netting calculations as part of the ERMF uplift
+*** Enhancements to shortfall calculations for Synthetic Products Group portfolios in the Unified Benchmark Model (UBM), improving consistency across business lines following this year’s migration
+*** Other margin shortfall modeling enhancements covering interest rate scenario design, loss aggregation, liquidation charges, and stress testing for repo transactions, addressing validation findings
+** Efficiency and architecture initiatives, including a new simulation method for equity exotics pricing that allows faster convergence, error calculation, and reduced memory usage
+
+Asset and Wealth Management
+
+Migration of the Private Wealth mortgage pricing model to an enhanced prepayment framework, aligning methodology with GBM while maintaining distinct parameters for each use
+** Change addresses a validation finding and expands the model’s ability to capture borrower behavior
+
+Platform Solutions
+
+Ongoing development of credit decision models for the Apple Card portfolio, with approvals including:
+** A new Tier 1 logistic regression-based scorecard model ranking applicants by delinquency risk, supporting credit line management and portfolio monitoring
+** A new Tier 1 XGBoost regression-based model ranking existing customers by expected utilization increase after a proactive credit limit increase (PCI), supporting customer selection and credit line adjustments
+
+Risk
+
+Liquidity Risk: Approval of a new Tier 1 commodities tail risk model to monitor exposures under price rally scenarios
+** Complements the rates liquidity tail risk model approved in July 2025, broadening monitoring of structural exposures
+
+Economic Risk: Approval of a new Tier 1 model estimating expected credit losses on first-lien residential mortgage-backed securities under risk retention regulation
+** A high-severity finding on underestimated default probability is being addressed through model enhancements
+
+
+
 Here’s a simplified and structured bullet version of your note:
 	•	Meeting Purpose: Discussed PRA’s views on potential discounting of VaR backtesting breaches caused by idiosyncratic single-name moves, in cases where no VaR model deficiencies are identified.
 	•	Context: Concern relates to the capital impact from the backtesting multiplier, despite sufficient capitalization already held in IRC (which covers credit migration and default risks in the trading book).
