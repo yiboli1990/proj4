@@ -1,3 +1,5 @@
+pricing model for European options embedded in structured notes
+
 Executive Summary
 
 Validation activity over the quarter
