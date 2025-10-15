@@ -1,4 +1,8 @@
-pricing model for European options embedded in structured notes
+Here’s a cleaner, neutral rewrite that keeps the hierarchy style and avoids long winding phrasing:
+	•	Current Expected Credit Losses (CECL): FRB has concluded the remediation validation event and closed one supervisory finding on inadequate risk capture and ongoing monitoring, while converting the other into a narrower finding focused on the Apple Card Allowance for Credit Loss (ACL) model, with remediation due by June 30, 2026
+** A remediation plan is in progress
+
+Would you like me to also shorten this further into a two-line Executive Summary version (e.g., “One CECL finding closed; remaining narrowed to Apple Card ACL model with remediation due June 2026”)?pricing model for European options embedded in structured notes
 
 Enhancements to the Tier 1 stochastic volatility reserve model, with additional calibration tests of parameter combinations and penalties to limit sharp week-over-week swings, resulting in improved fit quality and reduced volatility noise
 
