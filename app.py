@@ -1,4 +1,13 @@
-Here’s a cleaner, neutral rewrite that keeps the hierarchy style and avoids long winding phrasing:
+Here’s
+Got it — here’s the Economic Risk bullet revised to include both HFI and business-as-usual (BAU) clearly, while keeping it concise and neutral:
+	•	Economic Risk: Approval of a new Tier 1 model estimating current expected credit losses (CECL) on first-lien residential mortgage-backed security (RMBS) loans held for investment (HFI), under the risk retention regulation and using business-as-usual (BAU) economic assumptions
+** A high-severity finding on underestimation of default probability is being addressed through model enhancements
+
+Do you want me to also mirror this style for the Liquidity Risk bullet, so both appear fully parallel in the report?
+
+
+
+a cleaner, neutral rewrite that keeps the hierarchy style and avoids long winding phrasing:
 	•	Current Expected Credit Losses (CECL): FRB has concluded the remediation validation event and closed one supervisory finding on inadequate risk capture and ongoing monitoring, while converting the other into a narrower finding focused on the Apple Card Allowance for Credit Loss (ACL) model, with remediation due by June 30, 2026
 ** A remediation plan is in progress
 
