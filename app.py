@@ -1,5 +1,7 @@
 pricing model for European options embedded in structured notes
 
+Enhancements to the Tier 1 stochastic volatility reserve model, with additional calibration tests of parameter combinations and penalties to limit sharp week-over-week swings, resulting in improved fit quality and reduced volatility noise
+
 Executive Summary
 
 Validation activity over the quarter
