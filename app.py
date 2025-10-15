@@ -1,4 +1,10 @@
-- Extension of the Tier 1 Risk Engineering-owned FLR model for asset-based loans, and Tier 1 Risk Engineering-owned FLR and tail risk models for home equity line of credit (HELOC
+Here’s a tightened and consistent rewrite of that second bullet for Collateralized Lending, combining your points and keeping it neutral/clear:
+	•	Extension of the Tier 1 Risk Engineering-owned FLR model for asset-based loans, and the Tier 1 FLR and tail risk models for home equity line of credit (HELOC)
+	•	Extension of the Tier 1 business-owned collateral valuation model to cover transitional single-family rental facilities within the Capital Solutions Group, enabling use by downstream FLR and tail risk models that currently rely on a fallback model, and enhancements to prepayment and default modeling for fix-and-flip loans to address a validation finding on performance deterioration
+
+⸻
+
+Would you like me to merge these into one composite bullet (to keep the list shorter) or keep them as two separate but parallel bullets under Collateralized Lending?Extension of the Tier 1 Risk Engineering-owned FLR model for asset-based loans, and Tier 1 Risk Engineering-owned FLR and tail risk models for home equity line of credit (HELOC
 - Extension of the tier 1 business owned collateral valuation model to include transitional single-family rental facilities within the Capital Solutions Group, to be leveraged downstream by facility-level rating (FLR) and tail-risk models (currently rely on the fallback model), and to enhance prepayment and default modeling for fix & flip loans, addressing validation finding on performance deterioration
 
 
