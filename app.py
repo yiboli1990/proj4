@@ -1,3 +1,8 @@
+- Extension of the Tier 1 Risk Engineering-owned FLR model for asset-based loans, and Tier 1 Risk Engineering-owned FLR and tail risk models for home equity line of credit (HELOC
+- Extension of the tier 1 business owned collateral valuation model to include transitional single-family rental facilities within the Capital Solutions Group, to be leveraged downstream by facility-level rating (FLR) and tail-risk models (currently rely on the fallback model), and to enhance prepayment and default modeling for fix & flip loans, addressing validation finding on performance deterioration
+
+
+
 Here’s
 Got it — here’s the Economic Risk bullet revised to include both HFI and business-as-usual (BAU) clearly, while keeping it concise and neutral:
 	•	Economic Risk: Approval of a new Tier 1 model estimating current expected credit losses (CECL) on first-lien residential mortgage-backed security (RMBS) loans held for investment (HFI), under the risk retention regulation and using business-as-usual (BAU) economic assumptions
