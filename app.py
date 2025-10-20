@@ -1,3 +1,9 @@
+Here’s a more streamlined version of your second bullet:
+	•	As part of the exam, MRM will present updated assessments of remediation and investigation thresholds, as well as the conservatism of SIMM model thresholds, in response to preliminary findings from the NFA capital and margin inquiry in May
+
+Would you like me to make it even shorter—something you could use as a one-liner in a slide?
+
+
 Here’s a smoother and more concise version of your draft:
 
 Market Risk: MRM approved the new EQ Topsheet model (Risk, Tier 1), which captures the P&L profile under a range of equity risk factor shocks
