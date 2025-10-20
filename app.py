@@ -1,3 +1,11 @@
+Here’s a smoother and more concise version of your draft:
+
+Market Risk: MRM approved the new EQ Topsheet model (Risk, Tier 1), which captures the P&L profile under a range of equity risk factor shocks
+	•	The model is implemented in GRisk and will replace the current framework as part of a strategic initiative to strengthen equity measures, enabling more timely, optimized, and robust metric calculations
+
+Do you want me to make it even more neutral—removing words like strengthen and optimized—so it reads strictly as a factual update?
+
+
 Here’s a tightened and consistent rewrite of that second bullet for Collateralized Lending, combining your points and keeping it neutral/clear:
 	•	Extension of the Tier 1 Risk Engineering-owned FLR model for asset-based loans, and the Tier 1 FLR and tail risk models for home equity line of credit (HELOC)
 	•	Extension of the Tier 1 business-owned collateral valuation model to cover transitional single-family rental facilities within the Capital Solutions Group, enabling use by downstream FLR and tail risk models that currently rely on a fallback model, and enhancements to prepayment and default modeling for fix-and-flip loans to address a validation finding on performance deterioration
