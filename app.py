@@ -1,3 +1,9 @@
+Sure — here’s a clearer, more logical flow in one sentence:
+
+Validation is in progress for the qualitative approach to size a post-model adjustment (PMA) on RWA, required under the PRA regime to hold capital until the new firmwide ICR rating system is approved, with completion due by 10/31
+
+
+
 Here’s a more concise and polished version of your two bullets:
 	•	Ongoing monitoring control improved across the board versus 2022, with Risk division now fully effective (previously ineffective/adequately effective for MR and CR)
 	•	Model development control worsened in GBM, as FX and Commodities desk strats moved from adequately effective to ineffective due to aged findings
