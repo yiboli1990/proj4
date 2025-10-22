@@ -1,3 +1,10 @@
+Here’s a more concise and polished version of your two bullets:
+	•	Ongoing monitoring control improved across the board versus 2022, with Risk division now fully effective (previously ineffective/adequately effective for MR and CR)
+	•	Model development control worsened in GBM, as FX and Commodities desk strats moved from adequately effective to ineffective due to aged findings
+
+Would you like me to make them even shorter, “headline-style,” for slide use?
+
+
 Here’s a more streamlined version of your second bullet:
 	•	As part of the exam, MRM will present updated assessments of remediation and investigation thresholds, as well as the conservatism of SIMM model thresholds, in response to preliminary findings from the NFA capital and margin inquiry in May
 
