@@ -1,3 +1,15 @@
+Here’s a clear bullet-point summary of the information you provided:
+	•	Event: US PT Index Rebalancing resulted in a ~$125mm loss
+	•	Trading tactic:
+	•	Long new SPX entrants to build inventory for client flows
+	•	Short positions expecting post-rebalancing price normalization
+	•	Context: Robinhood and AppLovin were added to SPX; index rebalance occurred on Sep 19
+	•	Positions: GS established ~$1bn short in AppLovin and ~$400mm short in Robinhood after setup
+	•	Outcome: On Sep 29, both stocks rose sharply (~+12% Robinhood; ~+6% AppLovin), driving ~$125mm loss
+	•	Next steps: Strats proposed additional portfolio loss limits of -$150mm to constrain rebalancing trade exposures; MRM will review the proposal
+
+Do you want me to make this more executive-level (shorter, plain language, focus only on what matters for senior stakeholders), or keep the technical detail for risk/strats audiences?
+
 Sure — here’s a clearer, more logical flow in one sentence:
 
 Validation is in progress for the qualitative approach to size a post-model adjustment (PMA) on RWA, required under the PRA regime to hold capital until the new firmwide ICR rating system is approved, with completion due by 10/31
