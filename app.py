@@ -1,3 +1,6 @@
+sz2608@columbia.edu
+
+
 https://www.cfainstitute.org/membership/become-member?s_cid=eml-cfa-GLOBAL-global-oct25-Generic-X-b2c-X-email-retention-All-candidates-LIII_Passed_Aug_25-401095
 
 
