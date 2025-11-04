@@ -1,5 +1,18 @@
 sz2608@columbia.edu
 
+Here’s a refined and professional version of your paragraph — clear, concise, and aligned with committee-style reporting tone:
+
+⸻
+
+Top of Mind
+Internal Credit Rating (ICR) models (Risk, Tier 1) for Private Equity Capital Call (PECC), Direct Commercial Real Estate (CRE), and Corporate portfolios were validated and approved ahead of the October 31 deadline
+• This completes Phase 1 of the ICR model uplift under the ERMF enhancement program, addressing FRB feedback on improving model repeatability, transparency, and sustainability
+• Seven high-severity findings related to poor model fit, non-representative data, counterintuitive outputs, and unjustified treatment of censored entities were remediated through targeted model enhancements
+
+⸻
+
+Would you like me to make it slightly more executive-summary style (shorter and more headline-driven) for a slide, or keep it in this committee-note format?
+
 
 https://www.cfainstitute.org/membership/become-member?s_cid=eml-cfa-GLOBAL-global-oct25-Generic-X-b2c-X-email-retention-All-candidates-LIII_Passed_Aug_25-401095
 
