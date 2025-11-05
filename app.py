@@ -1,3 +1,6 @@
+https://api.accredible.com/v1/auth/invite?code=4d5221ee14f0876954c4&credential_id=45919b20-5357-4076-97ed-cede8e675953&url=https%3A%2F%2Fcredentials.cfainstitute.org%2F45919b20-5357-4076-97ed-cede8e675953&ident=9173cc26-9941-4759-9f58-7a72ca6ff4e2/
+
+
 sz2608@columbia.edu
 
 Here’s a refined and professional version of your paragraph — clear, concise, and aligned with committee-style reporting tone:
