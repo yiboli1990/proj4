@@ -1,5 +1,22 @@
 Understood — here is a more formal, concise version appropriate for Federal Reserve review. Tone is neutral, factual, and avoids internal shorthand:
 
+
+Here is a clean, plain-language slide version. No extra wording, neutral and factual:
+
+⸻
+
+Impact of Recent Government Shutdown on Data Sourcing
+
+No significant model issues have been identified to date. Model Risk is monitoring the situation and applying existing fallback procedures where necessary.
+	•	OFR Financial Stress Index (daily, OFR): Publication paused for 3 days in early October; index publication was paused for 1 day in line with rulebook procedures
+	•	Leading Economic Index (monthly, Conference Board): Delay in underlying Census/BEA/BLS data; using latest available data under extraordinary event fallback with Index Committee approval
+	•	NY Fed Multivariate Core Trend Inflation (monthly, NY Fed): Potential delays due to reliance on BEA inputs; plan to use latest available data with CISC approval if needed
+	•	CFTC Position Reports (weekly, CFTC): Stopped since late September; relevant strategy defaulted to zero positions and obtained Commodity CISC approval
+	•	CEC Model Inputs (unemployment rate): If data is unavailable, plan is to use model projections; no material impact expected and no adjustment to uncertainty planned
+
+⸻
+
+
 ⸻
 
 Impact of Federal Government Shutdown on Data Sourcing
