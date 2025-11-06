@@ -1,3 +1,20 @@
+Understood — here is a more formal, concise version appropriate for Federal Reserve review. Tone is neutral, factual, and avoids internal shorthand:
+
+⸻
+
+Impact of Federal Government Shutdown on Data Sourcing
+
+Model Risk is monitoring the data availability challenges arising from the recent government shutdown, and the potential implications for model inputs and outputs. The Front Office has identified the following sourcing issues, and established fallback procedures have been applied where necessary:
+	•	OFR Financial Stress Index (daily, Office of Financial Research): Publication was temporarily halted for three days in early October. As a result, the index calculation was paused for one day in accordance with documented methodology.
+	•	Leading Economic Index (monthly, The Conference Board): The release relies on underlying Census, BEA, and BLS data, which experienced delays. The latest available data is being used under the extraordinary event fallback provision, with Index Committee approval.
+	•	NY Fed Multivariate Core Trend Inflation (monthly, Federal Reserve Bank of New York): While the NY Fed continues to publish, certain inputs sourced from BEA may be delayed. If necessary, the latest available data will be used, subject to Committee approval.
+	•	CFTC Position Reports (weekly, Commodity Futures Trading Commission): Publication has been suspended since late September. Relevant strategies have defaulted to zero positions, with approval obtained through the appropriate Front Office governance process.
+	•	Model Inputs for Labor Market Data: If unemployment rate data is not released as scheduled, the model’s internal unemployment projections will be used. No material impact to model performance is expected at this time.
+
+⸻
+
+
+
 Here is a clearer and more polished version, keeping the same content and structure:
 
 ⸻
