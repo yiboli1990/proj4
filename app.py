@@ -1,4 +1,43 @@
-There were no significant model performance issues resulting in high-severity findings based on ongoing monitoring during the quarter. However, medium-severity findings were raised in connection with recent backtesting results, including:
+Got it. The transcript is largely fragmented, but the clear themes are:
+	1.	GBM Private / Private Placements in Technology Firms:
+	•	Concern about concentration risk in certain technology clients and product structures.
+	•	Reinforcement to ensure common stock / plain equity where appropriate and avoid unnecessarily complex convertible structures.
+	•	Confirmation that Model Risk is aligned on reviewing complexity and suitability when these structures are proposed.
+	2.	CPI Index Publication / Data Availability:
+	•	Discussion relates to CPI data reliance for certain pricing models, fallback logic, and operational impacts in the event of data disruptions (e.g., government data delays).
+	•	No material model valuation or capital impact expected, given fallback logic and transaction-based pricing in relevant markets.
+	•	Ongoing monitoring continues and any delays in CPI publication would primarily impact downstream index-linked operational processes, not valuation reliability.
+
+Below is a clean, plain-English, FRB-facing slide:
+
+⸻
+
+Discussion Summary – Data Availability and Product Considerations
+
+Private Placement / Technology Sector Activity
+	•	Recent internal discussions highlighted concentration considerations in private placements for certain technology-sector clients
+	•	The focus is on ensuring use of plain equity instruments where appropriate, and avoiding unnecessary structuring complexity
+	•	GBM and Model Risk continue to coordinate to ensure product suitability and documentation transparency, particularly where valuation relies on bespoke terms
+	•	No identified model deficiencies, and governance controls remain in place for review of new or non-plain-vanilla structures
+
+CPI Index Data Availability and Model Implications
+	•	Some pricing models reference government-published CPI data, which may be subject to temporary publication delays
+	•	Where this occurs, fallback logic is used to reference alternative data sources or prior index levels, consistent with documented governance
+	•	The majority of market-based pricing in these portfolios relies on transaction data, not CPI publication timing, limiting valuation impact
+	•	No material impact has been observed to date on pricing, model outputs, or capital calculations
+	•	Model Risk is continuing to monitor index publication timeliness and will escalate if any material effects emerge
+
+⸻
+
+If you want, I can also convert this into a one-page PowerPoint with layout and formatting.
+Just tell me:
+	•	Template preference: GS style / neutral / FRB minimal
+	•	Color: Blue/gray / black-and-white
+	•	Title tone: More formal vs. more brief
+
+And I’ll generate a downloadable .pptx you can directly use.
+
+Would you like the slide to include a short “No supervisory action requested” statement at the bottom?There were no significant model performance issues resulting in high-severity findings based on ongoing monitoring during the quarter. However, medium-severity findings were raised in connection with recent backtesting results, including:
 Inconsistent shock calibration methodology was identified in the model used to estimate tail risk for transportation facilities within the Collateralized Lending business, resulting in large differences between the production model and the benchmark approach and leading to breaches in the second-quarter backtesting results. Remediation is underway.
 
 Backtesting breaches were identified in the models used to estimate Probability of Default and Loss Given Default during the review of first-quarter results, requiring a re-quantification of the risk parameters used in the models. Remediation is underway.
