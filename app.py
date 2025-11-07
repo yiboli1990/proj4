@@ -1,3 +1,8 @@
+There were no significant model performance issues resulting in high-severity findings based on ongoing monitoring during the quarter. However, medium-severity findings were raised in connection with recent backtesting results, including:
+Inconsistent shock calibration methodology was identified in the model used to estimate tail risk for transportation facilities within the Collateralized Lending business, resulting in large differences between the production model and the benchmark approach and leading to breaches in the second-quarter backtesting results. Remediation is underway.
+
+Backtesting breaches were identified in the models used to estimate Probability of Default and Loss Given Default during the review of first-quarter results, requiring a re-quantification of the risk parameters used in the models. Remediation is underway.
+
 Understood — here is a more formal, concise version appropriate for Federal Reserve review. Tone is neutral, factual, and avoids internal shorthand:
 
 
