@@ -1,3 +1,27 @@
+Here is a clearer and more concise version suitable for the Federal Reserve slide. I kept the language plain, neutral, and factual:
+
+⸻
+
+Data Availability During Government Shutdown
+
+No significant model issues have been identified to date as a result of data publication delays associated with the recent government shutdown. Model Risk is closely monitoring the situation and any potential impacts on models.
+
+Pricing Models
+No material impact expected, as pricing models largely rely on market transaction data.
+A potential impact exists for products referencing government-published indices, including the October Consumer Price Index. The delay or absence of this data may affect settlements for Treasury Inflation-Protected Securities and inflation derivatives and the reference index used for certain contracts issued in 2026. Developers are implementing fallback logic consistent with prescribed contractual formulas, and Model Risk will review these updates.
+
+Risk Models
+No material impact expected at this time.
+If the Unemployment Rate data is not released as scheduled, Current Expected Credit Loss models will rely on internal unemployment projections maintained by Risk Engineering. No significant effect on model performance is anticipated.
+
+Systematic Trading Strategies
+Some data sourcing challenges have been observed due to temporary pauses in index publications. The affected strategies will apply fallback logic under the index rulebooks or use the latest available data subject to approval by the Index Oversight Committee. No material impact is expected.
+
+⸻
+
+If you want, I can now format this into one slide, with bullet hierarchy and no full sentences at the sub-bullet level.
+
+
 Here is a polished, plain-language, FRB-appropriate version. I preserved your key points and tightened clarity, structure, and tone. No unnecessary adjectives, no technical jargon, no claims of “zero risk,” just factual statements.
 
 ⸻
