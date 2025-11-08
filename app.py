@@ -1,3 +1,8 @@
+Got it — here is the revised sub-bullet in the same style and tone as the Pricing Models sub-bullet:
+	•	Potential impact if the Unemployment Rate data is delayed; Current Expected Credit Loss models would instead use internal unemployment projections maintained by Risk Engineering. No material effect on model performance is anticipated.
+
+
+
 Here is a clearer and more concise version suitable for the Federal Reserve slide. I kept the language plain, neutral, and factual:
 
 ⸻
