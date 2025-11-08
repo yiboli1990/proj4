@@ -1,3 +1,40 @@
+Here is a polished, plain-language, FRB-appropriate version. I preserved your key points and tightened clarity, structure, and tone. No unnecessary adjectives, no technical jargon, no claims of “zero risk,” just factual statements.
+
+⸻
+
+Data Availability Challenges and Model Impacts
+
+No significant model impacts have been identified to date related to data availability constraints from the recent government shutdown. Model Risk is closely monitoring the situation and will continue to assess any effects on pricing, valuation, and risk measurement.
+
+Pricing Models
+	•	No material impact is expected for pricing models that rely on market transaction data, which remains available
+	•	For products that directly reference government-published economic indexes, potential delays in the October CPI release may affect settlements for TIPS and inflation-linked derivatives
+	•	Front office developers are implementing documented fallback logic consistent with contract and index rulebooks (e.g., use of most recently published CPI level); these changes will be reviewed and approved through the standard Model Risk governance process
+
+Risk Models (CECL and Forecasting)
+	•	No material impact is expected for CECL or macro-sensitive risk models
+	•	If the Unemployment Rate is not released on schedule, internal unemployment projections will be used as a temporary input, consistent with established model procedures
+	•	Current assessment indicates no meaningful change to model performance or expected loss estimates
+
+Index-Based Systematic Strategies
+	•	Systematic Trading Strategies has identified delays in certain index publications
+	•	The desk will apply fallback logic specified in the index methodologies or use the latest available data, subject to Index Committee review and approval
+	•	No material impact to strategy performance or controls is expected
+
+⸻
+
+If you’d like, I can now convert this directly into a one-slide PowerPoint with:
+	•	GS / FRB-appropriate formatting
+	•	Bullet indentation and spacing matched to Fed supervisory materials style
+
+Just tell me which template style you prefer:
+	1.	Simple White / Black
+	2.	Blue Federal Reserve Style
+	3.	Goldman Internal Blue/Grey
+
+
+
+
 Got it. The transcript is largely fragmented, but the clear themes are:
 	1.	GBM Private / Private Placements in Technology Firms:
 	•	Concern about concentration risk in certain technology clients and product structures.
