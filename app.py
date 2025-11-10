@@ -1,3 +1,25 @@
+Sure — here is a revised version with a clear introductory sentence added, while keeping everything else consistent and formal:
+
+⸻
+
+Due to the recent government shutdown and related data release delays, we have experienced interruptions in the publication of several government data series, including Consumer Price Index (CPI), unemployment rate, Financial Stress Index, Leading Economic Index, and Commodity Futures Trading Commission (CFTC) position reports. There has been no material impact on business activities, and no significant model issues have been identified to date as a result of these data availability challenges. The firm has managed similar data disruptions in the past, and several businesses have already established mitigation processes. Key mitigation approaches include:
+	•	Fallback Approaches
+	•	For fixings in Treasury Inflation-Protected Securities (TIPS) and inflation derivatives, fallback logic is being implemented in accordance with prescribed methods published by the U.S. Department of the Treasury, the International Swaps and Derivatives Association (ISDA) Inflation Derivative Definitions, or relevant clearing houses
+	•	Within the Systematic Trading Strategies (STS) business, the firm designs and publishes investment strategies as indices, some of which reference U.S. government data. Where fallback provisions are specified in an index rulebook, the fallback logic is applied consistent with the rulebook requirements
+	•	Internal Projection or Approximation Approaches
+	•	Where fallback logic is not specified in an STS index rulebook, an internal roll-forward method may be applied, subject to Index Committee review and approval
+	•	The Current Expected Credit Loss (CECL) model uses the unemployment rate as an input to forecast credit losses. In the absence of the September unemployment release, internal unemployment projections would be used
+	•	For missing observations in market data time series, internal data completion methods (forward-fill or backward-fill) are applied based on established procedures
+	•	Direct Engagement with Clients and Industry Participants
+	•	Certain derivative contracts reference published index levels that may be delayed. For example, contracts referencing the October CPI level may require clarification or adjustment. The trading desks are actively engaging with clients and other market participants to align on contractual handling and settlement mechanics
+
+Any model adjustments or implementations to address data availability issues are subject to Product Control Committee (PCC) and Model Risk Management (MRM) review. In addition, ongoing data quality monitoring controls are in place for critical data sources, including those used in market risk calculations.
+
+⸻
+
+If you’d like, I can now convert this into a single slide with concise bulleting for senior audiences (FRB / ERC / MRCC tones).
+
+
 Here is a revised version that is formal, consistent, and keeps your structure. I also defined acronyms and removed “e.g.” as requested. I assumed “CFC” refers to Commodity Futures Trading Commission (CFTC) position reports; if that is incorrect, I can adjust.
 
 ⸻
