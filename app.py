@@ -1,3 +1,6 @@
+Previously only surviving Limited Partner payments and unsecured recovery were considered; the model now also includes recovery from fund assets after fund debt obligations are paid
+
+
 Sure — here is a revised version with a clear introductory sentence added, while keeping everything else consistent and formal:
 
 ⸻
