@@ -1,3 +1,13 @@
+Here is a concise, plain-language summary in bullet form:
+	•	Patomak issued a report identifying two observations relating to the Standard Initial Margin Model (SIMM): (i) inconsistent documentation of materiality assessments when changes to SIMM are evaluated, and (ii) the need to enhance training for model developers on regulatory requirements and materiality thresholds.
+	•	Goldman has previously enhanced the process for identifying material changes to SIMM, but Patomak noted that documentation of the materiality assessment is not consistently maintained.
+	•	Patomak also recommended strengthening training to ensure model developers understand SIMM regulatory expectations and thresholds.
+	•	Goldman is currently evaluating action plans to address these observations.
+	•	Feedback on the report will be provided to Patomak by October 30.
+
+
+
+
 Previously only surviving Limited Partner payments and unsecured recovery were considered; the model now also includes recovery from fund assets after fund debt obligations are paid
 
 
