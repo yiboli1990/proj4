@@ -1,3 +1,64 @@
+Here’s a restructured and refined version of your content that directly aligns with the two topics — focusing on review and approval of internal swap valuation models and adjustments to model inputs and outputs.
+It preserves all original information but organizes it under clearer, topic-relevant sections and removes duplication for flow and clarity.
+
+⸻
+
+1. Review and Approval of Internal Swap Valuation Models
+
+Purpose and Governance
+Model Risk Management (“MRM”) is part of the Risk Division, composed of modeling experts who are functionally and structurally independent from Model Owners, Developers, and Users. The Global Head of MRM reports directly to the Chief Risk Officer, ensuring independence and objectivity in the oversight of model risk.
+
+Scope of Review
+MRM independently reviews and approves all models used for:
+	•	Computation of market value of swaps
+	•	Computation of associated capital charges
+
+These include both new model implementations and any proposed changes to existing models. MRM ensures that all models comply with the Firmwide Model Risk Policy and associated Standards, which require comprehensive documentation and evidence of effective challenge.
+
+Validation and Approval Process
+	•	MRM performs independent validation of each model’s conceptual soundness, methodology, implementation, and intended use.
+	•	Upon satisfactory validation, MRM grants formal approval for production use.
+	•	Any change to model code or regression tests—regardless of materiality—must be reviewed and approved by MRM before release to production.
+	•	Pricing and Capital Models, including swap valuation models, are classified as Tier 1 Models, which are subject to the highest development, validation, and control standards.
+
+Change Control and Documentation
+Model code is maintained in a version-controlled source repository with preventative control over model changes (PCC).
+All changes are automatically tracked, and any violations of control policies are escalated to MRM and relevant stakeholders.
+
+Ongoing Oversight
+MRM conducts annual reviews and ongoing performance monitoring to assess model accuracy, robustness, and alignment with intended use.
+In cases of inadequate performance or control issues, MRM may issue validation findings or revoke prior approvals until deficiencies are remediated.
+
+⸻
+
+2. Review and Approval of Adjustments to Model Inputs and Outputs
+
+Assessment of Inputs
+As part of model validation, MRM evaluates the appropriateness and quality of input data used in swap valuation models. This includes:
+	•	Assessing relevance and representativeness of internal and external data sources
+	•	Reviewing model assumptions, parameterizations, and calibrations
+	•	Considering conservatism in input parameters and overlays in light of identified limitations
+
+Where input data or parameter issues are identified, MRM raises validation findings and communicates them to Model Owners, Developers, and independent control functions.
+
+Approval of Adjustments
+Any adjustment to model inputs or outputs—including pricing parameters, yield curves, volatility surfaces, or valuation overlays—must be:
+	•	Supported by clear rationale and documentation
+	•	Independently reviewed and approved by MRM prior to implementation
+	•	Assessed for impact on valuation and capital outcomes
+
+Ongoing Monitoring and Escalation
+The appropriateness of inputs and resulting outputs is reviewed regularly as part of ongoing monitoring and annual review processes. If deviations, anomalies, or breaches are identified, MRM will:
+	•	Investigate root causes
+	•	Escalate issues through validation findings
+	•	Require corrective actions or revalidation where necessary
+
+⸻
+
+Would you like me to make this version more formal and regulatory-facing (e.g., for submission to the FRB or an internal governance policy document), or slide-ready (shorter and bullet-based for presentation use)?
+
+
+
 Here is a concise, plain-language summary in bullet form:
 	•	Patomak issued a report identifying two observations relating to the Standard Initial Margin Model (SIMM): (i) inconsistent documentation of materiality assessments when changes to SIMM are evaluated, and (ii) the need to enhance training for model developers on regulatory requirements and materiality thresholds.
 	•	Goldman has previously enhanced the process for identifying material changes to SIMM, but Patomak noted that documentation of the materiality assessment is not consistently maintained.
