@@ -1,3 +1,23 @@
+Absolutely — here’s a version you can drop into the Thematic Update section to capture that specific exchange on AI ongoing monitoring.
+
+⸻
+
+Ongoing monitoring for AI / generative AI models
+	•	FRB asked how ongoing monitoring for more complex generative AI models compares to monitoring for traditional models (for example, regression or SecDB-based models), and how Goldman is approaching this across the firm
+	•	Bill explained that this is an evolving area, and that while there are only a small number of higher tier generative AI models today, MRM is already setting explicit ongoing monitoring expectations for each approved high-tier AI use case, including
+	•	Defining model-specific metrics and thresholds up front (for example, recall targets for surveillance models)
+	•	Aligning those metrics and tolerances with the relevant business or risk owner who ultimately accepts residual model risk
+	•	Requiring regular reporting and review of these metrics as part of ongoing monitoring
+	•	Using the Compliance Tier 1 surveillance model as an example, Bill noted that
+	•	The key objective is to capture potential insider trading cases with very high recall
+	•	The target recall is set above 97%, and testing and early live results are around 98%
+	•	Even after launch, Compliance will maintain QA “below-the-line” testing, where a sample of alerts is reviewed by humans to independently assess model performance over time
+	•	Bill added that, longer term, the firm’s goal is to move from a one-off, model-by-model approach to a more standardized framework for AI ongoing monitoring, similar to the centralized regression-testing program that exists for derivatives models
+	•	Engineering is expected to provide firm-wide guidance on suitable metrics and thresholds for different types of AI/ML use cases, as well as a common platform to run evaluations and produce consistent reporting
+	•	The intent is to build this infrastructure early in the AI lifecycle so that monitoring is scalable and consistent, and to avoid having to retrofit a large number of models later
+	•	FRB acknowledged that this is an emerging area and appreciated the explanation of how Goldman is setting expectations for high-tier AI models today while working toward a more centralized, standardized monitoring framework going forward
+
+
 Here is a tailored script specifically for you as a VP in Goldman Sachs Model Risk Management, reflecting your role, the type of feedback you typically receive, and the expectations at your level.
 
 I’ve kept it polished, concise, and aligned with GS culture.
