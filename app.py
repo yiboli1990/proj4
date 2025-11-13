@@ -1,3 +1,159 @@
+Meeting Minutes: Q4 2025 Quarterly MRM Meeting with FRB – Nov 13, 2025
+
+MRM hosted the Q4 2025 Quarterly Model Risk Management meeting with FRB and FDIC. The agenda covered data challenges stemming from the recent U.S. government shutdown; progress on MRA remediation (including annual review enhancements and incremental CCAR feedback); internal audit findings and issue remediation; status of validation activity and findings; RAS exceptions and aged items; model inventory and AI/ML usage; thematic updates on key model changes; and ongoing monitoring results
+
+⸻
+
+1. MRM plans to mitigate data challenges resulting from the government shutdown
+	•	Nature and scope of data disruptions
+	•	Bingwen provided an overview of data gaps driven by the government shutdown, including delayed or missing publications for CPI (September delay and risk of no October print), unemployment data used in credit loss projection models, OFR Financial Stress Index, Leading Economic Index, and CFTC commitment-of-traders data used in systematic index strategies
+	•	FRB asked about prior disruptions; MRM noted earlier cyber incidents affecting the CFTC/Ion vendor and COT reporting, which were managed without material model issues
+	•	Impact assessment and potential pain points
+	•	MRM has not identified material model issues or significant business impact to date; data gaps have been manageable using short-term approximations and stable market conditions
+	•	CPI-linked products (TIPS and inflation derivatives) and contracts that reference October CPI as an initial fixing were highlighted as potentially most sensitive if the outage had persisted or coincided with large moves in inflation or unemployment
+	•	FRB asked at what horizon issues would become binding; MRM noted concerns would rise materially if unemployment or inflation experienced sharp moves without updated data, or if shutdown-related publication delays extended significantly beyond current experience
+	•	Mitigation actions and governance
+	•	For inflation-linked products, desks are implementing fallback approaches consistent with contractual terms and market standards (Treasury guidance, ISDA inflation definitions, clearing house rules) where such fallbacks are explicitly specified
+	•	For systematic trading strategies and indices (including those referencing government data), fallback logic is governed by index rulebooks, which specify when to pause publication or use alternative inputs if data is not available
+	•	Where no explicit contractual fallback exists, desks employ internal projections, approximations, or last-available data under approved methodologies, subject to Model Risk Management review and model committee or index governance approvals as appropriate
+	•	Desks directly engage clients, clearing houses, and other dealers for CPI-linked contracts where contract terms may need to be adjusted by convention if October CPI is not published; MRM emphasized this is being managed as an industry-wide coordination issue rather than unilateral firm action
+	•	Ongoing monitoring and change controls
+	•	Existing data quality monitoring and time-series checks remain in place across affected risk and pricing models; MRM and front office monitor for anomalies and missing observations as part of routine controls
+	•	FRB asked whether ongoing monitoring is being explicitly enhanced due to the shutdown; MRM explained current monitoring framework is considered sufficient for short gaps, with escalation to desks and MRM if material issues are detected
+	•	For urgent production changes required to address data disruptions, preventative change control (PCC) governance allows for fast-tracked reviews when needed, with documentation completed promptly afterward; for anticipated changes (e.g., expected October CPI non-publication), standard approval workflows and timelines are used
+
+⸻
+
+2. MRA Remediation Progress
+	•	Annual review framework uplift (MRA)
+	•	Caroline reiterated that the enhanced annual review framework previously shared with FRB has been approved by the Model Risk Control Committee, including expanded template questions and clearer expectations for validators
+	•	The model risk workflow tool has been uplifted so validators must provide supporting explanation for every yes/no question, regardless of whether an exception is identified, directly addressing prior feedback that commentary should accompany both exceptions and conclusions that “no issues” are observed
+	•	Comprehensive training on the enhanced framework and tooling has been delivered to the full MRM team, clarifying expectations for analysis, documentation, and evidence supporting conclusions in annual reviews
+	•	Implementation status and milestones
+	•	The commitment remains to complete all annual reviews due in Q4 under the enhanced standards by December 19; validators were given an early start by completing the tech release and training ahead of plan
+	•	Caroline reported that approximately half of the Q4 population has been completed under the new standard and the program is tracking on schedule to meet the December 19 deadline
+	•	Incremental CCAR 2025 feedback
+	•	MRM reminded FRB that the firms met separately in September to discuss actions addressing incremental CCAR 2025 feedback; the related plan remains unchanged
+	•	Developers have completed ongoing monitoring enhancements required to address this incremental feedback; MRM is now reviewing the enhancements and expects them to be completed and fully embedded in the coming month
+
+⸻
+
+3. Issue Remediation (Internal Audit and other findings)
+	•	Internal Audit (IA) overview
+	•	Caroline noted there is one open internal audit finding for MRM, rated at the lowest severity level, and no IA findings were closed over the quarter
+	•	The open finding relates to preventative change control (PCC) for models implemented in GitLab rather than SecDB, focusing on visibility and control around the “break glass” mechanism for urgent code changes
+	•	GitLab PCC and “break glass” remediation
+	•	IA identified that for certain GitLab-linked SPR projects, change controls could be disabled in a corner-case configuration, raising concern that model code changes might bypass standard PCC
+	•	MRM explained that the population is small (only one model identified in the IA sample) and that approximately 98% of Tier 1 models remain in SecDB, which uses a separate, robust change control framework
+	•	Remediation actions include tooling changes so that if PCC is disabled for a relevant GitLab-linked model, the model is automatically “unblessed,” triggering immediate escalation and follow-up by MRM
+	•	The workflow is also being updated so PCC no longer depends on a specific GitLab flag; all model changes will be routed through PCC and MRM review irrespective of flag settings, eliminating the identified gap
+	•	Context and future state
+	•	Bill noted that while the current GitLab population of Tier 1 models is small, the proportion of AI and other models implemented in GitLab is expected to grow; addressing the control gap now avoids larger remediation later
+	•	FRB sought clarification on why the disabling configuration had been possible; MRM confirmed the new design removes this dependency and ensures consistent PCC coverage for GitLab models going forward
+
+⸻
+
+4. Status of Validation Findings
+	•	Overall validation activity and open findings
+	•	Caroline presented the quarter-over-quarter evolution of open validation findings; the total number of open findings declined over the quarter
+	•	Validation activity and annual review volumes remain broadly in line with prior quarters, with continued focus on significant Tier 1 models and risk-sensitive areas
+	•	As in prior quarters, most open findings reside in the Risk Division and Global Banking & Markets (GBM), reflecting their larger inventory and concentration of Tier 1 models; other divisions have materially smaller inventories and lower finding counts
+	•	Annual reviews completed via revalidation
+	•	FRB asked about the 12 models “completed through revalidation”; Caroline confirmed these are significant models on a regular revalidation cadence, where the scheduled revalidation is considered to fulfil the annual review requirement for that year
+	•	For these models, the next annual review is scheduled one year after the revalidation date, consistent with the “off-year” of the bi-annual revalidation cycle for key Tier 1 models
+	•	New vs remediated findings
+	•	Slide-level data showed relatively fewer new findings raised in Q3 compared with some prior quarters, while remediation pace remained strong, particularly in Risk and GBM
+	•	For qualitative approaches and DRCs, inventories and finding volumes remain smaller, with no notable qualitative trend changes over the quarter
+
+⸻
+
+5. RAS Exceptions and Aged Items
+	•	Thresholds and recent policy changes
+	•	Caroline reminded FRB that MRM maintains RAS metrics and thresholds for models under waiver and models with aged findings, with oversight by the Board Risk Committee (BRC) and Firmwide Risk Appetite Committee (FRAC)
+	•	In April 2024, the firm revised the metric for models with aged findings and set a zero tolerance at the board level for findings aged more than one year beyond the original due date; metrics for models under waiver were also refined
+	•	In September 2025, FRAC approved tightening the inner threshold for Tier 1 models with aged findings from 9 months past the original due date to 6 months, effective October 1; the board-level threshold remains at one year
+	•	RAS utilization and breaches
+	•	MRM presented the same weekly RAS report that is provided to FRAC, showing utilization versus thresholds for unvalidated models in use, unvalidated transactions, and validated but rejected models, segmented by Tier
+	•	Utilization of waiver-related metrics remains relatively low across categories, and there were no BRC or FRAC breaches over the quarter for models under waiver or unvalidated transactions
+	•	Caroline highlighted that unvalidated Tier 2 models in use are at one of their lower utilization points relative to the last six months, with current levels well below the historical maximum and average
+	•	Aged waivers and aged findings
+	•	Waivers are generally expected to be remediated within 90 days of issuance; metrics then track items that age beyond this original due date
+	•	There were no breaches of aged-waiver metrics
+	•	For aged findings on approved Tier 1 models, MRM is currently at the FRAC inner threshold (zero tolerance for findings aged more than six months past original due date), with six counterparty credit risk models and one mortgage pricing model in this category as of October 1
+	•	All affected models have new target remediation dates between now and December; MRM does not expect any of these to breach the board-level threshold of one year past original due date
+	•	FRB requested a follow-up list of the specific models with aged findings; MRM agreed to provide this information via follow-up
+
+⸻
+
+6. Model Inventory and AI/ML Usage
+	•	Overall inventory trends
+	•	Caroline noted that inventory remains broadly stable, with approximately 85 new models declared year to date and a similar number in the quarter, spread across divisions
+	•	Corporate Treasury contributed to Tier 1 growth primarily through re-segmentation of existing models into more granular representations, rather than entirely new risk exposures
+	•	Additional Tier 1 models were added in Risk and GBM, with no single new theme dominating
+	•	Tier changes and governance
+	•	FRB asked about tier migrations, including a small number of models moving from Tier 1 to Tier 2; MRM explained these were cases where models are no longer used for daily P&L or risk, or where additional information obtained during validation supported a lower risk tier
+	•	Risk tier can be adjusted either pre-validation (as more information becomes available after declaration) or post-validation (if usage changes); requirements for documentation, testing, and control intensity adjust accordingly
+	•	Caroline noted that when models are down-tiered post-validation, certain Tier 1-like controls often remain in place because the initial setup costs have already been incurred, even if not strictly required by policy for the lower tier
+	•	AI/ML and generative AI inventory
+	•	AI/ML continues to be an area of development focus but still represents a relatively small share of in-use models (single-digit percentage), with a higher share among models in development
+	•	Generative AI models remain concentrated in lower tiers; a small number of higher-tier AI/ML models exist but are not yet a material proportion of Tier 1 inventory
+	•	FRB asked whether inventory tables include models in testing/use-case development phases; Caroline confirmed the counts include both in-development and in-use models
+	•	Example: Equinox Equity Derivatives model
+	•	FRB inquired about the Equinox AI model used in Equity Derivatives
+	•	Bo explained that Equinox is a Tier 2 model that converts natural language client requests (e.g., “quote 200 Apple call options with strike X”) into GS’s internal structured quoting format to feed pricing systems
+	•	Traders remain in the loop and are responsible for verifying the structured output before responding to clients, preserving human oversight and accountability
+
+⸻
+
+7. Thematic Update – Model Changes and Enhancements
+	•	AI and agentic models
+	•	Shipra reported continued growth in AI models, highlighting the first Tier 1 model with agentic components approved in September for Compliance
+	•	The Compliance model is used to assist with insider trading surveillance: it automatically closes approximately 25% of alerts and provides reasoned summaries to support human review of the remaining alerts
+	•	The model runs in production parallel for roughly two months, during which 100% of alerts continue to receive human review; performance targets focus on recall of potential insider trading cases, with a target above 97% and observed performance around 98% in testing and early live usage
+	•	Compliance will maintain ongoing monitoring and QA, including sample-based “below the line” human testing post go-live; metrics and thresholds are explicitly defined as part of the validation and governance framework
+	•	Other AI/ML approvals
+	•	GBM received approval for Tier 1 generative AI models used to classify mortgage and credit loan exposures into credit and liquidity categories for regulatory reporting
+	•	Several lower-tier AI/ML models aimed at productivity (e.g., summarizing financial and legal documents from larger corpora of texts) were also approved
+	•	Asset-secured lending models
+	•	In asset-secured lending, MRM approved enhancements to Tier 1 models owned by GBM and Risk, extending asset-specific coverage to positions previously treated under fallback methodologies as additional data became available
+	•	Key approvals included tail-risk and FLR module extensions for home equity lines of credit and second-lien loans, as well as updated calibrations for “fix-and-flip” portfolios and related segments to improve performance and remediate existing findings
+	•	Counterparty credit risk (CCR) enhancements
+	•	MRM approved a new Tier 1 CCR model to monitor incremental netting and legal enforceability risk for futures, tri-party collateral arrangements, and securities lending businesses
+	•	Joyce explained that the model quantifies additional shortfall risk arising when “all-or-nothing” enforceability assumptions do not hold, aligning with broader work to digitize and integrate legal enforceability opinions into risk models
+	•	The model is currently used for monitoring rather than limit-setting; MRM and the business are working to extend coverage to additional businesses under defined validation timelines
+	•	Other divisional changes
+	•	Asset & Wealth Management (AWM): MRM approved migration of private wealth management mortgages models to an enhanced prepayment framework consistent with GBM practice, remediating an open MRM finding
+	•	Platform Solutions: Approvals included new credit decisioning models used to support credit line increase decisions and rank customers based on risk
+	•	Risk Division: New models were approved for liquidity (broad monitoring of structural risk under mark-to-market tail scenarios) and credit (a CECL model for held-for-investment risk retention positions in the RMBS portfolio)
+
+⸻
+
+8. Ongoing Monitoring
+	•	Overall results
+	•	Shipra reported that no high-severity findings were raised from ongoing monitoring in Q3
+	•	Backtesting results for credit and market risk models for Q2 were generally in line with expectations
+	•	Medium-severity findings
+	•	A medium-severity finding was raised for transportation facilities shortfall monitoring in the collateralized lending business, where inconsistent shock calibration methodology in tail-risk measures led to notable differences between production and benchmark results and backtesting breaches; remediation is in progress
+	•	A medium-severity finding was raised for models estimating probability of default and loss given default for student loan portfolios, driven by backtesting breaches that will require re-estimation of risk parameters; remediation is underway
+	•	A medium-severity finding with low materiality was raised for inflation modeling during the index transition process, due to potential minor risk measurement inaccuracies; MRM is tracking remediation of this issue
+
+⸻
+
+9. Closing and Follow-Ups
+	•	FRB and FDIC participants thanked the firm for the updates and discussion, noting particular interest in ongoing monitoring and governance for generative AI models and data-challenge mitigation
+	•	MRM agreed to provide:
+	•	A follow-up list of Tier 1 models with findings aged more than six months (the six CCR models and one mortgage pricing model discussed under the RAS section)
+	•	No additional formal actions were requested during the meeting beyond the agreed follow-ups
+
+
+
+
+
+
+
+
+
+
 Here’s a restructured and refined version of your content that directly aligns with the two topics — focusing on review and approval of internal swap valuation models and adjustments to model inputs and outputs.
 It preserves all original information but organizes it under clearer, topic-relevant sections and removes duplication for flow and clarity.
 
