@@ -1,3 +1,97 @@
+Here is a tailored script specifically for you as a VP in Goldman Sachs Model Risk Management, reflecting your role, the type of feedback you typically receive, and the expectations at your level.
+
+I’ve kept it polished, concise, and aligned with GS culture.
+
+⸻
+
+🌟 Tailored Performance Review Script (MRM – VP Level)
+
+When your manager reads others’ feedback
+
+1. General Acknowledgment
+
+“Thank you for walking me through the feedback. I really appreciate everyone taking the time to share their observations.”
+
+⸻
+
+When the feedback is positive (strong execution, ownership, stakeholder management)
+
+“I’m glad to hear this aligns with how I’ve been approaching my work. I’ll continue building on these strengths—especially maintaining high-quality validations, producing clear deliverables for regulators, and supporting cross-team priorities.”
+
+⸻
+
+When the feedback is critical or suggests improvement
+
+(communication, prioritization, managing scope, efficiency, pushing back, etc.)
+
+“Thank you—that’s helpful. I understand the theme being raised. I can see how improving in this area would increase my overall impact, and I will make this a priority.”
+
+If you need more clarity:
+
+“Could you share an example so I fully understand the context and expectations?”
+
+⸻
+
+If the feedback is surprising or unclear
+
+“This is very useful to hear. I’d like to understand what strong performance would look like here so I can adjust and make meaningful improvements.”
+
+⸻
+
+🌟 What to Say About Your Development & Goals
+
+When she asks, “What are you looking to focus on going forward?” use this:
+
+1. Strengthen Core Execution
+
+“First, I want to continue strengthening my execution on high-impact validations and regulatory deliverables. Ensuring quality, clarity, and timeliness remains a core priority for me.”
+
+2. Improve Based on Feedback
+
+“Based on the feedback today, I plan to focus on tightening communication loops, driving more efficiency in workstreams, and being more proactive about raising risks or bandwidth constraints early.”
+
+3. Broaden Technical & Leadership Scope
+
+Choose the areas relevant to you:
+	•	AI/ML model governance
+	•	ICR/CCR uplift
+	•	ERMF remediation
+	•	FRB/QCC meetings
+	•	Ongoing monitoring
+	•	Cross-functional leadership
+
+Example line:
+
+“I would like to broaden my scope, especially across AI/ML model governance and ERMF uplift streams, and take on more leadership responsibilities that support the team’s strategic goals.”
+
+4. Increase Strategic Contribution
+
+“I want to operate more consistently at VP level by stepping further into strategic problem-solving—identifying issues early, improving workflows, and helping the team navigate complex regulatory expectations.”
+
+5. Ask for Support (shows maturity)
+
+“I’d appreciate your guidance on which types of projects or responsibilities would help me grow most effectively into the next level.”
+
+⸻
+
+🌟 Closing Statement
+
+Use this near the end:
+
+“Thank you again for going through all of this. I really appreciate the transparency. I’ll continue to build on what I’m doing well, and I’ll focus on the areas where I can sharpen my performance. I’m committed to increasing my impact, supporting the broader MRM agenda, and aligning my work with the team’s priorities.”
+
+⸻
+
+If you’d like, I can also create:
+
+✔ a version for managers expecting more humility
+✔ a version for managers expecting stronger assertiveness
+✔ a version tailored to your relationship with your manager
+✔ scripts for how to respond to common tricky feedback (“needs more leadership,” “needs to be faster,” “needs to improve communication”)
+
+Just tell me which one you want!
+
+
 Here is a simple, professional, and safe way to respond during your performance review when your manager reads others’ feedback. The goal is to show maturity, openness, and a forward-looking mindset without sounding defensive.
 
 ⸻
