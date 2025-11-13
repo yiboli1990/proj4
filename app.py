@@ -1,3 +1,14 @@
+Here is a simpler, meeting-minutes-style version consistent with the tone and level used in the rest of the document:
+
+⸻
+
+FRB inquiry on ongoing monitoring for AI models
+	•	FRB asked how ongoing monitoring for generative AI models differs from traditional models.
+	•	Bill explained that MRM establishes model-specific metrics and thresholds for each higher-tier AI model (for example, recall targets for the Compliance Tier 1 surveillance model), and these metrics are reviewed as part of ongoing monitoring.
+	•	For the Compliance model, Bill noted performance targets above 97% recall, with early results around 98%, and Compliance will continue to perform sample-based human QA after go-live.
+	•	Bill added that the firm intends to standardize ongoing monitoring for AI models over time, similar to the centralized regression-testing framework used for derivatives models, and engineering is working toward providing firm-wide guidance and tooling to support this.
+
+
 Absolutely — here’s a version you can drop into the Thematic Update section to capture that specific exchange on AI ongoing monitoring.
 
 ⸻
