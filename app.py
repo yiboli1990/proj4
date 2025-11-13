@@ -1,3 +1,81 @@
+Here is a simple, professional, and safe way to respond during your performance review when your manager reads others’ feedback. The goal is to show maturity, openness, and a forward-looking mindset without sounding defensive.
+
+⸻
+
+How to Respond During the Review
+
+Use a calm, concise structure:
+
+1. Acknowledge the feedback
+	•	“Thank you for sharing this. I appreciate everyone taking the time to provide feedback.”
+
+2. Show openness and reflection
+
+If the feedback is positive:
+	•	“I’m glad to hear this resonates with the team. I’ll continue building on these strengths.”
+
+If the feedback is constructive/critical:
+	•	“I understand the point being raised, and I appreciate the candid insight. I can see how improving in this area would help the team.”
+	•	Avoid debating or explaining too much. Acknowledge first.
+
+3. Ask clarifying questions (if needed)
+
+This shows maturity and a growth mindset:
+	•	“Could you share an example so I understand the context better?”
+	•	“What would ‘success’ look like in this area from your perspective?”
+
+4. Demonstrate commitment to improvement
+	•	“I’ll incorporate this into my development plan and start making progress immediately.”
+	•	“I want to ensure I’m operating at the level expected of me and contributing at the highest impact.”
+
+⸻
+
+What to Look Forward Going Forward (what to say when they ask about your goals)
+
+Keep it structured and aligned with what good performers say.
+
+1. Strengthen core responsibilities
+	•	“I want to continue deepening my impact in model risk—especially through stronger end-to-end ownership of validations and clearer communication with stakeholders.”
+
+2. Improve based on feedback
+	•	“I’d like to put more focus on the areas highlighted in the feedback—for example, improving efficiency, communication, cross-team coordination, or whatever themes come up.”
+
+3. Expand your role/skills
+
+Tailor to your situation:
+	•	“I want to broaden my expertise across AI/ML models and complex CCR/ICR models so I can take on more senior-level responsibilities.”
+	•	“I’m looking to improve project management so large deliverables (like FRB decks, MRCC materials) run even more smoothly.”
+
+4. Show alignment with team and firm goals
+	•	“I want to ensure my work directly supports the team’s long-term goals—especially MRA remediation, ERMF uplift, and enhancing AI governance.”
+
+5. Ask for support
+
+This is optional but shows maturity:
+	•	“I’d appreciate any guidance on prioritization or opportunities you think would help me grow into the next level.”
+
+⸻
+
+A Polished Closing Statement You Can Use
+
+Here is a script you can say toward the end:
+
+*“Thanks for walking me through all the feedback. I appreciate the team’s candid input. I’ll continue building on the strengths highlighted and I’ll focus on improving the areas mentioned today.
+
+Looking forward, I want to deepen my technical contribution, take on more ownership, and continue improving communication and partnership across teams. Please let me know if there are specific opportunities or stretch assignments you think I should target—I want to grow in a way that aligns with the team’s priorities.”*
+
+⸻
+
+If you want, I can also:
+✔ create a tailored script for your role in MRM specifically
+✔ help prepare answers to likely manager questions
+✔ prepare responses depending on the type of feedback (positive vs critical vs surprising)
+✔ simulate the performance review so you can practice
+
+Just tell me!
+
+
+
 Meeting Minutes: Q4 2025 Quarterly MRM Meeting with FRB – Nov 13, 2025
 
 MRM hosted the Q4 2025 Quarterly Model Risk Management meeting with FRB and FDIC. The agenda covered data challenges stemming from the recent U.S. government shutdown; progress on MRA remediation (including annual review enhancements and incremental CCAR feedback); internal audit findings and issue remediation; status of validation activity and findings; RAS exceptions and aged items; model inventory and AI/ML usage; thematic updates on key model changes; and ongoing monitoring results
