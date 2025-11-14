@@ -1,3 +1,6 @@
+FRB MRM MRA remediation remains on track for completion by year-end, with infrastructure enhancements and training completed ahead of the September 30 deadline following Model Risk Control Committee approval in May, and rollout underway with 242 of 751 Q4 reviews completed under the enhanced framework; separately, a remediation plan has been established to address incremental 2025 Comprehensive Capital Analysis and Review (CCAR) feedback related to ongoing monitoring of the credit card loss forecasting model.
+
+
 Here is a simpler, meeting-minutes-style version consistent with the tone and level used in the rest of the document:
 
 ⸻
