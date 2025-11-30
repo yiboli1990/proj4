@@ -1,3 +1,46 @@
+Hi Bill, this is the draft for the December CRO priorities deck. 
+Similar to the prior months, we have 2 sections for YTD accomplishments and ongoing priorities.
+The accomplishments, we are adding things to the deck month over month. We can focus on the changes which are highlighted in orange color. The black texts are the same as previous months.
+
+We can go through these changes one by one.
+First is the MRA remediation, the status is as off last Wednesday. And I added that we are reviewing the enhancements to the Apple Card loss forecasting model to address the CCAR incremental feedback. 
+
+I added ERMF uplift for the IRR calculation here. 
+
+For regulatory accomplishments, I added the submission of the remediation plan under the ACL transformed MRA.
+
+And under PRA, I added the ICR validations under the IRB road map. 
+
+The next slide is mostly stats update. 
+
+Under AI AIRCC, numbers have been updated. 
+Under validation, 67 validations completed YTD, up by 6 since last month.
+
+Next on the validation activities, 1180 validations completed as of November 24 , and ~ 10% increase compared to the same period last year. 
+
+We have some updates to the ASL validation last month including extensions of FLR to transition SFR facility. And two enhancements to the tail risk models on the next slide.
+The other things stay the same.
+
+Moving on to the ongoing priorities. 
+Same update to the MRA remediation for the CCAR incremental feedback.
+
+Under regulatory updates, I put CCAR here considering we are kicking off the 2026 cycle.
+
+And updated the Card origination exam given the meetings have concluded and we are waiting for the soft close.
+
+Under ECB, updated IMM exam and SRAP, given the findings has been formalized, remediation is ongoing.
+
+The last slide, the CCR has been confirmed with Andreza.
+The ASL is confirmed with Miao and Shipra. There are more under ASL, but these two new preTrade models and 2 enhancements are confirmed with deadline of YE.
+
+And we have updated significant t1 revalidation. 
+
+187 43% as of Nov 26
+
+
+
+
+
 “Eight preliminary findings were raised on quantitative modeling, with additional process-related findings expected, notably around local accountability for validation and expectations that validation reports are approved by senior management and the governing body.
 
 
