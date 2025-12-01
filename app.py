@@ -1,3 +1,11 @@
+Here are 4–5 simplified bullets:
+	•	Financial-services AI PoCs are still concentrated in fraud detection, customer engagement and service automation; broader adoption remains early
+	•	Prompt-injection remains a real risk — Apexon shared a case that temporarily shut down their site and led to new safety controls
+	•	Agentic AI can break easily from vendor upgrades, implying heavy ongoing-monitoring and change-review needs
+	•	Allowing AI to write data significantly heightens bias risk; industry is cautious and still mostly using GenAI for partial drafting (GS may be ahead on full-doc use)
+	•	External examples (e.g., aerospace) show GenAI succeeding in high-stakes processes, and AWS noted ~11-month time-to-value for enterprise AI initiatives
+
+
 Here is a tight, slide-ready version with clean bullets and no excess text:
 
 ⸻
