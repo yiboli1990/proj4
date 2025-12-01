@@ -1,3 +1,40 @@
+Here is a tight, slide-ready version with clean bullets and no excess text:
+
+⸻
+
+Industry Meeting on Agentic AI – Summary
+
+Agentic AI Adoption
+	•	Early stages across the industry, but broad consensus it will be a major trend
+	•	Initial pilots show strong efficiency gains (e.g., AML processing reduced from ~1hr to ~5mins)
+
+Risks, Cost, and Governance
+	•	Rising compute and infrastructure costs remain a constraint
+	•	Difficulties in understanding and controlling autonomous agent behavior
+	•	Risk and Compliance (esp. MRM) viewed as central to agentic AI governance
+
+Agentic AI in Control Functions
+	•	Risk and Compliance serve as both control owners and early adopters
+	•	MRM addresses performance, explainability, and failure modes; Compliance covers policy adherence
+	•	Strong traction in AML, fraud detection, and risk monitoring
+
+Managing Agentic AI Risks
+	•	Need for robust governance: safety boundaries, role-based permissions, audit logs, approval gates
+	•	Continuous monitoring for emergent behavior
+	•	Human-override mechanisms (“kill switches”) required for operational resilience
+
+Efficiency and Cost Management
+	•	Agentic workflows deliver substantial productivity benefits
+	•	Compute costs for agentic systems and vendor LLMs rising quickly
+	•	Firms exploring model orchestration and in-house fine-tuning for high-risk or policy-sensitive use cases
+
+⸻
+
+If you want a 1-page executive summary slide or a two-column format, I can generate that as well.
+
+
+
+
 Hi Bill, this is the draft for the December CRO priorities deck. 
 Similar to the prior months, we have 2 sections for YTD accomplishments and ongoing priorities.
 The accomplishments, we are adding things to the deck month over month. We can focus on the changes which are highlighted in orange color. The black texts are the same as previous months.
