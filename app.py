@@ -1,3 +1,7 @@
+•	Other material findings expected to require MRM involvement relate to outsourcing granularity, absence of a framework for RNIEPE, IMM backtesting, and initial margin modeling for cleared business
+	•	Less material findings include weaknesses in validation, ST-portfolio modeling, representative-portfolio construction, treatment of hard-to-replace trades, infrastructural testing, and documentation
+
+
 Establishes limits to manage maturity concentration risk that arises when large portions of secured funding mature in a short window and may not roll over under stress.
 
 Liquidity Risk Models
