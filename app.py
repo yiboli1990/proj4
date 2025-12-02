@@ -1,3 +1,16 @@
+Liquidity Risk Models
+MRM revalidated and approved enhancements to the Internalization Grid model (Risk, Tier 1) and the new Maturity Concentration Limits (MCL) qualitative approach (Risk, Tier A), closing supervisory findings on secured and internalization funding risk limits.
+• Internalization Grid: Added spot-risk measurement; remediated two high-severity testing and documentation findings prior to approval
+• MCL Qualitative Approach: Establishes limits to manage concentrated secured funding maturities during stress
+
+Asset Secured Lending Models
+Recent Tier 1 model enhancements approved for the business include:
+• Facility-Level Rating (FLR): Adopted CECL-based PD/LGD framework for direct CRE, replacing judgmental methodology and addressing validation findings
+• Collateral Valuation & Tail Risk (PECC): Incorporated fund-level recovery into valuation and tail-risk models for PECC loans
+• CLO Warehouse Tail Risk: Added hedge-benefit recognition to the CLO warehouse tail-risk model
+
+
+
 Here are 4–5 simplified bullets:
 	•	Financial-services AI PoCs are still concentrated in fraud detection, customer engagement and service automation; broader adoption remains early
 	•	Prompt-injection remains a real risk — Apexon shared a case that temporarily shut down their site and led to new safety controls
