@@ -1,3 +1,5 @@
+Establishes limits to manage maturity concentration risk that arises when large portions of secured funding mature in a short window and may not roll over under stress.
+
 Liquidity Risk Models
 MRM revalidated and approved enhancements to the Internalization Grid model (Risk, Tier 1) and the new Maturity Concentration Limits (MCL) qualitative approach (Risk, Tier A), closing supervisory findings on secured and internalization funding risk limits.
 • Internalization Grid: Added spot-risk measurement; remediated two high-severity testing and documentation findings prior to approval
