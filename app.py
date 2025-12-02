@@ -1,3 +1,20 @@
+Here is a concise 4–5-bullet version without formulas, keeping only the key points:
+
+⸻
+
+USD CPI Fallback Approval
+	•	BLS confirmed the October US CPI will never be published due to the government shutdown; November CPI will be released with a short delay but does not trigger fallback usage.
+	•	Fallback CPI values are required for US TIPS and CPI swaps referencing the October fixing, with two fallback methodologies applied (TIPS fallback and ISDA fallback).
+	•	Applicability: TIPS use the TIPS fallback; cleared inflation swaps use the ISDA fallback; bilateral trades may use either, though most are using the TIPS fallback in practice.
+	•	MRM validated and approved the modelling of the USD CPI fallback methodologies, raising two findings (one implementation bug, now remediated, and one on documentation/regression testing enhancements).
+	•	P&L impact is minimal as inflation curves have already been remarked consistent with the fallback values.
+
+⸻
+
+Let me know if you want it even tighter for a slide.
+
+
+
 •	Other material findings expected to require MRM involvement relate to outsourcing granularity, absence of a framework for RNIEPE, IMM backtesting, and initial margin modeling for cleared business
 	•	Less material findings include weaknesses in validation, ST-portfolio modeling, representative-portfolio construction, treatment of hard-to-replace trades, infrastructural testing, and documentation
 
