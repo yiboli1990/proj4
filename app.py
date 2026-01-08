@@ -1,3 +1,22 @@
+Market Risk
+	•	Scope of review: MR reviewed Q3 2025 backtesting results across the GS Group and all legal entities subject to standalone capital requirements, including desk-level sub-portfolios where relevant
+	•	Backtesting outcomes: No new Group-level backtesting breaches were observed in Q3 2025; breaches were observed in select sub-entities (GSCO, GSFM), for which MR raised findings
+	•	Breach diagnostics: Where breaches occur, MR assesses potential drivers including risk-factor data quality, proxy usage, unmodeled risk factors, and model conservatism at the portfolio and sub-portfolio level
+	•	Model assessment: Despite increased distance between VaR and P&L in Q3 (following two April breaches), MR continues to find the VaR framework fit for purpose at the Group level, noting that isolated sub-portfolio under-performance did not outweigh acceptable performance elsewhere
+
+⸻
+
+Credit Risk
+	•	Backtesting status: Q3 2025 backtesting results were shared with MRM on January 5 and are currently under active review
+	•	Overall performance: Preliminary review indicates stable model performance across credit portfolios
+	•	Securities Financing Transactions (SFTs): MRM is investigating the persistently high frequency of small-magnitude backtesting breaches (less than 5% excessions), which are disproportionately observed in SFTs
+	•	The investigation is focused on assessing whether these breaches are driven by model parameterization rather than Monte Carlo noise or market events, including cross-checks against EMEA backtesting results under the new framework
+	•	Outstanding finding: One medium-severity finding remains open as of March month-end
+	•	Interest Rate PE Model (Inflation-Linked Products): An increase in long-horizon PE backtesting exceptions during inflation regime transitions indicates limitations in capturing risk during such phases; remediation is in progress
+
+
+
+
 Pricing Models: Significant validation effort focused on complex and high-impact pricing models, including:
 	•	Validated and approved implementation of US CPI fallback methodologies prescribed by the US Treasury and ISDA, addressing pricing data unavailability arising from the government shutdown
 	•	Identified material deficiencies in a Tier 1 pricing model for TRY cross-currency zero-coupon Bermudan cancellable swaps, and approved remediation with material valuation impact
