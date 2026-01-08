@@ -1,3 +1,5 @@
+Resolved all FRAC breaches by remediating [#] unvalidated business activities (including [#] aged findings) inherited at transition from Compliance, bringing the population to zero
+
 Model Risk–related activities and controls are assessed as part of the firmwide Risk Control Self-Assessment (RCSA). Model developers and Strats should be aware of how Model Risk metrics and practices are referenced in RCSA and where supporting information can be found. For detailed guidance on RCSA methodology and requirements, please refer to the Operational Risk Confluence page. The guidance below highlights the limited set of Model Risk considerations relevant for RCSA and points to authoritative sources, including PRISM, to help ensure controls are appropriately reflected in the assessment.
 
 
