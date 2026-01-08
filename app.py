@@ -1,3 +1,6 @@
+MRM is investigating whether the statistically elevated frequency of small-magnitude backtesting breaches in Securities Financing Transactions (SFTs) is model-related rather than driven by market events
+
+
 Continued in-house MRM development leveraging GenAI to enhance validation workflows, with planned capabilities including:
 	•	Automated drafting of MRM validation documentation
 	•	GenAI-assisted Annual Review commentary
