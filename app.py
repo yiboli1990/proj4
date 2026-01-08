@@ -1,3 +1,11 @@
+Pricing Models: Significant validation effort focused on complex and high-impact pricing models, including:
+	•	Validated and approved implementation of US CPI fallback methodologies prescribed by the US Treasury and ISDA, addressing pricing data unavailability arising from the government shutdown
+	•	Identified material deficiencies in a Tier 1 pricing model for TRY cross-currency zero-coupon Bermudan cancellable swaps, and approved remediation with material valuation impact
+	•	Validated and approved enhancements to Credit Support Agreement (CSA) pricing models enabling recognition of Funding Valuation Adjustment (FVA) at default, addressing previously unmodeled exposure
+
+
+
+
 MRM is investigating whether the statistically elevated frequency of small-magnitude backtesting breaches in Securities Financing Transactions (SFTs) is model-related rather than driven by market events
 
 
