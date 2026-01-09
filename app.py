@@ -1,5 +1,22 @@
 Market Risk
 	•	Scope of review: MR reviewed Q3 2025 backtesting results across the GS Group and all legal entities subject to standalone capital requirements, including desk-level sub-portfolios where relevant
+	•	Review approach: For observed breaches, MR assesses potential drivers including risk-factor data quality, proxy usage, unmodeled risk factors, and portfolio-level conservatism, and evaluates whether under-performance in specific sub-portfolios is offset by acceptable performance elsewhere
+	•	Q3 outcomes: No new Group-level backtesting breaches were observed in Q3 2025; breaches were observed in select sub-entities (GSCO, GSFM)
+	•	Findings and conclusion: Findings were raised for the affected sub-entities; based on the full review, MR continues to conclude that the VaR framework remains fit for purpose at the Group level, noting increased distance between VaR and P&L in Q3 following two breaches in April
+
+⸻
+
+Credit Risk
+	•	Scope of review: MRM reviewed Q3 2025 backtesting results across credit portfolios, including Securities Financing Transactions (SFTs) and interest rate potential exposure (PE) models
+	•	Review approach: For observed breaches, MRM evaluates whether excessions are attributable to model assumptions or parameterization, Monte Carlo noise, or market-driven effects, and assesses consistency of results across frameworks and regions
+	•	Q3 outcomes: Q3 2025 backtesting results were shared with MRM on January 5 and are currently under review; preliminary results indicate stable overall model performance
+	•	Findings and next steps:
+	•	SFTs: MRM is investigating the persistently high frequency of small-magnitude backtesting breaches (less than 5% excessions), which are disproportionately observed in SFTs, including cross-checks against EMEA backtesting under the new framework
+	•	Outstanding finding: One medium-severity finding remains open as of March month-end related to the interest rate PE model for inflation-linked products, where increased long-horizon backtesting exceptions during inflation regime transitions indicate model limitations; remediation is in progress
+
+
+Market Risk
+	•	Scope of review: MR reviewed Q3 2025 backtesting results across the GS Group and all legal entities subject to standalone capital requirements, including desk-level sub-portfolios where relevant
 	•	Backtesting outcomes: No new Group-level backtesting breaches were observed in Q3 2025; breaches were observed in select sub-entities (GSCO, GSFM), for which MR raised findings
 	•	Breach diagnostics: Where breaches occur, MR assesses potential drivers including risk-factor data quality, proxy usage, unmodeled risk factors, and model conservatism at the portfolio and sub-portfolio level
 	•	Model assessment: Despite increased distance between VaR and P&L in Q3 (following two April breaches), MR continues to find the VaR framework fit for purpose at the Group level, noting that isolated sub-portfolio under-performance did not outweigh acceptable performance elsewhere
