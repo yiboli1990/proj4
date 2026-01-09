@@ -1,3 +1,6 @@
+Breaches were observed in select sub-entities (GSCO, GSFM), for which findings were raised related to the use of proxy time series instead of entity-specific data for certain equity names and the absence of certain new equity risk factors in the VaR model.
+
+
 Market Risk
 	•	Scope of review: MR reviewed Q3 2025 backtesting results across the GS Group and all legal entities subject to standalone capital requirements, including desk-level sub-portfolios where relevant
 	•	Review approach: For observed breaches, MR assesses potential drivers including risk-factor data quality, proxy usage, unmodeled risk factors, and portfolio-level conservatism, and evaluates whether under-performance in specific sub-portfolios is offset by acceptable performance elsewhere
