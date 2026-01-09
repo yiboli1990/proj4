@@ -1,3 +1,10 @@
+The desk considers the model assumptions to be conservative, with pricing and charges providing sufficient buffer for model uncertainty:
+	•	Removing the call features results in an issuance price of approximately –1% PV (–$120k), indicating that optionality is not driving excess value
+	•	Implied volatility is bid near historical lows, while skew is marked at the steeper end of observable G3 and EMEA IRS volatility markets, limiting upside bias
+	•	The model assumes deterministic GS spreads, which is conservative, as historically the realised volatility of HUF cross-currency rates plus GS spreads has exceeded the realised volatility of HUF cross-currency rates alone
+
+
+
 Breaches were observed in select sub-entities (GSCO, GSFM), for which findings were raised related to the use of proxy time series instead of entity-specific data for certain equity names and the absence of certain new equity risk factors in the VaR model.
 
 
