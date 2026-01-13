@@ -1,3 +1,73 @@
+US government shutdown, including approval of the implementation of US Consumer Price Index (CPI) fallback methodologies aligned with formulas published by the US Treasury and ISDA
+** Fallback CPI values are required for US Treasury inflation-protected securities (TIPS) and CPI swaps referencing the October US CPI, which was not published due to the government shutdown
+
+Risk management enhancements, including approval of a new volatility surface calibration methodology for Monte Carlo-based pricing of multi-cross binary options, rainbow options, either-or options, and basket options with four or more crosses
+** The new methodology replaces a prior model with frequent short-end calibration failures, resulting in more stable risk calculations, faster performance, and reduced Monte Carlo noise
+
+Valuation adjustments, including approvals of:
+** A new Tier 1 model to calculate skew liquidity valuation adjustment (LVA) for the US Volex desk covering European swaptions and interest rate cap and floor options, supporting Controllers’ determination of liquidity reserves
+** Enhancements to the Tier 1 equity bid-offer spread reserve model to include equity-equity and equity-FX correlation reserves that were previously not captured, resulting in more stable reserves during market rallies
+
+Extension of the Tier 1 model used to monitor incremental netting and enforceability (N&E) risk to franchise and Synthetic Products Group (SPG) businesses, following prior approval for Futures, Derivative Clearing Services, and Securities Lending, enabling consistent netting-node calculations as part of the ERMF uplift
+
+Enhancements to the V30 version of the CREST credit model used for shortfall benchmarking in Derivative Clearing Services (DCS), addressing a validation finding on divergence relative to other business lines
+
+margin shortfall modeling enhancements for franchise benchmark models, including decomposition of repo cash legs and inclusion of collateral in worst case loss and shortfall calculations, addressing validation findings
+
+Approval of a new Tier 1 model to calculate net interest income (NII) and sensitivity for the Prime Services banking book, developed as part of the ERMF uplift and supporting integration into the centralized firmwide Earnings at Risk (EaR) framework
+
+Model Risk approved a new Tier 2 model to estimate optimal uplend amounts (excess liquid assets lent back to the parent as a short-term loan) to maximize parent company liquidity benefits, replacing previous manual calculation
+ * This is part of a broader Corporate Treasury initiative to improve efficiency and systematize inventory funding calculations through integration with the Delphi platform
+
+Liquidity Risk: Approval of enhancements addressing supervisory findings on secured and internalization funding risk limits, including:
+** Enhancements to the Tier 1 internalization risk model to measure spot internalization risk from synthetic and physical equity collateral
+*** Two high-severity findings related to testing and documentation were remediated prior to approval
+** A new Tier A qualitative approach to establish limits for managing maturity concentration risk of secured funding liabilities under stress
+
+Market Risk: Approval of a new Tier 1 model to capture profit and loss profiles under a range of equity risk factor shocks for risk and limit management purposes
+** Implemented on the new GSRisk infrastructure as part of a strategic initiative to migrate from RockBox and enable more efficient risk calculations
+
+
+On January 5, 2026, GS completed the acquisition of Industry Ventures, a venture capital platform investing across all stages of the venture capital lifecycle
+
+To support continued business operations following the acquisition, the Head of Model Risk Management (MRM) granted three-month policy exceptions for the use of existing models and qualitative approaches, during which gaps to GS standards will be assessed and uplift plans established, including:
+** Asset & Wealth Management (AWM) will finalize the model inventory and define the uplift plan
+** MRM will assign risk tiers to the models and qualitative approaches and establish a validation plan
+** Based on the scope of required uplift, MRM will either:
+*** Extend the policy exception to cover the uplift period, or
+*** Address the items through business-as-usual exception processes, such as waivers or Risk Appetite Statement (RAS) limits, where appropriate
+
+Models from the acquired business are not included in GS RAS metrics until policy exceptions are resolved and required uplifts are completed
+
+
+There is continued growth in Artificial Intelligence (AI) models and use of new techniques, including approval of enhancements to the personally identifiable information (PII) and prompt injection detection components of a generative AI model that serves as a monitoring framework for the GS AI Platform, used to identify potentially unsafe interactions between users and large language models
+
+There is continued focus on validation work supporting Counterparty Credit Risk (CCR) management enhancements under the ERMF uplift, including approvals of enhancements to the netting and enforceability (N&E) risk monitoring model to extend coverage to franchise and Synthetic Products Group (SPG) businesses, and enhancements to stressed credit exposure models for margined funds to address validation findings
+
+US government shutdown related model enhancements, including approval of US Consumer Price Index (CPI) fallback methodologies prescribed by the US Treasury and the International Swaps and Derivatives Association (ISDA), addressing data unavailability resulting from the shutdown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The desk considers the model assumptions to be conservative, with pricing and charges providing sufficient buffer for model uncertainty:
 	•	Removing the call features results in an issuance price of approximately –1% PV (–$120k), indicating that optionality is not driving excess value
 	•	Implied volatility is bid near historical lows, while skew is marked at the steeper end of observable G3 and EMEA IRS volatility markets, limiting upside bias
