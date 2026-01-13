@@ -1,3 +1,10 @@
+Risk underestimation was identified in the portfolio risk decomposition model used at total portfolio, strategy, and security levels, where ongoing monitoring reports showed realized volatility materially exceeding ex-ante model estimates for certain accounts in short-duration, CLO, and emerging markets strategies; remediation is in progress
+	•	Performance deterioration was observed in a firmwide machine-learning model used to detect unauthorized access to production environments, with declines in key classification metrics including accuracy, F1 score, precision, and recall identified through ongoing monitoring during the 2025 additional validation; remediation is in progress
+	•	Gaps in risk capture were identified in the margin shortfall model, including missing interest rate volatility shocks for swaptions, inadequate FX delta treatment for FX swaps contributing to backtesting breaches, and incorrect application of default charges for bonds with pricing errors or missing base prices; remediation is in progress
+
+
+
+
 o the model used to monitor incremental netting and enforceability (N&E) risk to extend coverage to franchise and Synthetic Products Group (SPG) businesses, and enhancements to the model used for calculating credit exposure under stress scenarios for margined funds to address validation findings
 
 US government shutdown, including approval of the implementation of US Consumer Price Index (CPI) fallback methodologies aligned with formulas published by the US Treasury and ISDA
