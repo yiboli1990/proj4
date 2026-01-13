@@ -1,3 +1,24 @@
+Dear Fragomen Billing Team,
+
+This email is to provide remittance details for payment made in connection with the I-907 Premium Processing Service.
+
+Please find the payment details below and/or attached for your reference:
+
+- Service: I-907 Premium Processing Service  
+- Payer Name: Yibo Li  
+- Payment Date: [MM/DD/YYYY]  
+- Amount Paid: [$ Amount]  
+- Payment Method: [ACH / Wire / Check]  
+- Reference / Confirmation Number: [If applicable]
+
+Please let me know if any additional information is required to properly apply this payment.
+
+Thank you.
+
+Best regards,  
+Yibo Li
+
+
 Insufficient risk capture was identified in the franchise margin shortfall models, where inadequate FX delta treatment for FX swaps contributed to backtesting breaches; the findings have been remediated through model enhancements
 
 
