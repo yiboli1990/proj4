@@ -1,3 +1,6 @@
+Insufficient risk capture was identified in the franchise margin shortfall models, where inadequate FX delta treatment for FX swaps contributed to backtesting breaches; the findings have been remediated through model enhancements
+
+
 Risk underestimation was identified in the AW portfolio risk decomposition model, where ongoing monitoring reports showed realized volatility exceeding ex-ante model estimates for certain accounts in short-duration, CLO, and emerging markets strategies; model developers are investigating root causes and implementing modeling enhancements where appropriate
 	•	Performance deterioration was observed in classification metrics for the Engineering machine-learning model used to detect unauthorized access to production environments; the finding has been remediated through model retraining using additional, more recent data
 	•	Insufficient risk capture was identified in the franchise margin shortfall models, including missing interest rate volatility shocks for swaptions and inadequate FX delta treatment for FX swaps that contributed to backtesting breaches; the findings have been remediated through model enhancements
