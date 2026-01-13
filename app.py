@@ -1,3 +1,5 @@
+o the model used to monitor incremental netting and enforceability (N&E) risk to extend coverage to franchise and Synthetic Products Group (SPG) businesses, and enhancements to the model used for calculating credit exposure under stress scenarios for margined funds to address validation findings
+
 US government shutdown, including approval of the implementation of US Consumer Price Index (CPI) fallback methodologies aligned with formulas published by the US Treasury and ISDA
 ** Fallback CPI values are required for US Treasury inflation-protected securities (TIPS) and CPI swaps referencing the October US CPI, which was not published due to the government shutdown
 
