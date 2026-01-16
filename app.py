@@ -1,3 +1,7 @@
+The index replicates a Total Return Forward exposure by applying a 10× multiplier to the performance difference between the gross return index and the rolling futures total return index
+
+
+
 Trade Description
 	•	Trade type: Standard autocallable note on a replicated TRF decrement index
 	•	Underlying: Euro Stoxx Select Dividend 30 Futures Roll EUR Total Return Index, with a replicated TRF decrement mechanism
