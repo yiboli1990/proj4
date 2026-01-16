@@ -1,3 +1,15 @@
+Trade Description
+	•	Trade type: Standard autocallable note on a replicated TRF decrement index
+	•	Underlying: Euro Stoxx Select Dividend 30 Futures Roll EUR Total Return Index, with a replicated TRF decrement mechanism
+	•	Index construction: The index replicates a leveraged Total Return Forward exposure by applying a systematic percentage decrement to benchmark performance
+	•	Decrement methodology: The decrement is based on the performance difference between the gross return index and the rolling futures total return index, representing the TRF funding component
+	•	Rebalancing: Index is rebalanced periodically in line with predefined rules
+	•	Coupon: Fixed annual coupon
+	•	Autocall feature: Quarterly observation dates starting at the end of year 1; early redemption at par plus accrued coupon if the autocall barrier is met
+	•	Maturity payoff: If not autocalled, redemption at par if the final index level is above the maturity barrier; otherwise redemption is linked to final index performance
+
+
+
 Dear Fragomen Billing Team,
 
 This email is to provide remittance details for payment made in connection with the I-907 Premium Processing Service.
