@@ -1,3 +1,27 @@
+Artificial Intelligence
+
+Botnation AI (GBM, Tier 2)
+	•	MRM approved Botnation AI, a GenAI-enhanced quote parser for GBM.
+	•	The model enhances the existing ML-based Botnation solution used in FICC, addressing areas where traditional ML underperforms.
+	•	Achieved strong accuracy across asset classes: 98% for FX, 99% for Bonds, and 98% for Credit ETFs.
+	•	As part of validation, MRM designed stress tests by introducing random typographical errors into quotes; accuracy declined materially under stress, highlighting a known model limitation, though performance remained superior to the ML-only Botnation.
+	•	GBM plans to extend coverage across FICC, with the next review commencing in Commodities.
+
+Guardrails for LLM (Engineering, Tier 1) – Version 3.2
+	•	MRM approved version 3.2 of the LLM Guardrails framework.
+	•	Enhancements include a new guardrail for PII misuse, expanding beyond detection to assess usage context and intent.
+	•	Additional improvements include refinements to existing guardrails, prompt fine-tuning, and an upgrade to Gemini 2.5 Flash.
+
+LLM Upgrades for GBM AI Models
+	•	GBM AI models (e.g., Marquee AI, Sentistats) are undergoing LLM upgrades.
+	•	Review processes for LLM upgrades have been streamlined by leveraging existing validation analyses where appropriate.
+	•	For Tier 3 models, upgrades require notification only, with no re-approval required.
+
+
+
+
+
+
 Summary
 	•	Continued enhancement of the GS AI Platform monitoring framework to detect and mitigate potentially unsafe interactions between users and large language models
 	•	Ongoing focus on AI governance, including recent enhancements to the AI Policy and the Standard for Agentic AI
