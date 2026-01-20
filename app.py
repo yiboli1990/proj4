@@ -1,3 +1,5 @@
+is reviewing trading models used for Japan-related activity. To date, impacted trading has been predominantly flow-driven (bond-related), with no model deficiencies identified. The review remains ongoing.
+
 AI Risk Management and Governance – External Benchmarking (Oliver Wyman)
 	•	Met with Oliver Wyman partners on peer-bank practices in AI risk management and governance, following AI topical sessions.
 	•	AI Kill Switches: Broad consensus that AI kill switches are necessary and distinct from traditional risk controls; approaches range from enterprise-level CRO controls to use-case-specific backstops (e.g., disabling chatbots when confidence thresholds are breached).
