@@ -1,3 +1,15 @@
+Summary
+	•	Continued enhancement of the GS AI Platform monitoring framework to detect and mitigate potentially unsafe interactions between users and large language models
+	•	Ongoing focus on AI governance, including recent enhancements to the AI Policy and the Standard for Agentic AI
+
+Risk Management Actions / Next Steps
+	•	Validation activities focused on monitoring framework enhancements, including context-based PII detection and improved identification of malicious intent in prompt-injection monitoring
+	•	Policy enhancements reinforce expectations for increased ongoing testing as autonomy increases and human oversight decreases, and strengthen controls over agent access to data, tools, and systems, defined operating boundaries, and monitoring of agent actions and decision outcomes
+
+
+
+
+
 The index replicates a Total Return Forward exposure by applying a 10× multiplier to the performance difference between the gross return index and the rolling futures total return index
 
 
