@@ -1,3 +1,13 @@
+AI Risk Management and Governance – External Benchmarking (Oliver Wyman)
+	•	Met with Oliver Wyman partners on peer-bank practices in AI risk management and governance, following AI topical sessions.
+	•	AI Kill Switches: Broad consensus that AI kill switches are necessary and distinct from traditional risk controls; approaches range from enterprise-level CRO controls to use-case-specific backstops (e.g., disabling chatbots when confidence thresholds are breached).
+	•	MRM Scaling: CROs and Heads of MRM are focused on how MRM scales with exponential AI growth; peer approaches align with GS, leveraging automation, upskilling existing staff, and targeted strategic hiring.
+	•	Monitoring Frameworks: Second line sets standards, with first line executing due to scale; banks vary between centralized monitoring teams and federated business-owned models.
+	•	Governance Efficiency: Firms are moving from reviewing every AI use case to lighter-touch reviews for common patterns, consistent with GS AIRC streamlining.
+	•	Third-Party AI: Practices vary, with some banks treating vendor AI as models and others, similar to GS, relying on vendor risk management.
+	•	Agentic AI: Viewed as a key 2026 theme; human-in-the-loop controls are insufficient, requiring real-time monitoring, measurable KPIs, and explainability.
+
+
 Artificial Intelligence
 
 Botnation AI (GBM, Tier 2)
