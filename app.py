@@ -1,3 +1,7 @@
+Japan snap election: MRM is reviewing trading models used for Japan-related activity following the bear-steepening in JGBs, with trading predominantly flow-driven (bond-related) and no modeling issues identified to date.
+
+
+
 is reviewing trading models used for Japan-related activity. To date, impacted trading has been predominantly flow-driven (bond-related), with no model deficiencies identified. The review remains ongoing.
 
 AI Risk Management and Governance – External Benchmarking (Oliver Wyman)
