@@ -1,3 +1,8 @@
+Recent market volatility, including bear-steepening in rates following the Japan snap election announcement, has not resulted in any material model performance issues, and monitoring remains ongoing.
+	•	The announcement of snap elections and a proposed temporary food consumption tax cut raised fiscal concerns and drove a pronounced bear-steepening in JGBs, particularly at the long end of the curve.
+	•	Model Risk Management is reviewing trading models used for Japan-related activity; trading to date has been predominantly flow-driven (bond-related), with no modeling issues identified thus far.
+
+
 Japan snap election: MRM is reviewing trading models used for Japan-related activity following the bear-steepening in JGBs, with trading predominantly flow-driven (bond-related) and no modeling issues identified to date.
 
 
