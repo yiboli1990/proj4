@@ -1,3 +1,80 @@
+Meeting Minutes
+
+Q4 2025 Quarterly Model Risk Management (MRM) Meeting with Federal Reserve Board (FRB)
+Meeting Date: [not stated in transcript; held in early January 2026]
+Period Covered: Q4 2025
+
+MRM held its quarterly meeting with the FRB to provide updates on model validation activity and findings; Internal Audit (IA) issues; issue remediation; RAS exceptions and aged items; model inventory updates including AI/ML segmentation; key model changes (enhancements and redevelopment); ongoing monitoring results and thematic observations; and progress on the “Weaknesses in Model Validation Controls Framework” MRA remediation.
+
+In addition, FRB noted a separate request from Patrick for the firm’s model inventory inclusive of generative and agentic AI indicators, due February 10; the firm is preparing this separately and it was not included in the meeting agenda.
+
+⸻
+
+Key Discussions
+
+1. Model validations and status of findings
+	•	Caroline presented Q4 validation activity and the quarter-over-quarter evolution of open findings, noting a slight, moderate increase in open findings and continued focus on remediation, including 310 findings closed during the period
+	•	FRB asked for details on the three models where annual review outcomes resulted in triggered revalidations; Caroline explained (i) annual review may be satisfied via scheduled revalidation for certain models, and (ii) annual review can trigger revalidation where warranted
+	•	Caroline later provided additional color that the three triggered revalidations relate to three Tier 1 Risk-owned models, driven by (a) materiality/time since last revalidation for a capital model, and (b) scope/usage changes for two models (including a new feeder model identification and a climate risk model with expected scope expansion); additional details to be provided as needed
+
+2. Internal Audit findings and MRM issues raised by IA
+	•	Caroline summarized IA activity and noted that in 2025 the firm had nine audits focused on model controls (all effective opinions), and MRM also participated in 50+ additional audits where model controls were a component
+	•	Caroline reviewed four open IA findings, all General (lowest severity), including:
+	•	One previously discussed finding related to GitLab change control
+	•	Three documentation-focused items requiring incremental enhancements to validation documentation (Tier 2 models / Tier 2 deterministic regulatory calculation (DRC))
+	•	FRB asked for details on the Tier 2 DRC “feeder model” documentation item and whether it reflected an input appropriateness concern or a template issue; Caroline clarified:
+	•	The issue was a documentation enhancement, not a concern that feeder inputs were inappropriate
+	•	IA expectations were for more explicit acknowledgment/assessment of feeder models in the validation package, consistent with existing validation documentation requirements
+	•	IA did not identify inadequacy in the firm’s actual model assessment; findings were focused on documentation completeness
+	•	Caroline reported four IA findings closed in Q4, all General severity, primarily documentation-related (including Tier 1 models and a Tier B qualitative approach), with some items raised and closed quickly during the quarter
+
+3. RAS exceptions and aged items
+	•	Caroline provided the RAS update using the same format as the weekly report provided to the firmwide risk appetite committee, and confirmed no Board- or FRAC-level breaches for models under waiver during the period and generally low utilization
+	•	FRB asked to confirm the standard waiver duration for unvalidated models in use; Caroline confirmed the standard waiver period is three months
+	•	Caroline reviewed aged waiver thresholds (e.g., >6 months at FRAC and >1 year at Board) and noted the aged waiver metrics remained 0
+	•	Caroline highlighted continued FRAC threshold breach for Tier 1 models with aged findings following the threshold tightening effective October 1 (from 9 months to 6 months past due date)
+	•	Caroline noted the breach was driven by five Tier 1 Counterparty Credit Risk models (GBM/GPM); since year-end, two have been remediated/closed, and revised target dates have been set for the remaining items
+	•	FRB questioned whether the tightened threshold is achievable given persistent breaches; the firm responded:
+	•	The intent is to return to compliance and remain compliant; senior GBM management engagement was noted, including CRO attention
+	•	The firm expects to return below the threshold by end of Q2 and emphasized the threshold is intended to drive timely remediation rather than create tolerance for aged items
+	•	The firm also noted broader control pressure via RCSA, where persistent overdue remediation patterns may impact control effectiveness assessments
+
+4. Model inventory updates, including AI/ML segmentation
+	•	Caroline noted overall model inventory remained stable year-over-year (approx. +150 models), with some reclassification and re-tiering activity
+	•	FRB asked about a specific case where a Tier 2 model was re-tiered to Tier 4, and clarified Tier 4 as very low-risk AI/ML; the firm explained the change reflected additional information obtained during the risk-tiering process prior to go-live, including a robust human-in-the-loop control environment
+	•	FRB asked about “unclassified models”; the firm clarified these are declared models pending completion of initial risk tiering (including follow-ups to developers and internal review/approval steps)
+	•	Caroline presented the AI inventory segmentation (generative vs. non-generative; agentic use cases currently small) and clarified the “AI platform” category:
+	•	“Tier 1–4” refers to use-case models built on an AI platform
+	•	“AI platform” refers to underlying tools/platforms (e.g., foundational LLMs and general-purpose productivity tools) that are inventoried but validated in the context of specific use cases, not “in the abstract”
+	•	Caroline confirmed the forthcoming inventory submission requested by Patrick will include Tier 1–4 AI models and AI platforms, along with generative and agentic AI indicators (due February 10), with the FRB to follow up with questions after review
+
+5. Model changes, including enhancements and redevelopment
+	•	Shipra provided thematic updates on key Q4 approvals and enhancements, including:
+	•	Internal Credit Rating (ICR) models: approval of eight Tier 1 ICR models (Private Equity capital call / Direct CRE / six corporate sectors), supporting ERMF uplift objectives and addressing supervisory feedback on repeatability and transparency; 13 high-severity findings raised and closed within initial validation, including remediation related to data fit/representativeness and bucketing methodology
+	•	AI models: continued growth, including enhancements to the Guardrails monitor model (prompt injection detection and PII; focus on reducing false positives), two new Tier 2 approvals (web search grounding in GS AI assistant to improve latency; GenAI extraction of Japanese term sheet information in GPM), and lower-tier productivity use cases
+	•	ASL / GBM / CCR / Treasury / Liquidity / Market Risk: a range of enhancements including underwriting/pre-trade extensions, CPI fallback methodology, FX calibration methodology improvements, a Tier 1 valuation adjustment model, CCR model coverage extension, DCS shortfall benchmarking migration, Prime Services banking book sensitivity model uplift, liquidity risk model enhancements (including internalization liquidity risk), and market risk infrastructure migration
+	•	Policy exception for acquired models/QAs: Head of MRM granted a three-month policy extension to allow AWM to inventory and assess models/QAs from an acquisition (Industry Ventures) and define uplift/retirement/mapping plans; the firm expects a de minimis population and will reassess at the end of the three-month period, extending or transitioning to BAU exception processes as appropriate
+
+6. Ongoing monitoring, including thematic issues and impact
+	•	Shipra summarized Q4 ongoing monitoring outcomes and noted no high-severity findings raised from ongoing monitoring during the quarter
+	•	Four medium-severity items were highlighted, including:
+	•	AWM portfolio decomposition risk underestimation identified during annual review/OM report review (under remediation)
+	•	Two franchise shortfall back-testing issues related to missing/inaccurate risk factors (remediated via model enhancements)
+	•	A Tier 2 surveillance model performance deterioration addressed via retraining with latest data and additional enhancements
+	•	Market risk back-testing review identified no material breaches; credit risk results remained under review, with one prior medium-severity item still open but within thresholds
+
+7. Weaknesses in Model Validation Controls Framework MRA remediation progress
+	•	Caroline confirmed completion of remediation for both the original MRA and incremental CCAR 2025 feedback by the December 19 deadline, and noted IA has initiated validation of the remediation package
+	•	Caroline clarified IA previously completed an interim review of earlier remediation components (referenced as “AP 1.1 and 1.2”), including the enhanced framework and MRCC approval in September, with no additional actions identified; IA has now initiated review of subsequent remediation evidence and may request additional documentation
+
+⸻
+
+Follow-ups / Action Items
+	•	Firm to provide additional details on the three Tier 1 models whose annual review outcomes triggered revalidation (beyond the high-level drivers shared on the call), if the FRB requests more detail
+	•	Firm to deliver the year-end model inventory submission inclusive of generative and agentic AI indicators (and AI platform inventory), per Patrick’s request, due February 10
+	•	FRB offered that the firm may submit AI-related policy/guidance questions in writing for routing to David Palmer; the firm may follow up separately as needed
+
+
 The FRB requested our model inventory, including last and next validation dates and artificial intelligence indicators (AI/ML, Generative AI, Agentic AI), in addition to the standard inventory information previously providedRecent market volatility, including bear-steepening in rates following the Japan snap election announcement, has not resulted in any material model performance issues, and monitoring remains ongoing.
 	•	The announcement of snap elections and a proposed temporary food consumption tax cut raised fiscal concerns and drove a pronounced bear-steepening in JGBs, particularly at the long end of the curve.
 	•	Model Risk Management is reviewing trading models used for Japan-related activity; trading to date has been predominantly flow-driven (bond-related), with no modeling issues identified thus far.
