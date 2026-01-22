@@ -1,4 +1,16 @@
-	Deb (FRB) asked whether the Guardrails monitoring model enhancements (PII detection and prompt-injection detection; false-positive reduction) were triggered by ongoing monitoring results, and more broadly how the firm is approaching ongoing monitoring for AI/ML models given that performance monitoring can be less straightforward than for traditional models
+	•	Deb (FRB) asked for additional detail on the three-month policy exception granted by the Head of MRM to support continued use of models and qualitative approaches inherited through a recent asset management acquisition, including the expected scope and oversight during the exception period
+	•	The firm explained that the exception is intended to provide a time-bound inventory and assessment period, during which the business will:
+	•	Identify models and spreadsheet-based calculations used by the acquired entity
+	•	Determine whether items should be mapped to existing GS models, uplifted into the GS MRM framework as new models, or retired
+	•	The firm noted that the current expectation is a limited population, with many items likely to be spreadsheets or calculations that can be mapped to existing GS models rather than requiring full validation as standalone models
+	•	The firm clarified that the three-month checkpoint is intended to establish a clear remediation plan and population size; following this review, MRM will determine whether:
+	•	Items can be handled through business-as-usual exception processes (if de minimis), or
+	•	A time-bound extension of the policy exception is warranted to support a structured uplift plan
+	•	The firm noted this approach is consistent with prior acquisitions (e.g., NNIP and other smaller integrations), where temporary policy exceptions were used to allow orderly inventory, risk assessment, and uplift to GS standards without disrupting ongoing business activity
+
+
+
+Deb (FRB) asked whether the Guardrails monitoring model enhancements (PII detection and prompt-injection detection; false-positive reduction) were triggered by ongoing monitoring results, and more broadly how the firm is approaching ongoing monitoring for AI/ML models given that performance monitoring can be less straightforward than for traditional models
 	•	The firm explained that the Guardrails model operates as part of a broader AI monitoring framework, including a dedicated AI monitoring group that reviews incidents and Guardrails metrics on a monthly cadence and includes relevant stakeholders (including Legal and Compliance)
 	•	The firm noted that enhancements were informed by review of flagged cases and user/ reviewer feedback, with a focus on reducing benign false positives while continuing to capture higher-risk behavior (e.g., refining what constitutes meaningful PII and improving prompt-injection signal quality)
 	•	Deb (FRB) asked whether the firm is setting explicit thresholds/metrics for AI/ML model monitoring similar to traditional models, or whether monitoring is primarily driven by qualitative feedback and incident review
