@@ -1,3 +1,12 @@
+	Deb (FRB) asked whether the Guardrails monitoring model enhancements (PII detection and prompt-injection detection; false-positive reduction) were triggered by ongoing monitoring results, and more broadly how the firm is approaching ongoing monitoring for AI/ML models given that performance monitoring can be less straightforward than for traditional models
+	•	The firm explained that the Guardrails model operates as part of a broader AI monitoring framework, including a dedicated AI monitoring group that reviews incidents and Guardrails metrics on a monthly cadence and includes relevant stakeholders (including Legal and Compliance)
+	•	The firm noted that enhancements were informed by review of flagged cases and user/ reviewer feedback, with a focus on reducing benign false positives while continuing to capture higher-risk behavior (e.g., refining what constitutes meaningful PII and improving prompt-injection signal quality)
+	•	Deb (FRB) asked whether the firm is setting explicit thresholds/metrics for AI/ML model monitoring similar to traditional models, or whether monitoring is primarily driven by qualitative feedback and incident review
+	•	The firm responded that many AI/ML models do use quantitative performance thresholds, typically established by the first line and validated by MRM as part of approval (e.g., green/amber/red bands with escalation actions up to and including model shutdown if performance deteriorates), while also noting that the firm is still early in standardizing these practices and is working toward a more systematic/centralized approach over time
+	•	Deb (FRB) also asked whether AI/ML models are being incorporated into the Risk Appetite Statement (RAS) framework through AI-specific metrics, or whether they fall under the existing RAS metrics
+	•	The firm confirmed that AI/ML models are already captured under existing RAS metrics (RAS applies to all models), noting that Tier 3/2/1 AI models would be in-scope for the relevant RAS measures, while Tier 4 models are generally low-risk; the firm added that governance and standards will continue to evolve as higher-tier AI usage grows
+
+
 Meeting Minutes
 
 Q4 2025 Quarterly Model Risk Management (MRM) Meeting with Federal Reserve Board (FRB)
