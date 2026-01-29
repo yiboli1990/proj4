@@ -1,3 +1,28 @@
+Sure — here’s a tighter, cleaner version with the same content but much more executive-ready and scannable:
+	•	FRB CAR NPR: Submitted response on proposed model changes to PPNR, fair value option (FVO) loan losses, and Global Market Shock (GMS)
+	•	ECB SREP feedback: Completed remediation of model inventory completeness finding
+
+AIRCC approvals (YTD):
+	•	XX new use cases and XX extensions approved by committee, including XX
+	•	XX low-risk use cases and XX extensions approved via streamlined review, including XX
+
+AI model approvals (YTD 2026):
+	•	Approved 8 AI models (1 Tier 1, 2 Tier 2, 5 Tier 4), including:
+	•	Payment Settlements AI (CT, Tier 1): GenAI model for reconciling incoming payments to correct accounts
+	•	Botnation AI (GBM, Tier 2): GenAI-enhanced quote parser replacing legacy ML Botnation in FICC
+
+Validation activity (YTD):
+	•	Completed 42 model, QA, and DRC validations, including:
+	•	Counterparty Credit Risk: Approved enhancements to CCR management, including:
+	•	Migration of DCS shortfall benchmarking to CREST V30 (GBM, Tier 1), addressing a validation finding
+	•	Enhancement to US natural gas delta liquidation charge in the Franchise FIC Commodities Benchmark model (GBM, Tier 1), enabling netting of offsetting exposures
+	•	Pricing models: Approved new volatility surface calibration for Monte Carlo pricing of complex multi-cross options, replacing an unstable prior model and improving stability, performance, and noise reduction
+	•	Asset Secured Lending: Approved FLR model enhancements (Risk, Tier 1), including:
+	•	Extension to hybrid fix-and-flip and lot loan deals
+	•	Adoption of Merton Jump Diffusion and conditional PD mapping to better capture collateral price jumps
+
+
+
 Following confirmation from the Bureau of Labor Statistics that the October US CPI will not be published due to the government shutdown, fallback CPI values were required for US TIPS and CPI swap instruments referencing the October fixing. Two established fallback methodologies were applied, with US TIPS using the TIPS fallback, cleared inflation swaps using the ISDA fallback, and bilateral trades permitted to use either approach. Model Risk Management validated and approved the modelling of the USD CPI fallback methodologies to ensure consistent valuation and risk capture across affected products. Two Severity 2 findings were identified relating to an implementation issue, which has since been remediated, and to gaps in testing and documentation, with remediation actions underway. The overall P&L impact was minimal, as inflation curves had already been remarked in line with the approved fallback values.
 
 
