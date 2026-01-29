@@ -1,3 +1,75 @@
+Transaction Waiver Summary
+
+Desk
+
+Equities – Hedge Fund Financing / Structured Equity
+
+Trade
+
+Large OET Total Return Swap (TRS) referencing a hedge fund, with gated redemption mechanics passed through upon termination
+
+Counterparty / Client
+
+Al Maha SPV, owned and guaranteed by Abu Dhabi Investment Council (ADIC)
+
+Notional
+
+USD 750 million
+(Note: pipeline of similar trades, with potential scale up to USD 10 billion notional)
+
+Terms
+
+• Standard 1-year equity swap with Open Early Termination (OET)
+• OET notice: 5 business days for client, 60 business days for GS
+• Upon termination or OET, the swap enters a 2-year unwind period consistent with the underlying fund’s liquidity terms
+• Redemption schedule: 12.5% notional reduction per calendar quarter (8 quarters total)
+• 45 business day redemption notice
+• Quarterly notional resets and equity leg payments
+• Quarterly floating payments
+
+Underlier
+
+Walleye Opportunities Fund LP
+
+Structure Overview
+
+• GS sells synthetic exposure (TRS) on the hedge fund to ADIC
+• GS establishes Signum Fund 4 SPV, which becomes the Limited Partner in the Walleye fund
+• GS holds preferred shares in the SPV, obtaining full economic delta exposure
+• SPV structure ensures transferability of hedge fund interests in case of regulatory or structural changes without manager consent
+
+Economics
+
+Expected P&L: >50 bps p.a. (minimum USD 5 million per annum)
+
+Strategic Rationale
+
+The desk believes this is the first set of trades in a scalable structure with potential to reach up to USD 10 billion in notional and generate more than USD 50 million per annum for the firm, while materially strengthening the firm’s relationship with ADIC and the broader hedge fund and large asset allocator franchise.
+
+⸻
+
+Reason for Waiver
+
+The firm currently does not have a swap tradable that correctly represents the scheduled redemption and unwind mechanics of the underlying hedge fund following a swap termination or OET event.
+Upon termination, rather than an immediate unwind, the trade enters the fund’s redemption cycle, leaving residual delta and funding exposure outstanding for up to eight additional quarters, which is not accurately captured in existing tradables.
+The desk has confirmed with SPG Strats that no existing swap tradable appropriately models this redemption profile or the resulting Credit and ALM risk to GSIU.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will be booked as a structured equity trade comprising eight linked swaps, corresponding to each potential quarterly cancellation date.
+• Each individual swap is set to be called on its first valid date, ensuring alignment in pricing and valuation
+• As long as no cashflow is generated, the trade will function correctly in downstream systems
+• This approach allows correct pricing of the economic exposure while the formal tradable enhancement is developed
+
+⸻
+
+Compensating Controls
+
+The desk noted that the trade prices correctly under the proposed structure, with the primary limitation arising only when cashflows are generated, at which point exposures and unwind mechanics will be manually reviewed and monitored to ensure residual delta, funding, and credit risks during the redemption period are appropriately captured and escalated.
+
+
 Sure — here’s a tighter, cleaner version with the same content but much more executive-ready and scannable:
 	•	FRB CAR NPR: Submitted response on proposed model changes to PPNR, fair value option (FVO) loan losses, and Global Market Shock (GMS)
 	•	ECB SREP feedback: Completed remediation of model inventory completeness finding
