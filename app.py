@@ -1,3 +1,30 @@
+Trade Description
+
+The trade is a daily crash put fixed-share structure with the following key features:
+
+• Initial Price: EUR 35m
+• Initial Strike Notional: EUR 80m
+• Maximum Strike Notional: EUR 112m
+• Maximum Number of Shares: 4.57m (Initial Strike Notional ÷ Initial Strike)
+• Strike Percentage: 50%
+• Strike (daily): Previous day’s closing price multiplied by the Strike Percentage
+• Strike Notional: Minimum of (i) Maximum Number of Shares × Strike and (ii) Maximum Strike Notional
+• Number of Shares: Strike Notional ÷ Strike
+• Exercise Type: American (GS may exercise on any trading day, once only)
+• Premium: 60 bps annualised, paid monthly until exercise
+• Maturity: 6 months (terminates early if exercised)
+• Settlement: Physical (upon exercise, GS delivers shares at the Strike)
+
+The payoff is defined as a strip of daily units with formula:
+min(Sₜ, 1.4 × S₀) × max(1 − 0.5 + Sₜ₊₁ / Sₜ, 0),
+with the structure converting from fixed-share to fixed-notional if the underlying rallies sufficiently.
+
+
+
+
+
+
+
 Transaction Waiver Summary
 
 Desk
