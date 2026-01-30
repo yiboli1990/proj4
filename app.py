@@ -2,6 +2,75 @@ Transaction Waiver Summary
 
 Desk
 
+Equities – Volatility / Gap Risk Hedging
+
+Trade
+
+Daily Crash Put – fixed share structure (with conditional conversion to fixed notional)
+
+Notional
+
+USD 100 million per name, across 6 names
+
+Maturity
+
+1–2 months
+
+Underlier
+
+Single-name equities (including Commerzbank, Alpha Bank, T. Rowe Price)
+
+Client
+
+D. E. Shaw
+
+Economics
+
+The trade is intended to hedge the desk’s financial gap exposure in names where the firm has the largest NSFI exposure, with an indicative cost of 50–80 bps per name.
+
+⸻
+
+Trade Description
+
+The transaction consists of a strip of daily crash put fix-share units, with a payoff defined as:
+min(Sₜ, 1.4 × S₀) × max(1 − 0.5 + Sₜ₊₁ / Sₜ, 0).
+
+The structure is designed to hedge short-term gap risk, with the additional feature that the payoff converts from fixed-share to fixed-notional if the underlying equity rallies sufficiently. Final payoff features are still under negotiation and will be confirmed prior to completion.
+
+⸻
+
+Reason for Waiver
+
+The firm currently supports pricing and booking of fixed-notional daily crash puts, but does not yet support fixed-share daily crash puts. In addition, the trade includes a conditional feature whereby the payoff becomes fixed notional following a sufficient rally, which is not yet fully represented in existing tradables.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will initially be booked using the fixed-notional equivalent (EqSp KO Daily Crash Put).
+An interim implementation has been developed in the EqSp CMS Linked Note, which will be migrated into production on Monday, allowing the economic exposure to be captured while full functionality is completed.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the EqSp CMS Linked Note correctly captures the crash risk component of the structure, with remaining features (including fixed-share behavior, immediate settlement, and physical delivery) to be incorporated through near-term enhancements.
+
+⸻
+
+Remediation Plan
+
+• Release an updated version of the EqSp CMS Linked Note by Monday to correctly price gap risk
+• Enhance the EqSp OMS Linked Note next week to support additional features, including physical settlement and immediate settlement
+• Submit the complete model to MRM for validation by the end of next week
+
+
+
+
+Transaction Waiver Summary
+
+Desk
+
 Equities – Hedge Fund Financing / Structured Equity
 
 Trade
