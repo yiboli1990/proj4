@@ -1,3 +1,9 @@
+Asset Secured Lending (ASL): MRM approved targeted model enhancements, including:
+	•	FLR models (Risk, Tier 1): Adoption of Merton Jump Diffusion and conditional probability-of-default mapping for margin loans and equities, improving capture of collateral price jumps
+	•	Residential mortgage FLR (Risk, Tier 1): Extension to hybrid fix-and-flip and lot loan structures, expanding coverage beyond fallback methodologies and improving risk accuracy
+
+
+
 No significant model performance issues observed amid recent market volatility in precious metals.
 	•	Gold and silver experienced their sharpest declines in decades following the Fed Chair nomination and amid a broader market correction, with volatility persisting into Asia trading hours before partially easing.
 	•	MRM is reviewing precious metals trading models, with no significant deficiencies identified to date; isolated issues, including temporary risk availability constraints, routine risk-related inquiries, and expected calibration noise at short tenors, were observed.
