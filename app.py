@@ -1,3 +1,8 @@
+Adoption of Merton Jump Diffusion and conditional probability-of-default mapping in facility-level rating models for margin loans and equities, improving capture of collateral price jumps
+	•	Enhancement to the residential mortgage facility-level rating model to cover hybrid fix-and-flip and lot loan structures, extending coverage to asset classes previously handled under fallback methodologies and improving accuracy
+
+
+
 Asset Secured Lending (ASL): MRM approved targeted model enhancements, including:
 	•	FLR models (Risk, Tier 1): Adoption of Merton Jump Diffusion and conditional probability-of-default mapping for margin loans and equities, improving capture of collateral price jumps
 	•	Residential mortgage FLR (Risk, Tier 1): Extension to hybrid fix-and-flip and lot loan structures, expanding coverage beyond fallback methodologies and improving risk accuracy
