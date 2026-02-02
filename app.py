@@ -1,3 +1,6 @@
+FRB requested an update, among other standard topics, on the evolution of AI/ML model use in Sales & Trading across trading, valuation, financial risk, and capital management.
+
+
 Adoption of Merton Jump Diffusion and conditional probability-of-default mapping in facility-level rating models for margin loans and equities, improving capture of collateral price jumps
 	•	Enhancement to the residential mortgage facility-level rating model to cover hybrid fix-and-flip and lot loan structures, extending coverage to asset classes previously handled under fallback methodologies and improving accuracy
 
