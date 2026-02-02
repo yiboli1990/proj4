@@ -1,3 +1,7 @@
+MRM is reviewing precious metals trading models, with no model deficiencies identified to date; a small number of risk availability and risk query issues were observed and resolved.
+	•	Client positions were actively unwound during the move, and models continued to perform as expected; MRM monitoring remains ongoing.
+
+
 No significant model performance issues observed amid recent market volatility in precious metals, despite sharp declines in gold and silver.
 	•	Gold and silver experienced their worst trading day in decades (-9% and -27%), driven in part by the Fed Chair nomination and an overdue correction following recent outsized gains, with volatility extending into Asia trading hours before partially easing.
 	•	Precious metals models have remained stable, with only expected calibration noise observed at short tenors (particularly silver call wings), while ATM and 25-delta levels remain stable; H2 2025 client long VolKO positions have largely knocked out after exhausting variance budgets, and monitoring continues.
