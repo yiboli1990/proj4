@@ -1,3 +1,8 @@
+No significant model performance issues observed amid recent market volatility in precious metals, despite sharp declines in gold and silver.
+	•	Gold and silver experienced their worst trading day in decades (-9% and -27%), driven in part by the Fed Chair nomination and an overdue correction following recent outsized gains, with volatility extending into Asia trading hours before partially easing.
+	•	Precious metals models have remained stable, with only expected calibration noise observed at short tenors (particularly silver call wings), while ATM and 25-delta levels remain stable; H2 2025 client long VolKO positions have largely knocked out after exhausting variance budgets, and monitoring continues.
+
+
 •	Gold and silver experienced their sharpest declines in decades (-9% and -27%) following the Fed Chair nomination and amid an overdue correction after recent outsized gains, with volatility persisting into Asia trading hours before partially easing.
 	•	Precious metals models have remained stable through the move, with no material model issues identified; isolated risk availability and risk query issues were observed but were not model-breaking.
 	•	Some expected calibration noise was observed at short tenors, particularly in silver call wings, while ATM and 25-delta levels remain stable; previously popular client long VolKO positions in H2 2025 have largely knocked out after exhausting variance budgets, and monitoring continues.
