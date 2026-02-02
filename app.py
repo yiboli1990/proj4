@@ -1,3 +1,8 @@
+No significant model performance issues observed amid recent market volatility in precious metals.
+	•	Gold and silver experienced their sharpest declines in decades following the Fed Chair nomination and amid a broader market correction, with volatility persisting into Asia trading hours before partially easing.
+	•	MRM is reviewing precious metals trading models, with no significant deficiencies identified to date; isolated issues, including temporary risk availability constraints, routine risk-related inquiries, and expected calibration noise at short tenors, were observed.
+
+
 MRM is reviewing precious metals trading models, with no model deficiencies identified to date; a small number of risk availability and risk query issues were observed and resolved.
 	•	Client positions were actively unwound during the move, and models continued to perform as expected; MRM monitoring remains ongoing.
 
