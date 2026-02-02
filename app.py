@@ -1,3 +1,8 @@
+•	Gold and silver experienced their sharpest declines in decades (-9% and -27%) following the Fed Chair nomination and amid an overdue correction after recent outsized gains, with volatility persisting into Asia trading hours before partially easing.
+	•	Precious metals models have remained stable through the move, with no material model issues identified; isolated risk availability and risk query issues were observed but were not model-breaking.
+	•	Some expected calibration noise was observed at short tenors, particularly in silver call wings, while ATM and 25-delta levels remain stable; previously popular client long VolKO positions in H2 2025 have largely knocked out after exhausting variance budgets, and monitoring continues.
+
+
 Trade Description
 
 The trade is a daily crash put fixed-share structure with the following key features:
