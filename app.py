@@ -1,3 +1,7 @@
+Model Risk Management (MRM) performed additional validation of the Tier 1 FD CPPI Default model (Model-IT: 1717) to support a new reinsurance transaction in Asia (Project Vista) and approved its use for trade pricing. The approval enables pricing of a reinsurance structure with an expected notional of $240 million, potentially increasing to $400 million, and closes the associated transaction waiver (Waiver ID: 10979). The review focused on the model’s suitability for capturing the cash-flow dynamics of a retrocession arrangement, including monthly commission drawdowns, rolling 12-month premium-based reimbursements, interest accrual on the retrocession account balance, and the long-dated contract profile. MRM concluded that the model is fit for purpose for this transaction, with no material limitations identified that would preclude its use for the approved business.
+
+
+
 Several audits are underway or commencing, highlighting continued focus on model governance, development, and technology controls.
 	•	Model Annual Review Controls: Audit focused on recent enhancements to the Annual Review framework, including escalation, tracking, and follow-up controls.
 	•	Model Development and Testing: Fieldwork in progress with walkthroughs completed; deep-dives underway on approval criteria, development logic, and ongoing monitoring.
