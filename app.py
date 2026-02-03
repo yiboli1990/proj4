@@ -1,3 +1,9 @@
+Several audits are underway or commencing, highlighting continued focus on model governance, development, and technology controls.
+	•	Model Annual Review Controls: Audit focused on recent enhancements to the Annual Review framework, including escalation, tracking, and follow-up controls.
+	•	Model Development and Testing: Fieldwork in progress with walkthroughs completed; deep-dives underway on approval criteria, development logic, and ongoing monitoring.
+	•	Information Security & Data Privacy (Risk Engineering / MRM): Q1 audit kicking off covering access and entitlements, configuration controls, vendor oversight, and privacy controls.
+
+
 FRB requested an update, among other standard topics, on the evolution of AI/ML model use in Sales & Trading across trading, valuation, financial risk, and capital management.
 
 
