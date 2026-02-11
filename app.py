@@ -1,3 +1,23 @@
+Global Impact of Factor Risk Model Issue on EDHF
+	•	Overview
+Rapid sector rotations and elevated dispersion exposed limitations in Axioma/Barra factor models, resulting in risk underestimation and a €4mm loss in EMEA EDHF due to unhedged exposures
+	•	EMEA Impact
+	•	Trade optimization is heavily factor-model driven
+	•	Portfolio risk (factor covariance–based) understated amid declining sector correlations
+	•	Factor volatility inputs (250-day EMA) slow to adjust
+	•	Realized volatility materially exceeded expectations
+	•	Regional Comparison
+	•	US: Optimization not factor-model dependent; no similar impact observed
+	•	Asia: Factor model used, but no comparable portfolio impact observed
+	•	MRM Assessment
+	•	Reflects inherent model limitations under rapid regime shifts, not implementation deficiencies
+	•	Long lookback calibration and model-derived constraints reduce responsiveness in fast-changing markets
+	•	Next Steps
+	•	Develop more reactive custom factor model
+	•	Assess use of implied volatility for factor calibration
+	•	Submit enhancements to MRM following testing as formal model change
+
+
 Project Vista is a long-dated reinsurance transaction in Asia with an expected notional of approximately $240 million, potentially increasing to $400 million. The structure involves AIA ceding critical illness policy risk in Hong Kong and Macau to SCOR, which retrocedes the risk to Arrow Re to obtain capital support. Arrow Re provides capital through monthly commission drawdowns during the first year, with repayments made via retrocession premiums based on a rolling 12-month average of premiums from policies written in that period. The outstanding retrocession account balance accrues interest at the risk-free rate plus an agreed spread and is expected to amortize to zero within approximately seven years, ahead of the contract’s 11-year maturity.
 
 
