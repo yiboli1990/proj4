@@ -1,3 +1,14 @@
+What Happened
+Rapid sector rotations and increased market dispersion led to an underestimation of portfolio risk in EMEA EDHF, resulting in a €4mm loss from unhedged exposures
+	•	Reason and Impact
+The factor model adjusts slowly to abrupt market regime shifts, causing risk to lag current conditions and realized volatility to materially exceed expectations
+	•	MRM Assessment
+MRM assessment shows this reflects a known structural limitation of factor risk models under fast-changing markets, rather than an implementation or control issue
+	•	Proposed Actions
+EMEA is evaluating more responsive risk approaches, including alternative calibrations and inputs, with proposals to be submitted to MRM following testing
+
+
+
 EDHF Factor Model Update – CRO Summary
 	•	What Happened
 Rapid sector rotations and increased market dispersion led the factor risk model to understate portfolio risk in EMEA EDHF, resulting in a €4mm loss from unhedged exposures
