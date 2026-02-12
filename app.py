@@ -1,3 +1,16 @@
+CCAR – First Day Letter (Model Risk Focus)
+	•	First Day Letter received Friday; materially model-focused, with five of nine objectives explicitly requesting model development and/or validation documentation, in addition to inventory, overlays, performance monitoring, and governance materials
+	•	Obj. 1 (General Capital Planning – Monitoring): Request for summary of MRM conclusions communicated to Board and senior management (consistent with prior year); will reference MRM Board Deck and Capital Planning documentation
+	•	Obj. 2 (PPNR Trading MtM): Inventory, development, and validation documents for Trading Non-Interest Income models, OAs, overlays, and adjustments; includes governance and performance monitoring
+	•	Obj. 3 (Operational Loss – Monitoring): Risk and model inventory and development documentation for Op Risk models and QAs; validation documents not explicitly requested but will be prepared proactively
+	•	Obj. 4 (Funding Stress in NII – Monitoring): Risk inventory, scenario assumptions, and development documentation for stressed NII models, including interest income/expense, deposit projections, and related QAs; validation not explicitly requested
+	•	Obj. 5 (Wholesale Risk Capture & Translation to Loss – Monitoring): Portfolio exposures, model changes, overlays, and committee governance materials, with comparison to prior CCAR cycle
+	•	Obj. 6 (Use of Models and Estimation Approaches): Inventory, development, and validation documents for wholesale loss models and QAs; specifically requests ongoing performance monitoring, 2024/2025 Annual Reviews, and MRM review of overlays
+	•	Obj. 7 (xVA Risk Management): Governance over xVA P&L booking, reporting, controls, and limit breaches, including trade-level detail
+	•	Obj. 8 (xVA Risk Measurement): Development and validation documentation for xVA risk metrics and curve construction models (CVA/FVA for BAU and CCAR), including treatment of risks not captured in CVA
+
+
+
 Global Impact of Factor Risk Model Issue on EDHF
 	•	Overview
 Rapid sector rotations and elevated dispersion exposed limitations in Axioma/Barra factor models, resulting in risk underestimation and a €4mm loss in EMEA EDHF due to unhedged exposures
