@@ -1,3 +1,12 @@
+EDHF Factor Model Update – CRO Summary
+	•	What Happened
+Rapid sector rotations and increased market dispersion led the factor risk model to understate portfolio risk in EMEA EDHF, resulting in a €4mm loss from unhedged exposures
+	•	Why It Happened
+The model relies on longer-term historical relationships that adjust slowly during abrupt market regime shifts, causing risk estimates to lag actual market conditions
+	•	Current Status & Actions
+No similar impact observed in US or Asia; EMEA is evaluating more responsive risk calibration approaches, with proposed enhancements to be formally reviewed by MRM
+
+
 CCAR – First Day Letter (Model Risk Focus)
 	•	First Day Letter received Friday; materially model-focused, with five of nine objectives explicitly requesting model development and/or validation documentation, in addition to inventory, overlays, performance monitoring, and governance materials
 	•	Obj. 1 (General Capital Planning – Monitoring): Request for summary of MRM conclusions communicated to Board and senior management (consistent with prior year); will reference MRM Board Deck and Capital Planning documentation
