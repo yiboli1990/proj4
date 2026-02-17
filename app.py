@@ -1,3 +1,5 @@
+MRM also reviewed SIMM exposures with key counterparties and observed that adopting the enhanced analytics would likely increase dispute volumes, while removing the backbone assumption (i.e., calculating delta with IR volatility held constant) could materially reduce longstanding disputes
+
 As part of the Tier 1 revalidation, MRM reviewed the IR Delta backbone methodology used by the NYC Volex desk.
 
 Benchmarking with enhanced MRM analytics indicates IR Delta would increase by ~$2mm per bp; analysis across multiple periods shows a consistent impact
