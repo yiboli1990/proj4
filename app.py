@@ -1,3 +1,11 @@
+As part of the Tier 1 revalidation, MRM reviewed the IR Delta backbone methodology used by the NYC Volex desk.
+
+Benchmarking with enhanced MRM analytics indicates IR Delta would increase by ~$2mm per bp; analysis across multiple periods shows a consistent impact
+
+SIMM review with major vol counterparties shows adopting MRM analytics would increase disputes, while removing the current backbone assumption would materially reduce longstanding disputes
+
+MRM raised a finding requiring methodology enhancements and formal justification; revised analytics are under review and the desk plans to engage the SIMM Governance Forum on potential changes
+
 NYC Volex – IR Delta Analysis
 
 As part of the significant Tier 1 revalidation, MRM reviewed the backbone methodology used by the NYC Volex desk to calculate IR Delta. Key observations:
