@@ -1,3 +1,24 @@
+NYC Volex – IR Delta Analysis
+
+As part of the significant Tier 1 revalidation, MRM reviewed the backbone methodology used by the NYC Volex desk to calculate IR Delta. Key observations:
+
+MRM leveraged enhanced internal analytics to benchmark the desk’s approach. Using MRM analytics increases IR Delta by approximately $2mm per bp as of 13 Feb 2026.
+
+A review of SIMM exposures for major vol counterparties (e.g., JP Morgan, Nomura) showed:
+
+Adopting MRM analytics would increase the volume of SIMM disputes.
+
+Removing the current backbone assumption (i.e., calculating delta with IR vol held constant) would materially reduce longstanding SIMM disputes.
+
+Analysis across June, December, and January data shows a consistent pattern.
+
+MRM raised a finding requiring the desk to enhance the IR delta analytics and formally justify the backbone methodology.
+
+The desk has developed revised analytics, currently under MRM review.
+
+The desk plans to present to the SIMM Governance Forum on potentially removing the backbone to better align with counterparties.
+
+
 What Happened
 Rapid sector rotations and increased market dispersion led to an underestimation of portfolio risk in EMEA EDHF, resulting in a €4mm loss from unhedged exposures
 	•	Reason and Impact
