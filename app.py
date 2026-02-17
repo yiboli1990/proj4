@@ -1,3 +1,16 @@
+There is continued growth in the use of Artificial Intelligence (AI) models and new techniques, including recent approval of:
+﻿﻿Tier 1 generative AI model owned by Corporate Treasury to automate matching of incoming payments to the appropriate internal GS bank accounts. The model will initially operate in parallel with the existing process, with the objective of reducing cash receipts requiring manual review from 13% to approximately 2%
+﻿﻿Three high-severity findings relating to model performance, evaluation metrics, and testing were remediated prior to approval
+﻿﻿Enhancements to the generative AI model supporting the GS AI Platform monitoring framework, including context-based personal data detection, enhanced focus on malicious intent in prompt injection monitoring, and expansion of GS proprietary datasets used for system prompt refinement and testing, including actual GS AI Assistant prompts tagged by humans
+﻿﻿Lower-tier generative AI models supporting productivity use cases such as data extraction, search enhancement, and information retrieval
+
+﻿Model Risk approved eight Internal Credit Rating (ICR) models covering Private Equity Capital Call (PECC), Direct Commercial Real Estate (CRE), and six corporate sectors, completing Phase 1 of the firm’s ICR Enterprise Risk Management Framework (ERMF) uplift plan and addressing Federal Reserve Board (FRB) feedback related to repeatability, transparency, and sustainability of the ICR framework
+
+﻿There is ongoing focus on validation work related to Counterparty Credit Risk (CCR) management enhancements aligned with the firm’s ERMF uplift plan, including approval of enhancements to the model used to monitor incremental netting and enforceability (N&E) risk to extend coverage to Franchise and Synthetic Products Group (SPG) businesses, and enhancements to the stressed credit exposure model for margined funds to address prior validation findings
+
+
+
+
 MRM also reviewed SIMM exposures with key counterparties and observed that adopting the enhanced analytics would likely increase dispute volumes, while removing the backbone assumption (i.e., calculating delta with IR volatility held constant) could materially reduce longstanding disputes
 
 As part of the Tier 1 revalidation, MRM reviewed the IR Delta backbone methodology used by the NYC Volex desk.
