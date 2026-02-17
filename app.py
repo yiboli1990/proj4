@@ -1,3 +1,8 @@
+Electronic Trading: SEC Rule 15c3-5 annual certification process is underway, requiring annual attestation of effective risk management controls for direct market access.
+	•	There are currently zero overdue ETS findings, a key contra-indicator for certification.
+	•	The sustained reduction in findings reflects continued strengthening of ETSC governance and control processes.
+
+
 There is continued growth in the use of Artificial Intelligence (AI) models and new techniques, including recent approval of:
 ﻿﻿Tier 1 generative AI model owned by Corporate Treasury to automate matching of incoming payments to the appropriate internal GS bank accounts. The model will initially operate in parallel with the existing process, with the objective of reducing cash receipts requiring manual review from 13% to approximately 2%
 ﻿﻿Three high-severity findings relating to model performance, evaluation metrics, and testing were remediated prior to approval
