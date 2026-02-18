@@ -1,3 +1,12 @@
+Liquidity Risk – Prime Tail Liquidity Loss (PTL)
+
+MRM validated and approved a set of model changes that increase the Prime Tail Liquidity Loss (PTL) ratio by approximately 9% (from 137% to 146%), strengthening the firm’s liquidity position relative to short-term funding exposure.
+	•	The increase reflects inclusion of previously omitted synthetic term commitments, extended debit unwind assumptions, limited position unwind recognition for two clients, and additional excess margin from certain clients.
+	•	PTL remains comfortably above internal risk appetite limits (FRAC 120%, BRC 115%).
+	•	MRM review is ongoing to assess the appropriateness of including excess margin from certain V26 clients as mitigants, given client profile considerations and their contribution to total mitigants.
+
+
+
 Electronic Trading: SEC Rule 15c3-5 annual certification process is underway, requiring annual attestation of effective risk management controls for direct market access.
 	•	There are currently zero overdue ETS findings, a key contra-indicator for certification.
 	•	The sustained reduction in findings reflects continued strengthening of ETSC governance and control processes.
