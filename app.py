@@ -1,3 +1,9 @@
+MRM conducted an analysis of Internal Credit Rating (ICR) model go-live status and rating overrides, focusing on Corporates and Direct CRE portfolios.
+	•	Of the re-ratings completed under the new models, 178 of 281 have been approved, reflecting a modest delay relative to the planned go-live timeline. Ten overrides were observed among approved ratings, primarily within HY-modeled names (largely upgrades), with a subset resulting in IG/HY category flips.
+	•	Based on observed overrides, the model misclassifies approximately 14% of IG names as HY, materially lower than levels identified during validation (~30%), likely reflecting the limited sample size.
+	•	MRM estimates an approximate ~$XXbn RWA impact associated with the rating overrides.
+
+
 MRM conducted an analysis of ICR model go-live status and rating overrides, focusing on Corporates and Direct CRE portfolios.
 	•	Of the total re-ratings completed through the new models, the majority have been approved, with a portion pending approval, reflecting a slight delay relative to the planned go-live schedule.
 	•	Overall override activity remains limited relative to approved ratings. Overrides were primarily concentrated within HY-modeled names, with a subset resulting in IG/HY category flips.
