@@ -1,3 +1,8 @@
+The approved Internal Credit Rating (ICR) models went live following model approval in October 2025. To date, 178 of 281 ratings have been approved under the new framework.
+	•	One medium-severity finding remains open relating to override rates, particularly for IG names, as the models appear conservative. The finding calls for enhanced ongoing monitoring to assess override frequency, rationale, and associated impacts.
+	•	Based on observed overrides, the model misclassifies a portion of IG names as HY, lower than the level identified during validation. MRM is assessing the impact of rating overrides from both capital and loan reserve perspectives.
+
+
 MRM conducted an analysis of Internal Credit Rating (ICR) model go-live status and rating overrides, focusing on Corporates and Direct CRE portfolios.
 	•	Of the re-ratings completed under the new models, 178 of 281 have been approved, reflecting a modest delay relative to the planned go-live timeline. Ten overrides were observed among approved ratings, primarily within HY-modeled names (largely upgrades), with a subset resulting in IG/HY category flips.
 	•	Based on observed overrides, the model misclassifies approximately 14% of IG names as HY, materially lower than levels identified during validation (~30%), likely reflecting the limited sample size.
