@@ -1,3 +1,6 @@
+MRM assessment indicates limitations in the underlying SVLV analytics propagate through the backbone methodology and are not adequately mitigated in IR Delta, with enhanced MRM analytics demonstrating a material understatement of IR Delta.
+
+
 MRM assessment shows that limitations embedded in the backbone methodology remain insufficiently assessed, with enhanced MRM analytics indicating a material understatement of IR Delta.
 
 
