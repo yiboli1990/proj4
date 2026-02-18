@@ -1,3 +1,10 @@
+MRM conducted an analysis of ICR model go-live status and rating overrides, focusing on Corporates and Direct CRE portfolios.
+	•	Of the total re-ratings completed through the new models, the majority have been approved, with a portion pending approval, reflecting a slight delay relative to the planned go-live schedule.
+	•	Overall override activity remains limited relative to approved ratings. Overrides were primarily concentrated within HY-modeled names, with a subset resulting in IG/HY category flips.
+	•	Treating Credit Risk overrides as the “true rating,” the analysis indicates a portion of IG names may be misclassified as HY by the model; however, the observed rate is materially lower than levels identified during validation.
+	•	The sample size remains relatively small, and Credit Risk indicated that the selected names were randomly chosen, which may affect representativeness.
+
+
 Liquidity Risk – Prime Tail Liquidity Loss (PTL)
 
 
