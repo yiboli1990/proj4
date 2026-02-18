@@ -1,5 +1,13 @@
 Liquidity Risk – Prime Tail Liquidity Loss (PTL)
 
+
+Liquidity Risk: MRM approved enhancements to the Prime Tail Liquidity Loss (PTL) model (Risk, Tier 1), resulting in a material increase in the firm’s PTL ratio.
+	•	The PTL ratio measures mitigants (e.g., overnight debits) relative to short-term funding exposure (e.g., shorts departure) and is subject to FRAC and BRC limits.
+	•	Enhancements include the inclusion of previously omitted synthetic term commitments, extended debit unwind assumptions, limited position unwind recognition for two clients, and the addition of excess margin from certain clients.
+	•	MRM review remains ongoing to assess the appropriateness of including excess margin from certain clients as mitigants, considering client profile characteristics and their contribution to overall mitigants.
+
+
+
 MRM validated and approved a set of model changes that increase the Prime Tail Liquidity Loss (PTL) ratio by approximately 9% (from 137% to 146%), strengthening the firm’s liquidity position relative to short-term funding exposure.
 	•	The increase reflects inclusion of previously omitted synthetic term commitments, extended debit unwind assumptions, limited position unwind recognition for two clients, and additional excess margin from certain clients.
 	•	PTL remains comfortably above internal risk appetite limits (FRAC 120%, BRC 115%).
