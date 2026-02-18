@@ -1,3 +1,6 @@
+MRM assessment shows that limitations embedded in the backbone methodology remain insufficiently assessed, with enhanced MRM analytics indicating a material understatement of IR Delta.
+
+
 The approved Internal Credit Rating (ICR) models went live following model approval in October 2025. To date, 178 of 281 ratings have been approved under the new framework.
 	•	One medium-severity finding remains open relating to override rates, particularly for IG names, as the models appear conservative. The finding calls for enhanced ongoing monitoring to assess override frequency, rationale, and associated impacts.
 	•	Based on observed overrides, the model misclassifies a portion of IG names as HY, lower than the level identified during validation. MRM is assessing the impact of rating overrides from both capital and loan reserve perspectives.
