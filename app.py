@@ -1,3 +1,8 @@
+•	The root issue sits in the SVLV analytics (e.g., distribution assumptions such as frozen drift).
+	•	The backbone is constructed using those analytics, so the limitation is inherited and amplified through the backbone transformation.
+	•	IR Delta is therefore impacted via both the analytic limitation and the resulting backbone behavior.
+
+
 MRM assessment indicates limitations in the underlying SVLV analytics propagate through the backbone methodology and are not adequately mitigated in IR Delta, with enhanced MRM analytics demonstrating a material understatement of IR Delta.
 
 
