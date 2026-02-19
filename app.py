@@ -1,3 +1,13 @@
+CRO focus areas are intended to highlight material risk events, emerging risks, or significant changes requiring senior management or Board attention, rather than routine updates
+
+• Recent MRM topics (AI activity, ICR progress, annual review rollout, findings monitoring) were viewed as BAU, technical, or covered through other governance forums, and therefore not appropriate for CRO escalation
+
+• Model risk remains well controlled with no discrete events, breaches, or material developments warranting CRO focus area inclusion at this time
+
+• Accordingly, MRM will not provide CRO focus area content this cycle, with updates continuing through dedicated forums (e.g., CCAR, AI governance, recurring BRC thematic reporting)
+
+
+
 •	The root issue sits in the SVLV analytics (e.g., distribution assumptions such as frozen drift).
 	•	The backbone is constructed using those analytics, so the limitation is inherited and amplified through the backbone transformation.
 	•	IR Delta is therefore impacted via both the analytic limitation and the resulting backbone behavior.
