@@ -1,3 +1,78 @@
+Bulk Transaction Waiver Summary
+
+Desk
+
+SPG – Equity Derivatives
+
+Trade
+
+Equity swaps on Single Stock Futures incorporating daily Floor/Cap and Knock-Out (KO) features
+
+Counterparty
+
+Leveraged ETF fund offering 2× exposure
+
+Underlier
+
+Single Stock Futures (initially SK Hynix)
+
+Scope / Notional
+
+Bulk waiver covering up to 8 trades with an aggregate notional limit of USD 500 million
+
+⸻
+
+Trade Description
+
+The trades are equity swaps referencing Single Stock Futures with daily return features including:
+
+• Floor feature: Daily return defined with a downside floor (not below 45% of prior-day price)
+• Knock-Out (KO): Triggered if the underlying falls below 45% of the previous day’s price
+• Daily OET rights: Both GS and the counterparty may terminate daily with zero notice period and no break fee
+
+The structure is designed to deliver leveraged exposure with embedded downside protection and termination flexibility.
+
+⸻
+
+Reason for Waiver
+
+While Floor and KO mechanics are supported for swaps on cash equities and indices, they are not yet supported for Single Stock Futures tradables, resulting in incomplete representation of daily return floors and KO triggers. The desk expects full tradable and model support for these features within 8 weeks.
+
+⸻
+
+Proposed Modeling Approach During Waiver
+
+• Daily OET functionality is already validated and will be applied without modeling limitation
+• The Floor feature will be treated analogously to swaps on single stocks, with 1-day optionality assumed immaterial and pricing based on intrinsic value via floored cashflows
+• The KO feature will be modeled similarly to post-FVD swap behavior, leveraging monitoring tools to capture risk and cashflow effects
+• Market risk controls (including CCAR scenarios) will govern notional exposure during the interim period
+
+⸻
+
+Compensating Controls
+
+The desk noted that the interim approach applies conservative floored cashflow valuation with validated daily OET rights, supplemented by monitoring tools and scenario-based market risk controls, while exchange price limits and current volatility levels imply the KO threshold represents an extreme tail event.
+
+⸻
+
+Interim Trading Constraints
+
+• Trading will focus on 1m and 3m expiries where FVD aligns with futures expiry
+• Exchange price limits (KRX) materially reduce the likelihood of a 45% single-day decline
+• Initial trades under the waiver will be manually monitored given the limited scope
+
+⸻
+
+Remediation Plan
+
+• Implement full tradable support for Floor and KO features on Single Stock Futures within 8 weeks
+• Complete validation confirming floor enforcement above the 45% threshold
+• Engage CRO designee and Strats PMD for formal approval of the bulk waiver
+
+
+
+
+
 CRO focus areas are intended to highlight material risk events, emerging risks, or significant changes requiring senior management or Board attention, rather than routine updates
 
 • Recent MRM topics (AI activity, ICR progress, annual review rollout, findings monitoring) were viewed as BAU, technical, or covered through other governance forums, and therefore not appropriate for CRO escalation
