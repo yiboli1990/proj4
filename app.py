@@ -1,3 +1,34 @@
+Compensating Controls
+
+The desk noted that, during the waiver period, the following controls mitigate risks arising from incomplete tradable support:
+
+• Conservative valuation treatment: The Floor feature will be implemented through floored cashflows with 1-day optionality assumed immaterial, ensuring pricing reflects intrinsic downside protection without overstating optionality value.
+
+• Validated OET functionality: Daily Optional Early Termination rights with zero notice and no break fee are fully supported and validated, providing the ability to exit positions promptly should market conditions or model limitations warrant.
+
+• KO risk conservatism and monitoring: The Knock-Out feature will be monitored using existing swap post-FVD monitoring tools, with scenario analysis applied to capture potential cashflow and exposure discontinuities from KO events.
+
+• Market risk and stress controls: Exposure will remain subject to standard market risk governance, including CCAR stress scenarios and limits, which effectively constrain notional and gap risk during the interim modeling period.
+
+• Trading scope limitations: Activity will be limited to short-dated (1m–3m) maturities aligned with futures expiry, reducing path dependency and model uncertainty associated with longer-dated exposures.
+
+• Exchange price limit mitigation: KRX daily price limits materially reduce the probability of a 45% single-day decline, lowering the practical likelihood of KO triggering prior to full model support.
+
+• Tail-risk validation: For the initial underlier (SK Hynix), current implied volatility levels indicate that a 45% one-day move represents an extreme tail event (greater than ~10 standard deviations), supporting the view that residual modeling gaps have limited practical impact.
+
+• Manual oversight during rollout: Initial waiver trades will be subject to enhanced desk monitoring to ensure that exposures, KO proximity, and termination behavior remain consistent with expectations until full tradable support is implemented.
+
+⸻
+
+If you want, I can also give you:
+
+✅ a shorter CRO version (3–4 bullets)
+✅ a more technical validator version (mentioning payoff discontinuity / path dependency)
+✅ a one-sentence soundbite for MRCC minutes
+✅ a stronger “why 1-day optionality immaterial” justification (very helpful wit
+
+
+
 Bulk Transaction Waiver Summary
 
 Desk
