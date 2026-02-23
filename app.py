@@ -1,3 +1,7 @@
+AIRCC approved use of Amazon Connect Contact Lens to analyze recorded client interactions for sentiment, emerging themes, and agent performance monitoring, enhancing supervisory oversight through integrated access to recordings, transcripts, and automated evaluation outputs
+
+• AIRCC approved LinkedIn AI recruiting capabilities, including AI-assisted candidate search, project organization, and personalized outreach, to improve recruiter efficiency while operating within established data usage and governance controls
+
 Compensating Controls
 
 The desk noted that, during the waiver period, the following controls mitigate risks arising from incomplete tradable support:
