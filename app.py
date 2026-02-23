@@ -1,3 +1,18 @@
+AI Risk and Controls Committee (AIRCC)
+
+AIRCC recently approved:
+• Amazon Connect Contact Lens, used to analyze recorded client interactions for sentiment detection, emerging theme identification, and agent performance monitoring
+• LinkedIn AI features, including AI-assisted candidate search, project organization, and personalized outreach
+
+Model Validation Activities
+
+MRM approved an extension of Botnation AI (GBM, Tier 2), used to enhance parsing of quote inquiries for Euro government bonds and Euro Gas and Power futures
+• The model achieved 100% accuracy for Euro government bonds and 98% for Euro Gas and Power futures following remediation of MRM findings related to output type mismatches and removal of irrelevant prompt instructions
+• Validation efficiency improved, with the initial validation completed in ~6 weeks and subsequent desk and infrastructure changes completed in ~1 week
+
+
+
+
 AI development activity picked up following a slower January
 AIRCC approved use of AI capabilities to analyze recorded client interactions and surface sentiment, emerging themes, and agent performance insights, with controls focused on appropriate monitoring and data handling safeguards
 
