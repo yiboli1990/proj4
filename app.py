@@ -1,3 +1,16 @@
+AI development activity picked up following a slower January
+AIRCC approved use of AI capabilities to analyze recorded client interactions and surface sentiment, emerging themes, and agent performance insights, with controls focused on appropriate monitoring and data handling safeguards
+
+AIRCC also approved internal productivity features supporting AI-assisted candidate search, project organization, and personalized outreach, subject to standard governance and control requirements
+
+Model Validation Activities
+
+MRM progressed validation of public document extraction capabilities supporting GBM workflows, focusing on output consistency and robustness of document parsing
+
+MRM approved an extension of Botnation AI (Tier 2) expanding coverage to Euro government bonds and Euro Gas and Power futures quote parsing following remediation of prompt design and output format issues
+
+Post-remediation testing demonstrated strong accuracy and improved reliability, with validation timelines shortened for subsequent desk onboarding due to reuse of infrastructure and prior testing coverage
+
 AIRCC approved use of Amazon Connect Contact Lens to analyze recorded client interactions for sentiment, emerging themes, and agent performance monitoring, enhancing supervisory oversight through integrated access to recordings, transcripts, and automated evaluation outputs
 
 • AIRCC approved LinkedIn AI recruiting capabilities, including AI-assisted candidate search, project organization, and personalized outreach, to improve recruiter efficiency while operating within established data usage and governance controls
