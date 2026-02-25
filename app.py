@@ -1,3 +1,24 @@
+NYC Volex IR Delta
+	•	MRM analysis identified material inaccuracies in desk IR Delta analytics and found that the current backbone assumption contributes to longstanding SIMM disputes
+	•	The desk is developing revised analytics under MRM review and plans to propose removing the backbone to better align sensitivities with counterparties
+
+⸻
+
+Internal Credit Rating (ICR)
+	•	Newly approved Tier 1 ICR models were rolled out in phases, with production experience showing ~15% of HY ratings overridden to IG
+	•	MRM has an open finding requiring stronger override monitoring and is assessing potential impacts to capital and loan reserves
+
+⸻
+
+Prime Tail Liquidity Loss (PTL)
+	•	MRM is validating PTL model enhancements expected to materially improve the firm’s PTL ratio, a key metric monitored against FRAC and BRC limits
+	•	Changes primarily reflect inclusion of previously omitted synthetic commitments and additional margin-related mitigants
+
+
+
+
+
+
 MRM rejected the TradeScore model (GBM Public, Tier 2), designed to estimate order-fill probability for quote optimization, due to unjustified Neural Network complexity and insufficient performance uplift
 	•	MRM-designed benchmarking showed a simple 22-parameter challenger outperformed the ~11,000-parameter Neural Network across 9 of 10 metrics
 	•	Modelers incorporated MRM feedback and redesigned the Neural Network; the updated version is under review with preliminary analysis indicating improved performance
