@@ -1,4 +1,46 @@
+Model Validation Updates
+	•	MRM rejected the TradeScore model (GBM Public, Tier 2) after benchmarking demonstrated that a simple MRM challenger model with 22 parameters outperformed the production Neural Network (~11,000 parameters) across 9 of 10 metrics, indicating unjustified model complexity, weak performance efficiency, and insufficient evidence that the Neural Network architecture provides incremental value
+	•	The model estimates order-fill probability based on historical trading patterns to support quote optimization for algorithmic trading desks
+	•	Modelers incorporated MRM feedback and redesigned the Neural Network; the updated version is under review, with preliminary analysis indicating improved performance across key metrics
+	•	MRM approved an extension of Botnation AI (GBM Public, Tier 2) to support broker quote parsing for Euro government bonds and Euro gas and power futures
+	•	The model converts free-text trading messages into structured trade syntax
+	•	Performance exceeds the modeler’s predefined 85% accuracy threshold following remediation of MRM feedback
+	•	MRM approved Loan Notice Data Extraction (GBM Private, Tier 2), a generative AI model that extracts key information from loan notices received from agent banks and financial institutions
+	•	The model replaces a vendor regex-based tool, delivering material improvements in coverage (60% → 100%) and accuracy (85% → 97%)
+
+⸻
+
+Why this works better (based on your typical GS messaging style)
+	•	Clear rejection driver: complexity not justified by performance
+	•	Uses benchmarking evidence — very strong regulator-facing rationale
+	•	Avoids overly technical NN detail while still sounding credible
+	•	Keeps bullets crisp and parallel across approve vs reject cases
+
+⸻
+
+If helpful, I can also give you:
+✅ an even shorter CRO soundbite version (3 bullets total)
+✅ a more regulatory-defensive version (stronger challenge language)
+✅ a version emphasizing AI governance themes (complexity control, explainability, benchmarking discipline)
+
+
+
+MRM rejected the TradeScore model (GBM Public, Tier 2) as benchmarking showed a simple 22-parameter challenger outperformed the ~11,000-parameter Neural Network across 9 of 10 metrics, indicating unjustified complexity and limited incremental value
+
+If you want an even sharper executive version, you could use:
+	•	MRM rejected the TradeScore model (GBM Public, Tier 2) after benchmarking showed a materially simpler challenger outperformed the Neural Network across most metrics, highlighting unjustified complexity and weak incremental benefit
+
+Let me know if yo
+
+
+
+
+
+
 AI Risk and Controls Committee (AIRCC)
+
+
+
 
 AIRCC recently approved:
 • Amazon Connect Contact Lens, used to analyze recorded client interactions for sentiment detection, emerging theme identification, and agent performance monitoring
