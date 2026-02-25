@@ -1,4 +1,15 @@
 NYC Volex IR Delta
+	•	MRM identified material IR Delta inaccuracies and SIMM dispute drivers from the backbone assumption, with revised desk analytics under review and a proposal to remove the backbone to improve counterparty alignment
+
+Internal Credit Rating (ICR)
+	•	Following rollout of the new Tier 1 ICR models, MRM observed ~15% HY-to-IG overrides and is progressing an open finding to strengthen override monitoring while assessing impacts to capital and loan reserves
+
+Prime Tail Liquidity Loss (PTL)
+	•	MRM is validating PTL model enhancements incorporating previously omitted commitments and additional margin mitigants, with changes expected to materially improve the firm’s PTL ratio against FRAC and BRC limits
+
+
+
+NYC Volex IR Delta
 	•	MRM analysis identified material inaccuracies in desk IR Delta analytics and found that the current backbone assumption contributes to longstanding SIMM disputes
 	•	The desk is developing revised analytics under MRM review and plans to propose removing the backbone to better align sensitivities with counterparties
 
