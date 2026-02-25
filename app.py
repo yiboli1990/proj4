@@ -1,3 +1,10 @@
+MRM rejected the TradeScore model (GBM Public, Tier 2), designed to estimate order-fill probability for quote optimization, due to unjustified Neural Network complexity and insufficient performance uplift
+	•	MRM-designed benchmarking showed a simple 22-parameter challenger outperformed the ~11,000-parameter Neural Network across 9 of 10 metrics
+	•	Modelers incorporated MRM feedback and redesigned the Neural Network; the updated version is under review with preliminary analysis indicating improved performance
+
+
+
+
 Model Validation Updates
 	•	MRM rejected the TradeScore model (GBM Public, Tier 2) after benchmarking demonstrated that a simple MRM challenger model with 22 parameters outperformed the production Neural Network (~11,000 parameters) across 9 of 10 metrics, indicating unjustified model complexity, weak performance efficiency, and insufficient evidence that the Neural Network architecture provides incremental value
 	•	The model estimates order-fill probability based on historical trading patterns to support quote optimization for algorithmic trading desks
