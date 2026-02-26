@@ -1,3 +1,9 @@
+Continued growth & validation of new AI models, with notable upcoming approvals including Market Simulator (Albert) (GBM Public, Tier 2), a transformer-based deep learning neural network used in algorithmic trading to generate equity security weightings for portfolio optimization, and TradeScore (GBM Public, Tier 2), designed to estimate order-fill probability based on historical patterns for quote optimization
+
+ASL Transfer Restrictions (GBM Private, Tier 2), an agentic AI solution used to analyze ASL facilities and support identification of Fed pledge eligibility, and Commentary AI (Risk Division, Tier 2), used to extract key information from financial documents and generate supporting rationale for credit risk decisions
+
+
+
 NYC Volex IR Delta
 	•	MRM identified material IR Delta inaccuracies and SIMM dispute drivers from the backbone assumption, with revised desk analytics under review and a proposal to remove the backbone to improve counterparty alignment
 
