@@ -1,3 +1,10 @@
+Basel III Final Rule: Ongoing discussions regarding the FRB’s forthcoming Basel III re-proposal and the currently contemplated effective date of January 1, 2027.
+	•	Standardized RWA: Development of new Controllers’ deterministic regulatory calculations (DRCs) and updates to existing DRCs are expected to complete by August, with MRM validation targeted for November.
+	•	FRTB / FRTB-CVA: Risk Engineering expects to implement required model changes by Q2, with MRM validation anticipated to complete in Q3.
+
+
+
+
 Bill noted that GBM appears to be increasing AI development (e.g., ~10 items in pipeline), which may signal a broader shift in adoption.
 	•	If AI becomes more embedded across product lines, MRM may need to reconsider whether the current AI validation approach remains appropriate.
 	•	Specifically, he is questioning whether AI validation should be more integrated into product-line validation rather than treated separately.
