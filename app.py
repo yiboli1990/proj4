@@ -1,3 +1,9 @@
+Bill noted that GBM appears to be increasing AI development (e.g., ~10 items in pipeline), which may signal a broader shift in adoption.
+	•	If AI becomes more embedded across product lines, MRM may need to reconsider whether the current AI validation approach remains appropriate.
+	•	Specifically, he is questioning whether AI validation should be more integrated into product-line validation rather than treated separately.
+
+
+
 Continued growth & validation of new AI models, with notable upcoming approvals including Market Simulator (Albert) (GBM Public, Tier 2), a transformer-based deep learning neural network used in algorithmic trading to generate equity security weightings for portfolio optimization, and TradeScore (GBM Public, Tier 2), designed to estimate order-fill probability based on historical patterns for quote optimization
 
 ASL Transfer Restrictions (GBM Private, Tier 2), an agentic AI solution used to analyze ASL facilities and support identification of Fed pledge eligibility, and Commentary AI (Risk Division, Tier 2), used to extract key information from financial documents and generate supporting rationale for credit risk decisions
