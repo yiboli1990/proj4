@@ -1,3 +1,7 @@
+MRM identified limitations in the Prime Brokerage Equity Vega Liquidation Charge methodology used for margin and benchmarking, where the flat multiplier understates vega liquidation costs and does not capture skew vega or concentration effects
+	•	A validation finding was raised; as an interim remediation, the benchmark multiplier was increased from 0.05 to 5, increasing estimated vega liquidation risk by ~$675mm across clients, with margin adjustments for impacted clients to follow
+	•	A broader remediation is underway through migration to the Unified Benchmark (UBM) framework (target Q2), alongside recalibration of CREST vega liquidation parameters as part of an existing aged validation finding
+
 Top of Mind
 	•	Geopolitical events: No material model performance issues observed amid the recent US–Israel–Iran conflict. MRM continues monitoring the recent surge in oil and natural gas prices and has not identified modelling concerns to date.
 	•	Market volatility: MRM is assessing models following the ~12% decline in the Korean stock index (KOSPI) since 9-11 that triggered exchange circuit breakers.
