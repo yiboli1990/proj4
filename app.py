@@ -1,3 +1,8 @@
+ETSC approved India Synthetic Futures, a new electronic trading activity to automate client order execution and hedging for swaps referencing India single-stock futures listed on the Singapore exchange.
+	•	High-severity control deficiencies were identified during review, including missing firm capital and client exposure controls, exclusion of start-of-day positions from unhedged risk checks, and lack of price and size re-validation for orders released after throttling breaches.
+	•	These deficiencies were addressed prior to approval, with required controls implemented to ensure appropriate risk checks and order validation.
+
+
 MRM identified an inappropriate assumption in the loss projection methodology used to translate the Stressed CCE metric into cumulative stressed loss along the CCAR path for Board limit calibration.
 	•	Specifically, the methodology results in projected stressed losses being driven primarily by base exposures rather than stressed exposures, creating an inconsistency as the Board limit scales Stressed CCE while being derived from base CCE dynamics.
 	•	As a result, the limit calibration is unstable (e.g., the current $325bn limit would have been ~$410bn using October data), and remediation is underway to revise the projection methodology to ensure limits are driven by stressed exposure
