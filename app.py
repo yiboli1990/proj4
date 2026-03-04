@@ -1,3 +1,8 @@
+MRM identified an inappropriate assumption in the loss projection methodology used to translate the Stressed CCE metric into cumulative stressed loss along the CCAR path for Board limit calibration.
+	•	Specifically, the methodology results in projected stressed losses being driven primarily by base exposures rather than stressed exposures, creating an inconsistency as the Board limit scales Stressed CCE while being derived from base CCE dynamics.
+	•	As a result, the limit calibration is unstable (e.g., the current $325bn limit would have been ~$410bn using October data), and remediation is underway to revise the projection methodology to ensure limits are driven by stressed exposure
+
+
 MRM identified limitations in the Prime Brokerage Equity Vega Liquidation Charge methodology used for margin and benchmarking, where the flat multiplier understates vega liquidation costs and does not capture skew vega or concentration effects
 	•	A validation finding was raised; as an interim remediation, the benchmark multiplier was increased from 0.05 to 5, increasing estimated vega liquidation risk by ~$675mm across clients, with margin adjustments for impacted clients to follow
 	•	A broader remediation is underway through migration to the Unified Benchmark (UBM) framework (target Q2), alongside recalibration of CREST vega liquidation parameters as part of an existing aged validation finding
