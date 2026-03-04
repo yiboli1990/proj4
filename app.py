@@ -1,3 +1,7 @@
+Standardized RWA: Development of new Controllers’ deterministic regulatory calculations (DRCs) for Operational Risk RWA, and updates to existing DRCs primarily related to revised risk weights and treatment of securities financing transactions (SFTs).
+	•	FRTB / FRTB-CVA: Changes to CVA RWA calculation, including implementation of the standardized CVA framework, introduction of 10-day shock calibration for market risk factors, and incorporation of default risk charge and residual risk add-ons.
+
+
 ETSC approved India Synthetic Futures, a new electronic trading activity to automate client order execution and hedging for swaps referencing India single-stock futures listed on the Singapore exchange.
 	•	High-severity control deficiencies were identified during review, including missing firm capital and client exposure controls, exclusion of start-of-day positions from unhedged risk checks, and lack of price and size re-validation for orders released after throttling breaches.
 	•	These deficiencies were addressed prior to approval, with required controls implemented to ensure appropriate risk checks and order validation.
