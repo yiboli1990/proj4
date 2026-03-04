@@ -1,3 +1,32 @@
+Top of Mind
+	•	Geopolitical events: No material model performance issues observed amid the recent US–Israel–Iran conflict. MRM continues monitoring the recent surge in oil and natural gas prices and has not identified modelling concerns to date.
+	•	Market volatility: MRM is assessing models following the ~12% decline in the Korean stock index (KOSPI) since 9-11 that triggered exchange circuit breakers.
+	•	Basel III Final Rule: Discussions ongoing regarding the FRB’s forthcoming Basel III re-proposal and the currently contemplated effective date of January 1, 2027.
+	•	Standardized RWA: Development of new Controllers’ deterministic regulatory calculations (DRCs) and updates to existing DRCs are expected to complete by August, with MRM validation targeted for November.
+	•	FRTB / FRTB-CVA: Risk Engineering expects to complete model development and required model changes by Q2, with MRM validation anticipated by Q3.
+
+⸻
+
+Validation Activities
+
+Prime Tail Liquidity Loss (PTL)
+	•	MRM approved enhancements to the PTL model (Risk, Tier 1) expected to materially improve the firm’s PTL ratio, a key metric monitored against FRAC and BRC limits.
+	•	Enhancements incorporate previously omitted synthetic term commitments and additional margin-related mitigants (e.g., inflows from excess margin), supporting more robust intraday liquidity stress testing.
+
+⸻
+
+Prime Brokerage Vega Liquidation
+	•	MRM identified limitations in the PB Equity Vega Liquidation Charge (SPIRE v5/v30) methodology, where the multiplier used to estimate vega liquidation costs was insufficient and did not capture skew vega or concentration effects.
+	•	As an interim remediation, the multiplier in the benchmark was increased from 0.05 to 5, increasing estimated vega liquidation risk by ~$675mm across clients, with margin adjustments for impacted clients to follow.
+	•	A broader remediation is underway through migration to the UBM framework (target Q2), which is expected to further increase risk capture while recalibrating CREST parameters as part of an existing FRAC finding.
+
+⸻
+
+Coherent Stress Loss
+	•	MRM review of the Stressed CCE loss projection methodology identified inappropriate assumptions that resulted in the projected stressed loss being driven by base exposures rather than stressed exposures.
+	•	As a result, the current Board limit calibration may be unstable; for example, the implied limit would have been $410bn rather than $325bn if recalibrated using October data.
+
+
 Basel III Final Rule: Ongoing discussions regarding the FRB’s forthcoming Basel III re-proposal and the currently contemplated effective date of January 1, 2027.
 	•	Standardized RWA: Development of new Controllers’ deterministic regulatory calculations (DRCs) and updates to existing DRCs are expected to complete by August, with MRM validation targeted for November.
 	•	FRTB / FRTB-CVA: Risk Engineering expects to implement required model changes by Q2, with MRM validation anticipated to complete in Q3.
