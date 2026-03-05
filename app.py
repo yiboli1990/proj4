@@ -1,3 +1,9 @@
+MRM identified increased materiality of limitations in the Equity Vega Liquidation Charge methodology used in Prime Brokerage margin shortfall modeling (GBM, Tier 1), where the flat multiplier understates vega liquidation costs and does not capture skew vega or concentration effects.
+	•	The increased materiality is driven by higher client options activity in Prime Brokerage accounts; as an interim remediation, the multiplier in the shortfall model was increased from 0.05 to 5, resulting in a material increase in vega liquidation charges across clients.
+	•	A strategic remediation is underway through migration to the Unified Benchmark Model (UBM) framework (target Q2), alongside recalibration of CREST vega liquidation parameters as part of remediation of an existing aged validation finding.
+
+
+
 Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
 
 The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
