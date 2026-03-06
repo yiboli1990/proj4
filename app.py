@@ -1,3 +1,59 @@
+Transaction Waiver Summary
+
+Desk
+
+Equities – Structured Notes / IRP
+
+Trade
+
+Structured Notes with Running Fee on NAV (MTM)
+
+Notional
+
+Up to USD 500 million across notes with approved payoff structures
+
+⸻
+
+Trade Description
+
+The structured notes pay a structured coupon to the retail investor, while Goldman Sachs pays a distribution fee to the third-party distributor or insurer.
+
+Historically, this fee has been calculated as x bps of notional, paid periodically (e.g., quarterly). Under the proposed structure, the running fee will instead be calculated as x bps of the note’s MTM (NAV) at the fixing date, rather than the notional amount.
+
+The underlying payoff structures remain standard and already approved, with the only modification being the reference used to calculate the distributor fee. As the notes are typically capital guaranteed and trade close to par, the difference between notional and MTM is expected to be limited.
+
+⸻
+
+Reason for Waiver
+
+Running distribution fees are already approved and supported when referenced to notional. The proposed structure changes the reference from notional to NAV (MTM).
+
+While this functionality is already approved and supported within the Equities (EQ) framework, MRM has not yet completed approval for the IRP implementation due to competing validation priorities and concurrent waiver resolutions.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+Trades will be booked in their final structure, with the running fee referenced to the note’s MTM, consistent with the intended production setup.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the waiver does not introduce a new payoff structure or market risk profile, as the only change is the reference used for the distributor fee calculation.
+
+In addition:
+	•	The running fee mechanism is already approved and implemented in the EQ framework, providing precedent for the calculation methodology.
+	•	Structured notes involved are capital guaranteed and typically trade close to par, limiting potential deviations between notional and MTM.
+	•	The MTM used for the fee calculation will be approximated using the SPV valuation, consistent with the approach currently used for MTM recovery calculations.
+
+⸻
+
+Remediation Plan
+
+Implementation of Running Fee on NAV within IRP is already completed, using the SPV-based MTM approximation framework currently applied for MTM recovery calculations. Formal MRM approval will follow as part of the next validation cycle.
+
+
 MRM identified increased materiality of limitations in the Equity Vega Liquidation Charge methodology used in Prime Brokerage margin shortfall modeling (GBM, Tier 1), where the flat multiplier understates vega liquidation costs and does not capture skew vega or concentration effects.
 	•	The increased materiality is driven by higher client options activity in Prime Brokerage accounts; as an interim remediation, the multiplier in the shortfall model was increased from 0.05 to 5, resulting in a material increase in vega liquidation charges across clients.
 	•	A strategic remediation is underway through migration to the Unified Benchmark Model (UBM) framework (target Q2), alongside recalibration of CREST vega liquidation parameters as part of remediation of an existing aged validation finding.
