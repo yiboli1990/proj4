@@ -2,6 +2,96 @@ Transaction Waiver Summary
 
 Desk
 
+DESA – HIKG SPG
+
+Region / Legal Entity
+
+Asia – GSI
+
+Trade
+
+Fixed Notional Daily Crash Put on Client Portfolio Basket
+
+Model
+
+EqSp KO Daily Crash Put
+
+Trader / Strat
+
+Trader: Varun Lunia
+Strat: Mayank Jalan
+Strat MD: Patrick Chan
+
+Approvals
+
+Strat PMD Approver: Xavier
+CRO Designee Approver: Dmitri
+
+⸻
+
+Trade Description
+
+The desk proposes to book a client-facing fixed notional crash put referencing a synthetic basket representation of the client’s equity portfolio.
+
+Key features include:
+	•	Notional: approximately $2bn
+	•	Structure: 70% Daily Crash Put on LMV exposure
+	•	Maturity: 4 months, with the trade expected to roll forward at reset dates
+	•	Model / Tradable: EqSp KO Daily Crash Put
+
+The underlying basket will represent the client’s portfolio using the following construction:
+
+Basket = 100 + a × LMV − b × SMV
+
+where coefficients a and b are calibrated daily to maintain:
+	•	basket level of 100
+	•	long / short exposure ratio of 1
+
+The basket references the client’s actual stock portfolio, allowing MRMA to expand the basket representation and run single-stock stress metrics, including TD-style stress tests.
+
+⸻
+
+Reason for Waiver
+
+The EqSp KO Daily Crash Put model is already MRM approved, and the tradable captures the payoff mechanics of the structure.
+
+The waiver relates to two implementation aspects that require further review:
+	•	Basket representation: the synthetic basket construction used to represent the client’s portfolio requires validation by MRMA/MRM to confirm stress and risk metrics behave as expected.
+	•	Volatility marking methodology: the desk proposes to infer implied volatility from the cleared trade price (~3%), corresponding to approximately 120% annualized volatility, which will be reviewed by MRMA/MRM.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will be booked using the approved EqSp KO Daily Crash Put tradable, with the client portfolio represented via the calibrated basket formulation described above.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the underlying tradable and payoff structure are already MRM approved. During the waiver period:
+	•	The synthetic basket representation references the client’s actual portfolio, enabling MRMA to expand the basket into individual stock components for stress testing and risk analysis.
+	•	Single-stock stress metrics and sensitivity analysis will be monitored using existing MRMA risk tools.
+	•	The volatility assumption will be derived directly from the cleared market price of the trade, ensuring consistency between valuation and executed pricing.
+	•	The trade has a short maturity (4 months) and will be reset periodically, limiting long-term exposure while model representation is reviewed.
+
+⸻
+
+Remediation Plan
+
+The desk will work with MRMA and MRM to complete review and approval of:
+	•	the basket asset representation methodology, and
+	•	the volatility marking approach
+
+within 3 months.
+
+
+
+
+Transaction Waiver Summary
+
+Desk
+
 Equities – Structured Notes / IRP
 
 Trade
