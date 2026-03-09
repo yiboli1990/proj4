@@ -1,3 +1,6 @@
+used by recruiters to translate semantic search queries into profile filters and generate personalized outreach messages to potential candidates.
+
+
 Transaction Waiver Summary
 
 Desk
