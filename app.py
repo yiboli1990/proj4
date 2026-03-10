@@ -1,3 +1,8 @@
+MRM approved enhancements to AI Bing Search (Engineering, Tier 2), which enables web-search grounding for queries within the GS AI Assistant, addressing prior MRM validation findings.
+	•	The findings related to instability in the Bing search service and weighting of individual search results, which could lead to search grounding being disabled or increase hallucination risk.
+	•	Microsoft implemented enhancements following Engineering escalation, including Azure infrastructure improvements and an updated LLM integration, improving system reliability and addressing the validation findings.
+
+
 used by recruiters to translate semantic search queries into profile filters and generate personalized outreach messages to potential candidates.
 
 
