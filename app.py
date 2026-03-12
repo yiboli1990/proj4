@@ -1,3 +1,8 @@
+Asset Secured Lending (ASL): Notable recent model enhancements approved for the ASL business include:
+	•	Enhancement to the Residential Mortgage Tail Risk model (Risk, Tier 1) to incorporate interest rate swaps into collateral valuation, leveraging more comprehensive collateral-level data and improving tail risk accuracy.
+	•	Enhancements to the Transport Tail Risk model (Risk, Tier 1) incorporating new data for stress shock calibration, updates to the upstream pricing model including an index-based methodology for lease probability of default, and improved differentiation between performing and non-performing leases, addressing prior validation findings.
+
+
 Enhancements implemented by Microsoft in response to these findings include Azure infrastructure improvements and an updated LLM integration, addressing system reliability issues and improving accuracy, hallucination control, consistency, timeliness, and response coherence.
 
 MRM approved enhancements to AI Bing Search (Engineering, Tier 2), which enables web-search grounding for queries within the GS AI Assistant, addressing prior MRM validation findings.
