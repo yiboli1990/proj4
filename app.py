@@ -1,3 +1,5 @@
+Notable validation work included new methodologies for CVA/FVA losses on commodity derivatives, ASL portfolio provisioning, and IRRBB/CSRBB for GSBE ICAAP, as well as updates to VaR stress calibration and an overlay reflecting expected FRTB-SA go-live in MR RWA projections.
+
 Asset Secured Lending (ASL): Notable recent model enhancements approved for the ASL business include:
 	•	Enhancement to the Residential Mortgage Tail Risk model (Risk, Tier 1) to incorporate interest rate swaps into collateral valuation, leveraging more comprehensive collateral-level data and improving tail risk accuracy.
 	•	Enhancements to the Transport Tail Risk model (Risk, Tier 1) incorporating new data for stress shock calibration, updates to the upstream pricing model including an index-based methodology for lease probability of default, and improved differentiation between performing and non-performing leases, addressing prior validation findings.
