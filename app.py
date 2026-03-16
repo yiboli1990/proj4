@@ -1,3 +1,8 @@
+Heightened number of validation requests for new business initiatives across Asia and EMEA Equities, including:
+	•	Automated execution of client orders at guaranteed benchmark prices with risk unwinding through the One Delta Closing Facility (ODCF). Example: validation of EMEA GMOC Actionable IOIs, where Guaranteed Market-on-Close (GMOC) indications are streamed to clients and risk is unwound using the ODCF algorithm.
+	•	Strategic buildout of Asia Synthetic Products Group (SPG) trading capability using the GSBE entity, shifting activity from GSI to reduce funding costs. Example: validation of Asia SPG – GSBE Taiwan Synthetic Access, where GSBE acts as the exchange-facing entity for synthetic execution of Taiwan equities.
+
+
 Asset Secured Lending (ASL): Notable model enhancements approved for the ASL business include:
 	•	Residential Mortgage Tail Risk model (Risk, Tier 1): Enhanced to incorporate interest rate swaps in collateral valuation, leveraging more granular collateral-level data and improving tail risk measurement.
 	•	Transport Tail Risk model (Risk, Tier 1): Enhanced through new datasets for stress shock calibration, updates to the upstream pricing model including an index-based methodology for lease probability of default, and improved differentiation between performing and non-performing leases, addressing prior validation findings.
