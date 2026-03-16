@@ -1,3 +1,25 @@
+Asset Secured Lending (ASL): Notable model enhancements approved for the ASL business include:
+	•	Residential Mortgage Tail Risk model (Risk, Tier 1): Enhanced to incorporate interest rate swaps in collateral valuation, leveraging more granular collateral-level data and improving tail risk measurement.
+	•	Transport Tail Risk model (Risk, Tier 1): Enhanced through new datasets for stress shock calibration, updates to the upstream pricing model including an index-based methodology for lease probability of default, and improved differentiation between performing and non-performing leases, addressing prior validation findings.
+
+GSBE ICAAP / ILAAP
+	•	Validation of 57 models and 2 QAs for ICAAP and 21 models and 12 QAs for ILAAP was completed ahead of the mid-March regulatory submissions to the ECB.
+	•	Notable validation work included new methodologies for CVA/FVA losses on commodity derivatives, ASL provisioning models, and IRRBB/CSRBB for GSBE ICAAP, as well as updates to VaR stress calibration and an overlay reflecting expected FRTB-SA implementation.
+
+⸻
+
+Regulatory Updates
+
+ECB Supervisory Review and Evaluation Process (SREP)
+	•	The ECB confirmed formal closure of the finding on model inventory completeness.
+	•	Remediation included targeted training, inventory review and attestation by responsible business units, and enhancements to the GSBE Policy and Procedure Risk Handbook.
+
+⸻
+
+Electronic Trading Software Controls (ETSC)
+	•	Heightened validation activity for new electronic trading initiatives across Asia and EMEA Equities, including automated client execution and expansion of synthetic trading capabilities.
+	•	Examples include validation of EMEA GMOC Actionable IOIs, where guaranteed Market-on-Close indications are streamed to clients with risk unwound via the ODCF algorithm, and Asia SPG – GSBE Taiwan Synthetic Access, enabling the Asia Synthetic Products Group to execute synthetic trades through the GSBE entity to reduce funding costs.
+
 IR volatility desks experienced losses in LDN IRP and NYC IRP, primarily driven by a richening of short-dated interest rate volatility (“top-left” vols) against desk short positions.
 	•	Losses were partially offset by parameter re-marks in the NYC Volex portfolio, including barrier shifts in callable range accruals and volatility offsets used in Bermudan pricing.
 	•	The volatility offset parameter is subject to an MRM control limit; current usage is elevated but remains within approved limits.
