@@ -1,3 +1,10 @@
+IR volatility desks experienced losses in LDN IRP and NYC IRP, primarily driven by a richening of short-dated interest rate volatility (“top-left” vols) against desk short positions.
+	•	Losses were partially offset by parameter re-marks in the NYC Volex portfolio, including barrier shifts in callable range accruals and volatility offsets used in Bermudan pricing.
+	•	The volatility offset parameter is subject to an MRM control limit; current usage is elevated but remains within approved limits.
+
+Alternative titles (also CRO-
+
+
 Notable validation work included new methodologies for CVA/FVA losses on commodity derivatives, ASL portfolio provisioning, and IRRBB/CSRBB for GSBE ICAAP, as well as updates to VaR stress calibration and an overlay reflecting expected FRTB-SA go-live in MR RWA projections.
 
 Asset Secured Lending (ASL): Notable recent model enhancements approved for the ASL business include:
