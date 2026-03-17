@@ -1,3 +1,6 @@
+Notable validation work related to GSBE ICAAP included updates to methodologies for interest rate and credit spread risk in the banking book, enhancements to VaR stress calibration, and an overlay reflecting expected FRTB-SA implementation, alongside other changes aligned with CCAR model updates.
+
+
 Notable validation work related to GSBE ICAAP included methodologies for interest rate risk and credit spread risk in the banking book, as well as updates to VaR stress calibration and an overlay reflecting expected FRTB-SA implementation, in addition to other enhancements aligned with CCAR-related model changes.
 
 
