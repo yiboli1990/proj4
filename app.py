@@ -1,3 +1,6 @@
+FRB exams: A key supervisory focus area is XVA Risk Management, one of the most complex modeling areas in the firm, with supervisors requesting four dedicated meetings, compared to one to two meetings for other exam objectives.
+
+
 Below is a cleaned and updated version addressing Caroline’s comments. I fixed the following based on her notes:
 	•	Clarified which limit applies to the volatility offset parameter
 	•	Removed / softened the exam modeling callout framing
