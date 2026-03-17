@@ -1,3 +1,79 @@
+Below is a cleaned and updated version addressing Caroline’s comments. I fixed the following based on her notes:
+	•	Clarified which limit applies to the volatility offset parameter
+	•	Removed / softened the exam modeling callout framing
+	•	Simplified the ICAAP validation bullet (too wordy / too many acronyms)
+	•	Defined ETSC acronym at first use
+	•	Fixed the missing parenthesis
+	•	Slightly tightened wording overall for CRO style
+
+⸻
+
+Summary of Recent Activities in Model Risk
+
+Top of Mind
+
+Geopolitical Events:
+No material model performance issues observed amid the recent US–Israel–Iran conflict.
+
+Interest Rate Volatility Desks P&L:
+Recent losses in LDN IRP and NYC IRP desks were driven by a richening of short-dated interest rate volatility (“top-left” vols) against desk short positions.
+	•	Losses were partially offset by parameter re-marks in the NYC Volex portfolio, including barrier shifts in callable range accruals and volatility offsets used in Bermudan pricing.
+	•	The volatility offset parameter is subject to an MRM model parameter limit; current usage is elevated but remains within approved limits, and MRM is assessing the increased usage.
+
+⸻
+
+CCAR
+
+All 135 models and 53 qualitative approaches (QAs) remain on track for approval. MRM is currently focused on reviewing several recently proposed overlays, including:
+	•	A high-severity finding was raised (subsequently remediated and closed) due to conceptual and implementation deficiencies in the overlay reflecting GS Bank intercompany borrowing under stress.
+	•	Treasury revised the calculation to capture loan reset frequencies, apply scenario-specific inputs, and ensure consistent assumptions.
+	•	The overlay applies to GS Bank CCAR results only, not GS Group.
+	•	Overlay to AWM Private PPNR and GMS to reflect the impact of revising the beta of private equity to public equity paths to 0.6.
+
+Exams:
+MRM will participate in 13 of 15 supervisory meetings, including one validation-focused meeting on provisions wholesale. A key focus area relates to XVA risk management, where supervisors have requested several deep-dive discussions.
+
+⸻
+
+Validation Activities
+
+Asset Secured Lending (ASL)
+
+Notable recent model enhancements approved for the ASL business include:
+	•	Enhancement to the Residential Mortgage Tail Risk model (Risk, Tier 1) to incorporate interest rate swaps into collateral valuation, leveraging more granular collateral-level data and improving tail risk accuracy.
+	•	Enhancements to the Transport Tail Risk model (Risk, Tier 1) incorporating new data for stress shock calibration, updates to the upstream pricing model including an index-based methodology for lease probability of default, and improved differentiation between performing and non-performing leases, addressing prior validation findings.
+
+⸻
+
+GSBE ICAAP / ILAAP
+
+Validation of 57 models and 2 QAs for ICAAP and 22 models and 11 QAs for ILAAP was completed ahead of the mid-March regulatory submissions to the ECB.
+
+Notable validation work included:
+	•	New methodologies for commodity derivatives CVA/FVA losses, ASL portfolio provisioning, and IRRBB/CSRBB for GSBE ICAAP.
+	•	Updates to VaR stress calibration and an overlay reflecting the expected FRTB-SA go-live in market risk RWA projections.
+
+⸻
+
+Regulatory Updates
+
+ECB Supervisory Review and Evaluation Process (SREP):
+ECB confirmed formal closure of the finding on model inventory completeness.
+
+Remediation included training, inventory review and attestation by responsible business units, and enhancements to the GSBE Policy and Procedure Risk Handbook.
+
+⸻
+
+Electronic Trading Software Controls (ETSC)
+
+There has been an increase in activity related to Electronic Trading Software Controls (ETSC) validation requests for new business initiatives across Asia and EMEA Equities, including:
+	•	Automated execution of client orders at guaranteed benchmark prices with risk unwinding through the One Delta Closing Facility (ODCF) (e.g., EMEA GMOC Actionable IOIs, where Guaranteed Market-on-Close (GMOC) indications are streamed to clients and risk is unwound using the ODCF algorithm).
+	•	Strategic buildout of Asia Synthetic Products Group (SPG) trading capability using the GSBE entity, shifting activity from GSI to reduce funding costs (e.g., Asia SPG – GSBE Taiwan Synthetic Access, where GSBE acts as the exchange-facing entity for synthetic execution of Taiwan equities).
+
+
+
+
+
 Heightened number of validation requests for new business initiatives across Asia and EMEA Equities, including:
 	•	Automated execution of client orders at guaranteed benchmark prices with risk unwinding through the One Delta Closing Facility (ODCF). Example: validation of EMEA GMOC Actionable IOIs, where Guaranteed Market-on-Close (GMOC) indications are streamed to clients and risk is unwound using the ODCF algorithm.
 	•	Strategic buildout of Asia Synthetic Products Group (SPG) trading capability using the GSBE entity, shifting activity from GSI to reduce funding costs. Example: validation of Asia SPG – GSBE Taiwan Synthetic Access, where GSBE acts as the exchange-facing entity for synthetic execution of Taiwan equities.
