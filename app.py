@@ -1,3 +1,6 @@
+Absent the Volex parameter re-marks, the March 12 P&L would likely have resulted in an additional 99% VaR backtesting breach, which could further increase the regulatory VaR capital multiplier (already raised following the 5th breach); MRM is reviewing the appropriateness of the remark treatmen
+
+
 Notable validation work related to GSBE ICAAP included updates to methodologies for interest rate and credit spread risk in the banking book, enhancements to VaR stress calibration, and an overlay reflecting expected FRTB-SA implementation, alongside other changes aligned with CCAR model updates.
 
 
