@@ -3,6 +3,12 @@ Market movements were accompanied by model parameter re-marks in the NYC Volex p
 	•	MRM continues to coordinate with Market Risk Strats, Specialists, and broader Risk teams on the treatment of these parameters in VaR and backtesting, in light of recent market volatility.
 
 
+
+Market movements were accompanied by model parameter re-marks in the NYC Volex portfolio, including barrier shifts in callable range accruals and volatility offsets used in Bermudan pricing.
+	•	The re-marks offset some of the impact of the market movements, remain within agreed parameter bounds, and were approved by MRM and Controllers.
+	•	MRM continues to coordinate with Market Risk Strats, Specialists, and broader Risk teams on the treatment of these parameters in VaR and backtesting, in light of recent market volatility.
+
+
 The desk requested a re-mark to the volatility offset parameter, which was approved by MRM as remaining within the agreed parameter bounds.
 
 Absent the Volex parameter re-marks, the March 12 P&L would likely have resulted in an additional 99% VaR backtesting breach, which could further increase the regulatory VaR capital multiplier (already raised following the 5th breach); MRM is reviewing the appropriateness of the remark treatmen
