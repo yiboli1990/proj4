@@ -1,3 +1,5 @@
+The desk requested a re-mark to the volatility offset parameter, which was approved by MRM as remaining within the agreed parameter bounds.
+
 Absent the Volex parameter re-marks, the March 12 P&L would likely have resulted in an additional 99% VaR backtesting breach, which could further increase the regulatory VaR capital multiplier (already raised following the 5th breach); MRM is reviewing the appropriateness of the remark treatmen
 
 
