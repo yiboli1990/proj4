@@ -1,3 +1,23 @@
+Goal 1: Deepen Expertise in Basel III Final (B3F)
+
+Build a strong understanding of B3F capital rules and actively contribute to related workstreams
+
+Enhance ability to translate regulatory requirements into clear, actionable reporting and become a reliable resource on capital topics
+
+Goal 2: Advance AI-Driven Workflow Efficiency
+
+Leverage AI tools to streamline workflows (e.g., reporting, drafting, data processing) and reduce manual effort
+
+Identify and implement practical AI use cases to improve efficiency and consistency across deliverables
+
+Goal 3: Deliver High-Quality and Impactful Reporting
+
+Maintain high standards in preparing CRO, Strats, BRC, and FRAC materials with a focus on clarity and timeliness
+
+Continuously refine messaging to align with senior stakeholder priorities and improve overall effectiveness
+
+
+
 Market movements were accompanied by model parameter re-marks in the NYC Volex portfolio, including barrier shifts in callable range accruals and volatility offsets used in Bermudan pricing.
 	•	The re-marks offset some of the impact of the market movements, remain within agreed parameter bounds, and were approved by MRM and Controllers.
 	•	MRM continues to coordinate with Market Risk Strats, Specialists, and broader Risk teams on the treatment of these parameters in VaR and backtesting, in light of recent market volatility.
