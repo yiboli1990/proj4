@@ -1,3 +1,106 @@
+Transaction Waiver Summary
+
+Desk
+
+Equities – Structured Products Group (SPG)
+
+Trade
+
+Eq VWAP Flex Buyback – Deferred Settlement Structure
+
+Underlier
+
+Hannover Rück SE (HNR1 GY)
+
+Counterparty
+
+HDI Haftpflichtverband der Deutschen Industrie VAG
+
+Notional
+
+EUR 500 million (min: EUR 499.99m, max: EUR 500m)
+
+Maximum Shares
+
+4,000,000 shares
+
+Dates
+
+• Signing Date: 16-Mar-2026
+• Start Date: 19-Mar-2026
+• Maximum Maturity: 19-Oct-2026
+
+Economics
+
+• Discount: 1.55%
+• Upside Sharing: 66.67% (client participation)
+• Expected P&L: ~$2.5 million
+
+⸻
+
+Trade Description
+
+GS is mandated to purchase shares on behalf of the client via a VWAP-based execution strategy, in exchange for providing the client with a guaranteed discount and upside sharing, while GS retains full downside risk.
+
+Key features:
+	•	The trade terminates when either:
+• total client cost (excluding upside share) reaches EUR 500m, or
+• 4 million shares are acquired
+	•	The client prepays EUR 500m upfront, and shares are delivered at maturity free of payment (no DvP settlement)
+	•	GS executes purchases over time and accumulates shares for delivery at maturity
+
+⸻
+
+Reason for Waiver
+
+The existing Eq VWAP Flex Buyback tradable does not support deferred settlement mechanics, where:
+	•	cash is received upfront, and
+	•	shares are delivered at maturity without payment
+
+As a result, the tradable cannot fully capture the timing mismatch between cashflows and physical settlement obligations.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will be booked using the Eq VWAP Flex Buyback tradable, supplemented with additional legs to replicate settlement behavior:
+
+• EUR 500m receivable upfront
+• EUR 500m payable at maximum maturity
+• As shares are purchased:
+	•	book a zero-strike call with maturity equal to trade maturity
+	•	reduce the EUR 500m payable by the corresponding notional
+
+This approach ensures that final settlement obligations (cash vs shares) are correctly reflected at maturity.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the primary valuation difference arises from:
+	•	GS effectively receiving dividends on shares acquired prior to ex-date, and
+	•	the absence of daily cash settlement, resulting in a timing mismatch
+
+The estimated PV impact of these effects is approximately EUR 53 million.
+
+To mitigate this during the waiver period:
+
+• Full P&L reserve is applied, ensuring that any valuation differences due to settlement mismodeling are not recognized in reported P&L
+• A dedicated monitoring report will be implemented to track PV impact based on actual execution and share accumulation
+• The trade economics (discount and upside sharing) are fully captured by the approved tradable, with only settlement timing requiring workaround
+• The structure is deterministic in notional and bounded by maximum shares, limiting uncertainty in exposure evolution
+
+⸻
+
+Remediation Plan
+
+• Implement full support for decoupled cash and share settlement schedules within the tradable
+• Enhance system capability to reflect predefined and differing settlement timelines
+• Expected delivery timeline: ~1 month (Strats implementation and testing)
+
+
+
+
 Goal 1: Deepen Expertise in Basel III Final (B3F)
 
 Build a strong understanding of B3F capital rules and actively contribute to related workstreams
