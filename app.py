@@ -1,3 +1,11 @@
+GBM Soundbites
+	•	AI adoption accelerating, but cost efficiency questioned: Xavier cited survey indicating 60%+ of programming work now has AI involvement; raised concerns on high compute costs (e.g., Claude coding usage running into thousands) and whether AI delivers net cost savings
+	•	Pragmatic AI usage strategy emerging: MRM approach positions Gemini Flash as the “workhorse” for long-context tasks, with Anthropic models reserved for premium coding use cases
+	•	Data and tooling modernization underway: Manish Gupta’s team driving onboarding of key datasets (CAR, liquidity, funding) onto MCP-enabled tooling to support agentic workflows
+	•	Shift toward Python-centric development: New model development prioritizing Python, with Slang retained primarily for pricing and legacy functions
+
+
+
 MRM approved Marquee Persona (GBM Public, Tier 3), leveraging generative AI to generate client-level interaction summaries across Marquee and Sales channels, enhancing client insight and enabling more targeted engagement
 	•	Phased rollout underway, with initial deployment to ~50 users and full Sales rollout (~1,300 users) targeted by end-2026
 MRM approved ASL Transfer Restrictions (GBM Private, Tier 2), leveraging agentic AI to extract and classify Federal Reserve pledge restriction data and remediate historical data gaps across active facilities
