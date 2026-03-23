@@ -1,3 +1,11 @@
+Recommended version (balanced):
+	•	MRM approved Banker Copilot Studio (GBM Private, Tier 2), a unified workspace leveraging automation, conversational interfaces, and intelligent search to enhance creation, editing, and retrieval of client service materials, driving efficiency and improved client engagement across banker workflows
+
+Slightly more concise:
+	•	MRM approved Banker Copilot Studio (GBM Private, Tier 2), enabling bankers to streamline creation and search of client materials through automation, conversational interfaces, and intelligent search, improving workflow efficiency and client engagement
+
+
+
 Transaction Waiver Summary
 
 Desk
