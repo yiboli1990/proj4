@@ -1,3 +1,8 @@
+MRM approved DistilledSentiment (AWM, Tier 2), used by Quantitative Investing Strategies (QIS) to generate standardized signals for global equities based on sentiment extracted from textual data
+	•	The model leverages pre-trained transformer architectures to quantify sentiment, with outputs designed to support return prediction and systematic investment decision-making
+
+
+
 GBM Soundbites
 	•	AI adoption accelerating, but cost efficiency questioned: Xavier cited survey indicating 60%+ of programming work now has AI involvement; raised concerns on high compute costs (e.g., Claude coding usage running into thousands) and whether AI delivers net cost savings
 	•	Pragmatic AI usage strategy emerging: MRM approach positions Gemini Flash as the “workhorse” for long-context tasks, with Anthropic models reserved for premium coding use cases
