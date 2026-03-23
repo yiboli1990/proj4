@@ -1,3 +1,10 @@
+MRM approved Marquee Persona (GBM Public, Tier 3), leveraging generative AI to generate client-level interaction summaries across Marquee and Sales channels, enhancing client insight and enabling more targeted engagement
+	•	Phased rollout underway, with initial deployment to ~50 users and full Sales rollout (~1,300 users) targeted by end-2026
+MRM approved ASL Transfer Restrictions (GBM Private, Tier 2), leveraging agentic AI to extract and classify Federal Reserve pledge restriction data and remediate historical data gaps across active facilities
+	•	Outputs remain non-binding and are subject to mandatory SME review prior to use, ensuring appropriate human oversight and control
+
+
+
 Recommended version (balanced):
 	•	MRM approved Banker Copilot Studio (GBM Private, Tier 2), a unified workspace leveraging automation, conversational interfaces, and intelligent search to enhance creation, editing, and retrieval of client service materials, driving efficiency and improved client engagement across banker workflows
 
