@@ -1,3 +1,8 @@
+ECB IMM Exam Findings: Closing meeting held; GS to submit response within two weeks; 18 findings raised including 1 F4 (outsourcing), multiple F3s (backtesting, IM modeling, GSBE approvals, EEPE coverage, EAD/RWA, documentation), and additional F2 validation/modeling gaps
+	•	ECB AI Workshop: Scheduled for May 7; GS to submit materials by April 9 and April 23 covering AI governance, EU AI Act, GenAI use, lifecycle, and fraud use cases
+	•	SREP: ECB formally closed model inventory completeness finding following remediation (training, inventory attestation, policy enhancements)
+	•	PRA SS1/23: PRA requested follow-up meetings (late April) to discuss GS submission; survey assessed MRM alignment including inventory, governance, and framework
+
 Finding related to insufficient evidence supporting the appropriateness of applying a single PD model across jurisdictions for mid-corporates
 
 
