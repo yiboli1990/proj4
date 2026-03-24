@@ -1,3 +1,6 @@
+Finding related to insufficient evidence supporting the appropriateness of applying a single PD model across jurisdictions for mid-corporates
+
+
 MRM approved DistilledSentiment (AWM, Tier 2), used by Quantitative Investing Strategies (QIS) to generate standardized signals for global equities based on sentiment extracted from textual data
 	•	The model leverages pre-trained transformer architectures to quantify sentiment, with outputs designed to support return prediction and systematic investment decision-making
 
