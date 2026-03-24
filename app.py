@@ -1,3 +1,8 @@
+Engineering identified and escalated the use of an unapproved AI coding tool (OpenCode), which was made available for download via the Software Acquisition Manager (SAM)
+	•	Tech Risk issued a high-risk finding and Operational Risk opened an event, with SAM and Software Development Life Cycle (SDLC) teams conducting root cause analysis, impact assessment, and defining remediation actions
+	•	A forward plan will be presented to AIRC, focusing on strengthening controls over the review and approval of open-source AI tools prior to internal distribution
+
+
 ECB IMM Exam Findings: Closing meeting held; GS to submit response within two weeks; 18 findings raised including 1 F4 (outsourcing), multiple F3s (backtesting, IM modeling, GSBE approvals, EEPE coverage, EAD/RWA, documentation), and additional F2 validation/modeling gaps
 	•	ECB AI Workshop: Scheduled for May 7; GS to submit materials by April 9 and April 23 covering AI governance, EU AI Act, GenAI use, lifecycle, and fraud use cases
 	•	SREP: ECB formally closed model inventory completeness finding following remediation (training, inventory attestation, policy enhancements)
