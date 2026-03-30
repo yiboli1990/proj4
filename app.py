@@ -1,3 +1,12 @@
+Overlay program communication
+	•	Prepare explanation:
+	•	Program structure
+	•	Controls in place
+	•	Risks (esp. risk limit arbitrage perception)
+	•	Coordinate with Andreas
+
+
+
 Prime Brokerage Vega Liquidation Issue
 
 Finding
