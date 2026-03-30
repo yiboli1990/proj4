@@ -1,3 +1,19 @@
+4) CCAR / CVA modeling concerns (technical but important)
+
+Structural issues identified:
+	•	Decentralized CVA ownership
+	•	No clear accountability → risk of slow responses
+	•	Incorrect modeling of path-dependent derivatives
+	•	Regression approach loses path information
+	•	Understates volatility (though currently low materiality)
+
+👉 Key takeaway:
+	•	Not a crisis today, but modeling correctness gap exists
+	•	Likely to be probed by regulators if surfaced
+
+
+
+
 Engineering identified and escalated the use of an unapproved AI coding tool (OpenCode), which was made available for download via the Software Acquisition Manager (SAM)
 	•	Tech Risk issued a high-risk finding and Operational Risk opened an event, with SAM and Software Development Life Cycle (SDLC) teams conducting root cause analysis, impact assessment, and defining remediation actions
 	•	A forward plan will be presented to AIRC, focusing on strengthening controls over the review and approval of open-source AI tools prior to internal distribution
