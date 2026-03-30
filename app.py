@@ -1,3 +1,22 @@
+CCR:
+	•	MRM approved enhancements to the Franchise Interest Rates Benchmark model (GBM, Tier 1) to better align stress loss aggregation with the CREST credit model.
+	•	The change reorders aggregation to currencies first, then risk factors, improving consistency across benchmark models.
+	•	The enhancement supports ongoing model harmonization, resulting in lower stress losses and improved backtesting performance across client portfolios.
+
+⸻
+
+FRTB:
+	•	Continued validation focus on new FRTB requirements, including approval of enhancements to the FRTB IMA 10-Day Returns model (Risk, Tier 1).
+	•	Enhancements incorporate additional credit bond and mortgage risk factors, improving risk factor coverage in return construction.
+
+⸻
+
+Asset Secured Lending (ASL):
+	•	MRM approved the new FLR GS Select model (Risk, Tier 1) to estimate through-the-cycle LGD for GS Select performing loans.
+	•	The model supports facility-level rating (FLR) calculations, enhancing risk measurement for the ASL portfolio.
+
+
+
 Overlay program communication
 	•	Prepare explanation:
 	•	Program structure
