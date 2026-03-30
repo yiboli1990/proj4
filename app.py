@@ -1,3 +1,8 @@
+CVA implementation remains highly decentralized, creating challenges in ownership, coordination, and timely responses
+	•	A modeling limitation was identified for path-dependent derivatives, where the current approach may understate volatility due to loss of path information
+	•	While the current impact is not material, this represents a methodological gap that could become more relevant if exposure to complex products increases
+
+
 4) CCAR / CVA modeling concerns (technical but important)
 
 Structural issues identified:
