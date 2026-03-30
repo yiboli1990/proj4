@@ -1,3 +1,17 @@
+CCR: MRM approved an enhancement to the Franchise Interest Rates Benchmark model (GBM, Tier 1) to better align stress loss aggregation with the CREST credit framework
+	•	Aggregation methodology updated to first aggregate across currencies, followed by risk factors (e.g., IR Spot, Inflation)
+	•	Part of broader shortfall benchmark harmonization, resulting in reduced stress losses and improved backtesting performance across client portfolios
+
+FRTB: Continued validation progress against new FRTB requirements, including approval of an enhancement to the FRTB IMA 10-Day Returns model (Risk, Tier 1)
+	•	Enhancement incorporates additional credit bond and mortgage risk factors into the 10-day return construction
+	•	Model continues to derive 10-day returns from 1-day historical risk factor time series
+
+ASL: MRM approved the FLR GS Select model (Risk, Tier 1) for GS Select performing loans
+	•	Model estimates through-the-cycle LGD for use in facility-level rating (FLR) calculations
+
+
+
+
 CCR:
 	•	MRM approved enhancements to the Franchise Interest Rates Benchmark model (GBM, Tier 1) to better align stress loss aggregation with the CREST credit model.
 	•	The change reorders aggregation to currencies first, then risk factors, improving consistency across benchmark models.
