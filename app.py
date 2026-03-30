@@ -1,3 +1,12 @@
+MRM approved enhancements to the Franchise Interest Rates Benchmark Model (FFIRBM, Tier 1) to align stress loss aggregation with CREST, switching the sequence to aggregate across currencies first, followed by risk factors (IR Spot, Inflation, etc.)
+	•	Methodology retains IR stress scenarios targeting 99.7th percentile 5-day losses, with IR Spot continuing to use CREST “combo scenarios”; additional MRM testing confirmed adequate coverage of tail moves relative to full scenario set
+	•	Recalibration of shocks across key IR risk factors (Spot, Inflation, Basis, Cross-currency) to address identified weaknesses, with updates focused on factors with material impact on live portfolios
+	•	Model impact is a ~$14bn reduction in IR stress losses (e.g., ~$91bn → ~$77bn in full QA), primarily driven by removing overly conservative assumptions that ignored cross-currency diversification; aggregation change itself is not the main driver
+	•	Backtesting performance improved materially, with breach levels reduced (~$270mm → ~$19mm, further to ~$10mm), enabling removal of overlays and closure of a validation finding; however, residual calibration concerns remain, leading to a new Severity 3 
+
+
+
+
 MRM approved enhancements to the GSS PB Equity Delta Liquidation Charge model (v30) to introduce composite ADV for European stocks, aggregating trading volume across all venues within the same currency (aligned with existing US composite volume approach)
 	•	Change impacts liquidation cost estimation methodology, where ADV is a key input to scale liquidation costs by position size; netting methodology remains unchanged
 	•	Model impact is a ~$1.7bn reduction in total liquidation charge (from ~$13.5bn), reflecting higher composite liquidity assumptions for European equities
