@@ -1,3 +1,22 @@
+Prime Brokerage Vega Liquidation Issue
+
+Finding
+	•	Vega liquidation charge in SPIRE (v5/v30) is materially understated, driven by use of a flat multiplier (0.05) that does not reflect true liquidation costs
+	•	Methodology limitations:
+	•	Does not capture skew vega liquidation risk
+	•	Uses a flat multiplier, failing to capture vega concentration effects
+	•	Materiality has increased recently, as evidenced in ongoing monitoring
+	•	Issue formally captured under Finding 73163
+
+Remediation
+	•	Interim fix: Multiplier increased from 0.05 → 5 in benchmark, resulting in ~$675mm increase in vega liquidation charges across clients
+	•	Margin updates for impacted clients to follow
+	•	Strategic fix: Migration to UBM (target Q2) to address structural limitations
+	•	Further enhancement: Ongoing recalibration of CREST vega liquidation parameters (linked to FRAC Finding 66343) to ensure appropriate risk capture
+
+
+
+
 CVA implementation remains highly decentralized, creating challenges in ownership, coordination, and timely responses
 	•	A modeling limitation was identified for path-dependent derivatives, where the current approach may understate volatility due to loss of path information
 	•	While the current impact is not material, this represents a methodological gap that could become more relevant if exposure to complex products increases
