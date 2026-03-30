@@ -1,3 +1,11 @@
+MRM approved enhancements to the GSS PB Equity Delta Liquidation Charge model (v30) to introduce composite ADV for European stocks, aggregating trading volume across all venues within the same currency (aligned with existing US composite volume approach)
+	•	Change impacts liquidation cost estimation methodology, where ADV is a key input to scale liquidation costs by position size; netting methodology remains unchanged
+	•	Model impact is a ~$1.7bn reduction in total liquidation charge (from ~$13.5bn), reflecting higher composite liquidity assumptions for European equities
+	•	MRM performed benchmarking of the 60-day ADV averaging window against alternative approaches used across business lines, with current calibration deemed appropriate
+	•	Enhancement aligns with broader UBM migration, with composite ADV methodology and calibration approach expected to be incorporated into the Unified Benchmark Model under separate approval
+
+
+
 CCR: MRM approved an enhancement to the Franchise Interest Rates Benchmark model (GBM, Tier 1) to better align stress loss aggregation with the CREST credit framework
 	•	Aggregation methodology updated to first aggregate across currencies, followed by risk factors (e.g., IR Spot, Inflation)
 	•	Part of broader shortfall benchmark harmonization, resulting in reduced stress losses and improved backtesting performance across client portfolios
