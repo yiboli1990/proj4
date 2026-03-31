@@ -1,3 +1,7 @@
+Adoption of agentic AI is accelerating and introduces heightened risk, as models can take autonomous actions and interact with systems, requiring stronger controls around access, decision-making, and human oversight
+	•	Current governance remains high-level and is being enhanced, with MRM and Risk working to define more prescriptive minimum standards (e.g., evaluation frameworks, monitoring, and traceability) to support safe and scalable deployment
+
+
 Submission of Probability of Default (PD) models to MRM is delayed beyond the initial March 31 deadline to the 3rd–4th week of April, as Credit Risk and Strats finalize key design changes.
 	•	The redesign is driven by low rating accuracy in Large Corporate exposures, evidenced by elevated override rates, with final design decisions expected by end of this week.
 
