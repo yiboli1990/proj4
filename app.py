@@ -1,3 +1,6 @@
+Submission of Probability of Default (PD) models to MRM is delayed beyond the initial March 31 deadline to the 3rd–4th week of April, as Credit Risk and Strats finalize key design changes.
+	•	The redesign is driven by low rating accuracy in Large Corporate exposures, evidenced by elevated override rates, with final design decisions expected by end of this week.
+
 MRM re-approved the IRP CVA Bond Survival model (Tier 1) following additional validation, supporting CDS spread implication for counterparties without liquid CDS markets using bond, loan, formula-based, and fallback approaches
 	•	Validation focused on robustness of the spread construction waterfall, covering proxy CDS, bond/loan automarkers, and formula-based spreads, ensuring appropriate survival curve construction for CVA/FVA calculations
 	•	Three key findings were raised, including (i) enhancements to spread construction methodology, (ii) further investigation of spreads implied from callable bonds and loans, and (iii) inconsistencies in recovery assumptions between bond and loan automarkers
