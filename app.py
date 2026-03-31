@@ -1,3 +1,25 @@
+Market Risk
+	•	MRM reviewed Q4 2025 backtesting results across GS Group and all legal entities subject to standalone capital requirements, including relevant desk-level sub-portfolios
+	•	Review approach: Where breaches occur, MRM assesses potential drivers including risk factor data quality, proxy usage, unmodeled risk factors, and model conservatism at both portfolio and sub-portfolio levels
+	•	Backtesting outcomes: One new backtesting breach was observed for GS Group in Q4 2025
+	•	The total 99% positional P&L breach count over a 250-day window was 3 as of December 2025 month-end
+	•	No poorly modeled risk factors were identified among the breach drivers
+	•	MRM assessment: MRM continues to find the Value-at-Risk (VaR) model fit for purpose at the Group level
+
+⸻
+
+Credit Risk
+	•	MRM reviewed Q3 2025 backtesting results for GS Group; Q4 results have not yet been provided to MRM
+	•	Review approach: For observed breaches, MRM assesses whether exceptions are attributable to model deficiencies
+	•	Backtesting outcomes: MRM is investigating the persistently high frequency of small-magnitude backtesting breaches (less than 5% of average PE) observed in Securities Financing Transactions (SFTs)
+	•	Finding remediation: One medium-severity finding raised in Q2 has been remediated and closed
+	•	During review of backtesting results for inflation-linked products within the interest rate Potential Exposure (PE) model, MRM observed increased long-horizon exceptions during periods of inflation regime transition, indicating limitations in the model’s ability to capture risk in such environments
+	•	The finding was closed on February 25, 2026, following implementation of enhanced monitoring processes
+	•	MRM assessment: Backtesting results remain stable relative to Q2 2025, with additional exceptions in commodities primarily driven by the precious metals rally in 2H25
+	•	Distributional backtesting indicates satisfactory model performance for these products
+	•	Overall, MRM continues to find Potential Exposure (PE) models fit for purpose at the Group level
+
+
 Adoption of agentic AI is accelerating and introduces heightened risk, as models can take autonomous actions and interact with systems, requiring stronger controls around access, decision-making, and human oversight
 	•	Current governance remains high-level and is being enhanced, with MRM and Risk working to define more prescriptive minimum standards (e.g., evaluation frameworks, monitoring, and traceability) to support safe and scalable deployment
 
