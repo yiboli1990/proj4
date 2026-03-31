@@ -1,3 +1,11 @@
+MRM re-approved the IRP CVA Bond Survival model (Tier 1) following additional validation, supporting CDS spread implication for counterparties without liquid CDS markets using bond, loan, formula-based, and fallback approaches
+	•	Validation focused on robustness of the spread construction waterfall, covering proxy CDS, bond/loan automarkers, and formula-based spreads, ensuring appropriate survival curve construction for CVA/FVA calculations
+	•	Three key findings were raised, including (i) enhancements to spread construction methodology, (ii) further investigation of spreads implied from callable bonds and loans, and (iii) inconsistencies in recovery assumptions between bond and loan automarkers
+	•	Model methodology relies on calibration of survival curves from market instruments (bonds/loans), with adjustments (e.g., recovery assumptions) applied to align implied CDS spreads, though limitations in recovery treatment and non-linearity were identified
+	•	Enhanced validation and remediation actions are required, particularly around recovery calibration and spread consistency, to improve robustness of CDS spread inference for illiquid counterparties
+
+
+
 MRM approved enhancements to the Franchise Interest Rates Benchmark Model (FFIRBM, Tier 1) to align stress loss aggregation with CREST, switching the sequence to aggregate across currencies first, followed by risk factors (IR Spot, Inflation, etc.)
 	•	Methodology retains IR stress scenarios targeting 99.7th percentile 5-day losses, with IR Spot continuing to use CREST “combo scenarios”; additional MRM testing confirmed adequate coverage of tail moves relative to full scenario set
 	•	Recalibration of shocks across key IR risk factors (Spot, Inflation, Basis, Cross-currency) to address identified weaknesses, with updates focused on factors with material impact on live portfolios
