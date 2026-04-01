@@ -1,3 +1,7 @@
+The model was developed and validated on an accelerated timeline to support Treasury’s initiative to pledge GS Select exposures to the Fed discount window, enabling recognition of the collateralized nature of the portfolio and avoiding a significant increase in reported high-yield exposures.
+
+
+
 Market Risk
 	•	MRM reviewed Q4 2025 backtesting results across GS Group and all legal entities subject to standalone capital requirements, including relevant desk-level sub-portfolios
 	•	Review approach: Where breaches occur, MRM assesses potential drivers including risk factor data quality, proxy usage, unmodeled risk factors, and model conservatism at both portfolio and sub-portfolio levels
