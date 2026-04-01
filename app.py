@@ -1,3 +1,6 @@
+Monitoring of model performance was established to address this limitation, including comparison of realized and implied volatility, with escalation to the front office or application of capital add-ons where implied volatility is lower than realized
+
+
 The model was developed and validated on an accelerated timeline to support Treasury’s initiative to pledge GS Select exposures to the Fed discount window, enabling recognition of the collateralized nature of the portfolio and avoiding a significant increase in reported high-yield exposures.
 
 
