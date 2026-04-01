@@ -1,3 +1,18 @@
+Market Risk
+	•	MRM reviewed Q4 2025 backtesting results across GS Group and all legal entities subject to standalone capital requirements, including relevant desk-level sub-portfolios
+	•	[Placeholder: Brief comment on Q1 2026 VaR breaches and associated multiplier impact (e.g., increase to 3.5)]
+	•	[Placeholder: Brief reference to SVaR and IRC model performance and any notable observations]
+	•	Review approach: Where breaches occur, MRM assesses potential drivers including risk factor data quality, proxy usage, unmodeled risk factors, and model conservatism at both portfolio and sub-portfolio levels
+	•	[Placeholder: Commentary on treatment of RFI / non-VaR risk factors and rationale for continued exclusion from VaR framework]
+	•	Backtesting outcomes: One new backtesting breach was observed for GS Group in Q4 2025
+	•	The total 99% positional P&L breach count over a 250-day window was 3 as of December 2025 month-end
+	•	MRM did not identify any breaches attributable to poorly modeled risk factors; observed breaches were primarily driven by market movements
+	•	[Placeholder: Reference to any new risk factors (e.g., 2 additions in RFI report) and impact, if any]
+	•	MRM assessment: MRM continues to find the Value-at-Risk (VaR) model fit for purpose at the Group level
+	•	[Placeholder: Optional concluding statement covering SVaR / IRC and overall capital model framework if needed]
+
+
+
 Monitoring of model performance was established to address this limitation, including comparison of realized and implied volatility, with escalation to the front office or application of capital add-ons where implied volatility is lower than realized
 
 
