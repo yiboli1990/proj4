@@ -1,3 +1,10 @@
+MRM assessment: MRM evaluated all backtesting exceptions to assess whether they are attributable to model deficiencies
+	•	No exceptions were identified as being driven by material model deficiencies
+	•	Overall model performance remains stable relative to Q2 2025, with additional exceptions in commodities primarily driven by the precious metals rally in 2H25
+	•	Distributional backtesting indicates satisfactory model performance
+	•	MRM continues to find Potential Exposure (PE) models fit for purpose at the Group level
+
+
 Market Risk
 	•	MRM reviewed Q4 2025 backtesting results across GS Group and all legal entities subject to standalone capital requirements, including relevant desk-level sub-portfolios
 	•	[Placeholder: Brief comment on Q1 2026 VaR breaches and associated multiplier impact (e.g., increase to 3.5)]
