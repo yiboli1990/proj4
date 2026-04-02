@@ -1,3 +1,7 @@
+Consistent with Q3 2025 results, Securities Financing Transactions (SFTs) continue to exhibit a higher number of small-magnitude exceptions relative to other product groups
+
+
+
 MRM assessment: MRM evaluated all backtesting exceptions to assess whether they are attributable to model deficiencies
 	•	No exceptions were identified as being driven by material model deficiencies
 	•	Overall model performance remains stable relative to Q2 2025, with additional exceptions in commodities primarily driven by the precious metals rally in 2H25
