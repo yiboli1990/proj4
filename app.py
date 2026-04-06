@@ -1,5 +1,8 @@
 Consistent with Q3 2025 results, Securities Financing Transactions (SFTs) continue to exhibit a higher number of small-magnitude exceptions relative to other product groups
 
+Engineering provided an update on the GS AI Platform and GS AI Assistant, highlighting the enablement of agent-to-agent (A2A) interactions for applications on the platform, supported by a centralized agent registry
+
+
 
 
 MRM assessment: MRM evaluated all backtesting exceptions to assess whether they are attributable to model deficiencies
