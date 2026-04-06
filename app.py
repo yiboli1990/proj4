@@ -1,3 +1,9 @@
+ValDoc Assistant, a generative AI application developed by MRM, has been released to support drafting initial versions of validation documents, improving efficiency in document preparation.
+	•	The assistant is intended for use as a drafting aid, with MRM validators retaining full responsibility for the quality, accuracy, and completeness of the final documentatio
+
+
+
+
 Consistent with Q3 2025 results, Securities Financing Transactions (SFTs) continue to exhibit a higher number of small-magnitude exceptions relative to other product groups
 
 Engineering provided an update on the GS AI Platform and GS AI Assistant, highlighting the enablement of agent-to-agent (A2A) interactions for applications on the platform, supported by a centralized agent registry
