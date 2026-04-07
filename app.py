@@ -1,3 +1,28 @@
+Here’s a refined version of your Collateralized Lending section, keeping the structure, improving flow, and ensuring consistency with your style:
+
+⸻
+
+Collateralized Lending
+	•	Continued focus on development and validation work supporting the collateralized lending business, including approvals of:
+
+** A new Tier 1 model estimating through-the-cycle loss given default (LGD) for use in facility-level rating (FLR) calculations for GS Select performing loans
+*** Supports Treasury’s initiative to pledge GS Select exposures to the Federal Reserve discount window, enabling recognition of the collateralized nature of the portfolio and avoiding an increase in reported high-yield exposures
+
+** Enhancements to the Tier 1 FLR and tail risk models for Residential Mortgage to cover hybrid fix-and-flip and lot loan transactions, extending coverage to asset classes previously handled through fallback methodologies and improving accuracy
+
+** Enhancements to the Tier 1 Residential Mortgage tail risk model to incorporate interest rate swaps into collateral valuation, leveraging more comprehensive collateral-level data and improving tail risk measurement
+
+** Enhancements to the Tier 1 transport tail risk model, incorporating new data for stress calibration, updates to upstream pricing including an index-based approach for lease probability of default, and improved differentiation between performing and non-performing leases, addressing prior validation findings
+
+** Adoption of Merton jump diffusion and conditional probability-of-default mapping in Tier 1 FLR models for margin loans and private equity facilities, improving capture of collateral price dynamics
+
+⸻
+
+If you want, I can next:
+	•	Tighten this into a short Executive Summary version
+	•	Or align wording with your Q4 collateral section so the narrative is consistent across quarters (this is usually important for FRB readers)
+
+
 Here’s a refined version of your Q1 Artificial Intelligence section, keeping your structure, neutral tone, and plain language, while tightening phrasing and improving consistency:
 
 ⸻
