@@ -1,3 +1,35 @@
+Here is a refined CRO-style AI update, making it clearer, more concise, and business-focused, while keeping the structure.
+
+⸻
+
+Top of Mind
+	•	ValDoc Assistant, a generative AI application developed by MRM, has been rolled out across MRM to support drafting of validation documents.
+	•	The tool generates fully formatted first drafts in a single step, reducing drafting time for simpler models from several days to a few hours.
+	•	MRM validators remain fully accountable for the underlying analysis and final document quality.
+
+⸻
+
+AI Risk and Controls Committee (AIRCC)
+	•	Engineering provided an update on the GS AI Platform and GS AI Assistant, including the enablement of agent-to-agent (A2A) interactions, supported by a centralized agent registry.
+
+⸻
+
+Validation Activities
+	•	MRM approved Commentary AI (Risk, Tier 2), a generative AI model used to draft risk factor narratives for financial institution credit reviews.
+	•	The model operates as an analyst-assist tool with mandatory human-in-the-loop review prior to use in final outputs.
+	•	A high-severity validation finding in the initial version, related to generation of unsupported statements, has been remediated prior to approval through prompt enhancements and implementation of a critic control to detect and flag unsupported content for analyst review.
+
+⸻
+
+Internal Audit Updates
+	•	Internal Audit concluded an “Effective” rating for the audit of the Firmwide AI Standard and its enforcement mechanisms, confirming that governance and processes are operating as designed.
+
+⸻
+
+If you want, I can also tighten this further into ultra-compressed CRO deck format (≈20–30% shorter) or align tone exactly with your non-AI CRO updates.
+
+
+
 Here’s a refined version of your Risk section, keeping it structured, neutral, and consistent with earlier sections:
 
 ⸻
