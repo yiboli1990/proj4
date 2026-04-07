@@ -1,3 +1,8 @@
+*** Enhancements to the interest rate franchise benchmark model to align stress loss aggregation with the CREST framework, as part of ongoing harmonization of shortfall benchmark models, resulting in reduced stress losses and improved backtesting performance across client portfolios
+*** Enhancements to the Prime Brokerage (PB) equity margin model to incorporate composite average daily volume (ADV) for European stocks in the Delta liquidation charge, aggregating trading volume across venues within the same currency and aligning with the US approach
+*** Enhancements to the US natural gas Delta liquidation charge within the commodities franchise benchmark model to allow netting of offsetting exposures, resolving a validation finding
+
+
 Here’s a cleaned and aligned version of your Global Banking & Markets section, keeping the structure and tone consistent with prior sections:
 
 ⸻
