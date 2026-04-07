@@ -1,3 +1,29 @@
+Here’s a cleaned and aligned version of your Global Banking & Markets section, keeping the structure and tone consistent with prior sections:
+
+⸻
+
+Global Banking & Markets
+	•	Validation activity during the period primarily related to:
+
+** Risk management enhancements, including approvals of:
+*** Incorporation of control variates into the Tier 1 pricing model for multi-asset autocallables, aligning model outputs more closely with market prices, reducing Monte Carlo variance, and improving stability of risk measures
+*** A new Tier 1 model for estimating vega risk in commodity products, using an improved numerical approach for greater accuracy and deployed on Griffin infrastructure for faster calculation compared to the previous CPNL platform
+
+** Valuation adjustments, including approval of:
+*** Enhancements to the Tier 1 model used for survival curve construction for Credit Valuation Adjustment (CVA), enabling implied CDS spreads for counterparties without liquid CDS markets
+
+** CCR model enhancements, including approvals of:
+
+⸻
+
+I left the last section open so you can continue adding bullets under CCR model enhancements.
+
+If you want next step, I can:
+	•	Help draft the CCR bullets in the same style
+	•	Or tighten this further for Executive Summary consistency
+	•	Or ensure terminology matches Q4 (e.g., “risk measures”, “faster calculation”, etc.)
+
+
 Here’s a refined version of your Collateralized Lending section, keeping the structure, improving flow, and ensuring consistency with your style:
 
 ⸻
