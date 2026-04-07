@@ -1,3 +1,30 @@
+Here’s a refined version of your Risk section, keeping it structured, neutral, and consistent with earlier sections:
+
+⸻
+
+Risk
+	•	Liquidity risk model enhancements, including approvals of:
+** Enhancements to the Prime Tail Liquidity Loss (PTL) model (Risk, Tier 1), resulting in a material improvement in the firm’s PTL ratio
+*** The PTL ratio measures mitigants, such as overnight debits, relative to short-term funding exposure under a post-modeled liquidity outflow (MLO) tail risk scenario, and is subject to FRAC and BRC limits
+*** Enhancements include incorporation of previously omitted synthetic term commitments and additional margin-related mitigants, such as inflows from excess margin for certain clients
+
+** Enhancements to the Modeled Liquidity Outflow (MLO) models (Risk, Tier 1) to capture liquidity impacts from digital assets and SIMM initial margin (IM) collateral
+*** Enhancements reduce reliance on methodological overlays in MLO to zero, remediating two validation findings
+*** Part of ongoing efforts to systematically capture liquidity impacts and improve model robustness
+	•	Fundamental Review of the Trading Book (FRTB): Continued focus on validation work related to new FRTB requirements, including approval of an enhancement to the Tier 1 FRTB IMA 10-Day Returns model to incorporate additional credit bond and mortgage risk factors
+** The model constructs 10-day returns using 1-day historical return time series for risk factors
+	•	GSBE Internal Capital Adequacy Assessment Process (ICAAP) / Internal Liquidity Adequacy Assessment Process (ILAAP): Validation completed ahead of mid-March ECB submissions, covering 57 models and 2 qualitative approaches (QAs) for ICAAP and 22 models and 11 QAs for ILAAP
+** Notable work included new methodologies for interest rate and credit spread risk in the banking book, enhancements to VaR stress calibration, and an overlay reflecting expected FRTB-SA implementation, along with related updates also applied in CCAR
+
+⸻
+
+If you want, we can next:
+	•	Convert this into a short Executive Summary version
+	•	Or align phrasing tightly with your Q4 Risk section for consistency across reporting cycles
+	•	Or do a full-document consistency pass before finalizing the deck
+
+
+
 *** Enhancements to the interest rate franchise benchmark model to align stress loss aggregation with the CREST framework, as part of ongoing harmonization of shortfall benchmark models, resulting in reduced stress losses and improved backtesting performance across client portfolios
 *** Enhancements to the Prime Brokerage (PB) equity margin model to incorporate composite average daily volume (ADV) for European stocks in the Delta liquidation charge, aggregating trading volume across venues within the same currency and aligning with the US approach
 *** Enhancements to the US natural gas Delta liquidation charge within the commodities franchise benchmark model to allow netting of offsetting exposures, resolving a validation finding
