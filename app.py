@@ -1,3 +1,36 @@
+Here’s a refined version of your Q1 Artificial Intelligence section, keeping your structure, neutral tone, and plain language, while tightening phrasing and improving consistency:
+
+⸻
+
+Artificial Intelligence
+	•	Continued growth in the development of AI models, including approvals of:
+
+** Enhancements to the Tier 1 Engineering Guardrail model for large language models (LLMs), used as a monitoring framework for AI usage across the GS AI Platform
+*** Enhancements include expansion of GS proprietary datasets for prompt refinement and testing, incorporating human-tagged GS AI Assistant user prompts, and an upgrade to Gemini 2.5 Flash with refined system prompts
+
+** A new Tier 1 Corporate Treasury generative AI model (Payment Settlements AI) used to automate matching of incoming payments
+*** Three high-severity findings related to performance, evaluation metrics, and testing were remediated through scope restrictions, enhanced performance monitoring, and expanded test coverage, resulting in improved performance and oversight
+*** The model will be rolled out in phases, initially operating in parallel with the current review process and targeting a reduction in manual review of cash receipts from 13% to 2%
+
+** A new Tier 2 GBM Public model (Market Simulator (Albert)) used to predict distributions of equity market variables and generate optimized portfolio weights subject to constraints
+*** The model represents the first use of a transformer-based architecture within the equity options and futures trading business
+
+** Enhancements to the Tier 2 Engineering model (AI Bing Search), used to provide web search grounding for queries within GS AI Assistant for GPT models
+*** Validation findings related to inconsistent activation of web search and over-reliance on individual sources, leading to increased hallucinations
+*** Engineering and Model Risk communicated feedback to Microsoft, which implemented updates to Azure infrastructure and model logic alongside GPT 5.2
+*** Model Risk analysis indicates improved consistency in web search usage, better prioritization of authoritative sources, and more conservative response behavior, resulting in improved answer quality and reduced hallucinations
+
+** Lower-tier generative AI models supporting tasks such as data extraction, search enhancement, and information retrieval, developed primarily to improve productivity
+
+⸻
+
+If you want next step, I can:
+	•	Turn this into a short Executive Summary version
+	•	Or tighten further for Board-level (very compressed bullets)
+	•	Or align wording with your Q4/Q3 AI sections for consistency across quarters
+
+
+
 ValDoc Assistant, a generative AI application developed by MRM, has been released to support drafting initial versions of validation documents, improving efficiency in document preparation.
 	•	The assistant is intended for use as a drafting aid, with MRM validators retaining full responsibility for the quality, accuracy, and completeness of the final documentatio
 
