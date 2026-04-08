@@ -1,3 +1,7 @@
+Approval of a new Corporate Treasury generative AI model (Payment Settlements AI) to automate matching of incoming payments, with phased rollout alongside the current review process and improved performance following remediation of validation findings
+
+
+
 Engineering will follow up on governance and controls for Model Context Protocol (MCP) servers and other recent GS AI Assistant enhancements, as well as provide a future update on the effectiveness of implemented AI guardrails
 
 
