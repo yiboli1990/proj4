@@ -1,3 +1,28 @@
+Here’s a refined version of your Executive Summary – Validation activity over the quarter, keeping “There is…”, improving flow, and maintaining your style:
+
+⸻
+
+Validation activity over the quarter:
+
+** There is continued growth in Artificial Intelligence (AI) models and use of new techniques, including approvals of:
+*** Enhancements to the Tier 1 generative AI model designed as a monitoring framework for the GS AI Platform, incorporating expanded GS proprietary datasets for prompt refinement and testing using human-tagged GS AI Assistant user prompts, and an upgraded large language model (LLM)
+*** A new Tier 1 Corporate Treasury generative AI model to automate matching of incoming payments, with phased rollout alongside the current review process and improved performance following remediation of validation findings
+*** A new Tier 2 Global Banking & Markets (GBM) Public model used to predict distributions of equity market variables and generate optimized portfolio weights, representing the first use of a transformer-based architecture within the equity options and futures trading business
+
+** There is continued focus on validation work supporting the Collateralized Lending business, including approvals of:
+*** A new Tier 1 model estimating through-the-cycle loss given default (LGD) for use in facility-level rating (FLR) calculations for GS Select performing loans, enabling recognition of the collateralized nature of the portfolio and supporting Treasury’s initiative to pledge GS Select exposures to the Federal Reserve discount window
+*** Enhancements to Tier 1 Risk Engineering-owned models used to calculate facility-level ratings (FLR) and tail risk measures, extending coverage to asset classes currently handled through fallback methodologies, improving accuracy and addressing validation findings
+
+** There is continued focus on validation work related to liquidity risk model enhancements, including approvals of:
+*** Enhancements to the Tier 1 modeled liquidity outflow (MLO) models to capture liquidity impacts from digital assets and SIMM initial margin (IM) collateral, as part of ongoing efforts to systematically capture liquidity overlays and improve model robustness
+*** Enhancements to the Tier 1 Prime Tail Liquidity Loss (PTL) model, resulting in an improvement in the firm’s PTL ratio
+
+⸻
+
+If you want, I can next:
+	•	Tighten this further into a CRO / Board-level ultra-short version
+	•	Or align wording exactly with your Q4 Executive Summary for consistency across quarters
+
 Approval of a new Corporate Treasury generative AI model (Payment Settlements AI) to automate matching of incoming payments, with phased rollout alongside the current review process and improved performance following remediation of validation findings
 
 
