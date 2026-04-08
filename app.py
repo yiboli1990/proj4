@@ -1,3 +1,6 @@
+Engineering will follow up on governance and controls for Model Context Protocol (MCP) servers and other recent GS AI Assistant enhancements, as well as provide a future update on the effectiveness of implemented AI guardrails
+
+
 The model generates draft commentary on financial performance and risk drivers, with no impact on internal credit ratings (ICR), which remain fully determined by Credit Risk reviewers.
 
 
