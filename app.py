@@ -1,3 +1,6 @@
+The model generates draft commentary on financial performance and risk drivers, with no impact on internal credit ratings (ICR), which remain fully determined by Credit Risk reviewers.
+
+
 The application generates structured first drafts of validation documents based on user inputs, including template selection, model documentation, and MRM commentary, supporting more efficient document preparation.
 
 
