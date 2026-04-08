@@ -1,3 +1,6 @@
+enhancements to the Tier 1 modeled liquidity outflow (MLO) models to capture liquidity impacts from digital assets and SIMM initial margin (IM) collateral as part of ongoing efforts to improve model coverage and reduce reliance on overlays, and enhancements to the Tier 1 Prime Tail Liquidity Loss (PTL) model, resulting in an improvement in the firm’s PTL ratio
+
+
 Here’s a refined version of your Executive Summary – Validation activity over the quarter, keeping “There is…”, improving flow, and maintaining your style:
 
 ⸻
