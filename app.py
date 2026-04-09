@@ -1,3 +1,11 @@
+Migration of the Equity Trading Cost Model (TCM) is underway to replace the legacy model, with an MRM finding tracking delays and a potential FRAC breach on May 28
+	•	Migration is currently blocked by key technical gaps including lack of support for non-full day orders, futures requiring a separate model, and missing EMEA ETF coverage
+	•	Non-full day order support remains under discussion with GSET to enhance API capabilities across all order times (Asia EDHF impacted)
+	•	Futures TCM API is in development (target Q2/Q3), with users required to choose between legacy and new models and justify selection to MRM; most models currently have no committed ETA
+	•	EMEA ETF support and broader migration remain delayed due to market conditions and capacity constraints, with limited ETAs (EMEA end-April, others pending) and several downstream models still without timelines
+
+
+
 There is continued focus on Counterparty Credit Risk (CCR) model enhancements, including approvals of enhancements to the Tier 1 interest rate franchise benchmark model to align stress loss aggregation with the CREST framework as part of ongoing harmonization efforts, enhancements to the Tier 1 Prime Brokerage (PB) equity margin model to incorporate composite average daily volume (ADV) for European stocks in the Delta liquidation charge, and enhancements to the Tier 1 commodities franchise benchmark model to allow netting of offsetting exposures in the US natural gas Delta liquidation charge, resolving a validation finding
 
 enhancements to the Tier 1 modeled liquidity outflow (MLO) models to capture liquidity impacts from digital assets and SIMM initial margin (IM) collateral as part of ongoing efforts to improve model coverage and reduce reliance on overlays, and enhancements to the Tier 1 Prime Tail Liquidity Loss (PTL) model, resulting in an improvement in the firm’s PTL ratio
