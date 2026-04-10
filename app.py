@@ -1,3 +1,6 @@
+Enhancements to Tier 1 Risk Engineering-owned models used to calculate facility-level ratings (FLR) and tail risk measures, extending coverage to asset classes currently handled through fallback methodologies, incorporating enhanced data and methodology improvements, and improving accuracy while addressing validation findings
+
+
 Migration of the Equity Trading Cost Model (TCM) is underway to replace the legacy model, with an MRM finding tracking delays and a potential FRAC breach on May 28
 	•	Migration is currently blocked by key technical gaps including lack of support for non-full day orders, futures requiring a separate model, and missing EMEA ETF coverage
 	•	Non-full day order support remains under discussion with GSET to enhance API capabilities across all order times (Asia EDHF impacted)
