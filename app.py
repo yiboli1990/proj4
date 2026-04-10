@@ -1,3 +1,6 @@
+The enhancement addressed repo variation margin not being sourced or stressed, resolving the associated validation finding
+
+
 Fundamental Review of the Trading Book (FRTB), including ongoing validation work supporting incremental requirements, with recent approval of enhancements to the Tier 1 model used to construct 10-day returns from 1-day historical return time series to incorporate additional credit bond and mortgage risk factors
 
 
