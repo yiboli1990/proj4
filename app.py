@@ -1,3 +1,6 @@
+incorporating enhanced data inputs for collateral valuation and stress calibration, and methodology enhancements to upstream pricing and collateral price dynamics, resulting in improved accuracy and addressing validation findings
+
+
 extending coverage to asset classes currently handled through fallback methodologies, incorporating enhanced collateral-level data, updates to valuation and stress calibration approaches, and improved modeling techniques such as interest rate swap integration and refined probability-of-default methodologies, resulting in improved risk measurement accuracy and addressing validation findings
 
 
