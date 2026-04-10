@@ -1,3 +1,7 @@
+There is continued focus on development and validation work supporting the collateralized lending business, with recent approvals extending coverage of FLR and tail risk models to reduce reliance on fallback methodologies, and enhancing data inputs and methodologies to improve model accuracy
+
+
+
 incorporating enhanced data inputs for collateral valuation and stress calibration, and methodology enhancements to upstream pricing and collateral price dynamics, resulting in improved accuracy and addressing validation findings
 
 
