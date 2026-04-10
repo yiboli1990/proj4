@@ -1,3 +1,6 @@
+extending coverage to asset classes currently handled through fallback methodologies, incorporating enhanced collateral-level data, updates to valuation and stress calibration approaches, and improved modeling techniques such as interest rate swap integration and refined probability-of-default methodologies, resulting in improved risk measurement accuracy and addressing validation findings
+
+
 extending coverage to asset classes currently handled through fallback methodologies, incorporating enhanced data inputs and methodology updates, including improved collateral valuation and modeling approaches, and improving accuracy while addressing validation findings
 
 Enhancements to Tier 1 Risk Engineering-owned models used to calculate facility-level ratings (FLR) and tail risk measures, extending coverage to asset classes currently handled through fallback methodologies, incorporating enhanced data and methodology improvements, and improving accuracy while addressing validation findings
