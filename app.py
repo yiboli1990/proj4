@@ -1,3 +1,11 @@
+Approval of two Tier 2 Engineering models (M365 Copilot Web Grounding and AI Bing Search) that enable web search grounding for queries within M365 Copilot and GS AI Assistant for GPT models, respectively
+*** Following approval, enhancements to AI Bing Search addressed validation findings related to (1) inconsistent activation of web search for certain queries and (2) over-reliance on individual search results, both contributing to increased hallucinations
+*** Remediation included Engineering and Model Risk communicating feedback to Microsoft, which implemented updates to Azure infrastructure and model logic alongside GPT 5.2
+*** Model Risk analysis indicates the updated version maintains consistent web search activation, better prioritizes authoritative sources, and adopts more conservative response behavior, resulting in improved answer quality and reduced hallucinations
+
+
+
+
 Two Tier 2 Engineering models (M365 Copilot Web Grounding and AI Bing Search) that enable web search grounding for queries within M365 Copilot and GS AI Assistant for GPT models, respectively
 *** Enhancements to AI Bing Search addressing validation findings related to (1) inconsistent activation of web search for certain queries and (2) over-reliance on individual search results, both contributing to increased hallucinations
 *** Following validation, Engineering and Model Risk communicated feedback to Microsoft, which implemented updates to Azure infrastructure and model logic alongside GPT 5.2
