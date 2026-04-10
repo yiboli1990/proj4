@@ -1,3 +1,6 @@
+enabling recognition of the portfolio’s collateralized nature and more accurately reflecting the risk profile of the exposures.
+
+
 There is continued focus on development and validation work supporting the collateralized lending business, with recent approvals extending coverage of FLR and tail risk models to reduce reliance on fallback methodologies, and enhancing data inputs and methodologies to improve model accuracy
 
 
