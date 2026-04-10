@@ -1,6 +1,10 @@
 Fundamental Review of the Trading Book (FRTB), including ongoing validation work supporting incremental requirements, with recent approval of enhancements to the Tier 1 model used to construct 10-day returns from 1-day historical return time series to incorporate additional credit bond and mortgage risk factors
 
 
+
+Fundamental Review of the Trading Book (FRTB), including ongoing validation work supporting incremental requirements, with recent approval of enhancements to the Tier 1 model used to construct 10-day returns from 1-day historical return time series to incorporate additional credit bond and mortgage risk factors
+
+
 Approval of two Tier 2 Engineering models (M365 Copilot Web Grounding and AI Bing Search) that enable web search grounding for queries within M365 Copilot and GS AI Assistant for GPT models, respectively
 *** Following approval, enhancements to AI Bing Search addressed validation findings related to (1) inconsistent activation of web search for certain queries and (2) over-reliance on individual search results, both contributing to increased hallucinations
 *** Remediation included Engineering and Model Risk communicating feedback to Microsoft, which implemented updates to Azure infrastructure and model logic alongside GPT 5.2
