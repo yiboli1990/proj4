@@ -1,3 +1,12 @@
+MRM approved enhancements to the mortgage agency feeder model to address divergence between modeled and observed prepayments, which had resulted in elevated interest rate sensitivity (IRDV01) for the collateralized mortgage obligations (CMO) desk.
+	•	The update improves alignment with observed prepayment behavior, resulting in a material shift in IRDV01.
+	•	A validation finding has been raised for a more robust, strategic remediation, with work underway to address underlying model limitations.
+
+
+
+
+
+
 The enhancement addressed repo variation margin not being sourced or stressed, resolving the associated validation finding
 
 
