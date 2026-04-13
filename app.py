@@ -1,3 +1,17 @@
+Hi Miao,
+
+Following our discussion with Bill on the FRAC deck, we wanted to better understand the ASL limit breach that was attributed to data inconsistency between first-line projections and Risk models.
+
+Could you help clarify a few points:
+	•	What was the exact root cause (e.g., collateral missing or differences in data inputs between models)?
+	•	How long did the issue persist and which limits / portfolios were impacted?
+	•	What remediation has been implemented (one-off fix vs broader solution)?
+	•	Have any controls or monitoring been introduced to ensure consistency going forward?
+
+We are looking to reflect this accurately in the FRAC materials, so any additional context would be helpful.
+
+
+
 What actually happened (underlying issue)
 	•	Limit breach observed
 	•	A risk limit (likely FLR / tail risk / IG-related) showed a breach
