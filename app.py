@@ -1,3 +1,6 @@
+incorporating expanded GS proprietary datasets for system prompt refinement and testing, including human-tagged GS AI Assistant user prompts
+
+
 Enhancements include a tactical recalibration of prepayment assumptions using empirical data, incorporating cohort-level multipliers to better capture issuer, vintage, and coupon effects.
 
 
