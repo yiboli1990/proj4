@@ -1,3 +1,21 @@
+What actually happened (underlying issue)
+	•	Limit breach observed
+	•	A risk limit (likely FLR / tail risk / IG-related) showed a breach
+	•	Root cause was NOT true risk increase
+	•	Driven by data inconsistency between models, not underlying exposure
+	•	Specific failure mechanism
+	•	Trade initially assessed using 1st line projections (with collateral included)
+	•	Shortly after, calculation switched to Risk model
+	•	Collateral was missing / not captured properly
+	•	Model either:
+	•	Produced inflated risk, or
+	•	Triggered a conservative fallback/backstop
+	•	Result
+	•	Artificial limit breach for a period (~weeks)
+	•	Inconsistent outputs across systems
+
+
+
 incorporating expanded GS proprietary datasets for system prompt refinement and testing, including human-tagged GS AI Assistant user prompts
 
 
