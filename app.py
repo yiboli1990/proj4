@@ -1,3 +1,7 @@
+Enhancements to the Tier 1 FLR models to remove prior conservative fallback treatments, increase use of bespoke modeling, and improve measurement accuracy, reducing reliance on fallback methodologies and the classification of exposures as high-yield, in response to a recent breach of the non-investment grade (non-IG) threshold
+
+
+
 A The issue was observed in the context of recent market volatility, which contributed to increased risk usage for the business
 	•	A limit breach occurred under the Interest Rate +50bps stress scenario, with a temporary limit increase provided in March to support business activity
 	•	Elevated risk was driven both by market conditions and model underperformance, where the model underestimated prepayments relative to observed levels
