@@ -1,3 +1,39 @@
+E] Market Risk Limits (Stress Scenarios only; excl. VaR)
+	•	Limits applied across hierarchy (Board / Management / Department) and portfolio cuts (firmwide, desk)
+
+GS Group
+	•	Limits: 12 (Board) / 53 (Mgmt) / ~2.0k (Dept)
+	•	Alerts: 0 (Board) / 5 (Mgmt) / ~1.0k (Dept)
+
+GS Bank
+	•	Limits: 10 (Board) / 40 (Mgmt) / 166 (Dept)
+	•	Alerts: 0 (Board/Mgmt) / 316 (Dept)
+
+Other LEs (Goldman Sachs International / Goldman Sachs International Bank / Goldman Sachs Bank Europe etc.)
+	•	Limits: 15 (Board) / 108 (Mgmt) / 126 (Dept)
+	•	Alerts: 0 (Board/Mgmt) / 182 (Dept)
+
+Board-level scenario examples
+	•	GMS severe adverse
+	•	IR ±50bps (IR TopSheet)
+	•	EQ -20% (EQ TopSheet)
+	•	Credit spread widening (scaled; post-COVID methodology update)
+	•	FX USD ±5%
+
+Framework / recent changes
+	•	2024 uplift introduced new scenarios + limits (MRIA-driven; closed 2025)
+
+Recent development
+	•	No new models driven by recent volatility
+	•	US Volex Gross Vega: calibration update (data extended to Oct-2025 vs Q1-2023)
+	•	Impact: ~+4% ( ~$775M → ~$805M )
+	•	Under validation
+
+
+
+
+
+
 Hi Miao,
 
 Following our discussion with Bill on the FRAC deck, we wanted to better understand the ASL limit breach that was attributed to data inconsistency between first-line projections and Risk models.
