@@ -1,4 +1,10 @@
-A new Tier 2 Global Banking & Markets (GBM) Public model used to simulate key equity volatility surface parameters and generate optimized portfolio weights for rebalancing, representing the first use of a transformer-based model within the equity options and futures trading business
+A The issue was observed in the context of recent market volatility, which contributed to increased risk usage for the business
+	•	A limit breach occurred under the Interest Rate +50bps stress scenario, with a temporary limit increase provided in March to support business activity
+	•	Elevated risk was driven both by market conditions and model underperformance, where the model underestimated prepayments relative to observed levels
+	•	Lower modeled prepayments implied longer effective durations, resulting in higher IRDV01 and increased stress losses
+
+
+new Tier 2 Global Banking & Markets (GBM) Public model used to simulate key equity volatility surface parameters and generate optimized portfolio weights for rebalancing, representing the first use of a transformer-based model within the equity options and futures trading business
 
 
 E] Enhancements to the Tier 1 FLR models to better handle data errors and reduce reliance on fallback methodologies, which had resulted in an increased classification of exposures as high-yield
