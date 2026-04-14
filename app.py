@@ -1,3 +1,7 @@
+Enhancements to the Tier 1 FLR models to expand bespoke modeling coverage and improve the accuracy of existing models, reducing reliance on fallback methodologies and improving rating accuracy
+
+
+
 Enhancements to the Tier 1 FLR models to remove prior conservative fallback treatments, increase use of bespoke modeling, and improve measurement accuracy, reducing reliance on fallback methodologies and the classification of exposures as high-yield, in response to a recent breach of the non-investment grade (non-IG) threshold
 
 
