@@ -1,4 +1,10 @@
-E] Market Risk Limits (Stress Scenarios only; excl. VaR)
+E] Enhancements to the Tier 1 FLR models to better handle data errors and reduce reliance on fallback methodologies, which had resulted in an increased classification of exposures as high-yield
+*** Enhancements were driven by an observed breach of the non-investment grade (non-IG) threshold
+
+
+
+
+Market Risk Limits (Stress Scenarios only; excl. VaR)
 	•	Limits applied across hierarchy (Board / Management / Department) and portfolio cuts (firmwide, desk)
 
 GS Group
