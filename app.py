@@ -1,3 +1,6 @@
+A new Tier 2 Global Banking & Markets (GBM) Public model used to simulate key equity volatility surface parameters and generate optimized portfolio weights for rebalancing, representing the first use of a transformer-based model within the equity options and futures trading business
+
+
 E] Enhancements to the Tier 1 FLR models to better handle data errors and reduce reliance on fallback methodologies, which had resulted in an increased classification of exposures as high-yield
 *** Enhancements were driven by an observed breach of the non-investment grade (non-IG) threshold
 
