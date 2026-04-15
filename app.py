@@ -1,4 +1,96 @@
 
+
+Here is a fully refined CRO-style version — cleaned for clarity, grammar, flow, and consistent tone, while keeping it concise and executive-ready:
+
+⸻
+
+Top of Mind
+	•	MRM is reviewing a mortgage pool pricing model (GBM Public, Tier 1) issue related to the treatment of the price floor, which may understate risk under stress due to inconsistent handling of duration and option-adjusted spread (OAS) shocks between pools and to-be-announced (TBA) securities.
+	•	The issue arises from inconsistent treatment of payup in stress scenarios, resulting in misalignment between pool and TBA pricing and understated risk, with potential impacts across stress scenarios and VaR.
+	•	Market Risk and Strats identified the issue during recent model enhancements; preliminary analysis indicates potential increases in risk measures and limit pressures post-fix.
+	•	MRM will review the proposed fix once finalized, with updated impact assessments currently being refreshed based on latest market conditions.
+
+⸻
+
+Validation Activities
+	•	MRM approved changes to the Mortgage Agency Feeder model (GBM Public, Tier 1) to address divergence between modeled and observed prepayments, which had led to elevated interest rate sensitivity (IRDV01) for the collateralized mortgage obligations (CMO) desk.
+	•	The issue was observed amid recent market volatility, with a limit breach under the IR +50bps stress scenario, for which a temporary limit increase was provided in March.
+	•	Enhancements include tactical recalibration of prepayment assumptions using empirical data, incorporating cohort-level multipliers to better capture issuer, vintage, and coupon effects.
+	•	MRM raised a medium-severity finding to track strategic remediation addressing underlying model limitations.
+	•	CCR: MRM approved enhancements to the Franchise Interest Rates Benchmark model (GBM Public, Tier 1) to incorporate variation margin for repurchase agreements (repos) into the shortfall calculation.
+	•	The enhancement addressed repo variation margin not being sourced or stressed, resolving the associated validation finding.
+	•	Domestic Liquidity Sub Group (DoLSub): Validation of Phase 1 model changes is on track for completion by end of week, covering 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs).
+	•	During validation, additional enhancements to trapped liquidity calculations were submitted and approved, and the validation scope was expanded to include the 1-day Modeled Liquidity Outflow (MLO) calculation following MRM feedback.
+	•	Medium-severity findings focus on methodology enhancements, including appropriate use of DoLSub-specific input data as it becomes available.
+
+⸻
+
+CCAR Exam
+	•	The CCAR exam kickoff was held this week, with regulators indicating focus on scenario design assumptions, including private equity beta, and available-for-sale (AFS) loss modeling, with dedicated follow-up meetings scheduled.
+	•	For GBM Trading Net Interest Income (NII) modeling, developers are targeting a May month-end submission of model enhancements to separately project interest income/expense and non-interest revenue, with MRM validation planned for August.
+
+⸻
+
+What improved
+	•	Fixed typos and grammar (e.g., “modent cyntess” → “inconsistent treatment of payup”)
+	•	Tightened wording to CRO-level clarity
+	•	Standardized structure and tone across sections
+	•	Reduced redundancy while preserving key risk messages
+
+⸻
+
+If you want, I can also compress this into a one-page CRO deck version (~30% shorter) or add “Top of Mind” headlines per bullet (Bill sometimes prefers that style).
+
+
+
+
+
+
+Here is a fully refined CRO-style version — cleaned for clarity, grammar, flow, and consiste
+
+
+
+nt tone, while keeping it concise and executive-ready:
+
+⸻
+
+Top of Mind
+	•	MRM is reviewing a mortgage pool pricing model (GBM Public, Tier 1) issue related to the treatment of the price floor, which may understate risk under stress due to inconsistent handling of duration and option-adjusted spread (OAS) shocks between pools and to-be-announced (TBA) securities.
+	•	The issue arises from inconsistent treatment of payup in stress scenarios, resulting in misalignment between pool and TBA pricing and understated risk, with potential impacts across stress scenarios and VaR.
+	•	Market Risk and Strats identified the issue during recent model enhancements; preliminary analysis indicates potential increases in risk measures and limit pressures post-fix.
+	•	MRM will review the proposed fix once finalized, with updated impact assessments currently being refreshed based on latest market conditions.
+
+⸻
+
+Validation Activities
+	•	MRM approved changes to the Mortgage Agency Feeder model (GBM Public, Tier 1) to address divergence between modeled and observed prepayments, which had led to elevated interest rate sensitivity (IRDV01) for the collateralized mortgage obligations (CMO) desk.
+	•	The issue was observed amid recent market volatility, with a limit breach under the IR +50bps stress scenario, for which a temporary limit increase was provided in March.
+	•	Enhancements include tactical recalibration of prepayment assumptions using empirical data, incorporating cohort-level multipliers to better capture issuer, vintage, and coupon effects.
+	•	MRM raised a medium-severity finding to track strategic remediation addressing underlying model limitations.
+	•	CCR: MRM approved enhancements to the Franchise Interest Rates Benchmark model (GBM Public, Tier 1) to incorporate variation margin for repurchase agreements (repos) into the shortfall calculation.
+	•	The enhancement addressed repo variation margin not being sourced or stressed, resolving the associated validation finding.
+	•	Domestic Liquidity Sub Group (DoLSub): Validation of Phase 1 model changes is on track for completion by end of week, covering 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs).
+	•	During validation, additional enhancements to trapped liquidity calculations were submitted and approved, and the validation scope was expanded to include the 1-day Modeled Liquidity Outflow (MLO) calculation following MRM feedback.
+	•	Medium-severity findings focus on methodology enhancements, including appropriate use of DoLSub-specific input data as it becomes available.
+
+⸻
+
+CCAR Exam
+	•	The CCAR exam kickoff was held this week, with regulators indicating focus on scenario design assumptions, including private equity beta, and available-for-sale (AFS) loss modeling, with dedicated follow-up meetings scheduled.
+	•	For GBM Trading Net Interest Income (NII) modeling, developers are targeting a May month-end submission of model enhancements to separately project interest income/expense and non-interest revenue, with MRM validation planned for August.
+
+⸻
+
+What improved
+	•	Fixed typos and grammar (e.g., “modent cyntess” → “inconsistent treatment of payup”)
+	•	Tightened wording to CRO-level clarity
+	•	Standardized structure and tone across sections
+	•	Reduced redundancy while preserving key risk messages
+
+⸻
+
+If you want, I can also compress this into a one-page CRO deck version (~30% shorter) or add “Top of Mind” headlines per bullet (Bill sometimes prefers that style).
+
 The CCAR exam kickoff was held this week, with regulators indicating focus on scenario design assumptions, including private equity beta, and available-for-sale (AFS) loss modeling, with follow-up meetings scheduled for next week.
 	•	For GBM Trading Net Interest Income (NII) modeling, developers are targeting a May month-end submission of model enhancements to separately project interest income/expense and non-interest revenue, with MRM validation planned for August.
 
