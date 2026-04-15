@@ -1,6 +1,21 @@
 Enhancements to the Tier 1 FLR models to expand bespoke modeling coverage and improve the accuracy of existing models, reducing reliance on fallback methodologies and improving rating accuracy
 
 
+Mortgage Pool Pricing Issue
+	•	MRM is reviewing a pricing model issue for mortgage pools related to the treatment of the price floor (pool price floored at TBA), which can lead to understatement of risk under stress scenarios due to inconsistent treatment of duration and option-adjusted spread (OAS) shocks between pools and TBA.
+	•	The issue arises from the model not incorporating payup consistently in stress scenarios, resulting in misalignment between pool and TBA pricing and understated risk, with potential impacts across CSW, IR TopSheet, and VaR metrics.
+	•	Market Risk and Strats have identified the issue during recent model enhancements, and a fix is in progress; preliminary analysis indicates potential for increased risk measures and limit pressures post-fix.
+	•	MRM will review the proposed fix once finalized, with updated impact assessments currently being refreshed based on latest market conditions.
+
+⸻
+
+Slightly tighter version (CRO deck style)
+	•	MRM is reviewing a mortgage pool pricing issue related to floor treatment, which may understate risk under stress due to inconsistent handling of payup and shocks.
+	•	The issue was identified during recent model enhancements and may increase risk measures and drive limit pressures (CSW, IR, VaR) once corrected.
+	•	A fix is in progress, with MRM review to follow upon completion and updated impact analysis underway.
+
+
+
 
 Enhancements to the Tier 1 FLR models to remove prior conservative fallback treatments, increase use of bespoke modeling, and improve measurement accuracy, reducing reliance on fallback methodologies and the classification of exposures as high-yield, in response to a recent breach of the non-investment grade (non-IG) threshold
 
