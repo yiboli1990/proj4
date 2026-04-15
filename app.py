@@ -1,5 +1,7 @@
 
-
+Model submission timelines have been revised from the original March 31 deadline, with Corporate ICR and overarching Probability of Default (PD) models now expected in mid-May, and Large Corporate ICR models in mid-June.
+	•	The revised timeline requires MRM to begin review of conceptual models ahead of full model submission, with an initial version of the overarching PD model already shared.
+	•	Timelines for validation and remediation are compressed, creating potential execution risk as findings are addressed ahead of regulatory milestones.
 Here is a fully refined CRO-style version — cleaned for clarity, grammar, flow, and consistent tone, while keeping it concise and executive-ready:
 
 ⸻
