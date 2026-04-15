@@ -1,3 +1,7 @@
+
+The CCAR exam kickoff was held this week, with regulators indicating focus on scenario design assumptions, including private equity beta, and available-for-sale (AFS) loss modeling, with follow-up meetings scheduled for next week.
+	•	For GBM Trading Net Interest Income (NII) modeling, developers are targeting a May month-end submission of model enhancements to separately project interest income/expense and non-interest revenue, with MRM validation planned for August.
+
 Enhancements to the Tier 1 FLR models to expand bespoke modeling coverage and improve the accuracy of existing models, reducing reliance on fallback methodologies and improving rating accuracy
 
 
