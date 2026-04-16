@@ -1,3 +1,9 @@
+    Timeline for MRM validation is compressed, with validation of the overarching PD model and revised ICRs targeted for completion by June 2026, and Large Corporate validation by July 2026, to support PRA submission in September 2026
+
+
+
+
+
 including prepayment component modeling (e.g., age ramp-up effects), which are not fully addressed by the current top-level adjustment.Timeline for MRM validation is compressed, with validation targeted for completion by [MM/DD] to support submission to the PRA by [MM/DD]
 
 
