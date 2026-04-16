@@ -1,3 +1,7 @@
+Timeline for MRM validation is compressed, with validation targeted for completion by [MM/DD] to support submission to the PRA by [MM/DD]
+
+
+
 
 Model submission timelines have been revised from the original March 31 deadline, with Corporate ICR and overarching Probability of Default (PD) models now expected in mid-May, and Large Corporate ICR models in mid-June.
 	•	The revised timeline requires MRM to begin review of conceptual models ahead of full model submission, with an initial version of the overarching PD model already shared.
