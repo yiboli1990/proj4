@@ -1,4 +1,4 @@
-Timeline for MRM validation is compressed, with validation targeted for completion by [MM/DD] to support submission to the PRA by [MM/DD]
+including prepayment component modeling (e.g., age ramp-up effects), which are not fully addressed by the current top-level adjustment.Timeline for MRM validation is compressed, with validation targeted for completion by [MM/DD] to support submission to the PRA by [MM/DD]
 
 
 
