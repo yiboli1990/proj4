@@ -1,3 +1,17 @@
+Model Validation Activities
+
+* MRM approved enhancements to the CS AI Agent (GBM Private, Tier 2), expanding its capability from single-deal research to multi-deal comparative analysis.
+* The model leverages retrieval-based techniques to synthesize information across documents, enhancing question-answering capabilities.
+* MRM analysis indicates strong performance, with approximately 94% accuracy across a large document set.
+
+⸻
+
+Regulatory Updates
+
+* The FRB–MRM quarterly meeting is scheduled next week, with regulators requesting an update on generative and agentic AI governance and validation approach, including any recent or anticipated changes.
+
+
+
 There have been several episodes of elevated market volatility across asset classes in recent months; however, no significant model performance issues have been identified to date based on MRM’s ongoing monitoring and targeted reviews
 
 * Precious Metals Volatility
