@@ -2,6 +2,16 @@
 
 
 
+    Backtesting indicated deteriorating prepayment projection performance in the Tier 1 GBM residential mortgage feeder model, which may result in over-projection of prepayments; model developers are undertaking recalibration to address the issue
+* Backtesting results identified deficiencies in the fallback methodology within the Tier 1 GBM commodities franchise benchmark model for certain clients, where current logic mishandles data issues and is inconsistent with treatment across portfolios; model developers are investigating root causes and implementing targeted enhancements
+* Ongoing monitoring reports indicated a decline in the precision metric for the Tier 2 Compliance surveillance model used to identify intraday stock price manipulation; model developers are investigating root causes and implementing enhancements where appropriate
+
+
+
+
+
+
+
 
 
 including prepayment component modeling (e.g., age ramp-up effects), which are not fully addressed by the current top-level adjustment.Timeline for MRM validation is compressed, with validation targeted for completion by [MM/DD] to support submission to the PRA by [MM/DD]
