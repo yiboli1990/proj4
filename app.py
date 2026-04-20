@@ -1,4 +1,20 @@
-    Timeline for MRM validation is compressed, with validation of the overarching PD model and revised ICRs targeted for completion by June 2026, and Large Corporate validation by July 2026, to support PRA submission in September 2026
+There have been several episodes of elevated market volatility across asset classes in recent months; however, no significant model performance issues have been identified to date based on MRM’s ongoing monitoring and targeted reviews
+
+* Precious Metals Volatility
+    * Gold and silver experienced sharp declines following the Jerome Powell nomination on January 30, alongside a broader correction after the prior year’s rally, with volatility extending into Asia trading hours before partially stabilizing
+    * MRM performed targeted review of commodities trading models and did not identify any material performance issues
+* Japan Rates – Bear Steepening
+    * The Japan snap election announcement, combined with proposed fiscal measures (including a temporary food consumption tax cut), led to fiscal concerns and a pronounced bear-steepening in Japanese government bond yields, particularly at the long end
+    * MRM reviewed models supporting Japan-related trading activity; flows have been predominantly client-driven (cash bond activity) and no significant model deficiencies have been observed
+* Geopolitical Risk – Energy Markets
+    * The US-Israel-Iran conflict contributed to a surge in oil and natural gas prices and elevated volatility in energy markets
+    * MRM continues enhanced monitoring of relevant trading models, with no material performance issues identified to date
+
+
+
+
+
+Timeline for MRM validation is compressed, with validation of the overarching PD model and revised ICRs targeted for completion by June 2026, and Large Corporate validation by July 2026, to support PRA submission in September 2026
 
 
 
