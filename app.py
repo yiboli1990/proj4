@@ -1,3 +1,6 @@
+    Committee members emphasized there should be no need to avoid high-risk use cases, but such use cases require a higher bar for controls, governance and reporting
+
+
 M365 Copilot
 
 * Engineering provided an update on firmwide rollout and adoption of M365 Copilot, noting continued growth following recent feature enhancements
