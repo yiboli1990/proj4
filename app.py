@@ -1,3 +1,27 @@
+M365 Copilot
+
+* Engineering provided an update on firmwide rollout of M365 Copilot, noting adoption has continued to increase following expansion beyond the initial pilot and recent feature enhancements
+* The discussion covered the product roadmap, user adoption trends, and planned capabilities intended to reduce adoption friction, including improvements in Excel, Word and PowerPoint functionality, as well as additional agent-related features
+* Committee members asked about evidence of productivity gains from new features and governance considerations for declarative agents, with follow-ups to assess available productivity metrics and clarify governance and inventory expectations
+
+AI Steering Group
+
+* Engineering provided an update on plans to transition the current AI Steering Group to an AI Strategy Group, reflecting the increasing maturity of divisional AI governance and the need to reduce duplicative review processes
+* The proposed future-state forum would focus on firmwide strategic alignment, including AI product roadmap decisions, common platform patterns, technical architecture, and cross-divisional coordination on significant AI initiatives
+* Committee members were supportive of the proposed direction and discussed the importance of maintaining visibility into divisional AI initiatives through common repositories and centralized tools
+
+EU AI Act
+
+* Legal provided an update on the EU AI Act, including the expected timeline, risk-based framework, and the firm’s ongoing assessment of potential high-risk AI use cases and related compliance requirements
+* The discussion highlighted the distinction between provider and deployer obligations, noting that while some targeted uplift may be required, much of the firm’s existing governance framework already aligns with the expected requirements
+* Committee members noted that high-risk use cases should not be avoided where supported by business need, but would require a higher bar for controls, governance and reporting, with further policy and control gap assessment underway
+
+
+
+
+
+
+
 Below is a draft aligned to the guidance, example, and skeleton you shared.
 
 ⸻
