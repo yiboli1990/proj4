@@ -1,3 +1,78 @@
+Below is a draft aligned to the guidance, example, and skeleton you shared.
+
+⸻
+
+1. Materials: AIRCC Materials dated April 21, 2026
+
+2. M365 Copilot Updates – Posting
+
+The presenters provided an update on the deployment, adoption trends and 2026 roadmap for Microsoft 365 Copilot, including native Copilot capabilities, supporting enablement work and items expected to return to the committee for review. The presenters noted that deployment expanded beyond the initial 1,000-user pilot and reached the 25,000 license cap ahead of target, with firmwide release beginning on April 7, 2026. As of the meeting date, approximately 53,000 users had been enabled, with remaining users primarily requiring attestation prior to access.
+
+The presenters reviewed adoption metrics and user activity trends, noting increased usage across applications and improved product stickiness, with particularly strong recent growth in Excel usage following Microsoft feature enhancements. The presenters also summarized user feedback and adoption friction themes, including prior limitations in web data access, the need for broader work data integration, continued enhancement needs in PowerPoint and Excel, prompting challenges and the importance of additional training and broader license availability. The presenters noted that the roadmap is intended in part to address these adoption friction themes.
+
+In response to a committee member question regarding the functionality previously described as “agent mode” in Excel, PowerPoint and Word, the presenters clarified that Microsoft had rebranded the feature to “edit with Copilot.” The presenters explained that the feature enables step-by-step actions and editing through natural language instructions, including updating recurring Word documents using templates and analyzing or manipulating Excel data without requiring users to create macros or pivot tables manually. The presenters further noted that PowerPoint functionality remains less mature, particularly with respect to updating presentations with new data while preserving formatting, and stated that related enhancements would return to the committee in due course.
+
+A committee member asked whether the firm or Microsoft had data regarding productivity improvements associated with Copilot and newly released features. The presenters explained that Microsoft does not currently provide firm-specific productivity data of that kind and that internal analysis has instead focused on usage growth and “power user” activity patterns. Committee members noted that a more structured view of productivity gains by feature type would be valuable to support prioritization, training and deployment decisions, and requested follow-up on whether additional internal or Microsoft-provided productivity metrics could be developed or obtained.
+
+The presenters then described declarative agents and related capabilities, noting that such agents function as scoped or customized Copilot experiences with predefined instructions and permitted data sources. In response to committee questions, the presenters explained that declarative agents can use structured instructions and defined steps, but do not independently determine which steps to take. The presenters also demonstrated that these agents can be configured with source restrictions and shared with specific individuals through links, but are not intended for broad organization-wide deployment without going through a different process. Committee members requested clarification on governance, including whether declarative agents should be captured within broader agent governance, registration and inventory processes. The presenters confirmed that these agents are administered through an internal portal and that an inventory exists, and agreed that governance treatment should be discussed further with relevant stakeholders.
+
+The presenters also provided a preview of upcoming capabilities, including Anthropic model integration and Teams meeting functionality, and noted that those items would be brought back to the committee. Committee members highlighted the importance of beginning parallel discussions with Legal and Compliance on meeting-related capabilities. In response to questions regarding model choice, the presenters explained that administrative controls are expected to allow functionality to be enabled or suppressed by jurisdiction where needed.
+
+The following follow-ups were recorded:
+
+1. Assess whether additional productivity metrics can be obtained or developed, including from Microsoft
+2. Discuss governance, registration and inventory treatment for declarative agents
+
+3. AI Steering Group Update – Posting
+
+The presenters provided an update on a proposed change to the remit and structure of the current AI Steering Group. The presenters explained that, as the firm’s AI governance and adoption have matured, much of the review and execution work now occurs within divisions, and the existing forum has increasingly functioned as a ratifying body rather than as the primary decision-making forum for business proposals. The presenters further noted that the current process can create duplicative governance and administrative burden for submitters.
+
+Against that backdrop, the presenters proposed retiring the current AI Steering Group and replacing it with an AI Strategy Group. The presenters explained that the proposed forum would be intended to provide strategic alignment across the firm, including endorsement of product roadmap changes, review of common AI patterns that may warrant central solutions, discussion of strategic technical architecture decisions, and reporting by divisions on their most significant AI initiatives. The presenters noted that the proposed group would also serve as a forum for broader cross-firm discussions on topics such as evaluation strategy, token economics, training and adoption, and the evolving regulatory and control landscape.
+
+The presenters stated that the proposed forum would be chaired by senior Engineering leadership, with membership to be solicited from divisional business and engineering leaders. The presenters further noted that the group would meet bi-weekly and that escalations would continue to be directed to AIRCC, PSG and other existing governance forums as appropriate.
+
+A committee member noted that, although the existing forum was not designed primarily as a repository for divisional initiatives, submitted materials had been useful in helping teams understand what other divisions were already working on and in identifying opportunities for reuse or collaboration before matters reached AIRCC. In response, the presenters clarified that the proposal was not intended to eliminate divisional submission processes, but rather to shift decision-making to the divisional level while preserving common repositories and moving toward more centralized tooling to improve visibility across the firm. The presenters noted that investment in central repositories and tools is underway.
+
+Committee members were supportive of the proposed direction and noted that the revised structure appeared more efficient while preserving the ability to coordinate strategically across the firm.
+
+4. EU AI Act Updates – Posting
+
+The presenter provided an update on the European Union AI Act and the firm’s work to prepare for the next stage of implementation, with particular focus on the rules applicable to high-risk AI systems. The presenter noted that the high-risk AI requirements are currently expected to take effect in August 2026, although there remains a possibility that implementation could be delayed, with formal confirmation still pending.
+
+The presenter summarized the Act’s risk-based framework, including prohibited AI, high-risk AI, transparency requirements and general purpose AI requirements, and explained the distinction between “provider” and “deployer” roles under the Act. The presenter noted that the obligations applicable to providers are materially more extensive than those applicable to deployers and that this distinction therefore has practical significance for the firm.
+
+The presenter then discussed the types of use cases most likely to be relevant to the firm’s high-risk assessment, including use cases in Human Capital Management relating to recruitment and employment decisions, use cases in Compliance relating to workforce monitoring, and use cases in businesses that lend to natural persons. The presenter also described the statutory exemptions, noting that they are expected to be interpreted relatively narrowly and that a human review step alone is unlikely to be sufficient to avoid high-risk classification where the AI system is performing a material evaluative task.
+
+The presenter further explained that the provider requirements are extensive and include lifecycle risk management, quality management, data governance, accuracy, robustness, cybersecurity and post-market monitoring obligations. The presenter noted, however, that the firm already performs many related activities and that a significant portion of the implementation effort is expected to involve mapping existing controls, policies and procedures to the regulatory requirements in a way that can be clearly evidenced. The presenter also noted that there will nevertheless be some gaps where new requirements do not map cleanly to the current framework.
+
+The presenter summarized the progress made to date, including review of adopted AI systems, outreach to divisions and assessment of potentially relevant use cases. The presenter stated that one potentially high-risk use case had been identified and reviewed in detail and that the review concluded it would not be captured as high-risk in light of how it is structured, and that an exemption would likely also have been available if needed.
+
+Committee members emphasized that the firm should not be deterred from pursuing high-risk use cases where justified by business needs, but should instead recognize that such use cases carry a higher bar for controls, governance and reporting. Committee members also noted that a large working group led by Engineering has been reviewing deployed systems against the Act in advance of the rules becoming effective, so that the firm has visibility into its inventory and can identify potential issues early. The presenter stated that a gap analysis comparing existing policies and procedures against the Act has been completed and is under review, and that the next phase will involve engagement with stakeholders and policy owners on proposed policy, standards and control uplifts.
+
+5. Administrative Matters
+
+The secretary posted materials regarding the expansion of Claude Code. The secretary noted that the committee had previously approved Claude Code for up to 1,000 engineers and had requested a follow-up on learnings from that rollout, which was included in the materials. The secretary also noted that the committee chairpersons had approved further expansion to general availability on behalf of the committee, and that this decision was being posted to the committee.
+
+The secretary also referred the committee to the AIRCC quarterly reporting materials, which included low-risk use cases approved through the streamlined approval process, inventory metrics, Category 4 use cases classified during the quarter, and committee follow-up items.
+
+The secretary then provided an informational update on revised interagency model risk guidance issued by the Federal Reserve, OCC and FDIC, which supersedes SR 11-7. The secretary noted that the guidance largely reaffirms core model risk management principles while placing greater emphasis on a risk-based and less prescriptive approach. The secretary further noted that the initial read is that the firm’s framework is broadly consistent with the revised guidance, given the existing materiality-based approach.
+
+The secretary highlighted two elements of particular relevance to the committee. First, the revised guidance does not apply directly to generative AI and agentic AI, given their rapid evolution, although there remains an expectation that such systems be governed appropriately. Second, the guidance permits a lighter-touch approach for immaterial models, in a manner that appears broadly consistent with the firm’s existing Tier 4 approach. The secretary noted that this is reassuring in light of the firm’s approach to AI platforms and Tier 4 standards, and added that further evaluation is ongoing, including discussions with peers and external advisors regarding broader industry reaction.
+
+6. Prior Meeting Minutes Approval: Minutes from the committee’s meeting held on March 24, 2026 were approved.
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+To the extent transaction(s) were discussed, no committee member raised issues related to the transactions regarding any (i) material conflict of interest, (ii) material exposure to high-risk assets or high-risk trading strategies that could significantly increase the likelihood that the firm could incur a substantial financial loss, or (iii) activity that would otherwise pose a threat to the safety and soundness of the firm or the financial stability of the United States.
+
+⸻
+
+I can also turn this into a slightly more concise version that reads even closer to the March 24 example.
+
+
+
+
+
 Model Validation Activities
 
 * MRM approved enhancements to the CS AI Agent (GBM Private, Tier 2), expanding its capability from single-deal research to multi-deal comparative analysis.
