@@ -1,5 +1,30 @@
 M365 Copilot
 
+* Engineering provided an update on firmwide rollout and adoption of M365 Copilot, noting continued growth following recent feature enhancements
+* The discussion covered roadmap priorities to improve usability and reduce adoption friction, including enhancements across Excel, Word and PowerPoint
+* Committee members discussed productivity impact and governance considerations for declarative agents, with follow-ups to assess productivity metrics and clarify governance approach
+
+⸻
+
+AI Steering Group
+
+* Engineering provided an update on plans to transition the current AI Steering Group to an AI Strategy Group to reflect increased maturity of divisional AI governance
+* The proposed forum would focus on firmwide strategic alignment, including product roadmap, platform patterns and cross-divisional coordination
+* Committee members supported the proposal and discussed maintaining visibility into divisional initiatives through centralized tools and repositories
+
+⸻
+
+EU AI Act
+
+* Legal provided an update on the EU AI Act, including timeline, scope and ongoing firmwide assessment of potential high-risk use cases
+* The discussion noted that existing governance broadly aligns with expected requirements, with targeted enhancements underway
+* Committee members noted that high-risk use cases remain permissible with appropriate controls, with further policy and gap analysis in progress
+
+
+
+
+M365 Copilot
+
 * Engineering provided an update on firmwide rollout of M365 Copilot, noting adoption has continued to increase following expansion beyond the initial pilot and recent feature enhancements
 * The discussion covered the product roadmap, user adoption trends, and planned capabilities intended to reduce adoption friction, including improvements in Excel, Word and PowerPoint functionality, as well as additional agent-related features
 * Committee members asked about evidence of productivity gains from new features and governance considerations for declarative agents, with follow-ups to assess available productivity metrics and clarify governance and inventory expectations
