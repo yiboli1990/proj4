@@ -1,4 +1,6 @@
-    The review to date has not identified any AI use cases currently classified as high-risk under the Act
+    During validation, MRM identified an implementation issue where the agent generated incorrect document IDs; the subsequent fix reduced query failure rates from 12% to 0% and improved efficiency, including a 16% reduction in compute costs.
+
+The review to date has not identified any AI use cases currently classified as high-risk under the Act
 
 
 
