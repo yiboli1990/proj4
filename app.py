@@ -1,3 +1,21 @@
+Good instinct — “despite” makes the message sharper and more confident. Here’s the refined version:
+
+⸻
+
+Emerging Risk
+
+* Despite elevated volatility across rates, commodities, and energy markets in Q1 2026, no material model performance issues were observed, with isolated exceptions addressed through targeted model changes
+* MRM approved enhancements to the Tier 1 GBM Public Mortgage Agency Feeder model following divergence between modeled and observed prepayments, which contributed to elevated interest rate sensitivity (IRDV01) and a temporary limit breach for the CMO desk during the period of heightened rate volatility
+    * Tactical recalibration implemented using empirical prepayment data, including cohort-level adjustments to better capture issuer, vintage, and coupon effects
+    * Medium-severity finding raised to track remediation of underlying model limitations, with strategic enhancements in progress
+
+⸻
+
+If you want to make it even tighter/more “board-ready,” I can compress this into 2 bullets total.
+
+
+
+
 Here’s a clean, manager-level summary of required deck changes based on the transcript. I’ve grouped them by section and prioritized what actually matters for the FRB discussion.
 
 ⸻
