@@ -1,4 +1,220 @@
-    During validation, MRM identified an implementation issue where the agent generated incorrect document IDs; the subsequent fix reduced query failure rates from 12% to 0% and improved efficiency, including a 16% reduction in compute costs.
+Here’s a clean, manager-level summary of required deck changes based on the transcript. I’ve grouped them by section and prioritized what actually matters for the FRB discussion.
+
+⸻
+
+🔴 Key Required Changes (High Priority)
+
+1) Reframe overall meeting approach
+
+* Add an explicit statement upfront (agenda or opening slide):
+    * “No material changes across standard items (1–7); focus on AI and Emerging Risk per FRB request”
+* Be prepared to skip quickly through Sections 1–7
+* Ensure AI + Emerging Risk sections are crisp and discussion-ready
+
+⸻
+
+2) IA Findings Slide – Fix status clarity
+
+Issue:
+
+* Findings marked “open” despite remediation completed
+
+Fix:
+
+* Update status wording to:
+    * “Completed by management, pending IA validation”
+* Do NOT add a new column, just update wording
+* Ensure consistency especially where:
+    * Due dates are already past
+
+⸻
+
+3) Emerging Risk Slide – Major rewrite needed
+
+This is the most important content gap
+
+A. Add top-line takeaway (VERY IMPORTANT)
+
+* Add a highlighted box (committee-style) at top:
+    * “Q1 market volatility (rates, commodities) did not result in material model performance issues, with isolated exceptions addressed via model changes”
+
+⸻
+
+B. Fix content framing (current issue: too market-focused)
+
+Problem:
+
+* Reads like a market update, not model risk
+
+Fix:
+
+* Reframe to:
+    1. Start with market context (1 sentence only)
+        * Include interest rates (missing today – critical gap)
+    2. Then focus on:
+        * Model performance
+        * Model issues (if any)
+        * Model changes / PCCs triggered
+
+⸻
+
+C. Add missing key risk driver
+
+* Include:
+    * Interest rate volatility (Europe + global) ← explicitly called out as biggest omission
+
+⸻
+
+D. Anchor on model-specific example (mortgage)**
+
+Add:
+
+* Mortgage prepayment model issue:
+    * Deteriorating performance under rate volatility
+    * Led to:
+        * Elevated IR exposure
+        * Tactical fix implemented
+        * Strategic fix underway
+* This is your best concrete “emerging risk → model impact” example
+
+⸻
+
+E. Remove / de-emphasize weak items
+
+* Reduce focus on:
+    * Geopolitics (unless tied to model impact)
+    * Generic market commentary
+* Avoid:
+    * Cyber / crypto / broad themes (explicitly rejected in discussion)
+
+⸻
+
+F. Align with messaging goal
+
+End state should clearly say:
+
+* Models performed well overall
+* Validation framework held up under stress
+* Only targeted issues, already addressed
+
+⸻
+
+4) AI / GenAI Section – Add regulatory awareness
+
+Add content:
+
+* Reference prior FRB AI RFI (historical)
+* Add forward-looking statement:
+    * Anticipated new regulatory engagement (e.g., RFI / guidance)
+* Position:
+    * Current framework builds on existing model risk management (SR 11-7 alignment)
+
+Style:
+
+* Keep slide high-level
+* Expect verbal deep dive during meeting
+
+⸻
+
+5) Explicitly mention SR 11-7 / potential SR 26-2 linkage
+
+* Add light reference (don’t overdo detail)
+* Signals preparedness for regulatory direction
+
+⸻
+
+🟡 Medium Priority Improvements
+
+6) Ongoing Monitoring vs Emerging Risk – clarify separation
+
+Issue:
+
+* Overlap between sections
+
+Fix:
+
+* Ongoing Monitoring:
+    * Focus = findings identified via monitoring process
+* Emerging Risk:
+    * Focus = external environment → model impact
+
+Optional:
+
+* Add verbal bridge:
+    * “Related monitoring findings are discussed in subsequent section”
+
+⸻
+
+7) RAS Exception / Metrics (minor callout)
+
+* Add verbal note (optional in slide):
+    * Utilization reduced (e.g., 6 → 3)
+    * Trending toward remediation
+
+⸻
+
+8) CCAR slide – keep but de-emphasize
+
+* Keep for consistency
+* Be ready to:
+    * Only discuss if asked
+* Optional:
+    * Mention SEP findings briefly (may attract interest)
+
+⸻
+
+9) ICAP/ILAP inclusion – OK to keep
+
+* Included for consistency with prior year
+* No strong need to emphasize
+
+⸻
+
+🟢 Low Priority / Cosmetic
+
+10) Consistency with FRAC deck
+
+* OK to reuse:
+    * RAS
+    * Thematic updates
+* No major changes required
+
+⸻
+
+11) Add “no material issues” narrative where applicable
+
+Across sections:
+
+* Reinforce:
+    * “No significant model performance issues observed”
+* This is a key FRB expectation
+
+⸻
+
+📌 Suggested Final Narrative Flow (What the deck should convey)
+
+1. No material changes in core areas
+2. Models performed well despite significant Q1 volatility
+3. Isolated issue (mortgage) identified and addressed
+4. Strong monitoring + validation framework
+5. Proactive engagement on AI and upcoming regulation
+
+⸻
+
+✅ Bottom Line (If you only fix 3 things)
+
+1. Rewrite Emerging Risk slide (top message + rates + mortgage example)
+2. Fix IA findings status wording
+3. Add AI regulatory context (RFI / forward-looking)
+
+⸻
+
+If you want, I can rewrite the Emerging Risk slide in CRO/FRB style (3–4 bullets, one-liners)—that’s the piece that will matter most in the meeting.
+
+
+
+
+During validation, MRM identified an implementation issue where the agent generated incorrect document IDs; the subsequent fix reduced query failure rates from 12% to 0% and improved efficiency, including a 16% reduction in compute costs.
 
 The review to date has not identified any AI use cases currently classified as high-risk under the Act
 
