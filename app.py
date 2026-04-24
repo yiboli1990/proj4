@@ -1,4 +1,11 @@
+
     MRM reviewed 2026 Q1 backtesting results and concludes models are performing as expected.
+* For the JANY/Derivatives sub-portfolio, the previously elevated VaR backtesting breaches were driven by a methodological inconsistency between VaR and realized P&L: VaR excludes P&L from STS index rebalancing under a constant composition assumption, while realized P&L includes rebalancing effects as index composition changes over time.
+* As rebalancing P&L is considered new business activity, MRM’s view is that it should be excluded from backtesting comparisons; implementation of this adjustment is in progress, with preliminary results indicating no additional breaches and improved backtesting performance, consistent with the observed reduction in breaches in Q4 2025.
+* Elevated sensitivity was observed in IRC (Incremental Risk Charge) correlation benchmarking for GAUS, driven by reliance on an outdated AIRB-based benchmark with higher correlation assumptions than the production model; this has been remediated through adoption of an empirically calibrated benchmark based on quarterly equity returns, resulting in reduced sensitivity and improved alignment in Q1 2026.
+
+
+MRM reviewed 2026 Q1 backtesting results and concludes models are performing as expected.
 * For the JANY/Derivatives sub-portfolio, the rebalancing P&L issue that had contributed to elevated VaR backtesting breaches has been resolved in 2025; in Q4 2025 (pre-renewed market volatility), breach counts declined materially, indicating improved model performance following remediation.
 * Elevated sensitivity was observed in IRC (Incremental Risk Charge) correlation benchmarking for GAUS, driven by reliance on an outdated AIRB-based benchmark with higher correlation assumptions than those used in the production model. This has been remediated through adoption of an empirically calibrated benchmark based on quarterly equity return data, resulting in reduced sensitivity and improved alignment with model behavior in Q1 2026.
 
