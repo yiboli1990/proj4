@@ -1,3 +1,14 @@
+Market Risk
+
+* MRM reviewed 2026 Q1 backtesting results and concludes models are performing as expected.
+* For the JANY/Derivatives sub-portfolio, a rebalancing P&L issue that had driven elevated VaR backtesting breaches has been resolved in 2025, with breach levels materially reduced prior to the recent market volatility.
+* Sensitivity in IRC correlation benchmarking for GAUS was observed due to an outdated benchmark with conservative correlation assumptions; this has been remediated by adopting an empirically calibrated benchmark, resulting in reduced sensitivity in the current quarter.
+
+
+
+
+
+
 Good instinct — “despite” makes the message sharper and more confident. Here’s the refined version:
 
 ⸻
