@@ -1,3 +1,174 @@
+Here’s a clean, action-oriented summary of what you need to do based on the discussion — grouped by Strats / Stress materials and CRO update so you can execute quickly.
+
+⸻
+
+🔧 What you need to do
+
+1) Stress / Strats materials (near-term updates)
+
+A. Reorder + content updates
+
+* Move CCAR / ongoing exam section to the top (Section F → top priority)
+* Update:
+    * Metrics / violations / blessed models → refresh with latest status by Friday
+    * Validation work section → include latest activities
+
+⸻
+
+B. Mortgage model issue (important)
+
+* Add a clear bullet on the mortgage model issue
+    * Current status (not fixed)
+    * Materiality (still material)
+    * Impact:
+        * VaR / GMS / stress metrics
+    * Include:
+        * Any backtesting results / potential additional breaches
+* Follow up:
+    * Confirm Strats are analyzing impact
+    * Confirm CCAR date (Dec 31) not materially impacted
+
+⸻
+
+C. AI models / pipeline visibility
+
+* Add updates on:
+    * New AI models in pipeline (e.g., commodities, others submitted to AISG)
+* Goal:
+    * Ensure Strats are aware of new developments
+    * Highlight lack of testing / early-stage concerns where relevant
+
+⸻
+
+D. RCSA (GBM)
+
+* Optional:
+    * Create simplified version excluding CCR models (URP still red)
+* But:
+    * Keep effort minimal (low stakeholder attention)
+
+⸻
+
+2) CRO Update (main focus)
+
+A. Topics to include (priority order)
+
+1. SR 262 (Top of Mind – lead topic)
+2. AI governance (second key topic)
+3. AI initiatives (progress / developments)
+4. IRB / NIM / GFAS modeling changes (early view)
+5. CCAR + CCAR exam updates
+6. FRB quarterly updates (post-meeting)
+
+⸻
+
+B. Improve model change descriptions (important feedback)
+
+For CCR / cost model:
+
+* Don’t just say “addressing findings”
+* Add:
+    * What actually changed (high level)
+        * e.g., specification / monitoring / implementation fixes
+    * Why it matters
+* Include:
+    * Number of open findings (CCR + broader context)
+
+⸻
+
+C. FRTB / ASL updates (key structural change)
+
+* Stop:
+    * Incremental small updates each time
+* Instead:
+    * Provide aggregated / thematic updates
+    * e.g.:
+        * “Quarterly summary of key enhancements”
+        * Highlight material changes (e.g., hedging, tail risk improvements)
+
+⸻
+
+D. Remove low-value items
+
+* Reassess:
+    * Small / niche updates (e.g., Japan mortgage model)
+* Only include if:
+    * Material or part of a broader theme
+
+⸻
+
+E. Add ETSC + AI-related control example
+
+* Include:
+    * Example of AI usage in e-trading system migration
+    * Highlight:
+        * Issue found (threshold vs exposure bug)
+        * Controls worked (issue caught)
+* Position as:
+    * Evidence of effective validation / controls
+
+⸻
+
+F. AI in MRM (important for CRO audience)
+
+* Add content on:
+    * How MRM is using AI internally
+        * e.g., PCC analysis tool
+* Improve:
+    * Clear distinction between:
+        * AI-generated insights vs human inputs
+
+⸻
+
+3) New initiative (important – CRO angle)
+
+PCC / model change analytics (AI tool)
+
+You need to refine before presenting:
+
+* Improve:
+    * Category definitions (more coherent / less mixed)
+* Add:
+    * Clear labeling: AI vs human-generated fields
+* Move toward:
+    * Thematic insights, not raw stats
+        * e.g.:
+            * “Increase in commodities model changes due to volatility”
+            * “Spike in EOD fixes linked to market events”
+* Goal:
+    * Produce trend-based, senior-friendly summary (every 2 weeks)
+
+⸻
+
+4) Specific follow-ups
+
+* Clarify:
+    * What is GCLA max factor model
+* Get detail on:
+    * Japan mortgage model (materiality + relevance)
+* Confirm:
+    * Mortgage model → VaR breach impact
+    * Strats analysis status
+* Align with Bill before sending:
+    * Especially on unclear model items
+
+⸻
+
+🧠 Key meta-feedback (how to improve overall)
+
+* Move toward:
+    * Fewer, higher-impact updates
+    * Thematic storytelling (not incremental logs)
+* Always answer:
+    * What changed?
+    * Why it matters?
+    * What’s the risk / impact?
+
+⸻
+
+If you want, I can convert this into a CRO-ready checklist slide or directly rewrite your CRO update draft in your preferred one-line bullet style.
+
+
 
     MRM reviewed 2026 Q1 backtesting results and concludes models are performing as expected.
 * For the JANY/Derivatives sub-portfolio, the previously elevated VaR backtesting breaches were driven by a methodological inconsistency between VaR and realized P&L: VaR excludes P&L from STS index rebalancing under a constant composition assumption, while realized P&L includes rebalancing effects as index composition changes over time.
