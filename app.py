@@ -1,4 +1,13 @@
-    Continue enhancing the AI governance framework, including agentic AI, to strengthen controls and oversight
+    Assess implications and conduct gap analysis against revised Model Risk Management guidance SR 26-2
+* Continue growth and validation of new AI models
+* Prioritize review of CCR findings breaching FRAC thresholds, with resolution targeted by Q2 2026
+* Continue validation of model enhancements supporting CCR management and the ASL business
+
+
+
+
+
+Continue enhancing the AI governance framework, including agentic AI, to strengthen controls and oversight
 * Advance MRM AI initiatives leveraging generative and agentic AI to improve validation efficiency and coverage
 * Validate models and DRCs supporting the US Basel III Finalization (B3F) pre-proposal
 * Validate Corporate ICR and overarching PD models as part of the PRA IRB uplift
