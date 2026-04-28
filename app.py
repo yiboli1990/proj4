@@ -1,3 +1,11 @@
+    Continued enhancement of the AI governance framework, including agentic AI, to strengthen controls and oversight
+* Continued advancement of MRM AI initiatives leveraging generative and agentic AI to improve validation efficiency and coverage
+* Validation of models and DRCs supporting the US Basel III Finalization (B3F) pre-proposal
+* Validation of Corporate ICR and overarching PD models as part of the PRA IRB uplift
+* Validation of ICR models for structured finance, sovereigns, financial institutions, and funds as part of the Phase III CR uplift
+
+
+
 Here’s a clean, action-oriented summary of what you need to do based on the discussion — grouped by Strats / Stress materials and CRO update so you can execute quickly.
 
 ⸻
