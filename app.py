@@ -1,4 +1,13 @@
-    Assess implications and conduct gap analysis against revised Model Risk Management guidance SR 26-2
+    Rolled out ValDoc Assistant, a generative AI application developed by MRM to support drafting of validation documents
+* Submitted materials, including existing documentation and responses to ~100 questions, for the upcoming ECB AI workshop
+* Held initial discussions with the FRB on revised Model Risk Management guidance SR 26-2 during the quarterly meeting
+* Engaged with stakeholders and met with the PRA to discuss the SS 1/23 model risk management survey submitted in Oct’25
+
+
+
+
+
+Assess implications and conduct gap analysis against revised Model Risk Management guidance SR 26-2
 * Continue growth and validation of new AI models
 * Prioritize review of CCR findings breaching FRAC thresholds, with resolution targeted by Q2 2026
 * Continue validation of model enhancements supporting CCR management and the ASL business
