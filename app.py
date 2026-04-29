@@ -1,4 +1,9 @@
-    The exam is progressing as expected with no significant model-related concerns identified to date, with the final set of scheduled meetings taking place this week.
+    The first PRA engagement since the guidance went live in 2024 was held on April 29 with GSI/GSIB CRO, Head of MRM, and Internal Audit to discuss the SS 1/23 survey submitted by GS in October 2025.
+    * Discussions focused on the overall MRM framework and legal entity considerations, including risk appetite statement (RAS) metrics, ongoing performance monitoring, revalidation triggers, and model inventory system capabilities.
+
+
+
+The exam is progressing as expected with no significant model-related concerns identified to date, with the final set of scheduled meetings taking place this week.
 * PPNR: Regulatory focus on model segmentation and revenue projection methodology (aggregate vs. granular approaches), including MRM challenge of model choices; follow-up requested on conversion factor methodology and overlays.
 * XVA: Discussions centered on exposure measurement, CVA vs. FVA split, and differences between front-office and CCAR models, including the limit framework; regulators also reviewed key modeling assumptions (e.g., one-factor vs. two-factor models, asymmetric funding curves) and implications for exit value.
 * Provisions: Remaining discussions are validation-focused, covering updates to the validation framework, ongoing monitoring, key assumptions (LGD, PD, risk identification), data integrity, and drivers of model vs. scenario differences across portfolios.
