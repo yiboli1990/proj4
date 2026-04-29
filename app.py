@@ -1,4 +1,7 @@
-    Regulators also reviewed key modeling assumptions, including the use of one-factor vs. two-factor interest rate models for CVA, and the treatment of asymmetric funding curves, with attention on implications for exit value.
+    Key changes include expanded coverage (e.g., integration of Prime Brokerage and Futures accounts), improved modeling of non-linear exposures, alignment with GBM margin model methodologies, and establishment of enhanced ongoing monitoring frameworks
+
+
+Regulators also reviewed key modeling assumptions, including the use of one-factor vs. two-factor interest rate models for CVA, and the treatment of asymmetric funding curves, with attention on implications for exit value.
 
 
 
