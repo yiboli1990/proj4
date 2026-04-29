@@ -1,4 +1,11 @@
-    Rolled out ValDoc Assistant, a generative AI application developed by MRM to support drafting of validation documents
+
+    The CCAR exam is ongoing, with the final set of scheduled meetings taking place this week.
+* PPNR: Regulatory focus has shifted to model segmentation and revenue projection methodology, including the choice between aggregate vs. granular approaches (e.g., Global Core Services (GCS), Mark-to-Market (MtM), and Net Interest Margin (NIM)), as well as MRM review and challenge of these model choices. A follow-up meeting has been requested on conversion factor methodology and overlays.
+* XVA: Discussions have focused on exposure measurement and the split between CVA and FVA liabilities, as well as differences between front-office pricing models and CCAR models, including the associated limit framework. Regulators also reviewed key modeling assumptions, including the use of LGM1FSV vs. 2FSV for CVA and the treatment of asymmetric funding curves, with attention on implications for exit value.
+* Provisions: Remaining discussions are validation-focused, covering updates to the validation framework, robustness of ongoing monitoring, challenge of key assumptions (e.g., loss given default (LGD), probability of default (PD), risk identification, and COVID-related data), data integrity controls, and drivers of differences between model outputs and scenario projections across portfolios.
+
+
+Rolled out ValDoc Assistant, a generative AI application developed by MRM to support drafting of validation documents
 * Submitted materials, including existing documentation and responses to ~100 questions, for the upcoming ECB AI workshop
 * Held initial discussions with the FRB on revised Model Risk Management guidance SR 26-2 during the quarterly meeting
 * Engaged with stakeholders and met with the PRA to discuss the SS 1/23 model risk management survey submitted in Oct’25
