@@ -1,3 +1,6 @@
+    Regulators also reviewed key modeling assumptions, including the use of one-factor vs. two-factor interest rate models for CVA, and the treatment of asymmetric funding curves, with attention on implications for exit value.
+
+
 
     The CCAR exam is ongoing, with the final set of scheduled meetings taking place this week.
 * PPNR: Regulatory focus has shifted to model segmentation and revenue projection methodology, including the choice between aggregate vs. granular approaches (e.g., Global Core Services (GCS), Mark-to-Market (MtM), and Net Interest Margin (NIM)), as well as MRM review and challenge of these model choices. A follow-up meeting has been requested on conversion factor methodology and overlays.
