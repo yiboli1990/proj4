@@ -1,4 +1,12 @@
-    Key changes include expanded coverage (e.g., integration of Prime Brokerage and Futures accounts), improved modeling of non-linear exposures, alignment with GBM margin model methodologies, and establishment of enhanced ongoing monitoring frameworks
+    The exam is progressing as expected with no significant model-related concerns identified to date, with the final set of scheduled meetings taking place this week.
+* PPNR: Regulatory focus on model segmentation and revenue projection methodology (aggregate vs. granular approaches), including MRM challenge of model choices; follow-up requested on conversion factor methodology and overlays.
+* XVA: Discussions centered on exposure measurement, CVA vs. FVA split, and differences between front-office and CCAR models, including the limit framework; regulators also reviewed key modeling assumptions (e.g., one-factor vs. two-factor models, asymmetric funding curves) and implications for exit value.
+* Provisions: Remaining discussions are validation-focused, covering updates to the validation framework, ongoing monitoring, key assumptions (LGD, PD, risk identification), data integrity, and drivers of model vs. scenario differences across portfolios.
+
+
+
+
+Key changes include expanded coverage (e.g., integration of Prime Brokerage and Futures accounts), improved modeling of non-linear exposures, alignment with GBM margin model methodologies, and establishment of enhanced ongoing monitoring frameworks
 
 
 Regulators also reviewed key modeling assumptions, including the use of one-factor vs. two-factor interest rate models for CVA, and the treatment of asymmetric funding curves, with attention on implications for exit value.
