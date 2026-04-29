@@ -1,4 +1,7 @@
-    The first PRA engagement since the guidance went live in 2024 was held on April 29 with GSI/GSIB CRO, Head of MRM, and Internal Audit to discuss the SS 1/23 survey submitted by GS in October 2025.
+    Modelers have submitted the overarching Probability of Default (PD) model on April 23, together with regulatory compliance assessments; MRM validation is in progress.
+    * Remaining model submissions are targeted from mid-May to end-June, with validation expected from end-June to mid-August, ahead of PRA submission in September 2026.
+
+The first PRA engagement since the guidance went live in 2024 was held on April 29 with GSI/GSIB CRO, Head of MRM, and Internal Audit to discuss the SS 1/23 survey submitted by GS in October 2025.
     * Discussions focused on the overall MRM framework and legal entity considerations, including risk appetite statement (RAS) metrics, ongoing performance monitoring, revalidation triggers, and model inventory system capabilities.
 
 
