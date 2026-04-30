@@ -1,3 +1,113 @@
+Meeting Minutes: Q1 2026 Quarterly MRM Meeting with FRB – [Date]
+
+MRM hosted the Q1 2026 Quarterly Model Risk Management meeting with FRB and FDIC. The meeting briefly covered standard quarterly updates, including validation activity, findings, RAS exceptions, inventory, AI/ML models, model changes, ongoing monitoring, CCAR validation, and emerging risks. The discussion primarily focused on the revised Model Risk Management guidance, SR 26-2.
+
+⸻
+
+1. Revised Model Risk Management Guidance SR 26-2
+
+* David Palmer joined the meeting to discuss the revised guidance and respond to questions from GS.
+* David noted that the revised guidance was intended to emphasize four key themes:
+    * Greater risk focus
+    * More flexibility for institutions
+    * Stronger focus on material models
+    * Reduced prescriptiveness and more principles-based expectations
+* David emphasized that the main elements of model risk management remain broadly consistent with prior guidance, and that the revised guidance is not intended to represent a fundamental rethinking of MRM expectations.
+* GS asked about the reduced emphasis on board and senior management involvement. David explained that the change is intended to align MRM oversight more closely with other risk management areas, with the board focused on higher-level oversight rather than detailed review.
+* GS asked about language around organizational standing of MRM. David clarified that the agencies are not prescribing how institutions should organize MRM functions, but effective challenge remains important, particularly for material models.
+* GS asked whether the additional language on model materiality, model risk, and user involvement represents new expectations. David explained that these are intended as clarifications rather than new requirements.
+* GS asked about the statement that guidance is not legally enforceable. David clarified that this is not a change in legal position and is consistent with prior agency statements on supervisory guidance.
+* GS asked about the removal of “process verification” language. David noted that this may reflect the broader effort to remove detail that could create confusion, and said the agencies may follow up further.
+* GS asked about the treatment of AI, generative AI, and agentic AI. David noted that traditional machine learning approaches generally remain in scope of MRM guidance, while generative AI and agentic AI were scoped out because they may require different governance considerations.
+* Bill noted that if generative AI is embedded into an important pricing, risk, capital, or liquidity model, GS would still expect the MRM framework to apply to the use case. David acknowledged the feedback and emphasized that the guidance is not intended to create a “cliff effect” where non-model items receive no controls.
+* David noted that even where something is not scoped into the MRM guidance, institutions should still have governance and controls commensurate with risk.
+* GS asked whether other SR letters with model-related expectations, such as CCAR-related guidance, may be updated. David noted this is part of a broader review of supervisory guidance, but could not confirm specific changes.
+* GS asked about changes to the model definition, including the exclusion of arithmetic calculations and deterministic rules. David explained that the changes are intended to clarify that simple calculators or deterministic tools do not automatically need to be treated as models, while still requiring appropriate controls based on risk.
+
+⸻
+
+2. AI / Generative AI Governance and Use Cases
+
+* FRB asked for a high-level overview of GS’s generative AI governance framework.
+* Caroline explained that there have been no recent fundamental changes to the MRM program for generative AI and agentic AI, but the framework has evolved over the past few years.
+* MRM has had AI-specific model requirements since 2018 and made further enhancements in late 2023 / early 2024, including establishing a fourth risk tier for certain AI tools not previously classified as models.
+* Caroline explained that AI platforms, such as large language models and general-purpose tools like Microsoft 365 Copilot and GitHub Copilot, are captured in the AI inventory and broader AI governance process.
+* Caroline noted that the AI Risk and Controls Committee provides broader governance over AI risks, with representation from MRM, Operational Risk, Technology Risk, Legal, Compliance, and Engineering.
+* FRB asked about the effectiveness of human-in-the-loop controls as AI use cases become more complex. Caroline and Bill explained that human review is effective for lower-risk chatbot-style use cases, but may be less effective as AI models become more automated or agentic.
+* Bill noted that higher-risk AI use cases receive more detailed review, including consideration of automated controls, testing, ongoing monitoring, and whether human oversight is practically effective.
+* FRB asked whether agentic AI models are separately flagged in inventory. Bill confirmed that agentic AI is flagged, though the current population remains small.
+* FRB asked about vendor models and large language models. Bill explained that LLMs and similar tools are captured as AI platforms, but MRM generally validates the specific business use case rather than independently validating the general-purpose platform itself.
+
+⸻
+
+3. Status of Validation Findings and Internal Audit Findings
+
+* Caroline noted there were no material changes in model validation activity or the status of findings.
+* FRB asked about the five additional validations. Caroline explained that additional validations are generated from the annual review process when targeted follow-up work is needed, rather than a full revalidation. GS agreed to provide follow-up details.
+* Caroline noted that there were no new internal audit findings and no material changes since the prior meeting.
+* The three outstanding IA findings are all lower severity and are the only open IA findings owned by MRM related to model risk.
+
+⸻
+
+4. RAS Exceptions and Aged Findings
+
+* FRB asked about four unvalidated Tier 1 models in use. Caroline explained that these relate to one Controllers valuation adjustment model and three GBM models, including valuation-related and liquidity-related models.
+* Caroline noted that most are within the initial waiver period, while one waiver had been extended due to additional time required to complete validation.
+* FRB asked about unvalidated Tier 2 models in use. Caroline explained that the three Tier 2 items are not aged and are likely different from the prior quarter’s population.
+* FRB asked about the rejected Tier 1 model. Caroline explained that it related to regression test failures that exceeded the 14-day remediation window. The issue was escalated through rejection status and has since been resolved; the issue was with the test rather than the model itself.
+* FRB asked about Tier 1 models with findings aged more than six months. Caroline noted the population decreased from six to three, all related to GBM counterparty credit risk models.
+* Caroline noted these remaining items are receiving senior attention from GBM Strats leadership and the CRO, with a commitment to remediate during the quarter.
+
+⸻
+
+5. Model Inventory and AI/ML Inventory
+
+* FRB asked about new models in inventory without assigned risk tiers.
+* Caroline explained that new declared models are captured in inventory before MRM completes initial classification and risk-tier assignment.
+* FRB asked whether the AI/ML risk assessment process differs from traditional models. Caroline confirmed the process is the same: models are declared, initially classified and tiered, and then risk tier is reconfirmed during validation.
+* Caroline noted that the volume of AI/ML declarations has increased, which explains why more AI/ML items may appear as pending classification.
+
+⸻
+
+6. Thematic Update – Model Changes and Enhancements
+
+* MRM highlighted several notable AI model approvals during the quarter, including one Tier 1 model and three Tier 2 models.
+* The Tier 1 generative AI model, owned by Corporate Treasury, automates matching of incoming payments to reduce manual review of cash receipts. Related high-severity findings on performance, evaluation metrics, and ongoing monitoring were remediated before approval.
+* MRM also approved Tier 2 generative AI models enabling web-search grounding within Copilot and GS AI Assistant.
+* In collateralized lending, MRM approved a Tier 1 facility-level rating model for GS Select loans, supporting recognition of collateralized exposures and Treasury’s initiative to pledge positions to the Federal Reserve discount window.
+* MRM also approved enhancements to Tier 1 tail risk and facility-level rating models, including better treatment of multiple collateral types, incorporation of hedges into loss calculations, updated aviation data, and remediation of prior validation findings.
+* In GBM, MRM approved a new Tier 1 income-space vega risk model, CCR benchmark model enhancements to support shortfall harmonization, and Prime Brokerage margin model enhancements for European equity average daily volume.
+* In Corporate Treasury and Risk, MRM approved liquidity-related model changes, including a vendor model for security-level liquidity scores and enhancements to reduce reliance on overlays in liquidity models.
+* FRB asked for additional information on Corporate Treasury liquidity scoring and MLO-related changes. GS agreed to follow up.
+
+⸻
+
+7. CCAR Validation
+
+* MRM provided a brief overview of CCAR validation activity.
+* MRM noted there were no material changes to the CCAR validation process.
+* All models and qualitative approaches were validated and approved for CCAR 2026.
+* Eight high-severity findings were raised during the process and all were remediated.
+* Findings primarily related to implementation issues in GPA and AWM models, as well as some conceptual and documentation issues in new models and qualitative approaches.
+* All findings from CCAR 2025 were closed.
+
+⸻
+
+8. Ongoing Monitoring and Emerging Risk
+
+* MRM noted that no high-severity findings were raised during the quarter related to ongoing monitoring.
+* Notable medium-severity findings included:
+    * A fallback methodology issue in the GBM commodities franchise benchmark model, related to data issues and inconsistent treatment across portfolios
+    * Divergence between observed and modeled prepayments in the residential mortgage agency model, resulting in longer modeled durations and elevated IRDV01
+    * Deterioration in precision metrics for a Tier 2 Compliance surveillance model
+* FRB asked whether recent market risk backtesting breaches indicate broader model stress due to market volatility.
+* MRM explained that backtesting breaches were reviewed and were not attributed to model issues.
+* MRM noted that no significant model performance issues were identified amid market volatility, though the agency mortgage prepayment issue was identified through ongoing monitoring and is being addressed through recalibration and a more strategic model uplift.
+
+
+
+
+
 Strategic
 
 * Align and enhance the model control framework in response to revised SR 26-2 guidance
