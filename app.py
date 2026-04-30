@@ -1,4 +1,9 @@
-    MRM held an initial discussion with the FRB on the revised Model Risk Management guidance (SR 26-2) during the quarterly meeting, with the FRB emphasizing that the guidance is intended to be more risk-focused, flexible, principles-based, and focused on material models, while maintaining the core elements of model risk management.
+    The FRB noted that generative AI and agentic AI were scoped out of SR 26-2, as they may require different governance considerations from traditional machine learning models; MRM discussed the importance of maintaining appropriate controls where these capabilities are embedded in risk, capital, or liquidity models
+
+
+
+
+MRM held an initial discussion with the FRB on the revised Model Risk Management guidance (SR 26-2) during the quarterly meeting, with the FRB emphasizing that the guidance is intended to be more risk-focused, flexible, principles-based, and focused on material models, while maintaining the core elements of model risk management.
 * The FRB clarified that changes around Board / senior management oversight, MRM organizational standing, materiality, model definition, and guidance enforceability are intended primarily as clarifications and reduction of prescriptiveness, rather than a fundamental change in supervisory expectations.
 * MRM discussed the treatment of generative AI and agentic AI under the new guidance, noting the importance of maintaining appropriate governance and controls where these capabilities are embedded in risk, capital, or liquidity models.
 
