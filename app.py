@@ -1,4 +1,32 @@
-    The FRB noted that generative AI and agentic AI were scoped out of SR 26-2, as they may require different governance considerations from traditional machine learning models; MRM discussed the importance of maintaining appropriate controls where these capabilities are embedded in risk, capital, or liquidity models
+Strategic
+
+* Align and enhance the model control framework in response to revised SR 26-2 guidance
+* Advance AI governance and MRM AI initiatives, including agentic AI, and support growth and validation of new AI use cases
+* Validate key regulatory models, including US Basel III Finalization (B3F), PRA IRB (ICR/PD), and Phase III ICR uplift
+* Support CCR framework enhancements, including migration of PB to the Unified Benchmark Model
+
+⸻
+
+Near Term
+
+* Assess implications and conduct gap analysis for SR 26-2 as a near-term priority
+* Enhance AI governance, including uplift of AI Policy and rollout of AIRHub to support AIRC approvals
+* Remediate CCR findings breaching FRAC thresholds, with resolution targeted by Q2 2026
+
+⸻
+
+April Accomplishments
+
+* Closed Internal Audit MRA on Annual Review and engaged regulators on key initiatives (FRB SR 26-2, PRA SS1/23)
+* Submitted materials for ECB AI workshop, including responses to ~100 questions
+* Completed key validations, including Phase I DoLSub liquidity changes (subject to PRA approval)
+* Rolled out ValDoc Assistant to support validation document drafting
+
+
+
+
+
+The FRB noted that generative AI and agentic AI were scoped out of SR 26-2, as they may require different governance considerations from traditional machine learning models; MRM discussed the importance of maintaining appropriate controls where these capabilities are embedded in risk, capital, or liquidity models
 
 
 
