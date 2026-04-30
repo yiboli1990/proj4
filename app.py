@@ -1,4 +1,9 @@
-    Modelers have submitted the overarching Probability of Default (PD) model on April 23, together with regulatory compliance assessments; MRM validation is in progress.
+    MRM held an initial discussion with the FRB on the revised Model Risk Management guidance (SR 26-2) during the quarterly meeting, with the FRB emphasizing that the guidance is intended to be more risk-focused, flexible, principles-based, and focused on material models, while maintaining the core elements of model risk management.
+* The FRB clarified that changes around Board / senior management oversight, MRM organizational standing, materiality, model definition, and guidance enforceability are intended primarily as clarifications and reduction of prescriptiveness, rather than a fundamental change in supervisory expectations.
+* MRM discussed the treatment of generative AI and agentic AI under the new guidance, noting the importance of maintaining appropriate governance and controls where these capabilities are embedded in risk, capital, or liquidity models.
+
+
+Modelers have submitted the overarching Probability of Default (PD) model on April 23, together with regulatory compliance assessments; MRM validation is in progress.
     * Remaining model submissions are targeted from mid-May to end-June, with validation expected from end-June to mid-August, ahead of PRA submission in September 2026.
 
 The first PRA engagement since the guidance went live in 2024 was held on April 29 with GSI/GSIB CRO, Head of MRM, and Internal Audit to discuss the SS 1/23 survey submitted by GS in October 2025.
