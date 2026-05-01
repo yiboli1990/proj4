@@ -1,3 +1,118 @@
+Here is a clean, structured transaction waiver summary based on the image, aligned with your usual MRM / committee style and simplifying the math where appropriate.
+
+⸻
+
+Transaction Waiver Summary
+
+Desk
+
+Equities – Dispersion Trading
+
+Trade
+
+Single-name to single-name volatility dispersion note (multi-currency)
+
+Tradable
+
+Eq Dispersion
+
+Vega Notional
+
+Indicative range: USD 500k – 2 million
+
+Maturity
+
+June 2027
+
+Underlier
+
+Basket of 12 European single stocks (singles-to-singles dispersion)
+
+Greeks (Indicative)
+
+Gamma: ~1.5v
+
+⸻
+
+Trade Description
+
+The transaction is a USD volatility dispersion note, referencing a basket of European single stocks, where the payoff depends on the relative realized volatility performance across constituents.
+
+The payoff structure includes:
+
+* A fixed coupon (~4.7%)
+* Leverage applied to dispersion performance
+* A global floor and cap applied to the payout
+
+Key indicative parameters:
+
+* Leverage: 1/10
+* Payout Floor: -10
+* Payout Cap: +10
+* Individual caps: capped at ~2.5× strike per name
+
+The note includes a global floor, ensuring the client’s maximum loss is limited to the note notional.
+
+⸻
+
+Reason for Waiver
+
+The Eq Dispersion tradable does not support booking a Global Cap for multi-currency dispersion structures due to an existing pricing validation constraint.
+
+While a Global Floor is supported, the cap cannot currently be represented consistently, despite both features being economically symmetric.
+
+This limitation is driven by the model’s inability to fully capture FX–volatility (VoVaR) correlation risk, which impacts cap modeling.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The desk proposes to remove the pricing validation constraint on the Global Cap, allowing caps and floors to be treated consistently within the existing Eq Dispersion tradable.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the limitation impacting the Global Cap is already present in the modeling of Global Floors, and therefore the waiver does not introduce a new class of model risk.
+
+In addition:
+
+• Existing dispersion monitoring tools (tracking dispersion levels, floors, and VoVaR/correlation risk) will be extended to include cap monitoring
+• The payoff is bounded by explicit floor and cap levels, limiting extreme outcomes
+• The structure applies low leverage (1/10), reducing sensitivity to modeling gaps
+• The note includes a global loss floor, capping downside exposure at the notional level
+• The incremental risk relates to FX–volatility correlation, which is already recognized and monitored within current frameworks
+
+⸻
+
+Remediation Plan
+
+• Extend monitoring tools to explicitly incorporate cap-related risk metrics
+• Perform benchmark analysis including FX diffusion, assessing FX volatility and FX–VoVaR correlation impacts
+• Use results to determine whether to:
+
+* enhance the production model (for both floor and cap), or
+* maintain current modeling with enhanced monitoring
+
+Timeline: ~2–4 weeks of Strats work
+
+⸻
+
+If you want, I can also:
+
+✅ tighten this for CRO / MRCC tone (shorter, sharper)
+✅ add a 1-line explanation of dispersion for non-equity reviewers
+✅ strengthen the FX–VoVaR risk explanation (this is the key model risk point)
+✅ or prepare a quick Q&A for likely pushback (this one will get questions on FX correlation)
+
+Just tell me 👍
+
+
+
+
+
+
+
 Meeting Minutes: Q1 2026 Quarterly MRM Meeting with FRB – [Date]
 
 MRM hosted the Q1 2026 Quarterly Model Risk Management meeting with FRB and FDIC. The meeting briefly covered standard quarterly updates, including validation activity, findings, RAS exceptions, inventory, AI/ML models, model changes, ongoing monitoring, CCAR validation, and emerging risks. The discussion primarily focused on the revised Model Risk Management guidance, SR 26-2.
