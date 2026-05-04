@@ -1,4 +1,11 @@
-    AIRCC approved a pilot to enable Google Gemini Command Line Interface (CLI) and Cloud MCP Server for ~100 engineers (software developers and site reliability engineers) across Core and GBM Engineering working on the Consolidated Trade Ledger platform.
+    MRM approved KYC Document Digitization (GBM Public, Tier 3), used to extract and structure Know Your Customer (KYC) attributes from client documents within the onboarding workflow.
+* The model leverages optical character recognition (OCR) and large language model (LLM)-based extraction to convert unstructured documents into structured outputs, with human-in-the-loop maker-checker review prior to submission.
+* MRM analysis indicates strong performance, with 97% coverage (OCR confidence >80%) and 91% accuracy, exceeding the 80% business targets for both metrics.
+
+
+
+
+AIRCC approved a pilot to enable Google Gemini Command Line Interface (CLI) and Cloud MCP Server for ~100 engineers (software developers and site reliability engineers) across Core and GBM Engineering working on the Consolidated Trade Ledger platform.
 * The tool provides agent-style coding capabilities similar to other industry tools, with an enhanced security posture through GCP-native controls, including protections against data and credential leakage across the workflow.
 
 
