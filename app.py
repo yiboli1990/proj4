@@ -1,3 +1,8 @@
+    AIRCC approved a pilot to enable Google Gemini Command Line Interface (CLI) and Cloud MCP Server for ~100 engineers (software developers and site reliability engineers) across Core and GBM Engineering working on the Consolidated Trade Ledger platform.
+* The tool provides agent-style coding capabilities similar to other industry tools, with an enhanced security posture through GCP-native controls, including protections against data and credential leakage across the workflow.
+
+
+
 Here is a clean, structured transaction waiver summary based on the image, aligned with your usual MRM / committee style and simplifying the math where appropriate.
 
 ⸻
