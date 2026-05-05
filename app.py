@@ -1,3 +1,7 @@
+    The NYC Volex desk has proposed enhancements to the analytics used for calculating IR delta, particularly at the long end, following MRM analysis conducted during revalidation
+* Independent benchmark analytics developed by MRM indicate that known limitations in the desk’s existing analytics have a material impact on IR delta measurement
+* To address this finding, the desk has developed revised analytics designed to improve the accuracy and robustness of IR delta calculations, which are currently under MRM review
+
 Mortgage Agency Feeder Model Enhancement (GBM Public, Tier 1)
 MRM approved changes to the mortgage agency feeder model to address divergence between modeled and observed prepayments, which had resulted in elevated interest rate sensitivity (IRDV01) for the CMO desk. The issue was identified amid recent market volatility, with a limit breach under an IR +50bps stress scenario, and a temporary limit increase granted in March. Root cause analysis indicated that the model underestimated prepayments relative to observed levels, leading to longer effective durations and overstated IRDV01 and stress losses. Enhancements included a tactical recalibration of prepayment assumptions using empirical data and the introduction of cohort-level multipliers to better capture issuer, vintage, and coupon effects. Post-implementation, IRDV01 reduced from -$4.5MM/bp to -$3.1MM/bp. MRM raised a medium-severity finding to track strategic remediation of underlying model limitations.
 
