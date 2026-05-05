@@ -1,4 +1,56 @@
-    MRM approved KYC Document Digitization (GBM Public, Tier 3), used to extract and structure Know Your Customer (KYC) attributes from client documents within the onboarding workflow.
+Below is a draft in the same AIRCC minutes style.
+
+⸻
+
+1. Materials: AIRCC Materials dated May 5, 2026
+
+2. Google Gemini Command Line Interface (CLI) – Approval
+
+The presenters provided an overview of the request to enable Google Gemini Command Line Interface (CLI) and Google-hosted Model Context Protocol (MCP) servers for an initial group of up to 99 Goldman Sachs engineers. The presenters explained that the initial pilot population would consist of software developers and site reliability engineers across Core and GBM Engineering working on the Consolidated Trade Ledger (CTL) platform.
+
+A committee member asked how the risk profile of Gemini CLI compares to previously approved coding assistant tools, including Claude Code. The presenters explained that Gemini CLI is functionally similar to other AI-enabled coding tools, but noted that the deployment approach differs because the tool would operate within the Google Cloud Platform (GCP) ecosystem. The presenters explained that the relevant back-end would use an unprivileged service account with no escalated privileges, with access limited to permitted reads, builds, tests and other developer activities. The presenters further noted that the tool would have no path to GSI net and would not receive write privileges to production services.
+
+The presenters explained that the primary security benefit of the proposed approach is that data remains within the Google ecosystem and can use GCP-native controls for data and credential leakage. The presenters noted that the integration between Gemini CLI and the Google-hosted MCP servers is an interface enhancement and does not change existing security posture or authorization controls. The presenters further explained that MCP servers would be Google-owned and Google-hosted, and would act as a pass-through layer on top of existing APIs rather than creating new privileges or special tokens.
+
+Committee members asked about egress controls, authentication and on-behalf-of flows. The presenters stated that existing egress controls would not be changed and that the deployment would use established security boundaries. The presenters explained that the developer would land into a separate unprivileged agent identity rather than the developer’s own privileged identity. The presenters further described the CTL witnesser chain, which tracks identities across internal service calls and enables additional controls where an AI-enabled identity is involved in a sensitive execution path.
+
+The presenters described the phased rollout plan. The pilot would initially focus on use cases such as code development, writing tests and creating feature plans. The presenters noted that learnings from the proof of concept indicated strong use cases in new feature development, code modernization and incident triage, particularly given CTL’s monorepo structure and the ability to review logs, code, configuration and history together. The presenters noted that users reported productivity benefits from terminal-based integration, reduced context switching, larger context windows and faster debugging.
+
+The presenters summarized key risk mitigants. For data leakage, the presenters noted that the deployment would rely on GCP-native controls, including organization policies, Virtual Private Cloud service controls, restricted APIs, encryption in transit and restrictions to Goldman Sachs projects and prompts. For unauthorized access, the presenters noted that access would be limited from CTL desktops through private connectivity to Google APIs, with GCP Identity and Access Management controls unchanged. For unapproved code or libraries, the presenters noted that existing software development lifecycle controls, vulnerability scanning and human review processes would continue to apply.
+
+The presenters also discussed proposed guardrails, including integration with Model Armor for Vertex AI to support prompt auditing and controls related to profanity, hate speech, personally identifiable information and secret leakage. The presenters noted that Model Armor and related reporting would be evaluated during the pilot and expected to be in place before broader CTL general availability. Committee members clarified that broader general availability would refer to the CTL engineering population rather than firmwide deployment.
+
+The committee approved the pilot rollout of Gemini CLI and Google-hosted MCP servers for up to 99 engineers. The committee noted that the presenters should post back to the committee with pilot learnings, including guardrail results and any relevant findings, before broader CTL general availability. The committee further noted that a subsequent approval would not be required if the pilot results are clean, but that the committee should be updated before broader rollout.
+
+3. Legislative and Regulatory Updates – Posting
+
+The presenters provided an update on legislative and regulatory developments related to AI across the United States, Europe and Asia.
+
+For the United States, the presenter discussed recent federal activity, including executive orders and a national policy framework focused on AI research, national competitiveness, federal AI initiatives and potential federal legislation. The presenter noted that, in the absence of comprehensive federal AI legislation, states have continued to introduce a significant volume of AI-related bills covering topics such as child safety, energy costs, free speech, intellectual property, community impacts and AI deployment. The presenter noted that a comprehensive federal law is unlikely to be enacted before the upcoming election, but that targeted legislation, including export-related bills, may continue to advance.
+
+Committee members discussed the interaction between potential federal legislation and state-level AI laws. The presenters and committee counsel noted that federal legislation could preempt some state laws depending on how it is drafted, but that until a comprehensive federal framework exists, states are likely to continue developing their own AI rules. The presenter further noted that AI is increasingly becoming a political topic heading into the midterm election cycle.
+
+For Europe and the United Kingdom, the presenter noted that the European Union remains more prescriptive through the EU AI Act, while the United Kingdom continues to follow a more principles-based approach through regulators such as the Bank of England and Financial Conduct Authority. The presenter noted that the EU Digital Omnibus proposal could delay the high-risk AI provisions of the EU AI Act from August 2026 to late 2027, although this would not necessarily reduce the underlying requirements. The presenter also highlighted ongoing regulatory focus on AI adoption in financial services, financial stability risks, model explainability and potential reliance on third-party providers, including possible pressure toward localization of activity in Europe.
+
+For Asia, the presenter described a fragmented regulatory landscape. The presenter noted that China remains among the more prescriptive jurisdictions, despite not yet having nationwide AI legislation, and has begun legislative research on AI. The presenter noted that South Korea has enacted comprehensive AI legislation focused on high-impact AI systems, while Hong Kong and Singapore continue to take more innovation-focused approaches supported by industry engagement and regulatory sandboxes. The presenter further noted that Japan continues to emphasize regulator-industry dialogue and expectation-setting.
+
+The presenter highlighted Singapore as a key example of government engagement, noting that AI has become a national priority and a core part of Singapore’s economic strategy. The presenter explained that the firm has positioned itself as a strategic partner to the Singapore government, including through participation in the Monetary Authority of Singapore’s Pathfinder program. The presenter noted that this engagement has created opportunities for the firm to provide input on AI development and financial sector adoption.
+
+Committee members also discussed upcoming regulatory engagement. It was noted that the firm has an upcoming workshop with European regulators and that the FCA has requested an update on Mythos and is expected to communicate its AI review focus in the coming weeks. Committee members also noted that Hong Kong regulators had raised questions following press coverage regarding restrictions on Anthropic and Claude availability in Hong Kong. The committee discussed that Microsoft Copilot access had been restored for Hong Kong users without Anthropic models, while Anthropic models remain blocked in GS AI Assistant and other tools where required.
+
+4. Administrative Matters
+
+The secretary welcomed new committee members Elizabeth Burns from Engineering and Luke Taylor and Mache Wolonski from GBM.
+
+5. Prior Meeting Minutes Approval: Minutes from the committee’s meetings held on April 7, 2026 and April 21, 2026 were approved.
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+To the extent transaction(s) were discussed, no committee member raised issues related to the transactions regarding any (i) material conflict of interest, (ii) material exposure to high-risk assets or high-risk trading strategies that could significantly increase the likelihood that the firm could incur a substantial financial loss, or (iii) activity that would otherwise pose a threat to the safety and soundness of the firm or the financial stability of the United States.
+
+
+
+MRM approved KYC Document Digitization (GBM Public, Tier 3), used to extract and structure Know Your Customer (KYC) attributes from client documents within the onboarding workflow.
 * The model leverages optical character recognition (OCR) and large language model (LLM)-based extraction to convert unstructured documents into structured outputs, with human-in-the-loop maker-checker review prior to submission.
 * MRM analysis indicates strong performance, with 97% coverage (OCR confidence >80%) and 91% accuracy, exceeding the 80% business targets for both metrics.
 
