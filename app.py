@@ -1,3 +1,9 @@
+The committee approved the pilot rollout of Gemini CLI and Google-hosted MCP servers for up to 99 engineers. The presenters agreed to post back to the committee before broader CTL general availability with pilot learnings, guardrail assessment results, and any relevant findings. No additional approval was required for broader CTL rollout if the pilot results are clean, although the committee requested a posting before general availability.
+
+
+
+
+
 Below is a draft in the same AIRCC minutes style.
 
 ⸻
