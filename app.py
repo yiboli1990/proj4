@@ -1,3 +1,18 @@
+Mortgage Agency Feeder Model Enhancement (GBM Public, Tier 1)
+MRM approved changes to the mortgage agency feeder model to address divergence between modeled and observed prepayments, which had resulted in elevated interest rate sensitivity (IRDV01) for the CMO desk. The issue was identified amid recent market volatility, with a limit breach under an IR +50bps stress scenario, and a temporary limit increase granted in March. Root cause analysis indicated that the model underestimated prepayments relative to observed levels, leading to longer effective durations and overstated IRDV01 and stress losses. Enhancements included a tactical recalibration of prepayment assumptions using empirical data and the introduction of cohort-level multipliers to better capture issuer, vintage, and coupon effects. Post-implementation, IRDV01 reduced from -$4.5MM/bp to -$3.1MM/bp. MRM raised a medium-severity finding to track strategic remediation of underlying model limitations.
+
+⸻
+
+Mortgage PST Pool Pricing Model Issue (GBM Public, Tier 1)
+MRM identified a material issue in the Mortgage PST Pool Pricing and Pool Forward OAS models related to the incorrect application of pool price as the reference TBA price, resulting in inappropriate price flooring and understatement of risk under stress scenarios. The issue was identified by Market Risk Strats and GBM Strats during ongoing model enhancements and remains outstanding. MRM has raised a high-severity (Sev1) finding and rejected the model pending remediation. As of April 16, the issue is estimated to result in an impact of approximately -$57MM under IR +50bps topsheet, -$80MM under CSW stress, and -$7MM in VaR. Remediation efforts are ongoing.
+
+⸻
+
+NYC Volex IR Delta Analytics Review (Tier 1 Revalidation)
+As part of a significant Tier 1 revalidation, MRM reviewed the backbone methodology used by the NYC Volex desk to calculate IR Delta and identified limitations in the current approach. Independent benchmarking using enhanced MRM-developed analytics indicated an increase in IR Delta of approximately $2MM/bp. Further analysis of SIMM sensitivities for key counterparties showed that adopting alternative analytics would increase SIMM disputes, while removing the backbone assumption (i.e., calculating delta with interest rate volatility held constant) would significantly reduce longstanding disputes. Findings were consistent across multiple observation periods. MRM raised a finding requiring improvements to IR delta analytics and justification of the modeling approach. The desk has developed revised analytics, which are under MRM review, and plans to present to the SIMM Governance Forum on potential removal of the backbone to improve alignment with counterparties.
+
+
+
 The committee approved the pilot rollout of Gemini CLI and Google-hosted MCP servers for up to 99 engineers. The presenters agreed to post back to the committee before broader CTL general availability with pilot learnings, guardrail assessment results, and any relevant findings. No additional approval was required for broader CTL rollout if the pilot results are clean, although the committee requested a posting before general availability.
 
 
