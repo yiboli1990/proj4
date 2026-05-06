@@ -1,4 +1,11 @@
-    The NYC Volex desk has proposed enhancements to the analytics used for calculating IR delta, particularly at the long end, following MRM analysis conducted during revalidation
+    US Rates AI (Prism): Generative AI platform leveraging real-time market data, internal research, and client intelligence to automate macroeconomic reports (e.g., CPI briefings) and support interactive Q&A for FICC Sales and Trading teams.
+* Anthropic Secure Agent Environment: Standardized GS-dedicated cloud environment under development to securely deploy and manage AI agents, supporting use cases including OneGS 3.0 KYC transformation, Controllers reconciliation, and funds oversight.
+* Slang AI 2.0: Generative AI assistant for the firm’s 5,000+ SecDB developers that answers natural-language questions about the firm’s proprietary Slang programming language; Engineering is seeking approval to roll out an enhanced agentic version subject to mandatory training certification.
+* Code Review Assistant: LLM-based code review assistant that evaluates code changes using governed inputs and posts categorized comments directly into GitLab merge requests; the tool operates in an advisory-only capacity, with all approvals remaining subject to human review.
+
+
+
+The NYC Volex desk has proposed enhancements to the analytics used for calculating IR delta, particularly at the long end, following MRM analysis conducted during revalidation
 * Independent benchmark analytics developed by MRM indicate that known limitations in the desk’s existing analytics have a material impact on IR delta measurement
 * To address this finding, the desk has developed revised analytics designed to improve the accuracy and robustness of IR delta calculations, which are currently under MRM review
 
