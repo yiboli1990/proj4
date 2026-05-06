@@ -1,3 +1,8 @@
+    MRM approved enhancements to 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs), completing Phase 1 model changes for Domestic Liquidity Sub-Group (DoLSub) formation requirements to support the firm’s application for PRA approval to manage GSI and GSIB liquidity on a consolidated basis
+
+
+
+
 
 There is continued growth in the volume and complexity of AI use cases across the firm, including agentic AI capabilities and developer productivity tools
 
