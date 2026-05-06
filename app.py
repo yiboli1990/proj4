@@ -1,4 +1,14 @@
-    US Rates AI (Prism): Uses Model Context Protocol (MCP) and Claude Opus to combine real-time market data, internal GS research, and client intelligence to automate macroeconomic reports (e.g., CPI briefings) and support complex Q&A for FICC Sales and Trading teams through Marquee AI and email
+
+There is continued growth in the volume and complexity of AI use cases across the firm, including agentic AI capabilities and developer productivity tools
+
+Examples in the pipeline include:
+
+* US Rates AI (Prism): AI assistant for FICC Sales and Trading that synthesizes real-time market data, internal research, and client intelligence to automate macroeconomic briefings and support complex Q&A workflows
+* Anthropic Platform: Standardized GS-dedicated AWS environment being developed to securely deploy and manage AI agents for use cases including KYC transformation, Controllers reconciliation, and funds oversight
+* Slang AI 2.0 / Code Review Assistant: Expansion of AI-enabled engineering tools, including an assistant for the firm’s 5k+ SecDb developers and an LLM-based code review tool that provides advisory feedback within GitLab while maintaining human approval requirements
+
+
+US Rates AI (Prism): Uses Model Context Protocol (MCP) and Claude Opus to combine real-time market data, internal GS research, and client intelligence to automate macroeconomic reports (e.g., CPI briefings) and support complex Q&A for FICC Sales and Trading teams through Marquee AI and email
 * Anthropic Platform: Standardized GS-dedicated AWS environment and deployment blueprint being developed to securely build, manage, and operate AI agents co-developed with Anthropic, with initial use cases focused on OneGS 3.0 KYC transformation, Controllers reconciliation, and funds oversight
 * Slang AI 2.0: Generative AI assistant for the firm’s 5k+ SecDb developers that answers natural language questions about the firm’s proprietary Slang language; Engineering is seeking AIRCC approval to launch Agentic Slang AI firmwide for SecDb developers, subject to training certification
 * Code Review Assistant: LLM-based code review assistant that uses deterministic prompts and governed artifacts to evaluate code changes and post categorized findings directly into GitLab merge requests; the tool operates in an advisory-only capacity, with all approvals and code changes remaining subject to human reviewer oversight
