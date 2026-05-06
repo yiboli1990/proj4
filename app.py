@@ -1,4 +1,10 @@
-    MRM approved enhancements to 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs), completing Phase 1 model changes for Domestic Liquidity Sub-Group (DoLSub) formation requirements to support the firm’s application for PRA approval to manage GSI and GSIB liquidity on a consolidated basis
+    The FRB, OCC, and FDIC issued revised Model Risk Management guidance (SR 26-2), superseding SR 11-7 and reaffirming core MRM principles while adopting a more risk-based, less prescriptive framework with a narrower scope.
+* The firm has begun engaging with peers, consultants, and the FRB on the revised guidance, while assessing implications and conducting a gap analysis against the new framework.
+
+
+
+
+MRM approved enhancements to 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs), completing Phase 1 model changes for Domestic Liquidity Sub-Group (DoLSub) formation requirements to support the firm’s application for PRA approval to manage GSI and GSIB liquidity on a consolidated basis
 
 
 
