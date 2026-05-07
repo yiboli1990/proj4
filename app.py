@@ -1,4 +1,10 @@
-    The European Parliament reached provisional agreement on amendments to the EU AI Act, delaying implementation of the high-risk AI regime from August 2026 to December 2027, and certain AI transparency requirements (e.g., digital watermarking) from August 2026 to December 2026.
+    The European Parliament reached provisional agreement on amendments to the EU AI Act, delaying implementation of the high-risk AI regime to December 2027 and certain AI transparency requirements (e.g., digital watermarking) to December 2026.
+* Key implementation details remain pending legislative text, including treatment of existing AI systems and scope of the delayed transparency requirements.
+
+
+
+
+The European Parliament reached provisional agreement on amendments to the EU AI Act, delaying implementation of the high-risk AI regime from August 2026 to December 2027, and certain AI transparency requirements (e.g., digital watermarking) from August 2026 to December 2026.
 * The delay provides additional time for implementation and sequencing of compliance efforts, while key details remain pending legislative text, including treatment of existing AI systems and scope of the delayed transparency requirements.
 
 
