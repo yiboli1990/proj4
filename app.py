@@ -1,4 +1,9 @@
-    The European Parliament reached provisional agreement on amendments to the EU AI Act, delaying implementation of the high-risk AI regime to December 2027 and certain AI transparency requirements (e.g., digital watermarking) to December 2026.
+    ECB AI Workshop: MRM, together with Engineering, Legal, and other functions, participated in a 3.5-hour ECB workshop focused on the firm’s AI framework and use cases; overall discussions were constructive.
+* Regulatory focus was primarily on cost-benefit analysis, as well as risk management, human-in-the-loop controls, and third-party oversight; the workshop also included discussion of AI governance and a walkthrough of a fraud detection use case. No findings are expected, with industry-wide observations expected later this summer.
+
+
+
+The European Parliament reached provisional agreement on amendments to the EU AI Act, delaying implementation of the high-risk AI regime to December 2027 and certain AI transparency requirements (e.g., digital watermarking) to December 2026.
 * Key implementation details remain pending legislative text, including treatment of existing AI systems and scope of the delayed transparency requirements.
 
 
