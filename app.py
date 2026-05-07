@@ -1,4 +1,275 @@
-    The FRB, OCC, and FDIC issued revised Model Risk Management guidance (SR 26-2), superseding SR 11-7 and reaffirming core MRM principles while adopting a more risk-based, less prescriptive framework with a narrower scope.
+Yes — SR 26-2 gives you a strong basis to streamline and materially narrow BRC reporting relative to the historical SR 11-7 style approach. The revised guidance repeatedly emphasizes a risk-based, tailored, and non-prescriptive framework, and notably avoids many of the implicit governance expectations that firms operationalized under 11-7.  
+
+Most importantly for BRC reporting:
+
+* The guidance emphasizes that practices should be commensurate with model materiality, business impact, and organizational complexity  
+* It explicitly states the guidance “does not set forth enforceable standards or prescriptive requirements”  
+* Governance expectations focus on effective oversight and clear accountability, but do not prescribe detailed Board-level reporting artifacts like inventories, aged findings trackers, or broad model metrics packs  
+* Aggregate model risk and material thematic risks are emphasized more than operational process metrics  
+
+Accordingly, you can reasonably reposition BRC reporting toward:
+
+* material model risk themes
+* aggregate/model concentration risk
+* RAS utilization and breaches
+* emerging regulatory or AI governance topics
+* material validation outcomes impacting business/risk decisions
+
+while removing lower-value operational reporting.
+
+Suggested direction below.
+
+⸻
+
+Proposed BRC Reporting Philosophy under SR 26-2
+
+Current (11-7 era)
+
+Broad operational oversight pack including:
+
+* Inventory statistics
+* Validation volumes
+* Aged findings
+* Waiver counts
+* Detailed RAS commentary
+* Process/control metrics
+* Large model inventories and heatmaps
+
+Proposed (26-2 aligned)
+
+Risk-based Board reporting focused on:
+
+* Material aggregate model risk
+* Significant thematic/modeling issues
+* RAS breaches/utilization trends
+* Material regulatory developments
+* Emerging AI/model governance risks
+* Significant validation conclusions affecting capital, liquidity, stress testing, or trading risk
+
+This is much more aligned with:
+
+“model risk management practices appropriately vary among banking organizations based on their specific risk profiles and model usage”  
+
+and:
+
+“practices that are appropriate and effective for one banking organization may be inappropriate and ineffective for a banking organization with a different risk profile”  
+
+⸻
+
+Specific BRC Reporting Changes
+
+1. Remove Detailed Inventory Reporting
+
+Current
+
+* Total model counts
+* Inventory by tier/division
+* Model lifecycle pipeline
+* Validation throughput metrics
+
+Proposed
+
+Only report:
+
+* Material changes in aggregate model landscape
+* Significant concentrations or emerging exposures
+* Material increase in AI/GenAI usage
+
+Supporting rationale
+
+SR 26-2 treats inventory primarily as an internal governance tool:
+
+“It is common industry practice for banking organizations to maintain a comprehensive set of information…”  
+
+Importantly, it does not elevate inventory metrics to a Board reporting expectation.
+
+⸻
+
+2. Remove Detailed Findings Slides
+
+Current
+
+* Findings aging tables
+* Sev1/2 counts
+* Open/closed trends
+* Validation issue inventories
+
+Proposed
+
+Escalate only:
+
+* Material thematic control weaknesses
+* Significant unresolved model limitations
+* Issues with material financial/regulatory impact
+* Themes indicating elevated aggregate model risk
+
+Potential replacement language:
+
+“Management provides periodic reporting on material model risk themes, significant control issues, and emerging areas of model risk”
+
+instead of:
+
+“Management reports detailed model findings inventories and remediation status”
+
+Supporting rationale
+
+26-2 emphasizes:
+
+* effective challenge
+* model materiality
+* aggregate risk
+* business impact
+
+rather than process metrics.  
+
+⸻
+
+3. Significantly Reduce RAS Commentary
+
+Current
+
+Heavy metric-by-metric commentary even when within appetite.
+
+Proposed
+
+Focus only on:
+
+* breaches
+* near breaches
+* sustained utilization trends
+* material thematic deterioration
+
+Potential approach:
+
+* Keep one concise RAS dashboard
+* Remove lengthy narrative unless escalation needed
+
+This aligns with the guidance’s move away from prescriptive governance mechanics.
+
+⸻
+
+4. Shift Validation Reporting to “Material Risk Themes”
+
+Instead of:
+
+* dozens of individual approvals/extensions
+
+move toward:
+
+* thematic summaries
+* material portfolio/model implications
+* emerging risks
+
+Examples:
+
+* AI governance and agentic AI developments
+* Stress testing model limitations
+* Market dislocation observations
+* Concentration of overlays/expert judgment
+* Benchmarking or analytics weaknesses
+* Vendor model dependencies
+
+This better aligns with:
+
+“aggregate risk reflects interactions and dependencies among models”  
+
+⸻
+
+5. Narrow Board Role to Oversight of Material Model Risk
+
+You could soften policy language along these lines:
+
+Existing style
+
+“BRC receives periodic reporting on model inventory, validation findings, model performance, waivers, and aggregate model risk”
+
+Proposed style
+
+“BRC receives periodic reporting on the firm’s aggregate model risk profile, material model risk themes, RAS utilization, and significant emerging regulatory or model governance developments”
+
+or even:
+
+“Reporting to BRC is risk-based and focused on material model risks, significant thematic developments, and matters warranting senior management or Board attention”
+
+This language is highly defensible under 26-2.
+
+⸻
+
+6. Potential New BRC Structure
+
+A much leaner BRC section could become:
+
+Suggested BRC Sections
+
+Top of Mind / Emerging Risks
+
+* market events
+* AI governance
+* regulatory developments
+* material model limitations
+
+Aggregate Model Risk Profile
+
+* concise RAS dashboard
+* material concentrations/themes only
+
+Significant Validation Themes
+
+* major approvals
+* material limitations
+* emerging methodologies
+
+Regulatory / Supervisory Developments
+
+* SR 26-2 implementation
+* AI regulation
+* examination themes
+
+Potentially reducing BRC materials by 50–70%.
+
+⸻
+
+Strongest Supporting Citations from SR 26-2
+
+These are probably your best anchors when socializing changes internally:
+
+Risk-based and tailored approach
+
+“model risk management practices appropriately vary among banking organizations based on their specific risk profiles and model usage”  
+
+Non-prescriptive framework
+
+“This guidance does not set forth enforceable standards or prescriptive requirements”  
+
+Materiality focus
+
+“models deemed of higher materiality… warrant more comprehensive and rigorous oversight”  
+
+Aggregate risk emphasis
+
+“Aggregate risk reflects interactions and dependencies among models…”  
+
+Governance flexibility
+
+“The nature and sophistication of a banking organization’s model governance is typically informed by the extent and sophistication of model usage as well as the size and complexity of the organization”  
+
+These collectively support a move away from operational/process-heavy Board reporting toward material thematic oversight.
+
+
+
+
+
+
+
+
+FRB, OCC, and FDIC issued revised Model Risk Management guidance (SR 26-2), superseding SR 11-7 and reaffirming core MRM principles while adopting a more risk-based, less prescriptive framework with a narrower scope.
+
+
+
+
+
+
+
 * The firm has begun engaging with peers, consultants, and the FRB on the revised guidance, while assessing implications and conducting a gap analysis against the new framework.
 
 
