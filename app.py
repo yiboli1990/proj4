@@ -1,3 +1,9 @@
+    The European Parliament reached provisional agreement on amendments to the EU AI Act, delaying implementation of the high-risk AI regime from August 2026 to December 2027, and certain AI transparency requirements (e.g., digital watermarking) from August 2026 to December 2026.
+* The delay provides additional time for implementation and sequencing of compliance efforts, while key details remain pending legislative text, including treatment of existing AI systems and scope of the delayed transparency requirements.
+
+
+
+
 I do not think removing the detailed inventory, findings, and extensive RAS commentary slides would conflict with the firmwide reporting requirements, provided the BRC materials still include an aggregate view of model risk, key concentrations/themes, material issues, and relevant RAS metrics/utilization.
 
 The policy language is principles-based and focused on “aggregate view,” “summarize risk exposures and trends,” “tailored,” and “where relevant,” rather than prescribing specific inventory or findings reporting.
