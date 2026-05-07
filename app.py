@@ -1,3 +1,16 @@
+I do not think removing the detailed inventory, findings, and extensive RAS commentary slides would conflict with the firmwide reporting requirements, provided the BRC materials still include an aggregate view of model risk, key concentrations/themes, material issues, and relevant RAS metrics/utilization.
+
+The policy language is principles-based and focused on “aggregate view,” “summarize risk exposures and trends,” “tailored,” and “where relevant,” rather than prescribing specific inventory or findings reporting.
+
+Accordingly, I think we can reasonably streamline BRC reporting by:
+- Removing detailed inventory statistics and validation throughput metrics
+- Replacing findings inventories with material thematic/control issues only
+- Retaining concise RAS dashboards while limiting commentary to breaches, near breaches, or material trends
+- Focusing BRC reporting on aggregate model risk, emerging risks, significant regulatory developments, and material remediation/control concerns
+
+This would also align well with SR 26-2’s more risk-based and less prescriptive approach to model risk governance and Board reporting.
+
+
 Yes — SR 26-2 gives you a strong basis to streamline and materially narrow BRC reporting relative to the historical SR 11-7 style approach. The revised guidance repeatedly emphasizes a risk-based, tailored, and non-prescriptive framework, and notably avoids many of the implicit governance expectations that firms operationalized under 11-7.  
 
 Most importantly for BRC reporting:
