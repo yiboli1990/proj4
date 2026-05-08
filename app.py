@@ -1,4 +1,12 @@
-    ECB AI Workshop: MRM, together with Engineering, Legal, and other functions, participated in a 3.5-hour ECB workshop focused on the firm’s AI framework and use cases; overall discussions were constructive.
+    CCR: MRM approved enhancements to the Prime Brokerage and CREST Equity margin shortfall models, and Franchise Equity Benchmark model (GBM Public, Tier 1) to address a validation finding related to the treatment of crypto-related stocks.
+* The changes introduce a dedicated crypto sector classification and more conservative concentration shocks in Worst Case Loss (WCL) calculations to better capture the risk profile of crypto-related equities
+
+
+
+
+
+
+ECB AI Workshop: MRM, together with Engineering, Legal, and other functions, participated in a 3.5-hour ECB workshop focused on the firm’s AI framework and use cases; overall discussions were constructive.
 * Regulatory focus was primarily on cost-benefit analysis, as well as risk management, human-in-the-loop controls, and third-party oversight; the workshop also included discussion of AI governance and a walkthrough of a fraud detection use case. No findings are expected, with industry-wide observations expected later this summer.
 
 
