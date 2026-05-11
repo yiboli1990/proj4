@@ -1,4 +1,10 @@
-    ECB ICAAP Exam: ECB and Bundesbank examiners are expected onsite from late June through September for an end-to-end review of the firm’s capital planning framework, with focus areas including Operational Risk and ICAAP capital calculations.
+    PRA Internal Ratings-Based (IRB) Approach Uplift: Submission of the Corporate Internal Credit Rating (ICR) models is expected this week pending Risk Strats delivery, with the validation timeline currently being finalized.
+* Validation of the overarching Probability of Default (PD) model is underway, with initial documentation deficiencies identified and communicated to Risk Strats.
+
+
+
+
+ECB ICAAP Exam: ECB and Bundesbank examiners are expected onsite from late June through September for an end-to-end review of the firm’s capital planning framework, with focus areas including Operational Risk and ICAAP capital calculations.
 * Initial information requests due June 8 include ICAAP risk quantification methodologies, Pillar 2 validation documentation, operational risk validation procedures, and outsourced ICAAP activities.
 
 
