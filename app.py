@@ -1,4 +1,10 @@
-    CCR: MRM approved enhancements to the Prime Brokerage and CREST Equity margin shortfall models, and Franchise Equity Benchmark model (GBM Public, Tier 1) to address a validation finding related to the treatment of crypto-related stocks.
+    ECB ICAAP Exam: ECB and Bundesbank examiners are expected onsite from late June through September for an end-to-end review of the firm’s capital planning framework, with focus areas including Operational Risk and ICAAP capital calculations.
+* Initial information requests due June 8 include ICAAP risk quantification methodologies, Pillar 2 validation documentation, operational risk validation procedures, and outsourced ICAAP activities.
+
+
+
+
+CCR: MRM approved enhancements to the Prime Brokerage and CREST Equity margin shortfall models, and Franchise Equity Benchmark model (GBM Public, Tier 1) to address a validation finding related to the treatment of crypto-related stocks.
 * The changes introduce a dedicated crypto sector classification and more conservative concentration shocks in Worst Case Loss (WCL) calculations to better capture the risk profile of crypto-related equities
 
 
