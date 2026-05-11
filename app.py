@@ -1,3 +1,9 @@
+Such reporting should be consistent with the Firmwide Policy on Risk Reporting and provide an aggregate view of the Firm’s Model Risk profile, including material Model Risks, significant trends, and emerging risks, as appropriate.
+
+
+
+
+
 The CRO provides periodic reporting to the BRC on the Firm’s Model Risk profile at scheduled meetings, which occur at a minimum of four times per year. BRC reporting should focus on material Model Risks, significant trends and emerging risks, key regulatory developments, and aggregate Model Risk indicators relevant to the Board’s oversight responsibilities.
 
 The Head of the MRM group is responsible for reporting to the FRC, MRCC, and FRAC at least quarterly on significant Model Risks from individual Models and in aggregate. Reporting to senior management committees may include more detailed operational, inventory, validation, and remediation-related information, as appropriate to the responsibilities of each committee. The frequency of reporting to any other senior management committee is stipulated by such committee.
