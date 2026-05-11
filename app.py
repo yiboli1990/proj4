@@ -1,3 +1,24 @@
+The CRO provides periodic reporting to the BRC on the Firm’s Model Risk profile at scheduled meetings, which occur at a minimum of four times per year. BRC reporting should focus on material Model Risks, significant trends and emerging risks, key regulatory developments, and aggregate Model Risk indicators relevant to the Board’s oversight responsibilities.
+
+The Head of the MRM group is responsible for reporting to the FRC, MRCC, and FRAC at least quarterly on significant Model Risks from individual Models and in aggregate. Reporting to senior management committees may include more detailed operational, inventory, validation, and remediation-related information, as appropriate to the responsibilities of each committee. The frequency of reporting to any other senior management committee is stipulated by such committee.
+
+The MRM group should provide an overall assessment of aggregate Model Risk and changes in the Model Risk profile based on relevant risk indicators, thematic analysis, and related trends, which may include the following:
+
+* Model Risk Appetite metrics:
+    * Performance of Model Risk metrics against tolerances established by the BRC
+* Model inventory and risk profile:
+    * Summary information regarding the Model Inventory, including material changes, risk assessments, concentrations, and trends
+* Model validation activities and findings:
+    * Summary of significant validation findings, including compensating controls, overdue remediation items, and assessment of impact at both the individual Model and aggregate levels
+    * Summary of material validation activities, including initial validations, annual reviews, and revalidations
+* Other Model Risk indicators:
+    * Significant Policy or Standards exceptions, associated risks, compensating controls, and remediation plans
+    * Status of significant Model Risk-related regulatory or Internal Audit findings
+    * Significant updates to Model Risk governance, policies, or standards
+    * Other relevant items, which may include results of self-assessments, training initiatives, or resource updates
+
+
+
 Based on the discussion, the main implication of SR 26-2 for the Model Control Policy / standards is not a fundamental governance overhaul, but rather a simplification and clarification of Board-level reporting expectations under a more risk-based approach.
 
 The key edits/themes appear to be:
