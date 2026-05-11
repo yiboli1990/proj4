@@ -1,4 +1,195 @@
-    PRA Internal Ratings-Based (IRB) Approach Uplift: Submission of the Corporate Internal Credit Rating (ICR) models is expected this week pending Risk Strats delivery, with the validation timeline currently being finalized.
+Based on the discussion, the main implication of SR 26-2 for the Model Control Policy / standards is not a fundamental governance overhaul, but rather a simplification and clarification of Board-level reporting expectations under a more risk-based approach.
+
+The key edits/themes appear to be:
+
+1. Simplify BRC Reporting Requirements
+
+This was the clearest action item from the discussion.
+
+Current issue:
+
+* Existing policy language appears overly prescriptive for Board Risk Committee (BRC) reporting
+* It explicitly requires detailed inventory tables, findings, waivers, blessed models, tier breakdowns, etc.
+* This creates “pages and pages of zeros” and excessive operational reporting burden
+
+Direction of change:
+
+* Move detailed operational reporting expectations down to MRCC / FRAC level
+* Keep BRC reporting higher-level, focused on material risk themes, trends, and significant issues
+
+Likely policy edit:
+Instead of saying BRC receives detailed inventories/findings metrics, revise language to something like:
+
+“BRC reporting includes material model risk themes, significant emerging risks, key regulatory developments, and aggregated model risk metrics, while more detailed operational reporting is provided to MRCC and FRAC.”
+
+Or:
+
+“Detailed model inventory, findings, and waiver reporting is provided to senior management risk committees, with Board-level reporting focused on material trends and significant issues.”
+
+This aligns with:
+
+* SR 26-2’s risk-based philosophy
+* Existing Board reporting policy
+* Feedback that Board materials should be more concise and decision-oriented
+
+⸻
+
+2. Reduce Granularity of RAS Metrics
+
+Another major theme.
+
+Current issue:
+
+* Too many separate zero-threshold metrics
+* Tier-by-tier breakdowns create clutter with little value
+
+Proposed direction:
+
+* Collapse multiple metrics into fewer aggregated measures
+* Keep historical trend columns
+* Retain ability to explain detail if breached
+
+Example:
+Instead of:
+
+* Tier 1 aged waivers
+* Tier 2 aged waivers
+* Tier 3 aged waivers
+* Tier 4 aged waivers
+
+Potentially move to:
+
+* Aggregate aged waivers metric
+* Aggregate aged findings metric
+
+This is more:
+
+* Board-friendly
+* Consistent with “materiality-focused” reporting
+* Easier to interpret
+
+Importantly:
+
+* This is NOT changing the RAS framework itself
+* Mainly simplifying presentation/reporting
+
+⸻
+
+3. Clarify Committee Responsibilities
+
+They repeatedly discussed clarifying:
+
+* What goes to BRC
+* What goes to MRCC/FRAC
+
+So policies likely need:
+
+* Cleaner separation of Board vs management committee reporting
+* Explicit statement that operational/model-level detail belongs at management committee level
+
+This may require:
+
+* Updates to Model Control Policy
+* Potential updates to Reporting Standards / Governance Standards
+* Cross-check against Ross’s enterprise reporting policy
+
+⸻
+
+4. Conduct Cross-Policy Consistency Review
+
+They explicitly mentioned checking:
+
+* CCAR standards
+* Tier 1 standards
+* DRC policies
+* QA standards
+* Other references to Board reporting requirements
+
+Goal:
+
+* Ensure no conflicting language requiring detailed Board-level appendices/tables
+
+Likely outcome:
+
+* Most changes concentrated in central Model Risk Reporting / Governance sections
+* Only spot edits elsewhere
+
+⸻
+
+5. Align With SR 26-2 “Risk-Based” Supervisory Philosophy
+
+Although not stated explicitly in policy language terms, this is the underlying rationale.
+
+The discussion reflects SR 26-2 themes:
+
+* Less prescriptive reporting
+* More proportionality
+* Focus on materiality
+* Avoid unnecessary operational detail
+* Emphasize governance effectiveness over mechanical reporting
+
+So policy wording should likely:
+
+* Remove overly rigid reporting lists
+* Avoid exhaustive mandatory appendix requirements
+* Use more principles-based language
+
+Example shift:
+From:
+
+“BRC shall receive model inventory, findings, waiver, and threshold reporting…”
+
+To:
+
+“BRC shall receive reporting sufficient to assess the firm’s overall model risk profile, material developments, and significant emerging risks.”
+
+⸻
+
+6. No Immediate Implementation Changes
+
+Important governance/process point from the discussion:
+
+* These are proposal-stage changes only
+* Not intended for immediate June/July reporting cycle
+* Need:
+    * Internal drafting
+    * Bill review
+    * Potential MRCC approval
+    * Alignment with broader reporting policy
+
+So implementation language should avoid implying:
+
+* immediate operational change
+* retroactive reporting modifications
+
+⸻
+
+7. Potential Additional Cleanup Items
+
+A few secondary themes surfaced:
+
+a) “Head of MRM or Designee”
+
+They expressed concern about prior governance wording changes.
+
+Action:
+
+* Review where this wording was inserted
+* Potentially roll back if it diluted accountability/escalation clarity
+
+b) Avoid Transcript-Style Committee Minutes
+
+Not SR 26-2 directly, but governance simplification theme:
+
+* Minutes should summarize key discussions and decisions
+* Not capture every discussion detail
+
+Could affect committee governance standards.
+
+
+
+
+PRA Internal Ratings-Based (IRB) Approach Uplift: Submission of the Corporate Internal Credit Rating (ICR) models is expected this week pending Risk Strats delivery, with the validation timeline currently being finalized.
 * Validation of the overarching Probability of Default (PD) model is underway, with initial documentation deficiencies identified and communicated to Risk Strats.
 
 
