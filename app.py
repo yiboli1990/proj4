@@ -1,3 +1,45 @@
+Below is a revised draft in the more summary-oriented AIRCC minutes style.
+
+⸻
+
+1. Materials: AIRC Materials dated May 12, 2026
+
+2. Agentic Slang AI – Approval
+
+The presenters provided an overview of the request to expand the previously approved Slang AI use case to include agentic functionality. The presenters noted that Slang AI was initially approved in August 2025 as a Q&A-based assistant for SecDB and Slang developers, and that the proposed enhancement would allow the tool to take actions in support of developer workflows while remaining within existing user sessions and entitlements.
+
+Discussion covered the rationale for the enhancement, including the need to support developer productivity within a controlled environment. A committee member asked whether the risk of developers using less controlled alternatives outside the intended environment was theoretical or tangible. The presenters explained that developers could use other approved tools or hand-rolled workflows in ways that are not necessarily prohibited but may sit outside the control framework originally envisioned for SecDB and Slang use cases. Committee members noted that this should be further considered as controls and engagement protocols continue to evolve.
+
+The presenters walked through the scope of the proposed agentic capabilities, noting that the tool can assist with activities such as writing code, generating tests, running linting tools, and preparing code reviews. In response to questions regarding execution risk, the presenters clarified that Slang AI operates only in Safe Mode and cannot directly update SecDB databases or push code to production. The presenters further explained that code changes remain subject to the same software development lifecycle controls as human-developed code, including human approval, code review, and any applicable MRM review for model code changes.
+
+Committee members asked about beta testing results and areas where the tool did not perform as expected. The presenters noted that testing identified issues such as code hallucinations and a tendency for the model to generate new code where existing libraries could be reused. The presenters explained that mitigants were added to prompt the model to check Slang syntax, lint code before presenting it to users, and search for existing code before proposing new code. Committee members noted that these issues appeared more likely to create user frustration than direct control risk, given human review and existing development controls, but emphasized the importance of continued monitoring.
+
+Discussion also covered the tool’s handling of graph code, proprietary Slang practices, and community feedback from beta users. The presenters noted that the tool performs well for code explanation and that quality is expected to improve as additional Slang-specific skills, prompts, and best practices are incorporated. The presenters also noted that feedback from the beta testing community had already resulted in improvements to skills and tooling.
+
+Committee members discussed entitlement and access risks. The presenters explained that Slang AI inherits the user’s existing read entitlements within the user’s SecDB session, while Safe Mode prevents write activity. A committee member noted that inherited entitlements may have different implications for senior developers with broader access, and asked whether the agent could use those entitlements outside SecDB. The presenters explained that such actions would require human approval and that additional controls could be introduced quickly if specific risks are identified. Committee members asked the presenters to further review sandboxing and entitlement-related controls.
+
+The presenters summarized key risk mitigants, including human approval for write or execute actions, audit logging of agent activity, use of the GS AI Platform gateway, source validation to prevent unauthorized invocation, and the ability to restrict or disable functionality. Committee members also asked about kill switches and monitoring. The presenters explained that kill switches exist both at the GS AI Platform level and within the Slang AI implementation, and that the tool can also be moved back to a non-agentic planning mode.
+
+Committee members challenged the proposed monitoring threshold for triggering escalation or disabling functionality, noting that a 50% threshold appeared low for an agentic tool compared with a chatbot. The presenters explained that the threshold was initially carried over from the prior version of Slang AI, but acknowledged that a higher threshold may be appropriate given current beta results and the additional actions enabled by the agentic workflow. A follow-up was recorded to revisit the threshold.
+
+The committee approved the expansion of Slang AI to include agentic functionality. The following follow-ups were recorded:
+
+1. Revisit the monitoring threshold used to determine escalation, plan mode, or kill switch invocation
+2. Review sandboxing and entitlement-related controls, including whether additional constraints are needed for agentic activity
+
+3. Administrative Matters
+
+The secretary presented changes to the Firmwide Policy on Artificial Intelligence, the Firmwide Standard on Artificial Intelligence, and the Committee Charter. The secretary noted that the changes were made following the recent discussion on the revised remit of the AI Steering Group, now the AI Strategy Group, and primarily remove references to the prior AISG from roles and responsibilities sections.
+
+Since no objections were raised, the following documents were approved:
+
+* Firmwide Policy on Artificial Intelligence
+* Firmwide Standard on Artificial Intelligence
+* Committee Charter
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+
 Such reporting should be consistent with the Firmwide Policy on Risk Reporting and provide an aggregate view of the Firm’s Model Risk profile, including material Model Risks, significant trends, and emerging risks, as appropriate.
 
 
