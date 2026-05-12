@@ -1,3 +1,28 @@
+The main changes/comments to the deck from this discussion are:
+
+* Reuse the Agentic AI “Top Focus Area” / emerging risk content that was removed last time, as the group agreed it is still an appropriate top focus area for MRM
+* Update wording in the AI approval bullet to clarify this is the “first use of a transformer-based neural network” rather than just “neural network”
+* Keep CCR and Collateralized Lending updates at a higher level for the BRC deck rather than including detailed model-level descriptions
+* Add/update the liquidity summary bullet to mention completion of Phase 1 model changes
+* Refresh all inventory/activity/finding/RAS numbers with final automated production figures, while noting minor changes may still occur after reconciliation checks
+* Circulate additional detail supporting the large increase in model inventory activity, especially:
+    * High number of Tier 1 declarations (~31)
+    * Large volume of new model declarations and deactivations
+    * Breakdown showing many Tier 1 additions relate to ICR/risk models
+* Prepare historical trend analysis (last 8–12 quarters) for:
+    * New model declarations
+    * Tier 1 model additions
+    * Deactivations
+        This was requested to determine whether current inventory growth is a trend or a one-time spike
+* No immediate changes to the BRC deck structure tied to SR 26-2/new guidance yet; discussion deferred to the broader workstream
+* Include SR 26-2/revised guidance discussion in the dedicated regulatory update slide only (already sent to the Direct team)
+
+Most concrete edit requested:
+
+* Revise the executive summary AI bullet language:
+    * Replace “first use of a neural network” with “first use of a transformer-based neural network”
+
+
 Committee members also asked whether the tool could be rolled out to users in Hong Kong given existing restrictions relating to certain AI models. The presenters explained that, while Slang AI defaults to Anthropic models for most users, Hong Kong users would automatically be routed to Gemini models instead, with Anthropic models excluded based on existing entitlements and geographic restrictions.
 
 
