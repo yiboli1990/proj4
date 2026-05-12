@@ -1,3 +1,10 @@
+    CCR aged validation findings are nearing resolution, with one remaining finding related to backtesting breaches.
+* Additional issues were identified during remediation review, including insufficient stress ratios and limited drilldown capabilities for Commodities backtesting breach analysis; MRM is working with Strats to finalize a remediation plan, which remains the final dependency for closure.
+
+
+
+
+
 The main changes/comments to the deck from this discussion are:
 
 * Reuse the Agentic AI “Top Focus Area” / emerging risk content that was removed last time, as the group agreed it is still an appropriate top focus area for MRM
