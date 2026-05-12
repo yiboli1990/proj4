@@ -1,3 +1,6 @@
+Committee members also asked whether the tool could be rolled out to users in Hong Kong given existing restrictions relating to certain AI models. The presenters explained that, while Slang AI defaults to Anthropic models for most users, Hong Kong users would automatically be routed to Gemini models instead, with Anthropic models excluded based on existing entitlements and geographic restrictions.
+
+
 Committee members also asked about the anticipated size of the user base and how adoption would compare to other coding assistant tools used across the firm. The presenters noted that the current Slang AI chatbot has approximately 2,500 weekly users and estimated that the enhanced agentic version could ultimately be used by approximately 4,000 SecDB developers. The presenters further noted that, while expected to be widely adopted within the Slang developer community, the user base would likely remain smaller than broader firmwide coding assistant tools such as Claude Code and GitHub Copilot.
 
 
