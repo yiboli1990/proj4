@@ -1,3 +1,9 @@
+    MRM raised a high-severity finding on the Mortgage PST Pool Pricing model (GBM Public, Tier 1) related to an implementation issue in the application of pool price floors relative to reference to-be-announced (TBA) securities.
+* The remediation is expected to increase utilization of the IR +50bps Topsheet risk limit, and a proposal for a temporary limit increase is under discussion; Strats have also enhanced desk reporting to include trader risk estimates for monitoring purposes.
+* MRM is working with Strats to assess model-related drivers contributing to the discrepancy between model and trader DV01 estimates.
+
+
+
 PRA Internal Ratings-Based (IRB) Approach Uplift: Development and validation timelines for the PRA IRB submission are being finalized between MRM and Risk Strats, with validation of the Corporate industry segment Internal Credit Rating (ICR) models targeted for completion by mid-July and remaining IRB models by end-August, ahead of PRA submission in September 2026.
 
 * Validation of the PD master scale model is in progress, with initial documentation gaps identified during review and subsequently addressed by Risk Strats.
