@@ -1,3 +1,12 @@
+PRA Internal Ratings-Based (IRB) Approach Uplift: Validation of the Probability of Default (PD) model is underway, with initial documentation gaps identified during review and subsequently addressed by Risk Strats.
+
+* Submission of the Corporate industry segment Internal Credit Rating (ICR) models feeding into the PD model is expected this week, with MRM validation targeted for completion by end-June.
+* Remaining submissions, including the Large Corporate ICR model and PRA Corporate / Large Corporate Industry IRB models, are targeted from end-May to end-June, with validation expected from mid-July to mid-August ahead of PRA submission in September 2026.
+
+
+
+
+
 PRA Internal Ratings-Based (IRB) Approach Uplift: Corporate Internal Credit Rating (ICR) model submission from Risk Strats is expected this week, with MRM validation targeted for completion by [June/July 2026] ahead of the planned PRA submission in September 2026.
 
 * Validation of the overarching Probability of Default (PD) model is in progress, with initial documentation gaps identified during review and subsequently addressed by Risk Strats.
