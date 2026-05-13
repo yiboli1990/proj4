@@ -1,4 +1,11 @@
-    CCR aged validation findings are nearing resolution, with one remaining finding related to backtesting breaches.
+PRA Internal Ratings-Based (IRB) Approach Uplift: Corporate Internal Credit Rating (ICR) model submission from Risk Strats is expected this week, with MRM validation targeted for completion by [June/July 2026] ahead of the planned PRA submission in September 2026.
+
+* Validation of the overarching Probability of Default (PD) model is in progress, with initial documentation gaps identified during review and subsequently addressed by Risk Strats.
+* Significant work remains ahead of PRA submission, including validation of the revised Corporate and Large Corporate ICR models, remediation of validation findings, and completion of supporting regulatory documentation and governance processes.
+
+
+
+CCR aged validation findings are nearing resolution, with one remaining finding related to backtesting breaches.
 * Additional issues were identified during remediation review, including insufficient stress ratios and limited drilldown capabilities for Commodities backtesting breach analysis; MRM is working with Strats to finalize a remediation plan, which remains the final dependency for closure.
 
 
