@@ -1,4 +1,6 @@
-    MRM raised a high-severity finding on the Mortgage PST Pool Pricing model (GBM Public, Tier 1) related to an implementation issue in the application of pool price floors relative to reference to-be-announced (TBA) securities.
+MRM raised a high-severity finding on the Mortgage PST Pool Pricing model (GBM Public, Tier 1) related to the treatment of the price floor, which may understate risk due to inconsistent handling of duration and option-adjusted spread (OAS) shocks between pools and reference to-be-announced (TBA) securities.
+
+MRM raised a high-severity finding on the Mortgage PST Pool Pricing model (GBM Public, Tier 1) related to an implementation issue in the application of pool price floors relative to reference to-be-announced (TBA) securities.
 * The remediation is expected to increase utilization of the IR +50bps Topsheet risk limit, and a proposal for a temporary limit increase is under discussion; Strats have also enhanced desk reporting to include trader risk estimates for monitoring purposes.
 * MRM is working with Strats to assess model-related drivers contributing to the discrepancy between model and trader DV01 estimates.
 
