@@ -1,3 +1,8 @@
+    The first version of AIRHub is now live, digitizing the AIRCC intake, review, and approval workflow.
+* Pilot AI use cases are being onboarded over the coming weeks, with planning for Phase 2 enhancements currently underway.
+
+
+
 MRM raised a high-severity finding on the Mortgage PST Pool Pricing model (GBM Public, Tier 1) related to the treatment of the price floor, which may understate risk due to inconsistent handling of duration and option-adjusted spread (OAS) shocks between pools and reference to-be-announced (TBA) securities.
 
 MRM raised a high-severity finding on the Mortgage PST Pool Pricing model (GBM Public, Tier 1) related to an implementation issue in the application of pool price floors relative to reference to-be-announced (TBA) securities.
