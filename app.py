@@ -1,4 +1,8 @@
-    MRM approved an extension to the neural network-based TradeScore Quoting Model and X-Asset Utility Quoter (GBM Public, Tier 2) to support Brazilian swap quoting for the LatAm Interest Rates algo trading business.
+        Modelers agreed with the findings and will retain limited generative AI functionality for lightweight summary and recommendation features, while exploring quantitative regression or traditional machine learning approaches for GC prediction.
+
+
+
+MRM approved an extension to the neural network-based TradeScore Quoting Model and X-Asset Utility Quoter (GBM Public, Tier 2) to support Brazilian swap quoting for the LatAm Interest Rates algo trading business.
     * The enhancement enables the algo trading model to incorporate TradeScore order fill probability estimates into quoting decisions to optimize execution outcomes.
 * MRM rejected the PIP AI Agent model (GBM Public, Tier 3), a generative AI model intended to predict structured trade charges (Gross Credit, GC) based on historical trade configurations and charges, due to insufficient predictive performance.
     * MRM analysis identified significant prediction noise and lack of predictive power, partly driven by LLM output variability.
