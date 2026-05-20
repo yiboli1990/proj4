@@ -1,6 +1,9 @@
         Modelers agreed with the findings and will retain limited generative AI functionality for lightweight summary and recommendation features, while exploring quantitative regression or traditional machine learning approaches for GC prediction.
 
 
+    Key drivers of ongoing validation activity include continued growth in AI use cases across the firm, strategic counterparty credit risk model enhancements to support shortfall benchmark harmonization and improve backtesting performance, collateralized lending model enhancements to expand model coverage and improve methodologies and data inputs, and Domestic Liquidity Sub-Group (DoLSub) model changes supporting the firm’s PRA application to manage GSI and GSIB liquidity on a consolidated basis
+
+
 
     The model will continue to use limited generative AI functionality for lightweight summary and recommendation features.
 
