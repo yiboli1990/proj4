@@ -1,4 +1,13 @@
-        Modelers agreed with the findings and will retain limited generative AI functionality for lightweight summary and recommendation features, while exploring quantitative regression or traditional machine learning approaches for GC prediction.
+Please see below talking points for the board deck, can you please help write it better. Simplify the last bullet a bit
+
+* Utilization for model risk metrics remained within thresholds during the period
+* There are no significant concerns to highlight with respect to model risk
+
+* Key drivers of ongoing validation work relate to continued growth in the use of Al across the firm, strategic enhancements to support counterparty credit risk management capabilities as part of ongoing harmonization efforts for shortfall benchmark models, reducing stress losses and improving backtesting performance, collateralized lending business that extend model coverage to reduce reliance on fallback methodologies and enhance data inputs and methodologies to improve model accuracy, and formation of Domestic Liquidity SubGroup (DoLSub) to support the firm's application for PRA approval to manage GSI and GSB liquidity on a consolidated basis
+
+
+
+Modelers agreed with the findings and will retain limited generative AI functionality for lightweight summary and recommendation features, while exploring quantitative regression or traditional machine learning approaches for GC prediction.
 
 
     Key drivers of ongoing validation activity include continued growth in AI use cases across the firm, strategic counterparty credit risk model enhancements to support shortfall benchmark harmonization and improve backtesting performance, collateralized lending model enhancements to expand model coverage and improve methodologies and data inputs, and Domestic Liquidity Sub-Group (DoLSub) model changes supporting the firm’s PRA application to manage GSI and GSIB liquidity on a consolidated basis
