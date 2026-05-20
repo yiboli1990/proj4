@@ -1,3 +1,282 @@
+Here are the key takeaways and recommended changes from the discussion, separated into BRC deck changes and policy changes.
+
+BRC Deck Changes
+
+1. Remove detailed inventory / validation activity slides from BRC
+
+There was broad agreement that the current BRC deck is too operational and detailed for Board-level reporting.
+
+Proposed removals
+
+Likely remove or significantly reduce:
+
+* Inventory detail slides
+* Approval status breakdowns
+* Detailed validation activity pages
+* Detailed findings aging charts
+* Detailed RAS commentary pages
+
+Specifically, they were referring to current “slides 6–8”.
+
+The rationale was:
+
+* SR 26-2 no longer explicitly emphasizes Board-level model risk reporting
+* Board reporting should align with other risk domains
+* BRC should focus on:
+    * material model risk
+    * aggregate trends
+    * emerging risks
+    * high-level indicators
+
+There was repeated feedback that:
+
+“Do we really need this level of detail for the Board?”
+
+⸻
+
+2. Do NOT fully eliminate aggregate inventory/finding information
+
+Bill pushed back on removing too much.
+
+Key message:
+
+Model risk exists in the aggregate
+
+He felt the Board still needs:
+
+* some sense of scale
+* inventory evolution
+* findings flow
+* model development trends
+* what types of models are being added (especially AI)
+
+So instead of deleting entirely, the direction is:
+
+Replace multiple detailed slides with 1–2 high-level aggregate slides
+
+Potential content:
+
+* total model inventory trend
+* new vs retired models
+* findings opened vs closed
+* inventory by major category/tier
+* AI model growth
+* high-level finding trends
+
+But avoid:
+
+* operational-level detail
+* approval status minutiae
+* excessive breakdowns
+
+⸻
+
+3. Focus on “flow” metrics instead of static snapshots
+
+Bill specifically noted current charts miss the “story”.
+
+Example concern:
+
+“How did you get from 782 to 693?”
+
+So recommended additions:
+
+* models added / retired during period
+* findings raised / findings closed
+* net change
+* trend over time
+
+This was viewed as more meaningful than static inventory counts.
+
+⸻
+
+4. Keep Executive Summary
+
+No proposed changes to Executive Summary structure.
+
+They explicitly said:
+
+“We keep the executive summary the same as before”
+
+⸻
+
+5. RAS metrics remain in BRC
+
+Important clarification:
+
+* RAS metrics are NOT being removed
+* only detailed commentary and supporting operational slides may be streamlined
+
+⸻
+
+6. Simplify BRC RAS presentation
+
+Directionally:
+
+* collapse tiers together more aggressively for Board reporting
+* less granular than FRAC/MRCC
+
+Discussion leaned toward:
+
+* grouping Tier 1/2/2+/3 together
+* potentially only emphasizing Tier 1 at Board level
+* avoiding excessive rows/zeros
+
+The guiding principle:
+
+Board should focus on material risk
+
+⸻
+
+Policy Changes
+
+1. Do NOT materially rewrite the policy
+
+This was the biggest conclusion.
+
+Initially they proposed adding explicit language that:
+
+* BRC reporting only includes:
+    * material model risks
+    * emerging risks
+    * significant trends
+    * aggregate indicators
+
+But after discussion, Bill noted:
+
+* current wording is already somewhat ambiguous
+* adding new language may unintentionally imply a substantive policy reduction
+
+So the final direction was:
+
+Minimal policy change approach
+
+Likely:
+
+* retain existing first paragraph
+* add only a narrow clarifying statement
+* avoid major rewrite
+
+This aligns with your manager’s earlier “minimal approach” comments.
+
+⸻
+
+2. Clarify that detailed requirements apply to FRCC/MRCC/FRAC, not necessarily BRC
+
+This became the core policy clarification.
+
+Current issue:
+
+* policy wording ambiguously suggests all detailed inventory/finding requirements also apply to BRC
+
+Proposed fix:
+
+* clarify that detailed operational reporting requirements apply to:
+    * FRC
+    * MRCC
+    * FRAC
+
+while BRC receives higher-level reporting.
+
+This is probably the most important actual policy change.
+
+⸻
+
+3. Align policy language with firmwide risk reporting standards
+
+They explicitly referenced Ross’s firmwide risk reporting policy.
+
+Goal:
+
+* ensure model risk reporting follows the same Board reporting principles as other risk domains
+
+Meaning:
+Board reporting should emphasize:
+
+* aggregate risk profile
+* material issues
+* trends
+* emerging risks
+
+not operational process metrics.
+
+⸻
+
+Additional Non-BRC Policy / Standards Discussions
+
+These were side discussions but likely actionable later.
+
+4. Potential future streamlining for Tier 2 / Tier 3 standards
+
+Ideas discussed:
+
+* lighter documentation requirements
+* lighter findings standards
+* possibly reducing Sev3 findings on Tier 2/3 models
+
+No decisions yet.
+
+⸻
+
+5. Electronic Trading Controls wording
+
+They discussed removing wording implying MRM validates electronic trading controls themselves.
+
+New direction:
+
+* MRM verifies control validation occurred
+* but does not itself perform/control-validation ownership
+
+This reflects stronger independent ET governance now existing elsewhere.
+
+⸻
+
+6. PCC / Annual Review philosophy
+
+Important strategic theme:
+
+* encourage more PCC/pre-approval review
+* reduce heavy retrospective annual review burden
+
+Key message:
+
+ongoing incremental review is more efficient than year-end accumulation
+
+No immediate policy change proposed, but likely future direction:
+
+* incentivize lower-tier developers to use PCC more frequently
+* potentially lighten annual review burden when ongoing PCC exists
+
+⸻
+
+Overall Direction / Executive Interpretation
+
+The meeting direction was essentially:
+
+Move BRC reporting toward:
+
+* strategic
+* aggregate
+* trend-focused
+* material-risk-focused
+
+Move away from:
+
+* operational detail
+* inventory mechanics
+* validation process statistics
+* granular findings reporting
+
+But:
+
+avoid making the policy rewrite look too aggressive or like a weakening of oversight.
+
+That “minimal-change but practical streamlining” theme came up repeatedly.
+
+
+
+
+
 Please see below talking points for the board deck, can you please help write it better. Simplify the last bullet a bit
 
 * Utilization for model risk metrics remained within thresholds during the period
