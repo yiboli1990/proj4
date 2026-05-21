@@ -1,3 +1,7 @@
+    Counterparty Credit Risk (CCR): MRM approved enhancements to the Interest Rate Franchise Benchmark model (GBM Public, Tier 1) to improve allocation of Agent Lender Disclosure (ALD) repo haircuts between Agent Lender and Principal Lender entities for Treasury Execution Services (TES) and short-term interest rate trading activities.
+* The enhancement builds on prior changes that mapped ALD repo exposures to the underlying collateral level, improving accuracy of shortfall calculations and addressing a validation finding.
+
+
 Here are the key takeaways and recommended changes from the discussion, separated into BRC deck changes and policy changes.
 
 BRC Deck Changes
