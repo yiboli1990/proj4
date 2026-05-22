@@ -1,4 +1,267 @@
-Bulk Transaction Waiver Summary
+B
+Area
+
+Rule / Program
+
+Model / DRC ID
+
+Model / DRC Name
+
+Status
+
+Change Type
+
+Scope of Work
+
+Complexity
+
+Developer Target Date
+
+Expected MRM Validation Timing
+
+MRM Lead
+
+Resource Need / Constraint
+
+Key Risk / Comment
+
+DRC
+
+Basel III / Fed capital rules
+
+TBD
+
+Credit risk DRC 1
+
+Existing
+
+Update / additional validation
+
+Confirm rule compliance and assess changes
+
+Low / Medium
+
+Aug / Sep
+
+TBD
+
+TBD
+
+TBD
+
+Timeline may change depending on Fed implementation date
+
+DRC
+
+Basel III / Fed capital rules
+
+TBD
+
+Operational risk RWA DRC
+
+New
+
+New validation
+
+Validate new deterministic calculation
+
+Medium
+
+Aug / Sep
+
+TBD
+
+TBD
+
+TBD
+
+New DRC, but not expected to be highly complex
+
+FRTB-CVA
+
+Fed / PRA
+
+TBD
+
+CVA desk-pricer model
+
+New
+
+New validation
+
+Extend desk engine for capital use, including gap risk and other capital-specific requirements
+
+High
+
+End of Q2
+
+Q3 estimate
+
+TBD
+
+Potential bandwidth issue
+
+Major validation effort; likely needs multiple validators
+
+FRTB-CVA
+
+Fed / PRA
+
+TBD
+
+Equity CVA engine / Marco aggregation
+
+New / modified
+
+New validation / methodology review
+
+Assess use of equity simulation with Marco aggregation logic
+
+High
+
+TBD
+
+TBD
+
+TBD
+
+TBD
+
+Extra review needed due to linkage between two engines
+
+FRTB-CVA
+
+PRA-heavy
+
+TBD
+
+SA-CVA aggregator
+
+Existing
+
+Additional validation
+
+Validate rule changes / deterministic aggregation
+
+Medium
+
+TBD
+
+TBD
+
+TBD
+
+May need PRA-side support
+
+Rule-based but still requires review
+
+FRTB Market Risk
+
+Fed / PRA
+
+TBD
+
+Risk factor migration
+
+Existing
+
+Infrastructure migration
+
+Confirm output reconciliation and code migration controls
+
+Low
+
+TBD
+
+~1 week per risk factor
+
+TBD
+
+TBD
+
+Methodology already validated; focus is implementation
+
+FRTB Market Risk
+
+Fed / PRA
+
+TBD
+
+10-day compounding risk factor
+
+Existing / new
+
+Methodology validation
+
+Validate 10-day compounding methodology where not previously covered
+
+Medium
+
+TBD
+
+~4–6 weeks
+
+TBD
+
+TBD
+
+Timing may be affected by development back-and-forth
+
+FRTB Market Risk
+
+Fed / PRA
+
+TBD
+
+Core models, e.g. Hermes 10-day
+
+New / modified
+
+New validation
+
+Validate new / modified core capital models
+
+High
+
+Late / TBD
+
+TBD
+
+TBD
+
+Potential resource issue
+
+Late developer delivery may create validation pressure
+
+FRTB Market Risk
+
+Fed / PRA
+
+TBD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ulk Transaction Waiver Summary
 
 Desk
 
