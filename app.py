@@ -1,3 +1,126 @@
+Bulk Transaction Waiver Summary
+
+Desk
+
+SPG – Equity Derivatives
+
+Trade
+
+Daily Crash Put – Fixed Share with Notional Cap and Bilateral OET
+
+Waiver Scope
+
+Bulk waiver covering up to USD 3bn aggregate notional
+
+Reference Waiver
+
+Enhancement to previously approved waiver #11290 (strike-cap version of the payoff)
+
+Example Counterparties
+
+D. E. Shaw, Morgan Stanley, Qube
+
+Underliers
+
+Korean single stocks, including:
+
+* 000660.KS
+* 005930.KS
+
+Indicative Trade Details
+
+• Trade Type: 6m Daily Crash Put – Fixed Share
+• Indicative Notional: ~USD 100m per trade
+• Maturity: 3m / 6m / 1y
+• Premium: ~4–7% annualized, paid upfront
+• Settlement: TRS settlement upon exercise
+• OET: Bilateral / Unbreakable
+
+⸻
+
+Trade Description
+
+The structure is a fixed-share daily crash put designed to hedge the desk’s Jump-to-Default (JTD) exposure.
+
+Key features include:
+
+* Daily strike reset at 55% of previous closing price
+* Fixed-share exposure subject to a 130% notional cap
+* The payoff transitions from fixed-share to fixed-notional if the underlying rallies sufficiently
+* GS holds a one-time exercise right, after which the trade terminates
+* Bilateral Optional Early Termination (OET) rights apply, with reimbursement payments amortizing over time following notice
+
+Indicative payoff:
+
+\text{Min(Fixed Shares × } S_{t-1}, \text{ Max Notional)} \times \text{Max(Strike % − } S_t/S_{t-1}, 0)
+
+For bilateral OET:
+
+* booking flags reflect bilateral termination rights and notice periods
+* the option is priced assuming effective expiry at PD + notice period
+* reimbursement payments amortize through PD + 30d
+
+⸻
+
+Reason for Waiver
+
+The current implementation supports:
+
+* fixed-share crash puts with strike caps
+
+but does not yet support:
+
+* fixed-share structures with notional caps, or
+* bilateral OET reimbursement mechanics with linear amortization
+
+As a result, enhancements are required to:
+
+* correctly model the transition from fixed-share to fixed-notional exposure following rallies
+* support reimbursement scheduling and booking flags associated with bilateral OET rights
+
+⸻
+
+Proposed Booking During Waiver Period
+
+• Trades will initially be booked using the existing strike-cap version of the payoff
+• The notional-cap enhancement will be implemented within approximately 2 weeks
+• For bilateral OET events:
+
+* reimbursement payments will be settled manually
+* a replacement trade will be booked reflecting the applicable notice period
+
+⸻
+
+Compensating Controls
+
+The desk noted that the existing EqSP CMS Linked Note framework correctly captures the crash and gap risk profile until the notional cap threshold is breached.
+
+During the waiver period:
+
+• The current approved implementation captures the core crash-put payoff mechanics and downside exposure profile
+• Residual risk relates primarily to the transition from fixed-share to fixed-notional exposure once the cap is reached
+• Bilateral OET reimbursement flows will be operationally managed through manual settlement and rebooking procedures
+• The structure remains subject to explicit notional caps, limiting exposure growth following underlying rallies
+• Trades are short-dated (3m–1y), reducing long-horizon model uncertainty
+• The waiver applies only to an enhancement of an already approved strike-cap framework rather than a new payoff type
+
+⸻
+
+Remediation Plan
+
+• Release an updated version of the EqSP CMS Linked Note supporting:
+
+* notional cap mechanics
+* bilateral OET functionality
+* reimbursement amortization logic
+
+by the trade booking date
+
+• Submit the full enhanced model to MRM by the end of the week in which the trade is booked
+
+
+
+
 CRO Updates
 
 IRB / ICR Program
