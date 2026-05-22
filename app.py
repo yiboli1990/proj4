@@ -1,4 +1,118 @@
-    Counterparty Credit Risk (CCR): MRM approved enhancements to the Interest Rate Franchise Benchmark model (GBM Public, Tier 1) to improve allocation of Agent Lender Disclosure (ALD) repo haircuts between Agent Lender and Principal Lender entities for Treasury Execution Services (TES) and short-term interest rate trading activities.
+CRO Updates
+
+IRB / ICR Program
+
+* Validation of the Corporate Industry Segment Internal Credit Risk (“ICR”) models is underway following receipt of the latest submissions last week
+* MRM highlighted progress on the Independent Review Process (“IRP”) program, including ongoing second-line reviews across submitted model packages and continued execution against agreed timelines
+* The team discussed emphasizing more concrete execution progress in reporting, including completed second-line reviews and closure of initial documentation gaps for recently submitted models
+* As part of the broader IRB program, MRM continues to progress Article 185-related workstreams and associated governance reviews
+
+SR 26-2 / Regulatory Guidance
+
+* MRCC reviewed the recently issued SR 26-2 interagency guidance and implications for model risk governance and reporting
+* Discussion focused on the continued applicability of model risk management expectations to quantitative methods and electronic trading algorithms despite the shift toward a more principles-based framework
+* The team plans to reference industry and regulatory FAQ language clarifying that electronic trading and quantitative methods remain within scope of supervisory expectations
+* Consider combining SR 26-2 and broader industry/regulatory conference themes into a single regulatory update section
+
+Mortgage PST Model Issue (Top of Mind)
+
+This was clearly identified as a major discussion topic and should likely be elevated into a “Top of Mind” item rather than a routine validation update.
+
+Suggested framing:
+
+* MRM approved the Preventative Change Control (“PCC”) related to the mortgage PST model issue, with production deployment pending
+* The issue prompted broader work to address longstanding limitations in the mortgage risk framework where desk views of risk and risk division measurements have diverged during periods of market volatility
+* The agreed remediation plan includes material enhancements to the underlying risk methodology, governance, and limit framework to improve consistency in risk measurement and escalation
+* The program is expected to require a multi-month implementation effort, with ongoing updates to be provided as milestones are completed
+* Management emphasized the importance of eliminating recurring disputes regarding risk representation during stressed market conditions
+
+Validation / Model Activity Updates
+
+IOSD Model Changes
+
+* Material IOSD model enhancements are expected to complete next week, addressing an existing MRM finding and resulting in material model impact
+
+Long-Term Stress Testing
+
+* Recent approvals related to long-term stress testing methodologies were completed
+
+Counterparty Credit Risk (“CCR”)
+
+* MRM approved enhancements to Agent Lender Disclosure (“ALD”) repo treatment within the Interest Rate franchise benchmark framework
+* The changes build on prior enhancements and address an outstanding validation finding
+
+CCAR / Regulatory Engagement
+
+* The team discussed potential inclusion of preliminary CCAR-related supervisory feedback received from the Federal Reserve
+* Discussion noted that some findings may move toward soft closure in the coming months, though updates should remain focused on model-specific implications
+
+ETSC / AI-Assisted Coding Controls
+
+This was viewed as a potentially important emerging risk theme.
+
+Suggested CRO framing:
+
+* MRM discussed recent observations related to AI-assisted software development within electronic trading environments
+* A recent migration exercise using AI coding assistance identified several control weaknesses, including missing trading controls and implementation logic errors
+* The discussion highlighted increasing model and operational risk considerations associated with AI-generated code and the need for enhanced governance and testing standards as AI-assisted development expands
+* Management noted the broader challenge of determining how AI-assisted coding oversight should be incorporated within existing model risk and AI governance frameworks
+
+BAU / Findings
+
+* Several high-severity findings were remediated and closed during the period
+* Simplify wording and focus on closure/remediation outcomes rather than detailed operational descriptions
+
+⸻
+
+Strats Updates
+
+Mortgage Model Risk Issue
+
+* Include the mortgage PST issue here as well given relevance to trading risk measurement and desk-limit interactions
+* Emphasize:
+    * ongoing remediation effort
+    * enhancements to fundamental mortgage risk modeling
+    * alignment between desk and independent risk measurement
+    * expected multi-phase implementation timeline
+
+CCR Findings / Metrics
+
+* One CCR-related finding is expected to close shortly
+* However, separate findings tied to the same broader control area may continue to pressure thresholds due to timing and implementation dependencies
+
+AI / AIRCC Updates
+
+* AIRCC updates include approval activity related to AIR Hub and Agentic Slang AI
+* GBM updates include extensions to machine learning trade score / quoting models
+* Discussion also covered broader firmwide AI governance restructuring and integration of AI oversight responsibilities into a centralized governance framework
+
+AI-Assisted Development Controls
+
+This should probably appear in Strats as well because the example originated from trading technology activity.
+
+Suggested wording:
+
+* Recent reviews of AI-assisted development activity identified examples where AI-generated code introduced control deficiencies and implementation errors within trading-related workflows
+* Findings included missing control logic and incorrect implementation behavior, reinforcing the importance of enhanced testing and governance for AI-assisted software development
+
+Regulatory / Exam Activity
+
+* Ongoing market risk management examination activity continues, including extensive requests for model and validation documentation
+* Team discussed continued supervisory focus on quantitative methodologies and trading model governance
+
+General Direction / Tone Feedback from Bill
+
+A major theme from the discussion was that updates should:
+
+* move away from purely “work in progress” language
+* emphasize completed milestones and tangible progress
+* include clearer statements on execution status and outcomes
+* elevate major strategic/remediation themes (especially mortgages and SR 26-2 implications) rather than listing only operational updates
+
+
+
+
+Counterparty Credit Risk (CCR): MRM approved enhancements to the Interest Rate Franchise Benchmark model (GBM Public, Tier 1) to improve allocation of Agent Lender Disclosure (ALD) repo haircuts between Agent Lender and Principal Lender entities for Treasury Execution Services (TES) and short-term interest rate trading activities.
 * The enhancement builds on prior changes that mapped ALD repo exposures to the underlying collateral level, improving accuracy of shortfall calculations and addressing a validation finding.
 
 
