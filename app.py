@@ -1,4 +1,8 @@
-    ETSC is observing increased use of AI coding assistants, primarily GitHub Copilot, in development of electronic trading control code across Fixed Income and Equities businesses.
+    MRM approved and released the model remediation on May 22 for the high-severity finding related to incorrect treatment of pool price floors under shocked scenarios.
+* The remediation resulted in increased utilization of IR +50bps and CSW top sheet risk limits, with temporary limit increases approved by Market Risk through July 17.
+
+
+ETSC is observing increased use of AI coding assistants, primarily GitHub Copilot, in development of electronic trading control code across Fixed Income and Equities businesses.
     * Increased use of AI-assisted development has led to more instances where AI-generated code introduced bugs, omissions, or extraneous tests that were not identified during development review.
     * As part of recent review work, ETSC identified high-severity control deficiencies in a European corporate bonds auto-quoting migration, including missing quote size checks and inaccurate risk exposure control logic.
     * ETSC is deploying internal AI-based code validation tools to support the increased validation workload associated with AI-assisted development.
