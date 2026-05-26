@@ -1,3 +1,86 @@
+Below is a draft in the refined AIRCC minutes style.
+
+⸻
+
+1. Materials: AIRC Materials dated May 26, 2026
+
+2. Surveillance AI for Unusual Movement of Assets (UMA) – Approval
+
+The presenters provided an overview of the request to approve Surveillance AI for Unusual Movement of Assets (UMA), the firm’s anti-money laundering transaction monitoring surveillance. The presenters noted that the use case follows the same general framework and control approach previously approved for Surveillance AI for insider trading surveillance, with differences driven by the AML-specific agents, data sources, and alert review process.
+
+Discussion focused on how the AI would support the existing UMA workflow. The presenters explained that the surveillance currently generates approximately 1,300 alerts per week and that investigators spend approximately 26 minutes reviewing each alert. The proposed use case is expected to reduce false positives and provide narrative summaries to help investigators review alerts more efficiently.
+
+Committee members asked whether the same model and evaluation approach used for insider trading surveillance would be used for UMA. The presenters explained that the current implementation uses Gemini 2.5 Pro, with different prompts and test sets tailored to the AML use case. The presenters clarified that the evaluation methodology, including precision, recall, predicate-based summary evaluation, and robustness testing, is consistent with the prior insider trading surveillance use case. A committee member noted that future model deprecation should be monitored, and the presenters confirmed that the model pipeline would be rerun before any model transition.
+
+The presenters explained that UMA uses several agents, including client and counterparty research, transaction analysis, e-communications, decision, and validation agents. Committee members asked about the use of e-communications data and jurisdictional restrictions. The presenters explained that the e-communications agent is used to identify information relevant to the purpose of transactions where such communications are available, and that the use case is undergoing privacy review, including a DPIA. In response to questions regarding Switzerland, China, and other jurisdictions, the presenters explained that Swiss surveillance is separate and not in scope for this launch, and that China and certain other jurisdictions would not be included. A follow-up was noted to confirm any additional country exclusions pending the DPIA.
+
+Committee members asked how the human review process would work. The presenters explained that compliance investigators would remain in the loop and would receive the agent-generated summary, reasoning, and links to the underlying data used by the agents. The presenters confirmed that this approach is consistent with the insider trading Surveillance AI use case, with the human investigator responsible for reviewing and dispositioning the alert.
+
+Committee members asked about the expected reduction in alert volume and review time. The presenters explained that testing over approximately two years of historical alerts indicated that the model could suppress approximately 35% of false positives while maintaining recall of approximately 97.46%, above the applicable 95% benchmark. For alerts that continue to be sent to compliance investigators, the presenters stated that average review time is expected to decrease from approximately 26 minutes to approximately 19 minutes based on testing.
+
+Committee members asked for clarification on language in the materials referring to the model being “trained.” The presenters clarified that the use case does not involve training a frontier model and that the work relates to prompt tuning and evaluation. A follow-up was noted to update the materials accordingly.
+
+Committee members also asked whether the use case would include a parallel run before production launch. The presenters explained that a parallel run had been used for the insider trading surveillance launch because it was the first Surveillance AI use case in Compliance, and that the team was discussing whether to use the same approach for UMA. Committee members indicated that a parallel run would be appropriate, and a follow-up was recorded.
+
+The committee approved the Surveillance AI for UMA use case. The following follow-ups were recorded:
+
+1. Update the materials to refer to prompt tuning / evaluation rather than model training
+2. Confirm country exclusions and DPIA-related restrictions before launch
+3. Confirm whether a parallel run will be conducted before production launch
+
+3. Code Review Assistant – Approval
+
+The presenters provided an overview of the Code Review Assistant, an agentic tool designed to review code changes in GitLab and provide comments and summaries to support human reviewers. The presenters noted that the tool is intended to help address increasing code review demand as use of AI coding tools increases the volume and size of merge requests. The presenters also noted that the human reviewer remains responsible for final approval.
+
+Discussion focused on the control rationale for the tool. Committee members noted that, as AI coding tools increase code generation, human review may become a bottleneck and there is a risk that reviewers may not be able to review all generated code with the same level of rigor. The presenters explained that the Code Review Assistant is intended to provide an additional control by giving reviewers a consistent package of observations and context before approval.
+
+Committee members asked whether the tool would apply only to code generated by Devin or more broadly. The presenters explained that an Internal Audit commitment specifically relates to agentic commits from Devin, but that the tool is expected to have broader value across code generated by humans and other AI coding assistants, including GitHub Copilot and Claude Code.
+
+Committee members asked whether the increase in lines of code and merge requests was driven by AI tools. The presenters explained that AI tools appear to be increasing developer velocity and the size of units of change, although more precise metrics are still being developed. Committee members suggested tracking lines of code per reviewer and other measures to understand whether review burden is increasing in a way that could create control risk.
+
+Committee members asked what the tool does and whether it could approve, reject, or modify code. The presenters clarified that the tool is advisory only and cannot approve, reject, or modify code. It reviews merge requests, adds inline comments and summaries, and provides observations to the author and reviewer. The human reviewer must still review and approve the merge request through the existing software development lifecycle process.
+
+Committee members asked how comments raised by the assistant would be resolved and whether there is quality assurance over those resolutions. The presenters explained that comments must be acknowledged or resolved in the merge request workflow, but acknowledged that users could potentially provide low-quality responses. Committee members discussed whether additional controls could be added, including requiring more structured responses, using an additional agent to assess whether comments were adequately addressed, or performing sample-based testing after the fact.
+
+Committee members asked whether the assistant provides alternative code that could be copied by users. The presenters explained that the tool is expected to provide qualitative review comments rather than acting as a code generator, reducing concern that users would copy code from the reviewing agent without adequate scrutiny.
+
+Committee members asked whether the assistant has access only to the merge request or to the broader repository context. The presenters explained that the assistant receives the merge request, the relevant diff, and broader repository context through a code graph, enabling it to assess how the proposed change fits within the code base. Committee members noted that this broader context is important to avoid false comfort from a narrow review of only the incremental change.
+
+Committee members challenged the reported 70% efficacy metric and asked how it should be interpreted. The presenters explained that the metric was based on pilot review of assistant observations and reflected whether comments were viewed as true positive observations. Committee members noted that the metric needed clearer definition, benchmarking, and a more systematic approach to evaluation. The presenters agreed that additional work is needed to define and scale evaluation, including through check-and-challenge using separate models and ongoing AI observability.
+
+Committee members emphasized that this use case is important given the expected scale of AI-generated code and the central role of code review controls. Committee members encouraged the team to develop more structured labels and feedback mechanisms so that reviewer responses can be analyzed consistently over time. Committee members also noted that the tool should be rolled out carefully but promptly, as it is itself an important control to support increasing AI-assisted development.
+
+The committee approved the Code Review Assistant use case. The following follow-ups were recorded:
+
+1. Develop a more systematic approach for evaluating assistant performance and defining efficacy metrics
+2. Explore structured feedback / labels for reviewer responses to assistant observations
+3. Consider additional controls, including interactive review assistance and broader context augmentation
+
+4. Use of Personal Agents in GitHub Copilot – Posting
+
+Technology Risk provided a posting on the use of personal agents, focused primarily on GitHub Copilot agent mode and the potential for such agents to bypass intended maker-checker controls. The discussion noted that the issue relates to use of approved tooling in ways that may not align with the scope of prior committee approvals or the intended control design.
+
+Committee members asked whether the issue was limited to engineers or also involved non-engineers. The presenters explained that access had not been removed from certain non-engineers as intended, and that approximately 2,600 non-engineers had used the tooling. The presenters noted that analysis indicated a distinction between users with superficial usage and users more heavily invested in the toolkit, and that the team was considering aggressive removal of access for users with limited usage while separately assessing the population with more meaningful usage.
+
+Committee members asked how non-engineers were able to use the tool if the approval was limited to engineers. The presenters explained that a control expected to revoke access for non-engineers had not been executed for a non-trivial period of time. The presenters stated that a postmortem is being prepared and that the team would return to the committee with the results and proposed remediation.
+
+Committee members emphasized that immediate controls should be implemented to prevent the population from growing while remediation is developed. The presenters agreed that the onboarding / approval process should be addressed promptly and that additional controls may be needed, including second-level approval or separation-of-duty controls.
+
+Discussion covered proposed remediation actions, including removing inappropriate access, ensuring personal agents are developed and used through approved lifecycle management, updating applicable standards and guidance, enforcing server-side controls to block certain high-risk actions such as payment approvals or production code merges, and enhancing monitoring to detect inappropriate usage.
+
+Committee members asked how the issue would be documented and rated. The presenters stated that an issue would be raised, likely as a high severity issue, and that the severity would be reviewed with appropriate stakeholders rather than relying solely on the calculator output. Committee members noted that the matter is significant and expected to receive senior management attention.
+
+Committee members also asked whether there would be a review of what affected users had done with the tool. The presenters agreed to assess available data and determine whether any activity occurred that would require further quality assurance or escalation. Committee members clarified that the review should not be limited to malicious activity, but should also consider activity inconsistent with expected use or requiring additional control review.
+
+The presenters agreed to return to the committee with the postmortem, issue rating, immediate access remediation plan, and any additional proposed controls.
+
+
+
+
+
+
+
+
 B
 Area
 
