@@ -1,5 +1,10 @@
 Below is a draft in the refined AIRCC minutes style.
 
+
+
+
+	Committee members also asked how the robustness and consistency testing was performed. The presenters explained that the agents are run three separate times against the same data set, prompts, and system configuration in order to measure consistency of outcomes. Committee members specifically asked how often the three runs produced divergent results. The presenters explained that, for positive cases that would be escalated by compliance investigators, the robustness score was approximately 95%, meaning that the three runs produced consistent outcomes approximately 95% of the time. The presenters noted that the robustness testing methodology is currently under review by Model Risk Management.
+
 ⸻
 
 1. Materials: AIRC Materials dated May 26, 2026
