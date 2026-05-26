@@ -1,3 +1,13 @@
+The presenters agreed to return to the committee with additional detail on the issue, including the postmortem, proposed remediation actions, and governance approach for personal agent usage. The following follow-ups were recorded:
+
+1. Implement controls to prevent additional non-engineer access pending remediation
+2. Assess and remediate existing non-engineer access to personal agent tooling
+3. Review whether any activity performed through personal agents requires additional quality assurance, investigation, or escalation
+4. Confirm proposed server-side and lifecycle-management controls for personal agents
+5. Return to the committee with the postmortem, issue severity assessment, and remediation plan
+
+
+
 Below is a draft in the refined AIRCC minutes style.
 
 
