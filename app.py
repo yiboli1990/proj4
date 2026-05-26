@@ -1,3 +1,12 @@
+    ETSC is observing increased use of AI coding assistants, primarily GitHub Copilot, in development of electronic trading control code across Fixed Income and Equities businesses.
+    * AI-assisted development has accelerated code delivery and increased documentation, testing, and code review automation, but ETSC has also observed instances where AI-generated code introduced control deficiencies that were not identified during development review.
+    * As part of recent review work, ETSC identified and remediated high-severity control issues in a European corporate bonds auto-quoting migration, including missing quote size checks and inaccurate risk exposure control logic.
+    * ETSC is deploying internal AI-based code validation tools to support the increased validation workload associated with AI-assisted development.
+* ETSC approved bilateral price streaming for U.S. Treasury bond liquidity provisioning, with several high-severity control findings remediated prior to approval.
+    * Remediated issues included data staleness checks for pricing references and limits, position consistency checks between pricing and risk systems, and exposure controls for unavailable risk positions or limits.
+
+
+
 The presenters agreed to return to the committee with additional detail on the issue, including the postmortem, proposed remediation actions, and governance approach for personal agent usage. The following follow-ups were recorded:
 
 1. Implement controls to prevent additional non-engineer access pending remediation
