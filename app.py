@@ -1,4 +1,11 @@
-    AIRCC approved the Code Review Assistant, an agentic tool designed to support GitLab code reviews and help reduce increasing human review burden amid growing AI-generated code volumes and larger merge requests, with discussion focused on reviewer capacity, effectiveness metrics, structured feedback mechanisms, and opportunities to enhance review consistency and control coverage across the SDLC
+    Key PRA IRB milestones remain on track, including delivery of the Corporate segment IRB models and remediation evidence for Internal Credit Rating (ICR) findings due this week, ahead of the planned PRA submission in September 2026.
+* Validation of the Probability of Default (PD) master scale model remains on track, with any material findings requiring remediation prior to submission expected to be communicated over the coming week.
+* Validation of the remaining IRB models, including the Large Corporate ICR and PRA IRB models, remains targeted for completion by end-August.
+* MRM has completed an initial assessment of 57 of the 119 second-line rule compliance submissions related to the PD master scale model.
+
+
+
+AIRCC approved the Code Review Assistant, an agentic tool designed to support GitLab code reviews and help reduce increasing human review burden amid growing AI-generated code volumes and larger merge requests, with discussion focused on reviewer capacity, effectiveness metrics, structured feedback mechanisms, and opportunities to enhance review consistency and control coverage across the SDLC
 * AIRCC approved Surveillance AI for Unusual Movement of Assets (UMA), an AML surveillance use case leveraging agentic workflows to reduce false positives and assist investigators with alert summaries, with testing indicating ~35% reduction in false positives while maintaining recall above risk tolerance thresholds, and with follow-ups on jurisdictional restrictions, prompt tuning terminology, and potential parallel-run implementation prior to production rollout
 * AIRCC reviewed risks relating to the use of personal agents in GitHub Copilot, including unintended access by approximately 2,600 non-engineers and potential bypass of maker-checker controls, with discussion focused on access remediation, governance gaps, server-side controls, and monitoring enhancements, and with follow-ups to return to the committee with a postmortem, issue assessment, and remediation plan
 
