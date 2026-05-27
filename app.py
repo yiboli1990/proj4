@@ -1,4 +1,10 @@
-    During the weekly touchpoint with CCAR Controllers, regulators continued to focus on the private equity beta change used in internal scenarios, including the appropriateness of using unrealized mark-to-market data from external vendors to support the selected beta assumptions.
+    CCAR – Net Interest Income (NII) Modeling: MRM is closely coordinating with developers and CCAR Controllers on planned enhancements to explicitly project interest income and expense, with model submissions targeted for May 27 and validation completion targeted for August 7.
+    * The enhancements, originally planned for CCAR 2026, are expected to materially increase projected pre-provision net revenue (PPNR) under both internal and supervisory stress scenarios, driven by refined interest-earning balance modeling and updated assumptions for gross credit mark-to-market revenue projections.
+
+
+
+
+During the weekly touchpoint with CCAR Controllers, regulators continued to focus on the private equity beta change used in internal scenarios, including the appropriateness of using unrealized mark-to-market data from external vendors to support the selected beta assumptions.
 
 
 The overlay remediates the portion of the associated validation finding related to the GCLA repo rollover assumption, while a new medium-severity finding will track strategic systemization of the fix within the model framework.
