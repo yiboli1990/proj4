@@ -1,4 +1,15 @@
-    Key PRA IRB milestones remain on track, including delivery of the Corporate segment IRB models and remediation evidence for Internal Credit Rating (ICR) findings due this week, ahead of the planned PRA submission in September 2026.
+* MRM approved an overlay for the DESCIFR Maximum Liquidity Outflow (MLO) model (Tier 1) to address a deficiency identified during validation of the new Global Core Liquidity Account (GCLA) repo monetization framework.
+    * The deficiency related to inconsistent treatment of GCLA repo rollover assumptions between liquidity models, resulting in overstated inflows and understated MLO outflows.
+    * The overlay remediates the associated validation finding, while a separate finding will track strategic systemization of the fix.
+* MRM has started reviewing enhancements to the Long-Term Stress Test (LTST) model (Tier 1), which assesses liquidity outflows under prolonged stress scenarios.
+    * Enhancements received to date include additional backtesting using recent stress events, recalibration of market and behavioral outflows, and updates to mitigating action assumptions related to liability raising activities.
+    * The proposed enhancements are intended to address an existing validation finding.
+
+
+
+
+
+Key PRA IRB milestones remain on track, including delivery of the Corporate segment IRB models and remediation evidence for Internal Credit Rating (ICR) findings due this week, ahead of the planned PRA submission in September 2026.
 * Validation of the Probability of Default (PD) master scale model remains on track, with any material findings requiring remediation prior to submission expected to be communicated over the coming week.
 * Validation of the remaining IRB models, including the Large Corporate ICR and PRA IRB models, remains targeted for completion by end-August.
 * MRM has completed an initial assessment of 57 of the 119 second-line rule compliance submissions related to the PD master scale model.
