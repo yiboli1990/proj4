@@ -1,4 +1,7 @@
-    The overlay remediates the portion of the associated validation finding related to the GCLA repo rollover assumption, while a new medium-severity finding will track strategic systemization of the fix within the model framework.
+    During the weekly touchpoint with CCAR Controllers, regulators continued to focus on the private equity beta change used in internal scenarios, including the appropriateness of using unrealized mark-to-market data from external vendors to support the selected beta assumptions.
+
+
+The overlay remediates the portion of the associated validation finding related to the GCLA repo rollover assumption, while a new medium-severity finding will track strategic systemization of the fix within the model framework.
 
 
 * MRM approved an overlay for the DESCIFR Maximum Liquidity Outflow (MLO) model (Tier 1) to address a deficiency identified during validation of the new Global Core Liquidity Account (GCLA) repo monetization framework.
