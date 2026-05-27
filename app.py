@@ -1,4 +1,9 @@
-    MRM approved and released the model remediation on May 22 for the high-severity finding related to incorrect treatment of pool price floors under shocked scenarios.
+    AIRCC approved the Code Review Assistant, an agentic tool designed to support GitLab code reviews and help reduce increasing human review burden amid growing AI-generated code volumes and larger merge requests, with discussion focused on reviewer capacity, effectiveness metrics, structured feedback mechanisms, and opportunities to enhance review consistency and control coverage across the SDLC
+* AIRCC approved Surveillance AI for Unusual Movement of Assets (UMA), an AML surveillance use case leveraging agentic workflows to reduce false positives and assist investigators with alert summaries, with testing indicating ~35% reduction in false positives while maintaining recall above risk tolerance thresholds, and with follow-ups on jurisdictional restrictions, prompt tuning terminology, and potential parallel-run implementation prior to production rollout
+* AIRCC reviewed risks relating to the use of personal agents in GitHub Copilot, including unintended access by approximately 2,600 non-engineers and potential bypass of maker-checker controls, with discussion focused on access remediation, governance gaps, server-side controls, and monitoring enhancements, and with follow-ups to return to the committee with a postmortem, issue assessment, and remediation plan
+
+
+MRM approved and released the model remediation on May 22 for the high-severity finding related to incorrect treatment of pool price floors under shocked scenarios.
 * The remediation resulted in increased utilization of IR +50bps and CSW top sheet risk limits, with temporary limit increases approved by Market Risk through July 17.
 
 
