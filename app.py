@@ -1,3 +1,6 @@
+    The overlay remediates the portion of the associated validation finding related to the GCLA repo rollover assumption, while a new medium-severity finding will track strategic systemization of the fix within the model framework.
+
+
 * MRM approved an overlay for the DESCIFR Maximum Liquidity Outflow (MLO) model (Tier 1) to address a deficiency identified during validation of the new Global Core Liquidity Account (GCLA) repo monetization framework.
     * The deficiency related to inconsistent treatment of GCLA repo rollover assumptions between liquidity models, resulting in overstated inflows and understated MLO outflows.
     * The overlay remediates the associated validation finding, while a separate finding will track strategic systemization of the fix.
