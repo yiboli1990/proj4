@@ -1,3 +1,6 @@
+The presenters explained that, although manager approval controls were in place, a follow-up engineering control intended to remove or restrict access for non-engineers had not been implemented as expected, resulting in continued access for a non-trivial number of users over an extended period of time.
+
+
 
 This follow-up primarily came from Dmitri’s comments around making reviewer feedback more systematic and measurable, rather than relying on open-ended acknowledgements. Dmitri specifically suggested constraining reviewer responses through standardized labels or categories so the firm could better track review outcomes, evaluate effectiveness over time, and improve observability of the code review process. The discussion was further reinforced by Una’s point that structured responses would make it easier to distinguish whether observations were substantively addressed versus simply acknowledged.
 
