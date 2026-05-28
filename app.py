@@ -1,4 +1,7 @@
-    CCAR – Net Interest Income (NII) Modeling: MRM is closely coordinating with developers and CCAR Controllers on planned enhancements to explicitly project interest income and expense, with model submissions targeted for May 27 and validation completion targeted for August 7.
+    Identified a high-severity finding in the mortgage pass-through pool pricing model, with remediation increasing risk limit utilization and prompting broader enhancements to the mortgage risk framework
+
+
+CCAR – Net Interest Income (NII) Modeling: MRM is closely coordinating with developers and CCAR Controllers on planned enhancements to explicitly project interest income and expense, with model submissions targeted for May 27 and validation completion targeted for August 7.
     * The enhancements, originally planned for CCAR 2026, are expected to materially increase projected pre-provision net revenue (PPNR) under both internal and supervisory stress scenarios, driven by refined interest-earning balance modeling and updated assumptions for gross credit mark-to-market revenue projections.
 
 
