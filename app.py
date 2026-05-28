@@ -1,4 +1,24 @@
-    Identified a high-severity finding in the mortgage pass-through pool pricing model, with remediation increasing risk limit utilization and prompting broader enhancements to the mortgage risk framework
+Yes — that follow-up primarily came from Mike and Dmitri, with some reinforcement from Una. The underlying concern was that the current workflow only requires users to “acknowledge” comments, which makes it difficult to systematically evaluate whether review comments were meaningfully addressed.
+
+The clearest transcript support is here:
+
+“The more we constrain the language of these feedbacks and the types of labels that we use … the more systematic we become and the more explicit we are in the types of labels that we want the people and the programs themselves … to use.”
+
+and:
+
+“I would encourage the team to think about … what are the types of labels that we would like to associate with every single merge request? What do we think is going to be most informative and how do we want to track that over time.”
+
+Also from Una:
+
+“if you have a comment, then using AI it should be pretty easy to determine … is it like a positive ACK or is it a negative … it would help us to capture more systematic feedback.”
+
+So I would rewrite the follow-up to make the intent clearer and tie it more directly to the discussion:
+
+Explore more structured reviewer feedback mechanisms, including standardized labels or categorized responses to assistant observations, to improve observability, evaluation, and tracking of how review comments are addressed over time
+
+
+
+Identified a high-severity finding in the mortgage pass-through pool pricing model, with remediation increasing risk limit utilization and prompting broader enhancements to the mortgage risk framework
 
 
 CCAR – Net Interest Income (NII) Modeling: MRM is closely coordinating with developers and CCAR Controllers on planned enhancements to explicitly project interest income and expense, with model submissions targeted for May 27 and validation completion targeted for August 7.
