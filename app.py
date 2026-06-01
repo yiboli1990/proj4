@@ -1,3 +1,10 @@
+The pricing models themselves do not explicitly incorporate liquidity or concentration considerations as part of their model performance assessment framework. Model performance is assessed through the standard validation and ongoing monitoring processes, including benchmarking, sensitivity analysis, stress testing, and periodic model reviews.
+
+Liquidity and concentration risks are addressed separately through valuation adjustments (VAs) applied on top of model-generated valuations. These adjustments are determined and reviewed by Controllers and are subject to periodic reassessment and governance processes. For example, additional reserves may be applied to reflect liquidity considerations, concentrated exposures, or other market-specific risks not captured directly by the pricing model.
+
+Evidence supporting model performance can be provided through the model validation documentation, annual review reports, and ongoing performance assessments, which include backtesting (where applicable), sensitivity analysis, stress testing, and other model monitoring activities. While there is no dedicated model performance metric specifically measuring the impact of liquidity and concentration, these risks are captured through the firm’s valuation adjustment framework and associated monitoring processes.
+
+
 AI Risk and Controls Committee (AIRCC)
 
 * AIRCC reviewed risks associated with personal agents in GitHub Copilot, including unintended access by non-engineers and potential bypass of maker-checker controls.
