@@ -1,3 +1,22 @@
+AI Risk and Controls Committee (AIRCC)
+
+* AIRCC reviewed risks associated with personal agents in GitHub Copilot, including unintended access by non-engineers and potential bypass of maker-checker controls.
+    * Follow-up actions include access remediation, governance enhancements, strengthened monitoring, and a postmortem assessment of the incident.
+* AIRCC approved Prism AI (GBM Public, Tier 2), an agentic AI assistant that supports traders with market research, trade ideas, and scenario analysis.
+    * Model validation remains in progress, with remediation underway for findings related to agentic AI controls, security, and reliability.
+* AIRCC approved Surveillance AI for Unusual Movement of Assets (UMA) (Compliance, Tier 1), which automates review of transaction monitoring alerts that would otherwise require human investigation.
+    * The model leverages the same framework previously approved for insider trading surveillance, with enhancements tailored to anti-money laundering use cases.
+* AIRCC reviewed the Code Review Assistant (Engineering, AI Platform), an agentic tool designed to support software code reviews by generating comments and review summaries.
+    * Future enhancements include performance measurement, structured reviewer feedback, and additional controls to improve review quality and effectiveness.
+
+    MRM is supporting the transition from the AI Risk and Controls Committee (AIRCC) to the newly established AI Risk Council (ARC), including updates to governance documents, operating protocols, and committee responsibilities.
+* Several AI governance initiatives, including non-engineer access to developer AI tools, personal AI agents, and enhanced controls for agentic AI, are being transitioned to ARC for further review and oversight.
+
+
+
+
+
+
 The presenters explained that, although manager approval controls were in place, a follow-up engineering control intended to remove or restrict access for non-engineers had not been implemented as expected, resulting in continued access for a non-trivial number of users over an extended period of time.
 
 
