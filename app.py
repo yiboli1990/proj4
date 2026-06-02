@@ -1,3 +1,17 @@
+Yes. The comment is valid because the current draft could be interpreted as saying that liquidity/concentration effects are always handled outside the pricing model through separate VAs, which is not strictly true. In some cases, conservatism is implemented directly within the pricing framework through parameter adjustments or payoff modifications.
+
+I would revise the paragraph as follows:
+
+The pricing models themselves do not generally incorporate liquidity or concentration considerations as part of their model performance assessment framework. Instead, these risks are typically addressed through valuation adjustments (VAs) applied on top of model generated valuations. These adjustments are determined and reviewed by Controllers and are subject to periodic reassessment and governance processes. For example, additional reserves may be applied to reflect liquidity considerations, concentrated exposures, or other market specific risks not captured directly by the pricing model.
+
+In certain cases, where a conservative valuation adjustment can be represented through model parameters or payoff features, the adjustment may be incorporated directly into the pricing framework. Examples include barrier shift valuation adjustments and call date write off adjustments for Bermudan products. Such adjustments remain subject to the same governance, review, and periodic reassessment processes as other valuation adjustments.
+
+Model performance is assessed through standard validation and ongoing performance monitoring processes, including sensitivity analysis, benchmarking, and outcomes analysis. In addition, all Tier 1 models are subject to Regression Testing (“RegTest”), a suite of automated tests designed to assess ongoing model performance. The tests are implemented as computer code (“test scripts”) and are run daily through an automated RegTest management system. Any failures are reported to model developers, with persistent failures escalated through governance channels, including to MRM.
+
+This version preserves the original message while acknowledging the exception for model-integrated VAs and tying them back to the same governance framework.
+
+
+
 3. AskHCM – Approval
 
 The presenters provided an overview of AskHCM, a chat-driven interface intended to serve as a digital front door for HCM-related inquiries. The presenters explained that employees currently interact with HCM through self-service tools, help lines, and direct outreach to HCM personnel, and that AskHCM is intended to provide a unified conversational interface for a range of HCM self-service activities. The presenters noted that the initial rollout would be limited to approximately 1,100 HCM full-time employees and would support a defined set of use cases, including personal information updates, employment verification letters, vacation and absence inquiries, and related HCM workflows.
