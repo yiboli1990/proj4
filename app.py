@@ -1,3 +1,18 @@
+Recent approvals include:
+
+• Surveillance AI for Unusual Movement of Assets (UMA) (Compliance, Tier 1), which applies the previously approved insider trading surveillance framework to AML transaction monitoring and is expected to suppress approximately 35% of false-positive alerts while maintaining a recall rate of approximately 97.5%; the tool also provides investigators with AI-generated research summaries that are expected to reduce average review time from 26 to 19 minutes per alert
+
+• Code Review Assistant (Engineering, AI Platform), approved for an initial rollout, which reviews GitLab code changes and provides comments and summaries to support human reviewers as increasing AI-generated code volumes place greater pressure on existing code review processes
+
+• AskHCM (HCM, Tier 3), approved for an initial pilot to approximately 1,100 HCM employees, which enables employees to obtain support for selected HCM self-service activities through an AI-powered interface capable of answering queries and executing approved HCM workflows using the employee’s existing entitlements
+
+• Prism AI (GBM Public, Tier 2), an agentic AI platform intended to support market synthesis, research, and analytical finance use cases by combining LLM reasoning with market data, firm data, and MCP-based tools
+– AIRCC discussion focused on MCP governance, code execution sandbox controls, architecture, and information security requirements
+– Approval was deferred pending completion of Tech Risk review and resolution of architecture, MCP registry, and sandboxing follow-up items
+
+
+
+
 1. Materials: AIRCC Materials dated June 2, 2026
 
 2. Prism AI – Approval Deferred
