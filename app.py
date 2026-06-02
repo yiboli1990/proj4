@@ -1,3 +1,62 @@
+1. Materials: AIRCC Materials dated June 2, 2026
+
+2. Prism AI – Approval Deferred
+
+The presenters provided an overview of Prism AI, a GBM Public use case intended to support market synthesis and analytical finance workflows by combining LLM reasoning with firm data, market data, MCP tools, and a limited Python execution environment. The presenters noted that the initial target population would be approximately 300 to 500 GBM users, with any broader rollout expected to return to the committee.
+
+Discussion focused on the architecture, MCP implementation, Tech Risk review status, and execution environment. Committee members asked whether the MCP servers had been registered through the appropriate MCP registry and whether they would be deployed in the production registry before rollout. The presenters explained that the current implementation was running in a developer sandbox and that the plan was to migrate to production after AIRCC approval. Committee members clarified that production rollout should use the production MCP registry and that MCP servers should go through the required Tech Risk review before launch. A follow-up was recorded to align with Engineering and Tech Risk on MCP registry and review requirements.
+
+Committee members also asked about outstanding Tech Risk findings. Tech Risk noted that its review had recently been completed or was in the process of being finalized, and that certain baseline controls, including TLS and on-behalf-of token handling, still required review or remediation. Committee members noted that any higher-risk or baseline-control issues would need to be addressed before go-live.
+
+Discussion then focused on the Python / code execution sandbox. Committee members asked where the infrastructure was running and how code execution was isolated. The presenters explained that the sandbox was currently running on an on-prem machine with limited network connectivity and restricted read / write access. Committee members noted that the firm’s AI security standards include specific requirements for sandboxed code execution and suggested that the team consider approved cloud-based or containerized execution environments rather than an on-prem DC setup. A follow-up was recorded to review the sandboxing approach with Engineering and Tech Risk.
+
+Committee members asked several questions regarding the Prism context framework, including how market knowledge is stored, how the LLM accesses context, and whether memory / retrieval is deterministic. The presenters explained that Prism uses context files and markdown-based guidance to capture institutional knowledge, user context, prior thread history, and market information, which the LLM can access through MCP tools. The presenters clarified that the current structure is predefined and semi-deterministic, rather than a fully self-organizing memory or graph structure.
+
+Committee members also asked whether the MCP server itself contains an LLM. The presenters clarified that the LLM sits outside the MCP server through the GS AI platform, and that the MCP server exposes tools and context to the LLM. Committee members noted that this architecture should be more clearly reflected and reviewed as part of the follow-up.
+
+Given the remaining open questions and the pending Tech Risk review, the committee deferred approval of Prism AI. The item is expected to return to the committee after the team addresses the architecture, MCP registry, Tech Risk, and sandboxing follow-ups. Committee members also noted that the use case is expected to be referred to ARC given the level of interest in the topic.
+
+The following follow-ups were recorded:
+
+1. Confirm MCP server registration and production MCP registry requirements before rollout
+2. Complete Tech Risk review and address baseline control issues, including TLS and on-behalf-of token handling
+3. Review the code execution sandbox approach with Engineering and Tech Risk, including use of approved cloud or containerized sandboxing
+4. Clarify the Prism architecture, including MCP server boundaries, LLM interaction, context retrieval, and memory structure
+5. Return to AIRCC for further review once the above items are addressed
+
+3. AskHCM – Approval
+
+The presenters provided an overview of AskHCM, a chat-based interface intended to serve as a digital front door for HCM-related queries. The presenters explained that the initial rollout would be limited to approximately 1,100 HCM full-time employees, and that the tool would initially support a defined set of straightforward use cases such as personal information updates, employment verification letters, vacation / absence inquiries, and related HCM self-service workflows.
+
+Committee members asked whether the pilot would include all HCM employees globally, including China. The presenters clarified that AskHCM is delivered through GS AI Assistant and therefore would not be available in mainland China, where GS AI Assistant is not available.
+
+Discussion focused on data access, entitlements, and the protection of sensitive HCM information. The presenters explained that the tool uses the end user’s authentication token and does not rely on a privileged system account with broad access to HCM data. The presenters further clarified that users in the initial pilot would only be able to query or act on their own information, and would not be able to access information about other employees or direct reports.
+
+Committee members asked about the scope of HCM system integrations. The presenters explained that AskHCM connects through back-end MCP services to Oracle HCM and other HCM systems, including homegrown systems for vacation tracking, timesheets, and employment verification. The presenters noted that the MCP services support specific approved workflows and that live-agent handoff is available where a query requires escalation or human support.
+
+The presenters discussed the testing and validation approach, including automated agent evaluation, product testing, functional testing, business UAT, and MRM validation. A committee member asked how the automated judge-based evaluation worked. The presenters explained that they first validated the judge framework using approximately 175 test cases and then used the framework to assess responses across criteria such as fidelity, faithfulness, integrity, compliance, safety, and quality. The presenters noted that this framework would also support ongoing monitoring and drift detection.
+
+Committee members asked about bugs identified during testing. The presenters explained that testing identified a range of issues, including prompt / interpretation issues and functional implementation bugs. The presenters noted that all critical and high-priority issues had been closed and retested, and that remaining open items were medium or low priority and not viewed as blocking for go-live.
+
+The presenters also discussed post-go-live monitoring. The presenters explained that the automated testing framework would be used periodically after launch and that prompt review would be restricted to a small group of senior HCM employees where review is required for investigations, compliance, employee relations, or service optimization. The presenters noted that lessons from the HCM-only pilot would inform a potential broader firmwide rollout later in the year.
+
+The committee approved the AskHCM use case for the initial HCM employee pilot.
+
+4. Use of Personal Data in GS AI Assistant – Posting
+
+The secretary posted that the committee chairpersons had approved the use of personal data in GS AI Assistant on behalf of the committee. The secretary noted that this follows the limited AWM rollout approved last year, the establishment of rules on use of personal data in the AI Standard, and implementation of a new guardrail intended to detect misuse of personal data.
+
+A committee member asked whether the control is implemented at the API back end or at the web UI level. The secretary explained that the posting relates to use of GS AI Assistant in the UI and that the current terms of use restriction on personal data is being lifted. Legal and Compliance further explained that updates to the AI Standard address responsible use of personal data across AI tools and helped support removal of the restriction in GS AI Assistant, together with the detective control.
+
+5. Administrative Matters
+
+Use of Personal Data in GS AI Assistant Extension Approval was posted to the committee, as described above.
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+
+
+
 The pricing models themselves do not explicitly incorporate liquidity or concentration considerations as part of their model performance assessment framework. Model performance is assessed through the standard validation and ongoing monitoring processes, including benchmarking, sensitivity analysis, stress testing, and periodic model reviews.
 
 Liquidity and concentration risks are addressed separately through valuation adjustments (VAs) applied on top of model-generated valuations. These adjustments are determined and reviewed by Controllers and are subject to periodic reassessment and governance processes. For example, additional reserves may be applied to reflect liquidity considerations, concentrated exposures, or other market-specific risks not captured directly by the pricing model.
