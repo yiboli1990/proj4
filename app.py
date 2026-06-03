@@ -1,4 +1,11 @@
-    MRM approved enhancements to FinBERT (EAWM, Tier 2), extending the model’s coverage to Japanese equities within the existing sentiment analysis framework.
+    MRM validation is in progress for Prism AI (GBM Public, Tier 2), an agentic AI assistant that supports traders with market research, trade ideas, and scenario analysis.
+* MRM has identified findings related to information leakage through agent memory, segregation between agent-generated and production code environments, and agent behavior resulting in inaccurate responses; remediation is underway.
+* AIRCC deferred approval of Prism AI pending follow-up with Engineering Platform and Technology Risk on sandbox implementation, Model Context Protocol (MCP) server governance, and completion of the Technology Risk review before returning to the committee for further consideration.
+
+
+
+
+MRM approved enhancements to FinBERT (EAWM, Tier 2), extending the model’s coverage to Japanese equities within the existing sentiment analysis framework.
 * FinBERT is used by Quantitative Investment Strategies (QIS) to generate daily sentiment signals from analyst research, which serve as inputs to equity portfolio construction and risk attribution models.
 * The enhancement introduces a Japanese-language methodology using analyst reports from local providers and a fine-tuned Qwen 2.5 32B large language model (LLM) to generate sentiment scores for Japanese stocks.
 
