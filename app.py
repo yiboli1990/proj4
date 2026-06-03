@@ -1,3 +1,9 @@
+    MRM approved enhancements to FinBERT (EAWM, Tier 2), extending the model’s coverage to Japanese equities within the existing sentiment analysis framework.
+* FinBERT is used by Quantitative Investment Strategies (QIS) to generate daily sentiment signals from analyst research, which serve as inputs to equity portfolio construction and risk attribution models.
+* The enhancement introduces a Japanese-language methodology using analyst reports from local providers and a fine-tuned Qwen 2.5 32B large language model (LLM) to generate sentiment scores for Japanese stocks.
+
+
+
 Yes. The comment is valid because the current draft could be interpreted as saying that liquidity/concentration effects are always handled outside the pricing model through separate VAs, which is not strictly true. In some cases, conservatism is implemented directly within the pricing framework through parameter adjustments or payoff modifications.
 
 I would revise the paragraph as follows:
