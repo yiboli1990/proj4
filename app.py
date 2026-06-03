@@ -1,4 +1,20 @@
-    MRM validation is in progress for Prism AI (GBM Public, Tier 2), an agentic AI assistant that supports traders with market research, trade ideas, and scenario analysis.
+Resource summary
+
+Area	Resource Need	Key Points
+DRC	Manageable with current resources	Mostly low to moderate effort. Need to confirm coverage because several people who worked on prior DRCs have left. Avoid concentrating work on one person.
+FRTB-CVA	Meaningful resource pressure	Full validations needed for several CVA engines, each likely requiring 2–3 months from a validator. Key person risk around Piyush, especially for engines, tradable uplift, and aggregator knowledge. Aggregator work still needs an identified owner.
+FRTB Market Risk	Highest resource demand	Existing resources likely sufficient through August, but Q4 may need 1–3 additional people. Pressure comes from core models, Hermes 10-day, SBM / Greek stability testing, and competing Significant 2 reviews.
+
+Short management summary
+
+DRC appears manageable with existing resources, subject to confirming validator availability and avoiding single-person concentration. FRTB-CVA has more acute key-person risk, particularly around Piyush and the aggregator work. FRTB Market Risk is expected to require the highest level of resources, with current capacity likely sufficient near term but potential need for 1–3 additional validators in Q4.
+
+
+
+
+
+
+MRM validation is in progress for Prism AI (GBM Public, Tier 2), an agentic AI assistant that supports traders with market research, trade ideas, and scenario analysis.
 * MRM has identified findings related to information leakage through agent memory, segregation between agent-generated and production code environments, and agent behavior resulting in inaccurate responses; remediation is underway.
 * AIRCC deferred approval of Prism AI pending follow-up with Engineering Platform and Technology Risk on sandbox implementation, Model Context Protocol (MCP) server governance, and completion of the Technology Risk review before returning to the committee for further consideration.
 
