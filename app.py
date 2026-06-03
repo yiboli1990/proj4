@@ -1,4 +1,9 @@
-    The enhancement extends FinBERT coverage to Japanese equities by incorporating local analyst research and a fine-tuned Qwen 2.5 32B large language model (LLM), replacing the traditional transformer-based approach used in the existing framework.
+    introduces the use of a fine-tuned generative LLM to extract sentiment from Japanese-language analyst research.
+
+
+
+
+The enhancement extends FinBERT coverage to Japanese equities by incorporating local analyst research and a fine-tuned Qwen 2.5 32B large language model (LLM), replacing the traditional transformer-based approach used in the existing framework.
 
 
 
