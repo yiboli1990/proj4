@@ -1,3 +1,13 @@
+
+• Model inventory grew by [X]% year over year, reflecting continued model development activity across the firm, particularly in [AI / Engineering / Risk Management].
+
+• AI model inventory increased by [X]% year over year. Generative AI adoption continues to expand across business and control functions and remains an area of ongoing monitoring and governance focus.
+
+• Validation findings inventory declined by [X]% year over year due to sustained remediation activity. Findings closure rates exceeded new findings raised during the quarter.
+
+• Aggregate model risk remains stable. MRM continues to monitor emerging risks associated with [AI adoption / regulatory developments / model complexity], while maintaining all Model Risk Appetite metrics within approved thresholds.
+
+
 Based on this discussion, Bill appears to be converging on a single aggregate inventory slide for BRC that focuses on trends and emerging risks rather than operational activity. The key changes are:
 
 1. Remove Validation Activities / Model Approvals
