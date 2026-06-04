@@ -1,4 +1,204 @@
-    introduces the use of a fine-tuned generative LLM to extract sentiment from Japanese-language analyst research.
+Based on this discussion, Bill appears to be converging on a single aggregate inventory slide for BRC that focuses on trends and emerging risks rather than operational activity. The key changes are:
+
+1. Remove Validation Activities / Model Approvals
+
+Bill explicitly said:
+
+“I don’t think showing model approvals is that interesting.”
+
+Therefore:
+
+❌ Remove:
+
+* Validation activities
+* Initial validations
+* Annual reviews
+* Revalidations
+* Approval counts
+
+These can remain in MRCC/FRAC reporting.
+
+⸻
+
+2. Keep Total Model Inventory as the Lead Metric
+
+Top-left section should be:
+
+Model Inventory
+
+Show:
+
+Quarter	Inventory	QoQ Change	YoY Change
+2Q25	x		
+3Q25	x		
+4Q25	x		
+1Q26	x	+x%	+x%
+
+Add:
+
+* New models
+* Retired models
+
+Potential format:
+
+Quarter	Total	New	Retired
+
+Bill specifically suggested:
+
+show quarterly for a few years
+
+rather than monthly.
+
+⸻
+
+3. Add Dedicated AI Inventory Section
+
+This was one of the strongest pieces of feedback.
+
+Bill said:
+
+AI inventory is where it’s more interesting to show change
+
+you’ll see big growth
+
+show a longer trend
+
+New section:
+
+AI Model Inventory
+
+Show:
+
+Quarter	Total AI	GenAI	Non GenAI
+
+and/or
+
+Stacked bar chart:
+
+* Tier 1
+* Tier 2
+* Tier 3
+
+Bill specifically wanted:
+
+✅ Growth trend
+
+✅ Tier breakdown
+
+✅ Longer history
+
+Potential title:
+
+AI Inventory Growth
+
+⸻
+
+4. Findings Stay
+
+Bill agreed findings remain relevant.
+
+Keep:
+
+Validation Findings
+
+By severity:
+
+Quarter	Sev 1	Sev 2	Sev 3
+
+or
+
+Open findings trend over time.
+
+Again:
+
+* Quarterly
+* QoQ
+* YoY
+
+rather than monthly.
+
+⸻
+
+5. Add Commentary / Highlights Box
+
+Bill liked the idea of narrative commentary.
+
+Instead of approval statistics, add a small callout box.
+
+Example:
+
+Key Inventory Developments
+
+• AI inventory increased 18% QoQ driven by growth in GenAI applications across Engineering and GBM.
+
+• Total inventory remained stable with new model development largely offset by retirements.
+
+• Validation findings remained within historical ranges with no material change in severity profile.
+
+This seems exactly what Bill was asking for.
+
+⸻
+
+6. Focus on Trends, Not RAS
+
+Important nuance:
+
+You suggested:
+
+everything within threshold
+
+Bill pushed back:
+
+This isn’t about RAS metrics.
+
+The commentary box should discuss:
+
+* inventory changes
+* AI growth
+* findings trends
+* emerging themes
+
+not whether metrics are green.
+
+RAS already has a separate page.
+
+⸻
+
+Proposed BRC Inventory Slide
+
+Aggregate Model Risk Profile
+
+Top Left
+
+* Total Inventory Trend (quarterly)
+* New / Retired Models
+* QoQ and YoY changes
+
+Top Right
+
+* AI Inventory Trend
+* GenAI vs Non GenAI
+* Tier breakdown
+
+Bottom Left
+
+* Validation Findings Trend
+* Severity breakdown
+* QoQ and YoY changes
+
+Bottom Right
+
+* Key Inventory Developments / Emerging Trends
+    * AI growth
+    * notable inventory shifts
+    * findings themes
+    * emerging risk observations
+
+This aligns closely with the broader direction discussed for SR 26-2 and the revised BRC reporting approach: high-level aggregate model risk indicators, trends, and emerging risks rather than operational validation activity.
+
+
+
+introduces the use of a fine-tuned generative LLM to extract sentiment from Japanese-language analyst research.
 
 
 
