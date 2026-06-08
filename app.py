@@ -1,3 +1,164 @@
+⸻
+
+4. UK ICAAP Validation
+
+Move from validation section into CRO update if material.
+
+Potential bullet:
+
+* Completed validation of UK ICAAP models supporting GSI, GSIB and GSGUK capital planning processes, including enhancements to stress calibration, LGD estimation and Basel 3.1 overlays.
+
+⸻
+
+5. NFA Model Risk Roundtable
+
+Avoid regulatory-sounding headline.
+
+Instead use:
+
+Industry Engagement
+
+* MRM participated in NFA model risk roundtable discussions covering model governance, initial margin model oversight, substituted compliance and supervisory expectations.
+
+⸻
+
+6. Significant Validation / Tier 1 Activity (New Theme)
+
+David specifically asked for thematic summaries since quarter end.
+
+Possible item:
+
+Recent Significant Tier 1 Validation Activity
+
+* Completed several significant Tier 1 validations and model enhancements across capital, market risk and treasury areas; preparing thematic summary of key risk management improvements and business impact.
+
+⸻
+
+7. GBM Topics (Need Input from Muyan / others)
+
+Potential topics:
+
+Profound Closure
+
+David explicitly called this out as a success story.
+
+* Completed closure of Profound related model work, resulting in release of associated capital requirements and resolution of longstanding model risk constraints.
+
+SpaceX / IPO Activity
+
+David wants investigation, not necessarily reporting yet.
+
+Action:
+
+* Check with GBM, Treasury, Securities and Commodities teams.
+* Determine whether there are:
+    * Liquidity model implications
+    * IPO financing/stabilization modelling impacts
+    * Risk measurement challenges
+
+Potential future CRO item:
+
+* Elevated IPO underwriting activity (including large transactions such as SpaceX) reviewed for potential liquidity and risk measurement implications; no material model risk concerns identified to date.
+
+⸻
+
+Strats Update
+
+1. SIM IR Delta Backbone Change
+
+Should appear in Strats as well.
+
+Potential bullet:
+
+* Production rollout completed for SIM IR Delta backbone methodology enhancement.
+* Improved alignment between model sensitivities and observed risk exposures.
+* Expected reduction in IM disputes and improved consistency of margin calculations.
+
+⸻
+
+2. TCM Migration / Front Bridge
+
+Continue existing update.
+
+Potential bullet:
+
+* Front office migration to TCM framework continues. Remaining Tier 2 and Tier 3 findings are linked to migration activities and associated retirement of legacy models.
+
+⸻
+
+3. AI Landscape Discussion (Main Strats Topic)
+
+David clearly wants a strategic discussion rather than individual model updates.
+
+Requested framing:
+
+Group together:
+
+* Prism
+* Compass
+* Aurora
+* Bumblebee
+* BondNation / TBM-related chatbot tools
+* Bobby AI
+
+Question for management:
+
+Why do we have multiple chatbot / market intelligence platforms with overlapping functionality?
+
+Suggested update:
+
+GBM AI Assistant Ecosystem
+
+* Reviewed growing set of AI-enabled market intelligence and conversational assistant platforms across GBM (Prism, Compass, Aurora, Bumblebee, Bobby AI and related initiatives).
+* Management discussion focused on platform differentiation, governance, development efficiency and long-term operating model.
+* Requested greater clarity regarding target users, data sources, overlap in functionality and strategic positioning across platforms.
+
+This is probably the item David most wants discussed with Alex.
+
+⸻
+
+4. Mortgage PST Issue
+
+Mention in Strats only if there is material new information from Shipra.
+
+⸻
+
+5. IPO / SpaceX Theme
+
+David actually broadened this beyond SpaceX.
+
+Potential bullet:
+
+* Reviewing implications of increased IPO and capital markets activity for model inventory, liquidity modelling and risk measurement frameworks.
+
+⸻
+
+Follow-ups Before Finalizing
+
+Shipra
+
+* Mortgage PST model issue status.
+
+Muyan / GBM
+
+* Profound closure details.
+* Any SpaceX / IPO related model risk topics.
+* Commodities developments (oil volatility, collateralized structures, long-dated options).
+
+SIM Team
+
+Gather numbers for:
+
+* Old vs new delta sensitivities.
+* IM reduction (~$300mm).
+* Largest dispute counterparties.
+* Estimated dispute reduction statistics.
+
+Those are the items David seemed most interested in elevating for Alex. The SIM IR Delta backbone change and the AI platform landscape discussion are likely the headline items.
+
+
+
+
 Based on the discussion, I would structure the updates as follows.
 
 CRO Update
