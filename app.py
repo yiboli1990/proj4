@@ -1,4 +1,11 @@
-    MRM attended the NFA Model Risk Roundtable in New York, which focused on governance expectations for approved Initial Margin and Capital models, including oversight of Risks Not in VaR (RNIV), model performance monitoring, and new product approvals.
+    MRM completed validation of models used by GSI, GSIB, and GSGUK for ICAAP 2026.
+* Key enhancements addressing MRM findings included updates to the Value-at-Risk stress calibration framework and the introduction of new provisioning models with collateral-specific Loss Given Default (LGD) estimates.
+* Additional validated enhancements included a Basel 3.1 regulatory overlay, improvements to loss methodologies for commodity derivatives and equity swaps, and revisions to the residual risk add-on framework.
+
+
+
+
+MRM attended the NFA Model Risk Roundtable in New York, which focused on governance expectations for approved Initial Margin and Capital models, including oversight of Risks Not in VaR (RNIV), model performance monitoring, and new product approvals.
 * Key discussion topics included formalization of RNIV capitalization processes, governance expectations for model performance reviews, and efforts to streamline regulatory approval requirements for new products and model extensions.
 
 
