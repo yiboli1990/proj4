@@ -1,3 +1,46 @@
+Based on the discussion, I would structure the updates as follows.
+
+CRO Update
+
+1. IRB Uplift Program (keep as recurring item)
+
+Message: Continue providing progress update as Alex remains interested.
+
+Potential bullet:
+
+* IRB uplift program remains on track, including PD master scale enhancements and associated validation activities. Updated status and key milestones to be provided based on latest program progress.
+
+2. Mortgage PST Model Issue (Shipra)
+
+Action: Check with Shipra and keep as a standing update.
+
+Potential bullet:
+
+* Ongoing monitoring of mortgage PST model issue. Provide latest status, remediation progress, and expected timeline once confirmed with stakeholders.
+
+⸻
+
+3. SIM IR Delta Backbone Methodology Change (Major CRO Item)
+
+This appeared to generate the most interest.
+
+What they want:
+
+* Update that methodology has gone live and been approved.
+* NFA notification forthcoming.
+* Include quantitative impact.
+
+Suggested CRO bullets:
+
+SIM IR Delta Backbone Enhancement
+
+* Approved and implemented revised IR Delta backbone methodology for SIM calculations; NFA notification process underway.
+* Change reduces overstated sensitivities and lowers posted/received initial margin requirements by approximately $300mm in aggregate.
+* Analysis indicates expected reduction in client margin disputes, particularly among counterparties with historically large SIM disagreements.
+
+Additional table requested
+
+
 ⸻
 
 4. UK ICAAP Validation
