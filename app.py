@@ -1,3 +1,8 @@
+    MRM attended the NFA Model Risk Roundtable in New York, which focused on governance expectations for approved Initial Margin and Capital models, including oversight of Risks Not in VaR (RNIV), model performance monitoring, and new product approvals.
+* Key discussion topics included formalization of RNIV capitalization processes, governance expectations for model performance reviews, and efforts to streamline regulatory approval requirements for new products and model extensions.
+
+
+
 
 • Model inventory grew by [X]% year over year, reflecting continued model development activity across the firm, particularly in [AI / Engineering / Risk Management].
 
