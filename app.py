@@ -1,3 +1,63 @@
+Below is a draft with more detail on Q&A and less on presentation walkthrough.
+
+1. Materials: AIRCC Materials dated June 9, 2026
+
+2. Prism AI – Approval
+
+The presenters provided an updated overview of Prism AI, following the committee’s prior review on June 2, 2026, where approval was deferred pending follow-up with Engineering and Technology Risk regarding implementation, MCP servers, and related controls. The presenters explained that Prism AI is intended to support GBM Public market synthesis and analytical finance use cases by combining LLM reasoning with Goldman Sachs proprietary data, licensed market data, real-time market information, economic data, and MCP-enabled tools. The presenters noted that the tool is designed to support internal market practitioners by generating analysis, reports, charts, and other artifacts to help contextualize market events and support decision-making.
+
+Discussion focused heavily on output reliability, hallucination risk, evaluation metrics, and business-use safeguards. A committee member asked how the presenters would ensure hallucination risk is minimized, particularly given that users may make decisions based on Prism outputs. The presenters explained that they cannot guarantee there will be no hallucinations, but that they are seeking to reduce the risk through better context, higher-quality inputs, more constrained data access, and use of curated sources. The presenters noted that Prism does not currently perform open internet search and instead relies on controlled data sources, including approved APIs and identified sources of truth for market and economic data.
+
+Committee members pressed further on hallucination risk and asked whether the team had quantitative data on the current level of hallucination. The presenters explained that the use case is more qualitative than traditional deterministic model outputs and that Prism is intended to support, rather than replace, user judgment. The presenters noted that they are developing an LLM-as-judge framework to break down outputs into falsifiable statements that can be checked against ground truth. The presenters indicated that they are targeting an 80% threshold for report-level evaluation and a higher threshold, approximately 90%, for atomic factual accuracy, such as specific market or economic data points.
+
+Committee members challenged whether the proposed 80% threshold was sufficient and asked how the threshold had been determined. The presenters explained that the threshold was based on pre-go-live testing and sample reports reviewed to date, and that the objective is to improve the metric over time. Committee members noted that 80% may not be the right metric or threshold, particularly if the tool is being used to support decisions. Committee members further noted that a user may find the tool helpful even where accuracy is below a specific percentage, but that the relevant question is whether the tool enables better, faster, and safer decision-making.
+
+A committee member summarized the concern that the discussion appeared to focus heavily on user satisfaction and qualitative usefulness, while the more important consideration may be the business outcome and the risk of bad decisions resulting from an imperfect tool. Committee members discussed that customer happiness alone may not be an adequate metric and that the evaluation framework should capture business value and decision-support quality, including whether users can identify when outputs should or should not be relied upon. Committee members also noted that the firm should move toward AI metrics that demonstrate value creation, time saved, decision acceleration, and improved outcomes, rather than relying only on accuracy or user satisfaction metrics.
+
+Committee members recommended that the presenters establish a well-defined evaluation data set and objective evaluation framework. The presenters explained that they already have testing in place for factual accuracy, tool calls, and deterministic components, and that they are working with Model Risk Management on the broader evaluation framework. Committee members asked that the team identify an initial target user set, collect structured feedback from that pilot group, refine the relevant metrics, and develop a checkpoint to assess accuracy, usefulness, and business-value measures before broader rollout.
+
+Committee members also asked whether Prism would be used externally or made available to clients. The presenters confirmed that Prism is an internal-only tool, intended for use by a limited population of sophisticated market practitioners, and not for publication through Marquee or external client access. The presenters further explained that users will be reminded that Prism is a decision-support tool, that outputs may contain errors or hallucinations, and that users must perform their own review before relying on the analysis.
+
+Discussion also returned to technology and control items from the prior committee meeting. A committee member noted that Technology Risk and Engineering had completed a deeper review of the MCP servers and code execution approach. Engineering stated that, for the proposed pilot, there were no blockers from the MCP server review, subject to agreed remediation. Engineering noted that the current MCP server implementation should not be reused by other teams until it is refactored, reconciled with the MCP server registry, and reviewed under the standard process. Engineering also noted that any future expansion beyond the proposed GBM Public pilot would require the MCP-related action items to be completed.
+
+Committee members also discussed the code execution sandbox. Engineering noted that the current implementation runs on-prem and that the team should migrate to the recommended cloud-based code execution approach, including Bedrock Agent Code Interpreter or another approved architecture. The presenters agreed to move the implementation to cloud by September 1, 2026, and noted that this migration was included in the remediation roadmap.
+
+Technology Risk noted that penetration testing had not yet been completed and that any high or critical findings identified through that process would need to be remediated before pilot launch. Technology Risk also noted that certain findings had system-generated remediation dates, but that the expectation is for the team to complete several items earlier than those formal dates.
+
+Committee members asked about the scope of the initial rollout. The presenters explained that the request is for a limited GBM Public pilot of approximately 300 to 500 users, with potential access for management committees or their nominees given senior stakeholder interest. Committee members noted concern that the proposal still relied heavily on intentions and future remediation, and asked whether the relevant evaluation and business-value metrics could be better defined before approval. One committee member stated that they were not comfortable signing off based on the current materials without clearer metrics and a better articulation of business value and decision-support safeguards.
+
+The committee chairperson noted that Prism AI would be escalated to ARC given the level of senior management interest in the use case. The committee agreed to recommend escalation to ARC with a recommendation to approve, subject to conditions. The presenters were asked to complete and provide the agreed pre-go-live items, including penetration testing, user training and disclaimers, Technology Risk remediation items, and the MRM testing and evaluation summary.
+
+The following pre-go-live conditions and follow-ups were recorded:
+
+1. Complete penetration testing and remediate any high or critical findings before pilot launch
+2. Provide a full summary of MRM testing and evaluation work, including the LLM-as-judge framework, factual accuracy metrics, and other evaluation criteria
+3. Define the initial pilot user population and establish a structured process to collect user feedback and evaluate accuracy, usefulness, and business value
+4. Provide appropriate user training and disclaimers regarding hallucination risk and user responsibility for reviewing outputs
+5. Complete agreed Technology Risk remediation items, including MCP server refactoring, MCP server registry reconciliation, and cloud migration for code execution
+6. Review any future expansion beyond the proposed GBM Public pilot with Engineering, Technology Risk, and relevant control functions before broader rollout
+
+3. Administrative Matters
+
+PIPG Data Insights – Posting
+
+The secretary posted an update on PIPG Data Insights, a GBM Public Tier 3 model used by the Equities business. The presenter explained that the model was designed to analyze past Goldman Sachs quotes for equity structured products and available market information to identify similar products and predict quantitative values, such as potential client charges or pre-catch amounts.
+
+The presenter noted that Model Risk Management identified significant performance issues during validation. Specifically, the model’s predictive performance was near zero in certain cases, with R-squared results close to or below zero, indicating that some outputs were effectively equivalent to a random number generator. MRM also observed instability in the results due to native LLM variability, including cases where the model identified different similar quotes across repeated runs of the same question. In addition, MRM benchmarked the generative AI approach against simpler methods and found that regression or machine learning approaches performed better for certain components.
+
+As a result, MRM initially rejected the model and raised two high-severity findings. The presenter explained that the developers disabled the features that were not performing adequately, and MRM approved the final reduced-scope solution for production. A committee member asked how the developers improved the model’s accuracy from the initial poor performance. The presenter explained that the underperforming features were disabled and that the developers may explore regression or machine learning alternatives for those components in the future.
+
+Membership Changes
+
+The secretary noted that Sal had retired from the firm and, as a result, had left the committee.
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+To the extent transaction(s) were discussed, no committee member raised issues related to the transactions regarding any (i) material conflict of interest, (ii) material exposure to high-risk assets or high-risk trading strategies that could significantly increase the likelihood that the firm could incur a substantial financial loss, or (iii) activity that would otherwise pose a threat to the safety and soundness of the firm or the financial stability of the United States.
+
+
+
+
 BRC Deck Changes
 
 1. Remove detailed inventory / validation activity slides from BRC
