@@ -1,3 +1,9 @@
+    Following the recently identified high-severity finding, MRM, Market Risk Strats, and Desk Strats are progressing a broader remediation program to address longstanding differences between trader views of mortgage risk and Risk Division measurements, particularly during periods of elevated market volatility.
+* Desk Strats are planning a phased rollout of model enhancements. The first phase will focus on recalibration of the mortgage prepayment model, addressing an existing MRM finding, with submission expected by end-June. A second phase, targeted for Q3, will introduce enhancements to mortgage rate modeling.
+* As an interim control, Strats have enhanced monitoring of trader versus model DV01 and will actively track divergences to enable timely investigation and remediation where needed.
+
+
+
 Below is a draft with more detail on Q&A and less on presentation walkthrough.
 
 1. Materials: AIRCC Materials dated June 9, 2026
