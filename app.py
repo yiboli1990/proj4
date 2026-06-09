@@ -1,4 +1,9 @@
-    MRM is reviewing proposed enhancements to the treatment of IPO-related exposures in credit migration models, where existing fallback assumptions may lead to conservative capital treatment for newly listed issuers.
+    MRM is reviewing proposed enhancements to the treatment of IPO-related exposures in credit migration models, where existing fallback assumptions may result in conservative capital outcomes for newly listed issuers.
+    * Discussions are ongoing with Risk Strats to develop a scalable methodology applicable across IPO names, with particular focus on ensuring empirical support and validation robustness.
+
+
+
+MRM is reviewing proposed enhancements to the treatment of IPO-related exposures in credit migration models, where existing fallback assumptions may lead to conservative capital treatment for newly listed issuers.
 
 
 
