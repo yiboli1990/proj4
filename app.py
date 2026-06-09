@@ -1,4 +1,11 @@
-    Following the recently identified high-severity finding, MRM and Strats are progressing a broader remediation program to address longstanding limitations in the mortgage risk framework that have contributed to differences between desk and Risk Division risk measurements during periods of market volatility.
+    Validation of the Probability of Default (PD) master scale model remains on track for completion next week.
+    * Preliminary findings relate to calibration methodology, use of historical default data, and support for low-default portfolios, with remediation discussions underway with Risk Strats.
+* Validation of the Corporate Industry Segment Internal Credit Rating (ICR) models is in progress.
+    * MRM continues to review remediation evidence for prior findings and is assessing the impact of a recently identified data processing issue affecting model calibration outputs.
+* Rule Compliance Review: Initial assessment has been completed for all 119 rules submitted for the PD master scale model; approximately 800 rules are expected to require MRM review as part of the broader IRB program.
+
+
+Following the recently identified high-severity finding, MRM and Strats are progressing a broader remediation program to address longstanding limitations in the mortgage risk framework that have contributed to differences between desk and Risk Division risk measurements during periods of market volatility.
 * Planned enhancements will be delivered in phases, with initial changes focused on improving prepayment modeling and subsequent work targeting mortgage rate modeling and related risk measurement methodologies.
 * Enhanced monitoring has been established to track differences between trader and model risk estimates and support timely identification and escalation of material divergences.
 
