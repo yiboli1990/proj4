@@ -1,4 +1,9 @@
-    Validation of the Probability of Default (PD) master scale model remains on track for completion next week.
+    MRM is in discussion with Risk Strats on proposed changes to the fallback rating treatment for IPO-related exposures, prompted by the potential for material underwriting-related exposure associated with the SpaceX IPO.
+* The review is assessing whether the current fallback approach is overly conservative for newly listed issuers, given historical IPO credit performance, and whether a more risk-sensitive and scalable methodology can be supported through empirical analysis and validation.
+
+
+
+Validation of the Probability of Default (PD) master scale model remains on track for completion next week.
     * Preliminary findings relate to calibration methodology, use of historical default data, and support for low-default portfolios, with remediation discussions underway with Risk Strats.
 * Validation of the Corporate Industry Segment Internal Credit Rating (ICR) models is in progress.
     * MRM continues to review remediation evidence for prior findings and is assessing the impact of a recently identified data processing issue affecting model calibration outputs.
