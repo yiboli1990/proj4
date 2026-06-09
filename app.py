@@ -1,4 +1,8 @@
-    MRM is in discussion with Risk Strats on proposed changes to the fallback rating treatment for IPO-related exposures, prompted by the potential for material underwriting-related exposure associated with the SpaceX IPO.
+    MRM is reviewing proposed enhancements to the treatment of IPO-related exposures in credit migration models, where existing fallback assumptions may lead to conservative capital treatment for newly listed issuers.
+
+
+
+MRM is in discussion with Risk Strats on proposed changes to the fallback rating treatment for IPO-related exposures, prompted by the potential for material underwriting-related exposure associated with the SpaceX IPO.
 * The review is assessing whether the current fallback approach is overly conservative for newly listed issuers, given historical IPO credit performance, and whether a more risk-sensitive and scalable methodology can be supported through empirical analysis and validation.
 
 
