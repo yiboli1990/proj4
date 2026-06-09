@@ -1,3 +1,93 @@
+BRC Deck Changes
+
+1. Remove detailed inventory / validation activity slides from BRC
+
+There was broad agreement that the current BRC deck is too operational and detailed for Board-level reporting.
+
+Proposed removals
+
+Likely remove or significantly reduce:
+
+* Inventory detail slides
+* Approval status breakdowns
+* Detailed validation activity pages
+* Detailed findings aging charts
+* Detailed RAS commentary pages
+
+Specifically, they were referring to current “slides 6–8”.
+
+The rationale was:
+
+* SR 26-2 no longer explicitly emphasizes Board-level model risk reporting
+* Board reporting should align with other risk domains
+* BRC should focus on:
+    * material model risk
+    * aggregate trends
+    * emerging risks
+    * high-level indicators
+
+There was repeated feedback that:
+
+“Do we really need this level of detail for the Board?”
+
+⸻
+
+2. Do NOT fully eliminate aggregate inventory/finding information
+
+Bill pushed back on removing too much.
+
+Key message:
+
+Model risk exists in the aggregate
+
+He felt the Board still needs:
+
+* some sense of scale
+* inventory evolution
+* findings flow
+* model development trends
+* what types of models are being added (especially AI)
+
+So instead of deleting entirely, the direction is:
+
+Replace multiple detailed slides with 1–2 high-level aggregate slides
+
+Potential content:
+
+* total model inventory trend
+* new vs retired models
+* findings opened vs closed
+* inventory by major category/tier
+* AI model growth
+* high-level finding trends
+
+But avoid:
+
+* operational-level detail
+* approval status minutiae
+* excessive breakdowns
+
+⸻
+
+3. Focus on “flow” metrics instead of static snapshots
+
+Bill specifically noted current charts miss the “story”.
+
+Example concern:
+
+“How did you get from 782 to 693?”
+
+So recommended additions:
+
+* models added / retired during period
+* findings raised / findings closed
+* net change
+* trend over time
+
+This was viewed as more meaningful than static inventory counts.
+
+
+
 ⸻
 
 4. UK ICAAP Validation
