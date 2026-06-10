@@ -1,4 +1,5 @@
-    with post-event review focused on a limitation related to the net 24-hour liquidity flow adjustment, which could have a material impact on Intraday Liquidity Risk (ILR) measurements in the presence of large end-of-day transactions.
+MRM reviewed the implementation of a regulatory interpretation change for IPO settlement exposures and confirmed the revised treatment is appropriately reflected in the associated capital calculation framework
+with post-event review focused on a limitation related to the net 24-hour liquidity flow adjustment, which could have a material impact on Intraday Liquidity Risk (ILR) measurements in the presence of large end-of-day transactions.
 
 
 
