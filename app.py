@@ -1,4 +1,11 @@
-    Attended industry roundtables hosted by McKinsey and PwC on SR 26-2, where peer institutions indicated they are refining model inventories, tiering frameworks, and validation approaches rather than undertaking major MRM program changes.
+MRM reviewed key liquidity risk models supporting IPO-related activity, including intraday liquidity and mark-to-market risk models, and identified no material model issues requiring remediation ahead of the offering.
+
+* Model performance will be monitored through the IPO period, with any lessons learned incorporated into future assessments of large-scale IPO events.
+
+
+
+
+Attended industry roundtables hosted by McKinsey and PwC on SR 26-2, where peer institutions indicated they are refining model inventories, tiering frameworks, and validation approaches rather than undertaking major MRM program changes.
 * Key discussion topics included governance risks associated with model materiality thresholds, trigger-based validation approaches, and differing industry practices for Generative AI governance and oversight.
 * Participants generally expect SR 26-2 to drive MRM efficiency gains through reduced validation requirements for lower-risk models and more risk-based application of controls.
 
