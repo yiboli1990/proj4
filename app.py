@@ -1,3 +1,6 @@
+The presenters explained that they are continuing to refine prompts, context, evaluation methods, and monitoring processes and expect performance to improve as additional user feedback is incorporated.
+
+
 A committee member further requested that users receive clear disclosures regarding hallucination risk and the limitations of the tool before using it. The presenters confirmed that users would receive training, reminders, and appropriate disclaimers regarding hallucination risk and the need to independently assess Prism-generated analysis before relying on it.
 
 
