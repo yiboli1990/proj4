@@ -1,4 +1,11 @@
-    Attended industry roundtables hosted by McKinsey and PwC on SR 26-2. Peer institutions generally do not expect major MRM program changes, but are refining model inventories, tiering frameworks, and validation approaches to align with the more risk-based guidance.
+    Attended industry roundtables hosted by McKinsey and PwC on SR 26-2, where peer institutions indicated they are refining model inventories, tiering frameworks, and validation approaches rather than undertaking major MRM program changes.
+* Key discussion topics included governance risks associated with model materiality thresholds, trigger-based validation approaches, and differing industry practices for Generative AI governance and oversight.
+* Participants generally expect SR 26-2 to drive MRM efficiency gains through reduced validation requirements for lower-risk models and more risk-based application of controls.
+
+
+
+
+Attended industry roundtables hosted by McKinsey and PwC on SR 26-2. Peer institutions generally do not expect major MRM program changes, but are refining model inventories, tiering frameworks, and validation approaches to align with the more risk-based guidance.
 * Key discussion topics included governance risks from model materiality thresholds, trigger-based validation and post-deployment review approaches, and varying industry practices for Generative AI governance.
 * Participants generally expect MRM efficiency gains under the new guidance, with many firms forecasting reductions in validation workload and related operating costs over the next 12–18 months.
 
