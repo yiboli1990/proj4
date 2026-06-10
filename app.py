@@ -1,4 +1,13 @@
-    MRM is reviewing proposed enhancements to the treatment of IPO-related exposures in credit migration models, where existing fallback assumptions may result in conservative capital outcomes for newly listed issuers.
+Committee members challenged whether the proposed 80% report-level threshold was sufficient and asked how the threshold had been determined. The presenters explained that the threshold was based on pre-go-live testing and sample reports reviewed to date, and that the team intends to increase the threshold over time. Committee members asked what level of hallucination or factual inaccuracy is currently being observed and how the team would bridge the gap between current performance and the target state. The presenters explained that it is difficult to provide a single ongoing hallucination rate because the outputs are qualitative and vary by user query, but noted that the team is developing an LLM-as-judge framework to decompose reports into verifiable facts and assess those facts against ground truth.
+
+Committee members questioned whether an 80% report-level accuracy threshold was the right measure, noting that a fixed percentage may not be meaningful without business context. It was noted that even a lower accuracy level could be acceptable if users understand the limitations and the tool helps them make better or faster decisions, while a higher accuracy level could still be insufficient if errors lead to poor decisions. Committee members therefore emphasized that the evaluation framework should consider not only factual accuracy and hallucination rates, but also the business value of the tool, the quality of decision support, and whether users are given enough information to understand when outputs should or should not be relied upon.
+
+Committee members also recommended establishing a well-defined evaluation data set and objective evaluation process, rather than relying primarily on anecdotal user feedback or user satisfaction. The presenters noted that user feedback to date has generally been positive and that business stakeholders have found the outputs useful, but committee members emphasized that customer happiness alone should not be the primary measure of success for a decision-support tool. The presenters agreed to provide a fuller summary of MRM testing and evaluation work, including the proposed metrics, thresholds, and feedback process.
+
+
+
+
+MRM is reviewing proposed enhancements to the treatment of IPO-related exposures in credit migration models, where existing fallback assumptions may result in conservative capital outcomes for newly listed issuers.
     * Discussions are ongoing with Risk Strats to develop a scalable methodology applicable across IPO names, with particular focus on ensuring empirical support and validation robustness.
 
 
