@@ -1,4 +1,9 @@
-    Model performance will be monitored through the IPO period, with post-event review focused on intraday liquidity modeling assumptions and treasury action treatment.
+    Model performance will be monitored through the IPO period, with any lessons learned incorporated into future enhancements of intraday liquidity risk modeling, including the treatment of the 24-hour liquidity flow adjustment and simulation of treasury management actions during large-scale IPO events.
+
+
+
+
+Model performance will be monitored through the IPO period, with post-event review focused on intraday liquidity modeling assumptions and treasury action treatment.
 
 MRM reviewed key liquidity risk models supporting IPO-related activity, including intraday liquidity and mark-to-market risk models, and identified no material model issues requiring remediation ahead of the offering.
 
