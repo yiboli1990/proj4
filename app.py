@@ -1,3 +1,6 @@
+A committee member further requested that users receive clear disclosures regarding hallucination risk and the limitations of the tool before using it. The presenters confirmed that users would receive training, reminders, and appropriate disclaimers regarding hallucination risk and the need to independently assess Prism-generated analysis before relying on it.
+
+
 The committee chairperson noted that the discussion should focus not only on the proposed accuracy threshold, but also on how the team intends to measure and monitor performance over time. The committee chairperson suggested identifying an initial pilot user population, collecting structured feedback from those users, refining the evaluation metrics and framework, and implementing a staged rollout approach. The committee chairperson further recommended establishing periodic reporting on output quality and evaluation results so that the committee and business stakeholders can assess performance and determine whether broader deployment is appropriate.
 
 
