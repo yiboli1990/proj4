@@ -1,3 +1,8 @@
+    Attended industry roundtables hosted by McKinsey and PwC on SR 26-2. Peer institutions generally do not expect major MRM program changes, but are refining model inventories, tiering frameworks, and validation approaches to align with the more risk-based guidance.
+* Key discussion topics included governance risks from model materiality thresholds, trigger-based validation and post-deployment review approaches, and varying industry practices for Generative AI governance.
+* Participants generally expect MRM efficiency gains under the new guidance, with many firms forecasting reductions in validation workload and related operating costs over the next 12–18 months.
+
+
 The presenters explained that they are continuing to refine prompts, context, evaluation methods, and monitoring processes and expect performance to improve as additional user feedback is incorporated.
 
 
