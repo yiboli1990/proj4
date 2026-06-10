@@ -1,4 +1,5 @@
-    Model performance will be monitored through the IPO period, with any lessons learned incorporated into future enhancements of intraday liquidity risk modeling, including the treatment of the 24-hour liquidity flow adjustment and simulation of treasury management actions during large-scale IPO events.
+    Model performance will be monitored through the IPO period, with any lessons learned incorporated into future enhancements of intraday liquidity risk modeling, including reevaluation of the 24-hour liquidity flow adjustment for large end-of-day inflows that may offset intraday liquidity risk.
+Model performance will be monitored through the IPO period, with any lessons learned incorporated into future enhancements of intraday liquidity risk modeling, including the treatment of the 24-hour liquidity flow adjustment and simulation of treasury management actions during large-scale IPO events.
 
 
 
