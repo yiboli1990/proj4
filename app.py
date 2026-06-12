@@ -1,3 +1,11 @@
+Hi Ross and Ronnie,
+As part of the ongoing SR 26-2 discussions, we have been considering some potential updates to the BRC model risk reporting.
+The attached mock-up is a preliminary proposal to consolidate the current inventory, findings, and commentary pages into a single dashboard focused on aggregate model risk indicators, inventory trends, AI inventory, and findings trends.
+This is still under discussion and has not yet been reviewed with Alex, but we wanted to share it with you for awareness and any initial feedback.
+Thanks, Yibo
+
+
+
 Agree to remove.
 
 The point was that EIR Tracker includes a severity calculator used to generate an initial severity assessment. The discussion clarified that, if a Personal Agent issue were identified, the severity would not be determined solely based on the calculator output. Instead, the assessment would be reviewed by the appropriate stakeholders before a final severity determination is made.
