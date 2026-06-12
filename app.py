@@ -1,3 +1,8 @@
+Agree to remove.
+
+The point was that EIR Tracker includes a severity calculator used to generate an initial severity assessment. The discussion clarified that, if a Personal Agent issue were identified, the severity would not be determined solely based on the calculator output. Instead, the assessment would be reviewed by the appropriate stakeholders before a final severity determination is made.
+
+
 Yes. Based on our prior discussion, the “calculator” was the EIR tracker severity calculator.
 
 The committee discussion was not really about the calculator itself. The point was that if Personal Agent identified an issue, the severity would not be automatically assigned based solely on the EIR tracker calculation; it would still go through review by the appropriate stakeholders.
