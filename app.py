@@ -1,3 +1,19 @@
+Yes. Based on our prior discussion, the “calculator” was the EIR tracker severity calculator.
+
+The committee discussion was not really about the calculator itself. The point was that if Personal Agent identified an issue, the severity would not be automatically assigned based solely on the EIR tracker calculation; it would still go through review by the appropriate stakeholders.
+
+So I would remove the calculator reference entirely and write:
+
+The presenter stated that an issue would be raised and that the severity would be reviewed with the appropriate stakeholders before a final severity determination is made.
+
+Or, if you want to retain the distinction:
+
+The presenter stated that an issue would be raised and that the severity would be reviewed with the appropriate stakeholders rather than being automatically assigned.
+
+I would use the first version. It captures the control point that the committee cared about (human review and governance) and avoids introducing the unexplained reference to the EIR tracker severity calculator.
+
+
+
 MRM reviewed the implementation of a regulatory interpretation change for IPO settlement exposures and confirmed the revised treatment is appropriately reflected in the associated capital calculation framework
 with post-event review focused on a limitation related to the net 24-hour liquidity flow adjustment, which could have a material impact on Intraday Liquidity Risk (ILR) measurements in the presence of large end-of-day transactions.
 
