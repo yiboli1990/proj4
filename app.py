@@ -1,3 +1,109 @@
+Transaction Waiver Summary
+
+Desk
+
+LDN Equity Strategic Non-Linear
+
+Region / Legal Entity
+
+EMEA – GSBE
+
+Tradable
+
+Eq VWAP Flex Buyback (20651)
+
+Trader / Strat
+
+Trader: Tom Lord
+Strat: Bryan Harback
+
+Underlier
+
+National Bank of Greece (ETE GA)
+
+Counterparty
+
+National Bank of Greece
+
+Notional
+
+EUR 330 million
+
+Maximum Shares
+
+66,000,000 shares
+
+Dates
+
+• Signing Date: 10-Jun-2026
+• Start Date: 11-Jun-2026
+• Maximum Maturity: 15-Jan-2027
+
+Economics
+
+• Discount: 1.0%
+• Upside Sharing: 50%
+• Client Termination Right: Fair Value
+• Expected P&L: ~$6 million
+
+⸻
+
+Trade Description
+
+GS is mandated to purchase shares on behalf of the client in exchange for providing a guaranteed discount and upside participation, while retaining 100% of the downside risk.
+
+The trade terminates when either:
+
+* the target notional of EUR 330 million is reached, or
+* the maximum share quantity of 66 million shares is acquired.
+
+In addition, the transaction contains a daily minimum execution requirement based on the stock’s overnight performance:
+
+The minimum purchase obligation therefore increases following negative overnight price moves.
+
+⸻
+
+Reason for Waiver
+
+The existing Eq VWAP Flex Buyback tradable does not support dynamic daily minimum purchase requirements linked to overnight stock performance.
+
+While the core VWAP buyback economics are fully supported, enhancements are required to represent the conditional minimum execution schedule described above.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The desk has completed a code enhancement supporting the daily minimum share logic and proposes to book the transaction using the updated implementation under waiver pending formal MRM review.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the impact of the unsupported feature is bounded between two readily quantifiable execution scenarios:
+
+* Lower bound: no daily minimum share requirement throughout the program.
+* Upper bound: a requirement to purchase 200,000 shares every trading day for the life of the program.
+
+As a result:
+
+• The valuation impact of the enhancement can be assessed within a clearly defined range.
+• The core VWAP buyback payoff, discount mechanics, upside sharing, and termination conditions remain fully represented by the approved tradable.
+• The unsupported feature affects only the minimum daily execution schedule and does not introduce new market risk factors or payoff types.
+• The daily minimum purchase requirement is transparent, deterministic, and based solely on observable overnight stock returns.
+
+⸻
+
+Remediation Plan
+
+• Submit the completed code enhancement to MRM for review and approval.
+• Complete validation of the daily minimum share execution logic within the existing Eq VWAP Flex Buyback framework.
+• Upon approval, migrate the trade from waiver treatment to the formally approved implementation.
+
+
+
+
+
+
 Hi Ross and Ronnie,
 As part of the ongoing SR 26-2 discussions, we have been considering some potential updates to the BRC model risk reporting.
 The attached mock-up is a preliminary proposal to consolidate the current inventory, findings, and commentary pages into a single dashboard focused on aggregate model risk indicators, inventory trends, AI inventory, and findings trends.
