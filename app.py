@@ -1,3 +1,25 @@
+Credit Risk: MRM Review of Q1 2026 GS Group Backtesting Results
+
+* Backtesting Outcomes: Results were broadly consistent with Q4 2025.
+    * Long-horizon Potential Exposure (PE) backtesting (covering the last four years) continued to show elevated exception rates across several asset classes.
+    * Expected Exposure (EE) backtesting exception rates remained low.
+* Review Approach:
+    * For observed exceptions, MRM assessed whether breaches were driven by underlying model deficiencies or limitations in the backtesting methodology.
+* MRM Assessment:
+    * MRM concluded that the current backtesting framework is overly conservative and lacks sufficient statistical resolution to provide a reliable assessment of portfolio performance.
+    * Nevertheless, empirical evidence from GSI’s comparable portfolio, evaluated under an enhanced backtesting framework, supports the conclusion that the underlying PE models remain fundamentally sound.
+* Validation Findings: MRM raised three medium-severity findings related to the backtesting methodology:
+    * Incorrectly constructed test securities introduce artificial volatility and spurious exceptions in Repo backtesting.
+    * The current “worst-of” aggregation across six testing horizons inflates the Type I error rate, resulting in excessive false positives.
+    * The existing asset-level aggregation approach materially reduces statistical power, as limited sample sizes, cross-sectional dependencies, and the absence of breach materiality considerations make the results difficult to interpret.
+* Conclusion:
+    * Overall, MRM continues to find the PE models fit for purpose at the GS Group level.
+
+
+
+
+
+
 Transaction Waiver Summary
 
 Desk
