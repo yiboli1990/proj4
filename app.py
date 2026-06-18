@@ -1,3 +1,46 @@
+Market Risk
+
+VaR Backtesting – Q1 2026 GS Group
+
+* Backtesting Outcomes: Three new backtesting breaches were observed in Q1 2026, increasing the 250-day breach count to six and resulting in a VaR multiplier of 3.5 as of quarter end.
+* Review Approach: For each breach, MRM assesses potential drivers, including risk factor data quality, proxy usage, unmodeled risks, and model responsiveness.
+* MRM Assessment: MRM reviewed the Q1 2026 breaches and did not identify any deficiencies in the VaR framework. The breaches were primarily driven by significant market moves in EUR and GBP interest rate volatility and swap rate risk factors that would not have been captured by a more rapidly adapting VaR model.
+* Conclusion: MRM continues to find the VaR model fit for purpose at the GS Group level.
+
+Unmodeled Risk Factors
+
+* Monitoring Outcomes: All unmodeled risk factors remained immaterial on both a standalone and aggregate basis. A new risk factor, Commodities Spot: Power Capacity, was added during the quarter.
+* Review Approach: MRM reviews impact estimates for emerging trends and abnormal values and assesses shock calibration methodologies for newly added risk factors. As part of the recent VaR framework revalidation, MRM also conducted a comprehensive review of methodologies used to derive unmodeled risk factor shocks.
+* MRM Assessment: MRM considers the calibration methodology for the new risk factor to be appropriate. The broader review identified one finding related to outdated calibrations, including instances where certain risk factors were assigned zero shocks.
+
+Risk Factor Data Quality and Mapping
+
+* Monitoring Outcomes: All material exceptions identified during Q2 2026 monitoring were investigated and resolved. Materiality of SVaR backfilled data remained low.
+* Review Approach: MRM reviews TSV and proxy reports and evaluates remediation actions, including new asset creation, proxy remapping, and model updates.
+* MRM Assessment: MRM continues to find risk factor data quality and mapping fit for purpose.
+
+SVaR Stress Ratio and Stress Period
+
+* Monitoring Outcomes: The selected stress period alternated between the Financial Crisis and COVID periods, while the stress ratio declined modestly relative to prior quarters.
+* Review Approach: MRM reviews stress ratios and selected stress periods for trends, abnormal values, and consistency with portfolio exposures.
+* MRM Assessment: MRM found the selected stress periods appropriate and consistent with portfolio exposures. The decline in the stress ratio was driven by an increase in VaR relative to SVaR.
+
+IRC
+
+* Monitoring Outcomes: One Sensitivity Analysis (Sample Default Rating) monitoring breach was observed for GS Group in Q1 2026.
+* Review Approach: MRM reviews benchmarking, sensitivity, and outcomes analyses for unexpected trends and deviations.
+* MRM Assessment: MRM concluded that results remain consistent with expectations and the inherent variability of the IRC framework, including the breached sensitivity metric.
+
+Specific Risk
+
+* Monitoring Outcomes: All empirical test failures, except Bank Loan Flow Trading and Euro HY Flow Trading, were explained through regime-shift analysis. The remaining failures were attributable to technical factors.
+* Review Approach: MRM assesses cases where the VaR model does not fully explain historical price movements and evaluates responsiveness, robustness, and specific risk capture.
+* MRM Assessment: MRM continues to find the VaR model fit for purpose with respect to specific risk measurement.
+
+
+
+
+
 Attended the Barclays AI Roundtable, where peer institutions discussed governance approaches for agentic AI, scaling AI oversight, and governance boundaries for end-user AI tools.
 Participants noted that governance frameworks for agentic AI remain a work in progress, with ongoing debate around review requirements, monitoring approaches, and inventory management.
 Peers continue to face challenges scaling AI governance, including implementation of pattern-based approvals and oversight of general-purpose AI tools such as Copilot.
