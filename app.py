@@ -1,3 +1,11 @@
+CCR: MRM approved enhancements to the Franchise Equity Benchmark Model (GBM Public, Tier 1) to harmonize stress methodologies with the SPG benchmark model as part of the broader CREST Unified Benchmark Model (UBM) implementation.
+
+* Key changes align equity liquidation, fund liquidation, and credit stress assumptions across the two frameworks, supporting automation of the combined benchmark process and reducing reliance on manual overlays.
+* The enhancements are estimated to reduce Worst Case Loss (WCL) by approximately $1.3bn across FEBM portfolios, representing a modest impact relative to the overall FEBM stress loss.
+
+
+
+
 Market Risk
 
 VaR Backtesting – Q1 2026 GS Group
