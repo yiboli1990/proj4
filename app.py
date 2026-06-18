@@ -1,3 +1,8 @@
+Attended the Barclays AI Roundtable, where peer institutions discussed governance approaches for agentic AI, scaling AI oversight, and governance boundaries for end-user AI tools.
+Participants noted that governance frameworks for agentic AI remain a work in progress, with ongoing debate around review requirements, monitoring approaches, and inventory management.
+Peers continue to face challenges scaling AI governance, including implementation of pattern-based approvals and oversight of general-purpose AI tools such as Copilot.
+
+
 Credit Risk: MRM Review of Q1 2026 GS Group Backtesting Results
 
 * Backtesting Outcomes: Results were broadly consistent with Q4 2025.
