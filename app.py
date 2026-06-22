@@ -1,4 +1,129 @@
-    The issue primarily impacts the APAC Convertible Bond business and affects both model valuations and risk sensitivities.
+After reading the transcript, Bill’s comments were much more about how to present the MRM message than the underlying technical content.
+
+The key takeaway is that the FRAC slide should not just be a table. It should have a short MRM Executive Summary at the top that highlights where MRM found issues and where MRM remains comfortable.
+
+Market Risk Slide
+
+Bill was generally comfortable with the market risk story.
+
+His main comments were:
+
+1. Keep the table
+    * He liked the table format.
+    * It clearly separates:
+        * Column 2 = First Line observations/results
+        * Column 3 = MRM assessment
+2. Rename the second column
+    * Avoid “Key Outcomes” because it sounds like an MRM conclusion.
+    * Make it clear this is the First Line’s monitoring results.
+
+Examples:
+
+* “1LoD Monitoring Results”
+* “Risk Architecture Monitoring Results”
+* “Reported Outcomes”
+
+3. Call out the finding
+    * The unmodeled risk factor review raised a Sev 2 finding.
+    * This gets buried in the table.
+
+Add a short summary section above the table.
+
+Something like:
+
+MRM Executive Summary
+
+* MRM continues to find the VaR framework fit for purpose at the Group level.
+* One Sev 2 finding was raised relating to outdated calibrations within the unmodeled risk factor shock framework.
+* No material concerns were identified in VaR backtesting, IRC, specific risk, or risk factor data quality monitoring.
+
+Then the table follows.
+
+⸻
+
+Credit Risk Slide
+
+This is where Bill wanted the biggest changes.
+
+The current slide reads:
+
+PE models remain fit for purpose
+
+But the table contains:
+
+* 3 medium findings
+* elevated PE exceptions
+* deficiencies in backtesting methodology
+
+His concern:
+
+The punchline is buried.
+
+Alex will want to know:
+
+1. Is there a problem?
+2. Is the problem in the model?
+3. What are we doing about it?
+4. When will it be fixed?
+
+Therefore add a summary section above the table.
+
+Proposed Credit Risk Executive Summary
+
+MRM Executive Summary
+
+* MRM identified three medium-severity findings related to the current PE backtesting methodology.
+* Findings relate to test security construction, aggregation across test horizons, and statistical limitations in the current testing framework, which collectively generate elevated false-positive rates and reduce the effectiveness of backtesting outcomes.
+* MRM does not believe the observed exceptions indicate deficiencies in the underlying PE models and continues to find the models fit for purpose at the Group level.
+* Risk Architecture plans to migrate GS Group PE backtesting to the enhanced GSI framework by Q3 2026, which is expected to remediate the identified methodology issues.
+
+Then revise the conclusion in the table.
+
+Current:
+
+PE models remain fit for purpose.
+
+Suggested:
+
+MRM identified deficiencies in the current PE backtesting methodology and raised three medium-severity findings. However, MRM believes the observed exceptions are primarily driven by limitations in the testing framework rather than deficiencies in the underlying PE models. MRM continues to find the PE models fit for purpose while remediation of the backtesting methodology is underway.
+
+⸻
+
+Additional change Bill requested
+
+For the market risk table:
+
+instead of
+
+| Topic | Key Outcomes | MRM Assessment |
+
+because Bill explicitly said the current labels blur who is making each statement.
+
+Net result
+
+For FRAC next week, I would structure both slides as:
+
+Market Risk
+
+1. MRM Executive Summary (2–3 bullets)
+2. Table
+
+Credit Risk
+
+1. MRM Executive Summary (3–4 bullets)
+2. Table
+
+This directly addresses Bill’s concern that the committee should immediately see:
+
+* where findings were raised,
+* whether MRM is comfortable,
+* whether the issue is in the model or the monitoring framework,
+* and what the remediation path is.
+
+
+
+
+The issue primarily impacts the APAC Convertible Bond business and affects both model valuations and risk sensitivities.
 * A remediation plan has been submitted to standardize the methodology across regions, with MRM assessing impacts on market risk measures, including VaR and related risk factor calibrations.
 
 
