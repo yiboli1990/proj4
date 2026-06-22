@@ -1,3 +1,191 @@
+Strats Update
+
+1. AI Section
+
+Add / update:
+
+* CCR finding nearing FRAC threshold – check latest status and highlight if any finding is at risk of breaching the FRAC aging threshold.
+* KYC Document Digitization (GBM) – note validation activity; confirm it is leveraging the Core Engineering platform.
+* UMA (Unusual Movement of Assets) Surveillance AI – Tier 1 approval update.
+* Ask HCM – new approval update.
+* Prism – obtain update from Bob/David on validation progress and any completed analysis to date; include only if meaningful progress can be shared.
+* AI inventory analysis (new table requested):
+    * Split inventory by Equities vs FICC
+    * Split by Generative AI vs Agentic AI
+    * Highlight pipeline/use cases by business area
+    * Objective is to show concentration of AI initiatives in FICC versus Equities.
+* Potential future validation candidates
+    * Assess scope and user base of Sibyl to determine whether validation may be required.
+    * Mention Compass/Aurora only if there is a meaningful development.
+
+Do not include:
+
+* AIRCC update (no recent meetings).
+
+⸻
+
+2. Mortgage PST Pool Pricing Model
+
+Provide status update on finding remediation.
+
+Focus should be:
+
+* Progress on remediation of mortgage pricing/risk model governance findings.
+* Requirement for desks to properly maintain the fundamental model.
+* Elimination of reliance on multiple inconsistent delta measures to challenge limit breaches.
+* Update only if Shipra’s team can provide meaningful progress.
+
+⸻
+
+3. Name Modeling Change
+
+Keep brief update.
+
+Potential emphasis:
+
+* Largest impacts appear to be in:
+    * Mortgages
+    * Repo/Treasury financing activities
+    * Certain rates businesses
+* Primarily informational unless material implementation milestones occurred.
+
+⸻
+
+4. Significant Tier 1 Revalidations
+
+Update status but keep concise.
+
+Include:
+
+* Revalidations remain on track.
+* No high severity findings identified to date.
+* Highlight notable findings from:
+    * Rates Exotics
+    * Inflation models
+    * Equity model revalidation (check with Muyan whether material findings are emerging).
+
+Do not reintroduce the detailed revalidation summary section yet.
+Bill specifically suggested waiting until early July / mid-year review.
+
+⸻
+
+5. CCR / Counterparty Credit Risk
+
+UBM Migration
+Expand current write-up.
+
+Requested context:
+
+* Why the migration matters.
+* When the program started.
+* Remaining milestones.
+* Expected timeline.
+* Position current milestone as one step within a broader multi-year migration effort.
+
+⸻
+
+6. RV Plus Enhancement (New Item)
+
+Bill specifically asked this be added to the Strats Update.
+
+Suggested summary:
+
+* Ongoing review of proposed enhancements to the RV Plus Shortfall Model.
+* Discussion focuses on the current 6.5% GMV floor applied to relative value funds.
+* GBM has proposed alternative approaches for selected clients (e.g., QRT) to better reflect portfolio-specific risks.
+* MRM and Credit Risk are evaluating a phased approach beginning with client-specific analysis before broader implementation.
+
+This is likely the most substantive new Strats item.
+
+⸻
+
+CRO Update
+
+1. IRB Uplift (Top of Mind)
+
+Continue weekly update.
+
+New items to add:
+
+a. EY Response Received
+
+* Written responses received from EY.
+* Responses helping address outstanding rule compliance concerns.
+* Discussions ongoing with Antonis regarding closure of October findings.
+
+b. Potential Finding Closure
+
+* Findings raised during October ICR validation may be nearing closure.
+* Closure would positively affect rule compliance metrics.
+
+c. Master Scale Rule Compliance
+
+* Deliverable due end of week.
+* Currently on track.
+
+d. Segment IRB Rule Count
+
+* Include latest count/coverage statistics once final numbers are available.
+
+⸻
+
+2. Mortgage PST Model
+
+Same update as Strats if meaningful progress is available.
+
+If no update from Shipra, leave unchanged.
+
+⸻
+
+3. Name Modeling Change
+
+Keep brief summary (same as Strats).
+
+⸻
+
+4. CCR Model Update – UBM Migration
+
+Add more context around:
+
+* Program objective.
+* Remaining work.
+* Future milestones.
+* Long-term migration roadmap.
+
+⸻
+
+5. RV Plus Review
+
+Bill indicated this can also appear in CRO.
+
+Focus:
+
+* Review of proposed methodology changes for relative value hedge funds.
+* Evaluation of reducing conservatism associated with current 6.5% GMV floor.
+* Ongoing discussions between GBM, Credit Risk, and MRM.
+
+⸻
+
+6. SR 26-2
+
+No new regulatory developments to report this week.
+
+However, Bill suggested:
+
+* Begin developing implementation roadmap.
+* Work backwards from committee and governance milestones.
+* Prepare future update once planning is more mature.
+
+No need to add substantive content this week unless there is a concrete deliverable.
+
+⸻
+
+Key Action Items Before Finalizing
+
+
+
+
+
 *
 Market Risk
 
