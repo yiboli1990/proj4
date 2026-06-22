@@ -1,4 +1,24 @@
-* MRM validation of the GBM net interest income modeling changes remains on track for completion by early August, with any high-severity findings expected to be communicated by early July.
+*
+Market Risk
+
+Topic	Key Outcomes	MRM Assessment / Conclusion
+VaR Backtesting (Q1 2026 GS Group)	Three new backtesting breaches were observed in Q1 2026, increasing the 99% 250-day breach count to six and resulting in a VaR multiplier of 3.5 as of quarter end.	MRM reviewed the breaches and did not identify deficiencies in risk factor modeling. Breaches were primarily driven by significant market moves in EUR/GBP IR ATM volatility and swap rate risk factors that would not have been captured by a more rapidly adapting VaR model. MRM continues to find the VaR model fit for purpose at the Group level.
+Risk Factors not Modeled in VaR	All unmodeled risk factors remained immaterial on both a standalone and aggregate basis. A new risk factor, Commodities Spot: Power Capacity, was added during the quarter.	MRM found the shock calibration methodology for the new risk factor appropriate. A broader review of RFI methodologies identified one finding related to outdated calibrations, including instances where certain risk factors were assigned zero shocks.
+Risk Factor Data and Mapping	All material exceptions (<0.1% of assets) identified through ongoing monitoring were investigated and resolved. Materiality of SVaR backfilled data remained low.	MRM continues to find the quality of risk factor data and associated mappings fit for purpose.
+SVaR Stress Ratio and Stress Period	The selected stress period alternated between the GFC and COVID periods. The stress ratio declined modestly relative to prior quarters.	MRM found the selected stress periods appropriate and consistent with portfolio exposures. The decline in the stress ratio was driven by an increase in VaR relative to SVaR.
+Incremental Risk Charge (IRC)	One Sensitivity Analysis (Sample Default Rating) monitoring breach was observed in Q1 2026.	MRM concluded that benchmarking, sensitivity, and outcomes analysis results remain consistent with expectations and the inherent variability of the IRC framework, including the breached sensitivity metric.
+Specific Risk	Most empirical test failures were explained through regime-shift analysis, with the remaining failures attributable to technical factors.	MRM continues to find the VaR model fit for purpose with respect to specific risk measurement.
+
+Credit Risk
+
+Topic	Key Outcomes	MRM Assessment / Conclusion
+PE/EE Backtesting (Q1 2026 GS Group)	Results were broadly consistent with Q4 2025. Long-horizon PE backtesting continued to show elevated exception rates across multiple asset classes, while EE exception rates remained low.	MRM concluded that the current backtesting framework is overly conservative and lacks sufficient statistical resolution for accurate portfolio assessment. However, empirical evidence from GSI’s comparable portfolio under an enhanced framework supports the conclusion that the underlying PE models remain fundamentally sound.
+Validation Findings	Three medium-severity findings were raised related to the backtesting methodology.	Findings relate to: (i) incorrectly constructed test securities creating artificial spikes in Repo backtesting; (ii) the current “worst-of” aggregation across six testing horizons inflating false positive rates; and (iii) asset-level aggregation reducing statistical power due to limited sample sizes, cross-sectional dependencies, and lack of breach materiality considerations.
+Overall Conclusion	N/A	MRM continues to find the PE models fit for purpose at the Group level.
+
+
+
+MRM validation of the GBM net interest income modeling changes remains on track for completion by early August, with any high-severity findings expected to be communicated by early July.
 * Updated estimates indicate an increase in cumulative nine-quarter Pre-Provision Net Revenue (PPNR) under both internal and supervisory stress scenarios, reflecting explicit modeling of net interest income and related impacts on other revenue components.
 * Validation is focused on balance projection assumptions, macroeconomic drivers, proxy methodologies, and model sensitivities, while Risk, Controllers, GBM, and Treasury continue to assess result reasonableness and alignment with Earnings-at-Risk (EaR) measures.
 
