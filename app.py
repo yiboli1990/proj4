@@ -1,3 +1,7 @@
+    The issue primarily impacts the APAC Convertible Bond business and affects both model valuations and risk sensitivities.
+* A remediation plan has been submitted to standardize the methodology across regions, with MRM assessing impacts on market risk measures, including VaR and related risk factor calibrations.
+
+
 Agreed. For the Strats update, I’d make it more granular and fact-based:
 
 Convertible Bond Funding Spread Override Finding
