@@ -1,3 +1,26 @@
+Agreed. For the Strats update, I’d make it more granular and fact-based:
+
+Convertible Bond Funding Spread Override Finding
+
+* MRM raised a finding during the Significant Tier 1 revalidation of the Equity Convertible Bond model.
+* The finding relates to a legacy funding spread override that replaces the equity funding spread with the rebate rate, creating inconsistencies between convertible bond option valuations and equivalent listed equity options.
+* The override was removed in NYC and conditionally restricted in London in 2006, but remains active in certain other regions.
+* The primary impact is concentrated in the APAC Convertible Bond business, which generates approximately $40mm annual PnL and $27mm YTD PnL.
+* As of June 3, the estimated impact is:
+    * -$2.6mm on model value ($144mm total exposure)
+    * +$10mm on dollar delta ($110mm total exposure)
+* Modelers have proposed adopting the NYC implementation globally, removing reliance on the override.
+* The business is also assessing recalibration of the Convertible Bond Model Price Basis risk factor.
+* Market Risk MRM has been notified and is assessing potential impacts on VaR and whether any restatement is required.
+
+CRO Update
+
+CCR
+
+* MRM raised a finding on the Equity Convertible Bond model (GBM Public, Tier 1) related to a legacy funding spread override that results in valuation inconsistencies for convertible bond options.
+* A remediation plan has been submitted to standardize the methodology across regions, with MRM assessing impacts on associated market risk measures and model outputs.
+
+
 Strats Update
 
 1. AI Section
