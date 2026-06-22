@@ -1,3 +1,9 @@
+* MRM validation of the GBM net interest income modeling changes remains on track for completion by early August, with any high-severity findings expected to be communicated by early July.
+* Updated estimates indicate an increase in cumulative nine-quarter Pre-Provision Net Revenue (PPNR) under both internal and supervisory stress scenarios, reflecting explicit modeling of net interest income and related impacts on other revenue components.
+* Validation is focused on balance projection assumptions, macroeconomic drivers, proxy methodologies, and model sensitivities, while Risk, Controllers, GBM, and Treasury continue to assess result reasonableness and alignment with Earnings-at-Risk (EaR) measures.
+
+
+
 CCR: MRM approved enhancements to the Franchise Equity Benchmark Model (GBM Public, Tier 1) to harmonize stress methodologies with the SPG benchmark model as part of the broader CREST Unified Benchmark Model (UBM) implementation.
 
 * Key changes align equity liquidation, fund liquidation, and credit stress assumptions across the two frameworks, supporting automation of the combined benchmark process and reducing reliance on manual overlays.
