@@ -1,3 +1,6 @@
+    Equity Convertible Bonds: MRM identified a medium severity finding relating to a legacy funding spread override during the significant Tier 1 revalidation of the Convertible Bond model. The override, previously removed in NYC and London, remains active in certain APAC implementations and affects valuation and risk sensitivities. Modelers have proposed aligning APAC with the NYC implementation, while the business assesses related mark-to-market and trading system changes. MRM is coordinating with Market Risk to assess potential impacts on risk measures and VaR.
+
+
 After reading the transcript, Bill’s comments were much more about how to present the MRM message than the underlying technical content.
 
 The key takeaway is that the FRAC slide should not just be a table. It should have a short MRM Executive Summary at the top that highlights where MRM found issues and where MRM remains comfortable.
