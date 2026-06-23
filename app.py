@@ -1,4 +1,7 @@
-    Equity Convertible Bonds: MRM identified a medium severity finding relating to a legacy funding spread override during the significant Tier 1 revalidation of the Convertible Bond model. The override, previously removed in NYC and London, remains active in certain APAC implementations and affects valuation and risk sensitivities. Modelers have proposed aligning APAC with the NYC implementation, while the business assesses related mark-to-market and trading system changes. MRM is coordinating with Market Risk to assess potential impacts on risk measures and VaR.
+No high severity findings have been identified. Revalidations continue to confirm overall model fitness for use, while also identifying model specific findings requiring remediation, as discussed below.
+
+
+Equity Convertible Bonds: MRM identified a medium severity finding relating to a legacy funding spread override during the significant Tier 1 revalidation of the Convertible Bond model. The override, previously removed in NYC and London, remains active in certain APAC implementations and affects valuation and risk sensitivities. Modelers have proposed aligning APAC with the NYC implementation, while the business assesses related mark-to-market and trading system changes. MRM is coordinating with Market Risk to assess potential impacts on risk measures and VaR.
 
 
 After reading the transcript, Bill’s comments were much more about how to present the MRM message than the underlying technical content.
