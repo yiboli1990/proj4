@@ -1,3 +1,12 @@
+    MRM continues to review proposed enhancements to the Relative Value (RV+) Shortfall Model, which would provide reduced stress charges for well-diversified equity portfolios subject to a range of eligibility criteria and risk safeguards.
+* MRM identified potential weaknesses in the treatment of certain factor-based and market-neutral strategies that may exhibit elevated risk despite appearing diversified under the proposed framework.
+* Risk Strats are expanding testing, evaluating additional portfolio-level guardrails, and proposing enhanced monitoring to address these concerns as part of the ongoing review.
+
+
+
+
+
+
 PRA Internal Ratings-Based (IRB) Approach Uplift
 
 * MRM completed validation of the Probability of Default (PD) Master Scale model, with second-line review of all 119 associated rules on track for completion this week.
