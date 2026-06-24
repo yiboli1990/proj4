@@ -1,3 +1,16 @@
+PRA Internal Ratings-Based (IRB) Approach Uplift
+
+* MRM completed validation of the Probability of Default (PD) Master Scale model, with second-line review of all 119 associated rules on track for completion this week.
+    * Outstanding medium-severity findings relate to downturn period selection, estimation of investment-grade PDs in low-default portfolios, and clarification of model calibration assumptions and documentation.
+* Validation of the Corporate Industry Segment Internal Credit Rating (ICR) models is in progress.
+    * MRM continues to work with Risk Strats and EY on remediation of prior findings related to data representativeness and model consistency, with discussions focused on consolidating enhancements into a single recalibration and documentation refresh.
+* Validation of the Super Large Corporate ICR model commenced following model submission last week.
+    * Current review is focused on support for the Super Large Net Sales segmentation threshold and consistency of modeling methodology relative to other corporate segment models.
+
+
+
+
+
 No high severity findings have been identified. Revalidations continue to confirm overall model fitness for use, while also identifying model specific findings requiring remediation, as discussed below.
 
 
