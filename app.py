@@ -1,3 +1,9 @@
+    MRM completed validation of the Probability of Default (PD) Master Scale model, with second-line review of all 119 associated rules on track for completion this week.
+    * Preliminary conclusions identified one non-compliant rule and approximately 50 partially compliant rules, with remediation plans under discussion with Risk Strats.
+    * Outstanding medium-severity findings relating to downturn period selection, investment-grade PD estimation, and model documentation overlap with rule compliance observations and require remediation prior to the PRA submission.
+
+
+
 Yes. Based on the AIRCC discussions you’ve shared recently (AML Surveillance AI, Code Review Assistant, and Personal Agents), I would expect the minutes to look something like this under the new format.
 
 This is significantly shorter than your current minutes but still captures the decision trail, key challenges, and follow-ups.
