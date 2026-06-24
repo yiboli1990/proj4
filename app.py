@@ -1,4 +1,56 @@
-    MRM identified that the proposed framework may not fully capture risks in certain factor-driven and market-neutral portfolios, where exposures can remain concentrated despite appearing diversified under traditional measures
+AIRCC Council Discussion Record
+
+Date: [Date]
+Meeting Type: [Regular / Ad hoc]
+Chair(s): [Name(s)]
+Secretary: [Name]
+Attendance: Adequate business and control-side representation was recorded.
+
+⸻
+
+Agenda Item: [Use Case Name] – [Approval / Posting]
+
+Presenters: [Names]
+Business / Division: [Division]
+Decision: [Approved / Approved with conditions / Deferred / Posted]
+
+Overview
+
+* [One to three bullets summarizing what the use case is and why it was brought to the Council.]
+
+Key Questions and Discussion
+
+Topic / Risk Area	Discussion Summary	Follow-up Raised
+[Risk / topic 1]	[Key question raised and presenter response.]	[Yes / No; describe if yes]
+[Risk / topic 2]	[Key question raised and presenter response.]	[Yes / No; describe if yes]
+[Risk / topic 3]	[Key question raised and presenter response.]	[Yes / No; describe if yes]
+
+Decision / Conditions
+
+* [Decision outcome.]
+* [Approval conditions, if any.]
+* [Escalation, if any.]
+
+Follow-ups
+
+Follow-up	Owner	Timing / Status
+[Follow-up item]	[Owner]	[Timing/status]
+
+⸻
+
+Administrative Items
+
+* [Posting / membership change / minutes approval, as applicable.]
+
+Close
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+
+
+
+
+MRM identified that the proposed framework may not fully capture risks in certain factor-driven and market-neutral portfolios, where exposures can remain concentrated despite appearing diversified under traditional measures
 
 
 
