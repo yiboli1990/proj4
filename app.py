@@ -1,3 +1,7 @@
+    We have initiated Basel III Finalization (B3F) planning, with model submissions expected through Q3 2026 and validation activities expected to be concentrated across Q3–Q4 2026,
+
+
+
 I agree. Since this is for Monique, I’d keep it high level and avoid mentioning model receipts if they haven’t happened yet.
 
 Here’s a simplified version:
