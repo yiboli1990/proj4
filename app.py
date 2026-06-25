@@ -1,3 +1,65 @@
+Based on the latest discussion, I would update the narrative in two important ways:
+
+1. Don’t split the work strictly into FRB vs EMEA. Instead, emphasize synergy/reuse.
+2. Clarify that the current FTE estimate is conservative, because it assumes separate validation activities, whereas significant reuse exists between jurisdictions.
+
+Here’s an updated narrative that addresses your manager’s three questions.
+
+⸻
+
+Validation Effort
+
+* Validation effort has been estimated using the official MRM FTE estimation methodology, with effort measured in validator weeks and converted into annualized FTEs using standard MRM assumptions (2,400 working hours per FTE per year).
+* Based on the updated assumptions, the estimated validation effort is approximately XX validator weeks, equivalent to ~XX annualized FTEs (approximately XX quarterly FTEs during peak execution).
+* Compared with the initial estimate provided earlier this year, the increase primarily reflects refinement of the effort assumptions (e.g., treating certain activities as revalidations rather than light-touch additional validations) rather than a material increase in overall scope.
+
+⸻
+
+Synergies Across FRB and EMEA
+
+A significant portion of the validation work is expected to be reusable across jurisdictions, reducing incremental effort.
+
+FRTB Market Risk
+
+* Most risk factor model validations (e.g., GS Risk migration and 10-day compounding) are common across GSI (EMEA) and GS Group (FRB).
+* While entity-specific scope selection and documentation remain necessary, the underlying validation methodology, testing framework and analytical work are largely shared.
+* Based on current estimates, validation for the second jurisdiction is expected to require only incremental effort (approximately one-third of the initial validation effort) rather than a full revalidation.
+
+FRTB Core Models
+
+* Core infrastructure models (e.g., Hermes) are largely entity-agnostic and therefore provide substantial reuse across jurisdictions.
+* Certain models (e.g., NMRF, RTPL and other rule-dependent models) may require incremental validation where regulatory implementation differs between PRA and FRB; however, current expectations are that future PRA rule changes will become more closely aligned with the FRB framework, increasing opportunities for reuse.
+
+FRTB-CVA
+
+* Similar synergies are expected for the FRTB-CVA program.
+* The core CVA engines, pricing models and validation methodologies are common across jurisdictions, with only limited incremental validation required for jurisdiction-specific implementation, entity scope and regulatory interpretation.
+* Accordingly, a significant portion of the analytical work completed for one jurisdiction is expected to be leveraged for the other, rather than requiring a full independent validation.
+
+⸻
+
+Validation Timeline
+
+* Validation activities have already commenced for a number of workstreams, particularly those associated with GS Risk migration and 10-day compounding.
+* Validation effort is therefore expected to be distributed across Q3 and Q4 2026, rather than beginning only after all development activities have completed.
+* While current developer plans indicate that most model submissions are expected by the end of Q3, validation timelines remain dependent on developer deliveries, issue remediation and regulatory priorities.
+* Some lower-priority or follow-up activities may extend into Q1 2027 if development timelines shift or if regulatory implementation schedules change.
+
+⸻
+
+Resource Outlook
+
+* Current staffing is expected to be sufficient for the near-term validation workload.
+* Resource demand is expected to peak during the Q3–Q4 2026 period as multiple FRTB Market Risk and FRTB-CVA validations run concurrently.
+* Additional resource requirements will continue to be monitored as developer delivery schedules become firmer, with opportunities to leverage work completed across jurisdictions helping to reduce overall validation effort.
+
+⸻
+
+I think this version tells a stronger story than the previous one. Instead of saying “FRB work” and “EMEA work,” it answers your manager’s real question: how much of the work can be reused? The latest discussion makes clear that the emphasis should be on synergies (especially for FRTB risk factors and CVA), with only incremental effort needed for the second jurisdiction rather than duplicating the full validation.
+
+
+
+
 Yes. I think the next version should evolve from an inventory into a resource planning tracker. Below is a template that answers all three of your manager’s questions.
 
 ⸻
