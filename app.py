@@ -1,4 +1,163 @@
-    MRM completed validation of the Probability of Default (PD) Master Scale model, with second-line review of all 119 associated rules on track for completion this week.
+Based on the transcript and your manager’s questions, I think the next deliverable is not another inventory, but a resource planning view that quantifies effort over time and by regulatory scope.
+
+Here’s what I would prepare.
+
+Deliverable	What to do	Why
+1. Validate FTE assumptions	Convert Low/Moderate/High into estimated validator-months and calculate total validator-months/FTEs. Confirm whether the 7.5 annualized FTE estimate is correct.	Addresses the first question.
+2. Split work by regulatory program	Add a column classifying each item as FRB only, EMEA/PRA only, or Shared (FRB work reusable for EMEA).	Addresses the second question.
+3. Add validation window	Instead of one “blessing date,” add Developer Delivery, Validation Start, Validation End, and Go-live (if known).	Shows whether work can be spread across quarters.
+4. Resource loading	Produce a quarterly resource profile (Q3, Q4, Q1…) showing validator demand.	Addresses the third question.
+5. Highlight critical path	Flag items that drive resourcing (Hermes, CVA engines, core FRTB models).	Helps management prioritize staffing.
+
+1. Revisit the validation effort column
+
+Right now you have:
+
+* Low ≈ 2 weeks
+* Moderate ≈ 1 month
+* High ≈ 3 months
+
+Your manager is effectively asking:
+
+Is this actually 30 validator-months in Q4?
+
+So you should convert the qualitative effort into quantitative effort.
+
+Example:
+
+Effort	Validator Months
+Low	0.5
+Moderate	1
+High	3
+
+Then total them.
+
+That allows you to answer:
+
+“The current inventory represents approximately XX validator-months, equivalent to approximately YY annualized FTEs. However, the work is not concentrated in a single quarter.”
+
+⸻
+
+2. Split FRB vs EMEA
+
+Add a new column.
+
+Model	Scope
+DRC	FRB
+FRTB Market Risk GSI	EMEA
+FRTB Market Risk GS Group	FRB
+CVA Engine	Shared
+SBM Greeks	Shared
+Aggregators	Shared
+
+Then summarize.
+
+For example
+
+Scope	Validator Months
+FRB only	8
+EMEA only	5
+Shared	14
+
+This is exactly what your manager is asking.
+
+⸻
+
+3. Show work can span quarters
+
+This came up several times during the discussion.
+
+Examples:
+
+* GSI delivered before Group
+* Some models already received
+* Hermes replacement uncertain
+* Significant 2 review may be avoided
+* Resource need only becomes an issue after August
+
+So instead of assuming everything lands in Q4, create:
+
+Model	Dev Delivery	Validation Start	Validation End	Quarter(s)
+CVA Engine FX	Jun	Jul	Sep	Q3
+CVA Engine Equity	Sep	Oct	Dec	Q4
+Hermes	TBD	TBD	TBD	Q4/Q1
+Tradable uplift	Rolling	Rolling	Rolling	Q3-Q1
+
+Then your manager immediately sees the work is staggered.
+
+⸻
+
+4. Produce a quarterly resource profile
+
+Instead of annual FTEs, show:
+
+Quarter	Validator Months	Approx Concurrent FTE
+Q3	8	3
+Q4	15	5
+Q1	7	2
+
+This answers:
+
+Do we really need 30 FTEs in one quarter?
+
+Probably not.
+
+The discussion actually suggests:
+
+* OK through August
+* Resource pressure begins in Q4
+* Possibly need 1–3 additional validators
+
+⸻
+
+5. Add a dependency / critical-path flag
+
+Not every model has equal importance.
+
+Flag:
+
+Critical
+
+* CVA engines
+* Hermes
+* Core FRTB models
+
+Medium
+
+* Aggregators
+* SBM Greeks
+
+Low
+
+* DRC light-touch
+* Rule refreshes
+
+This lets management focus on the work that actually drives resource needs.
+
+⸻
+
+I think your manager is ultimately asking for three slides/tables:
+
+Table 1 – Inventory (already done)
+
+Model inventory and effort.
+
+Table 2 – Resource Planning (new)
+
+Scope	Validator Months	Annualized FTE	Quarter
+
+Table 3 – Timeline (new)
+
+A simple Gantt-style view showing when each workstream is expected to be validated.
+
+⸻
+
+I would also revisit the 7.5 FTE / 30 FTE-quarter calculation. Based on the transcript, there is a good chance the current “High = 3 months” estimates were intended as rough sizing for individual validations rather than a precise concurrent staffing model. Before confirming the number, I’d recompute the totals using your inventory and show both validator-months and the quarterly distribution, since that is the metric your manager is really trying to understand.
+
+
+
+
+MRM completed validation of the Probability of Default (PD) Master Scale model, with second-line review of all 119 associated rules on track for completion this week.
     * Preliminary conclusions identified one non-compliant rule and approximately 50 partially compliant rules, with remediation plans under discussion with Risk Strats.
     * Outstanding medium-severity findings relating to downturn period selection, investment-grade PD estimation, and model documentation overlap with rule compliance observations and require remediation prior to the PRA submission.
 
