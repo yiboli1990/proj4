@@ -1,3 +1,94 @@
+Yes. I think the next version should evolve from an inventory into a resource planning tracker. Below is a template that answers all three of your manager’s questions.
+
+⸻
+
+Capital Rules Validation Resource Plan
+
+Workstream	Regulatory Scope	# Models / DRCs	Validation Effort (Validator Months)	Planned Validation Window	Primary Quarter(s)	Reusable for Other Jurisdiction?	Resource Status	Key Risks / Dependencies
+DRC	FRB	XX	XX	Aug–Oct 2026	Q3–Q4	No	Green	Fed implementation timeline may shift
+FRTB-CVA Engines	Shared (FRB / EMEA)	XX	XX	Jul–Dec 2026	Q3–Q4	Yes	Amber	Engine validation, gap risk, key-person dependency
+FRTB-CVA Aggregators	Shared (FRB / EMEA)	XX	XX	Q3 2026	Q3	Yes	Amber	Aggregator ownership and validator assignment
+FRTB-CVA Tradable Coverage	Shared	XX	XX	Rolling	Q3–Q1	Yes	Green	Incremental RWA reduction; not on critical path
+FRTB Market Risk Risk Factors	Shared	XX	XX	Jul–Sep 2026	Q3	Yes	Green	GS Risk migration and 10-day compounding
+FRTB Market Risk Core Models	Shared	XX	XX	Sep–Dec 2026	Q4	Yes	Red	Largest validation effort; Hermes and core engines
+FRTB Market Risk Aggregators / SBM	Shared	XX	XX	Q3–Q4	Q3–Q4	Yes	Amber	Large tradable population; entity expansion
+
+⸻
+
+Resource Summary
+
+Metric	Placeholder
+Total models / DRCs	XX
+Total validator months	XX
+Annualized FTE estimate	XX
+Peak quarterly validator months	XX
+Additional validators potentially required	1–3 (subject to confirmation)
+
+⸻
+
+Resource Profile
+
+Quarter	Validator Months	Approximate Concurrent FTE	Comments
+Q3 2026	XX	XX	Primarily DRC, GS Risk migration, CVA engines begin
+Q4 2026	XX	XX	Peak workload driven by FRTB Market Risk core models
+Q1 2027	XX	XX	Remaining validations and follow-up work
+
+⸻
+
+Narrative (placeholders)
+
+Overall Book of Work
+
+* The current inventory includes XX validation activities across DRC, FRTB-CVA, and FRTB Market Risk, representing approximately XX validator months of work.
+* The largest resource demand is expected to come from FRTB Market Risk, followed by FRTB-CVA, while DRC is primarily comprised of low- to moderate-effort validations.
+
+⸻
+
+FTE Assessment
+
+* Based on the current effort estimates, the validation program represents approximately XX annualized FTEs (XX validator months).
+* These estimates are preliminary and will continue to be refined as development timelines and model submissions become more certain.
+* Importantly, the work is not expected to occur entirely within a single quarter and will be distributed across multiple validation windows.
+
+⸻
+
+Regulatory Scope
+
+* Approximately XX validator months relate to FRB-specific work.
+* Approximately XX validator months relate to EMEA/PRA-specific work.
+* Approximately XX validator months are expected to be shared, where validation performed for one jurisdiction can be leveraged for another with limited or no incremental validation effort.
+
+⸻
+
+Timeline
+
+* Current developer delivery dates indicate that validation activities will begin in Q3 2026 and continue through Q4 2026, with some activities potentially extending into Q1 2027.
+* The timeline remains subject to regulatory implementation schedules, developer delivery dates, and submission sequencing.
+
+⸻
+
+Resourcing
+
+* Current resourcing is expected to be sufficient through approximately August 2026.
+* Based on the current inventory, additional validator capacity of approximately XX FTEs may be required during the peak validation period in Q4 2026.
+* Key resource dependencies include [Validator A], [Validator B], and specialized expertise required for FRTB-CVA engines and FRTB Market Risk core models.
+
+⸻
+
+Key Assumptions
+
+* Validation effort estimates (Low / Moderate / High) represent approximate validator effort and will be refined as model documentation and submissions are received.
+* Development timelines remain preliminary and may change based on regulatory implementation dates and project execution.
+* Resource estimates assume current validation scope and do not include material changes to project scope or additional regulatory requests.
+
+⸻
+
+I think this format is what your manager is ultimately asking for: it goes beyond listing models and instead tells the management story—how much work there is, when it occurs, which jurisdictions it supports, and whether the current team can absorb it.
+
+
+
+
+
 Based on the transcript and your manager’s questions, I think the next deliverable is not another inventory, but a resource planning view that quantifies effort over time and by regulatory scope.
 
 Here’s what I would prepare.
