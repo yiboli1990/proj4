@@ -1,3 +1,27 @@
+Top of Mind
+
+* We are validating CCAR mid-cycle model changes, including updates to GBM projections.
+* We have commenced Basel III Finalization (B3F) validation activities, with the initial FRTB and Standardized models now under review.
+
+Capital
+
+* We approved X Standardized Credit Risk model enhancements in June, including changes to support [brief description], contributing to improved regulatory capital calculations. (Replace with approved June items.)
+* Key CCAR mid-cycle validations are underway, including the GBM NIM model (separate projection of interest income/expense and non-interest revenue) and the intercompany loan uplift (development of a stress playbook under credit spread widening scenarios).
+* We have initiated validation of the first X B3F models across FRTB CVA and FRTB Market Risk. The current B3F validation inventory comprises 67 work items (50 models, 2 Qualitative Approaches and 15 DRCs) spanning Standardized Credit Risk, FRTB CVA and FRTB Market Risk.
+* Validation planning for the broader B3F program has been completed, including inventory, resource planning and developer milestone tracking. Significant validation synergies are expected across FRB and EMEA, particularly for FRTB Market Risk risk factor models and FRTB CVA, with jurisdiction-specific work expected to leverage common validation testing where applicable.
+
+Liquidity Metrics
+
+* We are validating Long Term Stress Test enhancements incrementally as model components and supporting analyses are delivered. Mark-to-market assumptions continue to evolve from the initial LPG proposal.
+* We are developing AI-assisted tools to validate DESC IFR Python model implementation supporting the Liquidity Management Platform migration.
+
+Interest Rate Risk
+
+* EaR balancer credit spread is being recalibrated to address backtesting breaches and other model approximations.
+
+
+
+
 Based on the latest discussion, I would update the narrative in two important ways:
 
 1. Don’t split the work strictly into FRB vs EMEA. Instead, emphasize synergy/reuse.
