@@ -1,3 +1,26 @@
+I agree. Since this is for Monique, I’d keep it high level and avoid mentioning model receipts if they haven’t happened yet.
+
+Here’s a simplified version:
+
+Top of Mind
+
+* We are validating CCAR mid-cycle model changes, including updates to GBM projections.
+* We have initiated Basel III Finalization (B3F) planning, including model inventory, submission tracking and validation timeline planning.
+
+Capital
+
+* We approved changes to allow third-party pledge collateral in SA-CR, reducing RWA by approximately $500mm. [Update with June Standardized approvals as appropriate.]
+* Key CCAR mid-cycle validations are underway, including the GBM NIM model (separate projection of interest income/expense and non-interest revenue) and the intercompany loan uplift (stress playbook for credit spread widening scenarios).
+* Basel III Finalization planning is underway across Standardized Credit Risk, FRTB-CVA and FRTB Market Risk. The current validation inventory comprises 67 work items (50 models, 2 Qualitative Approaches and 15 DRCs), with submission schedules, validation timelines and resource planning established.
+* Significant validation synergies are expected across FRB and EMEA, particularly for FRTB Market Risk risk factor models and FRTB-CVA, allowing common validation work to be leveraged while limiting incremental jurisdiction-specific effort.
+
+I think this reads cleaner:
+
+* Top of Mind focuses on what has been initiated.
+* Capital focuses on approved work, ongoing CCAR work, and the overall B3F program, without implying that validations have already started for models you haven’t received.
+
+
+
 Top of Mind
 
 * We are validating CCAR mid-cycle model changes, including updates to GBM projections.
