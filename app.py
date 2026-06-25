@@ -1,4 +1,9 @@
-    We have initiated Basel III Finalization (B3F) planning, with model submissions expected through Q3 2026 and validation activities expected to be concentrated across Q3–Q4 2026,
+    We have commenced Basel III Finalization (B3F) validation, with an inventory of 67 work items (50 models, 2 Qualitative Approaches and 15 DRCs) established, together with submission schedules, validation timelines and resource plans across Standardized Credit Risk, FRTB-CVA and FRTB Market Risk.
+
+
+
+
+We have initiated Basel III Finalization (B3F) planning, with model submissions expected through Q3 2026 and validation activities expected to be concentrated across Q3–Q4 2026,
 
 
 
