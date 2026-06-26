@@ -1,4 +1,109 @@
-    We have commenced Basel III Finalization (B3F) validation, with an inventory of 67 work items (50 models, 2 Qualitative Approaches and 15 DRCs) established, together with submission schedules, validation timelines and resource plans across Standardized Credit Risk, FRTB-CVA and FRTB Market Risk.
+Here is a structured waiver summary consistent with the style of the previous ones.
+
+Transaction Waiver Summary
+
+Desk
+
+EM Exotics
+
+Trade
+
+gUSD SyNC3 Callable Range Accrual Note
+
+Client
+
+UBS Wealth Management
+
+Model
+
+CT IR Exot YCRA!Default (Model ID: 1359)
+
+Trader / Strat
+
+* Trader: Max Wilden
+* Strat: Olivier Salagnac
+* Strat MD: Mira Zorkot
+
+Approvals
+
+* Strat PMD: Rick Li
+* CRO Designee: James Ellery
+
+Notional
+
+USD 10 million
+
+Maturity
+
+5 years
+
+⸻
+
+Trade Description
+
+The trade is a USD-denominated callable Range Accrual Note linked to 3-month SAR SAIBOR.
+
+Key features include:
+
+* Pays a 5.5% USD coupon, accrued daily provided 0 < 3m SAIBOR < 6.25%.
+* Callable annually by GS beginning in Year 3.
+* Issued under the gUSD SyNC3 programme.
+* The proposed implementation uses the existing XC FXLV D1F F2F Cv. StrikeCpn.Cutoff product class, which is already used for similar quanto range accrual trades in Asia.
+
+⸻
+
+Economics
+
+Item	% PV	USD
+Mid PV	1.40%	140,000
+Reserve to Single Call	(0.10%)	(10,000)
+Vega Slippage	0.00%	0
+Delta Charge	(0.10%)	(10,000)
+Net Markup	1.20%	120,000
+
+⸻
+
+Reason for Waiver
+
+The desk intends to price the transaction using an existing Strats model for quanto range accrual notes, which has not yet received MRM approval.
+
+The primary model limitation relates to the treatment of SAR/USD and 3-month SAIBOR correlation under the copula framework, particularly in the unlikely event that the SAR/USD currency peg were to fail. Aside from this potential limitation, the proposed product class is already used for similar range accrual structures in Asia.
+
+⸻
+
+Compensating Controls
+
+The desk noted that pricing assumptions are intentionally conservative and that the transaction markup provides a meaningful buffer against model uncertainty.
+
+Specifically:
+
+* Removing all issuer call features reduces the model value from 1.40% PV to approximately 0.30% PV, demonstrating that the majority of valuation conservatism is associated with the callable component.
+* The transaction includes explicit valuation reserves for single-call approximation and delta risk, reducing the net markup from 1.40% to 1.20% PV.
+* Implied volatility is calibrated close to historical lows and at approximately 85% of comparable USD implied volatility, representing a conservative volatility assumption.
+* The model applies a relatively steep skew assumption, consistent with the upper end of observable G3 and EMEA interest rate volatility markets.
+* The product class has already been deployed for comparable quanto range accrual trades in Asia, providing implementation precedent for the proposed booking approach.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will be booked using the existing XC FXLV D1F F2F Cv. StrikeCpn.Cutoff product class currently used for similar quanto range accrual transactions.
+
+⸻
+
+Remediation Plan
+
+* Populate the model documentation for the quanto range accrual implementation.
+* Add validation tests covering the identified model limitations, including the SAR/USD and SAIBOR correlation assumptions.
+* Submit the completed model enhancements for MRM approval.
+
+Expected timeline: 1–3 months.
+
+
+
+
+
+We have commenced Basel III Finalization (B3F) validation, with an inventory of 67 work items (50 models, 2 Qualitative Approaches and 15 DRCs) established, together with submission schedules, validation timelines and resource plans across Standardized Credit Risk, FRTB-CVA and FRTB Market Risk.
 
 
 
