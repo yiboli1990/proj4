@@ -1,3 +1,8 @@
+    MRM approved remediation of an implementation issue in the SA-CCR equity calculations, where short put positions were assigned the incorrect sign, increasing RWA by approximately $900mm.
+
+
+
+
 AI Risk and Controls Council (AIRCC) Meeting Record
 
 Date / Time: [Date, Time]
