@@ -1,4 +1,85 @@
-    Attended the EY AI Roundtable, where industry participants discussed emerging governance approaches for generative and agentic AI, with broad consensus that governance frameworks continue to evolve as production deployments remain limited.
+AI Risk and Controls Council (AIRCC) Meeting Record
+
+Date / Time: [Date, Time]
+Meeting Type: [Regular / Ad hoc]
+Location: [In Person / Virtual]
+Chair(s): [Name(s)]
+Secretary: [Name]
+Attendance: See Annex A
+
+⸻
+
+Agenda Item: [Use Case Name] – [Approval / Posting]
+
+Presenters: [Names]
+
+Decision / Follow-ups
+
+Scope
+
+* [Brief description of the use case and scope considered by the Council.]
+
+Decision
+
+* [Approved / Approved subject to conditions / Noted / Deferred]
+
+Pre-Go-Live Conditions (if applicable)
+
+* [Condition 1]
+* [Condition 2]
+
+Follow-ups
+
+* [Follow-up item]
+* [Follow-up item]
+
+⸻
+
+Key Discussion Points
+
+* [Key question or challenge raised by committee members.]
+* [Presenter response or clarification.]
+* [Discussion on key risks, controls, metrics, governance, rollout, monitoring, etc.]
+* [Material observations or recommendations from committee members.]
+* [Any additional commitments made by presenters.]
+
+⸻
+
+Administrative Items
+
+* [Minutes approval]
+* [Membership updates]
+* [Other administrative matters]
+
+⸻
+
+Action Tracker
+
+Action	Owner	Timing
+[Action item]	[Owner]	[Pre-Go-Live / Next AIRCC / Future Update]
+[Action item]	[Owner]	[Pre-Go-Live / Next AIRCC / Future Update]
+
+⸻
+
+Annex A – Attendance
+
+Members Present
+
+* …
+
+Presenters / Guests
+
+* …
+
+Apologies
+
+* …
+
+
+
+
+
+Attended the EY AI Roundtable, where industry participants discussed emerging governance approaches for generative and agentic AI, with broad consensus that governance frameworks continue to evolve as production deployments remain limited.
 * Key discussions focused on ownership of AI governance, inventory and approval frameworks, and the need to distinguish AI-specific risks from existing technology and model risk controls.
 * Participants highlighted challenges in scaling AI governance, including defining proportionate controls for agentic AI, streamlining approvals for lower-risk use cases, and enhancing testing and monitoring as deployments increase.
 
