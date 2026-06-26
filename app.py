@@ -1,3 +1,11 @@
+    Attended the EY AI Roundtable, where industry participants discussed emerging governance approaches for generative and agentic AI, with broad consensus that governance frameworks continue to evolve as production deployments remain limited.
+* Key discussions focused on ownership of AI governance, inventory and approval frameworks, and the need to distinguish AI-specific risks from existing technology and model risk controls.
+* Participants highlighted challenges in scaling AI governance, including defining proportionate controls for agentic AI, streamlining approvals for lower-risk use cases, and enhancing testing and monitoring as deployments increase.
+
+
+
+
+
 Here is a structured waiver summary consistent with the style of the previous ones.
 
 Transaction Waiver Summary
