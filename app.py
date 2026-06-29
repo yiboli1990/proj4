@@ -1,4 +1,8 @@
-    AIRCC approved Fund Oversight AI, an agentic AI solution that assists XIG Fund Controllers in investigating and resolving data quality breaks in Net Asset Value (NAV) and financial statement oversight for private equity funds.
+    AIRCC approved the Enhanced Due Diligence (EDD) AI model, which assists Financial Crime Compliance (FCC) officers by generating summaries of completed investigations and draft narratives for ongoing Know Your Customer (KYC) reviews.
+* The model supports, but does not replace, compliance decision-making, with all AI-generated outputs subject to review and approval by FCC officers before use.
+
+
+AIRCC approved Fund Oversight AI, an agentic AI solution that assists XIG Fund Controllers in investigating and resolving data quality breaks in Net Asset Value (NAV) and financial statement oversight for private equity funds.
 * The model automates data extraction and break analysis, with all resolution recommendations subject to human review and approval before final action.
 
 
