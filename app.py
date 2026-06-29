@@ -1,3 +1,13 @@
+B3F / FRTB Validation Program
+
+* MRM finalized the validation plan for the Basel III Finalization (B3F) program, with validation activities underway and peak execution expected during Q3–Q4 2026.
+* Validation timelines remain aligned with developer deliveries, with lower-priority work potentially extending into early 2027 if implementation schedules change.
+* Significant reuse of validation work is expected across FRB and EMEA, reducing incremental effort for FRTB Market Risk, Core Models, and FRTB-CVA.
+* Current resources are expected to be sufficient in the near term, with ongoing monitoring of capacity as delivery schedules are finalized.
+
+
+
+
 I went through each section with the goal of making them speaker notes rather than written updates. Here is how I’d tighten them:
 
 ⸻
