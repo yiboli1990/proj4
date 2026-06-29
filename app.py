@@ -1,4 +1,73 @@
-    MRM approved remediation of an implementation issue in the SA-CCR equity calculations, where short put positions were assigned the incorrect sign, increasing RWA by approximately $900mm.
+I actually like this format. It’s much more outcome-oriented and should be substantially quicker to produce with AI. The only suggestion I’d make is to write the Discussion Points as 4–8 concise bullets focused on committee discussion, rather than trying to narrate everything.
+
+Here’s how I would mock up the 6/9 AIRCC meeting using your new template.
+
+AI Risk and Controls Council (AIRCC) Meeting Record
+
+Meeting Date/Time: June 9, 2026
+Meeting Type: Regular
+Chairperson: [Chair]
+Secretary: Yibo Li
+Attendance: Adequate representation from business and control-side members was recorded.
+
+⸻
+
+[1] Prism – Approval (Presenters: [Names])
+
+Decision: Conditionally Approved
+
+Follow-ups:
+
+* Pre-go-live: Continue staged rollout and report post-go-live accuracy, user feedback, and operational effectiveness to the Council. (Owner: Engineering; Control-side Contact: MRM)
+* Future AIRCC update: Continue refining accuracy metrics and evaluate whether alternative measures better capture decision quality and user effectiveness. (Owner: Engineering)
+
+Discussion Points:
+
+* Committee members challenged whether the proposed accuracy threshold was appropriate and questioned how it had been established.
+* Presenters explained that the threshold was based on pre-go-live testing and reviewed sample reports, with the intention of improving performance over time.
+* Members observed that accuracy alone may not be the most meaningful measure of success and emphasized evaluating whether the tool enables better, faster, and safer decision-making.
+* The Chairperson recommended a staged rollout with ongoing monitoring and periodic reporting of accuracy and operational performance following deployment.
+* Members discussed the importance of communicating the tool’s limitations and suggested including appropriate user guidance or disclaimers to reinforce that outputs should support, rather than replace, human judgment.
+
+⸻
+
+[2] Personal Agents – Posting (Presenters: [Names])
+
+Decision: Posted. No approval requested.
+
+Follow-ups:
+
+* Investigate the control breakdown that allowed non-engineers to retain GitHub Copilot Agent access and report remediation actions. (Owner: Engineering; Control-side Contact: Tech Risk)
+* Assess whether additional technical controls, monitoring, and server-side restrictions are required for personal agents. (Owner: Tech Risk)
+* Review the issue severity with relevant stakeholders before finalizing the EIR classification. (Owner: Tech Risk)
+
+Discussion Points:
+
+* Presenters described the increasing use of personal agents and the associated risks of bypassing existing governance and maker-checker controls.
+* Committee members discussed the discovery that non-engineers retained access to GitHub Copilot Agent Mode due to a control execution gap.
+* Members emphasized implementing preventative controls to limit access, together with detective monitoring to identify inappropriate usage.
+* The committee requested additional analysis of current usage, potential business impact of access removal, and the design of longer-term governance controls.
+* Members noted that issue severity should not rely solely on the EIR calculator and should be reviewed with the appropriate stakeholders before being finalized.
+
+⸻
+
+[3] Administrative Items
+
+* Previous meeting minutes approved.
+* Meeting adjourned.
+
+I think this is actually stronger than your previous minutes because it naturally separates:
+
+* Decision (what happened)
+* Follow-ups (what must happen next)
+* Discussion Points (why the committee reached that outcome)
+
+It also removes a lot of repetitive wording while preserving everything Legal, Audit, and regulators typically care about. I can also help you design a prompt so GPT will generate minutes directly in this format from a transcript with very little manual editing.
+
+
+
+
+MRM approved remediation of an implementation issue in the SA-CCR equity calculations, where short put positions were assigned the incorrect sign, increasing RWA by approximately $900mm.
 
 
 
