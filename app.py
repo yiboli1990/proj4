@@ -1,4 +1,90 @@
-I 
+I went through each section with the goal of making them speaker notes rather than written updates. Here is how I’d tighten them:
+
+⸻
+
+[C] PRA Internal Ratings-Based (IRB) Approach Uplift
+
+* MRM approved the Probability of Default (PD) Master Scale model, the first model supporting the firm’s PRA IRB uplift.
+    * Outstanding medium-severity findings relate to downturn calibration, investment-grade PD estimation, and documentation; remediation required before the September PRA submission.
+    * Review of compliance with all 119 associated regulatory rules remains on track for completion this week.
+* Validation in progress for:
+    * Corporate Industry Segment ICR (focus on data representativeness and model consistency).
+    * Super Large Corporate ICR (focus on segmentation threshold and methodology consistency).
+
+⸻
+
+[D] CCAR
+
+* NIM Modeling
+    * Validation remains on track for completion by early August.
+    * Review focuses on balance projections, macroeconomic drivers, proxy methodologies, and model sensitivities.
+    * Ongoing discussions continue to reconcile results with Earnings-at-Risk (EaR).
+* EaR / CCAR Reconciliation
+    * Manual input error identified in CCAR 2026 CLA drains and corrected.
+    * Remaining work focuses on Repo modeling, balance sheet projections, and methodological differences between EaR and CCAR.
+    * FTP allocation improvements do not fully explain the remaining differences.
+
+⸻
+
+[E] Mortgage PST Pool Pricing Model
+
+* Model enhancements are underway to address longstanding differences between desk and Risk Division mortgage risk measurements.
+* Phase 1 focuses on prepayment modeling, followed by mortgage rate enhancements in Q3.
+* Enhanced monitoring of trader versus model risk has been introduced.
+
+⸻
+
+[F] Elevated IPO Underwriting Activity
+
+* No material model risk concerns identified from elevated IPO underwriting activity.
+* Liquidity: No material deficiencies identified; post-event review will assess the net liquidity flow adjustment for large end-of-day transactions.
+* Risk & Capital: Review of proposed IRC enhancements for IPO exposures is ongoing.
+* Risk Strats are developing an empirically supported methodology to replace conservative fallback assumptions.
+
+⸻
+
+[G] Enhanced Equity RV (RV+)
+
+* Review of proposed RV+ enhancements is ongoing.
+* MRM identified potential underestimation of risk for certain factor-driven and market-neutral strategies.
+* Additional testing, guardrails, and monitoring are under review.
+
+⸻
+
+[H] NYC Volex IR Delta
+
+* Revised IR Delta backbone approved; NFA notification underway.
+* Change addresses backbone inaccuracies and reduces overstated risk.
+* Implementation has reduced disputes by approximately $146mm.
+
+⸻
+
+Optional Topics
+
+[I] Significant Tier 1 Revalidation
+
+* On track to complete the 2025–26 cycle; no high-severity findings identified.
+* Equity Convertible Bond: Medium-severity finding on legacy funding spread override affecting the APAC Convertible Bond business.
+    * Remediation submitted; MRM assessing downstream market risk impacts.
+* IRP: Revalidation completed for Inflation flow modeling and Exotic pricing infrastructure.
+    * Key findings relate to exotic pricing methodology and inflation curve construction.
+
+⸻
+
+[J] UK ICAAP
+
+* Validation completed for ICAAP 2026 models used by GSI, GSIB and GSGUK.
+* Key enhancements include VaR stress calibration, collateral-specific LGD estimates, Basel 3.1 overlay, and revised loss methodologies.
+
+⸻
+
+[K] Other Regulatory Updates
+
+* Prudent Valuation (PruVal): ECB issued a draft decision confirming completion of exam requirements, including removal of the €130mm capital add-on.
+
+⸻
+
+I think this version is 20–30% shorter while preserving all the key talking points Bill would likely want to cover verbally.
 
 
 
