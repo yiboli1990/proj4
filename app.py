@@ -1,3 +1,9 @@
+    AIRCC approved Fund Oversight AI, an agentic AI solution that assists XIG Fund Controllers in investigating and resolving data quality breaks in Net Asset Value (NAV) and financial statement oversight for private equity funds.
+* The model automates data extraction and break analysis, with all resolution recommendations subject to human review and approval before final action.
+
+
+
+
 B3F / FRTB Validation Program
 
 * MRM finalized the validation plan for the Basel III Finalization (B3F) program, with validation activities underway and peak execution expected during Q3–Q4 2026.
