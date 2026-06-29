@@ -1,4 +1,75 @@
-I actually like this format. It’s much more outcome-oriented and should be substantially quicker to produce with AI. The only suggestion I’d make is to write the Discussion Points as 4–8 concise bullets focused on committee discussion, rather than trying to narrate everything.
+I 
+
+
+
+
+
+This is exactly how I would write it. Compared with the old minutes, this is about 60-70% shorter, but I don’t think it loses any information that would matter to Legal, Audit or regulators. It also reads much more like executive minutes than a transcript.
+
+AI Risk and Controls Council (AIRCC) Meeting Record
+
+Meeting Date/Time: June 9, 2026
+Meeting Type: Regular
+Chairperson: [Chairperson]
+Secretary: Yibo Li
+Attendance: Adequate representation from business and control-side members was recorded.
+
+⸻
+
+[1] Prism AI – Approval (Presenters: [Names])
+
+Decision: Approved, subject to pre-go-live conditions.
+
+Follow-ups:
+
+* Pre-go-live: Complete MRM and Technology Risk approval processes. (Owner: Business; Control-side Contact: MRM / Technology Risk)
+* Pre-go-live: Complete Compliance pre-go-live requirements, including user training and user disclosures regarding hallucination risk and appropriate use. (Owner: Business; Control-side Contact: Compliance)
+* Pre-go-live: Review the use case with the Firmwide AI Risk Committee (ARC). (Owner: Business)
+* Future update: Migrate the code execution environment to the approved cloud-based architecture by September 1, 2026. (Owner: Engineering; Control-side Contact: Technology Risk)
+* Future update: Refactor the MCP server implementation and align it with the firmwide MCP registry before reuse by other teams. (Owner: Engineering; Control-side Contact: Technology Risk)
+
+Discussion Points:
+
+* The presenter provided an update following the committee’s prior review, including completion of additional Engineering and Technology Risk assessments related to the MCP server implementation and code execution architecture.
+* Committee members discussed hallucination risk and the evaluation framework. The presenter explained that Prism AI relies on curated internal and licensed data sources rather than internet access and is developing an LLM-as-Judge framework to evaluate factual accuracy and report quality.
+* Members questioned the proposed 80% report-level accuracy threshold and encouraged the team to establish a well-defined evaluation dataset and objective evaluation methodology. Members emphasized that success should be measured not only by factual accuracy, but also by whether the tool enables users to make better, faster, and safer decisions.
+* Committee members noted that user satisfaction alone should not be considered a sufficient performance metric and encouraged continued refinement of prompts, context, monitoring, and evaluation as additional production feedback becomes available.
+* Members confirmed that Prism AI will remain an internal-only decision-support tool for a limited population of sophisticated market practitioners and requested that users receive appropriate training, reminders, and disclaimers regarding hallucination risk and the need for independent judgment.
+* Technology Risk confirmed there were no remaining blocking issues for the proposed rollout, subject to completion of agreed remediation items. Members discussed the remediation timeline, including penetration testing and migration to the approved cloud-based code execution architecture.
+* The committee discussed the initial rollout scope of up to 500 GBM Public users and noted that additional governance review through ARC forms part of the pre-go-live approval conditions.
+
+⸻
+
+[2] Administrative Items
+
+PIPG Data Insights – Posting
+
+Decision: Posted. No approval requested.
+
+Discussion Points:
+
+* The presenter provided an update on PIPG Data Insights, a Tier 3 Generative AI model supporting the Equities business.
+* The presenter summarized high-severity validation findings relating to predictive performance and model stability identified during MRM review.
+* The committee noted that MRM initially rejected the model. Following removal of underperforming functionality, the reduced-scope model was approved for production.
+* Members discussed opportunities to revisit the disabled functionality in the future using alternative regression or machine learning approaches if supported by sufficient evidence.
+
+Membership Changes
+
+* The committee noted that Salvatore Fortunato has left the committee.
+
+⸻
+
+There being no further business, the Chairperson adjourned the meeting.
+
+No committee member raised any matters relating to material conflicts of interest, material exposure to high-risk assets or trading strategies, or activities that could threaten the safety and soundness of the firm or the financial stability of the United States.
+
+I actually think this format is better than the current AIRCC minutes for three reasons:
+
+1. Decision first. A reader immediately knows the outcome before reading the discussion.
+2. Discussion is synthesized. Instead of documenting every question, it captures the committee’s key concerns and rationale, which is what Legal, Audit, and regulators typically look for.
+3. Follow-ups become actionable. Rather than burying conditions throughout the minutes, they’re clearly listed with owners.
+
+After reading Rich Tucker’s compliment (“they actually make sense even when read in the abstract”), I think this style aligns even more closely with what he was praising: concise, self-contained summaries that someone can understand months later without reading the transcript.actually like this format. It’s much more outcome-oriented and should be substantially quicker to produce with AI. The only suggestion I’d make is to write the Discussion Points as 4–8 concise bullets focused on committee discussion, rather than trying to narrate everything.
 
 Here’s how I would mock up the 6/9 AIRCC meeting using your new template.
 
