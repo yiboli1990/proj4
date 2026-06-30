@@ -1,4 +1,11 @@
-    MRM approved Cookie Doc AI (Platform Solutions, Tier 2), which classifies unattributed Apple Card customer documents to automate routing and prioritization within Consumer Card Operations.
+    Upcoming regulatory meetings include:
+    * FCA (Jul 16): AI supervisory meeting covering AI adoption, governance, risk appetite, human oversight, controls, incidents, and Board oversight.
+    * SEC / FINRA (TBD): One Goldman Sachs 3.0 update covering AI-enabled sales, lending and risk workflows, vendor governance, regulatory reporting, and Payments Settlements AI.
+    * Federal Reserve (Jul 24): Q3 Head of AI meeting covering strategic AI execution, agentic AI deployment, governance framework, standardized controls, AI metrics, and organizational updates.
+
+
+
+MRM approved Cookie Doc AI (Platform Solutions, Tier 2), which classifies unattributed Apple Card customer documents to automate routing and prioritization within Consumer Card Operations.
 * MRM analysis indicated 89% classification accuracy, exceeding the 60% business requirement, with all model outputs subject to operations staff review and override.    MRM rejected IB Summaries (GBM Public, Tier 3), a model that summarizes sales and trading client conversations and identifies trading themes and opportunities.
 * MRM found the model produced accurate summaries in only ~40% of cases, with errors affecting key trade details and outcomes.
 * Following MRM feedback, model performance improved to ~70%; developers are targeting >80% accuracy before resubmission for approval.
