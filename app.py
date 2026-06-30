@@ -1,3 +1,31 @@
+Yes. Reading the discussion carefully, they did converge on the portal option. The remaining open question was not portal vs. email, but rather who should receive access under the portal workflow (host only vs. host/co-host vs. broader participants).
+
+The sequence was:
+
+1. Caroline expressed a preference for the portal because it avoids email retention/sampling issues.
+2. Sarah raised a practical concern that the meeting organizer is often not the person who drafts the minutes.
+3. Tamila and Mirona responded that the human-in-the-loop review is a required control and that training will reinforce this.
+4. Bill and Daniel both voiced support for moving forward.
+5. They discussed whether the portal output could be shared with co-hosts or others.
+6. Bill summarized that the use case itself was supported, and the remaining operational detail was how the portal workflow should work.
+7. Lauren clarified the intent, and Caroline agreed.
+8. They concluded the concept was approved for ARC, with the host/co-host workflow to be finalized.
+
+So I’d rewrite that section as:
+
+Council members discussed the human-in-the-loop requirement and the practical workflow where the meeting organizer may not be the individual responsible for preparing meeting minutes. A council member noted that, in practice, a senior meeting organizer may delegate preparation of meeting minutes to a junior team member and questioned whether the portal workflow would align with existing business practice. The presenters emphasized that meaningful human review remains a required control regardless of the delivery mechanism and that users will receive training on their responsibility to review AI-generated summaries before they are incorporated into firm records or distributed. Council members agreed that the portal-based workflow is the preferred approach because it better addresses legal hold, retention, and email sampling considerations. Members discussed whether summaries should be made available only to meeting hosts or also to co-hosts or other designated participants to better support existing workflows, and agreed to finalize those operational details as a follow-up.
+
+I would also update the Decision section accordingly. Instead of:
+
+…subject to further review of the operational workflow…
+
+I would say:
+
+Decision: The council supported the proposed expansion of Zoom AI for the defined project, product, program management, and transformation population. The council supported implementation using the portal-based workflow, with follow-up to finalize recipient access (e.g., host and co-host) before escalation to ARC.
+
+That is more faithful to what was actually agreed in the meeting.
+
+
 Council members discussed the human-in-the-loop requirement and the practical workflow for meeting summaries. A council member noted that, in practice, the meeting organizer is often a senior individual who delegates preparation of meeting minutes to a junior team member. Under the proposed portal workflow, the meeting organizer would receive the AI-generated summary and would be expected to review it before taking further action. The council member questioned whether this reflects actual business practice and noted that users may simply forward the summary to the individual responsible for preparing the minutes without conducting the intended review.
 
 The presenters emphasized that the human-in-the-loop review is a key control regardless of the delivery mechanism and that users will receive training on their responsibility to review AI-generated content before it is incorporated into firm records or distributed. The presenters noted that this control cannot be fully enforced through technology and therefore relies on user training, policy, and governance. Council members acknowledged the practical workflow considerations while agreeing that the proposed control framework should continue to require meaningful human review before AI-generated summaries are relied upon or shared.
