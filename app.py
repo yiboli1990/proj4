@@ -1,4 +1,19 @@
-A control-side reviewer confirmed that no noteworthy Technology Risk findings had been identified to date and noted that penetration testing remains in progress. The presenters confirmed that both Technology Risk activities and MRM validation must be completed before go-live, and that any material findings identified through these processes would be remediated prior to implementation.
+A 
+
+
+
+Yes. Bill made a point that I think is worth capturing because it reflects a governance consideration rather than a technical one.
+
+His point was essentially:
+
+* Today: If the agent is disabled, controllers simply revert to the existing manual process because no headcount reduction is assumed.
+* In one or two years: As confidence in the agent grows, the business may rely on it more and potentially reduce incremental hiring or capacity. At that point, if the agent fails, the business may not be able to immediately revert to the same level of manual processing. That becomes a firm risk appetite question rather than a technology question.
+
+I would capture it like this:
+
+Council members discussed contingency planning should the agent need to be disabled. The presenters explained that, for the initial rollout, controllers would revert to the existing manual review process, as the implementation does not assume any reduction in controller oversight or staffing. The chairperson noted that this contingency becomes a more important governance consideration over the longer term, observing that in one to two years the business may become more reliant on agentic capabilities as business volumes grow and hiring is reduced. The chairperson noted that determining the level of operational resilience and manual fallback capacity in such a scenario will ultimately be a firm risk appetite decision rather than a technology decision.
+
+This captures Bill’s point accurately without overexplaining it. It’s also the kind of governance observation that is useful to preserve in meeting minutes.control-side reviewer confirmed that no noteworthy Technology Risk findings had been identified to date and noted that penetration testing remains in progress. The presenters confirmed that both Technology Risk activities and MRM validation must be completed before go-live, and that any material findings identified through these processes would be remediated prior to implementation.
 
 
 
