@@ -1,3 +1,22 @@
+Based on the minutes, I’d make them a bit more reflective of what AIRCC actually approved and what the key controls were.
+
+Zoom AI
+
+* AIRCC supported expansion of Zoom AI meeting summaries to internal project, product, and transformation teams to improve the efficiency and consistency of meeting documentation.
+* The expansion remains subject to human review of all AI-generated summaries, with follow-up work focused on delivery workflows (portal vs. email) and user access prior to ARC review.
+
+Fund Oversight AI
+
+* AIRCC approved the Funds Oversight Agentic AI use case, which assists XIG Fund Controllers in investigating investment holding reconciliation breaks by analyzing supporting documents and recommending whether administrator data should be accepted or rejected.
+* The agent is invoked only after existing deterministic checks identify a mismatch, with all recommendations subject to controller review and final approval prior to go-live following completion of MRM validation and penetration testing.
+
+I think these are stronger than the previous versions because they:
+
+* clearly describe what the AI actually does,
+* highlight the existing deterministic controls (a key discussion point),
+* and emphasize the human-in-the-loop and pre-go-live conditions, which were the main AIRCC focus.
+
+
 A 
 
 
