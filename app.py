@@ -2,7 +2,8 @@
 * MRM found the model produced accurate summaries in only ~40% of cases, with errors affecting key trade details and outcomes.
 * Following MRM feedback, model performance improved to ~70%; developers are targeting >80% accuracy before resubmission for approval.
 
-
+    MRM found only ~40% of summaries were accurate, with errors including incorrect trade direction, deal status, and trade terms.
+* Following MRM feedback, model performance improved to ~70%; developers are targeting >80% accuracy before resubmission for approval.
 
 
 The agent is triggered only after deterministic checks identify a mismatch, with all recommendations subject to controller review before final action.
