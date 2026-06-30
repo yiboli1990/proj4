@@ -1,3 +1,8 @@
+A control-side reviewer confirmed that no noteworthy Technology Risk findings had been identified to date and noted that penetration testing remains in progress. The presenters confirmed that both Technology Risk activities and MRM validation must be completed before go-live, and that any material findings identified through these processes would be remediated prior to implementation.
+
+
+
+
 Yes. Reading the discussion carefully, they did converge on the portal option. The remaining open question was not portal vs. email, but rather who should receive access under the portal workflow (host only vs. host/co-host vs. broader participants).
 
 The sequence was:
