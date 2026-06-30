@@ -1,5 +1,17 @@
     Upcoming regulatory meetings include:
-    * FCA (Jul 16): AI supervisory meeting covering AI adoption, governance, risk appetite, human oversight, controls, incidents, and Board oversight.
+
+Headcount & Attrition (YTD)
+
+* Overall headcount remains within established guardrails, with year-to-date attrition of 18 employees across MRM and ETSC (14 MRM; 4 ETSC).
+* Internal mobility to GBM remains the primary driver of ETSC attrition, accounting for 3 of 4 departures (75%) year-to-date.
+* ETSC attrition has been concentrated in Bengaluru, where three employees (two Vice Presidents and one Associate) transitioned to GBM engineering and Strats roles during Q2.
+* Across MRM, two Vice Presidents also transferred to GBM Desk Strats, reflecting continued demand for experienced model risk and quantitative talent.
+
+
+
+
+
+* FCA (Jul 16): AI supervisory meeting covering AI adoption, governance, risk appetite, human oversight, controls, incidents, and Board oversight.
     * SEC / FINRA (TBD): One Goldman Sachs 3.0 update covering AI-enabled sales, lending and risk workflows, vendor governance, regulatory reporting, and Payments Settlements AI.
     * Federal Reserve (Jul 24): Q3 Head of AI meeting covering strategic AI execution, agentic AI deployment, governance framework, standardized controls, AI metrics, and organizational updates.
 
