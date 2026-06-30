@@ -1,3 +1,12 @@
+Council members discussed the tradeoffs between the Zoom portal and email-based delivery approaches. A council member asked whether the strategic firmwide solution is expected to move away from email. The presenters explained that the strategic solution is intended to integrate meeting summaries into the relevant user workflow, such as CRM for client-facing users, and potentially other workflow tools for non-client-facing users, rather than relying on email distribution. The presenters noted that the portal approach is directionally closer to the strategic solution because the meeting organizer would receive a link, review the summary in the Zoom portal, and then take an action on the output.
+
+A council member asked why the proposed project and product management population should not start with the portal approach, given that it mitigates email sampling, retention, and legal hold concerns. The presenters explained that these users currently work heavily through email, Jira, and Confluence, and that email-based summaries may be more immediately useful because they fit existing workflows and support discoverability by tools such as Copilot. The presenters noted that, under either approach, a human-in-the-loop step is required before the summary is used or distributed.
+
+Council members discussed that the portal approach better mitigates certain control risks because unreviewed Zoom-generated summaries would not automatically enter the email ecosystem. However, members also noted that the portal approach may introduce practical workflow challenges, particularly where the meeting organizer is not the person responsible for preparing or finalizing meeting notes. The presenters and council members agreed that the key question is not whether the use case should proceed, but which interim workflow best balances user adoption, discoverability, human review, and legal, retention, and surveillance considerations before the strategic solution is available.
+
+
+
+
 Draft below in the old AIRCC minutes style, with “committee” changed to council.
 
 1. Materials: AIRCC Materials dated June 30, 2026
