@@ -1,3 +1,9 @@
+    The agent is triggered only after deterministic checks identify a mismatch, with all recommendations subject to controller review before final action.
+
+
+
+
+
 Based on the minutes, I’d make them a bit more reflective of what AIRCC actually approved and what the key controls were.
 
 Zoom AI
