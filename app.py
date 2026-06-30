@@ -1,4 +1,76 @@
-    AIRCC approved the Enhanced Due Diligence (EDD) AI model, which assists Financial Crime Compliance (FCC) officers by generating summaries of completed investigations and draft narratives for ongoing Know Your Customer (KYC) reviews.
+Draft below in the old AIRCC minutes style, with “committee” changed to council.
+
+1. Materials: AIRCC Materials dated June 30, 2026
+
+2. Zoom AI Expansion – Approval
+
+The presenters requested approval to expand Zoom AI meeting summary functionality to a limited population of project, product, program management, and transformation personnel. The presenters explained that the proposed population is limited to individuals whose full-time roles are in project or product management functions or whose HCM job description includes product or project management. The presenters noted that these users regularly prepare meeting minutes, document business requirements, and maintain records in tools such as Jira, Confluence, and email.
+
+The presenters explained that the proposed expansion would be limited to internal meetings and would exclude sensitive topics, including regulatory remediation, EIRs, and matters involving internal or external legal counsel. The presenters also noted that divisions had excluded certain sensitive groups from the initial scope, such as Technology Risk in Engineering and regulatory remediation teams in the Office of Regulatory Affairs. The presenters stated that the use case is expected to generate efficiency benefits by reducing time spent preparing and re-entering meeting notes, with an estimated time savings of at least 30 minutes per day for relevant users.
+
+Council members discussed the quality and usefulness of AI-generated meeting summaries. A council member asked whether the tool could improve the quality of minutes by making them sharper and more concise. The presenters noted that the current output would be more standardized than existing manual formats, although users would still need to review the summaries to ensure that relevant details are not lost. The presenters emphasized that the human-in-the-loop review remains important before summaries are distributed or used in downstream workflows.
+
+Discussion focused on the proposed delivery mechanism for meeting summaries. The presenters described two potential approaches. Under the first approach, summaries would be made available through a Zoom portal, where the meeting organizer would review the summary and take further action. Under the second approach, summaries would be delivered by email, consistent with the existing pilot approach. The presenters explained that the portal-based approach would reduce email sampling and retention risks because unreviewed summaries would not be distributed through email by default and would be subject to shorter retention in the Zoom portal, while final reviewed outputs could still be copied into appropriate firm systems.
+
+Council members discussed the tradeoffs between the portal and email approaches. Members noted that the strategic firmwide solution is expected to move away from email and into workflows aligned to the relevant user population, such as CRM for client-facing users or other workflow tools for project and product teams. Members also discussed that the relevant product and project teams often work today through email, Jira, and Confluence, and that the email approach may be easier for users because it fits their existing workflow and supports discoverability. Other members noted that the portal approach better mitigates legal hold, retention, and email sampling concerns.
+
+Council members discussed the human-in-the-loop requirement and the practical workflow where the meeting organizer may not be the person responsible for drafting or distributing meeting notes. A council member noted that, in practice, a senior meeting organizer may forward the summary to a junior team member to finalize the minutes, and that this practical consideration should be reflected in the control assessment. The presenters and council members discussed whether summaries could be made available to co-hosts or additional meeting participants to support this workflow. It was noted that sharing summaries with all participants creates additional considerations because some participants may not have attended the full meeting. The presenters agreed to further evaluate whether summaries should be available to hosts only, hosts and co-hosts, or other defined participants.
+
+Council members expressed support for the use case concept and noted that the proposed expansion is limited to lower-risk internal product and project management meetings. The council agreed that the primary open question is operational, relating to the delivery mechanism and workflow details, rather than the underlying use case. It was noted that the use case would also be escalated to the Firmwide AI Risk Committee for further review.
+
+Decision: The council supported the expansion of Zoom AI meeting summaries for the proposed internal project, product, program management, and transformation population, subject to further review of the operational workflow and escalation to ARC.
+
+The following follow-ups were recorded:
+
+1. Confirm the delivery approach for the proposed rollout, including whether summaries will be accessed through the Zoom portal or email-based workflow.
+2. Determine whether summaries should be available only to meeting hosts or also to co-hosts or other defined participants.
+3. Finalize training with Compliance, including guidance on human review responsibilities and appropriate use.
+4. Review the use case with ARC.
+
+3. Funds Oversight Agentic AI – Approval
+
+The presenters requested approval to launch the first use case within the Funds Oversight Agentic AI initiative for AWM Public Fund Controllers. The presenters explained that the initial use case relates to private equity fund-of-funds oversight within XIG, where GS funds invest in external third-party private equity funds. The presenters noted that the relevant controller teams review NAV packages and financial statements prepared by third-party fund administrators, including trial balances, investment schedules, and investor allocation information.
+
+The presenters explained that fund administrator data is currently ingested into Funds Oversight Exchange (FOX), where deterministic checks compare administrator-provided data against internally available data. Where breaks are identified, controllers currently review unstructured sources, including PDF documents and Excel files, perform certain calculations, and determine whether administrator data should be accepted or rejected. The presenters explained that the proposed agentic AI use case would support this break resolution process for investment holdings by reviewing relevant documents, extracting information from unstructured sources, performing certain calculations, and providing a recommendation to the controller. The presenters emphasized that a controller would continue to review the output and make the final decision.
+
+Council members asked for examples of the types of breaks the agent would review. The presenters explained that a typical break may involve differences between administrator-provided fair market values and more recent internal or external information, such as NAV statements from underlying private equity fund managers. The presenters explained that the agent would be expected to identify the most relevant supporting documents and compare the administrator value against the appropriate source information.
+
+Council members discussed the role of the agent relative to existing deterministic checks. The presenters clarified that the initial automated checks in FOX would remain unchanged and that the agent would only be invoked after a mismatch is identified. The presenters explained that the agent would return its rationale, the documents and systems used, the computed value, and a recommendation on whether the administrator data should be accepted or rejected. Council members confirmed that the agent would not support interactive back-and-forth questioning by users and would instead run in the background and present outputs for controller review.
+
+Council members asked whether the use case would have any external client disclosure impact. The presenters explained that the agent supports an internal review function and that nothing generated by the agent is sent directly to clients. The presenters noted that external outputs, such as investor capital statements and fund financial statements, are produced after the controller review process and remain subject to existing processes.
+
+Council members also discussed administrator communication workflows. The presenters explained that if the controller rejects administrator data, the controller must enter a comment and a system-generated feed is sent to the fund administrator with the rejection reason. The presenters noted that current processes may also involve email communication with administrators where additional context or supporting documents are needed, but that the agent’s output would not be sent directly without controller review.
+
+Council members discussed change management and controls over the underlying MCP tools, data services, and model components. The presenters explained that model code, prompts, MCP tools, and relevant backend services would be subject to the existing software development lifecycle and model change management processes. The presenters further noted that regression testing, production monitoring, quarterly sampling, and checks on agent steps and tool usage would be used to monitor the agent’s performance.
+
+A council member asked about contingency planning if the agent needs to be disabled. The presenters explained that the business could revert to existing manual processes, since the initial rollout does not assume headcount reduction or removal of the current controller oversight process. Council members noted that this question will become more important over time if the business grows or if reliance on the agent increases. The presenters noted that the business is in growth mode and that the near-term benefit is expected to be increased throughput and reduced incremental hiring, rather than immediate replacement of existing reviewers.
+
+The presenters discussed the monitoring framework, including a focus on minimizing Type 1 errors, where the administrator data is accepted when it should not be. The presenters noted that the target is for Type 1 errors to be as close to zero as possible and that thresholds would be established to disable the agent if performance deteriorates. The presenters explained that Type 2 errors, where the administrator data is incorrectly flagged, affect efficiency rather than control quality and may be tolerated within defined thresholds.
+
+The presenters noted that penetration testing and MRM validation are ongoing and must be completed before go-live. It was further noted that any material findings from those processes would need to be remediated before launch.
+
+Decision: The council approved the Funds Oversight Agentic AI use case for investment holdings break resolution, subject to completion of MRM validation and penetration testing prior to go-live.
+
+The following pre-go-live conditions were recorded:
+
+1. Complete MRM validation.
+2. Complete penetration testing and remediate any material findings before go-live.
+
+4. Administrative Items
+
+The secretary provided an update on recent AI governance changes. A new Firmwide AI Risk Committee has been established, chaired by Alex Golten and Marco, to provide senior-level oversight of AI risk. AIRCC is now a council reporting directly to ARC, and its mandate is largely unchanged. The secretary noted that significant use cases will now be escalated to ARC rather than ERC.
+
+The secretary presented minutes from the May 5, 2026, May 12, 2026, June 2, 2026, and June 9, 2026 meetings for approval. No objections were raised.
+
+The secretary also noted new council members, including Assad Naqvi, Ali Haji, and Phil Renton.
+
+Having no further business to discuss, the chairpersons closed the meeting.
+
+
+
+
+
+AIRCC approved the Enhanced Due Diligence (EDD) AI model, which assists Financial Crime Compliance (FCC) officers by generating summaries of completed investigations and draft narratives for ongoing Know Your Customer (KYC) reviews.
 * The model supports, but does not replace, compliance decision-making, with all AI-generated outputs subject to review and approval by FCC officers before use.
 
 
