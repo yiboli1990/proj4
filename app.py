@@ -1,4 +1,10 @@
-    AIRCC approved the Funds Oversight Agentic AI use case, co-developed with Anthropic, which assists XIG Fund Controllers in investigating investment holding reconciliation breaks.
+    FRB closed the 2024 Model Risk Management Matter Requiring Attention (MRA) related to the model validation controls framework
+* Completed entity-specific validation of 50 models supporting UK ICAAP 2026 and approved the Probability of Default (PD) Master Scale model for the PRA Internal Ratings-Based (IRB) uplift
+* Approved the revised IR Delta backbone methodology for the NYC Volex portfolio, reducing overstated initial margin and contributing to a $146mm reduction in counterparty disputes
+
+
+
+AIRCC approved the Funds Oversight Agentic AI use case, co-developed with Anthropic, which assists XIG Fund Controllers in investigating investment holding reconciliation breaks.
 
 
 MRM approved Anthropic models with Bing Search for the M365 Copilot Web Grounding model (Engineering, Tier 2), improving overall web grounding capabilities.
