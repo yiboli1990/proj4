@@ -1,4 +1,7 @@
-    MRM approved Anthropic models with Bing Search for the M365 Copilot Web Grounding model (Engineering, Tier 2), improving overall web grounding capabilities.
+    AIRCC approved the Funds Oversight Agentic AI use case, co-developed with Anthropic, which assists XIG Fund Controllers in investigating investment holding reconciliation breaks.
+
+
+MRM approved Anthropic models with Bing Search for the M365 Copilot Web Grounding model (Engineering, Tier 2), improving overall web grounding capabilities.
     * Anthropic + Bing performs better on legal, regulatory, and political queries, while Gemini + Google performs better on macroeconomic and financial questions.
 
 
