@@ -1,4 +1,9 @@
-    FRB closed the 2024 Model Risk Management Matter Requiring Attention (MRA) related to the model validation controls framework
+    Approved the Probability of Default (PD) Master Scale model, the first model supporting the PRA Internal Ratings-Based (IRB) uplift for the firm’s corporate credit rating framework
+
+
+
+
+FRB closed the 2024 Model Risk Management Matter Requiring Attention (MRA) related to the model validation controls framework
 * Completed entity-specific validation of 50 models supporting UK ICAAP 2026 and approved the Probability of Default (PD) Master Scale model for the PRA Internal Ratings-Based (IRB) uplift
 * Approved the revised IR Delta backbone methodology for the NYC Volex portfolio, reducing overstated initial margin and contributing to a $146mm reduction in counterparty disputes
 
