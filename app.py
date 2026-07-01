@@ -1,3 +1,7 @@
+    MRM approved Anthropic models with Bing Search for the M365 Copilot Web Grounding model (Engineering, Tier 2), improving overall web grounding capabilities.
+    * Anthropic + Bing performs better on legal, regulatory, and political queries, while Gemini + Google performs better on macroeconomic and financial questions.
+
+
 
 For Bill’s talking points, I’d make them much punchier:
 
