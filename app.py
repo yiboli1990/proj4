@@ -1,4 +1,7 @@
-    Approved the Probability of Default (PD) Master Scale model, the first model supporting the PRA Internal Ratings-Based (IRB) uplift for the firm’s corporate credit rating framework
+    Identified a medium-severity finding during the Significant Tier 1 revalidation of the Equity Convertible Bond model, with remediation underway to standardize the funding spread methodology across regions
+
+
+Approved the Probability of Default (PD) Master Scale model, the first model supporting the PRA Internal Ratings-Based (IRB) uplift for the firm’s corporate credit rating framework
 
 
 
