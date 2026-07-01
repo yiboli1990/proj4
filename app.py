@@ -1,4 +1,19 @@
-    Upcoming regulatory meetings include:
+
+For Bill’s talking points, I’d make them much punchier:
+
+AI – Validation Highlights
+
+* MRM rejected IB Summaries (GBM Public, Tier 3), a Marquee model that summarizes client sales and trading conversations.
+    * MRM found only 40% of summaries were accurate, with errors in trade direction, deal status, and trade terms.
+    * Following MRM feedback, accuracy improved to ~80%; developers are targeting 90% before resubmission.
+* MRM approved Anthropic models with Bing Search for M365 Copilot Web Grounding (Engineering, Tier 2).
+    * Anthropic + Bing performs comparably to Gemini + Google overall, with stronger performance on legal and regulatory queries, while Gemini + Google performs better on macroeconomic and financial topics.
+
+This version is shorter, emphasizes the key messages, and is easier for Bill to speak to.
+
+
+
+Upcoming regulatory meetings include:
 
 Headcount & Attrition (YTD)
 
