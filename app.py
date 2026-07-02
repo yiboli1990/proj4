@@ -1,4 +1,10 @@
-    Validation continues across the PE Fund, ASL, and Sovereign ICR models.
+    MRM approved extension of the Fallback Loss Rate (FLR) model to Business Development Company (BDC) lending, expanding model coverage and reducing reliance on fallback methodologies.
+* Validation is underway for enhancements to tail risk models, including migration from single-path to simulation-based methodologies to address existing MRM findings.
+
+
+
+
+Validation continues across the PE Fund, ASL, and Sovereign ICR models.
     * PE Fund ICR: Sev1 finding on missing data treatment; remediation being finalized.
     * ASL and Sovereign ICR: Review of remediation and finalized Sev2 findings related to calibration methodology, data quality, and model assumptions.
 
