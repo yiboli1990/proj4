@@ -1,3 +1,7 @@
+MRM approved enhancements to the Coherent Shortfall (COSF) Model (GBM Public, Tier 1), which estimates potential counterparty credit risk shortfalls under stressed market conditions.
+Key enhancements include improved recognition of hedged equity exposures, more stable liquidation methodologies for interest rate volatility and bond futures, and refinement of portfolio scope and netting treatment.
+The changes remediate three medium-severity findings, improve model stability and risk sensitivity, and reduce reliance on overly conservative methodologies.
+
 ASL
 Continued focus on development and validation work supporting the ASL business, expanding model coverage to reduce reliance on fallback methodologies and addressing MRM findings.
 MRM approved extension of Fallback Loss Rate (FLR) model coverage to Business Development Company (BDC) lending, expanding quantitative model coverage.
