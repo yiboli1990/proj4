@@ -1,4 +1,10 @@
-    MRM approved extension of the Fallback Loss Rate (FLR) model to Business Development Company (BDC) lending, expanding model coverage and reducing reliance on fallback methodologies.
+ASL
+Continued focus on development and validation work supporting the ASL business, expanding model coverage to reduce reliance on fallback methodologies and addressing MRM findings.
+MRM approved extension of Fallback Loss Rate (FLR) model coverage to Business Development Company (BDC) lending, expanding quantitative model coverage.
+Validation commenced for enhancements to Tail Risk models, transitioning from single-path to simulation-based methodologies.
+
+
+MRM approved extension of the Fallback Loss Rate (FLR) model to Business Development Company (BDC) lending, expanding model coverage and reducing reliance on fallback methodologies.
 * Validation is underway for enhancements to tail risk models, including migration from single-path to simulation-based methodologies to address existing MRM findings.
 
 
