@@ -1,3 +1,287 @@
+Here are the action items I heard from Bill, grouped by priority. I’ve included suggested wording and placeholders where information needs to be gathered.
+
+⸻
+
+Top of Mind
+
+1. MRA Closure
+
+Action: Keep at the top.
+
+⸻
+
+2. IRB
+
+Action: Update latest status (you’ve already done this).
+
+⸻
+
+3. Mortgage Pricing Model
+
+Action: Update latest submission / validation status.
+
+⸻
+
+4. NIM
+
+Action: Update latest validation status.
+
+⸻
+
+5. GSS Finding (NEW)
+
+Bill suggested moving this to Top of Mind if the finding is raised.
+
+Placeholder
+
+GSS: MRM raised a [Severity X] finding relating to [placeholder]. Remediation discussions are underway with Engineering.
+
+Owner: Jamie / GSS team
+
+⸻
+
+Validation Activities
+
+6. ASL
+
+Bill wants much broader context.
+
+Current wording is too transactional.
+
+Suggested intro:
+
+Continued progress supporting the ASL business through expansion of quantitative model coverage and reduction of reliance on fallback methodologies for new business.
+
+Possible additional stat (placeholder)
+
+• Since [date], MRM has approved XX ASL model enhancements / expanded model coverage across XX asset classes.
+
+Need from David/Muyan:
+
+* how much fallback reduced?
+* approvals YTD?
+* % of new trades now covered?
+
+Bill specifically wants to tell the story:
+
+“We’re making structural progress rather than approving isolated model changes.”
+
+⸻
+
+7. Significant Tier 1 Revalidation
+
+Bill explicitly asked to bring it back.
+
+Suggested summary
+
+Significant Tier 1 Revalidations remain on track, with approximately XX% of the two-year cycle completed and no high-severity findings identified to date.
+
+Maybe
+
+* XX completed
+* XX remaining
+* 0 High severity
+
+⸻
+
+8. Cross Currency Migration (NEW)
+
+Bill specifically asked whether we have something.
+
+Placeholder
+
+MRM continues validation supporting migration of cross-currency risk models onto a consistent firmwide framework across currencies.
+
+Owner:
+Canal / Andreas
+
+⸻
+
+9. IPO Reflection (NEW)
+
+Not another pre-IPO update.
+
+Bill wants a retrospective.
+
+Suggested placeholder
+
+Completed post-implementation review of model support for the recent IPO, covering liquidity, capital, market risk and pricing models. No material model issues observed.
+
+Need:
+
+* lessons learned
+* model performance
+* anything unexpected
+
+⸻
+
+10. SIM Delay (NEW)
+
+Bill specifically mentioned.
+
+Placeholder
+
+Review ongoing of delayed rollout of SIM enhancements for IR products. Delay expected to defer reductions in Initial Margin requirements pending backtesting window completion.
+
+Owner:
+Andreas
+
+⸻
+
+11. RV+
+
+Bill specifically asked.
+
+Need latest validation update.
+
+Placeholder
+
+Validation continues on proposed RV+ enhancements, with ongoing discussions on portfolio guardrails and treatment of factor-based strategies.
+
+⸻
+
+Strats Updates
+
+12. GBM Inventory
+
+Bill asked:
+
+show inventory at Q2
+
+Need simple slide or bullet
+
+Possible:
+
+* total GBM models
+* by FICC / Equities
+* YTD change
+* AI models
+
+⸻
+
+13. GBM Findings Trend
+
+Bill also suggested
+
+Could add
+
+Findings opened vs closed YTD
+
+or
+
+Inventory + findings together
+
+⸻
+
+14. LMM / One-Day SOFR
+
+David requested.
+
+Need summary.
+
+Placeholder
+
+Completed review of LMM methodology identifying issues in one-day SOFR modelling; findings communicated to developers with remediation underway.
+
+Owner:
+David
+
+⸻
+
+AI
+
+15. Ryan Horwood
+
+Bill wants reminder only.
+
+No slide change.
+
+Add speaker note.
+
+⸻
+
+16. Prism
+
+Bill wants update from Alex.
+
+Specifically
+
+* God mode
+* follow-ups
+
+Need answer from Alex.
+
+⸻
+
+17. AI Model Documentation Tool (NEW)
+
+Bill definitely wants this.
+
+Suggested wording
+
+AIRCC approved broader rollout of MRM’s AI-assisted model documentation tool following successful pilot. Rollout planning underway to support wider adoption across model developers.
+
+Need
+
+* rollout timing
+* scope
+* partners informed?
+
+⸻
+
+18. AI Coding Observations
+
+Bill asked if worth mentioning.
+
+Possible talking point only:
+
+Developers increasingly using AI-assisted coding and documentation. Early observations indicate improved documentation quality, although additional review remains necessary for AI-generated content.
+
+Not sure this goes in slides.
+
+⸻
+
+Regulatory
+
+Nothing additional.
+
+⸻
+
+Miscellaneous
+
+No ICAP update yet.
+
+Wait until meetings conclude.
+
+⸻
+
+Assignments
+
+Topic	Owner
+ASL broader context / fallback reduction statistics	Muyan / David
+Significant Tier 1 progress statistics	You
+Cross Currency migration	Canal / Andreas
+IPO post-event review	Equity / Liquidity teams
+SIM rollout delay	Andreas
+RV+ latest status	CCR team
+GBM inventory & findings trends	You
+LMM / One-day SOFR	David
+GSS finding	Jamie
+AI documentation rollout	Engineering / AIRCC
+Prism follow-up (God Mode)	Alex
+
+Overall, I counted about 10–12 new items, but the ones Bill clearly emphasized as highest priority are:
+
+1. ASL broader story.
+2. Significant Tier 1 progress.
+3. GSS finding.
+4. IPO retrospective.
+5. AI documentation tool rollout.
+6. GBM inventory/findings reflection at Q2.
+
+
+
+
 MRM approved enhancements to the Coherent Shortfall (COSF) Model (GBM Public, Tier 1), which estimates potential counterparty credit risk shortfalls under stressed market conditions.
 Key enhancements include improved recognition of hedged equity exposures, more stable liquidation methodologies for interest rate volatility and bond futures, and refinement of portfolio scope and netting treatment.
 The changes remediate three medium-severity findings, improve model stability and risk sensitivity, and reduce reliance on overly conservative methodologies.
