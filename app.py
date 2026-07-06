@@ -1,3 +1,94 @@
+Below is how I would update it based on Bill’s comments. I’ve inserted [placeholders] where owners need to provide updates and added comments in [ ] to indicate what Bill was looking for.
+
+⸻
+
+Top of Mind
+
+2024 FRB MRM Exam
+
+* The FRB closed the Matter Requiring Attention (MRA) on Weaknesses in the Model Validation Controls Framework.
+* Remediation included enhancements to the Annual Review framework, with 742 required reviews completed before 2025 year-end.
+* Ongoing monitoring for the credit card loss forecasting model was also enhanced, addressing incremental CCAR feedback.
+
+PRA Internal Ratings-Based (IRB) Approach Uplift
+
+TBU
+
+* [Update latest PD Master Scale status and rule review.]
+* [Include total number of PRA rules under review (XXX) with Capital Risk and EY support, not just the 119 PD Master Scale rules.]
+
+Mortgage Pass Through Pool Pricing Model
+
+TBU
+
+* [Latest submission / validation status.]
+
+GM Trading Net Interest Income (NII) Model
+
+TBU
+
+* [Latest validation progress and key focus areas.]
+
+[NEW] GSS Finding (if raised before Thursday)
+
+* [Summarize new GSS finding and current remediation discussions.]
+
+⸻
+
+Validation Activities
+
+CCR
+
+* MRM approved enhancements to the Coherent Shortfall (COSF) model (Risk, Tier 1), which estimates potential counterparty credit risk shortfalls under stressed market conditions.
+* Key enhancements include improved hedge recognition, more stable liquidation methodologies, and updated portfolio scope and netting treatment.
+* The changes remediate three medium-severity findings and improve model stability, risk sensitivity, and consistency.
+
+⸻
+
+ASL
+
+* Continued progress supporting the ASL business through expansion of quantitative model coverage, reducing reliance on fallback methodologies, and addressing longstanding MRM findings.
+* MRM approved extension of the Facility Loss Rate (FLR) fallback model (Risk, Tier 1) to Business Development Company (BDC) lending, expanding quantitative model coverage.
+* Validation is underway for Tail Risk model enhancements, transitioning from single-path to simulation-based methodologies.
+* [Add broader context requested by Bill — e.g., YTD approvals, reduction in fallback reliance, number of asset classes covered, or other metric showing structural progress rather than isolated approvals.]
+
+⸻
+
+[NEW] Significant Tier 1 Revalidations (Bill requested to bring back)
+
+* [Provide mid-year status of the Significant Tier 1 revalidation program (XX completed of XX, XX% complete, on track for two-year cycle).]
+* [Summarize overall outcome (e.g., no high-severity findings; key themes from findings).]
+
+⸻
+
+[NEW] Cross Currency Migration (if update available)
+
+* [Summarize validation progress supporting migration to a consistent cross-currency risk framework.]
+
+⸻
+
+[Optional] IPO Post-Implementation Review (if enough content)
+
+* [Provide post-event assessment of model performance across liquidity, pricing, capital and market risk models supporting the IPO.]
+* [Include any lessons learned or confirmation that no material model issues were identified.]
+
+⸻
+
+Additional items Bill asked us to explore (not yet drafted)
+
+* RV+ — Obtain latest validation status and determine whether there is a meaningful update.
+* SIM rollout delay — Check with Andreas whether timing and expected Initial Margin benefit are sufficiently concrete for CRO.
+* GBM inventory / findings trends — Consider adding a Q2 reflection (inventory growth, AI models, findings opened vs. closed).
+* LMM / One-Day SOFR — David to provide summary for potential inclusion.
+* ICAP exam — Reassess after this week’s regulator meetings.
+* AI documentation tool rollout — Better suited for Strats update, but prepare rollout timeline and messaging.
+
+⸻
+
+I think this is now very close to Bill’s intent. The biggest addition from the discussion is that ASL and Significant Tier 1 should become program-level progress updates rather than simply individual model approvals. Those were the two themes he emphasized most.
+
+
+
 Here are the action items I heard from Bill, grouped by priority. I’ve included suggested wording and placeholders where information needs to be gathered.
 
 ⸻
