@@ -1,3 +1,6 @@
+MRM’s assessment is based on internal discussions within MRM, as well as discussions with first-line model developers and other relevant stakeholders, as appropriate. As part of the NAC review process, MRM reviews NAC memoranda to identify any new models or model changes associated with the proposed activity and confirms that all required models and model changes have received MRM approval in accordance with the Firmwide Policy on Model Control prior to production use. MRM then provides its approval in the Firmwide New and Expanded Business Activities (NEBA) system. Where required model approvals have not yet been obtained, MRM’s approval is contingent upon an approved model waiver in accordance with the Firmwide Policy on Model Control.
+
+
 Below is how I would update it based on Bill’s comments. I’ve inserted [placeholders] where owners need to provide updates and added comments in [ ] to indicate what Bill was looking for.
 
 ⸻
