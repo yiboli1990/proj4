@@ -1,4 +1,13 @@
-    MRM raised a medium-severity thematic finding relating to model inventory completeness within Prime Services Inventory Management.
+    Validation in progress for:
+    * Super Large Corporate ICR, with two high-severity findings identified on model implementation and a medium-severity finding relating to support for the $3bn Net Sales segmentation threshold.
+    * Corporate Industry Segment ICR, with six medium-severity findings communicated to developers, focused on Margin of Conservatism methodology, legacy rating calibration, and remediation of prior findings.
+* Validation commenced for the Super Large Corporate Industry IRB model following receipt of the initial submission.
+* Rule compliance: Second-line review of the PD Master Scale rules has been completed, while review of [XXX] PRA IRB regulatory rules continues with Capital Risk and EY, including the initial assessment of the Super Large Corporate Industry IRB rules.
+
+
+
+
+MRM raised a medium-severity thematic finding relating to model inventory completeness within Prime Services Inventory Management.
 * The review identified models omitted from the model inventory, including projection models supporting PCE buffer and GCLA sizing.
 * Remediation is underway to address remaining inventory gaps and strengthen first-line inventory governance and oversight.
 
