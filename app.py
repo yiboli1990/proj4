@@ -1,3 +1,14 @@
+SIMM v2.8+2512 Recalibration
+
+* ISDA SIMM v2.8+2512 will be implemented in production on 11 July 2026, reflecting the annual recalibration using historical data through 31 December 2025.
+* Overall SIMM Initial Margin is expected to decrease by approximately 1%, driven by lower Equity and Commodity requirements, partially offset by increases in Credit and FX.
+* Interest Rate (IR) risk weights have been frozen at the v2.8+2506 calibration following industry concerns that the standard recalibration would materially reduce IR Initial Margin and increase backtesting breaches.
+* ISDA is evaluating methodology enhancements to the IR calibration framework, including improvements to the representative rate index used for calibration, with investigations expected to conclude by 31 July 2026.
+* The revised methodology is expected to be included in SIMM v2.9+2512 for regulatory review in August 2026, with updated IR parameters targeted for production in the December 2026 (v2.9+2606) release.
+
+
+
+
 Enhanced Equity RV (RV+)
 
 * MRM continues review of the proposed Equity Relative Value (RV+) enhancements, which would reduce stress charges for eligible well-diversified equity portfolios subject to risk guardrails.
