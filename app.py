@@ -1,3 +1,11 @@
+Enhanced Equity RV (RV+)
+
+* MRM continues review of the proposed Equity Relative Value (RV+) enhancements, which would reduce stress charges for eligible well-diversified equity portfolios subject to risk guardrails.
+* In response to MRM feedback, Strats submitted an updated methodology incorporating Axioma and residual factor risks into the portfolio eligibility assessment.
+* MRM is assessing whether the revised framework appropriately captures residual portfolio risks while maintaining the intended risk sensitivity.
+
+
+
 SIMM Interest Rate Risk Weight Calibration
 
 * Industry implementation of recalibrated SIMM interest rate risk weights has been deferred following concerns that lower risk weights would materially reduce initial margin and increase backtesting breaches.
