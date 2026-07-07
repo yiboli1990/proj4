@@ -1,4 +1,13 @@
-    Validation in progress for:
+SIMM Interest Rate Risk Weight Calibration
+
+* Industry implementation of recalibrated SIMM interest rate risk weights has been deferred following concerns that lower risk weights would materially reduce initial margin and increase backtesting breaches.
+* ISDA is evaluating methodology enhancements, including improvements to the representative interest rate index used for calibration, before proceeding with recalibration.
+
+
+
+
+
+Validation in progress for:
     * Super Large Corporate ICR, with two high-severity findings identified on model implementation and a medium-severity finding relating to support for the $3bn Net Sales segmentation threshold.
     * Corporate Industry Segment ICR, with six medium-severity findings communicated to developers, focused on Margin of Conservatism methodology, legacy rating calibration, and remediation of prior findings.
 * Validation commenced for the Super Large Corporate Industry IRB model following receipt of the initial submission.
