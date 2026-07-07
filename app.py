@@ -1,4 +1,10 @@
-    High-severity finding on the Mortgage Pass Through Pool Pricing model identified incorrect treatment of pool price floors under stressed scenarios; remediation increased risk limit utilization, with temporary departmental limit increases implemented.
+    MRM raised a medium-severity thematic finding relating to model inventory completeness within Prime Services Inventory Management.
+* The review identified models omitted from the model inventory, including projection models supporting PCE buffer and GCLA sizing.
+* Remediation is underway to address remaining inventory gaps and strengthen first-line inventory governance and oversight.
+
+
+
+High-severity finding on the Mortgage Pass Through Pool Pricing model identified incorrect treatment of pool price floors under stressed scenarios; remediation increased risk limit utilization, with temporary departmental limit increases implemented.
 * The finding has driven a broader program to enhance the mortgage risk framework, addressing longstanding divergence between desk risk views and independent Risk measurements during periods of market stress through a phased model enhancement and validation program.
 
 
