@@ -1,3 +1,67 @@
+Here are my suggested revisions.
+
+⸻
+
+1. PRA IRB Approach Uplift (address Caroline’s comments)
+
+I agree with the comment. It’s better to group by Corporate and Super Large Corporate rather than alternating between ICR and PD.
+
+PRA Internal Ratings-Based (IRB) Approach Uplift: Validation on track for
+
+* Corporate models (target completion: Jul 31):
+    * Corporate Industry Segment ICR validation is progressing, with medium-severity findings on methodology, assumptions, implementation and monitoring communicated to developers.
+    * PRA Corporate Industry IRB model validation is focused on the Margin of Conservatism (MoC) framework and legacy rating calibration.
+* Super Large Corporate models (target completion: Aug 28):
+    * Super Large Corporate ICR validation identified two high-severity implementation findings, with remediation underway.
+    * PRA Super Large Corporate Industry IRB validation commenced following receipt of the initial submission.
+* Rule compliance (~800 rules; target completion: Sep 4):
+    * Review of all 119 PD Master Scale rules has been completed, with Risk Strats targeting remediation by Jul 17; review of Corporate IRB rules is underway.
+
+This is much easier to follow and gives Bill natural talking points.
+
+⸻
+
+2. Collateralized Lending (CRO)
+
+I’d simplify it substantially. The Board doesn’t need all the individual counts.
+
+Option 1 (my preference)
+
+Collateralized Lending: Continued expansion of quantitative model coverage supporting the Collateralized Lending business, reducing reliance on fallback methodologies and improving risk measurement.
+
+* YTD, MRM approved one new model and 22 model enhancements across Facility-Level Rating (FLR) and Tail Risk models, expanding coverage for GS Select, Business Development Company lending and more complex lending structures.
+* Enhancements also incorporated additional hedging capabilities and improved risk measurement across ASL, PECC and Direct CRE portfolios.
+
+⸻
+
+Or, if Bill wants the numbers more prominently:
+
+Collateralized Lending: Continued expansion of quantitative model coverage supporting the Collateralized Lending business.
+
+* YTD, MRM approved one new model and 22 FLR and Tail Risk model enhancements, expanding coverage while reducing reliance on fallback methodologies.
+* Key enhancements include support for GS Select and Business Development Company lending, more complex deal structures, and improved hedge recognition across lending portfolios.
+
+I think the second version is cleaner.
+
+⸻
+
+3. CRO Top Focus Area (Mortgage)
+
+I agree—“phased enhancements” is now outdated since Strats submitted the full package together.
+
+I’d revise to:
+
+* High-severity finding on the Mortgage Pass-Through Pools Pricing model identified incorrect treatment of pool price floors under stressed scenarios; remediation increased risk limit utilization, with temporary departmental limit increases implemented.
+* The finding has prompted broader enhancements to the mortgage risk framework, including comprehensive updates to mortgage prepayment and rate models, recalibration to recent market conditions, and ongoing MRM validation to improve alignment between desk pricing and independent Risk measurements.
+
+Or, if you want it a bit shorter:
+
+* The finding has prompted broader enhancements to the mortgage risk framework, including updates to mortgage prepayment and rate models and recalibration to recent market conditions, with MRM validation underway to improve alignment between desk and Risk measurements.
+
+I actually prefer the second version because it reflects the latest status (single comprehensive submission) and explains what the enhancement package contains, rather than referring to a phased rollout that no longer exists.
+
+
+
 I agree. For the CRO deck, I’d add just enough context so Bill can speak to each topic without making the bullets too technical.
 
 ⸻
