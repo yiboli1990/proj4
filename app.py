@@ -1,3 +1,65 @@
+I agree. For the CRO deck, I’d add just enough context so Bill can speak to each topic without making the bullets too technical.
+
+⸻
+
+Mortgage Agency Pricing Model Uplift
+
+* GBM Strats submitted a comprehensive enhancement package for the Mortgage Agency Pricing Model to address longstanding differences between desk pricing and independent Risk measurements.
+    * The submission includes enhancements to the mortgage prepayment and mortgage rate models, together with recalibration to recent market conditions.
+    * MRM validation is underway, with completion targeted by end-July.
+
+⸻
+
+GBM Trading Net Interest Income (NII) Modeling
+
+* Validation remains on track for completion by 7 August, with potential high-severity findings communicated to GBM.
+    * Key concerns relate to insufficient support for model assumptions, including macroeconomic drivers, management judgment-based parameters, and implementation issues.
+    * Risk, Controllers, GBM and Treasury continue to reconcile CCAR and EaR results, with particular focus on Repo funding expenses under the revised models.
+
+⸻
+
+India Model Risk Management Guidance
+
+* The Reserve Bank of India issued draft Model Risk Management guidance for India legal entities; MRM’s initial assessment indicates broad alignment with the firm’s existing framework.
+    * The proposal places greater emphasis on Board oversight, broader model inventory requirements, and periodic validation of all models, including vendor models.
+    * MRM will continue assessing the guidance and any implications for the firm’s India model risk governance framework.
+
+⸻
+
+CCR – Enhanced Equity Relative Value (RV+)
+
+* MRM continues review of the proposed Equity Relative Value (RV+) enhancements, which would reduce stress charges for eligible well-diversified equity portfolios subject to defined risk guardrails.
+    * In response to MRM feedback, Strats submitted an updated methodology incorporating Axioma factor risk analytics and residual factor risks into the portfolio eligibility assessment.
+    * MRM is assessing whether the revised framework appropriately captures residual portfolio risks while preserving the intended capital benefits.
+
+⸻
+
+CCR – Coherent Shortfall Model
+
+* MRM approved enhancements to the Coherent Shortfall model (Risk, Tier 1), which estimates potential counterparty credit risk shortfalls under stressed market conditions.
+    * Key enhancements improve hedge recognition, liquidation methodologies, and portfolio scope and netting treatment.
+    * The changes remediate three medium-severity findings, improving model stability and risk sensitivity while reducing reliance on overly conservative methodologies.
+
+⸻
+
+SIMM v2.8+2512 Recalibration
+
+* ISDA will implement SIMM v2.8+2512 on 11 July following its semi-annual model recalibration, with an estimated ~1% reduction in overall Initial Margin.
+    * Interest Rate risk weights have been frozen after industry concerns that the standard recalibration could materially reduce margin requirements and increase backtesting breaches.
+    * ISDA is evaluating methodology enhancements to the Interest Rate calibration framework, with updated parameters targeted for the December 2026 production release.
+
+⸻
+
+Cross Currency Risk Migration
+
+* MRM validated a strategic migration of interest rate and cross-currency risk calibration across 41 EMEA and Asia currencies to establish a globally consistent risk framework.
+    * The changes standardize cross-currency risk representation across regions, replacing inconsistent local market conventions.
+    * Validation also identified implementation issues and remaining enhancements, with findings raised to support completion of the migration.
+
+I think these are about the right level for a CRO audience: concise enough to fit on the slide, but with enough context that Bill can explain the business significance without referring back to detailed notes.
+
+
+
 Recipient Name
 
 Mortgage Underwriting Department
