@@ -1,3 +1,14 @@
+[E] Mortgage Agency Pricing Model Uplift
+GBM Strats submitted a comprehensive enhancement package for the Agency Fundamental Model, replacing the previously planned phased rollout.
+The submission includes enhancements to the mortgage prepayment and rate models, together with recalibration to recent market conditions, addressing longstanding divergence between desk pricing and independent Risk measurements.
+MRM validation is underway, targeting completion by end-July. [Optional: Temporary risk limit increases expire on 17 July; discussions are ongoing regarding interim arrangements while validation is completed.]
+[F] CCAR – NIM Modeling Changes
+Validation remains on track for completion by 7 August, with potential high-severity findings communicated to GBM.
+Key concerns relate to model assumptions with insufficient support, including macroeconomic factor dependencies, management judgment-based parameters, and implementation issues.
+Risk, Controllers, GBM and Treasury continue to reconcile CCAR and EaR results, with current focus on the large negative Repo expenses generated under the revised modeling framework.
+
+
+
 SIMM v2.8+2512 Recalibration
 
 * ISDA SIMM v2.8+2512 will be implemented in production on 11 July 2026, reflecting the annual recalibration using historical data through 31 December 2025.
