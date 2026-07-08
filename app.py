@@ -1,3 +1,9 @@
+    Continued significant volume of bespoke lending transactions requiring new FLR and Tail Risk model coverage to support appropriate post-trade risk measurement. (YTD: approximately $XXbn of new bespoke transactions.)
+* YTD, MRM approved one new model and 22 FLR and Tail Risk model extensions to incorporate new bespoke deal structures and reduce reliance on fallback methodologies.
+* MRM also approved enhancements to existing FLR and Tail Risk models to improve risk measurement accuracy, including more appropriate treatment of investment-grade versus high-yield exposures and other bespoke lending features.
+
+
+
 SIMM Interest Rate Delta Methodology
 
 * MRM approved the revised Interest Rate Delta backbone methodology for the NYC Volex portfolio used in SIMM calculations, addressing a longstanding model finding that contributed to overstated Initial Margin and persistent counterparty disputes.
