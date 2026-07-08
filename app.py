@@ -1,3 +1,10 @@
+SIMM Interest Rate Delta Methodology
+
+* MRM approved the revised Interest Rate Delta backbone methodology for the NYC Volex portfolio used in SIMM calculations, addressing a longstanding model finding that contributed to overstated Initial Margin and persistent counterparty disputes.
+* Following implementation, Portfolio Reconciliation and Valuations observed a $146mm reduction in disputes, with the enhancement expected to support closure of a longstanding dispute with Nomura and an associated NFA/SEC filing.
+
+
+
 Here are my suggested revisions.
 
 ⸻
