@@ -1,4 +1,65 @@
-    MRM approved one new Facility-Level Rating (FLR) model and an extension to the FLR fallback model to support GS Select and secured lending to Business Development Companies (BDC), expanding production model coverage.
+Overall, your table is very good and captures the right structure. There are, however, a few factual updates and some opportunities to make it more useful for tracking the B3F program.
+
+Accuracy review
+
+Item	Assessment	Comment
+FRB Basel III Re-Proposal	✅ Mostly correct	March 2025 is the current re-proposal. Final rule and implementation remain TBD.
+PRA Final Rules	⚠️ Slight wording	Better to call it Basel 3.1 Final Rules (PS1/26) rather than just “Final Rules”. Published 20 Jan 2026.  
+ECB CRR3	✅ Correct	CRR3 published June 2024.
+ECB BA-CVA/SA-CVA go-live Jan 2025	✅ Correct	CVA reforms became effective with CRR3 in Jan 2025.
+ECB FRTB-SA/IMA Jan 2027	⚠️ Needs update	The EU has since proposed delaying the market risk framework again beyond Jan 2027 while awaiting international alignment. If your tracker reflects the current regulatory position, note that implementation is under further delay review.  
+PRA FRTB IMA Jan 2028	✅ Correct	Confirmed in PS1/26.  
+
+⸻
+
+I would make the table look like this
+
+Regulator	Framework	Component	Rule Publication	Current Go-live	Validation Impact
+FRB	Basel III Endgame Re-proposal	Standardized / SA	Mar 2025	TBD	High
+		FRTB-SA	Mar 2025	TBD	High
+		FRTB-IMA	Mar 2025	TBD	High
+		BA-CVA / SA-CVA	Mar 2025	TBD	High
+PRA	Basel 3.1 Final Rules (PS1/26)	FRTB-SA	Jan 2026	Jan 2027	Medium
+		BA-CVA / SA-CVA	Jan 2026	Jan 2027	Medium
+		FRTB-IMA	Jan 2026	Jan 2028	High
+ECB	CRR3	BA-CVA / SA-CVA / AA-CVA	Jun 2024	Jan 2025	Complete
+		FRTB-SA	Jun 2024	Delayed (currently under review)	Medium
+		FRTB-IMA	Jun 2024	Delayed (currently under review)	High
+
+⸻
+
+I would also add two additional columns
+
+These would make the table much more useful for your B3F planning.
+
+Regulator	Component	Published	Go-live	MRM Validation Start	Status
+FRB	FRTB-SA	Mar-25	TBD	Q3 2026	Planning
+FRB	FRTB-IMA	Mar-25	TBD	Q3/Q4 2026	Planning
+PRA	FRTB-SA	Jan-26	Jan-27	Q3 2026	In Progress
+PRA	FRTB-IMA	Jan-26	Jan-28	Q4 2026	Planning
+ECB	BA-CVA	Jun-24	Jan-25	Complete	Live
+
+This aligns much better with the inventory tracker you built.
+
+⸻
+
+One terminology suggestion
+
+Instead of Current go-live/application date, I’d use
+
+Effective Date
+
+or
+
+Current Regulatory Effective Date
+
+It is more standard regulatory language and accommodates situations where the implementation date changes.
+
+Overall, I’d rate the current table 8.5/10. With the updated EU status, clearer framework names, and two planning columns (“MRM Validation Start” and “Status”), it becomes a much stronger executive tracking tool.
+
+
+
+MRM approved one new Facility-Level Rating (FLR) model and an extension to the FLR fallback model to support GS Select and secured lending to Business Development Companies (BDC), expanding production model coverage.
 * Continued enhancements to existing FLR and Tail Risk models, including:
     * 11 model enhancements to improve the accuracy and risk sensitivity of existing FLR and Tail Risk methodologies.
     * 10 model extensions to incorporate additional bespoke deal types, supporting continued business growth while reducing reliance on fallback methodologies.
