@@ -1,3 +1,62 @@
+I would make this more like an executive update rather than walking through the table line by line. Bill will likely care about (1) regulatory context, (2) size of the work, (3) resourcing risk, and (4) where management decisions may be needed.
+
+Here’s a polished version.
+
+⸻
+
+Introduction
+
+Hi Bill. We wanted to give you a brief overview of the Basel III Finalization validation program, including the regulatory timelines, the overall validation inventory, expected resource demand, and our current project plan.
+
+Regulatory timeline
+
+Before getting into the validation plan, I’ll start with the regulatory landscape.
+
+* For the FRB, the Basel III Endgame re-proposal was published in March 2026, but the final rule has not yet been issued, so the implementation timeline remains uncertain.
+* For the PRA, the implementation timeline is well defined, which is why most current development and validation efforts are focused on the PRA deliverables.
+* For FRTB IMA, although implementation is not expected until 2028, Strats intends to complete development this year and have the models validated ahead of the regulatory deadline.
+* For the ECB, the Basic Approach applicable to Goldman Sachs has already been approved. The Internal Models Approach for Market Risk has been deferred until the end of 2029.
+
+Validation overview
+
+Moving to the validation plan.
+
+Based on the information we’ve gathered so far, the program currently consists of 52 validation items across Standardized Credit Risk, FRTB-CVA and FRTB Market Risk. Based on our standard effort assumptions, this translates to approximately 4 annualized FTEs, or roughly 16 FTEs if concentrated into a single quarter.
+
+The largest resource demand is expected to come from FRTB Market Risk, followed by FRTB-CVA, while the DRC work is primarily comprised of low- to moderate-effort validations.
+
+The development timeline, particularly for the DRC workstream, should be viewed as preliminary because it may shift depending on the timing of the final FRB implementation rule.
+
+Resourcing
+
+Based on the current plan, we believe existing staffing is sufficient.
+
+The peak resource demand is expected during Q4 2026, when multiple FRTB Market Risk validations are expected to run in parallel. Depending on how the development schedule evolves, we may require one to two additional validators during that period.
+
+Validation synergies
+
+One point worth highlighting is the significant validation synergies across jurisdictions.
+
+Much of the FRTB Market Risk and FRTB-CVA work, particularly the risk factor models and core model infrastructure, is common across GS entities. Once the PRA validations are completed, we expect the subsequent FRB validations to require primarily incremental work, with approximately one-third of the original validation effort.
+
+Inventory
+
+The remainder of the presentation provides the detailed inventory.
+
+For FRTB-CVA, we’ve already started receiving the initial model submissions, and the first wave of validations is expected to complete during Q3.
+
+For FRTB Market Risk, validation is already underway for several workstreams. We expect most of the remaining validations to complete by year-end, with a limited number of lower-priority IMA items potentially extending into Q1 2027.
+
+Closing
+
+One challenge throughout this exercise has been that the work is spread across multiple jurisdictions, workstreams and regulatory priorities, making it difficult to maintain a consolidated view.
+
+The objective of this inventory is to provide a single view of the overall program so that we can track progress, monitor resource demand, and identify any emerging capacity constraints as the program progresses.
+
+⸻
+
+I think this version sounds more like a VP/MD presentation. It emphasizes the management messages rather than narrating the spreadsheet, and naturally leads Bill toward the questions he’ll likely ask (timelines, resources, and risks).
+
 Overall, your table is very good and captures the right structure. There are, however, a few factual updates and some opportunities to make it more useful for tracking the B3F program.
 
 Accuracy review
