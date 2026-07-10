@@ -1,3 +1,86 @@
+Absolutely. The email chain provides much stronger compensating controls than the first page because it documents review by senior Strats and explicit approval conditions. Here’s a polished waiver summary.
+
+⸻
+
+Transaction Waiver Summary
+
+Desk
+
+Equities – Structured Products Group (SPG)
+
+Trade
+
+Variable Strike Option
+
+Waiver Scope
+
+Bulk waiver with an aggregate notional limit of USD 250 million, with individual trades up to USD 100 million.
+
+Underlier
+
+ABGSCMD8 Risk Premia Basket
+
+Maturity
+
+1–3 years
+
+Expected Economics
+
+Approximately 1% per annum (index carry plus option volatility premium).
+
+⸻
+
+Trade Description
+
+The transaction is a call option with a variable strike referencing the ABGSCMD8 risk premia basket.
+
+On each rebalancing date, the strike is dynamically adjusted using a self-financing equation to preserve the option’s economic exposure as the underlying evolves. The implementation also incorporates transaction costs, observation date lag, and non-daily rebalancing frequency.
+
+⸻
+
+Reason for Waiver
+
+The variable strike functionality has already been implemented and tested by Strats, but has not yet completed the formal MRM approval process. The desk intends to book the trade using the new implementation while the validation is finalized.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will be booked using the new implementation within the EqSp CMS Linked Note framework. The implementation supports all required product features and will be formally submitted to MRM during the following week.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the implementation has undergone review by senior Strats prior to booking, with approval granted subject to specific implementation checks.
+
+In particular:
+
+* The implementation has been reviewed with a focus on the self-financing equation, including the treatment of interest rates for excess return and total return assets.
+* Transaction costs will be fixed for the initial trades, limiting uncertainty associated with transaction cost modelling during the waiver period.
+* The desk will verify that all risk measures, including T+1 risk, are functioning correctly before and during production use.
+* The remaining modelling limitation relates to the treatment of daily transaction cost accrual for excess return assets, which Strats assessed to have only a small pricing impact.
+* The desk will continue evaluating incorporation of interest rate terms into the self-financing equation to improve consistency with standard option theta calculations as part of the formal model implementation.
+
+⸻
+
+Remediation Plan
+
+* Submit the completed implementation to MRM for formal review and approval.
+* Incorporate any required refinements identified during validation, including enhancements to the self-financing equation where appropriate.
+* Complete MRM validation following submission of the implementation.
+
+⸻
+
+I think this compensating controls section is stronger because it is evidence-based. Rather than simply saying the implementation was tested, it documents that:
+
+1. Senior Strats reviewed and conditionally approved the implementation.
+2. They identified the specific residual modelling issue (transaction cost accrual), assessed it as immaterial.
+3. They required verification of T+1 risk calculations before production.
+
+Those are exactly the types of controls MRM committees typically look for in implementation waivers.
+
+
 Absolutely. Here’s a polished Transaction Waiver Summary in the same format as the previous ones.
 
 ⸻
