@@ -1,3 +1,105 @@
+Absolutely. Here’s a polished Transaction Waiver Summary in the same format as the previous ones.
+
+⸻
+
+Transaction Waiver Summary
+
+Desk
+
+FICC – Hybrid Rates
+
+Trade
+
+Triple Rate Binary Option
+
+Tradable
+
+Eq Hybrid Binary
+
+Counterparty
+
+Hedge Fund
+
+Notional
+
+USD 5 million
+
+Maturity
+
+3 months
+
+Underliers
+
+* 2Y USD Swap Rate
+* 2Y EUR Swap Rate
+* 2Y GBP Swap Rate
+
+Economics
+
+Expected P&L: USD 250,000
+
+⸻
+
+Trade Description
+
+The transaction is a 3-month triple rate binary option referencing three interest rates across different currencies.
+
+The binary payoff depends on all three rates remaining within their respective predefined ranges:
+
+* 2Y USD: 3.7% – 4.1%
+* 2Y EUR: 2.6% – 2.95%
+* 2Y GBP: 3.9% – 4.3%
+
+The structure extends the existing dual-rate binary framework by incorporating a third rate while maintaining the same underlying pricing methodology.
+
+⸻
+
+Reason for Waiver
+
+A validation was previously introduced in the Eq Hybrid Binary calculator preventing trades referencing more than two rates following approval of the dual-rate binary implementation.
+
+The requested transaction references three rates, causing the booking validation to reject the trade despite analysis indicating that the calculator prices this specific cross-currency structure correctly.
+
+⸻
+
+Proposed Booking During Waiver Period
+
+The trade will be booked using the existing Eq Hybrid Binary tradable, with the validation restricting trades to two rates relaxed for this specific transaction.
+
+⸻
+
+Compensating Controls
+
+The desk noted that the pricing methodology implemented in the Eq Hybrid Binary calculator was benchmarked against the multivariate Gaussian copula model used in FICC’s generic formula-based calculator.
+
+The benchmarking demonstrated:
+
+* Close agreement between the Eq Hybrid Binary calculator and the independent CT Strip pricing model across a range of inter-rate correlation assumptions.
+* Consistent pricing for both mid-market and offer valuations under the proposed payoff structure.
+* Comparable results when reducing the structure to dual-rate binaries, providing additional validation against existing approved functionality.
+* The booking representation of offer correlation through barrier shifts produces pricing broadly consistent with directly calibrated offer correlations.
+
+These benchmarking results support that relaxing the booking validation does not introduce a material pricing inconsistency for this specific three-rate structure.
+
+⸻
+
+Remediation Plan
+
+* Remove the booking validation restricting the calculator to two-rate structures where appropriate.
+* Complete review and testing of the three-rate implementation.
+* Submit the enhancement for formal MRM approval following completion of validation activities.
+
+⸻
+
+I think this one has a stronger compensating control than many of the previous waivers because it is supported by independent model benchmarking. Rather than simply stating the desk believes the model is correct, it demonstrates that:
+
+1. the production calculator agrees closely with an independent Gaussian copula implementation,
+2. results are stable across multiple correlation assumptions, and
+3. the model reproduces existing approved dual-rate structures. These are exactly the kinds of arguments MRM reviewers typically find persuasive.
+
+
+
+
 I would make this more like an executive update rather than walking through the table line by line. Bill will likely care about (1) regulatory context, (2) size of the work, (3) resourcing risk, and (4) where management decisions may be needed.
 
 Here’s a polished version.
