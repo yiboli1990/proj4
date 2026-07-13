@@ -1,4 +1,5 @@
-    MRM approved enhancements to the Tier 1 Buyback ML Pricer supporting multi-currency transactions through integration of foreign exchange (FX) notional modeling.
+    MRM approved Marquee Sales AI Chat (GBM Public, Tier 3), an agentic AI solution supporting the OneGS 3.0 Sales Enablement initiative by enabling sales teams to query client information across multiple internal systems through a natural-language interface.
+* MRM independent testing demonstrated 96.4% grounding accuracy, while validation identified and remediated four findings related to hallucination controls and guardrails prior to approval.MRM approved enhancements to the Tier 1 Buyback ML Pricer supporting multi-currency transactions through integration of foreign exchange (FX) notional modeling.
 * During validation, MRM identified and remediated a coding defect affecting FX direction and strengthened regression testing to improve detection of similar implementation issues.
 
 
