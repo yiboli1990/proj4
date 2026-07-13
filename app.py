@@ -1,4 +1,10 @@
-    AIRCC approved the Controllers Reconciliation Matching Agent, an agentic AI solution developed with Anthropic to automate manual transaction matching within the Harmony reconciliation platform.
+    MRM approved enhancements to the Tier 1 Buyback ML Pricer supporting multi-currency transactions through integration of foreign exchange (FX) notional modeling.
+* During validation, MRM identified and remediated a coding defect affecting FX direction and strengthened regression testing to improve detection of similar implementation issues.
+
+
+
+
+AIRCC approved the Controllers Reconciliation Matching Agent, an agentic AI solution developed with Anthropic to automate manual transaction matching within the Harmony reconciliation platform.
 * The initial rollout covers 8 pilot reconciliation breaksheets (of 280 in scope), with human review retained for all agent recommendations and phased expansion subject to performance thresholds, MRM validation, and penetration testing.
 
 
