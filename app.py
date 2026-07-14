@@ -1,4 +1,41 @@
-    MRM approved Marquee Sales AI Chat (GBM Public, Tier 3), an agentic AI solution supporting the OneGS 3.0 Sales Enablement initiative by enabling sales teams to query client information across multiple internal systems through a natural-language interface.
+AI Risk and Controls Council Discussion Points
+
+Meeting Date/Time: [Month DD, 2026] / 9:30 am ET
+Meeting Type: Regular
+Chairperson(s): Michael Schlee, Bill Keirstead
+Secretary: Caroline Shulman
+Attendance: Adequate representation from business and control side members was recorded.
+
+[1] Controllers Data Reconciliation - Approval (Presenters: Rachel Rajkovich, Mike McKinlay, Alka Singh, Sumathi Gokulan)
+
+Decision: AIRC approved the “Matching Agent” in Controllers Data Reconciliation for 8 pilot break sheets.
+
+Pre-go-live Conditions: None
+
+Other Follow-ups:
+
+1. Confirm impact of rollout on Hong Kong. (Owner: Rachel Rajkovich; Control-side Contact: Alexis Vassilikas)
+2. Update precision/recall numbers following completion of model validation. (Owner: Rachel Rajkovich; Control-side Contact: Bo Hu)
+3. Return to AIRCC to discuss change management for skill files. (Owner: Alexis Vassilikas)
+
+Key Discussion Points:
+
+* AI component used for reasoning around exceptions not handled through deterministic checks (approximately 1% of cases, representing 150–200k breaks).
+* Agent inherits the entitlements of the user. All data is contained within Harmony and accessed through an MCP server. Agents are specific to a given break sheet, with access constrained at the break sheet level to reflect reconciliation-specific logic.
+* Agent recommendations are presented through a human-in-the-loop review process, with users responsible for accepting or rejecting recommendations before exceptions are finalized and published.
+* Skills and prompts are managed in GitLab under the standard SDLC process.
+* Post-go-live monitoring includes performance thresholds and operational kill switches to pause the agent if predefined quality or operational thresholds are breached.
+* Approximately 400 Controllers break sheets are in scope for the Anthropic work, compared with approximately 2,000 break sheets across firmwide reconciliation processes, including GBM Operations.
+* Scope of approval is limited to the 8 pilot break sheets. Expansion beyond this scope will require separate approval, potentially through the Streamlined Approval Process where the use case and risk profile remain unchanged.
+
+[2] Administrative Items
+
+* Posting on China AI Chatbot approval.
+* Approval of meeting minutes from the May 26, 2026 meeting.
+
+
+
+MRM approved Marquee Sales AI Chat (GBM Public, Tier 3), an agentic AI solution supporting the OneGS 3.0 Sales Enablement initiative by enabling sales teams to query client information across multiple internal systems through a natural-language interface.
 * MRM independent testing demonstrated 96.4% grounding accuracy, while validation identified and remediated four findings related to hallucination controls and guardrails prior to approval.MRM approved enhancements to the Tier 1 Buyback ML Pricer supporting multi-currency transactions through integration of foreign exchange (FX) notional modeling.
 * During validation, MRM identified and remediated a coding defect affecting FX direction and strengthened regression testing to improve detection of similar implementation issues.
 
