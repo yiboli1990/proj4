@@ -1,4 +1,65 @@
-    Model Risk approved a revised Interest Rate Delta backbone methodology for the NYC Volex portfolio used in Standard Initial Margin Model (SIMM) calculations, addressing a validation finding related to the treatment of interest rate volatility risk and its contribution to longstanding counterparty disputes.
+Overall, I think the structure is good. I would mainly tighten the wording, reduce repetition, and make it read more like previous FRAC updates.
+
+⸻
+
+Corporate Treasury
+
+* Model Risk approved enhancements to 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs), completing Phase 1 model changes supporting Domestic Liquidity Sub-Group (DoLSub) formation and the firm’s application to the Prudential Regulation Authority (PRA) to manage GSI and GSIB liquidity on a consolidated basis.
+    * During validation, the scope was expanded following Model Risk feedback to include enhancements to trapped liquidity calculations and the 1-day Modeled Liquidity Outflow (MLO) methodology.
+    * Outstanding medium-severity findings relate to further methodology enhancements, including the use of DoLSub-specific input data as it becomes available.
+* Model Risk approved a new Tier 1 model (GLA Max FACT) used to optimize monetization of Global Liquid Assets (GLA) during a 30-day Modeled Liquidity Outflow (MLO) scenario and determine upper limits on the composition of Global Core Liquid Assets (GCLA).
+    * The model replaces two qualitative approaches, improving utilization of available liquidity channels and increasing U.S. Treasury capacity.
+    * A high-severity finding related to liquidation sequencing was remediated prior to approval.
+* Model Risk approved a material overlay for the Tier 1 DESCIR MLO model to address differences in Global Liquid Asset (GLA) repo rollover assumptions identified during validation of the GLA Max FACT model.
+    * A new medium-severity finding has been raised to track the strategic methodology enhancement and reduce reliance on the temporary overlay.
+
+⸻
+
+Risk
+
+Counterparty Credit Risk
+
+* Model Risk approved enhancements to the Tier 1 Coherent Shortfall model used to estimate counterparty credit exposures under stressed market conditions for margined portfolios.
+    * Key enhancements improve treatment of non-linear products, hedge recognition, liquidation methodologies, portfolio scope and netting, while strengthening ongoing monitoring of key model assumptions.
+    * The changes improve model stability and risk sensitivity, reduce reliance on conservative methodologies, and remediate validation findings.
+
+(I removed the long list of examples while still capturing the major themes.)
+
+⸻
+
+Fundamental Review of the Trading Book (FRTB)
+
+* There is ongoing validation work related to new Fundamental Review of the Trading Book (FRTB) requirements, with current focus on incremental U.S. requirements, including approval of a new Tier 1 Equity Volatility Wing risk factor model used to generate 10-day shocks for the FRTB Internal Models Approach (IMA) market risk framework.
+
+⸻
+
+UK Internal Capital Adequacy Assessment Process (ICAAP)
+
+* Validation of methodologies used for the UK Internal Capital Adequacy Assessment Process (ICAAP) was completed ahead of the June submission to the Prudential Regulation Authority (PRA).
+    * Model Risk reviewed and approved 50 models used by GSI, GSIB and GS UK for the current ICAAP cycle.
+    * Key enhancements included updates to the Value-at-Risk (VaR) stress calibration framework, new provisioning models with collateral-specific loss-given-default (LGD) estimates, a Basel 3.1 regulatory overlay, enhancements to commodity derivative and equity swap loss methodologies, and revisions to the residual risk add-on framework.
+
+⸻
+
+Regulatory Updates
+
+* Revised Model Risk Management Guidance (SR 26-2): The Federal Reserve Board (FRB), Office of the Comptroller of the Currency (OCC), and Federal Deposit Insurance Corporation (FDIC) issued revised Model Risk Management guidance (SR 26-2), superseding SR 11-7.
+    * The guidance reaffirms the core principles of model risk management while adopting a more risk-based and less prescriptive framework. Model Risk is assessing the implications for the firm’s framework.
+* Prudent Valuation (PruVal) Examination: The European Central Bank (ECB) confirmed successful remediation of all findings from its Prudent Valuation examination.
+    * Remediation included Model Risk validation and approval of 12 newly developed Additional Valuation Adjustment (AVA) methodologies.
+
+⸻
+
+I think these edits make the update:
+
+* More consistent with previous FRACs.
+* Easier to read.
+* Slightly less technical without losing important information.
+* More balanced (avoiding words like materially, significant, etc., unless they’re part of a formal regulatory term).
+
+
+
+Model Risk approved a revised Interest Rate Delta backbone methodology for the NYC Volex portfolio used in Standard Initial Margin Model (SIMM) calculations, addressing a validation finding related to the treatment of interest rate volatility risk and its contribution to longstanding counterparty disputes.
     * The revised methodology removes the previously used backbone treatment, reducing overstated interest rate risk and associated posted and received initial margin requirements.
     * Following implementation, the Portfolio Reconciliation and Valuations team observed a reduction in counterparty disputes, and the change is expected to support closure of a related National Futures Association (NFA) and Securities and Exchange Commission (SEC) filing.
 
