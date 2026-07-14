@@ -1,3 +1,88 @@
+Yes. I think the overall structure is good and consistent with prior FRACs. I would mainly refine the language to be more neutral, reduce repetition, and make the bullets read more smoothly. I also incorporated some of the improvements we’ve discussed over the past few months.
+
+⸻
+
+Artificial Intelligence
+
+There is continued growth in the development of AI models, including recent approvals of:
+
+* A new Tier 1 Compliance agentic AI model (Surveillance AI for Unusual Movement of Assets) used to close transaction monitoring surveillance alerts that would otherwise require human review.
+    * The model leverages the same framework previously approved for insider trading surveillance, automatically closes approximately 40% of alerts, and provides supporting reasoning to assist human review of the remaining alerts.
+    * Three medium-severity findings were remediated prior to approval, with two additional medium-severity findings remaining open for ongoing enhancements and monitoring.
+
+Comment: I changed generative to agentic because the model is clearly described as an agentic workflow rather than simply an LLM.
+
+⸻
+
+* A new Tier 2 Risk generative AI model (Commentary AI) used to draft risk factor narratives for Financial Institution credit reviews.
+    * The model is used only for Financial Institutions where Internal Credit Ratings (ICRs) are not modeled, with mandatory human review; risk factor scoring and ICR determination remain fully performed by Credit Risk.
+    * A high-severity finding related to unsupported statements was remediated through prompt enhancements and implementation of a critic control to detect and flag unsupported content for analyst review prior to approval.
+
+I like this better because it clearly separates scope from validation outcome.
+
+⸻
+
+* Enhancements to the Tier 2 GBM Private agentic AI model (CSG AI Agent) used to synthesize information across documents and support question answering for the Capital Solutions Group (CSG), expanding its capability from single-deal research to multi-deal comparative analysis.
+    * During validation, Model Risk identified an implementation defect causing incorrect document references; remediation reduced query failure rates from 12% to 0% while also reducing compute costs.
+
+I removed the 16% compute reduction because I don’t think FRAC really cares unless it relates to model performance.
+
+⸻
+
+* A new Tier 2 GBM Public generative AI model (Equinox ETF) used to convert free-form chat messages into structured Requests for Quote (RFQs) and Requests for Trade (RFTs) for the U.S. Equities ETF business.
+
+(Simple is sufficient here.)
+
+⸻
+
+* Enhancements to the Tier 2 Engineering generative AI model (M365 Copilot Web Grounding) incorporating Anthropic models with Bing Search to improve web-grounding capabilities.
+    * Web grounding improves response accuracy and reduces hallucinations by incorporating relevant web content into model responses.
+
+I think this wording is cleaner than “compared to GPT models.” We don’t need to compare models at FRAC.
+
+⸻
+
+* Enhancements to GBM Public neural network-based non-generative AI models, including approvals of:
+    * Enhancements to the Tier 1 Buyback ML Pricer supporting multi-currency transactions through integration of foreign exchange (FX) notional modeling.
+    * Enhancements to the Tier 2 TradeScore model supporting the LatAm Interest Rates algorithmic trading business by incorporating order-fill probability estimates into quoting decisions for Brazilian Real (BRL) swaps.
+    * Two medium-severity findings related to regime change capture and ongoing monitoring were remediated prior to approval.
+
+I think it is better to say enhancements to the TradeScore model than “extension to the probability estimation model.”
+
+⸻
+
+Collateralized Lending
+
+I think I’d actually restructure this slightly. We discussed this a lot, and I think the three themes are now very clear.
+
+* There is continued focus on development and validation work supporting the collateralized lending business, including approvals of:
+    * Extension to the Tier 1 Facility-Level Rating (FLR) fallback model to cover secured lending exposures to Business Development Companies (BDCs), expanding coverage to exposures previously outside the FLR framework.
+    * Extensions to asset-specific FLR and Tail Risk models to incorporate additional bespoke deal structures, including private equity facilities backed by equity positions with put options and loans backed by Bitcoin, supporting business growth while reducing reliance on fallback methodologies.
+    * Enhancements to existing FLR and Tail Risk methodologies to improve risk measurement accuracy, including enhanced option-adjusted spread (OAS) calibration for Mortgage Servicing Right facilities and improved recovery rate estimation for residential mortgage and corporate credit portfolios.
+
+⸻
+
+Overall comments
+
+I think this version is more consistent with previous FRAC updates because:
+
+* Every main bullet starts with “A new…” or “Enhancements to…”.
+* The sub-bullets explain:
+    1. what the model does,
+    2. what changed,
+    3. important validation outcomes (especially high-severity findings).
+* The tone is neutral and factual.
+* Acronyms are defined the first time they appear.
+* There is no marketing language (“well-designed”, “robust”, “significant”, “instrumental”, etc.).
+* Individual bullets remain one sentence where practical.
+
+I think this is very close to the style used in your previous FRAC submissions.
+
+
+
+
+
+
 AI Risk and Controls Council Discussion Points
 
 Meeting Date/Time: [Month DD, 2026] / 9:30 am ET
