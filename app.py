@@ -1,3 +1,65 @@
+I agree. The grouped bullet should still give enough context so the Committee understands what was enhanced and why. I’d keep it as one main bullet with two sub-bullets.
+
+Counterparty Credit Risk (CCR) model enhancements, including recent approvals of:
+
+* Enhancements to the Tier 1 Equity Franchise Benchmark model to harmonize stress methodologies with Synthetic Products Group portfolios as part of the broader CREST Unified Benchmark Model (UBM) migration.
+    * The changes align equity liquidation, fund liquidation and credit stress assumptions across the two frameworks, supporting automation of the combined benchmark process and reducing reliance on manual overlays.
+* Enhancements to Tier 1 Prime Brokerage and Franchise benchmark models across Equity and Interest Rate products, addressing validation findings and improving consistency of shortfall calculations.
+    * Enhancements to the Prime Brokerage and Franchise Equity shortfall models introduced a dedicated crypto sector classification and more conservative concentration shocks to better capture the risk profile of crypto-related equities.
+    * Enhancements to the Franchise Interest Rate Benchmark model incorporated variation margin and improved allocation of agent lender repo haircuts for repurchase agreements, resulting in more accurate shortfall calculations.
+
+I think this is about the right balance:
+
+* Main bullet: high-level theme.
+* Sub-bullet 1: Equity / crypto enhancement.
+* Sub-bullet 2: Interest Rate / repo enhancement.
+
+It tells the Committee what changed without getting into implementation details like Agent Lender Disclosure (ALD) feeds or pledged value calculations, which are probably too technical for FRAC.
+
+
+I agree with both comments.
+
+For IR Delta, I think it deserves two bullets: one explaining why the work was done, and one explaining the outcome.
+
+For Risk Management, I’d make every approval its own bullet, just like prior FRAC updates. For CCR, I’d make the UBM migration stand out, then group the remaining finding-driven enhancements.
+
+⸻
+
+Global Banking & Markets
+
+* Model Risk approved a revised Interest Rate Delta backbone methodology for the NYC Volex portfolio used in Standard Initial Margin Model (SIMM) calculations.
+    * During the significant Tier 1 revalidation, Model Risk identified limitations in the existing Interest Rate Delta methodology and raised a validation finding following independent benchmarking and analysis of longstanding counterparty SIMM disputes.
+    * The revised methodology removes the previous backbone treatment, reducing overstated interest rate risk and associated initial margin requirements. Following implementation, the business observed a reduction in counterparty disputes and expects to close a related National Futures Association (NFA) and Securities and Exchange Commission (SEC) filing.
+
+Validation activity during the period primarily related to:
+
+Risk management enhancements, including approvals of:
+
+* A new Tier 1 model used for pricing and risk management of interest rate index products, providing clients with efficient access to fixed income markets through index-based products.
+    * Approval is currently limited to trades that are not eligible for the Standard Initial Margin Model (SIMM), pending completion of the SIMM methodology.
+* A new Tier 1 methodology for callable overhedge management in equity autocallable products, improving the stability of risk measures and supporting more consistent pricing and trading management.
+* New Tier 1 models used to price listed and over-the-counter American equity warrants, extending coverage of the previously approved local volatility framework to products with more complex dividend characteristics and resolving an existing model waiver.
+* A new Tier 1 reserve methodology for Financial Transmission Rights (FTRs), replacing the existing reserve framework to improve valuation consistency and better align reserves with observed market pricing.
+* A recalibration of the Tier 1 Mortgage Agency prepayment model used in private bank mortgage pricing, improving prediction of borrower prepayments and remediating an existing validation finding.
+
+Counterparty Credit Risk (CCR) model enhancements, including recent approvals of:
+
+* Enhancements to the Tier 1 Equity Franchise Benchmark model to harmonize stress methodologies with Synthetic Products Group portfolios as part of the broader CREST Unified Benchmark Model (UBM) migration, supporting greater consistency across shortfall benchmark models and reducing reliance on manual overlays.
+* Enhancements to Tier 1 Prime Brokerage and Franchise benchmark models across Equity and Interest Rate products, addressing validation findings through improvements to crypto equity stress calibration, variation margin treatment for repurchase agreements, and allocation of agent lender repo haircuts within shortfall calculations.
+
+⸻
+
+I think this reads much closer to previous FRACs:
+
+* Every approval is a single business-oriented bullet.
+* The purpose is explained before the technical change.
+* The UBM migration is clearly the headline CCR item.
+* The remaining CCR work is presented as a collection of enhancements that resolve findings, rather than four very technical model changes. This is likely more useful for FRAC.
+
+
+
+
+
 Yes. I think the overall structure is good and consistent with prior FRACs. I would mainly refine the language to be more neutral, reduce repetition, and make the bullets read more smoothly. I also incorporated some of the improvements we’ve discussed over the past few months.
 
 ⸻
