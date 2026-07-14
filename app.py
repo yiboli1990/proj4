@@ -1,3 +1,8 @@
+    Model Risk approved a revised Interest Rate Delta backbone methodology for the NYC Volex portfolio used in Standard Initial Margin Model (SIMM) calculations, addressing a validation finding related to the treatment of interest rate volatility risk and its contribution to longstanding counterparty disputes.
+    * The revised methodology removes the previously used backbone treatment, reducing overstated interest rate risk and associated posted and received initial margin requirements.
+    * Following implementation, the Portfolio Reconciliation and Valuations team observed a reduction in counterparty disputes, and the change is expected to support closure of a related National Futures Association (NFA) and Securities and Exchange Commission (SEC) filing.
+
+
 I agree. The grouped bullet should still give enough context so the Committee understands what was enhanced and why. I’d keep it as one main bullet with two sub-bullets.
 
 Counterparty Credit Risk (CCR) model enhancements, including recent approvals of:
