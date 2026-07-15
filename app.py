@@ -1,3 +1,9 @@
+MRM approved enhancements to the Buyback ML Pricer (GBM Public, Tier 1), a neural network-based non-generative AI model used for pricing equity share buybacks, extending support to multi-currency transactions through integrated foreign exchange (FX) notional modeling.
+
+* The enhancement supports approximately $10bn of annual buyback flow for a strategic client.
+* During validation, MRM identified and remediated an implementation error related to client-paid scheduled cashflows that could have resulted in material mispricing and incorrect risk measures.
+
+
 Overall this is good. I would mainly improve the flow, avoid repetition of “continued focus,” and make each bullet slightly more concise. Here’s how I would write it:
 
 ⸻
