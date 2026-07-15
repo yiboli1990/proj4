@@ -1,3 +1,28 @@
+Overall this is good. I would mainly improve the flow, avoid repetition of “continued focus,” and make each bullet slightly more concise. Here’s how I would write it:
+
+⸻
+
+Validation activity during the quarter included:
+
+* Continued growth in artificial intelligence (AI) models and adoption of new techniques, including approvals of:
+    * A new Tier 1 Compliance agentic AI model used to close transaction monitoring surveillance alerts that would otherwise require human review.
+    * Enhancements to a Tier 1 GBM Public neural network-based non-generative AI model for pricing equity share buybacks to support multi-currency transactions.
+    * Enhancements to a Tier 2 GBM Private agentic AI model used to synthesize information across documents and support question answering for the Capital Solutions Group (CSG), expanding its capability from single-deal research to multi-deal comparative analysis.
+* Continued enhancements to counterparty credit risk (CCR) models, including approvals of:
+    * Enhancements to the Tier 1 GBM Equity Franchise Benchmark model to harmonize stress methodologies with Synthetic Products Group portfolios as part of the broader CREST Unified Benchmark Model (UBM) migration.
+    * Enhancements to the Tier 1 Risk Coherent Shortfall model used to estimate credit exposure under stressed market conditions for margined portfolios, improving model stability and risk sensitivity, reducing reliance on conservative methodologies, and remediating validation findings.
+* Ongoing validation work supporting the Collateralized Lending business, including approvals of enhancements to Tier 1 Risk Engineering-owned Facility-Level Rating (FLR) and Tail Risk models that expand model coverage, reduce reliance on fallback methodologies, and improve the accuracy of existing risk measurement methodologies.
+* Model Risk approved enhancements to 11 models, qualitative approaches (QAs), and deterministic regulatory calculations (DRCs), completing Phase 1 model changes supporting Domestic Liquidity Sub-Group (DoLSub) formation and the firm’s application for Prudential Regulation Authority (PRA) approval to manage GSI and GSIB liquidity on a consolidated basis.
+
+Regulatory updates included:
+
+* Revised Model Risk Management Guidance (SR 26-2): The Federal Reserve Board (FRB), Office of the Comptroller of the Currency (OCC), and Federal Deposit Insurance Corporation (FDIC) issued revised Model Risk Management guidance (SR 26-2), superseding SR 11-7. The guidance reaffirms core Model Risk Management principles while adopting a more risk-based and less prescriptive framework. Model Risk is assessing the implications for the firm’s framework.
+* FRB Model Risk Management Matter Requiring Attention (MRA): The Federal Reserve Board confirmed closure of the MRA on Weaknesses in Model Validation Controls Framework.
+
+This version is a little tighter, avoids repeating “continued focus” three times, and aligns more closely with the style typically used in FRAC executive summaries.
+
+
+
 Overall, I think the structure is good. I would mainly tighten the wording, reduce repetition, and make it read more like previous FRAC updates.
 
 ⸻
