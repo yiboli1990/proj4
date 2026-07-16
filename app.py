@@ -1,3 +1,32 @@
+I think the flow can be improved. Rather than starting with “Despite…”, I’d lead with Model Risk monitoring evolving market conditions and then transition into the findings. That’s more consistent with FRAC’s neutral style.
+
+I’d suggest:
+
+Model Risk continued to monitor the impact of evolving market conditions and business activity on model performance during the quarter. Elevated volatility across interest rates, commodities, and energy markets associated with the Iran conflict did not result in material model performance concerns, with isolated observations addressed through model enhancements. Notable highlights include:
+
+Then:
+
+* Model Risk raised a high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model related to incorrect treatment of pool price floors under stressed scenarios; remediation increased risk limit utilization, with temporary departmental limit increases implemented.
+    * The finding prompted broader enhancements to the mortgage risk framework to address longstanding differences between desk views of risk and Risk division measurements during periods of market volatility.
+    * Strategic enhancements to the mortgage prepayment and mortgage rate models have been submitted, with validation currently in progress.
+* Model Risk continues to monitor potential model risk implications of elevated IPO underwriting activity, with no material concerns identified to date.
+    * Ahead of the SpaceX IPO, Model Risk assessed key liquidity risk models, including intraday liquidity, mark-to-market risk, and deposit models, with no material deficiencies identified.
+    * Model Risk is reviewing enhancements to the treatment of IPO-related exposures in the Incremental Risk Charge (IRC) model, which forms part of the market risk Risk-Weighted Assets (RWA) framework.
+    * Discussions with Risk Strats are ongoing to develop an empirically supported methodology for estimating migration and default probabilities for IPO issuers, reducing reliance on conservative fallback assumptions.
+
+Why I changed it
+
+* “Iran war” → Iran conflict (more neutral and typical for Board/FRAC materials).
+* “Strategic model enhancements has been made” → “Strategic enhancements … have been submitted” (more accurate since validation is still in progress).
+* Added “business activity” alongside market conditions to naturally introduce the IPO discussion.
+* Used “elevated IPO underwriting activity” instead of just “SpaceX IPO” so the section is about an emerging risk theme rather than a single transaction.
+* Defined Risk-Weighted Assets (RWA) on first use.
+
+
+
+
+
+
 I think these should follow the same style as your previous examples: lead with what ongoing monitoring identified, avoid too much technical detail, and end with the remediation.
 
 I’d draft them as:
