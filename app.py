@@ -1,3 +1,8 @@
+Review of ongoing monitoring identified limitations in the stress calibration methodology for the Tier 1 GBM Commodities Franchise Benchmark model, where the current approach may not appropriately capture client-specific risk concentrations and provides limited transparency into unmodeled risk factors and stress loss attribution, making it difficult to identify the drivers of backtesting breaches; remediation is in progress.
+
+
+
+
 I think the flow can be improved. Rather than starting with “Despite…”, I’d lead with Model Risk monitoring evolving market conditions and then transition into the findings. That’s more consistent with FRAC’s neutral style.
 
 I’d suggest:
