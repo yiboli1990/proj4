@@ -1,3 +1,19 @@
+I think these should follow the same style as your previous examples: lead with what ongoing monitoring identified, avoid too much technical detail, and end with the remediation.
+
+I’d draft them as:
+
+* Review of ongoing monitoring identified limitations in the stress calibration methodology for the Tier 1 GBM Commodities Franchise Benchmark model, where the current approach may not appropriately capture client-specific risk concentrations and relies on assumptions for scaling risk to longer holding periods that have not been sufficiently validated; model developers are enhancing the methodology and ongoing monitoring as part of remediation.
+* Backtesting breaches were identified in Tier 1 Retail Credit Risk models used to estimate Probability of Default (PD) and Loss Given Default (LGD) for residential mortgage and home improvement loan portfolios, requiring re-quantification of model parameters to restore performance; remediation is in progress.
+
+Or, if you want the second bullet to be a little more specific:
+
+* Backtesting breaches were identified in Tier 1 Retail Credit Risk models used to estimate Probability of Default (PD) and Loss Given Default (LGD) for residential mortgage and home improvement loan portfolios, including the U.S. first-lien Home Equity Line of Credit (HELOC) portfolio, requiring re-quantification or re-segmentation of model parameters; remediation is in progress.
+
+I slightly prefer the second version, as it tells the Committee which portfolio was affected while still keeping the wording concise and consistent with the existing FRAC examples.
+
+
+
+
 MRM approved enhancements to the Buyback ML Pricer (GBM Public, Tier 1), a neural network-based non-generative AI model used for pricing equity share buybacks, extending support to multi-currency transactions through integrated foreign exchange (FX) notional modeling.
 
 * The enhancement supports approximately $10bn of annual buyback flow for a strategic client.
