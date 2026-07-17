@@ -1,4 +1,8 @@
-I agree with your manager’s comments. I’d simplify the section and make it more focused on MRM actions rather than operational impacts.
+I A high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model was remediated and closed during the quarter, addressing incorrect treatment of pool price floors under stressed scenarios that resulted in understated risk measures
+
+
+
+agree with your manager’s comments. I’d simplify the section and make it more focused on MRM actions rather than operational impacts.
 
 Here’s how I would rewrite it:
 
