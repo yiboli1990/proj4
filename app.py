@@ -1,3 +1,7 @@
+Additional required enhancements to the mortgage risk framework are being tracked through a medium-severity finding to address differences between desk views of risk and Risk division measurements during periods of market volatility.
+
+
+
 I A high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model was remediated and closed during the quarter, addressing incorrect treatment of pool price floors under stressed scenarios that resulted in understated risk measures
 
 
