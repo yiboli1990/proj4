@@ -1,4 +1,8 @@
-    . A finding was raised on the Tier 1 Prime Services Clearing (GSEC) Crypto model, where concentration shocks did not fully capture the elevated post-IPO volatility observed in SpaceX; given the limited short exposure, the portfolio will be monitored while model developers assess enhancements to concentration shocks in the CREST Unified Benchmark Model.
+Following Model Risk feedback, additional enhancements to the trapped liquidity calculations were incorporated, and the validation scope was expanded to include the 1-day Modeled Liquidity Outflow (MLO) calculation to address completeness of the overall methodology.
+
+
+
+. A finding was raised on the Tier 1 Prime Services Clearing (GSEC) Crypto model, where concentration shocks did not fully capture the elevated post-IPO volatility observed in SpaceX; given the limited short exposure, the portfolio will be monitored while model developers assess enhancements to concentration shocks in the CREST Unified Benchmark Model.
 
 
 
