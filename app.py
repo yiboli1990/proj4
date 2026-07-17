@@ -1,3 +1,8 @@
+    . A finding was raised on the Tier 1 Prime Services Clearing (GSEC) Crypto model, where concentration shocks did not fully capture the elevated post-IPO volatility observed in SpaceX; given the limited short exposure, the portfolio will be monitored while model developers assess enhancements to concentration shocks in the CREST Unified Benchmark Model.
+
+
+
+
 Review of ongoing monitoring identified limitations in the stress calibration methodology for the Tier 1 GBM Commodities Franchise Benchmark model, where the current approach may not appropriately capture client-specific risk concentrations and provides limited transparency into unmodeled risk factors and stress loss attribution, making it difficult to identify the drivers of backtesting breaches; remediation is in progress.
 
 
