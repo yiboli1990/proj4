@@ -1,3 +1,30 @@
+I agree with your manager’s comments. I’d simplify the section and make it more focused on MRM actions rather than operational impacts.
+
+Here’s how I would rewrite it:
+
+Model Risk continued to monitor the impact of evolving market conditions and business activity on model performance during Q2 2026. Notable highlights include:
+
+* Model Risk raised and remediated a high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model related to incorrect treatment of pool price floors under stressed scenarios, which resulted in understated risk measures.
+    * The review also identified broader opportunities to strengthen the mortgage risk framework. Additional enhancements to the mortgage prepayment and rate models are being validated, with a medium-severity finding tracking the remaining strategic remediation.
+* Model Risk continues to monitor the model risk implications of elevated IPO underwriting activity, with no material concerns identified to date.
+    * During the SpaceX IPO, Model Risk assessed key Tier 1 liquidity risk models, including intraday liquidity, mark-to-market risk, and deposit models, with no material deficiencies identified.
+    * Model Risk raised a medium-severity finding on the Tier 1 GBM Public Prime Services Clearing (GSEC) Equity model, where concentration shocks did not fully capture the elevated post-IPO volatility observed in SpaceX; remediation is in progress.
+
+Or, following your manager’s suggestion even more closely (my preference):
+
+Model Risk continued to monitor the impact of evolving market conditions and business activity on model performance during Q2 2026. Notable highlights include:
+
+* Model Risk raised and remediated a high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model related to incorrect treatment of pool price floors under stressed scenarios, which resulted in understated risk measures.
+    * Additional strategic enhancements to the mortgage risk framework, including the mortgage prepayment and rate models, are being validated, with a medium-severity finding tracking the remaining remediation.
+* Model Risk continues to monitor the model risk implications of elevated IPO underwriting activity. During the quarter, Model Risk raised a medium-severity finding on the Tier 1 GBM Public Prime Services Clearing (GSEC) Equity model, where concentration shocks did not fully capture the elevated post-IPO volatility observed in SpaceX; remediation is in progress.
+
+I prefer the second version. It follows your manager’s feedback by:
+
+* making the mortgage bullet about the closed high-severity finding and the remaining medium-severity strategic work;
+* making the IPO section primarily about the Prime Services finding, while dropping the separate liquidity bullet that doesn’t add much value to the Committee.
+
+
+
 Following Model Risk feedback, additional enhancements to the trapped liquidity calculations were incorporated, and the validation scope was expanded to include the 1-day Modeled Liquidity Outflow (MLO) calculation to address completeness of the overall methodology.
 
 
