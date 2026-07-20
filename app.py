@@ -1,3 +1,9 @@
+Attended the PRA Model Risk Management (MRM) roundtable for firms assessed under SS1/23. The PRA noted Goldman Sachs’ MRM framework is broadly aligned with supervisory expectations, while highlighting industry focus areas including performance-based risk appetite metrics and model inventory management.
+
+
+
+
+
 Additional required enhancements to the mortgage risk framework are being tracked through a medium-severity finding to address differences between desk views of risk and Risk division measurements during periods of market volatility.
 
 
