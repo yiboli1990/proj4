@@ -1,4 +1,137 @@
-I would keep it to one page. The goal is to listen first, not persuade.
+Based on the discussion, here are the updates that should be made.
+
+CRO Bi-weekly Update
+
+Top of Mind
+
+* PRA IRB Uplift
+    * Refresh status (current slide is outdated).
+    * Update:
+        * Corporate Industry Segment SCR model not yet approved (remove any wording implying approval).
+        * Status of the two high-severity findings on Super Large models (likely still under remediation).
+        * Confirm whether the Master Scale PD model rule compliance findings have now been remediated.
+
+Validation Activities
+
+Include progress updates on:
+
+* Mortgage PSD Full Pricing Model validation.
+* RBF / RB Plus validation.
+* NIM modeling change validation.
+
+Regulatory Updates
+
+* Add summary of the PRA MRM Roundtable.
+* Reintroduce the India Model Risk Management Guidance (was skipped last week).
+* Add any ETSC updates, if available.
+* Add a brief update on the ECB iCAP examination, including:
+    * Validation meeting completed.
+    * Upcoming MRM meeting in New York.
+    * Mention areas of regulator focus if appropriate, even if there are no findings yet.
+
+⸻
+
+GBM Strats Update
+
+AI Section
+
+AIRCC
+
+Continue using last week’s CRO material:
+
+* Controllers Data Reconciliation approval.
+* AIRCC updates.
+
+Validation Approvals
+
+Update recent approvals and make them more business-specific (rather than simply saying “GBM”).
+
+Include:
+
+* GBM Public – Buyback ML Pricer enhancement (non-generative AI).
+* GBM Private – Banker Copilot.
+* Market Sales – Tier 3 AI Chat model.
+    * Mention that it is part of the OneGS 3.0 initiative.
+
+Bill specifically requested replacing generic “GBM” references with the relevant business/desk.
+
+AI Regulatory
+
+* Update that the Prism validation is now officially approved.
+* Add short summary of the FCA/PRA AI meeting (adoption and use of AI).
+
+AI Inventory
+
+New proposal:
+
+* Include a one-time full inventory of GenAI and Agentic AI models.
+* Going forward, replace with:
+    * inventory statistics
+    * new additions
+    * changes since last update
+
+⸻
+
+Validation Section
+
+Refresh status for:
+
+* Mortgage Full Pricing Model.
+* NIM Modeling Change.
+* RB Plus validation.
+
+Also update:
+
+* Recent Fixed Income approvals.
+* Recent Equities approvals.
+
+⸻
+
+Equity / Business Topics
+
+Add:
+
+* Thematic Funding
+    * Now that findings have been raised, include a short update.
+    * Position as a reminder of lessons learned around model governance.
+
+Potential equity market topic:
+
+* KOSPI / AI unwind scenario
+    * Mention that MRM observed limited exposure and no model issues.
+    * Potentially reference scenario analysis if available.
+
+⸻
+
+Regulatory / Exams
+
+Add a brief update on:
+
+* Market Risk Examination
+    * Mention current examination progress and MRM engagement.
+
+⸻
+
+Follow-ups Before Publishing
+
+Before finalizing, Yibo noted he will verify:
+
+* Actual PRA IRB approval status.
+* Status of the two high-severity findings.
+* Master Scale PD remediation.
+* Mortgage model progress.
+* RB Plus progress.
+* NIM model progress.
+* Latest ETSC updates.
+* Latest Fixed Income and Equities approvals.
+
+These were all identified as needing factual refreshes before the updates are sent.
+
+
+
+
+
+would keep it to one page. The goal is to listen first, not persuade.
 
 ⸻
 
