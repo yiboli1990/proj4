@@ -1,3 +1,15 @@
+ECB ICAAP Examination: Ongoing examination with the ECB focusing on operational risk modeling, model governance, and independent Model Risk Management (MRM) validation, with an additional New York onsite meeting scheduled in July.
+
+* Discussions to date have progressed well, covering validation methodology, governance, model approvals, ongoing monitoring, and model change management.
+
+Option 2
+
+ECB ICAAP Examination: Ongoing examination with the ECB focusing on operational risk modeling, model governance, and independent MRM validation, with a further onsite meeting in New York scheduled for July.
+
+* Meetings to date have been constructive, including detailed discussions on validation methodology, governance, and oversight of GSBE ICAAP models.
+
+
+
 Based on the discussion, here are the updates that should be made.
 
 CRO Bi-weekly Update
