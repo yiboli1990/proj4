@@ -1,3 +1,41 @@
+I would keep it to one page. The goal is to listen first, not persuade.
+
+⸻
+
+Discussion with Adam
+
+Background
+
+* Two new facts were discovered after attorney review:
+    * Insurance claims (wind claim and water damage claim).
+    * Approved redevelopment immediately behind the property (discovered through the appraisal, then confirmed through Planning Board materials).
+
+Questions
+
+1. Do either of these issues create a legal disclosure issue?
+2. Do I have any legal basis to terminate the contract if I choose to?
+3. If not, do these issues provide leverage to renegotiate the purchase price?
+4. Based on your experience, what would you recommend?
+
+Additional Context
+
+* My insurance agent does not believe the claims are a major issue unless they indicate a larger underlying problem or affect insurance.
+* The appraisal states:
+    “This setting can expect to pose an adverse affect on value and possibly extend days on market.”
+* My real estate agent believes the redevelopment is the more significant issue and suggested exploring termination if legally available; otherwise, she recommends considering a price reduction.
+
+Things to Remember
+
+* Let Adam form his own opinion before discussing strategy.
+* Listen more than talk.
+* Understand legal rights first, then discuss negotiation.
+* Don’t commit to walking away or asking for a specific price reduction until hearing his advice.
+
+⸻
+
+I think that last section is the most important. Going into the call with the mindset of “I’m here to understand my options” rather than “I’m here to justify walking away” will help you get the most objective advice from Adam.
+
+
 Attended the PRA Model Risk Management (MRM) roundtable for firms assessed under SS1/23. The PRA noted Goldman Sachs’ MRM framework is broadly aligned with supervisory expectations, while highlighting industry focus areas including performance-based risk appetite metrics and model inventory management.
 
 
