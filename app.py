@@ -1,3 +1,97 @@
+For the IRB uplift, I would keep the updates at the same level as your example—focus on progress and avoid model-by-model details.
+
+Top of Mind
+
+PRA Internal Ratings-Based (IRB) Approach Uplift: Validation on track for
+
+* Corporate models (target completion: July): Validation is progressing, with discussions ongoing with Strats on Margin of Conservatism (MoC) methodology and supporting evidence, while remaining findings are being closed.
+* Super Large Corporate models (target completion: August): Remediation is in progress for the two high-severity implementation findings; validation is also focusing on financial data transformation methodology and key credit adjustments.
+* Rule compliance (~800 rules; target completion: Sep 4): Review of PD Master Scale rules is progressing following developer updates, while preliminary reviews of Corporate and Super Large Corporate IRB rules are underway.
+
+This is more executive-level and consistent with the style you’ve adopted.
+
+⸻
+
+RBI guidance update
+
+Since you’ve now reviewed the guidance, I would update the bullet. The previous wording only summarized the proposal; now you have a view on the implications.
+
+I’d suggest:
+
+Reserve Bank of India (RBI): Draft Guidance on Regulatory Principles for Model Risk Management issued for consultation (comments due Jul 24).
+
+* Initial assessment identified key advocacy areas relating to the scope of the model definition, governance and approval requirements for high-risk models, and a more risk-proportionate approach to third-party model oversight, while broader alignment with international regulatory expectations remains under review.
+
+Or, if you want to be slightly more positive:
+
+* MRM completed an initial assessment of the draft guidance and is coordinating industry feedback, with key advocacy areas focused on refining the model definition, adopting a more risk-proportionate governance framework, and clarifying expectations for third-party model oversight.
+
+I prefer the second version because it tells management that:
+
+1. you’ve completed the review,
+2. you’re actively engaging with the consultation,
+3. the issues are refinements rather than fundamental concerns.
+
+
+Based on the transcript and the streamlined style we’ve established, I would keep the minutes focused on the governance decisions rather than the technical presentation.
+
+⸻
+
+AI Risk and Controls Council Discussion Points
+
+Meeting Date/Time: July 21, 2026
+Meeting Type: Regular
+Chairperson(s): Michael Schlee, Bill Keirstead
+Secretary: Caroline Shulman
+
+[1] AI Driven Graph Gen – Approval (Presenters: Daniel Wang, Tony Fong)
+
+Decision:
+AIRC approved AI Driven Graph Gen (ASL, Tier 2), an agentic AI solution to generate dependency graphs from loan agreements to automate fee and margin invoicing for the Resi and Consumer Warehouse Lending businesses.
+
+Pre-go-live Conditions:
+
+1. Complete user training and readiness activities, consistent with the conditions documented in the AIRCC submission.
+
+Key Discussion Points:
+
+* The solution uses AI to convert complex loan agreements into dependency graphs while maintaining human review before outputs are used for production invoicing.
+* Initial rollout covers fee and margin invoicing for the Resi and Consumer Warehouse Lending businesses, with future expansion to additional use cases (e.g., pricing and risk management) expected to follow separate governance review.
+* AI-generated outputs are supported by deterministic validation, full traceability, and step-by-step review within the application to enable users to verify calculations and supporting documentation.
+* Users review and approve or reject AI-generated interpretations, with feedback incorporated into subsequent graph regeneration to improve accuracy.
+* Testing demonstrated approximately 93% facility-level accuracy, with remaining cases flagged for human review prior to production use.
+* The Council discussed the broader opportunity to replace spreadsheet-based operational processes with a standardized digital representation of loan agreements, while noting that any future pricing or risk management applications would require additional model governance consideration.
+
+[2] Administrative Items
+
+* Reviewed the Q2 AIRCC Quarterly Report, including AI inventory, validation and findings metrics, Q2 approvals, and the status of open and closed AIRCC follow-up items.
+
+⸻
+
+I think this is about the right level of detail. It condenses roughly an hour of discussion into six governance-focused bullets while capturing:
+
+* what was approved,
+* the key control (human review),
+* the scope,
+* the evidence supporting approval (93% accuracy),
+* the strategic direction,
+* and the only pre-go-live condition (user training).
+
+It’s also consistent with the streamlined format you and Caroline have been converging on.
+
+
+
+
+
+
+	* AIRC approved AI Driven Graph Gen (ASL, Tier 2) to convert complex loan agreements into dependency graphs and automate fee and margin invoicing for the Resi and Consumer Warehouse Lending businesses.
+* The initial rollout retains human approval of all outputs and demonstrated 93% facility-level accuracy; user training is required before go-live.
+
+
+
+	
+
+
 ECB ICAAP Examination: Ongoing examination with the ECB focusing on operational risk modeling, model governance, and independent Model Risk Management (MRM) validation, with an additional New York onsite meeting scheduled in July.
 
 * Discussions to date have progressed well, covering validation methodology, governance, model approvals, ongoing monitoring, and model change management.
