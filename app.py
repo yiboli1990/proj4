@@ -1,3 +1,201 @@
+Below are the updates and follow-ups from the FRAC review with Bill.
+
+FRAC deck updates
+
+Executive Summary
+
+AI
+
+* Replace the Unusual Movement of Assets (surveillance) model with Prism, since Prism was just approved and is a more significant Agentic AI example.
+* Remove the surveillance example because that area is moving toward a simpler architecture.
+* Clearly distinguish the Unusual Movement of Assets model from the previously approved Insider Trading model to avoid confusion if it is mentioned.
+* Add Prism as the lead AI example.
+
+CCR
+
+* No deck changes.
+* Keep the text factual and regulatory-focused.
+* Mention more recent developments (e.g., SpaceX, findings) only during the verbal presentation if needed.
+
+Collateralized Lending
+
+* Consider adding a quantitative summary (e.g., number of approvals) if accurate Q2 numbers are available.
+* If accurate numbers are not readily available, keep the current high-level summary.
+
+Regulatory Updates
+
+* Add a brief statement that:
+    * MRM is actively assessing the implications of SR 26-2.
+    * A more detailed update will be provided once the assessment is complete.
+
+⸻
+
+AI section
+
+* Add Prism.
+* Remove the surveillance example.
+* Continue clearly labeling which models are:
+    * Agentic AI
+    * Generative AI
+    * Traditional neural-network AI
+* Keep the discussion of the high-severity finding.
+
+⸻
+
+Emerging Risks
+
+* No slide changes.
+* Keep the:
+    * Mortgage Pass Through Pool Pricing finding.
+    * SpaceX IPO medium finding.
+* Use the verbal presentation to provide additional context.
+
+⸻
+
+GBM section
+
+Follow-up
+
+Bill requested additional information on:
+
+* American option models with more complex dividend characteristics
+    * Send Bill background/details offline.
+
+⸻
+
+Corporate Treasury
+
+Follow-up
+
+Bill asked:
+
+* What business uses the Financial Transmission model?
+    * Confirm and send the details back.
+
+⸻
+
+Regulatory Updates section
+
+* Remove this entire section from the main deck.
+* Executive Summary already covers the important regulatory items.
+* Separate regulatory findings slide remains.
+
+⸻
+
+Significant Tier 1 update
+
+* Remove.
+* Not enough meaningful content to justify the slide.
+
+⸻
+
+Regulatory Findings
+
+* Show the MRM MRA closure one final time.
+* After this quarter:
+    * Remove the closed MRM items.
+    * Keep only remaining open findings.
+
+⸻
+
+Appendix cleanup
+
+Remove inventory by approval status
+
+Remove:
+
+* Inventory by Approval Status (Tier 1-4)
+
+Reason:
+
+* Difficult to automate.
+* Occasionally inconsistent with RAS.
+* Adds little information beyond the existing inventory charts.
+
+QA / DRC approval status
+
+Also remove the equivalent approval-status table for:
+
+* QAs
+* DRCs
+
+Possible future enhancement:
+
+* Create a separate “shadow RAS” metrics slide for Tier B QAs/DRCs if desired.
+
+Future improvement
+
+Bill commented that the appendix highlight text is largely a laundry list of increases/decreases.
+
+Follow-up
+
+* Consider redesigning these highlight summaries in a future refresh (not required this quarter).
+
+⸻
+
+Fed presentation updates
+
+SR 26-2 slide
+
+Keep the message high level:
+
+* Framework already aligns with SR 26-2 principles.
+* MRM is reviewing opportunities to tailor the framework.
+* No significant framework changes planned.
+* Potential refinements include:
+    * Model tiering.
+    * Treatment of qualitative approaches.
+    * Validation/revalidation tailoring.
+    * Lower-tier documentation.
+    * Board reporting.
+    * GenAI / Agentic AI governance.
+
+Do not overcommit to future changes.
+
+⸻
+
+AI slide
+
+* Reuse the existing AI governance slide.
+* Refresh AIRCC information.
+* Explain:
+    * Framework evolution since 2023.
+    * AI policy interactions.
+    * Relationship between MRM and AIRCC.
+* Keep this discussion-oriented rather than presentation-heavy.
+
+⸻
+
+AI classification slide
+
+Keep:
+
+* Model vs AI platform distinction.
+* Risk tiering.
+* Production approval process.
+
+No additional written detail is needed.
+
+⸻
+
+Action items / Follow-ups
+
+Owner	Action
+Yibo	Replace surveillance AI with Prism in Executive Summary and AI section.
+Yibo	Add brief SR 26-2 statement to Executive Summary.
+Yibo	Remove Regulatory Updates section.
+Yibo	Remove Significant Tier 1 section.
+Yibo	Remove inventory-by-approval-status appendix slides (including QA/DRC versions).
+Yibo	Remove closed MRM findings after this quarter (show once more this quarter).
+Yibo	Decide whether to include Q2 collateralized lending approval counts if accurate numbers are available.
+Yibo	Send Bill details on the American option dividend model enhancement.
+Yibo	Confirm and send Bill details on the Financial Transmission model/business.
+Team	Refresh AIRCC information in the Fed deck.
+Team	Finalize Fed deck offline (no additional review meeting needed).
+
+
+
+
 Federal Reserve Board (FRB): Upcoming supervisory meeting on implementation of SR 26-2 and Model Risk Management oversight of AI/ML.
 
 * Topics include planned framework changes, model classification, AI governance, and monitoring and reporting of GenAI and Agentic AI models and tools.
