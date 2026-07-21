@@ -1,3 +1,9 @@
+Federal Reserve Board (FRB): Upcoming supervisory meeting on implementation of SR 26-2 and Model Risk Management oversight of AI/ML.
+
+* Topics include planned framework changes, model classification, AI governance, and monitoring and reporting of GenAI and Agentic AI models and tools.
+
+
+
 The main outcome of the meeting wasn’t to change the inventory—it was to improve governance, clarify timelines, and start proactive tracking. Below are the key follow-ups grouped by owner.
 
 Owner	Follow-up	Why
