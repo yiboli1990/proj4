@@ -1,3 +1,45 @@
+The main outcome of the meeting wasn’t to change the inventory—it was to improve governance, clarify timelines, and start proactive tracking. Below are the key follow-ups grouped by owner.
+
+Owner	Follow-up	Why
+Yibo	Update the inventory to reflect the latest DRC development priorities (replace the old DRC timeline with the latest plan received from Controllers).	Current DRC table is outdated.
+Yibo	Add a note that current validation scope is PRA, with FRB expected to require only incremental validation unless the final rule changes materially.	Bill was confused by the “Current Validation Scope” column.
+Yibo	Clarify ECB scope in the regulatory timeline (GS only uses BA-CVA and FRTB-SA today; IMA shown only as generic regulatory context).	Avoid confusion between regulatory framework and GS implementation.
+Yibo	Start preparing a periodic B3F status update/dashboard (inventory, submissions received, validations in progress, delays, resource outlook).	Bill asked whether we should start reporting.
+Yibo	Update the CVA schedule to reflect the latest submission status (which models have been received vs. outstanding).	Track actual progress against plan.
+Sergei / Hui	Confirm whether additional FRB validation is actually needed after PRA validation for each workstream.	Bill questioned whether incremental FRB work is required.
+Sergei	Confirm latest expected submission dates for the remaining CVA engines (especially Herb).	Current plan is already ~6 weeks behind.
+Yibo / Hui	Revisit DRC validation scope for 2026 vs. 2027 based on the latest development roadmap.	Only validate work being implemented in 2026.
+Caroline / Yibo	Identify who owns overall B3F project management (Risk Engineering, Controllers, Governance, etc.).	Bill wants a single project tracker.
+Caroline / Yibo	Find out whether there is already a central project tracker and, if so, align MRM reporting with it.	Avoid maintaining parallel trackers.
+Caroline	Check with Controllers / Joseph Hong (or other regulatory contacts) for the latest FRB Basel III Endgame timing expectations.	Bill wants the latest market/regulatory intelligence.
+
+Discussion items / Open questions
+
+These don’t require immediate action but should be tracked:
+
+* Will PRA implementation dates move if the FRB rule is delayed?
+* When will the remaining CVA (Herb) models be submitted?
+* Will PRA and FRB ultimately use the same models, requiring only incremental validation?
+* Should DRCs be updated in place or recreated as new Basel III Final Rule DRCs?
+* Who will own B3F reporting after the organizational changes (Shahzad vs. others)?
+* Should MRM establish a joint first-/second-line reporting process once project ownership is finalized?
+
+Biggest management concern from Bill
+
+If I had to summarize Bill’s main messages, they were:
+
+1. CVA is already slipping—start escalating schedule delays now rather than waiting.
+2. Find the overall project owner and ensure there is centralized project management and reporting.
+3. Don’t over-plan FRB work until the final rule is clearer, but be ready to leverage PRA validation as much as possible.
+4. Keep the inventory current and evolve it into a management tracking tool rather than just a one-time exercise.
+
+Those four points are likely what Bill will expect to see addressed in the next update.
+
+
+
+
+
+
 For the IRB uplift, I would keep the updates at the same level as your example—focus on progress and avoid model-by-model details.
 
 Top of Mind
