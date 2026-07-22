@@ -1,3 +1,8 @@
+    Discussions are ongoing with GBM Strats on proposed enhancements to the Agency Fundamental Model, with validation targeting completion by the end of the week.
+* The scope has been narrowed to recalibration of the prepayment model, with validation focused on backtesting performance and assessing whether the recalibration addresses divergence between desk and modeled risk.
+* A subsequent phase of enhancements is planned, including uplift of the mortgage rate model and enhanced differentiation of Ginnie custom versus multi-pool prepayment behavior.
+
+
 For a CRO update, I’d keep each item to 2 concise bullets focusing on progress and key risks.
 
 Validation Activities
