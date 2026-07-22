@@ -1,4 +1,22 @@
-    Pre-go-live conditions include completion of legal and technology risk approvals, finalization of guardrails and PII controls, and completion of user training and testing
+For a CRO update, I’d keep each item to 2 concise bullets focusing on progress and key risks.
+
+Validation Activities
+
+Mortgage Pass-Through Pools Pricing (GBM Public, Tier 1):
+
+* Discussions are ongoing with GBM Strats on proposed enhancements to the Agency Fundamental Model, with validation targeting completion by the end of the week.
+* The current scope is focused on recalibration of the prepayment model to address divergence between desk and modeled risk, with subsequent enhancements planned for the mortgage rate model and Ginnie custom versus multi-pool prepayment modeling.
+
+CCAR Net Interest Income (GBM Public, Tier 1):
+
+* Validation of Net Interest Income enhancements for the GBM Trading portfolio remains on track for completion by Aug. 7, subject to remediation of high-severity findings.
+* Remaining work focuses on remediation of modeling assumptions and implementation issues, as well as evidence supporting portfolio completeness across different business portfolio definitions.
+
+This is more concise, executive-focused, and aligned with the style of your recent CRO bi-weekly updates.
+
+
+
+Pre-go-live conditions include completion of legal and technology risk approvals, finalization of guardrails and PII controls, and completion of user training and testing
 
 
 MRM approved Prism, an agentic AI model supporting GM trading and sales through autonomous market research, dynamic tool invocation, and question answering, subject to appropriate human oversight.
