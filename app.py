@@ -1,4 +1,7 @@
-    MRM approved Prism, an agentic AI model supporting GM trading and sales through autonomous market research, dynamic tool invocation, and question answering, subject to appropriate human oversight.
+    Pre-go-live conditions include completion of legal and technology risk approvals, finalization of guardrails and PII controls, and completion of user training and testing
+
+
+MRM approved Prism, an agentic AI model supporting GM trading and sales through autonomous market research, dynamic tool invocation, and question answering, subject to appropriate human oversight.
 * MRM analysis indicates the model is fit for purpose; independent testing identified approximately 20% hallucinations in sampled reports as of mid-June, with performance improving steadily throughout the evaluation period.
 * Six medium-severity findings were identified during validation covering performance measurement, ongoing monitoring, access controls, information leakage, and AI-generated code execution. Two findings were remediated prior to approval, with four remaining under remediation.
 
