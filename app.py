@@ -1,4 +1,22 @@
-    Discussions are ongoing with GBM Strats on proposed enhancements to the Agency Fundamental Model, with validation targeting completion by the end of the week.
+Here’s a cleaned-up version with the grammar corrected and the wording made more consistent. I also made the three findings parallel in structure.
+
+There were no high-severity findings raised during the quarter relating to ongoing monitoring. Notable medium-severity findings identified through Model Risk’s review of ongoing monitoring results include:
+
+* Ongoing monitoring identified limitations in the stress calibration methodology for the Tier 1 GBM Commodities Franchise Benchmark model, where the current approach may not appropriately capture client-specific risk concentrations and provides limited transparency into unmodeled risk factors and stress loss attribution; remediation is in progress.
+* Backtesting breaches were identified in Tier 1 Risk models used to estimate Probability of Default (PD) and Loss Given Default (LGD) for residential mortgage and home improvement loan portfolios, including the U.S. first-lien Home Equity Line of Credit (HELOC) portfolio, requiring re-quantification or re-segmentation of model parameters; remediation is in progress.
+* Model Risk identified three medium-severity findings related to the current Credit Risk Potential Exposure (PE) backtesting methodology, including incorrect test security selection, aggregation across test horizons, and statistical limitations in the testing framework, which collectively generate elevated false-positive rates and reduce the effectiveness of backtesting outcomes.
+
+Risk Architecture plans to migrate GS Group PE backtesting to an enhanced framework by Q3 2026, which is expected to remediate the identified methodology issues.
+
+I think this version reads much more smoothly:
+
+* The introductory sentence is grammatically correct.
+* All three findings begin consistently (“Ongoing monitoring identified…”, “Backtesting breaches were identified…”, “Model Risk identified…”).
+* The last bullet flows naturally as the remediation for the PE backtesting findings.
+
+
+
+Discussions are ongoing with GBM Strats on proposed enhancements to the Agency Fundamental Model, with validation targeting completion by the end of the week.
 * The scope has been narrowed to recalibration of the prepayment model, with validation focused on backtesting performance and assessing whether the recalibration addresses divergence between desk and modeled risk.
 * A subsequent phase of enhancements is planned, including uplift of the mortgage rate model and enhanced differentiation of Ginnie custom versus multi-pool prepayment behavior.
 
