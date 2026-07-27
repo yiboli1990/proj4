@@ -1,3 +1,149 @@
+Based on the discussion, the updates are relatively minor and focus on improving clarity, aligning messaging, and making the “preliminary” nature of the Q2 assessment explicit.
+
+Documents (Quarterly Model Performance Reports)
+
+1. Market Risk Report
+
+Updates
+
+* Add section headings to improve readability:
+    * Ongoing Monitoring Outcome
+    * Breach Assessment
+* Separate the factual backtesting outcome (e.g., Basel Traffic Light status) from the qualitative breach investigation.
+* Clarify that:
+    * Backtesting results remained within the Basel Traffic Light Green Zone.
+    * Breaches were investigated and attributed to market movements rather than model deficiencies.
+* No substantive modeling changes required.
+
+Key discussion
+
+* Current quarter performed better than prior quarter.
+* No data quality, proxy mapping, or time series issues identified.
+* Stress periods and utilization remain consistent with expectations.
+
+⸻
+
+2. Credit Risk Report
+
+Updates
+
+* Revise finding statement to avoid ambiguity:
+    * Current:
+        No new findings related to ongoing monitoring…
+    * Better:
+        No new ongoing monitoring findings were identified for the GSFM legal entity.
+* Clarify wording around Stress EEPE:
+    * Keep conclusion that results are in line with expectations.
+    * No additional thresholds or RAG criteria required (none exist).
+
+No other substantive changes were requested.
+
+⸻
+
+3. Narrative / Cover Memo
+
+This received the most comments.
+
+Update the standard language
+
+Current wording:
+
+MRM is not aware of any material findings…
+
+Bill felt this sounds passive, as if MRM is waiting to hear about findings from someone else.
+
+Revise to make clear that MRM performs the assessment and has not identified any findings.
+
+Possible wording:
+
+Based on MRM’s preliminary review of the Q2 ongoing monitoring results available at the time of submission, MRM has not identified any material findings.
+
+or
+
+Based on MRM’s preliminary review of the Q2 ongoing monitoring results available at the time of submission, MRM has not determined that any material findings should be raised.
+
+⸻
+
+Sierra Q2 Monitoring Slide
+
+This was the primary discussion.
+
+1. Clearly state the review is preliminary
+
+Current wording appears too final.
+
+Update:
+
+* Slide title, or
+* Each bullet
+
+to say:
+
+Preliminary Review of 2026 Q2 Backtesting Results
+
+instead of simply
+
+Review of 2026 Q2 Backtesting Results
+
+⸻
+
+2. Add footnote explaining timing
+
+Bill suggested explicitly explaining why the slide reflects Q2 while the formal report is still based on Q1.
+
+Example:
+
+This represents MRM’s preliminary review of Q2 monitoring results. Formal assessment will be documented in the subsequent quarterly monitoring report.
+
+⸻
+
+3. Update sub-bullets
+
+Instead of:
+
+MRM reviewed…
+
+Use:
+
+Preliminary review indicates…
+
+or
+
+Preliminary review concluded…
+
+to maintain consistency with the slide title.
+
+⸻
+
+4. Remove obsolete footnote
+
+Delete the legacy footnote:
+
+Starting Q3 2023…
+
+It appears to be copied from an old template and is no longer applicable.
+
+⸻
+
+No Changes Requested
+
+Bill indicated no concerns with the technical assessment itself.
+
+No updates needed regarding:
+
+* Market Risk conclusions
+* Credit Risk conclusions
+* Backtesting analysis
+* Stress testing results
+* Ongoing monitoring methodology
+* Findings
+* Thresholds or escalation logic
+
+The discussion was almost entirely about improving wording, clarifying governance, and making the preliminary nature of the Q2 assessment explicit rather than changing any substantive conclusions.
+
+
+
+
 Here’s a cleaned-up version with the grammar corrected and the wording made more consistent. I also made the three findings parallel in structure.
 
 There were no high-severity findings raised during the quarter relating to ongoing monitoring. Notable medium-severity findings identified through Model Risk’s review of ongoing monitoring results include:
