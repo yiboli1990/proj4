@@ -1,3 +1,46 @@
+Based on Caroline’s feedback, I ignored anything already covered in the materials (e.g., isolated infrastructure, human oversight, logging, kill switches, local hosting, etc.) and focused only on clarifications, confirmations, and committee discussion.
+
+Here’s the draft I’d recommend.
+
+⸻
+
+[1] EMM Use of OpenCode – Approval (Presenters: Jameson Schriber, Milko Milkov)
+
+Decision:
+
+The AIRCC Chairpersons approved EMM’s use of locally hosted open-weight LLMs and OpenCode within the dedicated EMM environment, limited to non-Chinese models.
+
+Pre-go-live Conditions:
+
+1. Complete outstanding Legal, Tech Risk and Contracts approvals, and finalize user training materials and testing documentation.
+
+Other Follow-ups:
+
+1. Engineering to review alignment between the EMM architecture and the firm’s broader DSML platform.
+2. Follow up on prompt/response retention requirements.
+3. Consider additional monitoring and reporting for AI usage, costs, and user access.
+
+Key Discussion Points:
+
+* The presenters clarified that EMM will leverage the firm’s Hugging Face mirror and SAM approval process for open-source software and models, rather than maintaining an independent model repository.
+* The Council discussed alignment with the firm’s broader DSML platform and requested an architecture review to better understand the rationale for EMM’s dedicated deployment model and future integration opportunities.
+* The presenters confirmed that locally hosted models are intended to improve latency, enable deeper integration with EMM research infrastructure (e.g., Spark clusters and repositories), provide greater flexibility for customization, and reduce inference costs compared with externally hosted models.
+* The presenters confirmed that production deployment processes remain unchanged; AI-generated code, configuration changes and process recommendations continue to follow existing human review, testing and release approval procedures.
+* The Council discussed the need for consistent firmwide reporting of AI usage and costs across isolated environments to support regulatory oversight, while agreeing this should not delay the current approval.
+* The Council agreed that the use of Chinese-origin open-weight models will be considered separately through ARC as a firmwide policy decision and is excluded from the scope of this approval.
+* The Council discussed strengthening monitoring of user access to the environment, with the presenters confirming that multiple existing network, firewall and user entitlement controls already restrict access to authorized EMM personnel.
+
+⸻
+
+I think this is much closer to Caroline’s style:
+
+* It avoids repeating slide content (local hosting, human oversight, logging, NeMo guardrails, etc.).
+* Every bullet captures something that was asked, clarified, confirmed, or scoped during the discussion.
+* It stays at 7 bullets, which seems to be the sweet spot based on the last set of approved minutes.
+
+
+
+
 Based on the discussion, the updates are relatively minor and focus on improving clarity, aligning messaging, and making the “preliminary” nature of the Q2 assessment explicit.
 
 Documents (Quarterly Model Performance Reports)
