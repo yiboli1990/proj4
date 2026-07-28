@@ -1,4 +1,10 @@
-    AIRCC approved EMM’s restricted use of locally hosted open-weight LLMs and OpenCode within its segregated environment, excluding Chinese-origin models pending separate firmwide consideration by ARC.
+    MRM approved IB Summaries (GBM Public, Tier 3), a Marquee AI model that summarizes sales and trading client conversations and identifies trade patterns and opportunities.
+* During validation, MRM raised a high-severity finding related to summary accuracy, resulting in model rejection. The finding was subsequently remediated through prompt tuning and the incorporation of gold-standard labeled data to improve model performance.
+* Independent testing confirmed Request for Quote (RFQ) extraction accuracy of 93% across evaluated conversations, with 84% of generated summaries exceeding the defined 80% quality threshold following remediation.
+
+
+
+AIRCC approved EMM’s restricted use of locally hosted open-weight LLMs and OpenCode within its segregated environment, excluding Chinese-origin models pending separate firmwide consideration by ARC.
 * Pre-go-live conditions include completion of outstanding Legal, Tech Risk and Contracts reviews, user training and testing documentation, with follow-ups on architecture alignment, retention requirements, and reporting of access, usage and costs.
 
 
