@@ -1,3 +1,7 @@
+    AIRCC approved EMM’s restricted use of locally hosted open-weight LLMs and OpenCode within its segregated environment, excluding Chinese-origin models pending separate firmwide consideration by ARC.
+* Pre-go-live conditions include completion of outstanding Legal, Tech Risk and Contracts reviews, user training and testing documentation, with follow-ups on architecture alignment, retention requirements, and reporting of access, usage and costs.
+
+
 Based on Caroline’s feedback, I ignored anything already covered in the materials (e.g., isolated infrastructure, human oversight, logging, kill switches, local hosting, etc.) and focused only on clarifications, confirmations, and committee discussion.
 
 Here’s the draft I’d recommend.
