@@ -1,4 +1,9 @@
-    MRM approved IB Summaries (GBM Public, Tier 3), a Marquee AI model that summarizes sales and trading client conversations and identifies trade patterns and opportunities.
+    Completed 3 of 6 pre-go-live conditions for the Phase 1 rollout of the China AI Chatbot, including legal and technology risk approvals and implementation of PII controls.
+* Outstanding pre-go-live conditions include finalization of guardrails and completion of user training and testing.
+
+
+
+MRM approved IB Summaries (GBM Public, Tier 3), a Marquee AI model that summarizes sales and trading client conversations and identifies trade patterns and opportunities.
 * During validation, MRM raised a high-severity finding related to summary accuracy, resulting in model rejection. The finding was subsequently remediated through prompt tuning and the incorporation of gold-standard labeled data to improve model performance.
 * Independent testing confirmed Request for Quote (RFQ) extraction accuracy of 93% across evaluated conversations, with 84% of generated summaries exceeding the defined 80% quality threshold following remediation.
 
