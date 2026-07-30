@@ -1,4 +1,126 @@
-    Completed 3 of 6 pre-go-live conditions for the Phase 1 rollout of the China AI Chatbot, including legal and technology risk approvals and implementation of PII controls.
+Meeting Minutes: Q2 2026 Quarterly MRM Meeting with FRB – July 30, 2026
+
+MRM hosted the Q2 2026 Quarterly Model Risk Management meeting with FRB.
+
+* The discussion primarily focused on the revised Model Risk Management guidance, SR 26-2, GenAI/Agentic AI governance, and AI model risk classification and tiering.
+* The meeting briefly covered standard quarterly updates, including validation activity and findings, Internal Audit findings, and RAS exceptions and aged items.
+
+Key Discussions
+
+1. Revised Model Risk Management Guidance SR 26-2
+
+* Makaylah (FRB) opened the discussion by noting that SR 26-2 provides institutions with additional flexibility and asked how GS is considering potential changes to its MRM framework.
+* David Palmer (FRB) emphasized that the revised guidance was intended to respond to industry feedback and provide greater flexibility. He cautioned that some external interpretations of SR 26-2 may be inaccurate and encouraged GS to consult directly with the FRB before making significant changes based on perceived supervisory expectations.
+* Caroline (GS) explained that GS does not view SR 26-2 as requiring a fundamental redesign of its MRM framework. GS considers its existing framework broadly aligned with the revised guidance and is evaluating targeted refinements intended to maintain focus on the highest-risk activities.
+* Caroline noted that GS is not currently considering changes to its model definition or broad reclassification of models as non-models. GS is reviewing minor adjustments to its materiality-based tiering methodology, though any resulting movement is expected to be limited to a small number of Tier 2 and Tier 3 models.
+* Caroline explained that GS is also reviewing the scope of its qualitative approach framework. The framework was initially focused on CCAR and subsequently expanded more broadly; GS is evaluating whether it should be refocused on higher-risk applications, including valuation, capital, liquidity, and stress testing.
+* Makaylah (FRB) noted that there is no single required approach under SR 26-2, provided appropriate governance remains in place. She stated that institutions may reconsider classifications or definitions, but controls should continue to be commensurate with the underlying risk.
+* David (FRB) agreed and emphasized that the FRB is less concerned with whether an item is formally labeled a model than with whether it is subject to appropriate governance and controls. He noted that SR 26-2 was intended to reinforce that institutions may use different approaches to achieve effective model risk management.
+* Caroline described potential changes to GS’s annual review and revalidation framework. GS is considering removing the requirement to fully revalidate all CCAR models before every annual submission and instead applying the existing significant Tier 1 revalidation cycle, under which the most material models are generally revalidated every two years.
+* Caroline noted that annual reviews would continue in off-cycle years and that validation work would still be performed where models were changed, recalibrated, or otherwise warranted additional review.
+* Caroline also described potential refinements to the recently enhanced annual review process, including:
+    * Not requiring narrative explanations for purely administrative or check-the-box questions
+    * Retaining explanations for substantive questions relating to conceptual soundness, ongoing monitoring, and continued fitness for purpose
+    * Tailoring annual review questions for lower-risk Tier 3 models
+    * Using a simplified annual review in the year immediately following a full revalidation
+* David (FRB) stated that SR 26-2 intentionally contains no specific frequency requirements. The FRB is less focused on whether reviews occur at a prescribed interval and more focused on whether an institution can justify the frequency based on the risk and circumstances of the model.
+* Caroline noted that GS is also considering simplified documentation requirements for lower-tier models, primarily by reducing duplication across documentation sections.
+* Caroline discussed potential simplification of Board-level model risk reporting. GS is considering consolidating several metrics where thresholds and underlying information are duplicative, while retaining more detailed reporting for management-level committees and providing full details to the Board if a breach occurs.
+* Caroline noted that GS is not considering material organizational changes or significant resource reallocation as a result of SR 26-2. GS views the guidance as supporting targeted refinements around the edges of a mature framework.
+* David (FRB) discussed the treatment of GenAI and agentic AI under SR 26-2. He explained that these technologies were generally excluded from the guidance because industry practices vary and because applying a traditional MRM framework may not always be a natural fit.
+* David emphasized that the exclusion was not intended to dictate how institutions govern GenAI and agentic AI or to prevent MRM from participating in their oversight. He also noted that global institutions may need flexibility because other jurisdictions may apply broader definitions or different control expectations.
+* Bill Keirstead (GS) confirmed that GS interpreted SR 26-2 consistently with that intent and did not view the guidance as requiring GenAI or agentic AI to be excluded from the MRM framework.
+
+2. GenAI/Agentic AI Governance
+
+* Caroline (GS) described GS’s broader AI governance framework and explained that AI risk management is treated as a shared responsibility across multiple functions, with MRM remaining a central component.
+* Caroline noted that traditional AI and machine learning models continue to be governed through the existing MRM framework, which had previously been enhanced to address AI-specific risks such as explainability.
+* Caroline explained that GS did not create a separate risk framework for GenAI and agentic AI. Instead, GS built on its existing MRM framework and established broader enterprise governance through the Firmwide Policy on Artificial Intelligence, the AI Risk and Controls Council, and the Firmwide AI Risk Committee.
+* Caroline noted that MRM continues to perform independent review and challenge of AI applications that meet the model definition, while broader legal, compliance, operational, technology, and data risks are addressed through the multidisciplinary AI governance framework.
+* Makaylah (FRB) asked specifically how MRM’s role fits within GS’s broader AI governance structure and whether that role is evolving as AI applications become more complex.
+* Bill (GS) explained that the area remains highly dynamic and that GS’s AI governance structure will continue to evolve. He identified several areas where MRM is expected to maintain an important role:
+    * Maintaining the AI inventory and related metadata
+    * Performing risk classification and tiering
+    * Supporting the AI governance process through the inventory and tiering framework
+    * Conducting full independent validation for higher-risk AI models
+* Bill noted that very low-risk AI applications may be classified as Tier 4. For those items, MRM’s role generally ends after inventory, classification, and annual reassessment, without a full independent validation.
+* Bill emphasized that MRM brings a distinct second-line capability to review complex code, algorithms, mathematical methods, and model behavior in detail. He noted that this expertise is particularly valuable for higher-risk AI applications developed by first-line businesses or Engineering.
+* David (FRB) observed that industry practice for GenAI and agentic AI generally involves a team-based governance model rather than assigning responsibility solely to MRM. He noted that MRM often works alongside Technology Risk, Data, Compliance, Operational Risk, and other control functions.
+* Bill agreed and compared the emerging risks from agentic AI to automated electronic trading. He noted that, similar to electronic trading systems, agentic AI could create operational risks if automated actions are executed incorrectly or without sufficient control.
+* Bill explained that GS may increasingly need automated perimeter controls, guardrails, and other preventive controls to mitigate risks such as unintended actions or “fat finger” errors generated at scale.
+* Bill noted that it remains under consideration whether MRM would directly validate those guardrail frameworks or whether another control function would own that responsibility. However, he emphasized that MRM’s technical skills are relevant and likely to play an important role.
+
+3. AI Model Risk Classification and Tiering
+
+* Caroline (GS) explained that applications built using LLMs to solve a specific business problem are classified as models when they meet the firm’s model definition.
+* Caroline noted that the underlying LLMs and general-purpose tools, such as Microsoft 365 Copilot, are classified as AI platforms rather than models.
+* AI platforms remain in the firmwide inventory and are subject to governance and approval under the Firmwide Policy on Artificial Intelligence and the AI Risk and Controls Council, but are not subject to independent model validation.
+* Caroline clarified that AI models must be approved by MRM before being used for business purposes, even if the initial production use is limited to a single user.
+* Caroline also noted that GS does not maintain a separate validation process for agentic AI. Agentic AI applications classified as models are subject to the same model validation framework as other models, with the validation approach tailored to the nature of the application.
+* Bill added that the distinction between development and production may require further consideration for agentic AI. Unlike traditional models, agentic systems may create risk during development and testing because the system is already executing automated actions.
+* Bill noted that GS is actively considering whether additional controls should apply during the development phase and where those expectations should be reflected in policy.
+* Makaylah (FRB) clarified that the questions were intended to understand GS’s approach given the wide range of practices observed across institutions, rather than to indicate that one specific approach is required.
+
+4. Model Validations and Status of Findings
+
+* Makaylah (FRB) asked why the number of overdue Severity 2 and Severity 3 findings had increased to 43, nearly double the prior-quarter level.
+* Caroline (GS) explained that one likely driver was a group of findings raised through the validation of internal credit rating models. A single finding may be linked to multiple related models, which can cause the reported population to increase significantly.
+* Caroline noted that finding volumes may increase following major model changes or the initial validation of a group of related models and may subsequently result in a higher number of overdue findings several months later.
+* Caroline explained that GS closely monitors the three-to-six-month aging bucket because findings become a breach of the FRAC-level RAS threshold once they are more than six months past their original due date.
+* Makaylah noted that the number had historically been closer to the mid-20s and requested additional detail on the specific drivers.
+* GS agreed to provide a follow-up explanation of the increase.
+
+5. MRM Issues Raised by Internal Audit and Issue Remediation
+
+* Makaylah (FRB) asked when the two newly reported Internal Audit findings had been raised, noting that they were not included in the prior-quarter materials.
+* Caroline (GS) explained that both findings were raised during the second quarter. The first finding was due the following day and GS believed the remediation work had been completed. The second finding was due in September.
+* Makaylah asked for additional detail on the finding involving the SLS Prime Equity Funds model, noting that it appeared to include both annual review and ongoing monitoring elements.
+* Makaylah asked whether Internal Audit had evaluated the annual review under the recently enhanced annual review process.
+* Caroline confirmed that the enhanced process had been applied.
+* Caroline explained that the model was Tier 2 and that one ongoing monitoring report had not been provided to MRM during the annual review.
+* Caroline noted that other monitoring information was available and was sufficient for MRM to conclude that the model remained appropriate. The missing report did not prevent MRM from completing the annual review or reaching its conclusion.
+* Internal Audit nevertheless determined that the missing monitoring report should be provided and that MRM should update its assessment for completeness.
+* Caroline stated that GS does not expect the annual review conclusion to change after receiving the additional monitoring report.
+* Makaylah also asked why certain findings shown as closed during the quarter had not appeared in the prior-quarter materials.
+* Caroline explained that some lower-severity findings may be raised and remediated within the same quarter. GS reports all findings that are open during the quarter and all findings closed during the quarter, even when the finding was not outstanding at the previous quarter-end.
+* Caroline agreed to confirm the reporting history for the DRC-related finding.
+
+6. RAS Exceptions and Aged Items
+
+* Makaylah (FRB) asked about the increase in unvalidated Tier 2 models in use, noting that the number had increased from three in the prior quarter.
+* Caroline (GS) explained that the prior-quarter number was unusually low relative to historical experience and that the current population was not considered elevated.
+* Caroline noted that the current Tier 2 population included models across several areas, including GBM algorithmic trading, valuation adjustments, Platform Solutions, and Asset and Wealth Management.
+* Caroline stated that there was no particular thematic issue driving the increase and that the number can vary materially from quarter to quarter based on validation timing across different businesses.
+* Makaylah asked whether the five Tier 2 models with findings aged more than six months were included in the broader finding count discussed earlier.
+* Caroline confirmed that they were included, but noted that the page-three metric captured findings aged more than three months, whereas the RAS metric captured findings aged more than six months.
+* Caroline noted that the longstanding breach involving Tier 1 GBM counterparty credit risk models had been fully remediated.
+* Caroline explained that the current aged population consisted of five Tier 2 and one Tier 3 electronic trading models. The same finding applied across all six models and related to migration away from a legacy model.
+* Caroline noted that the migration had taken longer than expected due to implementation challenges. The population had subsequently declined to three Tier 2 and one Tier 3 model, with current commitments to complete remediation by early October.
+
+7. General Questions and Other Matters
+
+* Makaylah (FRB) asked how GS governs the expanded use of an existing model when the model is applied to a purpose beyond the use originally approved by MRM.
+* Caroline (GS) explained that models are validated for specific uses. Expanding a model beyond its approved use would be treated as a model change and would require validation for the new use.
+* Caroline noted that GS may either create a separate inventory entry for the new use or expand the approved use under the existing inventory entry, depending on the circumstances.
+* Bill (GS) explained that business areas may represent model uses differently. For example, Market Risk may maintain separate inventory entries for the same underlying methodology when it is used for different purposes, while other areas may group multiple uses within a single inventory entry.
+* Makaylah asked how frequently GS has encountered expanded-use requests, including whether the practice has become more common for AI models.
+* Bill stated that no recent examples were immediately apparent and that nothing was currently raising a specific concern.
+* Makaylah clarified that the question was intended to understand GS’s governance approach because the FRB had observed expanded model use at other institutions.
+* David (FRB) noted that the comment period for the Financial Stability Board’s AI report had recently closed. He stated that the FSB received substantial industry feedback and broad support for the report and thanked GS for any feedback provided directly or through industry groups.
+* David noted that the FSB expects to finalize the report in the fall.
+
+Follow-Ups
+
+* GS to provide additional detail on the increase in overdue Severity 2 and Severity 3 findings.
+* GS to confirm the reporting history of the closed DRC-related Internal Audit finding.
+* FRB to provide any additional follow-up questions after reviewing the quarterly materials.
+
+
+
+
+
+
+Completed 3 of 6 pre-go-live conditions for the Phase 1 rollout of the China AI Chatbot, including legal and technology risk approvals and implementation of PII controls.
 * Outstanding pre-go-live conditions include finalization of guardrails and completion of user training and testing.
 
 
