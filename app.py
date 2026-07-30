@@ -1,3 +1,64 @@
+Here is a shorter version with each speaker’s related points consolidated.
+
+Meeting Minutes: Q2 2026 Quarterly MRM Meeting with FRB – July 30, 2026
+
+MRM hosted the Q2 2026 Quarterly Model Risk Management meeting with FRB.
+
+* The discussion primarily focused on the revised Model Risk Management guidance, SR 26-2, GenAI/Agentic AI governance, and AI model risk classification and tiering
+* The meeting briefly covered standard quarterly updates, including validation activity and findings, Internal Audit findings, and RAS exceptions and aged items
+
+Key Discussions
+
+1. Revised Model Risk Management Guidance SR 26-2
+
+* Makaylah (FRB) asked how GS is considering the additional flexibility provided by SR 26-2. David Palmer (FRB) noted that the guidance was intended to respond to industry feedback, encouraged GS to consult directly with the FRB before making significant changes based on external interpretations, and emphasized that institutions have flexibility provided appropriate governance and controls remain in place
+* Caroline (GS) explained that GS does not expect a fundamental redesign of its MRM framework and is considering targeted refinements rather than changes driven by compliance gaps. Potential changes include minor updates to materiality-based tiering, narrowing the scope of qualitative approaches to higher-risk areas, simplifying lower-tier documentation, and reducing duplication in Board reporting
+* Caroline (GS) also described possible changes to annual review and revalidation, including moving CCAR models into the existing significant Tier 1 revalidation cycle, simplifying annual reviews following a full revalidation, tailoring reviews for Tier 3 models, and limiting narrative explanations for administrative questions while retaining them for substantive model-risk assessments
+* David (FRB) stated that SR 26-2 does not prescribe specific review frequencies and that institutions should determine and justify frequencies based on risk. He also clarified that whether an item is called a model is less important than ensuring controls are commensurate with risk
+* David (FRB) explained that GenAI and agentic AI were generally excluded from SR 26-2 because practices vary and they may not fit naturally into a traditional MRM framework. The guidance was not intended to prevent MRM involvement or dictate how institutions organize AI governance. Bill Keirstead (GS) confirmed that GS interpreted the guidance consistently
+
+2. GenAI/Agentic AI Governance
+
+* Caroline (GS) explained that GS manages AI risk through its existing MRM framework and broader firmwide governance, including the Firmwide Policy on Artificial Intelligence, the AI Risk and Controls Council, and the Firmwide AI Risk Committee. MRM continues to independently review AI models that meet the model definition, while broader legal, compliance, operational, technology, and data risks are addressed through multidisciplinary governance
+* Makaylah (FRB) asked how MRM’s role fits within this structure and whether it is evolving. Bill (GS) explained that MRM plays a key role in inventory, metadata, classification, tiering, and independent validation of higher-risk AI models. Tier 4 AI applications receive inventory and annual reassessment but are not independently validated
+* David (FRB) noted that industry practice generally involves a team-based approach across MRM, Technology Risk, Data, Compliance, and other functions. Bill (GS) agreed and compared agentic AI risks to automated electronic trading, noting that automated guardrails and perimeter controls may become increasingly important to prevent unintended actions or large-scale errors
+
+3. AI Model Risk Classification and Tiering
+
+* Caroline (GS) explained that applications using LLMs for specific business purposes may be classified as models, while underlying LLMs and general-purpose tools such as Microsoft 365 Copilot are classified as AI platforms. AI platforms remain inventoried and subject to AI governance but are not independently validated by MRM
+* Caroline (GS) noted that AI models must be approved before business use and that GS does not maintain a separate validation process for agentic AI. Bill (GS) added that agentic systems may also create risk during development and testing, and GS is considering whether additional development-stage controls are needed
+* Makaylah (FRB) clarified that the questions were intended to understand GS’s approach given the range of industry practices, rather than to indicate a preferred supervisory model
+
+4. Model Validations and Status of Findings
+
+* Makaylah (FRB) asked why overdue Severity 2 and Severity 3 findings increased to 43, nearly double the prior-quarter level. Caroline (GS) explained that the increase was likely driven by multiple findings linked to a group of internal credit rating models and noted that large validation programs can create temporary increases in findings and subsequent aging
+* Caroline (GS) noted that GS closely monitors the three-to-six-month aging bucket because findings become a FRAC RAS breach after six months. GS agreed to provide additional detail on the increase
+
+5. MRM Issues Raised by Internal Audit and Issue Remediation
+
+* Makaylah (FRB) asked when the two newly reported Internal Audit findings were raised and whether the annual review finding reflected the recently enhanced process. Caroline (GS) confirmed that both were raised during Q2 and that the enhanced annual review process had been applied
+* For the SLS Prime Equity Funds model, Caroline (GS) explained that one ongoing monitoring report was not provided during the annual review, but other monitoring was sufficient to conclude that the model remained appropriate. Internal Audit requested the missing report and an updated assessment for completeness, but GS does not expect the annual review conclusion to change
+* Makaylah (FRB) also asked why some closed findings had not appeared in the prior-quarter materials. Caroline (GS) explained that lower-severity findings may be raised and closed within the same quarter and agreed to confirm the reporting history of the DRC-related finding
+
+6. RAS Exceptions and Aged Items
+
+* Makaylah (FRB) asked about the increase in unvalidated Tier 2 models in use. Caroline (GS) explained that the prior-quarter level was unusually low and that the current population, spread across GBM, Platform Solutions, and AWM, was not considered elevated or thematic
+* Makaylah (FRB) asked whether the five Tier 2 models with findings aged more than six months were included in the broader aged-finding count. Caroline (GS) confirmed they were and explained that the current breach relates to a common finding across electronic trading models associated with migration from a legacy model
+* Caroline (GS) noted that the longstanding Tier 1 CCR breach had been fully remediated and that the remaining electronic trading population had already declined, with completion targeted for early October
+
+7. General Questions
+
+* Makaylah (FRB) asked how GS governs expanded use of an existing model. Caroline (GS) explained that expanding a model beyond its approved use is treated as a model change and requires validation for the new use, either through a new inventory entry or an update to the existing entry
+* Makaylah (FRB) asked how frequently this occurs, including for AI models. Bill (GS) noted that no recent examples were immediately apparent and that nothing was currently raising a specific concern
+* David (FRB) noted that the comment period for the Financial Stability Board’s AI report had closed, thanked the industry for its feedback, and stated that the report is expected to be finalized in the fall
+
+Follow-Ups
+
+* GS to provide additional detail on the increase in overdue Severity 2 and Severity 3 findings
+* GS to confirm the reporting history of the closed DRC-related Internal Audit finding
+
+
+
 Meeting Minutes: Q2 2026 Quarterly MRM Meeting with FRB – July 30, 2026
 
 MRM hosted the Q2 2026 Quarterly Model Risk Management meeting with FRB.
