@@ -1,3 +1,10 @@
+    Held the Q2 Quarterly MRM Meeting with the FRB on July 30. The meeting went well with no significant concerns raised.
+* Discussed GS’s preliminary assessment of SR 26-2 and the Firm’s AI governance framework, including MRM’s role in AI inventory, tiering, and validation, along with standard quarterly MRM updates.
+* David Palmer (FRB) reiterated that SR 26-2 is intended to provide flexibility rather than prescribe a single implementation approach, encouraged firms to engage directly with the FRB as frameworks evolve, and clarified that the guidance does not preclude MRM from overseeing GenAI/Agentic AI.
+
+
+
+
 Here is a shorter version with each speaker’s related points consolidated.
 
 Meeting Minutes: Q2 2026 Quarterly MRM Meeting with FRB – July 30, 2026
