@@ -1,3 +1,9 @@
+    ECB ICAAP exam: The ECB communicated 15 preliminary observations covering operational risk modeling, internal validation, and model governance, with the firm’s response due by Aug. 10.
+* Key internal validation topics include the balance between independent MRM testing and developer-led ongoing monitoring, ongoing monitoring framework design, and model input data quality controls.
+
+
+
+
 Below are the key updates by deliverable based on the discussion.
 
 ⸻
