@@ -1,4 +1,242 @@
-    Held the Q2 Quarterly MRM Meeting with the FRB on July 30. The meeting went well and covered SR 26-2, AI governance, and standard quarterly MRM updates.
+Below are the key updates by deliverable based on the discussion.
+
+⸻
+
+1. Alex Meeting (highest priority)
+
+AI
+
+Update:
+
+* Add a brief status update on current AI validations in progress, not just AIRCC approvals.
+* Include examples of major AI/GenAI work:
+    * Florence trade surveillance model simplification (less agentic architecture to reduce cost; still under review).
+    * Anthropic co-developed AI models currently in validation.
+    * Any OneGS 3.0 AI projects if status is available.
+
+Talking points
+
+* Current AI validation pipeline.
+* Cost optimization trend (moving to simpler architectures).
+* Validation workload and upcoming approvals.
+
+⸻
+
+SR 26-2
+
+Update
+Instead of only mentioning SR 26-2, include a high-level list of proposed MRM framework changes.
+
+Examples:
+
+* Potential governance changes.
+* Risk-tiering changes.
+* Areas where validation approach may change.
+* Prioritize by impact.
+
+The deck should stay concise, with Alex receiving additional verbal explanation.
+
+⸻
+
+Key validations
+
+Format change
+Replace bullets with a simple table.
+
+Suggested columns:
+
+* Project
+* Current Status
+* Committed Date
+* Overall Health
+
+Projects mentioned:
+
+* PURE
+* Mortgage Pricing
+* Other strategic validations
+
+⸻
+
+Mortgage Pricing
+
+Need stronger talking points.
+
+Mention:
+
+* Phase 1 calibration uplift completed.
+* Current status.
+* Next milestone.
+
+⸻
+
+Regulatory / Supervisory
+
+Add:
+
+* ICAAP examination concerns.
+* One concern highlighted:
+    * Supervisors questioned MRM’s reliance on ongoing monitoring versus independent testing.
+
+Alex should be aware because it may become an important supervisory topic.
+
+⸻
+
+2. Strats Update
+
+New Section (move to beginning)
+
+Proposed AI governance changes
+
+Bill specifically requested a new opening section.
+
+Content:
+
+* Proposed AI governance framework changes.
+* High-level only.
+* Verbal explanation during meeting.
+
+Reason:
+Obtain early feedback from Strats leadership.
+
+⸻
+
+AI section
+
+Expand to include:
+
+* Recent AIRCC approvals.
+* GBM AI validation.
+* Newly declared GenAI / Agentic AI models.
+
+⸻
+
+RCSA
+
+Add:
+
+* Q2 GBM RCSA results.
+
+⸻
+
+Mortgage Pricing
+
+Update:
+
+* Phase 1 Mortgage Pricing approval.
+* Next phase = Mortgage Rate Model.
+
+⸻
+
+FRB / SR 26-2
+
+Continue including:
+
+* FRB meeting.
+* SR 26-2 implications.
+* Possible benefits for lower-tier AI models.
+
+⸻
+
+Possible governance follow-up
+
+There was a discussion (not yet a committed action) about:
+
+* Missing L1 ownership across Sales & Trading inventory.
+* Potentially assigning a single L1 owner (possibly Brian).
+* Could be tied into AI governance/RCSA cleanup.
+
+This sounds like an internal follow-up rather than something to include in the deck.
+
+⸻
+
+3. CRO Bi-weekly
+
+Major milestones
+
+Add:
+
+IRB
+
+* Corporate ICR model approved (major milestone).
+
+Mortgage Pricing
+
+* Phase 1 uplift approved.
+
+⸻
+
+Validation activities
+
+Update status for:
+
+* NIM modeling changes.
+* RB+/RV+ project.
+* Long-Term Stress Test model (Liquidity Risk) approved.
+
+⸻
+
+Regulatory
+
+Continue including:
+
+* FRB SR 26-2 discussion.
+* ECB ICAAP examination.
+
+⸻
+
+4. CRO Priorities
+
+July accomplishments
+
+Update accomplishments to include:
+
+* Discussion with the FRB on SR 26-2.
+* Corporate ICR model approval.
+* Sovereign ICR model / Phase 2 Lotus ICR uplift.
+* Mortgage Pricing Phase 1 approval.
+
+Note: Bill suggested avoiding wording like “previewed proposals with the Fed.” Instead, use language such as:
+
+* “Held initial discussion with the FRB regarding implementation considerations for SR 26-2.”
+* “Discussed potential implementation approaches.”
+
+⸻
+
+Near-term priorities
+
+Keep existing priorities and add:
+
+AI Policy
+
+Move AI policy work into Near-Term Priorities because it has become an immediate workstream.
+
+Suggested priorities:
+
+* AI governance policy enhancements.
+* AI Hub uplift.
+* Mortgage Pricing Phase 2.
+* Corporate ICR.
+* RCR/PD models.
+* NIM modeling changes.
+* CCR management enhancements.
+
+⸻
+
+Summary of New Items
+
+Deliverable	New Updates
+Alex	AI validation pipeline, Florence simplification, Anthropic models, proposed SR 26-2 framework changes, validation table, ICAAP supervisory concerns
+Strats	New AI governance proposal section, AIRCC/GenAI updates, Q2 RCSA, Mortgage Phase 1, SR 26-2 impacts
+CRO Bi-weekly	Corporate ICR approval, Mortgage Phase 1, LT Stress Test approval, NIM/RB+ status, ECB ICAAP
+CRO Priorities	July accomplishments updated, avoid “previewed with Fed”, add AI policy as a near-term priority
+
+Overall, the biggest theme from this meeting is that AI governance has moved from being just a reporting item to a strategic priority. Bill wants AI policy proposals, validation progress, and SR 26-2 implementation thinking to be more visible across the Alex update, Strats update, and CRO priorities, while keeping the written materials concise and using verbal discussion for the details.
+
+
+
+
+Held the Q2 Quarterly MRM Meeting with the FRB on July 30. The meeting went well and covered SR 26-2, AI governance, and standard quarterly MRM updates.
 * David Palmer (FRB) emphasized that SR 26-2 is intended to provide greater flexibility, encouraged ongoing dialogue as firms evaluate potential framework enhancements, and clarified that the guidance does not preclude MRM involvement in GenAI/Agentic AI governance.
 
 
