@@ -1,4 +1,53 @@
-    ECB ICAAP exam: The ECB communicated 15 preliminary observations covering operational risk modeling, internal validation, and model governance, with the firm’s response due by Aug. 10.
+AI Risk and Controls Council Discussion Points
+
+Meeting Date/Time: August 4, 2026 / 9:30 am ET
+Meeting Type: Regular
+Chairperson(s): Michael Schlee, Bill Keirstead
+Secretary: Caroline Shulman
+Attendance: Adequate representation from business and control side members was recorded.
+
+[1] Feedback MSW AI – Approval
+
+Presenters: Kristina Ristagne and HCM team
+
+Decision: AIRC approved the rollout of Feedback MSW AI to GS Performance Managers.
+
+Pre-go-live Conditions:
+
+1. Complete Technology Risk review, including architecture/design review and penetration testing, and remediate any blocking findings. (Owner: Kristina Ristagne; Control-side Contact: Karthik Ram)
+2. Complete MRM validation. (Owner: Kristina Ristagne; Control-side Contact: Bo Hu)
+
+Other Follow-ups:
+
+1. Confirm the applicability of EU AI Act requirements, including for employees in relevant European jurisdictions. (Owner: Kristina Ristagne; Control-side Contact: Alexis Vassilikas)
+
+Key Discussion Points:
+
+* The presenters clarified that concerns identified during a prior review two years ago related both to potential bias and the discoverable record created while prompts were being refined. Legal confirmed it is comfortable with the remediation approach and the current process, following a privileged review conducted with HCM.
+* The Council questioned whether requiring managers to make at least 300 characters of changes was overly prescriptive. The presenters explained that the threshold represents approximately 10% of the average review length and applies only where a manager elects to use the AI-generated summary.
+* Members discussed the risk that verbose reviewers may receive disproportionate weight and that summarization may flatten strongly positive or negative feedback toward a neutral tone. The presenters explained that prompts are designed to reduce inappropriate weighting, while managers remain responsible for determining the relative importance of individual reviewer comments and setting the overall performance message.
+* The presenters clarified that the feature summarizes 360-feedback rather than generating a submission-ready manager assessment. Managers continue to select competency areas, review the underlying feedback and add their own perspective, including relevant quotations where appropriate.
+* A member asked whether each summarized statement would be linked directly to supporting reviewer comments. The presenters explained that the raw feedback remains available alongside the summary, but direct source-level citations are not provided because managers are required to review the complete underlying feedback and independently assess the generated summary.
+* The presenters confirmed that where development-area submissions contain no meaningful constructive feedback, the model is instructed to state that there is insufficient information rather than infer or create a development point.
+* Members discussed testing results showing that users sometimes viewed the output as overly neutral or impersonal. The Council noted that tone is inherently subjective and that the manager’s required overlay is expected to address these differences.
+* The presenters confirmed that testing can be rerun when the underlying models change and agreed that material issues identified during the upcoming feedback cycle should be escalated if they call the approved use into question.
+
+[2] AI Risk Taxonomy Uplift – Posting
+
+Presenter: Scott Field
+
+Key Discussion Points:
+
+* Members asked how the proposed Agentic Execution Risk classification would change the RCSA process. The presenter clarified that it will create a separately assessable L3 risk, requiring guidance for risk identification, inherent-risk assessment and evaluation of relevant controls.
+* The Council discussed the distinction between the proposed AI risks and risks already captured under Model Risk, Technology Risk, privacy and other established taxonomies. The presenters explained that existing horizontal risks and controls will remain in their respective categories, while the new classification is intended to capture risks specific to the use and execution of AI agents without duplicating existing risks.
+* Members discussed human oversight as an example of an AI-specific control consideration. The Council distinguished between determining through governance that human oversight is appropriately designed and assessing through RCSA whether that control is operating effectively in the business process.
+* The Council noted that the taxonomy uplift is intended to capture the “last-mile” or process risk arising after a model has been approved, including how business users rely on outputs and whether agents are operating within established tolerances.
+* Members discussed the need to classify agents based on factors such as their degree of autonomy and the potential impact or “blast radius” of their access and actions. The presenters noted that related definitions and standards are under development and are expected to be brought to AIRC for review.
+* Members raised concerns that agentic use cases may gradually obtain additional data, tools, permissions or users without returning through governance. The Council emphasized the need for clearer approval boundaries and reapproval triggers when an agent’s autonomy, access, user population or risk profile changes.
+* The presenters confirmed that risks such as data leakage and cybersecurity will remain mapped to their existing taxonomy categories rather than being duplicated under the new AI-specific L2.
+* Following the discussion, the proposal will proceed to the Risk Taxonomy Steering Group for formal consideration.
+
+ECB ICAAP exam: The ECB communicated 15 preliminary observations covering operational risk modeling, internal validation, and model governance, with the firm’s response due by Aug. 10.
 * Key internal validation topics include the balance between independent MRM testing and developer-led ongoing monitoring, ongoing monitoring framework design, and model input data quality controls.
 
 
