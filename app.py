@@ -1,4 +1,14 @@
-    AIRCC approved the Manager Summary Writing AI (HCM, Tier 2) to generate anonymized summaries of 360° employee feedback as a starting point for managers drafting performance reviews, with human review and manager attestation required before submission
+    The firm believes the testing scope is sufficient to support validation conclusions and output conservativeness, and that automated ongoing monitoring provides a stronger control than manual ad hoc testing.
+
+
+
+AIRCC approved the Manager Summary Writing AI (HCM, Tier 2) to generate anonymized summaries of 360° employee feedback as a starting point for managers drafting performance reviews, with human review and manager attestation required before submission
+
+
+
+
+		
+
 
 
 
