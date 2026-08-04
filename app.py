@@ -1,3 +1,9 @@
+    AIRCC approved the Manager Summary Writing AI (HCM, Tier 2) to generate anonymized summaries of 360° employee feedback as a starting point for managers drafting performance reviews, with human review and manager attestation required before submission
+
+
+
+
+
 AI Risk and Controls Council Discussion Points
 
 Meeting Date/Time: August 4, 2026 / 9:30 am ET
