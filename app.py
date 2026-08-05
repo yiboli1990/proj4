@@ -1,3 +1,63 @@
+Here are revised versions that address the comments while keeping the CRO style.
+
+Mortgage Pass-Through Pools Pricing
+
+Instead of:
+
+Enhancements recalibrate prepayment components, remove Freddie Mac upfront points from the refinance incentive logic and replace temporary vintage-coupon overrides with a strategic modeling approach.
+
+I’d simplify to:
+
+Enhancements improve mortgage prepayment modeling through recalibration to recent market behavior and replacement of temporary modeling adjustments with a more robust methodology.
+
+Or, if you want to retain a little more detail:
+
+Enhancements improve mortgage prepayment modeling through recalibration to recent market behavior and replacement of temporary modeling adjustments with permanent methodology enhancements.
+
+This is much more understandable for a CRO audience.
+
+⸻
+
+Sovereign ICR
+
+Instead of:
+
+In response to findings, enhancements have been made to panel data treatment, automated data sourcing, and model governance.
+
+I’d write:
+
+In response to findings, enhancements have been made to panel data treatment, automated data sourcing, and ongoing monitoring and documentation supporting the model’s rating philosophy.
+
+or
+
+In response to findings, enhancements have been made to panel data treatment, automated data sourcing, and ongoing monitoring supporting the model’s rating philosophy and qualitative adjustments.
+
+This is more accurate than “model governance,” since the enhancements relate to rating philosophy, monitoring, and qualitative adjustment assessment.
+
+⸻
+
+Project Boost
+
+I agree the last bullet is still a bit long. I’d shorten it to:
+
+* Project Boost: Validation has commenced for four models (Corporate Treasury, Tier 1) and Qualitative Approaches (QAs) (Corporate Treasury, Tier B) supporting migration to the Liquidity Metrics Platform (LMP).
+* Validation of SIMM Initial Margin (IM) Modeled Liquidity Outflow (MLO) and Secured Federal Home Loan Bank (FHLB) QAs is on track for completion by the week of Aug. 10, with DESCIFR MLO and Collateral Allocator validations expected in September and October.
+* As the migration rewrites existing logic from Slang to Python, MRM validation focuses on implementation review of the AI-generated code and reconciliation of inputs and outputs between the two implementations.
+
+I intentionally removed:
+
+* “resolution of sensitivity testing gaps…”
+* “implementation errors…”
+
+because those are really details of the validation work, not the validation objective. If you still want to give some color, you could instead say:
+
+Current discussions focus on sensitivity testing, reconciliation differences, and identified implementation defects.
+
+That is shorter and reads more naturally than the previous version.
+
+
+
+
 I agree. Three bullets flows much better for a CRO update.
 
 Project Boost (Liquidity Metrics Platform migration)
