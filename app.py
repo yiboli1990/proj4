@@ -1,3 +1,43 @@
+I agree. Three bullets flows much better for a CRO update.
+
+Project Boost (Liquidity Metrics Platform migration)
+
+* Validation has commenced for four models and Qualitative Approaches (QAs) supporting migration to the Liquidity Metrics Platform (LMP).
+* Validation of SIMM Initial Margin (IM) Modeled Liquidity Outflow (MLO) and Secured Federal Home Loan Bank (FHLB) QAs is on track for completion by the week of Aug. 10, with DESCIFR MLO and Collateral Allocator validations expected in September and October.
+* As the migration rewrites existing logic from Slang to Python, MRM validation is focused on implementation review of the largely AI-generated code, input and output reconciliation, and resolution of sensitivity testing gaps, reconciliation differences, and confirmed implementation bugs.
+
+I think this is cleaner because:
+
+1. What (4 models/QAs).
+2. Timeline (2 now, 2 later).
+3. MRM focus (what we’re validating and remaining discussions).
+
+Here are CRO-style updates that are concise and address the comments.
+
+Validation Activities
+
+CCAR Net Interest Income (GBM Public, Tier 1):
+
+* Validation of Net Interest Income enhancements for the GBM Trading portfolio remains on track for completion by Aug. 7.
+* One outstanding high-severity finding relates to the accuracy of balance sheet inputs for the repo business, with remediation in progress.
+
+Project Boost (Liquidity Metrics Platform migration):
+
+* Validation has commenced for four models and Qualitative Approaches (QAs) supporting migration to the Liquidity Metrics Platform (LMP), with two validations targeting completion by the week of Aug. 10 and the remaining two expected in September and October.
+* As the migration rewrites existing logic from Slang to Python, MRM validation focuses on implementation review of the largely AI-generated code, together with input and output reconciliation between the two implementations; current discussions relate to sensitivity testing, reconciliation differences, and confirmed implementation bugs.
+
+I think this version is cleaner because:
+
+* The first bullet gives the overall status and timeline.
+* The second bullet clearly explains what MRM is validating (implementation, input/output reconciliation) rather than the more convoluted “code consistency.”
+* “Confirmed implementation bugs” reflects your manager’s comment and avoids implying every difference is necessarily a bug.
+
+
+
+
+
+
+
 For CRO, I’d keep these concise and focus on the business outcome and key validation themes rather than the technical details.
 
 Sovereign ICR Model (Risk, Tier 1)
