@@ -1,4 +1,30 @@
-    The firm believes the testing scope is sufficient to support validation conclusions and output conservativeness, and that automated ongoing monitoring provides a stronger control than manual ad hoc testing.
+For CRO, I’d keep these concise and focus on the business outcome and key validation themes rather than the technical details.
+
+Sovereign ICR Model (Risk, Tier 1)
+
+* MRM approved the Sovereign Internal Credit Rating (ICR) model (Risk, Tier 1), the first model delivered as part of the ICR Lotus Phase II uplift, replacing the prior Tier 2 Random Forest automation tool with a fundamentals-based linear regression framework to improve rating transparency.
+* During validation, MRM raised six medium-severity findings, four of which were remediated prior to approval through enhancements to panel data treatment, automated data sourcing, and model governance.
+* The remaining findings relate to rating philosophy and Probability of Default (PD) linkage, and ongoing monitoring enhancements.
+
+I deliberately highlighted the three most important remediation themes (panel data treatment, automated data sourcing, governance/monitoring) rather than listing all six findings.
+
+⸻
+
+Mortgage Pass-Through Pools Pricing (GBM Public, Tier 1)
+
+* MRM approved Phase I enhancements to the Agency Fundamental Model (GBM Public, Tier 1), improving mortgage prepayment modeling through recalibration of key prepayment components.
+* The enhancements also remove Freddie Mac upfront points from the refinance incentive logic and replace temporary vintage-coupon overrides with a strategic modeling approach.
+* This completes the first phase of the Mortgage Agency Pricing framework uplift to address divergence between desk and modeled risk, with the next phase focused on enhancements to the mortgage rate model.
+
+I think these read more naturally for a CRO audience:
+
+* They emphasize what changed and why it matters.
+* The Sovereign ICR update highlights that 4 of 6 findings were resolved before approval.
+* The mortgage update clearly distinguishes Phase I completed from Phase II planned without repeating “finding” unnecessarily.
+
+
+
+The firm believes the testing scope is sufficient to support validation conclusions and output conservativeness, and that automated ongoing monitoring provides a stronger control than manual ad hoc testing.
 
 
 
