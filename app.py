@@ -1,3 +1,81 @@
+1) Materials: Model Risk Control Committee Pack dated August 6, 2026
+
+2) Basel III Finalization and Global Systemically Important Bank Onboarding – Discussion
+
+Cristina Patron and Su-Ying Teo presented an update on the Firm’s implementation planning for the Basel III Finalization and revised Global Systemically Important Bank (“GSIB”) surcharge requirements. They explained that the Federal Reserve issued revised notices of proposed rulemaking in March 2026, superseding the 2023 Basel III Endgame proposal. While the final rule and effective date remain outstanding, the Firm is planning based on an assumed January 1, 2028 implementation date, consistent with prevailing industry expectations.
+
+The presenters explained that the implementation program covers the Fundamental Review of the Trading Book (“FRTB”), Credit Valuation Adjustment (“CVA”), the revised GSIB surcharge and enhancements to standardized capital calculations governed as Deterministic Regulatory Calculations (“DRCs”). They noted that the implementation approach prioritizes requirements that are considered foundational and less likely to change materially in the final rule, while work relating to cross-product netting has been scheduled later given continued uncertainty regarding the final requirements and the potential implementation complexity.
+
+A committee member asked whether the DRC enhancements are expected to represent significant model-development work. The presenters explained that the level of effort varies by calculation. Operational Risk RWA will require a new DRC and supporting infrastructure, while certain existing calculations will require more limited enhancements, such as onboarding additional feeder calculations. They clarified that cross-product netting may not be mathematically complex from a model perspective, but could require significant changes to data sourcing, orchestration and implementation depending on the final rule.
+
+The presenters discussed the regulatory approval process for FRTB Internal Models Approach (“IMA”) and Standardized Approach for CVA (“SA-CVA”), noting that these are the two principal components requiring Federal Reserve approval. They explained that model development and business approval are targeted for completion based on the current proposed rule by the end of the third quarter of 2026. MRM validation is proceeding in parallel and will initially cover the models developed under the proposed requirements. Following issuance of the final rule, targeted changes would be incorporated and validated, with completion currently targeted for the end of the first quarter of 2027.
+
+The committee discussed the data required to support the regulatory applications, including six months of backtesting and P&L attribution data. The presenters noted that data collection is expected to begin at the start of 2027, enabling initial applications to be submitted by the end of the second quarter of 2027. They further explained that the Firm may be positioned to submit among the first institutions, which could provide an advantage given the Federal Reserve’s limited review capacity and the anticipated volume of industry applications.
+
+A committee member asked how long the Federal Reserve may require to review and approve the applications. The presenters explained that the prior capital model approval process took approximately six months, although the new process could be more extensive because approval will be assessed at the trading-mandate or desk level rather than by broad product category. They noted that the Firm may submit approximately 60 to 70 mandate-level applications. The Federal Reserve is considering a more streamlined process under which common risk models would be submitted once and mapped to multiple mandates, rather than being resubmitted separately for each mandate.
+
+The presenters described the FRTB model population, including approximately 65 risk-factor-specific models used to construct ten-day distributions. They explained that many of these models were previously validated for the Firm’s PRA IMA application and are now being extended to the broader GS Group population. The expanded review includes additional data quality, independence and single-asset testing, together with an assessment of compliance with the Federal Reserve’s proposed modeling principles. They also described the FRTB core models supporting aggregation, P&L attribution, non-modelable risk factors and ten-day return generation.
+
+The committee reviewed the estimated capital impact under the 2026 proposal. The presenters noted that the revised proposal significantly reduced the non-modelable risk-factor charge relative to the 2023 proposal following industry advocacy. Nevertheless, estimated FRTB IMA capital remains higher than the current market risk requirement, primarily due to the Default Risk Charge. The presenters explained that the increase is particularly relevant to Prime Services, where maturity mismatches between client swaps and shorter-dated hedges are not fully recognized under the proposed capital treatment despite the positions being economically hedged.
+
+The presenters emphasized that obtaining IMA approval is critical because the estimated standardized capital requirement remains significantly higher than the IMA requirement. Accordingly, the Firm must both obtain regulatory approval and continue to satisfy the applicable backtesting and P&L attribution tests to maintain model eligibility.
+
+The committee then discussed the proposed CVA framework. The presenters explained that CVA will become a new, fully additive standardized capital requirement and that the Firm intends to apply for SA-CVA approval. Although the standardized aggregation calculation is prescribed, its inputs remain model-dependent because they are derived from CVA sensitivities. The underlying models are based on the existing GBM accounting CVA framework but have been enhanced to incorporate regulatory requirements, including the margin period of risk, initial margin, collateral enforceability and legal netting opinions.
+
+A committee member asked which of the CVA enhancements is most material. The presenters explained that the margin period of risk is expected to have the greatest impact because fully collateralized transactions, which may have little or no accounting CVA, will nevertheless attract capital under the proposed framework.
+
+The committee discussed the reduction in estimated SA-CVA RWA between the 2023 and 2026 proposals. The presenters explained that a material component of the reduction resulted from excluding client-cleared transactions following industry advocacy. They noted that further advocacy remains outstanding regarding greater risk-weight differentiation between regulated and unregulated financial institutions, look-through treatment for certain special-purpose vehicles and exemptions for commercial end users conducting risk-management transactions. The presenters indicated that the likelihood of success varies across these proposals, with greater confidence regarding financial-institution granularity and less confidence regarding a commercial end-user exemption.
+
+A committee member asked how the U.S. implementation compares with Europe and the United Kingdom. The presenters explained that the European framework is already live under the Basic Approach for CVA, while the United Kingdom is expected to implement its CVA requirements in January 2027. The Firm has begun engagement with the PRA regarding an SA-CVA application. They further noted that the European Basic Approach allows the use of IMM-derived exposure values, while the proposed U.S. framework would require standardized exposure values, resulting in a more punitive Basic Approach outcome in the United States. The presenters confirmed that the Firm is not currently planning to apply for SA-CVA approval for GS Bank Europe.
+
+The committee asked whether the enhanced CVA models would also be used outside regulatory capital. The presenters confirmed that the Firm intends to migrate certain other applications, including CCR and CCAR-related CVA processes, from legacy engines to the enhanced framework where appropriate. They noted, however, that not every risk-management use case necessarily requires a risk-neutral model and that the applicable capital rules should be reviewed before adopting different models for risk management and capital purposes. The presenters agreed to confirm the expected migration timelines for the additional use cases.
+
+A committee member asked how the extensive model and DRC work would be centrally coordinated. The presenters confirmed that a cross-functional steering group will be established to track the full implementation program, including model development, DRC enhancements, validation and regulatory application readiness, with representation across the first, second and third lines.
+
+The committee also discussed the relationship between the expected Basel III implementation date and the Stress Capital Buffer cycle. Members noted that a January 2028 effective date would facilitate alignment between the revised standardized capital framework and the related stress-testing capital requirements.
+
+3) Model Risk Update – Posting
+
+Caroline Shulman directed the committee to the materials outlining recent Model Risk developments.
+
+Ms. Shulman first discussed the continued growth in the Firm’s AI model and platform inventory. She reminded the committee that the model risk framework was amended in 2023 to introduce a fourth risk tier for very low-risk AI and to establish an AI platform category for general-purpose AI capabilities, including GS AI Assistant and Microsoft 365 Copilot. These platforms are not subject to traditional independent model validation but remain subject to oversight through the AI Risk and Controls Council.
+
+Ms. Shulman noted that approximately 100 new AI models and platforms were declared during the second quarter of 2026 and approximately 160 had been declared year to date, exceeding the total declared during all of 2025. She further highlighted growth in agentic AI, with approximately 20 agentic models and platforms currently in production and approximately 60 additional use cases in development.
+
+A committee member observed that the definition of “agentic” remains a common source of uncertainty because many current LLM applications exhibit some degree of agent-like functionality. The member suggested establishing clearer distinctions between limited, moderate and highly agentic capabilities to improve consistency in model declarations and governance. Ms. Shulman agreed that clearer classification guidance would be helpful and noted that related work is underway through the AI policy and AIRCC governance processes. She agreed to continue the discussion offline with the relevant stakeholders.
+
+Ms. Shulman then informed the committee that the Federal Reserve had formally closed the Matter Requiring Attention relating to the annual review process. She noted that, following this closure, the Firm has no outstanding Federal Reserve MRAs or MRIAs relating to model risk. She further reminded the committee that MRM continues to assess the implications of the Federal Reserve’s revised model risk management guidance and expects to return to the committee in November 2026 with proposed changes to the Firm’s model risk framework.
+
+Ms. Shulman provided an update on the Model Risk Appetite Statement metrics. She noted that utilization of models operating under waiver remains low and that aged waivers remain within established thresholds. She highlighted that the previously persistent FRAC-level breach for Tier 1 models with findings aged more than six months, primarily driven by GBM counterparty credit risk models, has been reduced to zero.
+
+Ms. Shulman further noted that new aged-finding breaches have arisen for certain Tier 2 and Tier 3 electronic trading models, with remediation targeted for early October 2026. She added that MRM continues to monitor findings aged more than three months, particularly those associated with Tier 1 models in GBM and Risk.
+
+4) Administrative Matters – Approval
+
+Changes to the Firmwide Standards for Model Development, Implementation and Usage for Electronic Trading Models
+
+Ms. Shulman directed the committee to the proposed changes to the Firmwide Standards for Model Development, Implementation and Usage for Electronic Trading Models.
+
+The presenters explained that electronic trading business activities are subject to Automated Trading Control (“ATC”) requirements under the Firmwide Electronic Trading Policy and that these controls are independently validated by the Electronic Trading Software Controls (“ETSC”) team. Historically, model developers were also required to document and assess detailed ATC controls within the electronic trading model documentation, creating duplication between the model validation and ETSC control-validation processes.
+
+The presenters noted that the ETSC framework has been enhanced such that all applicable ATC controls must now be validated before an electronic trading business activity can go live. As a result, the proposed standard change removes the requirement for model developers to document detailed ATC controls within the model documentation and removes the duplicative control review from the model validation process.
+
+Ms. Shulman clarified that MRM continues to operate two complementary programs relating to electronic trading: independent validation of electronic trading models under the Model Control framework and validation of electronic trading software controls by ETSC. Both programs remain subject to MRCC-approved standards. The proposed change does not remove the control-validation requirement; rather, it assigns responsibility exclusively to ETSC, where the control review is now consistently completed before production implementation.
+
+There being no objections, the committee approved the proposed changes to the Firmwide Standards for Model Development, Implementation and Usage for Electronic Trading Models.
+
+5) Prior Meeting Minutes Approval
+
+The provided transcript does not capture the committee’s consideration or approval of the prior meeting minutes. This section should be completed based on the secretary’s confirmed record.
+
+Suggested language, if approved:
+
+Minutes from the Committee’s prior meeting were approved.
+
+The provided transcript ends while the committee was considering whether there were further questions on the Model Risk Update and does not include the meeting’s formal closing.
+
+
+
 Here are revised versions that address the comments while keeping the CRO style.
 
 Mortgage Pass-Through Pools Pricing
