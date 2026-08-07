@@ -1,3 +1,6 @@
+The presenter described the FRTB model population and discussed the key differences between the 2023 and 2026 proposals, including the impact of the revised framework on the Firm’s estimated capital requirements. He also discussed the relative capital outcomes under the internal models and standardized approaches and the importance of obtaining regulatory approval for the internal models approach.
+
+
 You have two separate transactions here, so I would draft them separately using exactly those sections and keep the first one a little more technical because the model gap is more substantive.
 
 Transaction 1 – OATei Inflation Bond Repack
