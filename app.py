@@ -1,3 +1,54 @@
+You have two separate transactions here, so I would draft them separately using exactly those sections and keep the first one a little more technical because the model gap is more substantive.
+
+Transaction 1 – OATei Inflation Bond Repack
+
+Trade: OATei Inflation Bond Repack with CDS Overlay
+
+Trade Date: Not provided
+
+Counterparty: Not provided
+
+Notional: Approximately EUR 85 million
+
+Terms: Approximately 14-year, single-currency EUR inflation bond repack referencing OATei collateral (ISIN FR0010447367), with termination on July 25, 2040. The current OATei price of approximately 147 results in a leveraged structure, with an initial payment from GS to the SPV funded through approximately EUR 40 million market value of OATei collateral posted to GS and subsequently repoed for EUR cash funding. The transaction will be a JV between CD LDN Exotics and LDN Volex.
+
+Economics: Expected Day 1 economic value is approximately USD 1.0–1.4 million under the proposed methodology. The current booking framework produces estimated CVA/FVA of approximately -$0.8mm/-$0.76mm, compared with approximately -$1.7mm/-$0.73mm under the proposed methodology.
+
+Reason for Waiver: There is currently no approved model capable of capturing an inflation bond repack with CDS overlay. The required methodology incorporates EUR inflation and interest rate dynamics, default payoff, stochastic recovery and credit contagion; the proposed approach also produces a materially more conservative CVA by using EUR-denominated France CDS quanto spreads and more conservative recovery treatment.
+
+Booking During Waiver Period: The transaction will be booked by LDN Volex using CT Inflation Bond for the receive leg, CT Leg Fixed for the pay leg, and CT CVA for FVA and CVA.
+
+Limitations and Compensating Controls: The interim booking does not fully capture the required inflation, credit and stochastic recovery dynamics; however, the proposed methodology has been benchmarked against the current booking and produces a materially more conservative CVA (-$1.7mm vs. -$0.8mm), including more conservative recovery assumptions. The existing ccTrigger also correctly captures the default payoff.
+
+⸻
+
+Transaction 2 – PLN Callable Range Accrual Note
+
+Trade: PLN Callable Range Accrual Note (5yNC1x1)
+
+Trade Date: Expected to execute the following morning in London; specific date not provided
+
+Counterparty: OTP Fund Management (Hungarian Asset Manager)
+
+Notional: PLN 100 million / approximately USD 27 million
+
+Terms: 5-year GSBE-issued Callable Range Accrual Note paying a 6.75% PLN coupon, accrued daily when 0 < 3m WIBOR < 5%. The note is callable annually by GS beginning after Year 1 and annually thereafter.
+
+Economics: Expected P&L / total charge of up to approximately USD 869k (3.24%), including a USD 74k shift reserve, USD 135k single-call reserve and USD 30k IR delta charge, resulting in approximately USD 629k (2.35%) net markup. Net risk is approximately $12k vega and +$16k IR delta; the trade is risk reducing against the desk’s existing short PLN vega position.
+
+Reason for Waiver: Callable Range Accrual functionality has not yet been approved for PLN. The desk proposes to use the same model already approved for similar YCRA structures in HUF and SAR, with the primary outstanding limitation relating to validation of the control variate methodology for EM currencies.
+
+Booking During Waiver Period: The trade will be booked using the existing model approved for similar HUF and SAR YCRA notes, configured for PLN.
+
+Limitations and Compensating Controls: The desk noted that PLN IR volatility, delta and skew marks have been verified against Totem, and the transaction reduces the desk’s existing short PLN vega exposure by approximately $12k. Pricing assumptions and reserves are conservative, including approximately $135k for the single-call feature; removing the callability entirely results in a value of only approximately $100k (0.37% PV). The remaining model limitation relates primarily to the control variate treatment, including potential use of strike CV rather than coupon CV, which will be reviewed as part of remediation within 60 days.
+
+
+
+
+
+
+
+
 1) Materials: Model Risk Control Committee Pack dated August 6, 2026
 
 2) Basel III Finalization and Global Systemically Important Bank Onboarding – Discussion
