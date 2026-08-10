@@ -1,3 +1,11 @@
+Validation Activities – China AI Assistant Search
+
+* MRM approved China AI Assistant Search (Tier 2), which adds Alibaba Qwen-based web grounding to the GS China AI Assistant for employees in Mainland China to provide more current, source-referenced responses.
+* MRM testing showed web grounding generally improved completeness, timeliness, and accuracy versus the ungrounded model, but increased hallucination risk in some cases due to reliance on unsuitable sources.
+* One medium-severity finding was raised on hallucination risk, with remediation focused on strengthening source quality and grounding controls; MRM also identified response truncation in some Chinese-language queries.
+
+
+
 For CRO, I would keep each to one sentence and focus on what was approved, what it enables, and the key control.
 
 * MRM approved GBM Client Query Management (GBM Public, Tier 3), an agentic AI model that researches trade and settlement information and drafts responses to client inquiries, with human review and approval required before external communication.
