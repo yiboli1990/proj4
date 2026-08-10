@@ -1,3 +1,8 @@
+The current booking is aggressive on CVA and FVA as it does not capture stochastic recovery or credit contagion effects, including the impact of a default of the CDS reference entity on France’s survival probability. As a compensating control, the full Day 1 P&L will be reserved during the waiver period.
+
+
+
+
 The presenter described the FRTB model population and discussed the key differences between the 2023 and 2026 proposals, including the impact of the revised framework on the Firm’s estimated capital requirements. He also discussed the relative capital outcomes under the internal models and standardized approaches and the importance of obtaining regulatory approval for the internal models approach.
 
 
