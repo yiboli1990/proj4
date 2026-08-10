@@ -1,3 +1,9 @@
+For CRO, I would keep each to one sentence and focus on what was approved, what it enables, and the key control.
+
+* MRM approved GBM Client Query Management (GBM Public, Tier 3), an agentic AI model that researches trade and settlement information and drafts responses to client inquiries, with human review and approval required before external communication.
+* MRM approved expansion of Devin AI (Engineering, AI Platform) to autonomously execute the GitLab development pipeline and support broader code remediation activities, while retaining existing human maker/checker approval before code can be merged.
+
+
 The current booking is aggressive on CVA and FVA as it does not capture stochastic recovery or credit contagion effects, including the impact of a default of the CDS reference entity on France’s survival probability. As a compensating control, the full Day 1 P&L will be reserved during the waiver period.
 
 
