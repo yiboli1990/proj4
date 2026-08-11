@@ -1,4 +1,130 @@
-    Six medium-severity findings were raised related to model performance and efficiency, evaluation methodology, system prompt clarity, runtime transparency, and code controls
+Yes. Based on the MRCC discussion, Controllers and Risk Engineering now have a fairly clear firmwide B3F implementation plan, even though the U.S. final rule is still pending. The plan is essentially to develop and validate against the March 2026 NPR now, absorb any final-rule changes later, and be ready to submit model applications to the Fed in 2027.
+
+Overall program approach
+
+Controllers described the March 2026 Federal Reserve proposal as superseding the 2023 Basel III Endgame proposal. Since publication, the firm has been doing two things in parallel: providing industry/regulatory feedback, which was due June 18, and translating the NPR into a concrete implementation plan covering systems, models, data requirements, DRCs and regulatory applications.
+
+The Fed did not specify a formal go-live date. The firm is therefore planning against an industry assumption of 1H 2028, with January 1, 2028 viewed as the base expectation and July 2028 also possible. The project plan is built backward from that assumed implementation window.
+
+The overall scope consists of four major components: FRTB Market Risk, CVA, GSIB surcharge and Enhanced Standardized Approach / DRCs. FRTB and CVA are the most model-intensive areas. GSIB is described as more operationally and data intensive, particularly because of the shift toward daily data. The standardized credit and operational risk requirements are largely implemented through DRCs.
+
+Firmwide timeline
+
+Period	Controllers / Risk Engineering plan
+Q3 2026	Complete model blessing against the March 2026 NPR for the main FRTB and CVA models; continue MRM validation. Begin/continue prioritized DRC development.
+Q4 2026	Main validation execution continues. Firm expects the Fed final rule around year-end 2026 or early 2027, based on current regulatory discussions.
+Q1 2027	Incorporate final-rule changes, re-bless affected models, and complete remaining MRM validation. Target is to have the required model suite validated by end-Q1.
+H1 2027	Collect the six months of quantitative evidence required for regulatory applications, including backtesting and P&L attribution data.
+End-Q2 2027	Target initial submission of FRTB / SA-CVA model applications to the Fed.
+H2 2027	Fed review and approval process; firm assumes this could take roughly six months, although timing is uncertain.
+1H 2028	Working assumption for U.S. go-live.
+
+A key feature of the plan is that the firm does not intend to wait for the final rule before developing everything. The expectation is that the core structure will remain broadly consistent with the NPR and that final-rule changes will be more likely to involve parameter changes, aggregation changes or other targeted adjustments rather than wholesale model redevelopment.
+
+FRTB Market Risk plan
+
+Risk Engineering split the Market Risk model work into two major categories.
+
+The first is approximately 60–70 risk-factor-specific models. These construct the 10-day risk-factor distributions used for FRTB. A large portion of this work is not entirely new: the same models were already validated for the PRA/GSI IMA application. The current U.S. work therefore focuses on extending the prior validation to the broader GS Group population and confirming compliance with the U.S. NPR.
+
+That extension includes broader asset coverage, data quality testing, independence testing, single-asset testing across current and stress periods, and checking the Fed’s data principles—for example, ensuring systematic and idiosyncratic risk are captured and that proxies have both theoretical and empirical justification.
+
+The second category is the FRTB core models, which are not specific to individual risk factors. These include the internal-model capital aggregation, P&L attribution testing, non-modellable risk factor treatment and the core 10-day distribution framework.
+
+The firm is targeting blessing of these models by end-Q3 2026, with MRM validation running in parallel. If the final rule changes the calculation, the expectation is to make the necessary changes in Q1 2027 and finish validation by the end of that quarter.
+
+A major strategic point raised in the meeting is that IMA approval is economically important. Under the current NPR estimates, the firm’s FRTB standardized capital requirement would be materially higher than its IMA requirement. Controllers therefore view obtaining Fed model approval as a significant priority, not simply a compliance exercise.
+
+FRTB regulatory application
+
+The regulatory approval process is a major component of the plan. Unlike the current regime, FRTB approval is expected to operate at the mandate / desk level, potentially creating around 60–70 approval mandates.
+
+The firm plans to start collecting the necessary quantitative evidence in early 2027. The Fed is expected to require at least six months of data, including backtesting and P&L attribution results.
+
+The target is therefore to have six months of evidence accumulated by end-Q2 2027 and begin filing applications around that point.
+
+Controllers noted that the Fed is actively trying to streamline the process. One idea being discussed is for firms to submit a given risk model once and then map that model to multiple trading mandates, rather than resubmitting essentially the same model repeatedly. Goldman is providing feedback on these mechanics.
+
+Based on experience with the current market-risk approval framework, the team suggested roughly six months as a reasonable benchmark for Fed review, although they emphasized that the actual timeline is unknown.
+
+FRTB-CVA plan
+
+CVA is described as a new, fully additive capital charge under the new framework. The firm expects to apply for SA-CVA, while BA-CVA acts as a fallback for exposures that cannot be treated under SA-CVA.
+
+The CVA model inventory was described as approximately nine models: six CVA pricing engines, one sensitivity model and two aggregators.
+
+The starting point for the pricing engines is the firm’s existing accounting CVA framework, but the models are being enhanced specifically for regulatory capital. The most important enhancements include margin period of risk / gap risk, initial margin, collateral enforceability and legal netting treatment.
+
+The margin-period-of-risk enhancement was highlighted as particularly important because fully collateralized trades that may have effectively zero accounting CVA can still create regulatory CVA capital due to exposure movements during the close-out period.
+
+The SA-CVA calculation itself is sensitivity based. Models generate CVA sensitivities, after which the regulatory aggregation is prescribed. Where the required model-based sensitivities cannot be generated for a tradable, the position falls back to BA-CVA, which is more punitive.
+
+The project timeline for CVA is intentionally aligned with Market Risk: model blessing through Q3 2026, validation through year-end and Q1 2027 if needed, then application data collection and regulatory submission in 2027.
+
+CVA advocacy and capital impact
+
+Controllers also highlighted that the firm’s projected CVA capital has already improved materially between the 2023 and 2026 NPRs.
+
+One significant benefit came from the treatment of client-cleared transactions, which reduced projected CVA RWA.
+
+The firm is continuing advocacy in three areas: more granular treatment of regulated versus unregulated financial institutions; look-through treatment for SPV/repack structures; and exemptions for certain commercial end-user hedging activity.
+
+The first was described as having the highest likelihood of success, the SPV treatment as possible, and the commercial end-user exemption as less likely.
+
+PRA and ECB relationship
+
+The global work is intentionally being leveraged across jurisdictions.
+
+For PRA, the timeline is firmer and the firm is already engaging on SA-CVA approval. PRA therefore serves as an earlier implementation path for much of the same infrastructure that will eventually support the U.S.
+
+For ECB, BA-CVA is already live for Goldman, while SA-CVA is not currently being pursued. Market Risk SA has also already been built and validated, so Controllers did not describe ECB as a major remaining development program compared with PRA and FRB.
+
+This reinforces the synergy point from your earlier discussions: a substantial amount of the PRA work can be reused for the FRB, with the remaining effort focused on entity scope and regulatory differences.
+
+Standardized / DRC plan
+
+The Enhanced Standardized Approach covers both credit-risk RWA and operational-risk RWA through DRCs.
+
+The work is being deliberately staged from Q3 2026 through Q3 2027, based on how likely each requirement is to change in the final rule.
+
+Controllers are prioritizing items they consider foundational and unlikely to move materially. Lower-touch changes are being pushed later.
+
+Operational Risk RWA is expected to require an entirely new DRC. By contrast, some existing credit-risk DRCs require relatively limited enhancements, such as onboarding new feeder calculations or revised regulatory parameters.
+
+Cross-product netting has deliberately been pushed to Q3 2027 because there is greater uncertainty around the final rule and potentially significant implementation complexity and capital impact.
+
+The general philosophy is therefore: don’t spend significant effort now on areas that may materially change when the final rule arrives.
+
+GSIB surcharge
+
+The GSIB surcharge is another major part of the broader capital program, although it is less model-intensive.
+
+The main implementation challenge is described as data and operational complexity, including movement from quarterly to daily data and more granular regulatory reporting requirements.
+
+The new proposal also changes calibration in a way expected to produce some capital benefit, but the principal project challenge is data sourcing, infrastructure and execution rather than complex modeling.
+
+Governance and project management
+
+One of the most important updates versus your earlier discussions is that there will be centralized governance.
+
+Controllers and Risk Engineering said they are establishing a B3F steering group to track the full implementation across the organization. Representation is expected across first line, second line and third line.
+
+That steering group should become the main central program-management mechanism for timelines, dependencies, model development, DRC implementation and regulatory application readiness.
+
+For MRM, this means the tracker you built should now be viewed as the model-risk lens into the central firmwide plan, rather than as a standalone B3F project tracker.
+
+Core management takeaway
+
+The Controllers/Risk Engineering plan is essentially:
+
+Build and bless against the March 2026 NPR now → validate through 2026 → incorporate final-rule changes in Q1 2027 → collect six months of regulatory evidence → submit applications by end-Q2 2027 → allow roughly six months for regulatory approval → be ready for a presumed 1H 2028 U.S. implementation.
+
+The areas with the greatest execution risk are FRTB IMA and SA-CVA, because both require significant model work and formal Fed approval. The DRC program is broader but generally less model-intensive and is being intentionally staged through 2027. Central governance is now being put in place to coordinate the large number of moving pieces.
+
+
+
+
+Six medium-severity findings were raised related to model performance and efficiency, evaluation methodology, system prompt clarity, runtime transparency, and code controls
 
 
 
