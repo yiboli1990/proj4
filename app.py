@@ -1,3 +1,7 @@
+The team expects to calibrate the information presented in the merge request to provide reviewers with relevant risk information without overwhelming them.
+
+
+
 Yes. Based on the MRCC discussion, Controllers and Risk Engineering now have a fairly clear firmwide B3F implementation plan, even though the U.S. final rule is still pending. The plan is essentially to develop and validate against the March 2026 NPR now, absorb any final-rule changes later, and be ready to submit model applications to the Fed in 2027.
 
 Overall program approach
