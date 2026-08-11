@@ -1,3 +1,20 @@
+For the AIRCC meeting minutes, I’d use a simple, formal header/footer consistent with committee governance documents:
+
+Header:
+Firmwide AI Risk and Controls Council (AIRCC) – Meeting Minutes
+
+Footer:
+Confidential – For Internal Use Only | August 11, 2026
+
+If you want something more formal/regulatory-facing, I’d use:
+
+Header:
+Firmwide AI Risk and Controls Council | August 11, 2026
+
+Footer:
+Confidential – For Internal Use Only | Page [#]
+
+
 The team expects to calibrate the information presented in the merge request to provide reviewers with relevant risk information without overwhelming them.
 
 
