@@ -1,4 +1,8 @@
-    Six medium-severity findings were raised, with one remediated prior to approval; outstanding enhancements relate to model performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
+    Six medium-severity findings were raised related to model performance and efficiency, evaluation methodology, system prompt clarity, runtime transparency, and code controls
+
+
+
+Six medium-severity findings were raised, with one remediated prior to approval; outstanding enhancements relate to model performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
 
 
 
