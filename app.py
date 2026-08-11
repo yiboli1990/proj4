@@ -1,4 +1,33 @@
-    A Council member asked whether the Bedrock Mantle enablement affected Model Control Policy change-management requirements. The presenter clarified that the change is limited to models served through the Firm’s LLM Gateway and does not alter the model-serving or change-management arrangements for Devin, GitHub Copilot or Microsoft 365 Copilot.
+Yes — for CRO updates, I’d make them much more concise:
+
+AIRCC – August 11
+
+GBM Client Query Management
+
+* AIRCC conditionally approved the agentic AI solution for post-trade client queries, subject to Technology Risk and MRM approval.
+* Initial rollout retains human approval of all client responses, with confidence thresholds, performance monitoring and kill-switch controls.
+
+Devin AI Expansion
+
+* AIRCC approved the phased expansion of Devin to autonomously execute the GitLab pipeline, while retaining human approval before code merge.
+* Rollout includes sealed runners and adversarial code review; the team will return with results and lessons learned.
+
+AWS Bedrock Mantle
+
+* AIRCC received a posting on enabling AWS Bedrock Mantle as an additional model-serving platform to support on-demand scaling.
+* Existing controls remain in place with no change to Model Control Policy arrangements; AWS search would require separate approval.
+
+Firmwide AI Standard
+
+* Proposed changes enhance risk assessment for agentic AI based on autonomy, tool access and the nature of actions performed.
+* Changes also require use cases to return through governance when modifications materially increase autonomy, authority, complexity or risk.
+
+
+
+
+
+
+A Council member asked whether the Bedrock Mantle enablement affected Model Control Policy change-management requirements. The presenter clarified that the change is limited to models served through the Firm’s LLM Gateway and does not alter the model-serving or change-management arrangements for Devin, GitHub Copilot or Microsoft 365 Copilot.
 
 
 
