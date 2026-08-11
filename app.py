@@ -1,3 +1,79 @@
+Below is how I would draft it under the streamlined AIRCC approach, using the materials as the baseline and capturing primarily the questions, clarifications, and decisions from the meeting.
+
+AI Risk and Controls Council Discussion Points
+
+Meeting Date/Time: August 11, 2026 / 9:30 am ET
+Meeting Type: Regular
+Chairperson(s): Michael Schlee, Bill Keirstead
+Secretary: Caroline Shulman
+Attendance: Adequate representation from business and control side members was recorded.
+
+[1] GBM Client Query Management – Approval
+
+Presenters: Preya Patel, Rakesh Pillai
+
+Decision: Conditionally approved GBM Client Query Management for the proposed initial post-trade Operations rollout.
+
+Pre-go-live Conditions:
+
+1. Complete Technology Risk review and final validation. (Owner: Preya Patel; Control-side Contact: Karthik Ram)
+2. Complete MRM validation. (Owner: Preya Patel; Control-side Contact: Bo Hu)
+
+Other Follow-ups: None
+
+Key Discussion Points:
+
+* A Council member asked how the confidence score used to determine whether an AI-generated response is presented to a user is calculated. The presenters clarified that a separate model evaluates six dimensions of the generated response against a defined rubric; it does not rely on comparison with a human response in production.
+* Members discussed the distribution of confidence scores. The presenters noted that only a subset of queries currently achieve high confidence and confirmed that the initial rollout will be limited to those responses, while medium- and lower-confidence cases will continue through testing and refinement.
+* The presenters clarified that the agents cannot send emails to clients. Generated responses, agent reasoning and confidence information are returned separately to Salesforce, where a user must review and attest to the response before it can be sent.
+* A member asked whether users receive sufficient supporting information to validate the proposed response. The presenters confirmed that the draft response, agent reasoning and output summary are separately available to the reviewer and cannot be automatically commingled into the client-facing email.
+* Members discussed risks arising from clients providing free-form text through email, including prompt-injection risk. The presenters explained that an additional prompt-injection scan was introduced following penetration testing and noted that client/domain validation controls are also applied before requests are processed.
+* The Council discussed kill-switch design and ongoing performance monitoring. The presenters clarified that the solution can be disabled independently through both Salesforce and the agent layer, and that sustained increases in human intervention or deterioration in agent-match performance would trigger review rather than relying on a single-day result.
+* The Chairperson encouraged the team to continue independently validating the LLM-based confidence assessment after go-live by comparing a sample of agent assessments against human-reviewed outcomes. The presenters confirmed that the existing parallel-testing process can be continued in production monitoring.
+* Technology Risk noted that final peer reviews remained in progress and would need to be completed before go-live; Compliance noted no material outstanding concerns.
+
+[2] AWS Bedrock Mantle – Posting
+
+Key Discussion Points:
+
+* The presenter clarified that Bedrock Mantle provides an additional model-serving option intended to improve on-demand scalability relative to the capacity-management requirements associated with existing provisioned-throughput arrangements.
+* The Council confirmed that the implementation uses the existing LLM Gateway architecture and is intended to maintain control parity with models currently served through GCP Vertex and Azure OpenAI.
+* A member asked whether AWS search capabilities were included in the posting. The presenter confirmed that the current scope is limited to model serving; any future enablement of AWS search would return to AIRCC for a separate formal approval and assessment of search quality and accuracy.
+* The presenter clarified that the change applies to models served through the Firm’s LLM Gateway and does not change the model-serving arrangements for Microsoft 365 Copilot, GitHub Copilot or Devin.
+
+[3] Devin AI – Expansion – Approval
+
+Presenters: Brian Timmeny, Jonathan Cross
+
+Decision: AIRCC approved the proposed expansion of Devin AI.
+
+Pre-go-live Conditions: None
+
+Other Follow-ups:
+
+1. Return to AIRCC in approximately one quarter with an update on rollout outcomes, including trends in merge/revert activity, effectiveness of the review process and broader lessons learned. (Owner: Brian Timmeny/Jonathan Cross; Control-side Contact: Karthik Ram)
+
+Key Discussion Points:
+
+* Council members noted that reducing repeated human approvals earlier in the pipeline may improve, rather than weaken, the control environment by reducing perfunctory review and allowing the final human reviewer to focus on the most relevant risks.
+* Members discussed how information should be presented to the final reviewer. The presenters explained that detailed session and control results will be available, while the team expects to calibrate how the merge request is “decorated” so reviewers receive sufficient risk information without being overwhelmed.
+* A member emphasized that calibration of what the AI identifies as “high risk” will be important, particularly as AI-generated code volume increases. The presenters agreed that this will be refined as the rollout progresses.
+* The Council requested post-rollout evidence on whether the expanded process is improving outcomes, including whether merge success improves and whether reverts increase or decrease. The presenters agreed to return with results and lessons learned.
+* A member asked whether the team had backtested the approach against previously reviewed merge requests. The presenters confirmed that prior merge requests had been compared against agent-generated solutions and that the results supported the proposed approach.
+* Members asked whether the malicious-code review will identify techniques that may not be apparent to human reviewers, including hidden or encoded signals and attacks constructed across multiple steps. The presenters confirmed that these scenarios are intended to be covered by the adversarial review framework, with additional policies being developed with Technology Risk before the fully autonomous phase.
+* The Council noted that the lessons from this rollout may have broader applicability beyond software development as the Firm seeks to reduce unnecessary human intervention while retaining effective oversight in other agentic processes.
+
+[4] Administrative Items
+
+Proposed Changes to the Firmwide Standard on Artificial Intelligence
+
+* The secretary summarized proposed enhancements to the AI risk-assessment framework to more explicitly differentiate agentic use cases based on characteristics such as autonomy, tool permissions, agent-to-agent interaction, statefulness and the consequence of actions taken without human intervention.
+* The secretary highlighted proposed change-management language requiring previously approved use cases to return through governance where changes materially increase complexity, autonomy, authority, usage or overall risk.
+* Members were asked to review the proposed changes and provide any comments by the end of the week. Final approval was therefore not recorded during the meeting.
+
+
+
+
 Validation Activities – China AI Assistant Search
 
 * MRM approved China AI Assistant Search (Tier 2), which adds Alibaba Qwen-based web grounding to the GS China AI Assistant for employees in Mainland China to provide more current, source-referenced responses.
