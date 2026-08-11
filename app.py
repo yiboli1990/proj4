@@ -1,3 +1,7 @@
+    A Council member asked whether the Bedrock Mantle enablement affected Model Control Policy change-management requirements. The presenter clarified that the change is limited to models served through the Firm’s LLM Gateway and does not alter the model-serving or change-management arrangements for Devin, GitHub Copilot or Microsoft 365 Copilot.
+
+
+
 Below is how I would draft it under the streamlined AIRCC approach, using the materials as the baseline and capturing primarily the questions, clarifications, and decisions from the meeting.
 
 AI Risk and Controls Council Discussion Points
