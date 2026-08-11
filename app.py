@@ -1,3 +1,10 @@
+    Six medium-severity findings were raised, with one remediated prior to approval; outstanding enhancements relate to model performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
+
+
+
+
+
+
 Yes — for CRO updates, I’d make them much more concise:
 
 AIRCC – August 11
