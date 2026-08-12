@@ -1,3 +1,14 @@
+I’d restructure it so the benchmark is clearly framed as an optimization opportunity, not as evidence the production model is deficient.
+
+Funds Oversight Agentic AI (Controllers, Tier 2):
+
+* MRM approved Funds Oversight Agentic AI (Controllers, Tier 2), the first agent co-developed with Anthropic, used by XIG Fund Controllers to investigate investment holding reconciliation breaks.
+* MRM developed an independent benchmark that outperformed the production model across accuracy, efficiency, cost, and runtime, identifying opportunities for further optimization while the production model remained within defined performance thresholds.
+* MRM identified a number of design, performance, and evaluation issues during validation, with some remediated prior to approval and five medium-severity findings remaining open related to performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
+
+I think this addresses both comments: it avoids making the benchmark result sound like a severe production issue, and it reconciles the fact that some issues were fixed during validation while five findings remain open.
+
+
 I’d address the comments by making the GBM Client Query Management bullet simpler and making the Devin bullet explicit that only the intermediate approvals are being removed, while the final human gate remains.
 
 AIRCC
