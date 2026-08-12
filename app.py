@@ -1,4 +1,18 @@
-    MRM developed an independent benchmark that achieved a 72% lower incorrect approval rate, 20% lower false alarm rate, 65% lower inference cost, and 59% lower runtime than the production model, identifying opportunities for further optimization; five medium-severity findings remain open related to performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
+I’d address the comments by making the GBM Client Query Management bullet simpler and making the Devin bullet explicit that only the intermediate approvals are being removed, while the final human gate remains.
+
+AIRCC
+
+* AIRCC approved GBM Client Query Management (GBM Public, Tier 3), an agentic AI model that will be used by GBM Operations post-trade processing teams to draft responses to client queries using trade and settlement information from approved internal data sources.
+* AIRCC approved the phased expansion of Devin AI (Engineering, AI Platform) to remove human approvals from intermediate GitLab pipeline steps, while retaining the existing human maker/checker review and final approval before code can be merged.
+
+If you want the Devin bullet to reflect the broader purpose a little more, I’d use:
+
+* AIRCC approved the phased expansion of Devin AI (Engineering, AI Platform) to autonomously execute intermediate GitLab pipeline steps and support broader code remediation activities, while retaining human maker/checker review and final approval before merge.
+
+I prefer the second Devin version because it captures both the efficiency objective and the fact that HITL remains at the final gate.
+
+
+MRM developed an independent benchmark that achieved a 72% lower incorrect approval rate, 20% lower false alarm rate, 65% lower inference cost, and 59% lower runtime than the production model, identifying opportunities for further optimization; five medium-severity findings remain open related to performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
 
 
 
