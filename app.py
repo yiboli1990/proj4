@@ -1,3 +1,18 @@
+Looking through the actual findings, I think your manager is right that the story should be “MRM materially strengthened what was initially submitted, then approved it with remaining optimization/control findings.”
+
+Also, based on the finding details you provided, there were no Sev 1 findings. There were six Sev 2 findings, one of which was closed during validation, plus a Sev 3 documentation finding that was also closed.
+
+I would redraft it as:
+
+* MRM approved Funds Oversight Agentic AI (Controllers, Tier 2), the first agent co-developed with Anthropic, used by XIG Fund Controllers to investigate investment holding reconciliation breaks.
+* During validation, MRM identified deficiencies in the initial evaluation framework and supporting documentation, leading to expansion of the evaluation dataset, adoption of more risk-sensitive performance metrics, and documentation enhancements prior to approval.
+* MRM also developed an independent benchmark that identified further opportunities to improve model performance and execution efficiency; five medium-severity findings remain open related to performance and efficiency, evaluation coverage, system prompts, runtime transparency, and code controls.
+
+I think this is stronger because it distinguishes what validation actually improved before approval from what remains outstanding.
+
+One nuance: I would not say the production model’s performance itself materially improved from the initial submission unless you have before/after performance results. The evidence you provided clearly supports that the evaluation framework, dataset, and documentation improved, while the benchmark supports the separate conclusion that further performance/efficiency optimization is possible.
+
+
 I’d restructure it so the benchmark is clearly framed as an optimization opportunity, not as evidence the production model is deficient.
 
 Funds Oversight Agentic AI (Controllers, Tier 2):
