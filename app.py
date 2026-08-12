@@ -1,3 +1,26 @@
+I would revise both so the bullets tell more of the validation story rather than just listing findings. For Funds Oversight, there were six medium-severity findings, one closed during validation and five remaining open; there were no high-severity findings in the information you provided.
+
+Model Validation Activities
+
+Funds Oversight Agentic AI
+
+* MRM approved Funds Oversight Agentic AI (Controllers, Tier 2), the first agent co-developed with Anthropic, used by XIG Fund Controllers to investigate investment holding reconciliation breaks.
+* MRM identified gaps in the model’s performance evaluation and design during validation, with enhancements made to the evaluation dataset and metrics, system prompts, and model documentation.
+* MRM developed an independent benchmark that achieved lower incorrect approval and false alarm rates, as well as lower cost and runtime, identifying opportunities for further model optimization; five medium-severity findings remain open related to performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
+
+I would not say “all were remediated during validation,” because that isn’t supported by the validation summary—five findings remain open. The strongest factual story is that MRM’s work resulted in enhancements during validation while also identifying further opportunities through the benchmark.
+
+China AI Assistant Search
+
+* MRM approved China AI Assistant Search (Engineering, Tier 2), which adds Alibaba Qwen-based web grounding to the GS China AI Assistant for employees in Mainland China.
+* MRM testing found that web grounding generally improved the completeness, timeliness, and accuracy of responses compared with the ungrounded model, supporting its use for accessing current information.
+* One medium-severity finding was raised on increased hallucination risk, particularly for recent events, calling for further enhancements to user warnings and education and ongoing monitoring.
+
+For China AI, I think the new second bullet directly addresses the comment “first point should be conclusion why it works”: it states the independent MRM conclusion and the specific dimensions that improved.
+
+
+
+
 For the AIRCC meeting minutes, I’d use a simple, formal header/footer consistent with committee governance documents:
 
 Header:
