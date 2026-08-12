@@ -1,3 +1,7 @@
+    MRM developed an independent benchmark that achieved a 72% lower incorrect approval rate, 20% lower false alarm rate, 65% lower inference cost, and 59% lower runtime than the production model, identifying opportunities for further optimization; five medium-severity findings remain open related to performance and efficiency, evaluation methodology, system prompts, runtime transparency, and code controls.
+
+
+
 I would revise both so the bullets tell more of the validation story rather than just listing findings. For Funds Oversight, there were six medium-severity findings, one closed during validation and five remaining open; there were no high-severity findings in the information you provided.
 
 Model Validation Activities
