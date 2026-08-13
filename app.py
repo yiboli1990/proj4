@@ -1,3 +1,15 @@
+I’d add a purpose bullet between approval and findings:
+
+* MRM approved Net Interest Margin (NIM) enhancements across nine GBM Trading models.
+* The enhancements separately model interest income and expense and explicitly incorporate interest-rate sensitivity into PPNR projections under CCAR and DFAST scenarios, which was previously captured only indirectly through MtM projections.
+* During validation, MRM raised nine high-severity findings covering implementation errors, model assumptions, calibration choices, and input accuracy/completeness; all were remediated prior to approval.
+* Nine medium-severity findings remain open related to code controls, model coverage, key assumptions, ongoing monitoring, and documentation.
+
+
+
+
+
+
 Looking through the actual findings, I think your manager is right that the story should be “MRM materially strengthened what was initially submitted, then approved it with remaining optimization/control findings.”
 
 Also, based on the finding details you provided, there were no Sev 1 findings. There were six Sev 2 findings, one of which was closed during validation, plus a Sev 3 documentation finding that was also closed.
