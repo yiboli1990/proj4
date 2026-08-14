@@ -1,3 +1,59 @@
+Below is a more detailed update checklist with placeholders for items that need confirmation.
+
+1. IRB Uplift
+
+* Update that MRM approved the Super Large Corporate IRB model on [date/status to be confirmed].
+* Note that all material findings related to the Super Large Corporate IRB model were raised, including [number and brief description/severity of findings].
+* Confirm completion of the rule-compliance review for the Corporate IRB model on [date], including [any findings or key conclusions].
+* If either item is delayed, provide the revised completion date and reason: [details].
+
+2. CCR Name Modeling Changes
+
+* Update that MRM approved name-modeling changes across seven CCR models on [date].
+* Note that [number] findings were raised and [number] findings were closed as part of the review. The transcript’s reference to “971” should be verified.
+* Summarize the scope and impact of the changes: [brief description of methodology/model changes and impact].
+* Confirm whether the results were fully reconciled. If not, state what was completed and what could not be reconciled: [details].
+
+3. Lotus Phase 2 ICR – Private Equity Funds
+
+* Update the validation status of the Private Equity Funds ICR models: [approved/in progress/delayed].
+* If approved, include the approval date and any findings: [date and findings].
+* If still in progress, note that completion is pending resolution of questions regarding recovery-rate modeling: [brief description].
+* Provide the revised expected completion date: [date].
+
+4. Corporate Treasury Long-Term Stress Test
+
+* Update the validation of enhancements to the Corporate Treasury Long-Term Stress Test model, which incorporate private equity funds.
+* Confirm whether the enhancement was approved: [status/date].
+* Include the purpose and expected impact of the enhancement: [brief description].
+* Note any outstanding matters or findings: [details].
+* If completed, position this as the final update closing the item previously reported in May.
+
+5. RVF
+
+* Confirm whether there has been material progress on RVF since the prior update: [details].
+* If appropriate, include the current validation status, recent milestone and expected completion date: [status/milestone/date].
+* If there is no meaningful progress, remove this item from the CRO update.
+
+6. Electronic Trading Controls
+
+Add a new section titled Electronic Trading:
+
+* Report implementation of [system/process name], which monitors material electronic-trading changes and routes them to relevant second-line control functions for review.
+* Clarify that the scope includes model and non-model changes, such as updates to [BA/VA terminology to be confirmed], valuations and controls.
+* Describe the MRM and ETSC roles and connections: [details].
+* Note that implementation addresses a remaining control gap and supports closure of findings raised through [exam/review name] approximately two years ago.
+* Confirm the relevant finding numbers, closure status and date: [details].
+
+Separate Follow-Ups — Not for the CRO Update
+
+* Likely CSD threshold breach: Send Alex an advance notice this week explaining the expected breach, anticipated timing of [date, potentially August 19], underlying finding and remediation status. Identify [contact name] as the point of contact while Bill and [other individual] are away.
+* CCR name modeling email: Send Alex a final summary of the work, clearly explaining what was completed, what could and could not be reconciled, and the final model and capital impacts.
+* Asia CC Trigger: Investigate the continued modification of legacy trades using the unapproved CC Trigger tradable. Confirm whether each modification was risk-reducing or supported by explicit approval or waiver.
+* MRA 4/MRA 6: Verify whether the relevant control should have identified booking on an unapproved tradable–pricing-model combination and why the activity was not previously blocked or escalated.
+* Calendar: Cancel next Wednesday’s GBM update. Prepare the regular CRO update for Bill’s review Wednesday evening and Thursday distribution. Prepare the CRO AI update the following week using the same timetable.
+
+
 I’d add a purpose bullet between approval and findings:
 
 * MRM approved Net Interest Margin (NIM) enhancements across nine GBM Trading models.
