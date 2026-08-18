@@ -1,3 +1,10 @@
+    MRM review of the proposed RV Plus methodology has progressed materially, with Strats adding a broader set of portfolio-level safeguards and expanded backtesting in response to prior validation concerns.
+* Key enhancements include tighter controls around concentration, liquidity, volatility symmetry, momentum exposure, and long-short correlation, with the latest client analysis showing the framework excludes or materially limits RV Plus treatment for the highest-volatility portfolios.
+* MRM is completing its assessment of the revised framework, with remaining focus on residual factor risk, longer-horizon performance, and calibration of the new correlation safeguard before final approval.
+
+
+
+
 [1] Pia 2.0 – Approval
 
 Presenters: Dan Popescu, Sara Ghali
