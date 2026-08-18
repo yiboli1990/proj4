@@ -1,3 +1,8 @@
+    Codify the governance boundaries and appropriate unit of approval for new use cases developed within Pia. (Owner: Dan Popescu; Control-side Contact: Bo Hu)
+2. Confirm the applicable retention period for Pia prompts and responses in light of potential changes to the AI platform retention schedule. (Owner: Dan Popescu; Control-side Contact: Luke Jones)
+
+
+
 Below is the draft in the same style as the final GBM Client Query Management notes, with the materials treated as background and the discussion points focused on what was actually asked, clarified, or confirmed in the meeting.
 
 [1] Pia 2.0 – Approval
