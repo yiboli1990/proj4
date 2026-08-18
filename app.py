@@ -1,4 +1,17 @@
-    MRM review of the proposed RV Plus methodology has progressed materially, with Strats adding a broader set of portfolio-level safeguards and expanded backtesting in response to prior validation concerns.
+Yes. I’d make it sound like MRM and ETSC are part of the receiving/oversight framework, without implying they built the process.
+
+Electronic Trading
+
+* GBM Public implemented a workflow to systematically notify relevant second-line functions, including MRM and ETSC, of material changes to GSBE electronic trading businesses.
+* The workflow replaces the prior manual email-based notification process and was introduced in response to a PwC finding from BaFin’s review of GSBE compliance with EU algorithmic trading requirements.
+* MRM and ETSC will use the notifications to support timely second-line review and determine whether further model risk or electronic trading governance assessment is required.
+
+I think the third bullet is the key to making MRM/ETSC sound appropriately involved without overstating their role.
+
+
+
+
+MRM review of the proposed RV Plus methodology has progressed materially, with Strats adding a broader set of portfolio-level safeguards and expanded backtesting in response to prior validation concerns.
 * Key enhancements include tighter controls around concentration, liquidity, volatility symmetry, momentum exposure, and long-short correlation, with the latest client analysis showing the framework excludes or materially limits RV Plus treatment for the highest-volatility portfolios.
 * MRM is completing its assessment of the revised framework, with remaining focus on residual factor risk, longer-horizon performance, and calibration of the new correlation safeguard before final approval.
 
