@@ -1,4 +1,58 @@
-    Codify the governance boundaries and appropriate unit of approval for new use cases developed within Pia. (Owner: Dan Popescu; Control-side Contact: Bo Hu)
+[1] Pia 2.0 – Approval
+
+Presenters: Dan Popescu, Sara Ghali
+
+Decision:
+AIRCC approved the rollout of Pia 2.0 across AWM, subject to completion of the remaining pre-go-live conditions.
+
+Pre-go-live Conditions:
+
+1. Complete Legal and Compliance pre-go-live conditions. (Owner: Dan Popescu; Control-side Contact: Ilias El Khaddari)
+2. Complete Technology Risk review and outstanding penetration testing. (Owner: Dan Popescu; Control-side Contact: Karthik Ram)
+3. Complete MRM review. (Owner: Dan Popescu; Control-side Contact: Bo Hu)
+
+Other Follow-ups:
+
+1. Codify the governance boundaries and appropriate unit of approval for new use cases developed within Pia. (Owner: Dan Popescu; Control-side Contact: Bo Hu)
+2. Confirm the applicable retention period for Pia prompts and responses in light of potential changes to the AI platform retention schedule. (Owner: Dan Popescu; Control-side Contact: Luke Jones)
+
+Key Discussion Points:
+
+* The Council Chairperson discussed whether Pia should be governed at three distinct levels: the underlying execution environment, the agentic/orchestration framework, and the individual use cases built on top. The presenter and Bo Hu agreed that establishing reusable approval boundaries at the platform/framework level could allow lower-risk use cases to be onboarded more efficiently while maintaining separate review for use cases with materially different risk characteristics.
+* The presenter clarified that the current Pia scope is primarily human-in-the-loop, where a user initiates a request and reviews the result, rather than fully autonomous workflow execution. He noted that use cases with broader downstream implications, such as signal generation, would likely fall outside the current approval boundary and require separate consideration.
+* The Council Chairperson noted that a future move from user-selected profiles to AI-driven routing across tools or profiles could represent a meaningful increase in autonomy and should be considered when defining future reapproval boundaries.
+* In response to a question from the Council Chairperson, Technology Risk confirmed that AWS AgentCore is sandboxed and that any additional external connectivity must be explicitly allow-listed and undergo Technology Risk design review before it can be enabled.
+* The Council Chairperson asked how MCP servers are governed before being connected to Pia. The presenters clarified that firmwide MCP registration and Technology Risk review will be required before onboarding to Pia. The Council further noted that governance for subsequent changes to an already-registered MCP, such as adding new tools or capabilities, remains an area to be tightened as the firmwide framework evolves.
+* In response to questions on model evaluation, the presenter explained that the team does not intend to rely on a single aggregate accuracy threshold for Pia. Instead, testing is being performed by profile and capability set, with focus on whether the agent selects the appropriate tools, maintains profile isolation, handles context correctly, and produces faithful responses.
+* The Council discussed user modification of profile skills. The presenters explained that where users disable skills that are important to a profile, the application will provide a warning describing the potential impact on the resulting response, while preserving additional flexibility for more experienced users.
+* The Council discussed retention of prompts and responses. The presenter confirmed that the current internal use case inherits the platform retention period, while potential changes to that period are under consideration; the presenters also noted that future external-facing use cases may require longer retention to support regulatory requests.
+
+[2] Codex CLI – Approval
+
+Presenters: Sarrah Cherhabil, Sunny Sun, Harry Moss
+
+Decision:
+AIRCC approved a pilot rollout of Codex CLI to approximately 500 engineers, including OpenAI Forward Deployed Engineers.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+
+1. Return to AIRCC with pilot results and observations before broader rollout. (Owner: Sarrah Cherhabil; Control-side Contact: Karthik Ram)
+
+Key Discussion Points:
+
+* The Council Chairperson asked whether Codex CLI introduces any unique risks relative to Claude Code. Control-side representatives confirmed that no material incremental risks had been identified, noting that the two tools have broadly similar capabilities and operate under the same overall control framework despite using different model providers and coding harnesses.
+* A control-side member raised the broader concern that supporting multiple similar coding tools could increase operational complexity and control-maintenance burden. The presenters explained that Codex provides additional model-provider optionality and may also support jurisdictions where Anthropic tooling is not available.
+* The Council discussed the distinction between the coding harness and the underlying model-routing infrastructure. Members noted that while traffic is routed through the Firm’s LLM Gateway, Codex and Claude Code remain separate harnesses with somewhat different implementations even though their capabilities are broadly comparable.
+* The Council Chairperson concluded that the question of how many similar coding products the Firm should support is primarily a product and technology strategy consideration rather than an AIRCC risk-approval issue.
+* The presenters confirmed that future feature and connectivity changes are expected to be managed consistently across Codex CLI and Claude Code, rather than developing materially different control approaches for the two tools.
+
+
+
+
+Codify the governance boundaries and appropriate unit of approval for new use cases developed within Pia. (Owner: Dan Popescu; Control-side Contact: Bo Hu)
 2. Confirm the applicable retention period for Pia prompts and responses in light of potential changes to the AI platform retention schedule. (Owner: Dan Popescu; Control-side Contact: Luke Jones)
 
 
