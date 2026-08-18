@@ -1,3 +1,10 @@
+I’d make it more CRO-friendly and outcome-focused:
+
+* MRM approved enhancements to the Long-Term Stress Test (LTST) model (Treasury, Tier 1) to incorporate more recent stress periods, addressing a prior MRM finding and materially reducing projected LTST outflows.
+* During validation, a high-severity finding related to GLA monetization and understatement of three-month outflows was remediated through model enhancements.
+* Remaining medium-severity findings relate to insufficient justification of key model assumptions.
+
+
 Electronic Trading
 
 * GBM Public implemented a workflow to systematically notify relevant second-line functions, including MRM and ETSC, of material changes to GSBE electronic trading businesses.
