@@ -1,3 +1,63 @@
+Below is the draft in the same style as the final GBM Client Query Management notes, with the materials treated as background and the discussion points focused on what was actually asked, clarified, or confirmed in the meeting.
+
+[1] Pia 2.0 – Approval
+
+Presenters: Dan Popescu, Sara Ghali
+
+Decision: AIRCC approved the rollout of Pia 2.0 across AWM, contingent upon completion of the remaining control-side approvals.
+
+Pre-go-live Conditions:
+
+1. Complete MRM review.
+2. Complete remaining Technology Risk review and penetration testing, including review of outstanding connectivity.
+3. Complete remaining Legal and Compliance conditions.
+
+Other Follow-ups:
+
+1. Dan Popescu and Bo Hu to develop and codify an approach for determining the appropriate unit of approval and governance boundaries for new use cases developed within Pia.
+2. Follow up on the appropriate data-retention period for Pia as potential changes to the firmwide AI platform retention standard are considered.
+3. Confirm the appropriate agentic AI subtype under the revised AI Policy and Standard.
+
+Key Discussion Points:
+
+* The Council Chairperson discussed the appropriate unit of approval for Pia, distinguishing between the underlying platform, the agentic harness and individual use cases. He emphasized the importance of establishing governance boundaries that allow new use cases to be developed within the approved framework without requiring AIRCC approval for every incremental application.
+* The presenter explained that the current scope primarily supports human-in-the-loop chatbot interactions rather than fully autonomous workflows, and that use cases with greater autonomy or downstream implications, such as signal generation, would be treated separately. Bo Hu noted that the framework-level review is intended to address risks inherent to orchestration, controls and evaluations, while individual use cases can subsequently be grouped based on their risk characteristics.
+* A Council member asked how Pia profiles are defined and whether users select them or whether they are selected automatically. The presenter clarified that profiles are defined in code, subject to SDLC controls and user entitlements, and bundle system instructions, tools and data connectors relevant to a particular type of work.
+* The Council Chairperson noted that a future move from user-selected profiles to AI-driven routing of tools and capabilities could represent a meaningful change in autonomy and should be considered when defining the governance boundaries for Pia.
+* Technology Risk confirmed that the AWS AgentCore environment is sandboxed and that any new external connectivity must undergo Technology Risk design review before it can be enabled. In response to a question from the Council Chairperson, Technology Risk further confirmed that connections are allow-listed and cannot be added without review.
+* The Council Chairperson asked how MCP servers are governed before being connected to Pia. The presenters and control-side representatives clarified that MCPs must be registered through the firmwide process and undergo Technology Risk review for security and data-leakage considerations. The team agreed that firmwide MCP registration will be made a prerequisite within Pia’s release process.
+* The Council also discussed change management for MCP servers, noting that additional tools or capabilities added to an existing MCP may require enhanced governance as the firmwide registration and control framework continues to mature.
+* In response to questions on pre-go-live testing, the presenter explained that evaluation is being performed by profile and capability set rather than against a single overall accuracy threshold, with particular focus on correct tool selection, profile isolation, context handling and response quality.
+* A Council member asked about controls when users modify the skills associated with a profile. The presenters explained that users may be permitted to disable certain skills, but a warning will be presented where doing so could affect the quality or completeness of the response; the language will be coordinated with Legal and Compliance.
+* The Council discussed retention of user prompts and responses. The presenter noted that Pia currently inherits the AI platform retention period, while the Council was informed that the firm is considering potential changes to that period. The team noted that longer retention may be required for future external-facing use cases based on regulatory requirements.
+
+⸻
+
+[2] Codex CLI – Approval
+
+Presenters: Sarrah Cherhabil, Sunny Sun, Harry Moss
+
+Decision: AIRCC approved a pilot rollout of Codex CLI to approximately 500 engineers, including OpenAI Forward Deployed Engineers.
+
+Pre-go-live Conditions:
+None additional to the existing Technology Risk and rollout processes described for the pilot.
+
+Other Follow-ups:
+
+1. Return to AIRCC with pilot results and observations before broader rollout.
+
+Key Discussion Points:
+
+* The Council Chairperson asked the presenters to focus on the differences between Codex CLI and Claude Code rather than repeating controls already reviewed for Claude Code. The presenters clarified that the principal difference is the underlying model provider, with Codex using OpenAI models and Claude Code using Anthropic models, while the overall use cases and control framework are substantially similar.
+* The presenters confirmed that Codex CLI will use the same engineering eligibility requirements, connectivity restrictions, Cloud Developer Workspace environment and onboarding controls established for Claude Code.
+* The Council Chairperson asked whether Codex CLI presents any unique risks relative to Claude Code. Control-side representatives confirmed that no material incremental risk had been identified and that the same general control framework applies despite differences in the underlying harness and model.
+* A control-side member raised a broader concern regarding the total cost and operational burden of supporting multiple similar coding tools. The presenters noted that Codex provides developers with access to OpenAI models and additional model-provider optionality, including in jurisdictions where Anthropic tooling may not be available.
+* The Council Chairperson agreed that the question regarding whether the Firm should support multiple similar coding products is valid, but noted that it is primarily a product and technology strategy consideration rather than an AIRCC risk-approval issue.
+* The presenters confirmed that future feature and control enhancements are intended to maintain parity between Claude Code and Codex CLI, including approved connectivity and Technology Risk requirements.
+* The Council noted that broader questions regarding expansion of connectivity for AI coding tools should be addressed consistently across Codex CLI, Claude Code and other relevant tools rather than independently for each product.
+* The presenters confirmed that UAT had been completed with a small group of power users and that the pilot would be used to collect additional feedback and observations before returning to AIRCC for broader rollout consideration.
+
+
 Below is a more detailed update checklist with placeholders for items that need confirmation.
 
 1. IRB Uplift
