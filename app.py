@@ -1,3 +1,11 @@
+Electronic Trading
+
+* GBM Public implemented a workflow to systematically notify relevant second-line functions, including MRM and ETSC, of material changes to GSBE electronic trading businesses.
+* The workflow replaces the prior manual email-based notification process.
+* It was introduced in response to a PwC finding from BaFin’s review of GSBE compliance with EU algorithmic trading requirements.
+
+
+
 Yes. I’d make it sound like MRM and ETSC are part of the receiving/oversight framework, without implying they built the process.
 
 Electronic Trading
