@@ -1,3 +1,17 @@
+I’d revise this so the CRO update connects the approval to the broader significance, FRB feedback, and the forward path without becoming too long.
+
+CCAR
+
+* MRM approved net interest income enhancements for the GBM Trading portfolio across seven models (GBM Public, Tier 1), representing one of the most significant uplifts to PPNR modeling in recent years and addressing prior FRB feedback to improve granularity of interest and non-interest income projections.
+* The enhancements explicitly model net interest income and expense for trading securities, with roughly flat impact under the internal stress scenario and a larger uplift under the supervisory scenario.
+* The work was originally targeted for CCAR 2026; further enhancements are expected ahead of CCAR 2027, including additional review of interest-rate sensitivity, defaulted balance treatment, and separation of interest and MtM components for derivatives.
+* During validation, MRM raised nine high-severity findings related to implementation errors, model assumptions, calibration choices, and input accuracy/completeness, all of which were remediated prior to approval; nine medium-severity findings remain open.
+
+I’d use this rather than keeping the original “interest-rate sensitivity was previously captured indirectly” bullet, because your manager is asking for more of the why this matters / regulatory context / forward-looking significance.
+
+
+
+
 Yes. I’d address the comments this way.
 
 CCR
