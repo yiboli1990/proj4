@@ -1,3 +1,23 @@
+Yes. I’d address the comments this way.
+
+CCR
+
+* Review of proposed enhancements to Equity Relative Value (RV+) within shortfall models for long/short equity funds (GBM Public, Tier 1) is in progress.
+* Key enhancements in response to MRM feedback include tighter controls and new guardrails around exposure to additional risk factors, including momentum and volatility.
+* MRM is finalizing its review of the revised framework, including assessment of residual factor risk, longer-horizon performance, and the new VIX guardrail.
+
+This fixes the ambiguity: MRM is assessing, not “addressing,” those remaining concerns.
+
+Electronic Trading
+
+* GBM Public implemented a workflow to systematically notify relevant second-line functions, including MRM and the Electronic Trading Supervisory Committee (ETSC), of material changes to GSBE electronic trading businesses.
+* The workflow replaces the prior manual email-based notification process used by the respective Engineering teams.
+* This enhancement was introduced in response to a PwC finding from BaFin’s review of GSBE compliance with EU algorithmic trading requirements.
+
+I’d use “respective Engineering teams” rather than “respective Engineering team,” since the process applies across businesses.
+
+
+
 I’d make it more CRO-friendly and outcome-focused:
 
 * MRM approved enhancements to the Long-Term Stress Test (LTST) model (Treasury, Tier 1) to incorporate more recent stress periods, addressing a prior MRM finding and materially reducing projected LTST outflows.
