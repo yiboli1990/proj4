@@ -1,3 +1,17 @@
+Yes — I’d break it into shorter CRO-style bullets:
+
+CCAR
+
+* MRM approved net interest income enhancements across seven GBM Trading models (GBM Public, Tier 1), representing a significant uplift to PPNR modeling and addressing prior FRB feedback.
+* The enhancements explicitly model net interest income and expense for trading securities, with roughly flat impact under the internal stress scenario.
+* The work was originally targeted for CCAR 2026, with further enhancements expected ahead of CCAR 2027, including derivatives and defaulted balance treatment.
+* Nine high-severity findings were remediated prior to approval; nine medium-severity findings remain open.
+
+This is probably the cleanest balance between the manager’s requested context and CRO brevity.
+
+
+
+
 I’d revise this so the CRO update connects the approval to the broader significance, FRB feedback, and the forward path without becoming too long.
 
 CCAR
