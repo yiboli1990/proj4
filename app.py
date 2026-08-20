@@ -1,3 +1,6 @@
+Luke said the platform retention schedule itself may change and that this would be brought back to AIRCC. That means the dependency sits with the platform / control-side policy decision, not with Dan’s Pia team.
+
+
 Yes — I’d break it into shorter CRO-style bullets:
 
 CCAR
