@@ -1,3 +1,10 @@
+Agreed. I’d make the second bullet more natural and focus on the actual validation conclusion rather than forcing the Funds Oversight structure.
+
+* MRM approved Controllers Data Reconciliation (Controllers, Tier 2), an agentic AI developed with Anthropic to automate complex transaction matching not handled by deterministic rules within the Harmony reconciliation platform.
+* MRM independent testing confirmed strong reconciliation performance, with 99.6% match precision and 95% match recall, while validation also led to improvements in prompt clarity, performance evaluation, and UAT stability.
+* MRM-developed benchmark demonstrated comparable decision quality with 71% lower inference cost and 43% lower runtime, identifying further optimization opportunities; three medium-severity findings remain open related to agent complexity, Python execution efficiency, and handling of large data inputs.
+
+
 AIRCC
 
 * AIRCC approved Pia 2.0 (AWM, Tier 2), expanding the AWM AI platform across Public Investing and Client Solutions Group and adding cloud-based capabilities including sandboxed code execution, long-term memory, scheduled tasks, visual canvases, and Excel/PowerPoint integrations.
