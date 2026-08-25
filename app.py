@@ -1,3 +1,49 @@
+[1] AWS DevOps Agent – Approval
+
+Presenters: Amy Harms, Mitch Sandlin
+
+Decision:
+AIRCC approved General Availability of the read-only AWS DevOps Agent across production AWS accounts. Future phases introducing broader capabilities will return to AIRCC for separate review and approval.
+
+Pre-go-live Conditions:
+
+1. Confirm the population of production AWS accounts in scope, including applicable jurisdictional restrictions. (Owner: Mitch Sandlin; Control-side Contact: Elizabeth)
+
+Other Follow-ups:
+
+1. Implement the applicable evaluation requirements once the firmwide governance standards for the relevant agentic AI classification are finalized. (Owner: Mitch Sandlin; Control-side Contact: Rahul Sharma)
+2. Confirm the appropriate agentic AI classification and inventory tagging for the use case. (Owner: Mitch Sandlin; Control-side Contact: Karthik Ram)
+
+Key Discussion Points:
+
+* Council members asked about the extent of GS control over the AWS-managed solution. The presenters clarified that AWS may change the underlying models used by the service and GS does not select or control those models, although changes to the service and available capabilities are published by AWS. Members noted that this increases the importance of GS-owned evaluation and monitoring.
+* The Council discussed the proposed evaluation framework. The presenters noted that initial testing had been performed across three scenarios with repeated runs, while the automated evaluation framework and associated thresholds are still being developed. Members discussed whether offline and online evaluations should be required before production use, particularly given the limited transparency into the underlying models.
+* Members noted that the read-only nature of the current use case materially limits the potential impact of an incorrect recommendation. The Council was comfortable proceeding on that basis, provided the team adopts the firmwide evaluation requirements once they are finalized; members emphasized that a future move to capabilities capable of taking or facilitating production actions would require a materially stronger evaluation framework.
+* The Council discussed the need for clearer firmwide governance standards defining evaluation expectations by agent type. Members noted that such standards should specify the required pre- and post-production evaluations and avoid determining requirements independently for each use case.
+* Council members clarified the intended user population. Access will be based on existing AWS production-support permissions and application roles rather than a separate HCM job-function check. The Council requested confirmation of the production-account population and applicable geographic restrictions before go-live.
+* A Council member asked whether the AWS feedback functionality could result in information leakage during production investigations. The presenters clarified that submission of feedback is initiated by a user. Where a user indicates that additional steering is required, relevant session information may be retained in the agent’s memory to inform future investigations, but this information is not automatically transmitted through AWS support tickets and remains within the AWS environment.
+
+[2] Claude Code on WSL2 within NDS.Next – Approval
+
+Presenter: Deepalakshmi Desai
+
+Decision:
+AIRCC approved the use of the existing Claude Code capability within the managed WSL2 environment on NDS.Next.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+None.
+
+Key Discussion Points:
+
+* The presenter clarified that Technology Risk had completed multiple reviews and penetration tests focused on sandbox bypass, configuration tampering and endpoint visibility. Most identified items have been addressed, with the principal residual risk relating to previously unidentified sandbox-bypass paths, which will continue to be managed through the layered WSL2, Claude Code and NDS.Next controls.
+* The presenter confirmed that any future expansion beyond the Day-1 connectivity scope, including MCP connectivity or broader enterprise integrations, would follow the existing Technology Risk and AIRCC governance processes rather than being covered by the current approval.
+
+
+
+
 Luke said the platform retention schedule itself may change and that this would be brought back to AIRCC. That means the dependency sits with the platform / control-side policy decision, not with Dan’s Pia team.
 
 
