@@ -1,3 +1,9 @@
+Then I’d keep it simple:
+
+* MRM-developed benchmark demonstrated comparable decision quality with 71% lower inference cost and 43% lower runtime; six medium-severity findings were raised covering agent complexity, prompt clarity, execution efficiency, large-input handling, performance evaluation, and UAT stability.
+
+
+
 Agreed. I’d make the second bullet more natural and focus on the actual validation conclusion rather than forcing the Funds Oversight structure.
 
 * MRM approved Controllers Data Reconciliation (Controllers, Tier 2), an agentic AI developed with Anthropic to automate complex transaction matching not handled by deterministic rules within the Harmony reconciliation platform.
