@@ -1,3 +1,28 @@
+I’d revise the sections as follows to address Caroline’s comments while keeping them CRO-friendly.
+
+AI Risk and Controls Council (AIRCC)
+
+AIRCC approved:
+
+* Pia 2.0 (AWM, Tier 2), expanding the Pia platform across AWM and migrating existing AI use cases to an AWS-based agentic platform with additional capabilities.
+    * This is more precise than simply saying “adding cloud-based agentic capabilities,” because AIRCC approved both the broader user scope and the functionality/platform changes.
+* AWS DevOps Agent (Engineering, AI Platform), an agentic AI use case that assists engineers with production incident investigation by identifying likely root causes and recommending mitigations.
+* Initial rollout of Codex CLI (Engineering, AI Platform), an OpenAI-based coding assistant, for up to 500 engineers using the same controlled development environment and governance framework as Claude Code.
+* Claude Code on Windows Subsystem for Linux (WSL2) within NDS.Next (Engineering, AI Platform), extending the existing approved Claude Code capability to the firm’s managed Linux desktop environment.
+    * The expansion enables use of Linux-native development tools while retaining similar controls, including sandboxing, restricted connectivity and repositories, and standard NDS.Next endpoint controls.
+
+Model Validation Activities
+
+* MRM approved Controllers Data Reconciliation (Controllers, Tier 2), an agentic AI developed with Anthropic to automate complex transaction matching not handled by deterministic rules within the Harmony reconciliation platform.
+* In response to MRM feedback, enhancements were made to clarify agent instructions, strengthen the performance evaluation framework, and improve UAT stability prior to approval.
+* MRM analysis indicates 99.6% match precision and 95% match recall, above the established thresholds of 90% and 80%, respectively.
+* MRM-developed benchmark demonstrated comparable decision quality with lower cost and runtime, identifying optimization opportunities and medium-severity findings related to model efficiency, design, and performance evaluation.
+
+For the Controllers comment, I would not characterize the initial submission as broadly poor quality based on the information we have. But there is clear evidence that MRM’s validation drove meaningful improvements before approval: prompt ambiguity was fixed, the evaluation framework was strengthened, and UAT infrastructure issues were stabilized. This wording makes that progression visible without overstating it.
+
+
+
+
 Then I’d keep it simple:
 
 * MRM-developed benchmark demonstrated comparable decision quality with 71% lower inference cost and 43% lower runtime; six medium-severity findings were raised covering agent complexity, prompt clarity, execution efficiency, large-input handling, performance evaluation, and UAT stability.
