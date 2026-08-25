@@ -1,3 +1,12 @@
+AIRCC
+
+* AIRCC approved Pia 2.0 (AWM, Tier 2), expanding the AWM AI platform across Public Investing and Client Solutions Group and adding cloud-based capabilities including sandboxed code execution, long-term memory, scheduled tasks, visual canvases, and Excel/PowerPoint integrations.
+* AIRCC approved a pilot of Codex CLI (Engineering, AI Platform), an OpenAI-based coding assistant for up to 500 engineers, using the same controlled development environment and governance framework as Claude Code.
+* AIRCC approved AWS DevOps Agent (Engineering, AI Platform), a read-only agentic AI capability that assists engineers with production incident investigation by analyzing AWS logs and metrics, identifying likely root causes, and recommending mitigations.
+    * Pre-go-live conditions include confirming the eligible production-account population and completing alignment with the firmwide agentic AI evaluation framework once finalized.
+* AIRCC approved Claude Code on Windows Subsystem for Linux (WSL2) within NDS.Next (Engineering, AI Platform), extending the existing approved Claude Code capability to the firm’s managed Linux desktop environment without changing the underlying model, connectivity, logging, or governance controls.
+
+
 [1] AWS DevOps Agent – Approval
 
 Presenters: Amy Harms, Mitch Sandlin
