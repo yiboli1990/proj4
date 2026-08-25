@@ -1,3 +1,6 @@
+* Pia 2.0 (AWM, Tier 2), approving expansion of Pia, AWM’s AI platform for investment research and client servicing, to global AWM users and migration of existing use cases to the new AWS-based agentic platform.
+
+
 I’d revise the sections as follows to address Caroline’s comments while keeping them CRO-friendly.
 
 AI Risk and Controls Council (AIRCC)
