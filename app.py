@@ -1,3 +1,8 @@
+I’d make the CRO update concise and emphasize the control framework and performance conclusion:
+
+* MRM approved GBM Client Query Management (GBM Public, Tier 3), a multi-agent AI model that supports GBM Client Services and Operations by researching client inquiries and drafting responses for mandatory human review before sending.
+* MRM concluded the model is conceptually sound, supported by read-only data access, confidence-based routing, and required human attestation before any client response is sent.
+* MRM testing confirmed strong performance, with 92% of reviewed draft responses suitable for client use versus an 80% threshold; two prior findings were closed during validation.
 * Pia 2.0 (AWM, Tier 2), approving expansion of Pia, AWM’s AI platform for investment research and client servicing, to global AWM users and migration of existing use cases to the new AWS-based agentic platform.
 
 
