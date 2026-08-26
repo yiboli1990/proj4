@@ -1,3 +1,24 @@
+I’d revise both sections this way:
+
+Controllers Data Reconciliation
+
+* MRM approved Controllers Data Reconciliation (Controllers, Tier 2), an agentic AI model developed with Anthropic to automate complex transaction matching not handled by deterministic rules within the Harmony reconciliation platform.
+* In response to MRM feedback, the modeling team strengthened the independent testing environment and resolved prompt and infrastructure issues identified through end-to-end testing.
+* MRM analysis indicates 99.6% match precision and 95% match recall, above the established thresholds of 90% and 80%, respectively.
+* MRM-developed benchmark demonstrated comparable decision quality with lower cost and runtime; further enhancements to model efficiency, design, and performance evaluation are tracked through medium-severity findings.
+
+GBM Client Query Management
+
+* MRM approved GBM Client Query Management (GBM Public, Tier 3), a multi-agent AI model used by GBM Operations post-trade processing teams to draft responses to client queries, with human review required in the current rollout.
+* Future removal of the human-in-the-loop would require additional MRM and AIRCC approval.
+* MRM analysis shows 92% of draft responses are suitable for client use versus an 80% threshold; two medium-severity findings related to third-party inquiries and documentation were remediated prior to approval.
+
+For GBM, if you want even fewer bullets, I’d combine the first two:
+
+* MRM approved GBM Client Query Management (GBM Public, Tier 3), a multi-agent AI model used by GBM Operations post-trade processing teams to draft responses to client queries, with human review required in the current rollout and any future removal of the human-in-the-loop subject to additional MRM and AIRCC approval.
+
+
+
 Yes, that is more precise:
 
 * In response to MRM feedback, enhancements were made to the independent testing environment through iterative end-to-end testing and joint troubleshooting with the modeling team, improving agent-prompt stability and infrastructure resilience ahead of production.
