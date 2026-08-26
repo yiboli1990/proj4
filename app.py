@@ -1,3 +1,8 @@
+* MRM approved GBM Client Query Management (GBM Public, Tier 3), a multi-agent AI model that supports GBM Client Services and Operations by researching client inquiries and drafting responses.
+* The model operates with human-in-the-loop controls, including mandatory human review and attestation before any client response is sent, alongside read-only data access and confidence-based routing.
+* MRM testing confirmed strong performance, with 92% of reviewed draft responses suitable for client use versus an 80% threshold; two prior findings were closed during validation.
+
+
 I’d make the CRO update concise and emphasize the control framework and performance conclusion:
 
 * MRM approved GBM Client Query Management (GBM Public, Tier 3), a multi-agent AI model that supports GBM Client Services and Operations by researching client inquiries and drafting responses for mandatory human review before sending.
