@@ -1,4 +1,8 @@
-    To address MRM feedback, the modeling team strengthened the independent testing environment through end-to-end testing and improved prompt stability and infrastructure resilience through joint troubleshooting.
+Not a typo — “allow-listed” means the connectivity must be explicitly approved before it can be enabled. I can reword it to “explicitly approved” for clarity.
+
+
+
+To address MRM feedback, the modeling team strengthened the independent testing environment through end-to-end testing and improved prompt stability and infrastructure resilience through joint troubleshooting.
 
 
 
