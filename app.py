@@ -1,3 +1,9 @@
+You can reply:
+
+It’s a technical term, not a typo. “Allow-listed” means specifically approved or permitted. This came directly from the meeting discussion — Michael Schlee asked how additional AWS connectivity is approved, and Karthik/Tech Risk explained that there is an “allow list” and any new connectivity must go through Tech Risk review before it can be enabled.
+
+
+
 Not a typo — “allow-listed” means the connectivity must be explicitly approved before it can be enabled. I can reword it to “explicitly approved” for clarity.
 
 
