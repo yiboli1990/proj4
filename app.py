@@ -1,3 +1,11 @@
+    Submitted the firm’s response to the RBI information request on model inventory and governance for GIL, the India Primary Dealer, following the regulator’s June draft guidance on model risk management.
+* MRM responded to ~20 questions covering model inventory, waivers, validation timeliness, and deployment of material models/model changes without prior validation or Risk Committee approval; no technical methodology questions were raised
+
+
+
+
+
+
 You can reply:
 
 It’s a technical term, not a typo. “Allow-listed” means specifically approved or permitted. This came directly from the meeting discussion — Michael Schlee asked how additional AWS connectivity is approved, and Karthik/Tech Risk explained that there is an “allow list” and any new connectivity must go through Tech Risk review before it can be enabled.
