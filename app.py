@@ -1,3 +1,11 @@
+The data being reconciled includes:
+
+* Sub-ledger vs. master securities/cash ledgers
+* GS books vs. external clearing houses/custodians
+* GS books vs. GS affiliate books
+* At a more granular level, positions and underlying transactions, with breaks generated when the records do not reconcile.
+
+
 Yes. Based on the transcript, there are several concrete updates for both the GBM Strats update and the CRO update, plus a few follow-ups that need to be completed before the materials are finalized.
 
 1. GBM Strats Update
