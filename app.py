@@ -1,3 +1,14 @@
+Based strictly on what was discussed in the transcript, I’d keep the RBI section concise but leave placeholders for the details Bill asked to confirm:
+
+Reserve Bank of India (RBI) – Model Risk Management Guidance
+
+* RBI recently issued new Model Risk Management guidance and subsequently requested information from the firm on its model inventory and related practices; the public comment period has now closed.
+* GS provided feedback on the guidance [confirm whether directly or through an industry forum/consortium and key points raised].
+* The information request covered approximately 40–50 capital models [confirm] associated with the India entity. MRM is confirming the broader applicability of the guidance, including whether pricing or other models may also be in scope.
+* MRM is also assessing the nature and expected growth of the India business to understand the potential future impact of the RBI requirements, including the extent to which current activity supports offshore business versus direct client-facing activity in India.
+
+
+
 The data being reconciled includes:
 
 * Sub-ledger vs. master securities/cash ledgers
