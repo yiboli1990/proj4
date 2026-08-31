@@ -1,4 +1,199 @@
-    Submitted the firm’s response to the RBI information request on model inventory and governance for GIL, the India Primary Dealer, following the regulator’s June draft guidance on model risk management.
+Yes. Based on the transcript, there are several concrete updates for both the GBM Strats update and the CRO update, plus a few follow-ups that need to be completed before the materials are finalized.
+
+1. GBM Strats Update
+
+AI / Agentic AI section
+
+This section needs the most restructuring.
+
+* Add more detail on the proposed AI policy/standard changes. Rather than keeping a generic standards update, frame this as a discussion of the upcoming policy changes that are still pending approval.
+* For SR 26-2, start socializing the proposed changes with partners. The key message for GBM Public is that fundamentally, not much changes:
+    * Trading models remain subject to essentially the existing framework.
+    * There may be changes to how certain revalidations are implemented, but this is more of an MRM implementation change than a policy change.
+    * There may also be some changes around QAs, although this is less significant for GBM.
+    * CCAR may see some impact, but it does not sound like a major change for GBM Public.
+* Split the GenAI/Agentic AI inventory from recent activity.
+    * At the top of the AI section, add a simple table showing the current outstanding inventory by numbers.
+    * Separately list newly declared GBM GenAI/Agentic AI use cases and recent approvals.
+    * This avoids having one increasingly long list.
+* For recent AI approvals outside GBM, shorten substantially and generally remove the sub-bullets.
+    * Only retain detail where the use case clearly supports GBM Public.
+    * For Controllers use cases, indicate which division/business they support.
+    * Confirm whether Complex Transaction Matching / Data Reconciliation supports GBM Public or GBM Private. If Private, likely drop it.
+    * Funds Oversight appears more AWM-related and can likely be dropped/shortened.
+* AWS DevOps Agent: confirm with Bo whether it should be classified as a model and therefore require validation. There are apparently several AI use cases whose classification may need to be revisited. This should be raised at the Wednesday AI meeting.
+
+AWM approvals
+
+There are 5 approvals currently and another 2 expected tomorrow, but these should be clearly segregated as AWM rather than GBM. Bill may still want to mention them because of the broader question around why different parts of the firm may have different approaches/views.
+
+CCAR / modeling enhancement
+
+The modeling enhancement itself has already been approved and was included in the prior CRO update, so don’t simply repeat the old approval bullet.
+
+Instead, the potential partner discussion is the remaining difference between the CCAR/GFC scenario results and sensitivities:
+
+* Saad’s view appears to be that further modeling refinement could potentially bring the results into better alignment.
+* MRM’s position is that the GFC scenario remains sufficiently conservative, and there is no current basis to conclude that prior GFC submissions were underestimated or need to be restated.
+* The residual difference may partly reflect comparing two scenario outputs that each contain their own conservatism, meaning the difference itself does not necessarily provide a clean sensitivity measure.
+* There does not appear to be much incentive from Controllers or GBM Public to do additional modeling work, so the issue may effectively be closed for now despite the theoretical inconsistency.
+
+This sounds more like a partner discussion topic than a detailed formal Strats bullet.
+
+CCR
+
+* RV+: get the latest update from Andresa/Alexis and include as appropriate.
+* Fed situational awareness: obtain a few bullets from Andresa on the Fed’s current work/review around situational awareness.
+    * Bill said this does not necessarily need to go into the formal materials.
+    * He does want the information for his own partner discussions, particularly when Frickley is involved.
+
+Electronic trading notification process
+
+The prior update said GBM Public implemented a notification process for electronic trading activity/business for GSB.
+
+Need to clarify:
+
+* Is this only for GSB, or is there/global expansion planned?
+* Bill remains concerned that the process is manual, particularly given prior examples where MRM was not properly notified of model changes or ETSC was not notified of control changes.
+* He may discuss this separately with Jamie or David.
+
+⸻
+
+2. CRO Update
+
+IRB uplift — main update this week
+
+The overall message should be that the program is broadly on track and approaching completion.
+
+Super Large Corporate IRB
+
+Expected to be approved today/tomorrow, subject to resolving one remaining question:
+
+* Confirm treatment of the $3bn threshold — specifically whether the cutoff is based on a one-year or three-year average.
+* Determine whether this is merely a reporting change or an actual model change.
+* If it is only reporting, approval should proceed.
+
+Once approved, update the CRO bullet to reflect completion.
+
+Overall IRB uplift status
+
+By September 4, essentially all core validation work should be complete, with only submission/documentation activities continuing.
+
+Remaining items include:
+
+* Super Large Corporate approval.
+* Rule compliance, due September 4 and currently on track.
+* Finalization of ValDocs.
+* Closure/documentation of remaining findings.
+* Submission materials targeted to be finalized around September 11.
+* PRA pre-submission meeting is around September 14.
+* RCC final approval/checkpoint appears to be around September 18–19.
+
+A specific follow-up is needed on ValDocs. Bill wants to make sure MRM’s own deliverables do not become the bottleneck. ValDocs for the July 31 models should already be substantially complete; Super Large Corporate can follow shortly after approval.
+
+Findings remediation
+
+The message is positive:
+
+* Remediation plans exist for the outstanding findings.
+* A few remediation submissions from junior Strats staff were inconsistent with what had previously been agreed and were rejected.
+* Strats is prioritizing corrected submissions.
+* There do not appear to be any fundamental disagreements or major obstacles to closing the findings.
+
+RCC / PRA submission
+
+Worth noting internally:
+
+* RCC co-chairs approved the PRA pre-submission meeting deck last Friday.
+* RCC acts primarily as a final go/no-go governance checkpoint for the overall submission rather than providing oversight of MRM’s model validation or validation-document quality.
+
+⸻
+
+ICR Phase 2 uplift
+
+Private Equity / ASL ICR
+
+Expected approval this week.
+
+The Private Equity model deserves a little more context because of its limitations:
+
+* Model was developed using a very limited dataset (~200 observations) because of scarce default/performance data.
+* The existing methodology being replaced is also not viewed as particularly robust.
+* MRM intends to approve the model for its intended ICR use, while clearly documenting the limitations/findings.
+* Credit Risk understands that it can override ICR outputs where appropriate.
+* The intention is to collect approximately six months of additional data, which can support future recalibration/model enhancement.
+
+So once approved, I would not write simply “Private Equity ICR approved.” Mention that it was approved with limitations/findings reflecting limited available data and with further recalibration expected as additional data becomes available.
+
+ASL Infrastructure & Project Finance
+
+This has been approved.
+
+Also mention that two high-severity findings were remediated during the validation process, if that is significant enough for the CRO audience.
+
+⸻
+
+RBI regulatory update
+
+The existing RBI bullet needs more substance, because Bill remembered this from FRAC and specifically asked for additional context.
+
+Need to confirm:
+
+* Whether GS provided feedback directly to RBI or through an industry group/consortium.
+* What the main feedback/comments were.
+* The approximate impacted model inventory. The discussion suggested ~40–50 capital models, but this needs confirmation.
+* Whether the scope is limited primarily to capital models or could extend to pricing/other models.
+* Briefly describe the nature of the India business affected by the guidance.
+* Clarify whether current activity is predominantly supporting/hedging offshore business versus direct client-facing activity in India.
+* Obtain any available forward-looking business plan/timeline for India expansion, since that indicates how GS’s exposure to RBI model-risk requirements may grow.
+
+This sounds like a potentially meaningful regulatory bullet once those details are obtained.
+
+⸻
+
+3. CRO Priorities
+
+September priorities
+
+The existing three priority boxes can generally remain, but:
+
+Remove the IRB uplift as a September priority because the core validation work should be completed this week.
+
+Keep/add:
+
+* Proposed enhancements to AI policies and standards, including changes related to SR 26-2.
+
+August accomplishments
+
+The transcript suggests highlighting:
+
+* IRB uplift: completion of the model validations / Super Large Corporate approval, assuming approval occurs this week.
+* AI standards: revisions/enhancements to the AI standard.
+* CCAR/modeling enhancement that was approved.
+* ASL Infrastructure & Project Finance ICR approval.
+* Potentially the broader ICR uplift progress if Private Equity/ASL approvals are completed this week.
+
+⸻
+
+Key follow-ups before you update the materials
+
+1. Bo: confirm model classification/validation requirements for AWS DevOps Agent and the other questionable AI use cases; raise at Wednesday’s AI meeting.
+2. AI use cases: confirm which Controllers/other-division use cases actually support GBM Public; specifically check Complex Transaction Matching/Data Reconciliation.
+3. Andresa/Alexis: get RV+ status.
+4. Andresa: obtain Fed situational-awareness bullets for Bill’s partner discussions.
+5. Super Large Corporate: confirm approval and resolve whether the $3bn one-year vs. three-year treatment is only reporting or represents a model change.
+6. ValDocs: confirm completion dates, particularly for the July 31 models and Super Large Corporate.
+7. Private Equity / ASL ICR: confirm final approvals this week.
+8. RBI: confirm GS/industry feedback, affected inventory, nature of India business, and expected future expansion.
+9. Electronic trading notification: clarify whether the GSB process is GSB-only or intended to expand globally.
+
+The biggest CRO story this week is that the IRB uplift is effectively reaching completion and remains on track, while the biggest new Strats discussion topic is the proposed SR 26-2/AI policy changes and what they actually mean for GBM Public.
+
+
+
+
+
+Submitted the firm’s response to the RBI information request on model inventory and governance for GIL, the India Primary Dealer, following the regulator’s June draft guidance on model risk management.
 * MRM responded to ~20 questions covering model inventory, waivers, validation timeliness, and deployment of material models/model changes without prior validation or Risk Committee approval; no technical methodology questions were raised
 
 
