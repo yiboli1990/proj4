@@ -1,4 +1,77 @@
-    AIRCC approved a controlled production pilot of M365 Copilot CoWork for 50 named users, an agentic capability that executes multi-step tasks across the M365 ecosystem, with human approval required for sensitive actions.
+Yes. Your manager’s notes clarify a few points that I would change from our first draft—particularly the M365 pre-go-live conditions and consolidation of the post-pilot follow-up. I would also tighten the Key Discussion Points so they reflect the questions the Council actually spent time on.
+
+Here is the revised version.
+
+Firmwide AI Risk and Controls Council
+
+September 1, 2026
+
+[1] M365 Copilot CoWork – Approval
+
+Presenters: Raza Syed, Ben Ryan, Kristina Stoli
+
+Decision:
+AIRCC approved a six-week production pilot of M365 Copilot CoWork for 50 named users. Any broader rollout will return to AIRCC for separate approval.
+
+Pre-go-live Conditions:
+
+1. Review pilot-user communications and training materials with GPO prior to launch to confirm applicable requirements are appropriately communicated. (Owner: Kristina Stoli; Control-side Contact: [GPO/Privacy Compliance contact])
+2. Vet the 50 nominated pilot users with the relevant control-side teams prior to onboarding. (Owner: Kristina Stoli; Control-side Contact: [TBD])
+
+Other Follow-ups:
+
+1. Connect with Scott Kirk and Jennifer Partic regarding email DLP controls to determine whether any additional actions are needed and incorporate relevant learnings into the pilot. (Owner: Ben Ryan; Control-side Contact: Timo Skytta)
+2. Return to AIRCC following the pilot with key learnings and performance metrics, including comparison with Claude Cowork and assessment of whether more robust controls are needed for externally generated/sent emails. (Owner: Ben Ryan; Control-side Contact: Luke Taylor)
+
+Key Discussion Points:
+
+* Pilot access will be entitlement-based and limited to 50 named users across control functions and AWM, GBM and GIR. The cohort will be selected to facilitate comparison with Claude Cowork, including overlapping users or comparable workflows where appropriate.
+* Council discussed the incremental risk from combining multiple tasks into a single agentic workflow. Sensitive actions, including sending emails and changing shared-file permissions, require explicit user approval; file deletion is not supported, and existing M365 DLP and Exchange controls operate independently and cannot be overridden by CoWork.
+* Council focused on the effectiveness of human-in-the-loop controls, particularly where increased automation may make it easier for users to approve actions without sufficient review. Users must enter the relevant task and review the proposed action before execution; recurring tasks do not confer advance approval for subsequent sensitive actions.
+* External communications were identified as a key risk for the pilot. While CoWork cannot bypass existing email/DLP controls, the pilot will specifically assess whether the streamlined workflow creates a need for additional controls before broader deployment.
+* CoWork remains within the M365 enterprise environment and cannot access local desktop content, external systems or plugins; agent-to-agent communication is not supported. This differs materially from Claude Cowork, which operates in the desktop context, and the pilot will support a broader comparison of available Cowork solutions.
+* Skills are currently user-specific. Microsoft is developing organization-wide skills; if introduced, the associated controls and enablement would be subject to separate review.
+
+[2] Tech Risk Agentic Models – Approval
+
+Presenters: Timo Skytta, Navaneeth B.R.
+
+Decision:
+AIRCC approved the Tech Risk agentic AI use cases presented, including the security scanning and vulnerability triage/remediation capabilities.
+
+Pre-go-live Conditions:
+Complete all required Tech Risk reviews and ensure any identified findings are in a managed state prior to production deployment. (Owner: Navaneeth B.R.; Control-side Contact: Tiffany Phillips)
+
+Other Follow-ups:
+
+1. Expedite formal Architecture Risk Review (ARR) and Operational Readiness Review (ORR) for the applicable agentic AI harnesses; these reviews are not blockers to the approved rollout. (Owner: Navaneeth B.R.; Control-side Contact: Rahul Sharma)
+2. Connect with Evan regarding existing reporting on AWM applications/assets and authenticated scanning coverage. (Owner: Navaneeth B.R.; Control-side Contact: Evan)
+3. Provide Rahul with a mapping of the harness controls to the applicable Tech Risk agentic AI control framework. (Owner: Navaneeth B.R.; Control-side Contact: Rahul Sharma)
+
+Key Discussion Points:
+
+* Council discussed the need for layered controls beyond model instructions. Scanners operate in default-deny environments, with deterministic code-level restrictions limiting accessible domains and destructive actions; network-level controls provide an additional layer of protection.
+* Scans operate within explicitly defined scope and are initiated through controlled triggers rather than unrestricted autonomous execution. Hard limits on model turns and budget provide additional protection against runaway scans, with usage monitored through analytics.
+* Application-team cooperation is required for authenticated scanning, rather than discretionary approval of whether an asset should be scanned. Tech Risk tracks onboarding of internet-facing assets and provides reporting on scanning coverage.
+* Human oversight is maintained throughout the process: scan results are reviewed by Tech Risk before delivery to application teams, while AI-generated remediation is validated by rescanning before being passed to the existing SDLC process.
+* Kill switches are currently manual and accessible to authorized Tech Risk personnel. The team is developing 24/7 AppBank support with a five-minute response SLA and the ability to terminate individual scans; further automation of kill-switch activation may be considered.
+* The harnesses use Anthropic and OpenAI models depending on the scanner, with certain scanners designed to be model-agnostic and multiple models used to reduce model-specific blind spots. Council emphasized that these internally developed AI tools remain subject to the same Tech Risk requirements as other applications.
+* Council emphasized operational readiness and output quality given the potential noise from security scanners. Katana is intended to improve signal-to-noise through AI-assisted triage, with continued tuning and effectiveness monitoring required as the capabilities mature.
+
+[3] Administrative Items
+
+* Banker Copilot: Studio Follow-up: Telemetry on the number of prompts used to generate a first draft was posted in response to the prior AIRCC follow-up.
+
+A couple of judgment calls I made here are important. For Tech Risk, I restored the materials-based requirement that mandatory Tech Risk reviews be completed and findings be managed as the actual pre-go-live condition. I kept ARR/ORR separately as a non-blocking follow-up, because the later Council discussion explicitly landed there.
+
+For M365, I would not create a separate follow-up just for performance metrics. Your manager’s notes say Compliance characterized that as post-go-live, and Caroline’s wrap-up grouped the substantive outcome around coming back after the pilot. Incorporating the metrics into the return-to-AIRCC follow-up is cleaner and avoids duplication.
+
+I also would not guess the two missing M365 control-side contacts. Your manager intentionally left those blank, and the transcript doesn’t give us enough certainty to assign them. The owner being Kristina is reasonable because she described how the onboarding/vetting would be handled, but we should confirm the control contacts rather than infer them from the agenda.
+
+
+
+
+AIRCC approved a controlled production pilot of M365 Copilot CoWork for 50 named users, an agentic capability that executes multi-step tasks across the M365 ecosystem, with human approval required for sensitive actions.
 * AIRCC approved Tech Risk’s agentic AI cybersecurity models, which use frontier LLMs to scan source code and applications for vulnerabilities and support vulnerability triage and remediation, with deterministic guardrails, human oversight and kill-switch controls.
 
 
