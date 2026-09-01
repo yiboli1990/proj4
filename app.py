@@ -1,3 +1,20 @@
+Both came from the live transcript, but I’d clarify the wording with your manager because the second one could be clearer.
+
+For “changing shared-file permissions”, you can respond:
+
+Yes, this was mentioned in the discussion, not just the materials. Kristina explained that sensitive actions requiring human approval include “changing edit rights on a file” and also referenced “changing permissions of a file.” I summarized that as “changing shared-file permissions.” Happy to change it to “changing file permissions” to stay closer to the transcript.
+
+I think “changing file permissions” is cleaner and more directly supported.
+
+For “M365 DLP and Exchange controls”, you can respond:
+
+“Exchange controls” refers to the existing email-layer controls that apply when an email is sent through Microsoft Exchange. During the discussion, the team clarified that these controls operate separately from CoWork and cannot be overridden by it—for example, an email containing content restricted from external distribution would still be blocked. I can revise this to “existing M365 DLP and email controls” for clarity.
+
+I would make that change. “Exchange controls” is technically based on the transcript, but “email controls” is much easier for the minutes reader to understand and avoids introducing terminology that wasn’t in the materials.
+
+
+
+
 Yes. Your manager’s notes clarify a few points that I would change from our first draft—particularly the M365 pre-go-live conditions and consolidation of the post-pilot follow-up. I would also tighten the Key Discussion Points so they reflect the questions the Council actually spent time on.
 
 Here is the revised version.
