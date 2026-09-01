@@ -1,3 +1,74 @@
+I reviewed the agenda, materials, full transcript, and your notes carefully. I also applied the prior AIRCC approach: Decision first; only Caroline-confirmed conditions/follow-ups; Key Discussion Points focused on what the live discussion added rather than repeating the deck.
+
+Firmwide AI Risk and Controls Council
+
+September 1, 2026
+
+[1] M365 Copilot CoWork – Approval
+
+Presenters: Raza Syed, Ben Ryan, Kristina Stoli
+
+Decision:
+AIRCC approved a six-week production pilot of M365 Copilot CoWork for 50 named users. Any broader rollout will return to AIRCC for separate approval.
+
+Pre-go-live Conditions:
+
+1. Complete applicable Legal & Compliance pre-go-live requirements, including review of pilot-user onboarding communications and training materials.
+
+Other Follow-ups:
+
+1. Return to AIRCC following the pilot with key learnings, including a comparison of M365 Copilot CoWork with Claude Cowork.
+2. Connect with Scott Kirk and Jennifer Partic regarding email DLP controls and learnings from the pilot.
+3. As part of the pilot, explicitly assess whether additional controls are needed for externally generated/sent emails.
+
+Key Discussion Points:
+
+* Pilot access will be entitlement-based and restricted to 50 named users across control functions and AWM, GBM and GIR; participant selection will seek overlap with Claude Cowork users or comparable workflows to enable meaningful comparison between the tools.
+* Council focused on the incremental risk from CoWork combining multiple steps into a single agentic workflow. Sensitive actions, including sending emails and changing shared-file permissions, require explicit user approval; file deletion is not supported, and existing M365 DLP and Exchange controls continue to apply independently.
+* Council discussed the effectiveness of human-in-the-loop controls, particularly the risk that increased automation could reduce the degree of user review. Users must enter the relevant task and review the proposed action before approval, rather than providing blanket approval for subsequent actions or recurring tasks.
+* External communications were identified as a key area for pilot testing. CoWork cannot override existing email/DLP restrictions or access systems outside the M365 environment, but the pilot will assess whether the streamlined workflow warrants additional controls before broader deployment.
+* CoWork operates entirely within the M365 tenant and does not gain access to local desktop content even when accessed through the Copilot desktop application. Agent-to-agent communication and external systems/plugins are not supported under the pilot.
+* User-created skills are currently personal to the individual user; future organization-wide skills would introduce additional control considerations and would be subject to separate review.
+
+⸻
+
+[2] Tech Risk Agentic Models – Approval
+
+Presenters: Timo Skytta, Navaneeth B.R.
+
+Decision:
+AIRCC approved the Tech Risk agentic AI use cases, including the security scanning and vulnerability triage/remediation capabilities presented.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+
+1. Complete formal Architecture Risk Review (ARR) and Operational Readiness Review (ORR) for the applicable agentic AI harnesses.
+2. Connect with Evan regarding reporting of AWM applications/assets not yet onboarded for authenticated scanning.
+3. Map the agentic AI harness controls to the applicable Tech Risk agentic control framework.
+
+Key Discussion Points:
+
+* Council discussed the need for layered controls given the offensive capabilities of frontier models. Scanners operate in sandboxed, default-deny environments, with deterministic code-level restrictions limiting accessible domains and preventing destructive actions; additional network-level controls are also being considered.
+* Scanning is bounded to defined assets and initiated through controlled triggers rather than unrestricted autonomous execution. Application teams provide credentials for authenticated scanning, while governance tracks onboarding of internet-facing assets to ensure coverage is not dependent on discretionary application-owner approval.
+* Human oversight is retained across the workflow: Tech Risk analysts review scan results before they are delivered to application teams, and AI-generated remediation is validated by rescanning to confirm that the identified vulnerability is addressed without introducing new vulnerabilities before being passed to the existing SDLC process.
+* Kill switches are currently manual and available to authorized Tech Risk personnel. The team is developing 24/7 operational support with the ability to terminate individual scans, while potential future integration with GCDI could enable automated termination under defined conditions.
+* The harnesses use Anthropic and OpenAI models depending on the scanner, with certain capabilities designed to be model-agnostic. Multiple models may be used to reduce model-specific blind spots and improve vulnerability detection.
+* Council emphasized that these internally developed AI security tools remain subject to the same Tech Risk requirements as other applications. Given their potential to serve as foundational cybersecurity tooling, formal architecture/operational review and mapping to the broader agentic control framework were requested.
+
+[3] Administrative Items
+
+* Banker Copilot: Studio Follow-up: Telemetry on the number of prompts used to generate a first draft was posted in response to the prior AIRCC follow-up.
+
+One nuance I handled deliberately
+
+For Tech Risk ARR/ORR, Caroline initially recorded it as a pre-go-live condition, but the subsequent Council discussion specifically challenged whether it should be a blocker. Rahul ultimately said he did not want it to be a blocker, although ARR/ORR should still be completed. I therefore put it under Other Follow-ups, not Pre-go-live Conditions. That reflects the final discussion rather than Caroline’s initial characterization.
+
+For M365 CoWork, I likewise did not turn every control described in the materials into a condition. I only captured the items Caroline summarized at the end plus the additional external-email testing item Luke explicitly requested afterward.
+
+
+
 Based strictly on what was discussed in the transcript, I’d keep the RBI section concise but leave placeholders for the details Bill asked to confirm:
 
 Reserve Bank of India (RBI) – Model Risk Management Guidance
