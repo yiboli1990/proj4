@@ -1,3 +1,7 @@
+    AIRCC approved a controlled production pilot of M365 Copilot CoWork for 50 named users, an agentic capability that executes multi-step tasks across the M365 ecosystem, with human approval required for sensitive actions.
+* AIRCC approved Tech Risk’s agentic AI cybersecurity models, which use frontier LLMs to scan source code and applications for vulnerabilities and support vulnerability triage and remediation, with deterministic guardrails, human oversight and kill-switch controls.
+
+
 I reviewed the agenda, materials, full transcript, and your notes carefully. I also applied the prior AIRCC approach: Decision first; only Caroline-confirmed conditions/follow-ups; Key Discussion Points focused on what the live discussion added rather than repeating the deck.
 
 Firmwide AI Risk and Controls Council
