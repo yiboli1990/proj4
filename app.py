@@ -1,3 +1,6 @@
+    Credit Risk may override model outputs where appropriate, with additional data to be collected over the next six months to support future recalibration.
+
+
 Yes — this is cleaner and more business-focused:
 
 ICR Phase II Uplift
