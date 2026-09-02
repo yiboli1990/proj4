@@ -1,3 +1,15 @@
+Yes — this is cleaner and more business-focused:
+
+ICR Phase II Uplift
+
+* MRM approved the Private Funds and ASL ICR models, used to assign ICRs to private fund counterparties across Private Equity, Private Credit, Infrastructure and Real Estate strategies, and counterparties across the ASL portfolio.
+* Three Severity 1 findings were remediated prior to approval, including Private Funds findings related to missing-data treatment and development data quality, and an ASL finding related to a code defect in risk-factor aggregation.
+* Both models were developed using limited data given the low-default nature of the portfolios; validation identified some calibration instability and sensitivity to data quality and sample size.
+* MRM raised Severity 2 findings requiring strategic data collection and future model recalibration once sufficient data is available; in the interim, model users are encouraged to apply expert judgment and override model outputs where appropriate.
+
+
+
+
 Both came from the live transcript, but I’d clarify the wording with your manager because the second one could be clearer.
 
 For “changing shared-file permissions”, you can respond:
