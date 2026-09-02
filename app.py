@@ -1,4 +1,7 @@
-    Credit Risk may override model outputs where appropriate, with additional data to be collected over the next six months to support future recalibration.
+    Remediation of medium-severity findings required for closure ahead of the PRA submission is in progress and on track, covering methodology, PD calibration, key assumptions, testing, implementation and ongoing monitoring.
+
+
+Credit Risk may override model outputs where appropriate, with additional data to be collected over the next six months to support future recalibration.
 
 
 Yes — this is cleaner and more business-focused:
