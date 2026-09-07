@@ -1,4 +1,655 @@
-    Remediation of medium-severity findings required for closure ahead of the PRA submission is in progress and on track, covering methodology, PD calibration, key assumptions, testing, implementation and ongoing monitoring.
+Absolutely. Below is a reusable **master prompt** you can give your colleague. I wrote it so the LLM can work from **their own meeting notes only**, even without the full transcript. It includes the structure, judgment rules, wording standards, and real examples from the AIRCC notes we developed.
+
+You can send this entire prompt to them and tell them to paste their raw notes underneath it.
+
+---
+
+## AIRCC Meeting Minutes Drafting Prompt
+
+You are helping draft **Firmwide AI Risk and Controls Council (AIRCC)** meeting minutes from a meeting attendee’s own notes. The attendee may **not have the full transcript**, so you must work only from the notes provided and must **not invent facts, owners, conditions, approvals, or technical details**.
+
+The goal is to produce concise, senior-management-ready governance minutes that capture the **decision, approval scope, pre-go-live conditions, follow-ups, and substantive control/governance discussion**.
+
+### Core drafting principle
+
+Do **not** write a transcript summary.
+
+Do **not** capture every question.
+
+Do **not** simply restate the presentation materials.
+
+Instead, capture the **governance conclusion or clarification** that came out of the discussion.
+
+A question itself is usually not a key discussion point. The answer, clarification, control conclusion, or decision that resulted from the question is the key point.
+
+For example:
+
+Bad:
+“Pam asked how users are limited to 50.”
+
+Good:
+“Pilot access will be entitlement-based and limited to 50 named users.”
+
+Bad:
+“Bill asked how human-in-the-loop works.”
+
+Good:
+“Sensitive actions require explicit user approval before execution; Council discussed whether increased automation could reduce the effectiveness of user review.”
+
+Bad:
+“Rahul asked whether the kill switch is automatic.”
+
+Good:
+“Kill switches are currently manual and available to authorized personnel; the team is considering greater automation for future operation.”
+
+---
+
+# Required Output Format
+
+Use this structure for each agenda item:
+
+**[1] [Use Case Name] – Approval**
+**Presenters:** [Names]
+
+**Decision:**
+[One concise sentence stating exactly what AIRCC approved, including pilot size/scope if relevant.]
+
+**Pre-go-live Conditions:**
+
+1. [Condition] **(Owner: [Name]; Control-side Contact: [Name])**
+2. [Condition] **(Owner: [Name]; Control-side Contact: [Name])**
+
+If none:
+**Pre-go-live Conditions:**
+None.
+
+**Other Follow-ups:**
+
+1. [Follow-up] **(Owner: [Name]; Control-side Contact: [Name])**
+2. [Follow-up] **(Owner: [Name]; Control-side Contact: [Name])**
+
+If none:
+**Other Follow-ups:**
+None.
+
+**Key Discussion Points:**
+
+* [Governance point]
+* [Governance point]
+* [Governance point]
+
+Then:
+
+**[2] Administrative Items**
+
+* [Only meaningful administrative update]
+
+---
+
+# Decision Rules
+
+The **Decision** must come first.
+
+It should state exactly what AIRCC approved.
+
+Examples:
+
+“AIRCC approved a six-week production pilot of M365 Copilot CoWork for 50 named users. Any broader rollout will return to AIRCC for separate approval.”
+
+“AIRCC approved use of the existing Claude Code capability within the managed WSL2 environment on NDS.Next.”
+
+“AIRCC approved the Matching Agent in Controllers Data Reconciliation for eight pilot break sheets.”
+
+“AIRCC approved AI Driven Graph Gen for the current Resi and Consumer Warehouse Lending scope.”
+
+If approval is conditional, state that clearly.
+
+Do not overstate the scope.
+
+If the meeting only approved a pilot, do not write that AIRCC approved broader production deployment.
+
+If future phases must return to AIRCC, include that in the Decision.
+
+---
+
+# Pre-go-live Conditions vs. Follow-ups
+
+This distinction is very important.
+
+## Pre-go-live Conditions
+
+A pre-go-live condition is a **true blocker** that must be completed before production launch.
+
+Examples:
+
+* Complete required Tech Risk reviews.
+* Obtain Compliance sign-off.
+* Review pilot training materials with GPO before onboarding.
+* Remediate or formally accept identified risk findings.
+* Complete required MRM approval before production.
+
+Do not turn ordinary tasks into conditions.
+
+If someone initially called something a condition but the later discussion clarified that it **should not block go-live**, move it to **Other Follow-ups**.
+
+Example:
+
+Initial discussion:
+“ARR/ORR should be completed before go-live.”
+
+Later discussion:
+Council agrees ARR/ORR should be expedited but **not block rollout**.
+
+Correct treatment:
+**Other Follow-up**, not Pre-go-live Condition.
+
+## Other Follow-ups
+
+A follow-up is a substantive action that can occur after approval or in parallel and is **not a launch blocker**.
+
+Examples:
+
+* Return to AIRCC after the pilot with learnings.
+* Compare performance with another tool.
+* Confirm jurisdictional scope.
+* Connect with control stakeholders.
+* Map controls to the Tech Risk framework.
+* Report updated evaluation metrics.
+* Clarify governance boundaries.
+
+Only include follow-ups that were clearly assigned, confirmed, or summarized in the meeting.
+
+If the notes say:
+“Caroline summarized the follow-ups at the end.”
+
+Treat Caroline’s recap as the authoritative source.
+
+Do **not** create additional follow-ups merely because someone asked a question earlier in the meeting.
+
+---
+
+# Owner and Control-side Contact Rules
+
+Only assign names if the notes clearly support them.
+
+Use this format:
+
+**(Owner: Ben Ryan; Control-side Contact: Luke Taylor)**
+
+The **Owner** is typically the business/use-case team member responsible for completing the action.
+
+The **Control-side Contact** is typically the relevant person from Compliance, Tech Risk, MRM, Legal, Privacy, Operational Risk, etc.
+
+If the notes do not clearly establish a name, write:
+
+**(Owner: [TBD]; Control-side Contact: [TBD])**
+
+Do **not** guess simply based on the attendee list.
+
+If a person explicitly requested the follow-up and will oversee it, they may be the control-side contact.
+
+Example:
+
+Luke explicitly requests that the pilot assess whether stronger controls are needed for externally generated emails.
+
+Appropriate:
+“Assess whether additional controls are needed for externally generated/sent emails. **(Owner: Kristina Stoli; Control-side Contact: Luke Jones)**”
+
+---
+
+# Key Discussion Point Rules
+
+Target approximately **4–6 strong bullets** for a substantive agenda item.
+
+Use fewer if the discussion was simple.
+
+Do not fill space.
+
+A strong Key Discussion Point usually covers one of these themes:
+
+* Approval scope and rollout boundaries
+* User population and entitlement restrictions
+* Data access and data boundaries
+* Human-in-the-loop controls
+* Sensitive actions
+* Autonomous or agentic behavior
+* Model/tool access
+* External communications
+* DLP / information leakage
+* Security controls
+* Kill switches
+* Monitoring
+* Evaluations
+* Accuracy / false positives
+* Governance classification
+* Future expansion
+* Geographic/jurisdiction restrictions
+* Model/vendor control
+* Control effectiveness
+* Operational readiness
+
+Avoid low-value process commentary.
+
+Do not write:
+
+“The Chair asked the team to focus on the differences.”
+
+“The presenter walked through the demo.”
+
+“The Council had a discussion.”
+
+“Rahul asked several questions.”
+
+Instead write the substance that resulted.
+
+---
+
+# Style
+
+Write for senior management.
+
+Use concise, neutral, professional language.
+
+Prefer:
+“Council discussed…”
+“Team clarified…”
+“Access is limited to…”
+“Human review is required before…”
+“Future expansion would require…”
+“Existing controls continue to apply…”
+
+Avoid:
+“However”
+“Obviously”
+“Basically”
+“Very”
+“Really”
+“Kind of”
+“Somewhat”
+“Seems”
+“Apparently”
+
+Avoid overly technical implementation detail unless it is directly relevant to governance.
+
+Prefer plain English over jargon.
+
+For example:
+
+Instead of:
+“Exchange-layer controls”
+
+Prefer:
+“existing email controls”
+
+Instead of:
+“allow-listed egress vectors”
+
+Prefer:
+“approved network destinations”
+
+Instead of:
+“agentic orchestration layer”
+
+Use:
+“the agent workflow” unless the technical term matters.
+
+---
+
+# Important Governance Judgment Rules
+
+## 1. Human-in-the-loop
+
+If discussion focuses on whether human approval is meaningful, capture both the control and the concern.
+
+Example:
+
+“Sensitive actions require explicit user approval before execution. Council discussed whether increased automation could make user review less effective and requested that this be tested during the pilot.”
+
+Do not simply write:
+“HITL is in place.”
+
+## 2. External email / communication risk
+
+If users can send emails or external messages, this is usually a major governance point.
+
+Example:
+
+“Existing DLP and email controls continue to apply independently and cannot be bypassed by the agent; the pilot will assess whether additional controls are needed given the increased ease of generating and sending external communications.”
+
+## 3. Data access
+
+Be precise.
+
+Example:
+
+“CoWork can access only the signed-in user’s permitted M365 content and has no access to local desktop files, external business systems, or third-party plugins under the pilot.”
+
+Do not infer broader access.
+
+## 4. Agent-to-agent communication
+
+If not supported, say so because it materially limits autonomy.
+
+Example:
+
+“Agent-to-agent communication is not supported under the current scope.”
+
+## 5. Future capabilities
+
+Separate current approval from future state.
+
+Example:
+
+“Organization-wide skills are not part of the current approval and would require separate governance review.”
+
+## 6. Kill switches
+
+Capture whether manual or automatic.
+
+Example:
+
+“Kill switches are currently manual and available to authorized Tech Risk personnel; the team is considering future automation.”
+
+## 7. Model/vendor control
+
+If GS does not control the underlying model, that is usually governance-relevant.
+
+Example:
+
+“The underlying model is vendor-controlled and may change over time; Council emphasized the importance of GS-owned testing and monitoring.”
+
+## 8. AI-generated security tools
+
+Internally developed tools must still be subject to normal controls.
+
+Example:
+
+“Council emphasized that internally developed AI security tools remain subject to the same Tech Risk review requirements as other applications.”
+
+## 9. Evaluation and monitoring
+
+Do not overstate the maturity.
+
+If evaluation framework is still being built:
+
+“The automated evaluation framework remains in development; Council requested that applicable firmwide evaluation standards be adopted once finalized.”
+
+Not:
+“Evaluation controls are fully implemented.”
+
+## 10. Pilot learning
+
+For pilots, capture the purpose.
+
+Example:
+
+“The pilot is intended to assess practical capability, control effectiveness, productivity benefits and relative performance against alternative tools before any broader rollout.”
+
+---
+
+# Real Example 1: M365 Copilot CoWork
+
+Raw notes might say:
+
+* 6-week pilot, 50 users.
+* Pam asked if team will come back.
+* Yes, will come back after pilot.
+* Gayatri asked how 50 users enforced.
+* Entitlement based.
+* Pam asked what is net new.
+* Sensitive actions require approval.
+* Bill concerned people may approve too easily.
+* External emails biggest risk.
+* DLP still applies.
+* Claude Cowork comparison.
+* Copilot has no local desktop access.
+* No agent-to-agent communication.
+* Follow-up: compare with Claude Cowork.
+* Follow-up: connect with Scott/Jennifer on DLP.
+* Luke asked to test stronger external email controls.
+* GPO review training.
+* Vet 50 users.
+
+Good final output:
+
+**Decision:**
+AIRCC approved a six-week production pilot of M365 Copilot CoWork for 50 named users. Any broader rollout will return to AIRCC for separate approval.
+
+**Pre-go-live Conditions:**
+
+1. Review pilot-user communications and training materials with GPO prior to launch. **(Owner: Kristina Stoli; Control-side Contact: [TBD])**
+2. Vet the 50 nominated pilot users with the relevant control-side teams prior to onboarding. **(Owner: Kristina Stoli; Control-side Contact: [TBD])**
+
+**Other Follow-ups:**
+
+1. Connect with Scott Kirk and Jennifer Partic regarding email DLP controls and incorporate relevant learnings into the pilot. **(Owner: Ben Ryan; Control-side Contact: Timo Skytta)**
+2. Return to AIRCC following the pilot with key learnings and performance metrics, including comparison with Claude Cowork and assessment of whether stronger controls are needed for externally generated/sent emails. **(Owner: Ben Ryan; Control-side Contact: Luke Taylor)**
+
+**Key Discussion Points:**
+
+* Pilot access will be entitlement-based and limited to 50 named users across control functions and selected revenue-generating divisions.
+* Sensitive actions, including sending emails and changing file permissions, require explicit user approval; file deletion is not supported, and existing M365 DLP and email controls continue to apply independently.
+* Council focused on whether increased automation could reduce the effectiveness of human review, particularly for externally generated communications.
+* CoWork remains within the M365 enterprise environment and cannot access local desktop content, external systems or plugins; agent-to-agent communication is not supported.
+* The pilot will support comparison with Claude Cowork and other alternatives to determine which capabilities are best suited to different firm use cases.
+
+---
+
+# Real Example 2: Tech Risk Agentic AI Models
+
+Raw notes might say:
+
+* Several AI security scanners.
+* Rahul asked about deterministic + network controls.
+* Default deny.
+* Tools only have specific permitted functions.
+* Evan asked how application scanning is governed.
+* App teams cooperate for authenticated scanning.
+* Rahul asked about pen tests.
+* Same Tech Risk requirements apply.
+* Human reviews all scan output.
+* Kill switch manual.
+* AppBank future 24/7 support.
+* Evan asked what models used.
+* Anthropic/OpenAI, some model agnostic.
+* Rahul wants ARR/ORR.
+* Later discussion says ARR/ORR should not block go-live.
+* Follow-up mapping to agentic controls.
+* Follow-up connect with Evan.
+
+Good final output:
+
+**Decision:**
+AIRCC approved the Tech Risk agentic AI security scanning and vulnerability triage/remediation capabilities presented.
+
+**Pre-go-live Conditions:**
+Complete required Tech Risk reviews and ensure any identified findings are in a managed state prior to production deployment. **(Owner: Navaneeth B.R.; Control-side Contact: Tiffany Phillips)**
+
+**Other Follow-ups:**
+
+1. Expedite formal Architecture Risk Review and Operational Readiness Review for the applicable agentic AI harnesses; these reviews are not blockers to the approved rollout. **(Owner: Navaneeth B.R.; Control-side Contact: Rahul Sharma)**
+2. Connect with Evan regarding reporting on authenticated scanning coverage. **(Owner: Navaneeth B.R.; Control-side Contact: Evan)**
+3. Map the harness controls to the applicable Tech Risk agentic AI control framework. **(Owner: Navaneeth B.R.; Control-side Contact: Rahul Sharma)**
+
+**Key Discussion Points:**
+
+* Scanners operate in default-deny environments with deterministic code-level restrictions limiting accessible domains and destructive actions; additional network controls provide a further layer of protection.
+* Scans are bounded to defined assets and controlled triggers rather than unrestricted autonomous execution, with limits on model turns and usage to reduce runaway activity.
+* Human oversight is retained throughout the process: Tech Risk reviews scan outputs before they are delivered to application teams, and AI-generated remediation is validated before entering the existing SDLC process.
+* Kill switches are currently manual and available to authorized Tech Risk personnel; future 24/7 operational support and greater automation are being considered.
+* The tools use Anthropic and OpenAI models depending on the scanner, with some designed to be model-agnostic and multi-model testing used to reduce blind spots.
+* Council emphasized that internally developed AI security tools remain subject to standard Tech Risk review and operational-readiness requirements.
+
+---
+
+# Real Example 3: Controllers Data Reconciliation
+
+Raw notes might say:
+
+* Matching Agent.
+* Pilot 8 break sheets.
+* Harmony deterministic matching first.
+* AI only handles unresolved exceptions.
+* User entitlements inherited.
+* Data stays in Harmony via MCP.
+* Human approves before publishing.
+* Skills/prompts in GitLab.
+* 400 Controllers reconciliations longer term.
+* Follow-up HK rollout.
+* Follow-up precision/recall.
+* Follow-up skill-file change governance.
+
+Good output:
+
+**Decision:**
+AIRCC approved the Matching Agent in Controllers Data Reconciliation for eight pilot break sheets.
+
+**Pre-go-live Conditions:**
+None.
+
+**Other Follow-ups:**
+
+1. Confirm any Hong Kong rollout implications.
+2. Provide updated precision/recall metrics following validation.
+3. Return to AIRCC regarding skill-file change-management governance.
+
+**Key Discussion Points:**
+
+* AI reasoning is used only for reconciliation exceptions not resolved through existing deterministic matching rules.
+* The agent inherits the user’s existing entitlements and does not create additional access.
+* Reconciliation data remains within Harmony, with MCP used to support controlled access.
+* Human review is required before matched results are published.
+* Skills and prompts are managed through GitLab under the existing development process.
+* The current approval is limited to eight pilot break sheets; broader rollout would require further review.
+
+---
+
+# Real Example 4: GBM Client Query Management
+
+Good output:
+
+**Decision:**
+AIRCC approved rollout of Client Query Management to GBM Operations post-trade processing teams.
+
+**Pre-go-live Conditions:**
+Complete Compliance pre-go-live conditions, including MD sign-off on accuracy and transparency requirements.
+
+**Other Follow-ups:**
+None.
+
+**Key Discussion Points:**
+
+* A separate model evaluates response confidence across six dimensions against a defined rubric; it does not compare production responses against human-generated responses.
+* Initial rollout is limited to high-confidence responses.
+* Agents cannot send emails directly; users must review and attest to the generated response before sending.
+* Prompt-injection risk from free-form client email was addressed through an additional scan introduced following penetration testing, together with client/domain validation.
+* Kill switches exist independently at the Salesforce and agent layers.
+* Existing parallel testing of LLM-based confidence assessment against human-reviewed outputs will continue as part of production monitoring.
+
+---
+
+# Real Example 5: Simple Approval with Minimal Discussion
+
+If the notes say:
+
+* Claude Code capability unchanged.
+* Only hosting environment moves to WSL2 on NDS.Next.
+* Tech Risk did pen tests.
+* No substantive questions.
+* Approved.
+
+Do not force six bullets.
+
+Good output:
+
+**Decision:**
+AIRCC approved use of the existing Claude Code capability within the managed WSL2 environment on NDS.Next.
+
+**Pre-go-live Conditions:**
+None.
+
+**Other Follow-ups:**
+None.
+
+**Key Discussion Points:**
+
+* Tech Risk completed multiple reviews and penetration tests focused on sandbox bypass, configuration tampering and endpoint visibility; identified items were substantially addressed with residual risk managed through layered controls.
+* Future expansion beyond the approved Day-1 connectivity, including MCP or broader enterprise integrations, would follow the existing Tech Risk and AIRCC governance process.
+
+---
+
+# Administrative Items
+
+Administrative items should be very brief.
+
+Example:
+
+**Administrative Items**
+
+* Banker Copilot: Studio follow-up telemetry on the number of prompts required to generate a first draft was posted for Council review.
+
+Do not expand administrative items unless there was substantive discussion.
+
+---
+
+# What to Do When Notes Are Incomplete
+
+If the notes do not clearly establish something, do not invent it.
+
+Use wording such as:
+
+“Based on the notes, AIRCC appears to have approved the pilot; please confirm whether any conditions were attached.”
+
+“Owner not clear from the notes.”
+
+“Control-side contact not clear from the notes.”
+
+“The notes indicate this was discussed, but do not clearly establish whether it was a formal follow-up.”
+
+“Please confirm whether this was intended as a pre-go-live blocker or a non-blocking follow-up.”
+
+The objective is accuracy, not completeness at all costs.
+
+---
+
+# Final Review Checklist
+
+Before finalizing the minutes, check:
+
+1. Is the Decision clearly stated first?
+2. Is the exact approval scope clear?
+3. Are true blockers under Pre-go-live Conditions?
+4. Are non-blocking actions under Other Follow-ups?
+5. Did I include only follow-ups that were clearly assigned or confirmed?
+6. Are owners/control-side contacts supported by the notes?
+7. Did I avoid inventing names?
+8. Are Key Discussion Points governance-focused rather than transcript-like?
+9. Did I capture the answer/conclusion rather than just the question?
+10. Did I avoid repeating the materials?
+11. Did I distinguish current approval from future capabilities?
+12. Did I capture important HITL, data-access, security, monitoring, evaluation and rollout boundaries?
+13. Are there too many bullets? If so, merge overlapping points.
+14. Could a CRO or senior risk manager understand the key governance conclusions in under two minutes?
+
+---
+
+## Input Begins Below
+
+Here are my meeting notes:
+
+[PASTE RAW MEETING NOTES HERE]
+
+Please draft the AIRCC meeting minutes using the standards above. Where the notes are insufficient to determine a fact, owner, control-side contact, pre-go-live condition or follow-up, clearly mark it as **[TBD]** rather than making an assumption.
+
+---
+
+I’d also give your colleague one practical instruction outside the prompt: **during the meeting, pay particular attention to the secretary/Chair’s recap at the end of each agenda item.** That recap is often the most reliable source for the final **Decision, Pre-go-live Conditions and Other Follow-ups**. The body of the discussion is mainly what they should use to construct the **Key Discussion Points**.
+
+
+
+
+
+Remediation of medium-severity findings required for closure ahead of the PRA submission is in progress and on track, covering methodology, PD calibration, key assumptions, testing, implementation and ongoing monitoring.
 
 
 Credit Risk may override model outputs where appropriate, with additional data to be collected over the next six months to support future recalibration.
