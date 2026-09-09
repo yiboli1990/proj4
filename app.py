@@ -1,3 +1,13 @@
+### Strengths
+
+I have worked closely with Liam over the past year, particularly on regulatory submissions. Liam has outstanding technical skills and consistently demonstrates a strong understanding of the work. He is highly reliable and ensures that documents and deliverables are well prepared and completed on time. Liam is also very organized and maintains clear and comprehensive trackers, which makes it easy for the broader team to understand the status of deliverables, key milestones, and outstanding items.
+
+### Areas for Development
+
+Liam could look for more opportunities to speak up and share his perspectives in meetings and broader team discussions. He has strong technical knowledge and many good ideas, and I believe the team would benefit from hearing his views more frequently and having him contribute more actively to discussions.
+
+
+
 Absolutely. Below is a reusable **master prompt** you can give your colleague. I wrote it so the LLM can work from **their own meeting notes only**, even without the full transcript. It includes the structure, judgment rules, wording standards, and real examples from the AIRCC notes we developed.
 
 You can send this entire prompt to them and tell them to paste their raw notes underneath it.
