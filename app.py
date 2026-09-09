@@ -1,3 +1,14 @@
+### What Caroline Does Well and Should Continue Doing
+
+Caroline delegates responsibilities very effectively, taking into account individual strengths while ensuring that the team works together toward common objectives. She provides clear direction and coordinates across the team well, which helps keep priorities and deliverables on track. Caroline also demonstrates strong leadership by maintaining a good understanding of the broader priorities, providing guidance when needed, and empowering team members to take ownership of their work.
+
+### Area for Development
+
+One area where Caroline could continue to develop is embracing AI tools more broadly in the team’s day-to-day work. As AI capabilities continue to evolve, there may be opportunities to use these tools to improve efficiency, streamline routine tasks, and support the team’s existing processes. Greater adoption and encouragement from a leadership perspective could also help the broader team identify and experiment with new use cases.
+
+
+
+
 ### Strengths
 
 I have worked closely with Liam over the past year, particularly on regulatory submissions. Liam has outstanding technical skills and consistently demonstrates a strong understanding of the work. He is highly reliable and ensures that documents and deliverables are well prepared and completed on time. Liam is also very organized and maintains clear and comprehensive trackers, which makes it easy for the broader team to understand the status of deliverables, key milestones, and outstanding items.
