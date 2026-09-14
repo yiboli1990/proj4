@@ -1,3 +1,12 @@
+IRB Uplift
+
+* MRM completed the current phase of the IRB uplift, approving [X models / key models, including Super Large Corporate, Private Funds and ASL]. The multi-year program enhances the firm’s internal credit rating framework supporting regulatory capital and broader credit risk management across jurisdictions.
+* The current phase involved [X validations / X MRM resources / approximately X months or years of work], covering [key portfolios/model areas] and addressing key methodology, calibration, implementation and model performance considerations.
+* Remediation of medium-severity findings required for closure ahead of the PRA submission is [complete / in progress and on track], covering methodology, PD calibration, key assumptions, testing, implementation and ongoing monitoring. [X of Y findings have been closed, with the remaining X targeted for closure by DATE].
+* PRA submission is targeted for [DATE]. Looking ahead, the program will continue through [2027/20XX], with upcoming work focused on [next portfolios/models, further model enhancements, regulatory submissions and/or finding remediation].
+
+
+
 There are two different themes in the transcript: Strats should become more forward-looking and discussion-oriented, while the CRO update should close out the IRB phase and broaden the validation/business-model story.
 
 Strats update
