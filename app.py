@@ -1,3 +1,145 @@
+There are two different themes in the transcript: Strats should become more forward-looking and discussion-oriented, while the CRO update should close out the IRB phase and broaden the validation/business-model story.
+
+Strats update
+
+AI inventory — change the presentation
+
+The current AI inventory should be simplified and made more decision-useful.
+
+* Going forward, include risk-tiered AI models only.
+* Separate the inventory into “In Use” vs. “In Development.”
+* The main table should focus primarily on models already in production/in use, including their validation status (approved/rejected, as applicable).
+* Do not try to list every pipeline item. Instead, highlight selected in-development models that are particularly interesting or worth discussing.
+* Check with Bo each week for notable models/use cases coming through the pipeline. He previously saw a forward-looking GBM inventory where roughly two-thirds of the items were new to him, which raises a broader question about whether MRM has sufficient visibility into the pipeline.
+* Ask Bo for the underlying spreadsheet/list if possible; Bill may want to use it to have an inventory/visibility discussion with Strats.
+* Also confirm terminology with Bo: whether the firm is still distinguishing “Generative AI” and “Agentic AI,” or increasingly using “Agentic AI” as the umbrella terminology.
+
+AIRCC / AI governance
+
+Add two new governance updates:
+
+* AI policy changes: include a brief bullet on the proposed AI policy/standard changes going to RCC.
+* AI RAS metrics: add a brief bullet on the newly proposed AI RAS metrics. These appear to be intended as Board-level metrics, potentially going to the October Board meeting, so they could become effective relatively soon.
+* Include the new AI model approval expected from AIRCC, once formally approved.
+
+CCR / RV+
+
+Get the latest status from Andresa and Alexis. Bill thinks there is a lot happening in CCR but wants a clearer story rather than simply listing projects.
+
+In particular, for RV+, the update should answer the bigger question: has the work actually achieved its intended objective of getting the desk to own and accept the models used for risk-limit calculations? Bill’s concern is that the desk can still argue that Risk’s model is wrong when desk sensitivities differ.
+
+So check:
+
+* Status of the mortgage work.
+* Status/timing of the rates modeling enhancement.
+* Whether the relevant findings remain open.
+* Whether, once completed, the desk will genuinely own the model/calibration and accept the resulting risk measures.
+
+CAMP Floor trade / validation impact
+
+Potentially add a new revalidation/validation example if completed.
+
+Bill specifically liked the CAMP Floor trade analysis as an example of MRM adding value before go-live. MRM’s review apparently resulted in a significant change to the product/model before launch after identifying weaknesses in the original Strats work.
+
+Get the final status and determine whether it is strong enough to highlight as a concrete example of MRM challenge and impact.
+
+Commodities
+
+Build a story around the GNF model changes:
+
+* What changes are Strats making to the core commodities model?
+* Why are they making them?
+* What problem/limitation is being addressed?
+* What is the development and validation timeline?
+
+Bill specifically asked whether Alex has previously been told about these changes. This could become a useful Strats/CRO topic once the story is clear.
+
+Broader business/model pipeline
+
+Bill wants the team to proactively identify business developments that have model implications, rather than waiting for formal submissions.
+
+Areas to check:
+
+* Equities: Situational Awareness trading has reportedly been substantially reduced/stopped, eliminating an important revenue source. Check whether the desk is developing new products/strategies to replace that activity and whether they create model needs.
+* Asia / India: Build on the discussion with Ken Castellino. The India business currently appears relatively limited and partly supports hedging of offshore activity, but GBM is looking to expand the onshore business and obtain additional licenses. Determine what this means for future model requirements.
+* ASL: Check with Shipra/Mio on the longer pipeline of initiatives intended to expand the ASL business and identify potential model implications.
+* Europe: Ask the teams about new business initiatives with model implications.
+* NACs: check for any notable new activity, since many emerging initiatives may ultimately appear there.
+
+The recurring principle Bill gave is important: Alex already hears about business developments; MRM’s value is connecting those developments back to models and model risk.
+
+⸻
+
+CRO update
+
+1. IRB uplift — close out the current phase
+
+This should be the main CRO story.
+
+The prior update said the project was on track for approval. This week’s update should now say that MRM has completed this phase of the IRB/ICR uplift, assuming all final approvals are confirmed.
+
+Bill wants more than a simple “approved” statement. Add some perspective on the scale and significance of the work:
+
+* Confirm all final model approvals, including Super Large Corporate.
+* Provide a short look-back on the project: duration, approximate MRM effort/resources, number/scope of models validated, and major accomplishments.
+* Give a look-ahead to the next phases, since the broader IRB/ICR program will continue for another couple of years.
+* Do not frame this solely as a PRA project. Bill emphasized that these ICR models are important for multiple regulators and firmwide uses, including the Fed. Position it as a broader uplift to the firm’s internal credit-rating framework.
+
+Findings / rule compliance
+
+Before declaring the phase complete, confirm:
+
+* Status of the medium-severity findings required to close before PRA submission.
+* Any remaining open findings and expected closure dates.
+* Results of the rule-compliance assessment.
+* Summarize areas of non- or partial compliance identified through that review. Some overlap with validation findings; others appear to be documentation-related.
+
+Bill also suggested a separate summary for Alex rather than putting all of this into the CRO update. Rama could potentially draft it. The summary should explain the full scope of MRM’s work, rigor of the review, key issues identified/remediated, and what remains.
+
+2. CCR / RV+
+
+Include an update if you can get a meaningful status from Andresa/Alexis.
+
+Focus less on individual technical changes and more on whether the project is achieving the intended end state: desk ownership of models used for risk and alignment between desk and Risk measures, including status of outstanding findings and remaining rates/mortgage work.
+
+3. Commodities / GNF
+
+Potential new CRO topic once details are gathered:
+
+Core commodities model enhancement — what is changing, why the enhancement is needed, current development status, and expected validation timeline.
+
+This sounds like something Bill specifically wants Alex to understand rather than another routine validation-status bullet.
+
+4. Other potential CRO stories
+
+These are not ready for the CRO update yet. Bill is asking the team to investigate them and bring back a coherent story:
+
+* India/onshore GBM expansion → resulting model needs.
+* ASL business expansion → future model pipeline.
+* Equities response to reduced Situational Awareness activity.
+* New European initiatives.
+* Relevant NACs/new product activity.
+
+Only elevate these once you can make a clear business change → model implication → MRM action connection.
+
+Immediate follow-ups
+
+1. Bo: AI inventory terminology; notable pipeline models; obtain his forward-looking GBM model inventory.
+2. AI governance: get final AI policy changes and proposed RAS metrics.
+3. Andresa/Alexis: CCR and RV+ status, including outstanding findings and end-state.
+4. CAMP Floor: confirm final validation outcome and the specific changes MRM drove.
+5. IRB: confirm all approvals; pre-submission finding remediation; rule-compliance status; project scale/effort; next-phase roadmap.
+6. Commodities: obtain the GNF enhancement rationale, scope and timeline.
+7. India / ASL / Equities / Europe: ask coverage teams for business developments and associated model implications.
+8. ETSC: Donavan has started preparing the ETSC materials.
+
+For the CRO update specifically, I would prioritize IRB completion + look-ahead, then CCR/RV+ if there is substantive progress, and potentially GNF/Commodities once you have the story. The broader India/ASL/Equities items sound like research for future updates rather than content to add immediately.
+
+
+
+
+
+
 ### What Caroline Does Well and Should Continue Doing
 
 Caroline delegates responsibilities very effectively, taking into account individual strengths while ensuring that the team works together toward common objectives. She provides clear direction and coordinates across the team well, which helps keep priorities and deliverables on track. Caroline also demonstrates strong leadership by maintaining a good understanding of the broader priorities, providing guidance when needed, and empowering team members to take ownership of their work.
