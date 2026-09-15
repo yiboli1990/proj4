@@ -1,3 +1,104 @@
+
+Yes. Your manager’s notes make the intended treatment much clearer, especially for Marquee AI. I would use her Decision / Pre-go-live / Follow-up structure as authoritative and use the transcript to sharpen the discussion points. I’d also reduce Funds and Visual Structuring to the genuinely incremental discussion rather than restating their materials.
+
+[1] Funds Data Extraction – Approval
+
+Presenters: Xi Ye, Ryan Barton, Zach Bell
+
+Decision:
+AIRCC approved Credit AI Funds Data Extraction.
+
+Pre-go-live Conditions:
+[Use manager/Control-side documented conditions once confirmed.]
+
+Other Follow-ups:
+[Use manager/Control-side documented follow-ups once confirmed.]
+
+Key Discussion Points:
+
+* In response to questions from Council members, the presenters discussed how confidence scores and straight-through processing thresholds determine the level of human review. Only fields meeting the applicable confidence threshold will ultimately be eligible for straight-through processing; lower-confidence fields will continue to require Credit Officer review and validation.
+* Council members focused on the potential impact of extraction errors given that the data supports counterparty onboarding and provides critical inputs to ICR calculations. The presenters noted that the principal risk is data accuracy rather than agentic complexity, with differences in fund reporting formats and interpretation of certain data definitions representing key sources of potential error.
+* In response to questions regarding reliance on LLM-generated confidence scores, the presenters explained that the determination reflects both characteristics known about the field and the LLM’s assessment at extraction. The team will continue testing over the next three months across a broader fund population to calibrate confidence levels and identify fund-specific patterns and exceptions.
+* The presenters clarified that, based on approximately six months of testing, the capability is considered sufficiently mature to begin the phased rollout, starting with Hedge Funds in Q4 2026 and Mutual Funds in Q1 2027, while retaining human validation for lower-confidence outputs.
+* In response to a question regarding Tech Risk readiness, the presenters noted that this is the second use case within the existing Credit AI application and that incremental Tech Risk review of the new data-extraction capability is underway.
+
+I think these five are worth retaining. The most important addition from your manager’s notes is the distinction that confidence isn’t simply the LLM saying “I’m confident”—AIRCC specifically challenged that point.
+
+⸻
+
+[2] Marquee AI – Externalization – Approval
+
+Presenters: Alysa Shcherbakova, Hao Dong
+
+Decision:
+AIRCC conditionally approved the rollout of Marquee AI to external users, excluding Hong Kong and India, subject to satisfaction of the documented pre-go-live conditions.
+
+Pre-go-live Conditions:
+
+1. Follow up with local Compliance to complete the analysis of applicable requirements for Hong Kong and India and exclude those jurisdictions from the initial rollout if the use case is determined to be high risk and subject to heightened governance requirements and regulatory notification. (Owner: [TBD]; Control-side Contact: [TBD])
+2. Consult with outside counsel regarding the external rollout, including the proposed structure and client disclosures/disclaimers. (Owner: [TBD]; Control-side Contact: [TBD])
+3. Complete the documented Compliance pre-go-live conditions, including:
+    * Finalization of Content Checker Guidelines and Mitigants Logic;
+    * Successful Model Risk Management testing and performance;
+    * Executive Office approval for inclusion of sensitive topics;
+    * Finalization of disclaimers and their placement in the tool;
+    * Finalization of the business supervisory framework;
+    * Finalization of ECOMM retention and surveillance for email communications;
+    * Completion of inducements analysis prior to externalization in EMEA; and
+    * Confirmation from GIR that there are no research-related concerns arising from presentation of GIR content or the overall output.
+        (Owner: [TBD]; Control-side Contact: [TBD])
+
+Other Follow-ups:
+
+1. Confirm that the kill-switch mechanism and associated escalation procedures are formally documented and subject to Model Risk validation. (Owner: [TBD]; Control-side Contact: Bo Hu)
+2. Explore mechanisms to collect explicit and implicit client feedback, including whether subsequent client activity can provide a signal regarding the utility of Marquee AI responses and support ongoing performance monitoring. (Owner: [TBD]; Control-side Contact: Daniel Marcu)
+
+Key Discussion Points:
+
+* In response to questions from Council members, the presenters discussed the evaluation framework supporting Marquee AI, including separate measures of routing, content retrieval, relevance and response quality. The presenters clarified that retrieval quality is assessed using both LLM-assisted evaluation and human review, while Model Risk will provide further challenge of the evaluation framework as part of its ongoing review.
+* Council members focused on the need for greater rigor around ongoing performance monitoring once the capability is operating externally, including how deterioration or drift would be detected and when escalation or shutdown would be warranted. The presenters noted that monitoring and supervisory procedures are in place, and agreed that the kill-switch and escalation mechanism should be more formally documented and incorporated into Model Risk validation.
+* In response to questions regarding the external-client interaction model, the presenters explained that the initial rollout will be limited to approximately 150 sophisticated institutional clients and email. Email was selected in part to support applicable record-retention requirements and to accommodate additional validation and Content Checker controls without creating the latency expectations of an interactive interface.
+* Council discussed potential research and investment-advice implications, particularly for Hong Kong and India. The presenters clarified that Marquee AI is not intended to generate new investment advice or research, and the Content Checker is designed to block such content; jurisdiction-specific analysis will nevertheless be completed before rollout in those locations.
+* In response to questions regarding client feedback, the presenters discussed opportunities to supplement direct user feedback with implicit signals based on subsequent client activity. Council noted that this could provide an additional indicator of response utility and support longer-term product and performance monitoring, although it is not a prerequisite for the initial rollout.
+* Council also discussed the longer-term interaction model for Marquee AI, including whether client queries should ultimately be integrated more directly into Marquee and broader Sales Enablement capabilities. The presenters noted that email provides practical advantages for the initial controlled rollout, while broader integration remains part of the longer-term direction.
+
+I think this is materially better than our previous Marquee draft. In particular, I would keep the distinction between the Content Checker and broader model-performance monitoring. That was exactly what Schlee was challenging: a compliance checker can catch rule-based problems, but it doesn’t by itself answer what happens when the underlying AI starts drifting or producing poor-quality answers.
+
+⸻
+
+[3] Visual Structuring AI – Approval
+
+Presenters: Martin Roberson, Jin Fong
+
+Decision:
+AIRCC approved the rollout of Visual Structuring AI to internal Sales and Trading users and external GBM clients.
+
+Pre-go-live Conditions:
+[Use manager/Control-side documented conditions once confirmed.]
+
+Other Follow-ups:
+[Use manager/Control-side documented follow-ups once confirmed.]
+
+Key Discussion Points:
+
+* In response to questions from Council members regarding the external-user population, the presenters clarified that approximately 200 external clients are currently active users of Visual Structuring, although the platform is available to a broader population of GBM clients. The AI capability will be available to existing Visual Structuring users and future users onboarded through the existing process.
+* Council discussed whether the external population should be characterized as sophisticated clients. While the tool is primarily expected to be used by sophisticated institutional users, access is not conditioned on a separate suitability assessment; the capability remains informational and cannot execute trades, and clients must separately engage Sales and satisfy the existing requirements before transacting.
+* In response to questions regarding the incremental risk introduced by the AI capability, the presenters clarified that the AI layer primarily provides a natural-language interface to existing Visual Structuring functionality, while the underlying pricing and analytical calculations continue to be generated by existing deterministic models.
+* Council emphasized the importance of post-go-live monitoring to identify deterioration or drift that could result in inaccurate or low-quality client-facing output. The presenters noted that the AI capability is subject to ongoing testing, with the existing Sales interaction providing an additional control before any modeled trade can result in a transaction.
+* Council clarified that the approved external scope is limited to GBM clients. The team agreed to make this scope explicit in the intake documentation; expansion to a materially different client population would require separate consideration.
+
+For Visual Structuring, I would stop at these five. There wasn’t enough substantive challenge to justify adding more.
+
+One point I would change from my first draft
+
+For Marquee, I agree with your manager that the detailed Compliance requirements should be preserved as the documented pre-go-live conditions rather than summarized away. Caroline explicitly said at the end that she would record the Compliance pre-go-live conditions, the Hong Kong/India analysis and outside-counsel consultation.
+
+For Funds and Visual Structuring, your manager’s template has blank condition/follow-up slots, so I would not populate them from our own interpretation yet. That’s more consistent with our rule that the secretary/manager’s final classification controls. Once you have the actual conditions for those two, we can drop them in without changing these Key Discussion Points.
+
+
+
+
+
 IRB Uplift
 
 
