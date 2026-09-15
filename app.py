@@ -1,5 +1,10 @@
 
-Yes. Your manager’s notes make the intended treatment much clearer, especially for Marquee AI. I would use her Decision / Pre-go-live / Follow-up structure as authoritative and use the transcript to sharpen the discussion points. I’d also reduce Funds and Visual Structuring to the genuinely incremental discussion rather than restating their materials.
+Yes
+
+    In response to a question from a Council member regarding the scope of Architecture Review and Operational Readiness Review requirements, the presenter clarified that these reviews will be required for Category 1 and specified agentic Category 2 use cases, with applicability determined based on defined agentic characteristics, including autonomy and tool-use capabilities captured through the AIRCC onboarding process.
+
+
+. Your manager’s notes make the intended treatment much clearer, especially for Marquee AI. I would use her Decision / Pre-go-live / Follow-up structure as authoritative and use the transcript to sharpen the discussion points. I’d also reduce Funds and Visual Structuring to the genuinely incremental discussion rather than restating their materials.
 
 [1] Funds Data Extraction – Approval
 
