@@ -1,3 +1,21 @@
+Your manager’s notes support both, but the distinction matters:
+
+* Daniel (Council member) raised the idea and explained the rationale: whether the team could collect implicit feedback, such as subsequent client actions, to assess whether the response had utility. He also explained why this could be useful for product improvement and monitoring.
+* Alysa (presenter) responded that the team had been thinking about this and discussed possible ways to do it, while noting that email makes implicit feedback harder to capture.
+
+So Caroline is correct that this was one question from one Council member, rather than a broader Council discussion. But saying only “the presenter discussed opportunities…” understates Daniel’s role because much of the substantive idea came from him.
+
+I’d reply to Caroline:
+
+Yes, you’re right — this was raised by Daniel as a question/suggestion rather than discussed more broadly by the Council. Alysa responded that the team had been considering implicit feedback and discussed potential ways to capture it. I’ll revise the wording to reflect that.
+
+And I’d revise the minutes bullet to:
+
+In response to a question from a Council member regarding client feedback, the presenter discussed potential ways to supplement direct user feedback with implicit signals based on subsequent client activity. The Council member noted that such signals could provide an additional indicator of response utility and support longer-term product and performance monitoring.
+
+That is the most faithful attribution to both the transcript and your manager’s notes.
+
+
 You can reply:
 
 Yes, you’re right — this was raised as a question by Daniel rather than a broader Council discussion. Alysa responded that the team had been considering implicit feedback and discussed potential signals based on subsequent client activity. I’ll revise the wording to reflect that.
