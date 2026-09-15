@@ -1,3 +1,8 @@
+You can reply:
+
+Yes, you’re right — this was raised as a question by Daniel rather than a broader Council discussion. Alysa responded that the team had been considering implicit feedback and discussed potential signals based on subsequent client activity. I’ll revise the wording to reflect that.
+
+
 In response to a question from a Council member regarding client feedback, the presenter discussed opportunities to supplement direct user feedback with implicit signals based on subsequent client activity, which could provide an additional indicator of response utility and support longer-term product and performance monitoring.
 
 
