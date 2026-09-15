@@ -1,3 +1,9 @@
+    Funds Data Extraction, an AI capability that extracts financial and credit data from fund documents to support fund onboarding, classification, and internal credit ratings, with phased rollout beginning with hedge funds.
+* Externalization of Marquee AI to an initial group of sophisticated institutional GBM Public clients in the U.S. and EMEA, providing source-linked responses to market-related queries through email.
+* Visual Structuring AI, a conversational AI capability embedded within Visual Structuring that enables internal Sales and Trading users and external clients to create, modify, and analyze trade structures using natural-language prompts, without trade execution capability.
+
+
+
 
 Yes
 
