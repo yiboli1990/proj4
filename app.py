@@ -1,5 +1,134 @@
 IRB Uplift
 
+
+I went through the transcript against the materials and the prior AIRCC conventions. I would draft the September 15 minutes as follows. I’ve kept the discussion points focused on what AIRCC actually challenged or clarified rather than repeating the deck.
+
+[1] Funds Data Extraction – Approval
+
+Presenters: Xi Ye, Ryan Barton, Zach Bell
+
+Decision:
+AIRCC conditionally approved the phased rollout of Funds Data Extraction, subject to satisfaction of the documented pre-go-live conditions.
+
+Pre-go-live Conditions:
+
+1. Complete Model Risk review and approval of the Tier 1 model, including validation of the extraction accuracy, confidence framework and straight-through processing thresholds. (Owner: Xi Ye / Ryan Barton; Control-side Contact: Bo Hu)
+2. Complete the incremental Tech Risk review of the Funds Data Extraction capability and its integration into the existing Credit AI workflow. (Owner: Xi Ye / Ryan Barton; Control-side Contact: Karthik Ram)
+3. Complete applicable Legal, Compliance and Privacy requirements prior to production rollout. (Owner: Xi Ye; Control-side Contact: Ritu Narula / Andy Snow)
+
+Other Follow-ups:
+None.
+
+Key Discussion Points:
+
+* In response to questions from Council members, the presenters discussed how extraction accuracy and confidence determine the level of human review. High- and Very High-confidence fields may ultimately be eligible for straight-through processing, while lower-confidence or ambiguous fields require Credit Officer validation; feedback from these reviews will be systematically captured to refine prompts, validation logic and confidence calibration.
+* Council members focused on the potential impact of inaccurate data on downstream fund classification and ICR calculations. The presenters noted that differences in fund reporting formats and field definitions are a key source of extraction risk and that the phased rollout will be used to expand testing across the fund population and identify exceptions requiring different treatment.
+* The capability is being introduced through a staged approach, with users initially validating extracted outputs while additional production experience is accumulated. Greater automation and front-to-back integration with the OneGS 3.0 ICR workflow are expected only after sufficient testing, calibration and validation.
+* Council noted that the workflow itself has relatively limited agentic complexity, with the principal risk arising from the accuracy of data feeding the ICR process. Given the Tier 1 classification, AIRCC expects Model Risk validation to provide the detailed challenge of accuracy, confidence calibration and straight-through processing criteria.
+
+⸻
+
+[2] Marquee AI – Externalization – Approval
+
+Presenters: Alysa Shcherbakova, Hao Dong
+
+Decision:
+AIRCC conditionally approved the staged external rollout of Marquee AI, initially to approximately 150 sophisticated institutional GBM Public clients in the US and EMEA, subject to satisfaction of the documented pre-go-live conditions. Hong Kong and India are excluded from the initial approval pending completion of the applicable regulatory analysis.
+
+Pre-go-live Conditions:
+
+1. Complete all outstanding Compliance pre-go-live conditions applicable to the external rollout. (Owner: Alysa Shcherbakova / Hao Dong; Control-side Contact: Lyndsay Huot / Joe Ambrose)
+2. Obtain outside counsel review of the proposed external-client deployment, including the structure of the offering and appropriate client disclaimers. (Owner: Alysa Shcherbakova; Control-side Contact: Lyndsay Huot / Joe Ambrose)
+3. Complete outstanding Model Risk review of Marquee AI and its monitoring framework, including the documented escalation and kill-switch mechanism. (Owner: Alysa Shcherbakova / Hao Dong; Control-side Contact: Bo Hu)
+
+Other Follow-ups:
+
+1. Complete the regulatory analysis for Hong Kong and India, including whether the use case is considered high risk or subject to heightened requirements due to potential research/investment-advice considerations, before expanding to those jurisdictions. (Owner: Alysa Shcherbakova; Control-side Contact: Lyndsay Huot / Joe Ambrose)
+2. Explore mechanisms to collect both explicit and implicit client feedback to assess the utility of Marquee AI responses and support ongoing performance monitoring. (Owner: Alysa Shcherbakova / Hao Dong; Control-side Contact: Daniel Marcu)
+
+Key Discussion Points:
+
+* AIRCC clarified that the initial approval excludes Hong Kong and India while the team completes jurisdiction-specific analysis of whether Marquee AI could trigger heightened requirements relating to research or investment advice. The use case does not independently generate investment recommendations, and the Content Checker is designed to prevent investment advice and new research from being provided to clients.
+* In response to questions from Council members, the presenters discussed the evaluation framework supporting externalization. Marquee AI is currently approximately 92% accurate across the broader evaluation framework, with separate measures covering routing, retrieval, grounding and hallucination, while the Content Checker provides an additional compliance gate before a response can reach an external client.
+* Council members emphasized the need for a more formal ongoing monitoring and escalation framework beyond pre-go-live testing, including defined performance thresholds, escalation procedures and the circumstances under which the capability would be restricted or disabled. The existing monitoring and PagerDuty mechanism will be incorporated into the Model Risk review.
+* The initial rollout is intentionally limited to approximately 150 sophisticated institutional clients and email. Email supports regulatory record-retention requirements and allows additional validation and Content Checker controls to operate without creating the same latency expectations as an interactive user interface.
+* Council discussed the longer-term value of capturing client behavior following Marquee AI interactions as an implicit measure of usefulness, alongside direct client feedback. The team will explore whether subsequent activity across Marquee or other GS channels can provide meaningful signals for product performance and drift monitoring.
+
+⸻
+
+[3] Visual Structuring AI – Approval
+
+Presenters: Martin Roberson, Jin Fong
+
+Decision:
+AIRCC approved the controlled rollout of Visual Structuring AI within the existing Visual Structuring application to internal Global Markets users and external Global Markets clients with Visual Structuring access, subject to applicable regional approvals.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+None.
+
+Key Discussion Points:
+
+* In response to questions from Council members, the presenters clarified that Visual Structuring AI acts as a natural-language interface to existing Visual Structuring functionality and deterministic analytics; it does not execute or book trades, submit orders, determine suitability, provide investment advice or communicate autonomously on behalf of users.
+* The external-client scope is limited to Global Markets clients with access to Visual Structuring. AIRCC requested that the Global Markets scope be made explicit in the intake documentation; any future expansion to a materially different client population would need to be considered separately.
+* The team has completed 455 tests across functional capabilities and guardrails, with an overall pass rate of approximately 96% and guardrail performance of approximately 97.5%. Post-go-live monitoring will be used to identify deterioration or drift.
+* Council noted that the underlying calculations remain based on existing Visual Structuring models and deterministic analytics, materially limiting incremental AI risk. Users must review the output, and any transaction continues through the existing Sales process rather than being executed through the AI capability.
+
+⸻
+
+[4] Proposed Changes to the AI Policy and Standard
+
+Presenter: Caroline Shulman
+
+Decision:
+AIRCC approved the proposed changes to the Firmwide AI Policy and Standard, with the Policy remaining subject to ARC approval scheduled for September 17.
+
+Key Discussion Points:
+
+* The proposed changes strengthen governance boundaries in response to increasingly autonomous AI capabilities and the broader use of AI development tools, including clearer requirements for inventory inclusion, restrictions on business use before approval, and development requirements for AI solutions and agentic coding tools.
+* AI use cases used recurrently in a business process or by more than one person will generally be subject to inventory and risk-assessment requirements, while personal-productivity use of approved firmwide platforms remains excluded. Prior to approval, access is generally restricted to developers and no more than five named business users for evaluation purposes, and outputs cannot be relied upon for business use.
+* Architecture Review and Operational Readiness Review requirements are being expanded to Category 1 and specified agentic Category 2 use cases. In response to a Council question, the presenter clarified that applicability is determined by defined agentic characteristics, including autonomy and tool-use capabilities, captured through the AIRCC onboarding process.
+* AI development and use of agentic coding tools will generally be restricted to qualified engineers or approved isolated environments with appropriate network, repository, data and internet-access controls. Divisions will assess gaps against the enhanced requirements and establish remediation plans, while Engineering will continue to develop centralized controls supporting compliance.
+
+⸻
+
+[5] AI Risk Appetite Statement Proposal – Posting
+
+Presenter: Steve [Last Name] on behalf of Philip Renton
+
+Decision:
+AIRCC reviewed the proposed AI Risk Appetite Statement framework ahead of consideration by FCORC and ARC.
+
+Key Discussion Points:
+
+* The proposal builds on the firm’s existing AI risk taxonomy by introducing a dedicated AI Usage and Execution Risk RAS metric focused on novel risks arising from generative and agentic AI, including hallucination, inappropriate reliance and unconstrained or unexpected agent actions.
+* The proposed framework includes four underlying components covering agentic execution events, inappropriate GenAI usage events, unapproved Category 1/2 use cases in production, and aged issues associated with AI risk.
+* Existing operational-risk metrics affected by the increased speed and scale of AI will be addressed separately, with initial enhancements expected in information and cybersecurity risk metrics.
+
+⸻
+
+[6] Broader Access to Developer AI Tools Follow-up – Posting
+
+Deferred to the next AIRCC meeting.
+
+A few judgment calls I made
+
+The biggest one is Funds Data Extraction. Although the presenters are still gathering broader evidence, AIRCC explicitly approved it, and Michael made clear that approval is contingent on the usual separate Model Risk, Tech Risk and other control processes. Given it is a Tier 1 model feeding ICR, I think those should be recorded as formal pre-go-live conditions rather than merely discussion points.
+
+For Marquee AI, I treated outside counsel as a genuine pre-go-live condition because Pam explicitly said, “I want to make that a pre-go live condition,” and Caroline captured it in her closing recap. I treated the Hong Kong/India analysis as a follow-up rather than a blocker to the approved rollout, because AIRCC explicitly narrowed today’s approval to US/EMEA. If the business later wants Hong Kong or India, that analysis must be completed first.
+
+I also intentionally did not make Daniel’s implicit-feedback idea a pre-go-live condition. He explicitly said it was not a prerequisite for approval, so it belongs under Other Follow-ups.
+
+One thing I would verify before finalizing is the exact control-side names for the Funds Legal/Compliance/Privacy condition and the Marquee Compliance/outside-counsel condition. The transcript makes the functions clear, but not every individual owner assignment is explicit. I would rather leave a name as a placeholder than attribute formal accountability to the wrong person.
+
+
+
+
+
+
+
 * MRM completed the current phase of the IRB uplift, approving [X models / key models, including Super Large Corporate, Private Funds and ASL]. The multi-year program enhances the firm’s internal credit rating framework supporting regulatory capital and broader credit risk management across jurisdictions.
 * The current phase involved [X validations / X MRM resources / approximately X months or years of work], covering [key portfolios/model areas] and addressing key methodology, calibration, implementation and model performance considerations.
 * Remediation of medium-severity findings required for closure ahead of the PRA submission is [complete / in progress and on track], covering methodology, PD calibration, key assumptions, testing, implementation and ongoing monitoring. [X of Y findings have been closed, with the remaining X targeted for closure by DATE].
