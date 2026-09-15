@@ -1,3 +1,9 @@
+    Commodities: MRM is reviewing enhancements to the foundational GnF model used to model commodity option risk across the U.S. and London businesses.
+    * The current framework was originally designed primarily for oil markets and has since been adapted separately by region to accommodate the growth of daily options, particularly in Power and Gas.
+    * These incremental adjustments have resulted in different U.S. and London approaches and a less consistent treatment of risk across option expiry and delivery periods.
+    * The proposed redesign establishes a single methodology across both businesses and better reflects current market structure; MRM review is in progress with approval targeted for mid-October.
+
+
 
 I’d tighten this into a more CRO-style structure, with MRM’s role and conclusions up front.
 
