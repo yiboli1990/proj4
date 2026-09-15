@@ -1,4 +1,31 @@
-    Funds Data Extraction, an AI capability that extracts financial and credit data from fund documents to support fund onboarding, classification, and internal credit ratings, with phased rollout beginning with hedge funds.
+
+I’d tighten this into a more CRO-style structure, with MRM’s role and conclusions up front.
+
+Top of Mind
+
+* MRM completed the current phase of the PRA IRB uplift, approving 10 models and completing independent review of ~600 rule-compliance assessments.
+    * The work covered the PD Master Scale, Corporate, and Super Large Corporate models, with all medium-severity findings required for the PRA submission remediated and closed.
+    * This completes a major phase of the multi-year credit risk uplift, with next-phase work focused on [XXX].
+
+Validation Activities
+
+* Commodities: MRM is reviewing a proposed redesign of the foundational GnF model to establish a unified approach across the U.S. and London businesses and better reflect current Power and Gas option markets.
+    * The existing framework has evolved through separate regional adjustments as daily options became more significant.
+    * The proposed methodology introduces a more structured treatment across option expiry, futures expiry, and delivery periods, using GnF 2F and cash-volatility approaches where appropriate.
+    * MRM review is in progress, with approval targeted for mid-October.
+* CCR: MRM is finalizing its review of enhancements to Equity Relative Value (RV+) within shortfall models for long/short equity funds (GBM Public, Tier 1).
+    * In response to MRM feedback, Strats further simplified the portfolio-volatility guardrail to provide a more stable phase-in alongside existing controls.
+
+Regulatory Updates
+
+* ECB ICAAP: Fieldwork for the 10-week on-site examination concluded on Sep. 4, with draft findings expected in late October/November ahead of the formal decision in Q1 2027.
+    * Following MRM’s response, the ECB removed its key challenge on reliance on developer-run ongoing monitoring versus independent MRM testing; remaining concerns are narrower and relate to selected testing enhancements and independent data-quality checks.
+* FRB NBFI exam: MRM participated in the on-site review of RWA governance and the DRC framework for banking book debt and securitization.
+    * MRM explained how DRC governance extends the firm’s model control framework across documentation, testing, and change control; the discussion went well with no significant concerns raised on the framework.
+
+
+
+Funds Data Extraction, an AI capability that extracts financial and credit data from fund documents to support fund onboarding, classification, and internal credit ratings, with phased rollout beginning with hedge funds.
 * Externalization of Marquee AI to an initial group of sophisticated institutional GBM Public clients in the U.S. and EMEA, providing source-linked responses to market-related queries through email.
 * Visual Structuring AI, a conversational AI capability embedded within Visual Structuring that enables internal Sales and Trading users and external clients to create, modify, and analyze trade structures using natural-language prompts, without trade execution capability.
 
