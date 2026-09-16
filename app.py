@@ -1,3 +1,18 @@
+Collateralized Lending
+
+* Continued model development to support growth into new asset classes, collateral types, and regions, alongside enhancements to valuation, Tail Risk, FLR, and CECL/CCAR models.
+* Ongoing validation includes new valuation models for LatAm Margin Loans and Aviation loans, as well as extensions for EMEA residential lending portfolios.
+* New OAS time series for Mortgage Servicing Rights and Consumer Loans have been developed to improve Tail Risk calibration and reduce reliance on broader asset-class proxies; validation is in progress.
+* CECL/CCAR enhancements are also underway for direct CRE lending to better capture debt-service coverage and guarantor recourse, addressing prior MRM feedback.
+
+Marcus EU – Ireland
+
+* MRM approved new assumptions for the Bank Overnight Deposit model, supporting the new business activity introducing Marcus retail deposits in Ireland and extending the franchise into the EU.
+* MRM review also drove enhancements to the supporting rate modeling, including incorporation of rate lag and corrected spot-rate treatment; no material model risk concerns were identified.
+
+
+
+
 Yes — I’d split it so the first bullet says what MRM approved, and the second explains what the enhancement actually does in plain language.
 
 * MRM approved enhancements to the Tier 1 IRP Copula model, extending the framework to additional USD- and KRW-denominated rate products.
