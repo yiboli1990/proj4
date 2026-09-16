@@ -1,3 +1,9 @@
+    MRM approved enhancements to the Tier 1 IRP Copula model, extending the framework to USD- and KRW-denominated multi-factor rate payoffs, including dual-spread and CMS structures.
+* The enhanced copula framework enables improved control-variate calibration for Dual Spread Range Accruals by better capturing dependence across the underlying rate factors.
+* The changes complete a multi-year development effort to transition approximately $1.5bn notional of long-dated GS Notes and CLNs to the enhanced framework, supporting improved dynamic risk and valuation adjustments.
+
+
+
 Yes
     New OAS time series for Mortgage Servicing Rights and Consumer Loans have been developed to provide more representative risk-factor data and reduce reliance on broader asset-class proxies; validation is in progress
 
