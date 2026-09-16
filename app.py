@@ -1,4 +1,26 @@
-    New OAS time series for Mortgage Servicing Rights and Consumer Loans to provide more representative historical data for Tail Risk scenario calibration and reduce reliance on broader asset-class proxies.
+Yes. I’d update the two sections as follows.
+
+Top of Mind — IRB
+
+Replace the last bullet with:
+
+* All [XXX] assessments initially rated Non-Compliant or Partially Compliant are now Compliant or Compliant with minor gaps, subject to final MRM confirmation before submission.
+
+This directly addresses Caroline’s request and keeps the focus on the uplift from the initial state.
+
+Validation Activities — ASL
+
+I’d reframe the section around the two broader drivers Shipra highlighted:
+
+* ASL: Continued model development to support growth into new asset classes and collateral types, alongside enhancements to risk-factor data supporting Tail Risk and downstream models.
+    * Current validation includes new valuation models for LatAm Margin Loans backed by sovereign bonds and Aviation loans backed by end-of-lease payments; related Tail Risk and FLR models will follow.
+    * As Tail Risk results are increasingly incorporated into committee approvals, the desk is developing more representative OAS histories for Mortgage Servicing Rights and Consumer Loans to improve scenario calibration and reduce reliance on broader asset-class proxies.
+
+I think this version is stronger because the opening sentence now explains why the ASL work is happening, rather than just listing model types.
+
+
+
+New OAS time series for Mortgage Servicing Rights and Consumer Loans to provide more representative historical data for Tail Risk scenario calibration and reduce reliance on broader asset-class proxies.
 
 
 Yes — I’d address Caroline’s comments with the following revisions.
