@@ -1,4 +1,7 @@
-Yes. I’d update the two sections as follows.
+Yes
+    New OAS time series for Mortgage Servicing Rights and Consumer Loans have been developed to provide more representative risk-factor data and reduce reliance on broader asset-class proxies; validation is in progress
+
+. I’d update the two sections as follows.
 
 Top of Mind — IRB
 
