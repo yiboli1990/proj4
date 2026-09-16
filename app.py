@@ -1,3 +1,15 @@
+I’d make it a little more polished and CRO-oriented, with the first line framing the broader program and the sub-bullets separating model coverage from data/history enhancement:
+
+ASL: Continued focus on enhancing valuation, Tail Risk, and Facility-Level Rating (FLR) models to support growth across the ASL business.
+
+* Recent validation activity includes new valuation models for Project and Infrastructure Finance (approved), with LatAm Margin Loans backed by sovereign bonds and Aviation loans backed by end-of-lease payments under review; related Tail Risk and FLR models will follow.
+* For Mortgage Servicing Rights and Consumer loans, new OAS time series are being developed using external pricing and securitization data to provide more granular, collateral-specific risk histories and strengthen scenario design.
+
+If you want it even more CRO-like, I’d slightly tighten the second bullet to:
+
+* For Mortgage Servicing Rights and Consumer loans, new OAS time series are being developed using external pricing and securitization data to improve collateral-specific risk histories and scenario design.
+
+
 Your manager’s notes support both, but the distinction matters:
 
 * Daniel (Council member) raised the idea and explained the rationale: whether the team could collect implicit feedback, such as subsequent client actions, to assess whether the response had utility. He also explained why this could be useful for product improvement and monitoring.
