@@ -1,3 +1,40 @@
+Yes — I’d address Caroline’s comments with the following revisions.
+
+Top of Mind — add one simple rule-compliance bullet
+
+* All 713 rule-compliance assessments are now rated Compliant or Compliant with minor gaps, with identified gaps addressed and subject to final MRM confirmation before submission.
+
+Commodities — replace the first sub-bullet
+
+The key point is not simply that the model was designed for oil; it is that the framework predates the growth of daily Power and Gas options, and the U.S. and London businesses developed different workarounds over time.
+
+* The existing framework predates the growth of daily options in Power and Gas, leading the U.S. and London businesses to adopt different approaches for these products.
+* The proposed redesign establishes a single methodology across both businesses and better reflects the current market structure.
+
+That should be much clearer to Alex.
+
+ASL — fix the grammar
+
+Change the header to:
+
+* ASL: Continued focus on enhancing desk valuation, Tail Risk, and Facility-Level Rating (FLR) models, with ongoing efforts including validation of:
+
+ASL — clarify the OAS time-series bullet
+
+By “granular, collateral-specific risk histories,” what you really mean is that the new data provide historical spread behavior for the underlying asset types, rather than relying on broader proxies, which helps with scenario calibration.
+
+I’d rewrite it as:
+
+* New OAS time series for Mortgage Servicing Rights and Consumer Loans, using external pricing and securitization data to provide more representative historical spread behavior and improve scenario design.
+
+Or, if you want to retain the collateral angle:
+
+* New OAS time series for Mortgage Servicing Rights and Consumer Loans, using external pricing and securitization data to better capture historical spread behavior of the underlying collateral and improve scenario design.
+
+I prefer the second version because it explains exactly what “collateral-specific” was intended to mean.
+
+
+
 For CRO, I’d update the IRB section to make the effort and next phase clearer:
 
 Top of Mind
