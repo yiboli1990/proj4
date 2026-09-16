@@ -1,4 +1,17 @@
-    MRM approved enhancements to the Tier 1 IRP Copula model, extending the framework to USD- and KRW-denominated multi-factor rate payoffs, including dual-spread and CMS structures.
+Yes — I’d split it so the first bullet says what MRM approved, and the second explains what the enhancement actually does in plain language.
+
+* MRM approved enhancements to the Tier 1 IRP Copula model, extending the framework to additional USD- and KRW-denominated rate products.
+* The enhancement allows the model to better capture the joint behavior of multiple underlying rate factors, including combinations of spreads and CMS rates, for more complex structured products.
+* The enhanced copula framework enables improved control-variate calibration for Dual Spread Range Accruals by better capturing dependence across the underlying rate factors.
+* The changes complete a multi-year development effort to transition approximately $1.5bn notional of long-dated GS Notes and CLNs to the enhanced framework, supporting improved dynamic risk and valuation adjustments.
+
+I think this is much more understandable for a CRO audience because it avoids “4D/5D,” “joint binaries,” and “numeraire,” while still explaining the substance.
+
+
+
+
+
+MRM approved enhancements to the Tier 1 IRP Copula model, extending the framework to USD- and KRW-denominated multi-factor rate payoffs, including dual-spread and CMS structures.
 * The enhanced copula framework enables improved control-variate calibration for Dual Spread Range Accruals by better capturing dependence across the underlying rate factors.
 * The changes complete a multi-year development effort to transition approximately $1.5bn notional of long-dated GS Notes and CLNs to the enhanced framework, supporting improved dynamic risk and valuation adjustments.
 
