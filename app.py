@@ -1,3 +1,6 @@
+    New OAS time series for Mortgage Servicing Rights and Consumer Loans to provide more representative historical data for Tail Risk scenario calibration and reduce reliance on broader asset-class proxies.
+
+
 Yes — I’d address Caroline’s comments with the following revisions.
 
 Top of Mind — add one simple rule-compliance bullet
