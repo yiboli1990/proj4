@@ -1,3 +1,12 @@
+For CRO, I’d update the IRB section to make the effort and next phase clearer:
+
+Top of Mind
+
+* MRM completed the current phase of the PRA IRB uplift, approving 10 models and completing independent review of ~600 rule-compliance assessments.
+    * The validation engaged six MRM validators over ~9 months, covering the PD Master Scale, Corporate, and Super Large Corporate models, with all medium-severity findings required for the PRA submission remediated and closed.
+    * Next-phase work will focus on follow-up actions arising from the PRA review and validation of additional obligor groups, including Funds.
+
+
 I’d make it a little more polished and CRO-oriented, with the first line framing the broader program and the sub-bullets separating model coverage from data/history enhancement:
 
 ASL: Continued focus on enhancing valuation, Tail Risk, and Facility-Level Rating (FLR) models to support growth across the ASL business.
