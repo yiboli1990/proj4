@@ -1,3 +1,8 @@
+Yes, combining them makes sense. I’d use:
+
+* Tail Risk enhancements include new OAS time series for Mortgage Servicing Rights and Consumer Loans to reduce reliance on broader asset-class proxies, as well as multi-path approaches to better differentiate risk where existing single-path methodologies have limitations; validation is in progress.
+
+
 Collateralized Lending
 
 * Continued model development to support growth into new asset classes, collateral types, and regions, alongside enhancements to valuation, Tail Risk, FLR, and CECL/CCAR models.
