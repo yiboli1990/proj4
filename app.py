@@ -1,3 +1,33 @@
+I would make the section more Board-oriented by emphasizing what changed, why it matters, and the risk/control outcome, while reducing validation mechanics where they are not essential.
+
+Validation Activity
+
+* Model Risk approved ten models used to estimate Probability of Default (PD) and Internal Credit Ratings (ICR) for corporate counterparties and completed independent review of 713 rule-compliance assessments, completing a key phase of the multi-year ICR enhancement program ahead of the Prudential Regulation Authority (PRA) submission.
+    * All three high-severity findings, related to implementation errors, incomplete development data, and documentation deficiencies, were remediated prior to approval.
+    * All medium-severity findings and rules initially assessed as non-compliant or partially compliant have been addressed ahead of the month-end PRA submission.
+
+For AI, I would shift away from individual approvals and make the first bullet carry the story:
+
+* The Artificial Intelligence (AI) model inventory continues to grow as AI capabilities expand across the firm; while the inventory remains predominantly concentrated in lower-risk tiers, Model Risk is seeing increased activity in higher-risk Tier 2 and Tier 3 models, including agentic and externally facing use cases with greater autonomy, complexity, and potential business impact.
+    * Recent examples include a Global Banking & Markets (GBM) Public agentic AI model that responds to trader queries on market research, trade ideas, and scenario analysis, and enhancements to an existing neural-network model used to price equity share buybacks.
+
+For the SIMM item, I would simplify substantially:
+
+* Model Risk approved a revised Interest Rate Delta methodology for the New York Volex portfolio used in the Standard Initial Margin Model (SIMM), addressing a validation finding that had contributed to overstated initial margin and persistent counterparty disputes.
+    * Following implementation, disputed amounts declined by $146 million, supporting resolution of a longstanding dealer dispute and related regulatory reporting.
+
+For Net Interest Income / PPNR, I would make the opening bullet one sentence and tighten the second:
+
+* Model Risk approved Net Interest Income (NII) enhancements across seven GBM Trading models, explicitly incorporating NII into Pre-Provision Net Revenue (PPNR) projections and addressing prior Federal Reserve Board (FRB) feedback, representing one of the most significant PPNR modeling enhancements in recent years.
+    * All nine high-severity findings related to implementation errors, unsupported assumptions, and input accuracy were remediated through model enhancements prior to approval.
+
+A few deliberate changes:
+
+* I used “higher-risk Tier 2 and Tier 3 models” rather than making the AI section sound like an inventory list.
+* I removed the dealer identity and National Futures Association / Securities and Exchange Commission filing detail from the SIMM bullet because it distracts from the Board-level message; “related regulatory reporting” is enough unless the filing itself is important to the Board.
+* I changed PPR → PPNR because the standard term is Pre-Provision Net Revenue.
+
+
 The main discussion was around how to frame the upcoming BRC materials, with a clear direction to move away from a list of individual model validations and toward thematic, business-relevant updates. Below is what I would take away from the transcript.
 
 1. BRC materials — overall approach
