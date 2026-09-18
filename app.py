@@ -1,3 +1,117 @@
+The main discussion was around how to frame the upcoming BRC materials, with a clear direction to move away from a list of individual model validations and toward thematic, business-relevant updates. Below is what I would take away from the transcript.
+
+1. BRC materials — overall approach
+
+The upcoming BRC meeting appears to be in October, with the prior MRM reporting having been around early June, so there are roughly four months of developments to cover.
+
+For the Executive Summary / key topics, the preliminary candidates are IRB uplift, AI, key model approvals/business initiatives, and potentially ASL-related activity. Caroline’s main feedback was that the materials should not read as a series of “we approved X, then Y, then Z.” Instead, each topic should explain the broader trend, business initiative, or risk-management development, with individual validations used only as supporting examples.
+
+This same principle should also be applied to CRO reporting: connect MRM work to initiatives that senior management already recognizes rather than focusing primarily on validation names.
+
+2. AI — needs a thematic story
+
+This was probably the clearest feedback for the BRC draft.
+
+Rather than emphasizing specific GenAI/agentic AI validations, the BRC materials should describe the evolution of the AI model inventory. The suggested storyline was:
+
+The AI model inventory continues to grow. While the inventory remains predominantly concentrated in lower-risk tiers, MRM is beginning to see increased activity in higher-risk models, including Tier 2 / Tier 3 use cases.
+
+Then use one or two meaningful validations/business initiatives as examples if helpful.
+
+Follow-up: work with Bo to develop the broader AI story, including:
+
+* growth/trend in the GenAI/agentic AI inventory;
+* whether higher-tier AI models are becoming more prevalent;
+* notable business initiatives coming through the pipeline that would be meaningful to the Board.
+
+The important point is that the Board should understand what is changing in the firm’s use of AI and the associated model-risk profile, rather than simply seeing a validation inventory.
+
+3. AI policy / standards changes — avoid duplication
+
+There is expected to be a separate standalone AI presentation/deep dive to the Board in October.
+
+Because of that, Caroline questioned whether MRM should separately include the AI policy/standards changes in its own BRC materials. The concern was having the same AI policy discussion “sprinkled” across several sections of the Board materials.
+
+The instruction was essentially: do not speculate—check with the BRC team. Confirm with Ramy/Jalen whether:
+
+* AI policy changes should be omitted from the MRM section because they are covered in the standalone AI presentation; or
+* BRC still wants a brief reference under the CRO Focus Area.
+
+If there is already a dedicated AI presentation, the preference seems to be to leave detailed AI policy changes out of the MRM Executive Summary.
+
+4. IRB uplift — likely a major BRC topic
+
+The IRB uplift should be included as a key topic and likely appear in both the Executive Summary and CRO Focus Area.
+
+There was an important nuance here: IRB uplift should not be framed solely as an MRM validation update. It is a broader Risk Division initiative because Risk is developing the underlying models and MRM is providing independent review/validation.
+
+So the BRC framing should be something closer to:
+
+IRB Uplift: Risk and MRM continue to progress the IRB model uplift program, with [key approvals/milestones] completed during the period and [remaining work / regulatory milestone] underway.
+
+Then add the important approvals or milestones underneath rather than leading with individual validations.
+
+Follow-up: check with Jalen/Ramy on how the broader Risk Division IRB story will be represented in the CRO Focus Area so that MRM’s content aligns with it.
+
+5. Executive Summary vs. CRO Focus Area
+
+You asked during the meeting whether the IRB topic belongs in the Executive Summary or CRO Focus Area. Caroline clarified that it can appear in both, consistent with the existing BRC structure.
+
+The distinction discussed was approximately:
+
+* Executive Summary: key MRM developments and themes since the prior BRC update.
+* CRO Focus Area: broader, ongoing risk topics/events that warrant Board attention.
+
+Therefore, IRB can be summarized in the Executive Summary while the CRO Focus Area provides the broader Risk Division context.
+
+6. ASL / key validations — again, tell the bigger story
+
+The same feedback applies to ASL. Avoid:
+
+Validated Model A; approved Model B; completed Model C.
+
+Instead, explain that there is a significant body of model development/validation activity supporting ASL initiatives, explain what business/risk initiative is driving that work, and then cite selected important approvals as evidence.
+
+Caroline specifically suggested pushing stakeholders to provide this type of business context earlier in the reporting process, rather than MRM trying to reconstruct the broader story from validation records at the end.
+
+7. Other candidate BRC topics
+
+A few other topics were considered:
+
+NII / CCAR enhancements: You raised the NII enhancements for CCAR. Caroline thought they could potentially be included but noted that there is already an annual CCAR update, so this may be duplicative. Put it in the preliminary draft if useful, but get Bill’s view on whether it warrants inclusion.
+
+IR Delta backbone methodology: You suggested the pricing-model IR Delta backbone methodology enhancement. This had previously been drafted for a CRO Focus Area but was not ultimately selected. Since Bill had responded positively to the topic previously, the current thought is to include it initially as a candidate topic and let Bill decide.
+
+CCR / collateralized lending: These were covered in detail at the prior BRC and have been relatively quiet this quarter. The current direction is not to include CCR or collateralized lending unless something material changes.
+
+RV+ remains ongoing and could potentially be referenced depending on developments, but there was no clear direction in this discussion that it should be a headline BRC topic.
+
+8. What I would put in the preliminary BRC draft
+
+Based strictly on this discussion, I would structure the first draft roughly as:
+
+Executive Summary
+
+* IRB Uplift — broader program progress + major MRM milestones/approvals.
+* AI / GenAI & Agentic AI — inventory growth, evolving risk-tier composition, higher-tier activity, and selected meaningful business initiatives.
+* ASL / key business initiatives — thematic description of the body of model work supporting ASL rather than a validation list.
+* Other significant model developments — potentially IR Delta backbone and/or NII/CCAR, subject to Bill’s view.
+
+CRO Focus Areas
+
+* IRB Uplift — broader Risk Division/regulatory story, coordinated with Jalen/Ramy.
+* AI — only if BRC wants a CRO Focus Area reference in addition to the standalone AI presentation.
+* IR Delta backbone — candidate topic for Bill’s consideration.
+
+I would not currently include CCR/collateralized lending, given the explicit comment that those topics have been quiet since the detailed prior update.
+
+Separately from BRC, the meeting also covered the October 1 RCSA/MRMT migration. The proposed approach was to migrate the model IDs/AU structure on October 1, have Core Engineering establish the updated RCSA structure/mapping, and then perform the annual IR calculation under the unchanged methodology. The key concern was ensuring the October 1 migration does not distort Q4 reporting or quarter-over-quarter change calculations; you were asked to confirm the timing with Tanya/the relevant M team before proceeding.
+
+There were also two additional FRB exams/topical reviews that need to be added to the ongoing-exams tracker: the FRB IRR topical study and Prime IOS exam.
+
+
+
+
 Yes, combining them makes sense. I’d use:
 
 * Tail Risk enhancements include new OAS time series for Mortgage Servicing Rights and Consumer Loans to reduce reliance on broader asset-class proxies, as well as multi-path approaches to better differentiate risk where existing single-path methodologies have limitations; validation is in progress.
