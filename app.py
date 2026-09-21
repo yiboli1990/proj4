@@ -1,3 +1,11 @@
+Yes, this addresses the comment because it clearly separates the broader ICR uplift from the PRA IRB application / rule-compliance work. I’d tighten the wording slightly:
+
+* Model Risk completed a key milestone in the multi-year Internal Credit Ratings (ICR) enhancement program, supporting the firm’s Enterprise Risk Management Framework (ERMF) uplift plans and addressing regulatory feedback on the existing ICR framework.
+    * This included approval of ten models used to assess Probability of Default (PD) and ICR for corporate counterparties, as well as independent review of 713 rule-compliance assessments as part of the Prudential Regulation Authority (PRA) Internal Ratings-Based (IRB) application and broader enhancements to regulatory compliance governance.
+    * All three high-severity findings related to implementation errors, incomplete development data, and documentation deficiencies, as well as all 24 medium-severity findings required for closure for the PRA submission, were remediated; all rules initially assessed as non-compliant or partially compliant were also addressed ahead of the September month-end submission.
+
+The main improvement is that the first bullet now clearly says what the overall program is for, while the sub-bullets explain the specific model approvals and PRA-related work.
+
 Yes. I would address the comments by separating the broader ICR uplift from the PRA IRB application and rule-compliance work, then use the suggested AI lead-in almost verbatim.
 
 Validation Activity
