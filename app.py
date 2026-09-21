@@ -1,3 +1,27 @@
+I would make this a short management update with three main bullets, one per workstream, and use the sub-bullets for timing, progress, and concerns.
+
+Capital Rules Implementation – Model Validation Update
+
+* FRTB-SA
+    * EMEA validation is underway, with the core FRTB-SA models submitted and validation targeted for Q4 2026; the corresponding FRB work is scheduled later, primarily in 2027.
+    * Initial concerns have been identified regarding interpolation used in the sensitivity calculations for the core SBM models; severity is being assessed.
+    * No broader timeline concerns have been identified at this stage.
+* FRTB-IMA
+    * PRA and FRB development is progressing largely in parallel, with most model development targeted for Q3 2026. PRA validation is primarily targeted for Q4 2026, with corresponding FRB validation generally following in Q1 2027.
+    * Several risk-factor models have been submitted and validation is underway; however, a number of core IMA models targeted for Q3 development have not yet been submitted.
+    * Given the Q4 PRA validation timeline, further development delays could compress the validation window; submission timing is being monitored closely with developers.
+* CVA
+    * Validation of the core SA-CVA desk engines and aggregator models is underway, with most models submitted; PRA validation is generally ahead of the corresponding FRB timeline.
+    * A high-severity concern has been communicated to developers for the IRP desk engine, related to insufficient evidence demonstrating the stability of vega sensitivities.
+    * Validation of CVA tradable models is also underway. Several models have been submitted and are under validation, while others remain pending developer submission; timing will continue to be monitored.
+
+For recurring updates, I would keep exactly these three headings every time. Under each, the first sub-bullet is timeline/status, the second is progress, and the third is issues/risks. That will make month-to-month changes very easy for Bill and others to follow.
+
+
+
+
+
+
 I would make the section more Board-oriented by emphasizing what changed, why it matters, and the risk/control outcome, while reducing validation mechanics where they are not essential.
 
 Validation Activity
