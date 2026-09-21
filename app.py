@@ -1,3 +1,17 @@
+Yes. I would address the comments by separating the broader ICR uplift from the PRA IRB application and rule-compliance work, then use the suggested AI lead-in almost verbatim.
+
+Validation Activity
+
+* Model Risk completed a key phase of the multi-year Internal Credit Ratings (ICR) enhancement program, approving ten models used to assess corporate counterparties, including Probability of Default (PD) models supporting credit risk management and regulatory capital.
+    * As part of the Prudential Regulation Authority (PRA) Internal Ratings-Based (IRB) application, Model Risk also completed independent review of 713 rule-compliance assessments and strengthened governance around regulatory compliance.
+    * All three high-severity and 24 medium-severity findings were remediated, and all rules initially assessed as non-compliant or partially compliant were addressed ahead of the September month-end PRA submission.
+* Artificial Intelligence (AI) adoption continues to grow across the firm. While the inventory remains concentrated in lower-risk tiers, Model Risk is seeing growth in agentic AI models with greater autonomy and complexity. Recent approvals include:
+    * A Tier 1 Global Banking & Markets (GBM) Public agentic AI model (Prism) that responds to trader queries on market research, trade ideas, and scenario analysis through automated email responses.
+    * Enhancements to a Tier 1 GBM Public neural network-based machine learning model (Buyback ML Pricer), used to price equity share buybacks, to support multi-currency transactions and additional daily execution constraints.
+
+For the ICR section, this now gives the Board the hierarchy your reviewer was asking for: broader ICR program first → PRA/IRB regulatory application second → findings/rule-compliance outcome third.
+
+
 I would make this a short management update with three main bullets, one per workstream, and use the sub-bullets for timing, progress, and concerns.
 
 Capital Rules Implementation – Model Validation Update
