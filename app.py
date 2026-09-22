@@ -1,3 +1,24 @@
+For the Board CRO Focus Areas, I’d make these more thematic than the Validation Activity section. The Description should explain why the topic matters; the Actions should capture what Model Risk/the firm has done.
+
+Internal Credit Ratings (ICR) Enhancement Program
+
+Description:
+• The firm is completing a multi-year enhancement of the Internal Credit Ratings (ICR) framework as part of the Enterprise Risk Management Framework (ERMF) uplift plan and to address regulatory feedback, including requirements supporting the Prudential Regulation Authority (PRA) Internal Ratings-Based (IRB) application.
+
+Actions:
+• Model Risk approved ten ICR and Probability of Default (PD) models and completed independent assessment of regulatory compliance for the PRA IRB application; all three high-severity findings related to implementation errors and incomplete development data, all 24 medium-severity findings, and other areas of non-compliance were addressed ahead of submission.
+
+Artificial Intelligence (AI)
+
+Description:
+• Artificial Intelligence (AI) adoption continues to grow across the firm; while the model inventory remains concentrated in lower-risk tiers, Model Risk is seeing increased use of agentic AI with greater autonomy and complexity, requiring continued evolution of the associated control framework.
+
+Actions:
+• The firm continues to refine minimum control requirements for agentic AI, and the Firmwide AI Risk Committee (ARC) approved enhancements to the Firmwide AI Policy and Standard that expand AI inventory and risk-tiering requirements and establish stronger development controls, including restrictions on AI use-case development and use of AI coding tools by non-Engineers.
+
+
+
+
 Caroline is correct. The transcript makes a clear distinction between two kill-switch mechanisms, and our original bullet blurred them together.
 
 David said there are:
