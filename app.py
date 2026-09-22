@@ -1,3 +1,18 @@
+I agree with the comment. This is not really a documentation deficiency. The substantive concern is that the production implementation did not correctly enforce the intended economic relationships, allowing some risk factors to affect ratings in the opposite direction from the model rationale. For BRC, that is much more meaningful.
+
+I would revise the last bullet to:
+
+* All three high-severity findings related to implementation errors, incomplete development data, and incorrect enforcement of intended economic relationships between risk factors and ratings, as well as all 24 medium-severity findings and other areas of non-compliance, were addressed ahead of the PRA submission.
+
+If you want it slightly less technical for the Board:
+
+* All three high-severity findings related to implementation errors, incomplete development data, and model behavior inconsistent with intended economic relationships, as well as all 24 medium-severity findings and other areas of non-compliance, were addressed ahead of the PRA submission.
+
+I prefer the second version for BRC. It captures the substantive model-risk concern without getting into constrained regression, marginal effects, or interaction effects.
+
+
+
+
 Below is how I would draft the 9/22 AIRCC minutes, using Caroline’s end-of-item recap as the authority for pre-go-live conditions/follow-ups and using the new “In response to questions on…” style more consistently. I’ve kept material already covered in the deck out of the discussion points unless the live discussion added something substantive.
 
 [1] GS AI Smart Router – Approval
