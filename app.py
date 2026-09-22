@@ -1,4 +1,114 @@
+Below is how I would draft the 9/22 AIRCC minutes, using Caroline’s end-of-item recap as the authority for pre-go-live conditions/follow-ups and using the new “In response to questions on…” style more consistently. I’ve kept material already covered in the deck out of the discussion points unless the live discussion added something substantive.
+
+[1] GS AI Smart Router – Approval
+
+Presenter: Rahul Sharma
+
+Decision:
+AIRCC approved integration of the GS AI Smart Router into GS AI Assistant through Auto Mode. Approval is limited to GS AI Assistant; use of the Smart Router for other applications or use cases will require separate AIRCC approval.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+None.
+
+Key Discussion Points:
+
+* In response to questions on ongoing performance monitoring and learning, the presenter confirmed that production logging will capture the router recommendation, user-selected model, predicted quality, cost, latency and token usage to identify performance drift and inform future tuning or retraining. Council members discussed the potential to develop a more systematic feedback loop over time using observed user behavior.
+* In response to questions on independent testing, MRM confirmed that its independent evaluation produced results broadly consistent with the development team’s testing, including similar relative model performance and efficiency-frontier results.
+* In response to questions on comparable routing capabilities in other AI platforms, the presenter noted that model routing is increasingly incorporated into external AI products, while the GS implementation is intended to provide a firm-controlled routing layer across models and providers.
+* In response to questions on incorporating new models, the presenter clarified that the router can be incrementally retrained as additional models become available rather than requiring a full retraining. Council members also discussed the need for the GS routing layer to evolve as model providers increasingly introduce their own underlying routing capabilities.
+* In response to questions on rollout, the presenter confirmed that the Smart Router will initially operate in production in logging mode to evaluate routing performance before Auto Mode is enabled for users.
+
+I think five bullets is appropriate here. The discussion was substantive, but there were no conditions or actions coming out of it. I would not include the detailed cost-savings percentages, architecture, prompt caching, stateless design, etc., because those are already in the materials.
+
+⸻
+
+[2] KYC Extraction-Validation Agent – Approval
+
+Presenters: Matti Schreibman, David Olivares and team
+
+Decision:
+AIRCC approved the KYC Extraction-Validation Agent for the Phase 1 production rollout across Asset Management, Global Banking & Markets and Wealth Management, within the specified client-type and jurisdictional scope. The initial rollout will operate under an MRM waiver while model validation is completed.
+
+Pre-go-live Conditions:
+
+1. Confirm the precise number of users within each rollout phase and document the approved initial user population.
+    (Owner: [TBD]; Control-side Contact: [TBD])
+
+Other Follow-ups:
+
+1. Establish standardized, documented and auditable training for users, including an approach for ongoing/annual training as the capability is scaled.
+    (Owner: [TBD]; Control-side Contact: [TBD])
+2. Confirm that the completed Tech Risk review was performed in accordance with the new AI security standard.
+    (Owner: [TBD]; Control-side Contact: [TBD])
+3. Update the application risk profile to reflect the agentic AI classification prior to the initial pilot.
+    (Owner: [TBD]; Control-side Contact: [TBD])
+
+These track Caroline’s closing recap exactly in substance. I would not add the kill-switch discussion as a follow-up because Caroline explicitly said it had been addressed during the discussion. Likewise, I would not turn the outstanding MRM validation into a separate pre-go-live condition because the agreed approach is to proceed under a waiver.
+
+Key Discussion Points:
+
+* In response to questions on differences in accuracy across divisions, the presenters explained that KYC files vary materially in complexity, client structure and number of required tasks, with GBM cases generally involving more complex client structures. The presenters noted that the agent has outperformed the corresponding human-maker results in testing across the respective divisional populations, while checker review remains required.
+* In response to questions on human-in-the-loop controls and the risk of incorrect agent responses, the presenters clarified that analysts and checkers are provided with the agent’s reasoning, supporting citations and applicable KYC guidance, providing an audit trail for reviewing proposed responses before case completion.
+* In response to questions on kill-switch thresholds, the presenters explained that the agent or production write-back can be stopped based on operational thresholds or observed performance, including the frequency with which human reviewers override agent responses. The initial rollout will be closely monitored given the limited user and client population.
+* In response to questions on the Guardian Agent, the presenters explained that it is planned for a subsequent phase to provide an independent post-process quality review analogous to the existing human PQA process. It will not replace the maker-checker control as part of the initial rollout.
+* In response to questions on the scope of the initial rollout, the presenters explained that client types and jurisdictions were selected based on complexity, available testing populations and demonstrated performance. Access will initially be limited to approximately 10–30 users per division/subdivision and enforced through entitlements, with broader deployment considered as experience is gained.
+* In response to questions on user training, the presenters confirmed that divisional training will be completed before access is granted to the initial hand-selected users. Council members emphasized that training should become standardized, documented and auditable as the capability scales.
+* In response to questions on Tech Risk and Hong Kong, the presenters confirmed that Tech Risk testing has been completed and identified issues remediated, and that Hong Kong users will not have direct access to the underlying Anthropic model. The team will separately confirm whether the Tech Risk review aligns with the new AI security standard.
+
+I would use seven bullets here despite normally preferring fewer. This discussion was materially more extensive than Smart Router, and each bullet captures a distinct Council challenge rather than repeating the deck.
+
+One subtle point: I would say “the presenters explained” rather than attribute the divisional-accuracy response solely to David. David initially answered Gayatri, but Steve then added the key explanation that no KYC file is identical and expanded on why the aggregate scores vary. This keeps the minutes accurate without unnecessarily tracking individual speakers.
+
+⸻
+
+[3] Code Review Assistant Guardrails Update – Approval
+
+Presenter: Hoshil Sepal
+
+Decision:
+AIRCC approved removal of the applicable LLM Gateway guardrails for the Code Review Assistant.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+None.
+
+Key Discussion Points:
+
+* The presenter clarified that the Code Review Assistant is a closed, non-interactive capability using fixed prompts, with existing development controls remaining in place. The requested change removes the applicable LLM Gateway guardrails and is consistent with the approach used for other approved developer tools.
+
+There really was no substantive Council discussion after the presentation—Caroline asked for questions or objections and there were none. So I would keep this to one bullet rather than manufacture additional discussion points.
+
+⸻
+
+[4] Administrative Items
+
+* Claude Code Auto Mode Approval – Posted following approval by Michael Schlee and Bill on behalf of AIRCC.
+* Code Review Assistant Follow-up – Posted in response to prior AIRCC follow-ups.
+
+Two points I would be particularly careful about
+
+For KYC, I would not write that the outstanding MRM validation is a pre-go-live condition. Caroline explicitly described the model as going live under a waiver while MRM completes validation, and then did not include MRM validation when she recapped the pre-go-live condition.
+
+Also, Caroline’s wording on the user population was specifically “for pre-go live condition, to pin down the precise number of users for each rollout phase.” I therefore would not weaken that into a generic follow-up—it belongs under Pre-go-live Conditions, exactly as your rule requires.
+
+
+
+
+
+
 Yes, this addresses the comment because it clearly separates the broader ICR uplift from the PRA IRB application / rule-compliance work. I’d tighten the wording slightly:
+
+
+
+
+
+
+
 
 * Model Risk completed a key milestone in the multi-year Internal Credit Ratings (ICR) enhancement program, supporting the firm’s Enterprise Risk Management Framework (ERMF) uplift plans and addressing regulatory feedback on the existing ICR framework.
     * This included approval of ten models used to assess Probability of Default (PD) and ICR for corporate counterparties, as well as independent review of 713 rule-compliance assessments as part of the Prudential Regulation Authority (PRA) Internal Ratings-Based (IRB) application and broader enhancements to regulatory compliance governance.
