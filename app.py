@@ -1,3 +1,52 @@
+For the CRO update, I’d keep the structure you already have and make relatively minor edits. For AIRCC, I’d emphasize what was approved and the practical purpose of each capability.
+
+AI Risk and Controls Council (AIRCC)
+
+* AIRCC approved:
+    * GS AI Smart Router (Engineering, Tier 2), which automatically routes prompts in GS AI Assistant to the most appropriate Large Language Model (LLM) based on cost, performance, and response quality, reducing reliance on users manually selecting models.
+    * Know Your Customer (KYC) Extraction-Validation Agent, an Anthropic-powered agentic AI that extracts and validates client information from documents against KYC requirements to support periodic client reviews across Asset Management, Global Banking & Markets (GBM), and Wealth Management.
+        * Initial rollout is limited to selected client types and jurisdictions, with human review required for all final decisions; Model Risk validation remains in progress and the initial rollout will operate under a model waiver.
+
+I think the KYC second bullet is worth including because the controlled rollout + human oversight + validation waiver are material from a CRO perspective. I would not include the detailed accuracy percentages, user counts, kill switch, or training requirements here unless they become important follow-ups.
+
+For completeness, your AIRCC section would then read:
+
+* AIRCC approved:
+    * Funds Data Extraction (Risk, Tier 1), used to extract financial and credit data from fund documents to support fund onboarding, classification, and internal credit ratings, with phased rollout beginning with hedge funds.
+    * Visual Structuring AI (GBM Public, Tier 2), a conversational AI capability embedded within Visual Structuring that enables internal Sales and Trading users and external clients to create, modify, and analyze trade structures using natural-language prompts.
+    * Externalization of Marquee AI (GBM Public, Tier 2) to an initial group of institutional GBM Public clients in the U.S. and Europe, Middle East and Africa (EMEA), providing source-linked responses to market-related queries through email.
+    * GS AI Smart Router (Engineering, Tier 2), which automatically routes prompts in GS AI Assistant to the most appropriate Large Language Model (LLM) based on cost, performance, and response quality, reducing reliance on users manually selecting models.
+    * Know Your Customer (KYC) Extraction-Validation Agent, an Anthropic-powered agentic AI that extracts and validates client information from documents against KYC requirements to support periodic client reviews across Asset Management, GBM, and Wealth Management. Initial rollout is limited to selected client types and jurisdictions, with human review required for all final decisions.
+
+Model Validation Activities
+
+I’d make only modest changes here:
+
+* MRM approved:
+    * Enhancements to the Buyback ML Pricer (GBM Public, Tier 1), a neural network-based non-Generative AI (GenAI) model used to price equity share buybacks, to support additional daily execution constraints.
+        * The enhancements support daily minimum and maximum share or notional limits based on the underlying’s overnight return, enabling pricing of an approximately €330 million share buyback transaction and resolution of the associated model waiver.
+    * Lupin AlgoNet (GBM Public, Tier 2), a Recurrent Neural Network (RNN)-based non-GenAI model used to generate corporate bond bid and ask quotes.
+        * The model uses market, sector, issuer, and security-specific data to generate quote ranges for downstream algorithmic trading, resolving an associated model waiver.
+    * Cookie Doc AI (Platform Solutions, Tier 3), an agentic AI model that classifies unattributed Apple Card customer documents and extracts Personally Identifiable Information (PII).
+    * QFC-DocAI (GBM Public, Tier 3), an agentic AI model that extracts predefined regulatory attributes from legal documents, including International Swaps and Derivatives Association (ISDA) Master Agreements, Prime Brokerage Agreements, and Margin Agreements, replacing the existing vendor solution.
+
+For Lupin, I changed “quote quantiles” → “quote ranges” because that is more CRO-friendly unless the quantile methodology itself is important.
+
+Program Updates
+
+Caroline’s comment means I would not say ARC approved the changes yet. I’d leave Wednesday’s outcome as an explicit placeholder:
+
+* Enhancements to the Firmwide AI Policy and Standard remain under review by the AI Risk Committee (ARC), with discussion scheduled to continue at an ad hoc meeting on September 23.
+    * [TBU following September 23 ARC discussion: outcome of ARC review and any approved changes / required follow-ups.]
+
+If you want this written so Wednesday’s update can be inserted with almost no rewriting, I’d instead use:
+
+* AI Policy and Standard enhancements: [TBU September 23] — ARC continued its review of proposed enhancements covering [AI inventory scope / agentic AI requirements / AI development and coding-tool restrictions]; [approval status and key follow-ups].
+
+I prefer the second format for a working CRO draft, because after Wednesday you can simply replace the placeholders rather than rewriting the bullet.
+
+
+
 I agree with the comment. This is not really a documentation deficiency. The substantive concern is that the production implementation did not correctly enforce the intended economic relationships, allowing some risk factors to affect ratings in the opposite direction from the model rationale. For BRC, that is much more meaningful.
 
 I would revise the last bullet to:
