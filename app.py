@@ -1,3 +1,23 @@
+Caroline is correct. The transcript makes a clear distinction between two kill-switch mechanisms, and our original bullet blurred them together.
+
+David said there are:
+
+* Systematic kill-switch triggers, including task duration and token-consumption thresholds.
+* Human-enabled kill-switch controls, based on observed accuracy/performance, including how frequently analysts override the agent’s answers. They can also stop the gated production write-back independently of killing the agent.
+
+I’d revise the bullet to:
+
+In response to questions on kill-switch thresholds, the presenters distinguished between systematic kill-switch controls, including thresholds based on task duration and token consumption, and human-enabled controls based on observed accuracy and the frequency with which analysts override agent responses. The presenters also confirmed that production write-back can be stopped independently through the gated promotion process.
+
+And I’d respond to Caroline:
+
+Yes, you’re right. There was a distinction between systematic kill-switch controls based on operational thresholds, such as task duration and token consumption, and human-enabled controls based on accuracy and analyst overrides. I’ve revised the bullet to make that distinction clear.
+
+I prefer the revised bullet because it captures the actual control architecture more precisely and removes the less useful sentence about the rollout being closely monitored.
+
+
+
+
 For the CRO update, I’d keep the structure you already have and make relatively minor edits. For AIRCC, I’d emphasize what was approved and the practical purpose of each capability.
 
 AI Risk and Controls Council (AIRCC)
