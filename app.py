@@ -1,3 +1,28 @@
+I found the prior discussion from the September 15, 2026 AIRCC meeting. The materials/transcript you provided contained the HITL/STP distinction Caroline is referring to.
+
+The relevant points from your materials were:
+
+High / Very High confidence fields are eligible for straight-through processing (STP), while lower-confidence fields require human review/sign-off.
+
+The discussion also explained that the confidence determination was not simply the LLM saying it was confident. It incorporated characteristics of the particular field together with the model’s extraction assessment. The discussion around the control design was that low-confidence fields would continue to be validated by a Credit Officer, whereas sufficiently high-confidence fields could proceed without that human validation.
+
+The rollout information you provided was:
+
+Hedge Funds: Q4 2026
+Mutual Funds: Q1 2027
+Private Funds: H2 2027
+
+And the transcript discussion specifically addressed the question of whether fields could be processed without HITL, with the answer being that this was contemplated for the higher-confidence population, while lower-confidence/ambiguous fields remained subject to human validation.
+
+So Caroline’s comment is well grounded in the original discussion. The key feature worth surfacing in the CRO update is not merely that the model extracts data—it is that the approved design permits straight-through processing without HITL for certain high-confidence extractions.
+
+I would therefore revise the CRO bullet to:
+
+Funds Data Extraction (Risk, Tier 1), used to extract financial and credit data from fund documents to support fund onboarding, classification, and internal credit ratings; the phased rollout beginning with hedge funds allows certain high-confidence extractions to be processed without human-in-the-loop (HITL) review.
+
+One caveat: I can recover the substantive content of the September 15 discussion, but I don’t have the entire verbatim transcript surfaced in the current chat. So I don’t want to present reconstructed wording as an exact quotation from that transcript.
+
+
 For the Board CRO Focus Areas, I’d make these more thematic than the Validation Activity section. The Description should explain why the topic matters; the Actions should capture what Model Risk/the firm has done.
 
 Internal Credit Ratings (ICR) Enhancement Program
