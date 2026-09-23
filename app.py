@@ -1,4 +1,32 @@
-        Other recent GenAI and agentic AI model approvals support a broad range of use cases across the firm, including operational efficiency, employee productivity, client engagement, and regulatory processes, including models supporting the OneGS 3.0 initiative.
+I’d make the email clear that Caroline is asking for a shift from “what models did we approve?” to “what are the emerging AI model risks, and how is Model Risk responding?” Since Bo likely has the best view of the broader AI validation portfolio, I’d also give him enough context to react quickly given the deadline.
+
+Subject: BRC CRO Focus Area – AI
+
+Hi Bo,
+
+We are finalizing the BRC materials, which are due tomorrow, and wanted to get your input on the AI CRO Focus Area following a comment from Caroline.
+
+Our current draft is:
+
+Description: Artificial Intelligence (AI) adoption continues to grow across the firm; while the inventory remains concentrated in lower-risk tiers, there is continued growth in agentic AI models with greater autonomy and complexity.
+
+Actions: Recent Model Risk approvals include Prism (GBM Public, Tier 2), an agentic AI model supporting market research and Sales and Trading queries, as well as additional Generative AI (GenAI) and agentic AI models supporting a range of use cases across the firm.
+
+Caroline’s feedback was that highlighting specific AI validations may not be thematic enough for a CRO risk focus area. She suggested that we work with you to develop a more thematic message around the key model risks we are seeing as GenAI/agentic AI adoption grows and what Model Risk is doing to address those risks.
+
+For example, based on recent validations, potential themes could include risks associated with hallucinations/model performance, increasing agent autonomy, model change controls given the rapid pace of development, human oversight, and ongoing monitoring. The Actions could then focus on how Model Risk is responding across the portfolio—for example, through enhanced validation/testing expectations, stronger monitoring and change-control requirements, and controls commensurate with the autonomy and risk of the use case—rather than listing individual model approvals.
+
+Could you please let us know what you think are the most important 1–2 thematic AI model risks and corresponding Model Risk actions we should highlight for the BRC? Any suggested language would also be very helpful.
+
+The materials are due tomorrow, so would appreciate your input when you have a chance.
+
+Thanks,
+Yibo
+
+
+
+
+Other recent GenAI and agentic AI model approvals support a broad range of use cases across the firm, including operational efficiency, employee productivity, client engagement, and regulatory processes, including models supporting the OneGS 3.0 initiative.
 
 
 
