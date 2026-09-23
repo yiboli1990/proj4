@@ -1,3 +1,27 @@
+Yes. There are several concrete checks/updates to complete before sending the BRC deck back to Bill. I’d separate them into Executive Summary changes and data/metric checks.
+
+Items to update / send back to Bill
+
+* Executive Summary – refresh Prism: Update the Prism AI item using the latest validation/approval status rather than the September 21 reporting-date status. Bill expects the substantially enhanced version following Marco’s feedback to be approved shortly and wants the BRC Executive Summary to reflect the latest available information before the meeting.
+* Executive Summary – reconsider Buyback ML Pricer: Bill noted that Buyback ML Pricer is Tier 1 but is not agentic/GenAI and may not be the most representative example of the evolution in AI risk. Review recent AI validations with Bo and determine whether there is a more meaningful agentic AI milestone to highlight. Potential examples discussed were Funds Oversight and Controllers Data Reconciliation; the recent Tier 3 approval and surveillance model were mentioned but did not appear particularly compelling. The overarching AI message on growth in agentic models should remain.
+* Executive Summary – remove NII: Bill would prefer to save the Net Interest Income (NII) modeling enhancements for the year-end CCAR presentation, given the history of the model and potential questions around why the prior framework had been approved. This creates space for another validation topic.
+* Executive Summary – identify replacement for NII: Review validation activity since June for a stronger fourth topic. Bill specifically asked about Liquidity Risk and Counterparty Credit Risk (CCR). A Liquidity Risk model enhancement was mentioned as a potential candidate. Private Banking / Unified Benchmark Model (PB/UBM) migration enhancements could also be considered, although this topic was covered in detail at the prior BRC. Send Bill the proposed replacement.
+* Inventory movements – provide underlying detail: Pull the raw inventory movement data and send Bill the drivers of the tier changes. In particular, explain the 19 Tier 3 → Tier 4 movements. The initial check indicates these are predominantly Global Investment Research (GIR) models following the previously discussed re-tiering. Also identify the Tier 2 → Non-Model movement and the other Tier 1/Tier 2 movements Bill asked about.
+* GIR Tier 4 governance: Confirm the ongoing requirements following the GIR re-tiering. The discussion indicated GIR will maintain the inventory and complete quarterly attestations, while Model Risk’s annual review will confirm that GIR’s internal peer-review process remains in place and has not identified changes that would increase model risk.
+* Validation Outcomes – clarify the 49 adverse outcomes: Provide Bill with the breakdown of the approximately 49 rejection / high-severity finding outcomes, including how many represent model rejections versus high-severity findings. Also confirm whether a model that is rejected and subsequently re-approved after remediation is counted as two validation outcomes, particularly where the re-approval is recorded as “No Validation.”
+* Annual Review Outcomes – validate the volume: Double-check the unusually high number of annual review outcomes versus the prior reporting period. The longer June–September reporting period may explain some of the increase, but Bill wants confirmation that the data are correct before the deck is finalized.
+
+Deck / format decisions
+
+No major format change is needed for this BRC. The team agreed to retain the existing BRC format until the proposed redesign has been properly socialized with Alex and reflected in policy. There was some openness to potentially removing Slide 7, but Bill was comfortable with the current approach, so I would not treat that as an action unless the team wants to simplify further.
+
+For the CRO Focus Area, keep the ICR/IRB uplift. AI policy/framework changes do not need to be repeated there because AI will be covered as a separate special topic; however, meaningful AI model-validation activity can still be included in the validation materials.
+
+The most important things to get back to Bill are therefore: (1) refreshed Prism, (2) recommendation on whether to replace Buyback with a stronger agentic AI example, (3) replacement for NII, (4) explanation of inventory movements, (5) breakdown/definition of the 49 validation outcomes, and (6) confirmation of the annual-review numbers.
+
+
+
+
 I found the prior discussion from the September 15, 2026 AIRCC meeting. The materials/transcript you provided contained the HITL/STP distinction Caroline is referring to.
 
 The relevant points from your materials were:
