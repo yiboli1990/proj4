@@ -1,3 +1,8 @@
+        Other recent GenAI and agentic AI model approvals support a broad range of use cases across the firm, including operational efficiency, employee productivity, client engagement, and regulatory processes, including models supporting the OneGS 3.0 initiative.
+
+
+
+
 I’d make three changes: refresh Prism to reflect the revalidation, replace the Buyback example with a broader statement showing the range of recent GenAI/agentic AI activity, and consolidate the two DocAI approvals in the CRO update as Caroline suggested.
 
 1. BRC Executive Summary — AI update
