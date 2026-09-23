@@ -1,3 +1,66 @@
+I’d make three changes: refresh Prism to reflect the revalidation, replace the Buyback example with a broader statement showing the range of recent GenAI/agentic AI activity, and consolidate the two DocAI approvals in the CRO update as Caroline suggested.
+
+1. BRC Executive Summary — AI update
+
+I would update the section to:
+
+Artificial Intelligence (AI)
+
+* Artificial Intelligence (AI) adoption continues to grow across the firm. While the inventory remains concentrated in lower-risk tiers, Model Risk is seeing growth in agentic AI models with greater autonomy and complexity. Recent validation activity includes:
+    * Revalidation of Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries. Model Risk approved the model subject to human oversight, while rejecting two new agentic features that had not undergone required testing and approval; two new medium-severity findings were raised related to hallucination monitoring and model change controls.
+    * Other recent Generative AI (GenAI) and agentic AI approvals span use cases including document extraction, data reconciliation, client-query management, surveillance, investment banking summaries, due diligence, employee and banker copilots, and AI-enabled search. This includes models supporting the OneGS 3.0 initiative through regulatory document extraction and Sales enablement.
+
+I think this is stronger than replacing Buyback with another individual model. It makes the point Bill was getting at: there is a broader pipeline of GenAI/agentic models rather than just one or two isolated approvals, while Prism gives the Board a concrete Tier 2 example.
+
+For Prism, I would not put the ~22% hallucination rate in the Executive Summary. It is meaningful, but without the detailed definition of the metric it could be misleading. The Board-relevant outcome is that performance improved but monitoring remains insufficient, resulting in a new finding. Similarly, the rejected Swarm/Loops functionality is worth mentioning because it demonstrates the model-change-control issue and the boundary of MRM approval.
+
+If you want slightly more emphasis on the residual risk, we could say:
+
+Model Risk approved the model subject to human oversight, while identifying continued limitations in hallucination monitoring and model change controls; two unapproved agentic features identified during revalidation were rejected and removed from production scope.
+
+I slightly prefer this version because it connects the facts rather than making the rejected features sound like the headline accomplishment.
+
+⸻
+
+2. CRO Top Focus Area — AI
+
+Since the Description should just capture the trend and the Actions should capture recent validation activity, I’d use:
+
+Artificial Intelligence (AI)
+
+Description:
+
+* Artificial Intelligence (AI) adoption continues to grow across the firm; while the inventory remains concentrated in lower-risk tiers, there is continued growth in agentic AI models with greater autonomy and complexity.
+
+Actions:
+
+* Recent Model Risk approvals include Prism (GBM Public, Tier 2), an agentic AI model supporting intraday market research and Sales and Trading queries, as well as additional Generative AI (GenAI) and agentic AI models supporting document extraction, data reconciliation, client-query management, surveillance, due diligence, and employee productivity, including use cases supporting the OneGS 3.0 initiative.
+
+This is probably enough for a CRO focus area. I would not bring the Prism findings into the Actions sentence unless the focus-area format is intended to surface specific risks. The Executive Summary gives us room for that detail.
+
+⸻
+
+3. Caroline’s comments — combine Cookie DocAI and QFC-DocAI
+
+I agree with Caroline’s suggestion. These are both Tier 3 document-extraction models using the DocAI platform, so two separate bullets make relatively small use cases look more prominent than they need to be. Combining them also lets us eliminate the awkward PII description.
+
+I would replace both existing bullets with:
+
+* Tier 3 Generative AI (GenAI) document-extraction models using the DocAI platform, including Cookie DocAI (Platform Solutions), which processes unattributed Apple Card customer documents, and Qualified Financial Contract (QFC)-DocAI (GBM Public), which extracts predefined regulatory attributes from legal agreements as part of the OneGS 3.0 regulatory reporting initiative.
+
+That addresses all three of Caroline’s comments:
+
+* Removes the unnecessary reference to personally identifiable information (PII).
+* Defines Qualified Financial Contract (QFC).
+* Makes clear that both are DocAI-based document-extraction use cases, rather than highlighting the platform for one and not the other.
+
+I also would drop “replacing the existing vendor solution” here. It is true for QFC-DocAI, but once we’re combining the two into a thematic bullet, that implementation detail distracts from the common theme Caroline is asking us to emphasize.
+
+If you want to preserve that QFC-DocAI is the more strategically notable of the two because of OneGS 3.0, the wording above already does that without giving it a separate bullet.
+
+
+
+
 Yes. There are several concrete checks/updates to complete before sending the BRC deck back to Bill. I’d separate them into Executive Summary changes and data/metric checks.
 
 Items to update / send back to Bill
