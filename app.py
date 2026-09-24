@@ -1,3 +1,6 @@
+    Other concerns include the high frequency of model changes, dependency on a single foundation model and vendor, and increasing cost and latency. These are being tracked through findings and observations and, where applicable, raised with Technology Risk and Operational Risk.
+
+
 Yes — five bullets will read better for a CRO update and let each risk theme stand on its own.
 
 * MRM approved Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries. MRM assessed that model risk remains elevated, with six outstanding findings and two observations.
