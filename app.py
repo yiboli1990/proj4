@@ -1,3 +1,20 @@
+Yes—this clarification changes how I would characterize the revalidation. I would not say there were significant changes to Prism’s agentic capabilities. The validator is distinguishing substantial software/security development from relatively limited model-risk changes.
+
+For the CRO update, I’d characterize the changes specifically as tighter context management and migration to Anthropic Opus 5, while noting the broader security uplift separately.
+
+Prism (GBM Public, Tier 2): Model Risk revalidated Prism, an agentic AI model that produces intraday market research and responds to Sales and Trading queries. Since the initial validation, Prism has undergone significant software development and security enhancements, while model changes included tighter context management and migration to Anthropic Opus 5.
+
+* Model Risk testing showed continued improvement in hallucination performance, while identifying deterioration in hallucination monitoring and model change controls; two new medium-severity findings and two observations were raised.
+* Model Risk also identified and rejected two new agentic capabilities (Swarm and Loops) that had not undergone required testing, documentation and pre-approval; these functionalities were subsequently removed and are outside the approved scope.
+* Prism was approved subject to appropriate human oversight and judgment, with material changes to the model, operating framework or scope of use requiring additional Model Risk review and approval.
+
+One thing I would be careful about is “deterioration in hallucination monitoring.” The underlying Prism performance actually improved; what worsened was the adequacy of its own hallucination detection/monitoring relative to the risk, while rapid code changes made change-control concerns more significant. If we want maximum precision for CRO, I’d instead say:
+
+Model Risk testing showed continued improvement in hallucination performance, while identifying the need to further strengthen hallucination monitoring and model change controls; two new medium-severity findings and two observations were raised.
+
+I prefer this wording.
+
+
 I understand the timing is tight, so no need to turn anything around for tomorrow. I plan to send the current version to Bill first thing tomorrow morning for his review, but wanted to get your thoughts on potential themes we could incorporate as we further refine the materials.
 
 
