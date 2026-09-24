@@ -1,3 +1,14 @@
+Yes — five bullets will read better for a CRO update and let each risk theme stand on its own.
+
+* MRM approved Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries. MRM assessed that model risk remains elevated, with six outstanding findings and two observations.
+* Hallucination rates continued to improve but remain above 20%. Prism’s own monitoring also detects only a portion of hallucinations identified through independent MRM testing, requiring further enhancement.
+* MRM rejected two new agentic capabilities, Swarm and Loops, which enable multi-agent collaboration and autonomous iteration toward a target, as they had not undergone required testing, documentation and pre-approval. Both capabilities were subsequently removed.
+* Model change governance requires strengthening, with code additions and removals exceeding 50% of the codebase over a recent four-week period and requiring a more systematic process for identifying material model changes.
+* MRM also identified vendor dependency and performance concerns: Prism remains highly dependent on Anthropic Opus, while latency has increased to approximately 12 minutes per query. Relevant risks are tracked through findings and observations and, where applicable, raised with Technology Risk and Operational Risk.
+
+This keeps the validator’s key messages but makes each bullet much easier to scan.
+
+
 Yes. I’d incorporate the validator’s broader risk assessment while keeping it CRO-level and limiting it to four bullets total. I would also avoid overemphasizing the software changes now that the validator has clarified that the more important story is the elevated residual model risk and outstanding findings.
 
 * MRM approved Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries. Since the initial validation, Prism has undergone significant development; MRM assessed that model risk remains elevated, with six outstanding findings and two observations.
