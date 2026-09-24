@@ -1,4 +1,15 @@
-    Other concerns include the high frequency of model changes, dependency on a single foundation model and vendor, and increasing cost and latency. These are being tracked through findings and observations and, where applicable, raised with Technology Risk and Operational Risk.
+received the only comment from Bill, please address:
+On Prism - clarify that this was a reapproval based on substantial code changes to address TechRisk findings and improve performance (or however Bo wants to position).
+Let's make changes to the top focus areas and the Board material
+Artificial Intelligence (Al)
+Description: Al adoption continues to grow across the firm; while the model inventory remains concentrated in lower-risk tiers, use of agentic Al with greater autonomy and complexity is increasing Actions: Recent Model Risk approvals include Prism, a new Tier 2GBM Public agentic Al model that answers trader queries about market research, trade ideas, and scenario analysis through automatic email response, as well as other generative/ agentic Al models across the firm supporting operational efficiency, productivity, client engagement, and regulatory processes, including models supporting the OneGS 3.0 initiative
+Artificial Intelligence (Al) adoption continues to grow across the firm. While the inventory remains concentrated in lower-risk tiers, Model Risk is seeing growth in agentic Al models with greater autonomy and complexity. Recent approvals include:
+A new Tier 2 Global Banking & Markets (GBM) Public agentic Al model (Prism) that answers trader queries about market research, trade ideas, and scenario analysis through automatic email response Other generative / agentic Al models across the firm used for operational efficiency, productivity, client engagement, and regulatory processes, including models supporting the OneGS 3.0 Regulatory
+Reporting and Sales Enablement initiatives
+
+
+
+Other concerns include the high frequency of model changes, dependency on a single foundation model and vendor, and increasing cost and latency. These are being tracked through findings and observations and, where applicable, raised with Technology Risk and Operational Risk.
 
 
 Yes — five bullets will read better for a CRO update and let each risk theme stand on its own.
