@@ -1,3 +1,27 @@
+Bill’s comment changes the framing of Prism in both places: it should no longer read as a new model approval. I’d describe it as a reapproval following substantial development, with the purpose of the changes stated at a high level as addressing Technology Risk findings and improving model performance.
+
+CRO Top Focus Area
+
+Artificial Intelligence (AI)
+
+Description: AI adoption continues to grow across the firm; while the model inventory remains concentrated in lower-risk tiers, use of agentic AI with greater autonomy and complexity is increasing.
+
+Actions: Recent Model Risk activity includes the reapproval of Prism, a Tier 2 GBM Public agentic AI model, following substantial code changes to address Technology Risk findings and improve model performance, as well as approvals of other generative/agentic AI models supporting operational efficiency, productivity, client engagement, and regulatory processes, including the OneGS 3.0 initiative.
+
+I prefer “Recent Model Risk activity includes” rather than “Recent Model Risk approvals include” because Prism is a reapproval while the others are a mixture of new models and enhancements.
+
+Board Material
+
+Artificial Intelligence (AI) adoption continues to grow across the firm. While the inventory remains concentrated in lower-risk tiers, Model Risk is seeing growth in agentic AI models with greater autonomy and complexity. Recent Model Risk activity includes:
+
+* Reapproval of Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries, following substantial code changes to address Technology Risk findings and improve model performance.
+* Other generative/agentic AI models across the firm supporting operational efficiency, productivity, client engagement, and regulatory processes, including models supporting the OneGS 3.0 Regulatory Reporting and Sales Enablement initiatives.
+
+For the Board version, I changed the Prism description from “answers trader queries… through automatic email response” to “produces intraday market research and responds to Sales and Trading queries.” That is more current based on the revalidation and gives a cleaner description of what Prism actually does.
+
+
+
+
 received the only comment from Bill, please address:
 On Prism - clarify that this was a reapproval based on substantial code changes to address TechRisk findings and improve performance (or however Bo wants to position).
 Let's make changes to the top focus areas and the Board material
