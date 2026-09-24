@@ -1,3 +1,13 @@
+Yes. I’d incorporate the validator’s broader risk assessment while keeping it CRO-level and limiting it to four bullets total. I would also avoid overemphasizing the software changes now that the validator has clarified that the more important story is the elevated residual model risk and outstanding findings.
+
+* MRM approved Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries. Since the initial validation, Prism has undergone significant development; MRM assessed that model risk remains elevated, with six outstanding findings and two observations.
+* Hallucination rates have continued to improve but remain above 20%. MRM also identified limitations in Prism’s own hallucination detection, which continues to identify only a portion of errors observed through independent MRM testing.
+* MRM rejected two new agentic capabilities — Swarm and Loops — which enable multiple agents to work together and Prism to autonomously iterate toward a target, respectively, as they had not undergone required testing, documentation and pre-approval. The capabilities were subsequently removed and remain outside the approved scope.
+* Additional areas requiring strengthened controls include model change governance, vendor dependency, and performance efficiency. Recent code changes exceeded 50% of the codebase over four weeks, Prism remains highly dependent on Anthropic Opus, and latency increased to approximately 12 minutes per query; these risks are tracked through findings and observations and, where applicable, have been raised with Technology Risk and Operational Risk.
+
+I think this is stronger than the prior version because it gives CRO a clear progression: approval/status → core performance risk → agentic/change-control issue → other material risk themes, without getting into validation-report-level detail.
+
+
 Yes—this clarification changes how I would characterize the revalidation. I would not say there were significant changes to Prism’s agentic capabilities. The validator is distinguishing substantial software/security development from relatively limited model-risk changes.
 
 For the CRO update, I’d characterize the changes specifically as tighter context management and migration to Anthropic Opus 5, while noting the broader security uplift separately.
