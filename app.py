@@ -1,3 +1,8 @@
+I understand the timing is tight, so no need to turn anything around for tomorrow. I plan to send the current version to Bill first thing tomorrow morning for his review, but wanted to get your thoughts on potential themes we could incorporate as we further refine the materials.
+
+
+
+
 I’d make the email clear that Caroline is asking for a shift from “what models did we approve?” to “what are the emerging AI model risks, and how is Model Risk responding?” Since Bo likely has the best view of the broader AI validation portfolio, I’d also give him enough context to react quickly given the deadline.
 
 Subject: BRC CRO Focus Area – AI
