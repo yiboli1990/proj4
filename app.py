@@ -1,3 +1,43 @@
+Yes. Based on the discussion, I would keep the Highlights management-friendly, but add enough detail under FRTB-SA and CVA to explain what is actually being assessed without getting overly technical. I would also soften the CVA language slightly because the discussion makes clear that the severity is still being reassessed following the developer changes.
+
+For the introductory paragraph, I’d make clear that this is the first recurring cross-jurisdiction update, covering both development and validation.
+
+Basel Capital Rules Implementation – Model Development / Validation Update
+
+This is the first periodic update on model development and validation activities supporting Basel capital rules implementation across the U.S. and EMEA. The update provides a consolidated view of development and validation progress, key timelines and emerging concerns across FRTB-SA, FRTB-IMA and CVA. Going forward, the underlying trackers will be updated periodically to reflect model submissions, validation progress and any material issues or delays.
+
+Highlights
+
+* FRTB-SA
+    * All PRA/ECB models in the current validation scope have been submitted and validation is in progress; the corresponding FRB development and validation is scheduled later in 2027.
+    * A potential conceptual soundness concern is being assessed for the core Sensitivities-Based Method (SBM) models regarding the approach used to interpolate sensitivities between modeled points.
+        * The current implementation interpolates the underlying shocks, whereas available industry information indicates that peers may generally apply interpolation after instruments are repriced.
+        * MRM is assessing the basis for the observed industry practice and the quantitative impact of the alternative approaches before determining the materiality and severity of the concern.
+    * Updated model documentation has also been received following MRM feedback and is under review.
+* FRTB-IMA
+    * PRA and FRB development and validation are progressing largely in parallel, with model development targeted primarily for Q3 2026; PRA validation is primarily targeted for Q4 2026, with corresponding FRB validation generally following in Q1 2027.
+    * A number of core IMA models/model changes targeted for Q3 development have not yet been submitted.
+    * Given the Q4 PRA validation timeline, further development delays could compress the validation window; submission timing is being monitored closely with developers.
+* CVA
+    * Validation of the core SA-CVA desk engines and aggregator models is underway, with most models submitted. Validation of CVA tradable models is also in progress, with two additional tradable models being assessed for inclusion in the inventory.
+    * A potentially high-severity concern has been identified for the IRP desk engine relating to the stability of vega sensitivities for certain long-dated, collateralized transactions.
+        * MRM testing identified cases where simulation variability could result in materially unstable sensitivities, with potential implications for the resulting capital calculation.
+        * Developers have proposed calibration and implementation changes intended to improve stability, and initial analysis indicates improvement. MRM is assessing whether the changes sufficiently address the concern.
+        * The proposed approach may differ from the corresponding desk implementation given the additional gap-risk requirements for regulatory CVA. The first line is discussing the treatment with Regulatory Policy, while MRM continues to assess the revised methodology.
+        * The final severity remains under assessment pending completion of this work and the related policy discussion.
+
+One thing I changed deliberately: “high-severity concern has been communicated” → “potentially high-severity concern has been identified.” Based on the transcript, this seems more accurate for a broad audience because remediation is underway, the revised calibration appears to improve the issue, and the team explicitly discussed whether the severity could potentially be reduced. I would avoid locking the reporting into “high severity” until that assessment is complete.
+
+For your question about initially keeping the distribution within MRM, I’d phrase it this way:
+
+For the initial updates, do we want to have a transition period where we circulate the reporting within MRM only, before expanding the distribution to first-line developers and other stakeholders?
+
+I prefer “transition period” to “trial period” here—it sounds more intentional and gives you time to refine the reporting, severity language, and escalation thresholds before the tracker becomes visible to the first line.
+
+
+
+
+
 Bill’s comment changes the framing of Prism in both places: it should no longer read as a new model approval. I’d describe it as a reapproval following substantial development, with the purpose of the changes stated at a high level as addressing Technology Risk findings and improving model performance.
 
 CRO Top Focus Area
