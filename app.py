@@ -1,3 +1,37 @@
+Yes. I’d make the responses slightly more formal and regulator-facing, and for 1(d) I would avoid volunteering the entire population of Periodic Review reports unless specifically requested. Since the regulator asks to “share a copy,” I’d provide a representative/latest Periodic Review report (or the relevant reports for the D1 DRCs in scope) rather than automatically submitting every historical report.
+
+Suggested wording:
+
+1. Per p.10 of the Firmwide Standards for DRC, IRGs perform periodic review annually of all Tier D1 DRCs.
+
+a. When was this review last completed?
+
+Please refer to the table below for the most recent Periodic Review completion date and the scheduled next review date for each approved Tier D1 DRC.
+
+[Table to be attached]
+
+b. Was it completed by Model Validation?
+
+Yes. Periodic Reviews for all approved Tier D1 DRCs are conducted by Model Risk Management (MRM).
+
+c. What were the findings and conclusions of the review?
+
+As set out in the Firmwide Standards for DRC, the outcome of a Periodic Review may include: (i) reaffirmation of the existing validation work; (ii) a determination that a full revalidation is required; or (iii) a determination that additional validation activities are required.
+
+Based on the most recent Periodic Reviews of the approved Tier D1 DRCs, the existing validation work was reaffirmed in each case, and no findings were raised as part of these reviews.
+
+d. Findings, observations, and conclusions are to be communicated to key stakeholders. Please explain how these are communicated and share a copy.
+
+The results of each Periodic Review, including the review conclusion and any identified findings or required follow-up validation activities, are documented in the Periodic Review report and communicated to the relevant stakeholders upon completion of the review.
+
+Please see the attached [Periodic Review report(s) / representative Periodic Review report] demonstrating the documentation and communication of the review conclusions.
+
+One thing I would confirm internally before finalizing 1(d) is the exact distribution mechanism—e.g., whether the completed report is formally circulated to the DRC Owner/IRG, recorded in a system, or communicated through an approval workflow. Saying simply “communicated to relevant stakeholders” is safe but somewhat generic; if you know the actual process, we can make the response much stronger.
+
+On whether to submit all AR/Periodic Review reports: I would not proactively attach all of them just because they said “share a copy.” Singular wording supports providing one example. But if the regulator’s intent is clearly to evidence the conclusions for each D1 DRC listed in 1(a), then providing all corresponding latest reports may avoid another follow-up. If you send me the next DRC questions, I can draft them in the same style.
+
+
+
 I’d keep them very tight and focused on the three items management needs to know:
 
 Highlights
