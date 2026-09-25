@@ -1,3 +1,12 @@
+I’d keep them very tight and focused on the three items management needs to know:
+
+Highlights
+
+* FRTB-SA: Potential conceptual soundness concerns have been identified for the core Sensitivities-Based Method (SBM) models related to the interpolation approach used in sensitivity calculations; materiality and severity are being assessed.
+* FRTB-IMA: A number of core IMA models/model changes targeted for Q3 development have not yet been submitted, creating potential timeline pressure for the planned Q4 PRA validation.
+* CVA: Discussions are ongoing with developers regarding model stability for the IRP desk engine; proposed calibration and implementation changes are being assessed, together with related Regulatory Policy considerations.
+
+
 Yes. Based on the discussion, I would keep the Highlights management-friendly, but add enough detail under FRTB-SA and CVA to explain what is actually being assessed without getting overly technical. I would also soften the CVA language slightly because the discussion makes clear that the severity is still being reassessed following the developer changes.
 
 For the introductory paragraph, I’d make clear that this is the first recurring cross-jurisdiction update, covering both development and validation.
