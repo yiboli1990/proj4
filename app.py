@@ -1,3 +1,10 @@
+* MRM approved the Tier 1 EqSp VIF model to price Value-In-Force (VIF) financing payoffs, supporting the upcoming Project Solaris USD tranche in the Arrow Re reinsurance business.
+* Given the bespoke structures and risk factors across Arrow Re transactions, new models or model enhancements are typically required for each transaction, with MRM performing deal-specific validation to assess conceptual soundness and implementation.
+* MRM validations have supported more than 10 Arrow Re reinsurance programs representing multiple billions of notional; EqSp VIF is the first approved calculator supporting VIF financing holistically and provides a framework that can be extended to future global VIF financing transactions.
+
+
+
+
 I went through the transcript against the current drafts. The main changes from Bill are: (1) add talking points around where the AI use cases are heading, especially potential future Tier 1 implications; (2) make the Prism discussion more forward-looking; (3) get the substantive “where we landed” story for RV+; (4) clarify the PB→UBM migration sequence and remaining roadmap; (5) reframe the broader shortfall-model concern constructively; and (6) add ICR/PRA, IMM and CVA regulatory updates to the CRO materials.
 
 Below is how I would circulate the working draft. I’ve deliberately used [ ] wherever an owner needs to complete or confirm something rather than guessing.
