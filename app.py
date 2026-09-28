@@ -1,3 +1,128 @@
+I went through the transcript against the current drafts. The main changes from Bill are: (1) add talking points around where the AI use cases are heading, especially potential future Tier 1 implications; (2) make the Prism discussion more forward-looking; (3) get the substantive “where we landed” story for RV+; (4) clarify the PB→UBM migration sequence and remaining roadmap; (5) reframe the broader shortfall-model concern constructively; and (6) add ICR/PRA, IMM and CVA regulatory updates to the CRO materials.
+
+Below is how I would circulate the working draft. I’ve deliberately used [ ] wherever an owner needs to complete or confirm something rather than guessing.
+
+Strats Update
+
+Artificial Intelligence (AI)
+
+* Proposed changes to the AI Policy and Standard were approved by the AI Risk Committee (ARC) and AI Risk and Controls Council (AIRCC), respectively.
+* Key changes include (i) scope for inclusion in the firmwide AI inventory and (ii) restrictions around development of AI use cases and use of agentic AI coding tools.
+* Following these approvals, divisions will be required by year-end to assess and remediate gaps against the enhanced Policy and Standard, or obtain ARC approval for extended remediation timelines.
+* AIRCC approved:
+    * GS AI Smart Router (Engineering, Tier 2), which automatically routes prompts in GS AI Assistant to the most appropriate large language model (LLM) based on cost, performance and response quality.
+    * Phase 1 rollout of KYC Extraction-Validation Agent (GBM Public, Tier 3), an agentic AI model developed with Anthropic that extracts and validates client information from documents against KYC requirements to support periodic client reviews.
+    * The KYC agent is part of the OneGS 3.0 client onboarding/KYC workstream; initial rollout is limited to selected client types and jurisdictions across Asset Management, GBM and Wealth Management, with human review required for final decisions.
+    * [Add latest update on Market Data Vendor AI Governance.]
+* [Notes for Bill] Several document-extraction and client-service AI use cases currently rely on strong human-in-the-loop controls and are therefore lower tiered. As these applications mature, removal or reduction of human review could materially increase their downstream impact, including on risk, capital and client-facing processes, potentially requiring higher model-risk tiers and additional MRM review.
+* [Notes for Bill] Examples include QFC-DocAI and similar document-extraction models, as well as client-query models that could evolve from generating responses for human review to communicating directly with clients. Material changes, including removal of human review, require notification to MRM and renewed governance review.
+
+Recent MRM Approvals – AI
+
+* Prism (GBM Public, Tier 2), an agentic AI model that produces intraday market research and responds to Sales and Trading queries.
+    * Since initial approval in July, Prism has undergone substantial development, primarily to address Technology Risk findings and improve performance.
+    * Hallucination rates have improved but remain above 20%; Prism’s own monitoring detects only a subset of these and requires further enhancement.
+    * Other concerns include change management, vendor dependency, and increasing cost and latency, which are tracked through findings and, where applicable, raised with Technology Risk and Operational Risk.
+    * Model risk remains elevated, with six outstanding findings, including two new findings from the revalidation.
+* [Notes for Bill] Prism is evolving beyond its original research-report and financial-data Q&A use cases toward a broader analytical platform, including capabilities such as backtesting and more autonomous workflows. These developments increase complexity and will require appropriate testing, documentation and MRM approval before use.
+* [Notes for Bill] The previously proposed Swarm and Loops capabilities illustrate this direction: they would allow multiple Prism agents to collaborate and Prism to autonomously iterate toward a target. MRM did not approve these capabilities and they were subsequently removed.
+* [Notes for Bill] Further reductions in hallucination rates may become increasingly difficult as simpler issues identified during the initial validation have largely been addressed. Performance also varies materially by task complexity, with substantially lower hallucination rates for simple data retrieval than for the analytical use cases for which Prism is primarily intended.
+* Enhancements to the Buyback ML Pricer (GBM Public, Tier 1), a neural network-based non-generative AI model used for pricing equity share buybacks, to support additional daily execution constraints.
+    * The enhancements support daily minimum and maximum share or notional limits based on the underlying’s overnight return, enabling pricing of an approximately €330 million share buyback transaction and resolving the associated transaction waiver.
+* Qualified Financial Contract (QFC)-DocAI (GBM Public, Tier 3), a generative AI model hosted on the DocAI platform and developed as part of the OneGS 3.0 regulatory reporting workstream.
+    * The model extracts predefined regulatory attributes from legal documents, including ISDA Master Agreements, Prime Brokerage Agreements and Margin Agreements, replacing an existing vendor solution. Extracted information is subject to human review before becoming the official record used by downstream processes.
+
+Counterparty Credit Risk (CCR)
+
+Enhanced Equity Relative Value (RV+)
+
+* MRM is finalizing its review of enhancements to Equity RV within the Tier 1 shortfall models for long/short equity funds.
+* Strats recently added a Momentum Likeness guardrail to restrict eligibility for portfolios with elevated directional momentum-factor exposure, alongside existing controls.
+* [Andreas: summarize the substantive enhancements agreed through the extended MRM/Strats review, including the principal guardrails and other changes incorporated before approval.]
+* [Andreas: confirm the agreed go-forward onboarding framework/controls as additional types of long/short funds are brought into scope.]
+
+Prime Brokerage (PB) Migration to Unified Banking Model (UBM)
+
+* MRM is finalizing its review of the migration of the PB business line from SPIRE to UBM, as part of the broader migration of business lines onto UBM.
+* The migration includes structural enhancements to UBM, including combined equity/credit concentration scenarios, bidirectional concentration shocks and other enhancements.
+* MRM identified limitations relating to shocks for mega-cap equity names, sector risk and coverage between relative-value and concentration scenarios, which will be tracked through findings.
+* [Confirm the sequence/timeline of business-line migrations already completed, including Franchise Equities and Structured Products Group (SPG), and precisely what is being added through the current PB approval.]
+* [Add forward roadmap: remaining business lines/migrations and expected timing.]
+
+Shortfall Model Change Activity
+
+* MRM has observed increased shortfall-model change submissions, primarily associated with business growth, capacity constraints and remediation of limit breaches.
+* In several cases, compressed development timelines and abbreviated pre-submission testing have resulted in extended iteration between Strats and MRM during validation.
+* Recent examples include RV+ for PB, commodities correlation changes for futures, Rates Multi-Currency and Exchange-Traded Fund (ETF) redemption frameworks.
+* MRM is working with Strats to clarify the testing and analysis expected before submission, supporting timely reviews while maintaining appropriate validation rigor.
+* [Notes for Bill] Model changes should provide systematic enhancements that are appropriate across the model and relevant portfolios. Where the issue is specific to an individual counterparty or capacity constraint, addressing risk appetite or limits directly may be more appropriate than introducing model changes.
+* [Andreas: refine the above framing and specify the pre-submission expectations MRM intends to communicate to Strats.]
+
+Asia Equity Exotics – Project Solaris
+
+* MRM approved the Tier 1 EqSp VIF model used to price Value-in-Force (VIF) financing payoffs, supporting the upcoming Project Solaris U.S. dollar tranche.
+* The model values future reinsurance settlements from Japanese variable annuity policies, including Expense Allowance funding, surplus payments, surrender charges and Deficit Account accrual.
+* The approval supports Arrow Re’s Expense Allowance financing leg; related Special Purpose Vehicle (SPV) Note and Guaranteed Minimum Accumulation Benefit (GMAB) Reinsurance legs remain priced under the Tier 1 EqSp Koala model.
+* EqSp VIF is the first approved calculator supporting VIF business holistically and can be extended to future global VIF financing transactions.
+
+The shortfall section is the one I changed most conceptually. Bill did not seem to want a message that “Strats is accepting findings to get things through.” His preferred message was: business demand is creating pressure for rapid model changes; MRM wants to be constructive and timely, but first-line development/testing needs to remain rigorous, and counterparty-specific capacity issues should not necessarily be solved through broad model changes.
+
+CRO Update
+
+For CRO, I would not carry over most of the technical detail from Strats. The update should explain the business/model-risk significance and what MRM is doing.
+
+Mortgage Agency Pricing Model Uplift
+
+* [Add latest status of the Mortgage Agency Pricing Model uplift, including the principal model enhancement, current MRM validation status and expected approval timing.]
+* [Add the recent Strats/model-development update discussed with Shuka and explain the model-risk significance.]
+
+Counterparty Credit Risk – Enhanced Equity RV (RV+)
+
+* MRM is finalizing its review of enhancements to the Tier 1 Equity Relative Value shortfall framework for long/short equity funds following an extended period of iteration with Strats.
+* [Andreas: summarize in 1–2 CRO-level bullets the key enhancements/guardrails agreed through validation and the resulting go-forward framework for onboarding additional long/short fund strategies.]
+
+Counterparty Credit Risk – PB Migration to UBM
+
+* MRM is finalizing its review of the migration of Prime Brokerage (PB) from SPIRE to the Unified Banking Model (UBM), continuing the broader transition of business lines to the more sophisticated UBM framework.
+* The migration introduces enhanced concentration and cross-risk scenarios; MRM has identified limitations relating to mega-cap equity shocks, sector risk and scenario coverage, which will be tracked through findings.
+* [Confirm which business lines have already migrated, what specifically is included in the current PB approval, and the remaining UBM migration roadmap/timing.]
+
+Asia Equity Exotics – Project Solaris
+
+* MRM approved the Tier 1 EqSp VIF model supporting Project Solaris, a new Value-in-Force financing transaction referencing future cash flows from Japanese variable annuity policies.
+* The approval supports the Expense Allowance financing leg and establishes the first approved calculator supporting VIF financing holistically, providing a framework that can be extended to future global VIF transactions.
+* [Anthony: confirm whether there are any material findings, limitations or transaction-specific controls that should be highlighted for CRO.]
+
+Treasury – European Deposits Expansion
+
+* MRM approved extensions to a number of Tier 1 Deposits models to support new business activity, including the introduction of Marcus retail deposits in Ireland, broader expansion of the deposit franchise into the European Union, and launch of GS Bank Europe (GSBE) Deposit Sweeps.
+* [Confirm whether any material model changes/findings or expected business volumes should be highlighted.]
+
+Internal Credit Ratings / PRA IRB
+
+* The firm is expected to complete its September 30 submission to the Prudential Regulation Authority (PRA) for the Internal Ratings-Based (IRB) framework, following completion of the current phase of the multi-year Internal Credit Ratings (ICR) enhancement program.
+* [Update after submission to confirm completion and summarize the principal PRA follow-up questions from the recent meeting, including treatment of third-party-supported names and any other material model-related themes.]
+* [Confirm expected timing/process for formal responses to the PRA follow-up questions (currently expected around mid-October).]
+
+ECB Internal Models Method (IMM)
+
+* [Add update on receipt of the draft ECB IMM decision letter, including the most consequential model-risk items and any requirements relevant to MRM.]
+* [Confirm status of the two-week hearing period, planned MRM/firm response and expected timing of the final decision.]
+
+FRTB / CVA
+
+* [Add current status of Fundamental Review of the Trading Book (FRTB) validation activity and any material development/submission timing changes since the prior update.]
+* [Add Credit Valuation Adjustment (CVA) update, with particular focus on the ongoing discussion regarding the CVA [Herb] engine, MRM’s principal concerns and potential impact on the validation timeline.]
+
+NFA Model-Related Follow-up
+
+* [Confirm the basis for the National Futures Association (NFA) reference to additional work being required “in line with MRM” and whether the issue originates from MRM validation materials, another control function or broader examination materials.]
+* [Notes for Bill] MRM has not identified an open finding or validation requirement corresponding to the NFA characterization based on the materials reviewed to date; the broader examination record is being reviewed to determine the source.
+
+One nuance: I would keep the NFA item as a working/talking-point item rather than a normal CRO update for now. Bill explicitly questioned whether this was the right forum to report it, and the team has not yet established what the NFA is referring to. Once the source is identified, you can decide whether it belongs in the final CRO materials.
+
+
+
 Yes. I’d make the responses slightly more formal and regulator-facing, and for 1(d) I would avoid volunteering the entire population of Periodic Review reports unless specifically requested. Since the regulator asks to “share a copy,” I’d provide a representative/latest Periodic Review report (or the relevant reports for the D1 DRCs in scope) rather than automatically submitting every historical report.
 
 Suggested wording:
