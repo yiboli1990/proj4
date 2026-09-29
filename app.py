@@ -1,3 +1,16 @@
+Yes — for the Strats update, I’d make them much tighter and split the key points:
+
+• GBM provided an update on Prism, including completion of prior AIRCC pre-go-live conditions and significant architecture and Technology Risk enhancements; all prior high-risk Technology Risk findings have been remediated.
+
+• AIRCC discussed governance of future Prism enhancements, including the need for appropriate control review of significant changes to agentic capabilities, data/tool access, or overall risk posture.
+
+• Engineering provided an update on Market Data Vendor AI governance, including the approach for Goldman-built vendor-data MCPs and associated testing and governance.
+
+• Engineering also highlighted emerging vendor restrictions and potential fees for use of vendor data with AI applications; the firm is pushing back on AI-specific licensing restrictions and assessing potential control implications.
+
+I’d use this version—it gives Bill the main discussion points without getting into the detailed AIRCC mechanics.
+
+
 Yes. The clearest English portion is the discussion around Prism and document-extraction AI, and it sharpens what Bill should be reminded to discuss with the Strats. I would update the existing [Notes for Bill] section to something like this:
 
 * [Notes for Bill] Prism continues to undergo significant change, driven by remediation of Technology Risk issues as well as ongoing model and performance improvements; the volume and pace of code changes remain high, with additional functionality continuing to be developed.
