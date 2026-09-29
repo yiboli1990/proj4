@@ -1,3 +1,35 @@
+Yes. Caroline’s comments make sense. I would make (a) a direct answer rather than a table, leave (b) and (c) largely as they are, and materially revise (d) so it answers the communication question rather than pointing to the Periodic Review report.
+
+Here is a clean revised version incorporating the comments:
+
+9. Per p.10 of the Firmwide Standards for DRC, IRGs perform periodic review annually of all Tier D1 DRCs.
+
+a. When was this review last completed?
+
+Response: The most recent Periodic Review for the Banking Book Debt and Securitization DRC (ID 22192, BB Debt and Sec RegCap; Tier D1) was completed on December 18, 2025. The next Periodic Review is scheduled for November 15, 2026.
+
+b. Was it completed by Model Validation?
+
+Response: Yes. Periodic Reviews for Tier D1 DRCs are conducted by Model Risk Management (MRM).
+
+c. What were the findings and conclusions of the review?
+
+Response: As set out in the Firmwide Standards for DRC, the outcome of a Periodic Review may include: (i) reaffirmation of the existing validation work; (ii) a determination that a full revalidation is required; or (iii) a determination that additional validation activities are required.
+
+Based on the most recent Periodic Review of the Banking Book Debt and Securitization DRC, the existing validation work was reaffirmed. No additional validation activities were required, and no findings were raised as part of the review.
+
+d. Findings, observations, and conclusions are to be communicated to key stakeholders. Please explain how these are communicated and share a copy.
+
+Response: The results of Periodic Reviews, including the review conclusions and any findings or observations, are documented in Model-IT, the Firm’s model inventory system.
+
+To the extent a Periodic Review determines that additional validation activities are required, the results of those validation activities, including any findings raised, are documented in a validation summary and communicated to the relevant key stakeholders. For the Banking Book Debt and Securitization DRC, the most recent Periodic Review reaffirmed the existing validation work; no additional validation activities were required and no findings were raised.
+
+I think the revised (d) is materially better than the current draft. It makes the distinction Caroline is getting at: the Periodic Review itself determines whether further validation is needed; if further validation is triggered, the resulting validation summary/findings are what get communicated to stakeholders. For this DRC, that second step did not occur.
+
+One point I would check before sending: the regulator explicitly says “share a copy.” Caroline’s proposed language explains why there is no new validation summary to provide, but they may still expect documentary evidence of the Periodic Review conclusion. If you have a Model-IT extract or other evidence showing the review outcome, that may be more directly responsive than attaching the Periodic Review report itself.
+
+
+
 * MRM approved the Tier 1 EqSp VIF model to price Value-In-Force (VIF) financing payoffs, supporting the upcoming Project Solaris USD tranche in the Arrow Re reinsurance business.
 * Given the bespoke structures and risk factors across Arrow Re transactions, new models or model enhancements are typically required for each transaction, with MRM performing deal-specific validation to assess conceptual soundness and implementation.
 * MRM validations have supported more than 10 Arrow Re reinsurance programs representing multiple billions of notional; EqSp VIF is the first approved calculator supporting VIF financing holistically and provides a framework that can be extended to future global VIF financing transactions.
