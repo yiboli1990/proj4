@@ -1,3 +1,45 @@
+I’d streamline these into four CRO sections, keeping the key conclusions and stripping out the Strats-level implementation detail.
+
+Validation Activities
+
+CCR – Enhanced Equity Relative Value (RV+)
+
+* MRM is finalizing its review of enhancements to the Equity Relative Value (RV+) methodology within the shortfall models for long/short equity funds (GBM Public, Tier 1).
+* Following extensive iteration with Strats, the latest proposal increases shocks for the largest exposures and introduces more conservative treatment for portfolios with elevated volatility-spread or momentum risk.
+* A go-forward onboarding framework has also been agreed for additional long/short fund strategies, including eligibility guardrails and increased treatment for higher-risk counterparties.
+
+CCR – Prime Brokerage Migration to Unified Banking Model (UBM)
+
+* MRM is finalizing its review of the migration of Prime Brokerage (PB) from SPIRE to the more sophisticated Unified Banking Model (UBM) framework (GBM Public, Tier 1), continuing the broader migration of business lines to UBM.
+* The migration introduces structural enhancements, including combined equity/credit concentration scenarios and bidirectional concentration shocks; MRM identified limitations related to mega-cap equity shocks, sector risk and coverage between relative-value and concentration scenarios, which will be tracked through findings.
+* Franchise Equities and SPG have already migrated to UBM; SecLending and SPG/EEBM are expected to follow, with GSEC targeted to migrate by year-end.
+
+FRTB CVA
+
+* Validation of the new Fundamental Review of the Trading Book (FRTB) Credit Valuation Adjustment (CVA) models (Risk, Tier 1) is in progress, targeting [completion timing] ahead of PRA go-live.
+* MRM and Strats are discussing the Interest Rate Products (IRP) CVA engine, where sensitivities for certain long-dated, collateralized transactions have shown instability.
+* Proposed calibration and implementation changes are under MRM review; treatment of differences from the corresponding desk implementation arising from additional gap-risk requirements is also being discussed with Regulatory Policy.
+
+Program Updates
+
+Transaction Cost Model (TCM) Migration
+
+* Migration to the new GSET Transaction Cost Model (TCM) has been completed across all downstream model usages.
+* All related findings, including aged findings previously breaching applicable thresholds, have been closed.
+
+Regulatory Updates
+
+ECB Internal Models Method (IMM) Exam
+
+* The ECB issued its draft decision letter with 18 findings; GSBE has until October 6 to respond during the right-to-be-heard period.
+* One finding requires GSBE-specific approval of MRM validation reports and extends this requirement beyond the IMM scope to all models used by the entity.
+* MRM is challenging the broader application of this requirement, which does not appear to have a clear legal basis.
+
+For RV+, I deliberately removed the $828m loss increase because it feels too implementation-specific for CRO unless the team considers the quantitative impact important. For PB-to-UBM, I retained the findings because they are the main Model Risk takeaway rather than just describing the migration. For FRTB-CVA, I defined the major acronyms and kept the issue at the level of sensitivity instability → proposed remediation → MRM/Reg Policy review.
+
+
+
+
 Yes — for the Strats update, I’d make them much tighter and split the key points:
 
 • GBM provided an update on Prism, including completion of prior AIRCC pre-go-live conditions and significant architecture and Technology Risk enhancements; all prior high-risk Technology Risk findings have been remediated.
