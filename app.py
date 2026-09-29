@@ -1,3 +1,63 @@
+3. Administrative Items
+
+* Firmwide Policy on Artificial Intelligence: The Council was informed that the updated Policy had been reviewed and approved by ARC and reviewed by ERC. The principal inventory change is to capture AI used on a recurring basis as part of a business process. The focus will now shift to implementation and compliance with the updated requirements during Q4 2026.
+* Firmwide Standard on Artificial Intelligence: The updated Standard, aligned with the revised Policy, was presented to the Council and approved.
+* Gemini CLI: A follow-up posting was provided on the previously approved rollout to 99 engineers within the CTL Platform team and the subsequent general-availability rollout.
+* PIPG Data Insight Agent: A follow-up posting was provided on post-go-live monitoring following the Council’s March 2026 approval.
+
+
+Yes — I’ll keep the same AIRCC format we used for 9/22: Pre-Go-Live Conditions → Other Follow-Ups → Key Discussion Points, without separate Outcome sections.
+
+Here is the revised version.
+
+1. Prism AI
+
+Presenters: Serkan Dayioglu, Ajit Nema, Anushree Srivastava
+Control-side: Rahul Sharma, Alexis Vassilakes, Gayatri Satpathy
+
+Pre-Go-Live Conditions:
+None. The Council considered the previously identified pre-go-live conditions closed, subject to any further feedback from the upcoming ARC review.
+
+Other Follow-Ups:
+
+* Update slide 8 to clarify the supported email functionality, including the ability to share conversation threads through forwarding or copying other users.
+* Follow up on the change-management process, including appropriate governance and escalation for changes to tools/MCP functionality and other material changes to Prism’s capabilities or risk posture.
+
+Key Discussion Points:
+
+* The presenters provided an update on Prism following its June 2026 AIRCC approval, noting that Prism had been offline for approximately two months while the team strengthened its architecture and control framework. Key enhancements included secure sandboxed execution of LLM-generated code, removal of write access, user-level entitlement controls, quarantine and screening of external data, and completion of penetration testing, Architecture Review and Operational Readiness Review.
+* In response to questions from the Council Chairperson regarding the key risks previously identified and how they had been addressed, the presenters highlighted four principal areas: removal of write access; use of user-level entitlements for data access; quarantine and screening of external data for risks such as prompt injection or malware; and implementation of a default-deny execution environment through the secure sandbox. Rahul Sharma noted that the architecture and data-access controls had been reviewed in detail as part of the Architecture Review.
+* In response to questions from the Council Chairperson and Council members regarding governance over MCPs/tools and access to new data, the presenters clarified that the current implementation uses a defined set of tools and discussed the controls applicable to changes. The Council emphasized the need for appropriate governance and escalation when introducing new tools, datasets or capabilities, beyond the underlying technical change-management process.
+* In response to questions from the Council Chairperson and Council members regarding future functionality and when changes should return to AIRCC, the presenters clarified that capabilities such as agentic loops and image generation are not currently within scope. Material changes in functionality, modality, data access or risk posture would be subject to appropriate review, while experimental functionality remains gated from broader production use.
+* Rahul Sharma requested that slide 8 be updated to clarify the supported email functionality, including the ability to share conversation threads through forwarding or copying other users.
+* In response to a question on reprovisioning and access controls, the presenters explained that access to Prism is managed through Permit, requiring manager and application-owner approval, while access to underlying datasets continues to be governed by the relevant source-system entitlements.
+
+⸻
+
+2. Market Data Vendor AI Governance
+
+Presenters: Emily Menzies, Barry Jennings, Abhishek Narang
+
+Pre-Go-Live Conditions:
+None.
+
+Other Follow-Ups:
+None.
+
+Key Discussion Points:
+
+* The presenters provided an update on the low/no-risk pattern approved by AIRCC in October 2025, noting that the umbrella Model IT declaration and inventory are live, relevant Market Data SMEs have been trained, no incidents have been identified, and no expansion of the approved pattern is currently requested.
+* The presenters outlined the firm’s strategy to favor GS-built MCPs over vendor-provided MCPs, providing greater control over security, entitlements, lineage, data retention, auditability and service lifecycle. Vendor-provided MCPs are strongly discouraged for production use.
+* In response to questions from the Council Chairperson regarding how MCPs are tested when downstream use cases may differ, the presenters explained that MCP-level evaluations use predefined prompts and deterministic expected results across multiple model families, supplemented by historical usage and query telemetry from the underlying vendor datasets.
+* In response to further questions from the Council Chairperson and Council members regarding evaluation responsibilities as MCPs are used by different applications, the discussion distinguished between evaluation of the underlying MCP/tool and evaluation within the consuming use case. The MCP producer evaluates the underlying tool and data service, while consuming applications assess its performance and appropriateness within their specific use cases. The Council discussed the importance of controlling which applications can access the MCPs and ensuring that evaluations evolve as usage changes.
+* The presenters highlighted an emerging trend of data vendors seeking to introduce AI-specific contractual restrictions, notification requirements or additional fees for use of vendor data within GS AI tools. The firm’s current position is that applying AI to existing permitted business activities should not itself constitute a new licensable activity, and GS is generally resisting AI-specific contractual restrictions while coordinating with Legal, business stakeholders and Vendor Relationship Owners.
+* Barry Jennings noted that there is no immediate change to the current control framework; however, if AI-specific restrictions become more prevalent in vendor agreements, more granular review of vendor-data inputs may be required for future AI use cases.
+
+This is the format I’ll use for AIRCC notes going forward: Pre-Go-Live Conditions / Other Follow-Ups / Key Discussion Points, with only secretary-confirmed items included in the first two sections.
+
+
+
+
 Yes. Caroline’s comments make sense. I would make (a) a direct answer rather than a table, leave (b) and (c) largely as they are, and materially revise (d) so it answers the communication question rather than pointing to the Periodic Review report.
 
 Here is a clean revised version incorporating the comments:
