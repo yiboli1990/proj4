@@ -1,3 +1,15 @@
+Yes. The clearest English portion is the discussion around Prism and document-extraction AI, and it sharpens what Bill should be reminded to discuss with the Strats. I would update the existing [Notes for Bill] section to something like this:
+
+* [Notes for Bill] Prism continues to undergo significant change, driven by remediation of Technology Risk issues as well as ongoing model and performance improvements; the volume and pace of code changes remain high, with additional functionality continuing to be developed.
+* [Notes for Bill] New Prism features are increasing model complexity and should be subject to appropriate testing, documentation, and MRM approval before use. Recent examples include the proposed Swarm and Loops agentic capabilities, which MRM did not approve and were subsequently removed.
+* [Notes for Bill] Prism’s hallucination rate has improved materially but remains above 20%. Many of the more readily addressable issues identified during the initial validation have now been remediated, and further reductions may become progressively more difficult; continued enhancement of hallucination monitoring remains important.
+* [Notes for Bill] Document-extraction AI models such as QFC-DocAI are currently lower-tiered in part because of strong human-in-the-loop controls. These models extract information from documents for human review before it is used downstream; removing or materially reducing human review could significantly increase their risk and potentially require reassessment of the model tier, particularly where outputs ultimately support risk or regulatory processes.
+
+One nuance from the discussion that I think is important: I would not say Prism is “evolving into a broader analytical platform.” The validator explicitly pushed back on that characterization as too strong. The safer message is that Prism is changing rapidly and new functionality is increasing complexity, which makes disciplined change control and pre-approval increasingly important.
+
+
+
+
 3. Administrative Items
 
 * Firmwide Policy on Artificial Intelligence: The Council was informed that the updated Policy had been reviewed and approved by ARC and reviewed by ERC. The principal inventory change is to capture AI used on a recurring basis as part of a business process. The focus will now shift to implementation and compliance with the updated requirements during Q4 2026.
