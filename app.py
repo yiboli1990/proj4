@@ -1,3 +1,11 @@
+Project Solaris / EqSp VIF
+
+* Arrow Re reinsurance transactions have historically required deal-specific model development and MRM validation due to differences in payoff structures and underlying risk factors; MRM has supported more than 10 such programs to date.
+* MRM approved the new EqSp VIF model (GBM Public, Tier 1), the first holistic calculator for Value-In-Force (VIF) financing, to support the upcoming Project Solaris USD tranche.
+* The model provides a reusable framework for policy-level VIF financing and can be extended to support future Arrow Re and broader global VIF financing transactions.
+
+
+
 Yes — with the text version, Caroline’s comments are clearer. For IRB, I agree with your interpretation: the story should remain the PRA submission, and the meeting questions are relevant only because they provide early read-through to topics that MRM had already identified through its regulatory compliance review during validation. I would not make the meeting a separate narrative.
 
 I’d revise the commented sections as follows, while leaving the uncommented bullets unchanged.
