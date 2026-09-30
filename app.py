@@ -1,3 +1,64 @@
+Yes — with the text version, Caroline’s comments are clearer. For IRB, I agree with your interpretation: the story should remain the PRA submission, and the meeting questions are relevant only because they provide early read-through to topics that MRM had already identified through its regulatory compliance review during validation. I would not make the meeting a separate narrative.
+
+I’d revise the commented sections as follows, while leaving the uncommented bullets unchanged.
+
+Top of Mind
+
+PRA Internal Ratings-Based (IRB) Approach
+
+* The Firm completed its September month-end submission to the PRA for the enhanced IRB framework, including MRM’s independent validation and regulatory compliance assessment.
+* Recent PRA follow-up questions include topics that align with areas identified through MRM’s regulatory compliance review, including third-party support (TPS), qualitative module weighting for Super Large Corporates, and temporary stability treatment for IRB Corporate Industry models.
+* The Firm plans to respond to the PRA by October 16; MRM will review Strats’ responses before submission.
+
+Validation Activities
+
+FRTB / CVA
+
+* Validation work related to Fundamental Review of the Trading Book (FRTB) requirements is underway, with current focus on validation of new Credit Valuation Adjustment (CVA) models (The Core Eng, Tier 1) ahead of the PRA go-live in January 2027.
+* Proposed calibration and implementation changes to address stability concerns for risk sensitivities for certain long-dated, collateralized interest rate transactions are under MRM review.
+* Differences from the corresponding desk implementation arising from additional gap-risk requirements are being discussed with Regulatory Policy, given requirements to align accounting and regulatory CVA.
+
+Project Solaris / EqSp VIF
+
+* MRM approved the EqSp VIF model (GBM Public, Tier 1) to price Value-In-Force (VIF) financing payoffs, supporting the upcoming Project Solaris USD tranche in the Arrow Re reinsurance business.
+* Historically, MRM has performed deal-by-deal validation for Arrow Re transactions given differences in structures, payoffs, and risk factors across reinsurance programs.
+* EqSp VIF is the first approved calculator supporting VIF financing holistically, providing a framework that can be extended to future global VIF financing transactions.
+
+Risk Appetite Statement Metrics
+
+* All aged findings breaching the FRAC threshold (six months past original due date) have been resolved as of September 30.
+* Remediation included migration of several GBM e-trading models from a legacy Transaction Cost Model and enhancements to risk capture in the CCR Equities Franchise benchmark model. [Confirm following closure of remaining CCR finding.]
+* Since the FRAC aged-finding threshold was tightened from nine to six months approximately one year ago, the threshold has been consistently breached, primarily due to aged CCR findings; resolution of the remaining breaches therefore represents a significant milestone. [Kainan to confirm characterization.]
+* We remain focused on reducing the population of findings aged three to six months.
+
+Regulatory Updates
+
+ECB Internal Models Method (IMM) Exam
+
+* The ECB issued a draft decision letter with 18 findings; GSBE has until October 6 to respond during the right-to-be-heard period.
+* One finding requires GSBE-specific approval of MRM validation reports and extends this requirement beyond the IMM scope to all models used by the entity.
+* MRM is challenging the broader application of this requirement, which does not appear to have a clear legal basis.
+
+PRA FRTB Internal Model Approach (IMA) [Confirm with Soo whether to retain here or cover through Soo’s update.]
+
+* The PRA commenced a cross-functional FRTB-IMA meeting series with GSUK across all three lines of defense.
+* MRM is coordinating with Strats and Regulatory Engagement on potential acceleration of outstanding model submissions, including P&L Attribution, Risks-Not-in-Model for pegged currencies, and the Aggregator.
+* The PRA requested a dedicated MRM follow-up on validation challenges arising from the FRTB-IMA framework, including phased submissions, evolving regulatory requirements, and associated validation and governance considerations.
+
+A few points behind these changes:
+
+IRB: I think this now answers Caroline’s “key themes of what?” directly. They are PRA follow-up topics, and the significance is that they align with issues MRM had independently identified during its compliance review. I also changed the opening from “submission for the enhanced IRB framework” to “submission … including MRM’s independent validation and regulatory compliance assessment,” which makes the relevance to a Model Risk CRO update clearer.
+
+EqSp VIF: Caroline understood the underlying point correctly. The important historical context isn’t really “10+ programs / billions of notional”; it is that MRM previously needed deal-by-deal validation because each Arrow Re transaction is bespoke. EqSp VIF is noteworthy because it moves toward a reusable framework. I would drop the “10+” and “billions” unless Bill specifically wants scale emphasized.
+
+FRAC: Caroline explicitly wants this to convey why zero breaches is meaningful. The proposed language does that, but I would leave the Kainan confirmation placeholder because “consistently breached” is a fairly strong historical statement.
+
+NFA: I would not add it yet. From Monday’s transcript, Bill specifically said the underlying work should be done, but then said: “I’m not entirely sure this is the place to post on.” The issue was also still being investigated because the team could not identify the MRM statement or finding that NFA appeared to be relying on. So Caroline’s comment can be answered: discussed with Bill Monday; investigation continues, but Bill questioned whether it belongs in the CRO update.
+
+FRTB-IMA: I would not delete it based solely on Caroline’s comment. Her concern is duplication/ownership with Soo rather than substance. The cleanest working-draft treatment is exactly the bracket: [Confirm with Soo whether to retain here or cover through Soo’s update.]
+
+
+
 Yes. On the NFA item, your recollection is right. In Monday’s discussion, Bill’s conclusion was essentially that the team should investigate it, but he was not convinced the CRO update was the right place to report it. He said: “we should do that work. I’m not entirely sure this is the place to post on.” So I would not add the NFA item to this CRO update. Caroline’s comment can be addressed by explaining that it was discussed with Bill and intentionally left out pending further investigation.
 
 For the other comments, I’d revise only the commented sections as follows and leave everything else unchanged.
