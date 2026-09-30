@@ -1,4 +1,12 @@
-    PRA follow-up questions include model-related topics that overlap with areas identified through second-line regulatory compliance review.
+
+
+
+
+
+
+
+
+PRA follow-up questions include model-related topics that overlap with areas identified through second-line regulatory compliance review.
 * Key themes include treatment of third-party-supported names, qualitative module weighting for Super Large Corporates, and temporary stability treatment for IRB Corporate Industry models.
 
 
