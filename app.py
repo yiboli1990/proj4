@@ -1,3 +1,10 @@
+Sure — I’d keep it brief and make clear that it was intentionally omitted after the discussion with Bill.
+
+We discussed the NFA item with Bill on Monday. He agreed we should continue looking into the underlying issue, particularly what NFA is interpreting as an MRM requirement, but questioned whether the CRO update was the right place to report it. We therefore left it out for now pending further investigation.
+
+
+
+
 Project Solaris / EqSp VIF
 
 * Arrow Re reinsurance transactions have historically required deal-specific model development and MRM validation due to differences in payoff structures and underlying risk factors; MRM has supported more than 10 such programs to date.
