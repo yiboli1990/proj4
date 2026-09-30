@@ -1,3 +1,7 @@
+    PRA follow-up questions include model-related topics that overlap with areas identified through second-line regulatory compliance review.
+* Key themes include treatment of third-party-supported names, qualitative module weighting for Super Large Corporates, and temporary stability treatment for IRB Corporate Industry models.
+
+
 I’d make the three sections more CRO-oriented: lead with the milestone/outcome, then only the MRM-relevant issue or next step. For the IRB section, I would not pull from the numbered PRA questions because those appear to be the FRTB-IMA follow-ups rather than IRB follow-ups. I’d use the IRB-specific themes you provided instead.
 
 Program Updates
