@@ -1,4 +1,53 @@
+Yes. On the NFA item, your recollection is right. In Monday’s discussion, Bill’s conclusion was essentially that the team should investigate it, but he was not convinced the CRO update was the right place to report it. He said: “we should do that work. I’m not entirely sure this is the place to post on.” So I would not add the NFA item to this CRO update. Caroline’s comment can be addressed by explaining that it was discussed with Bill and intentionally left out pending further investigation.
 
+For the other comments, I’d revise only the commented sections as follows and leave everything else unchanged.
+
+1. PRA IRB — make the narrative clearer
+
+Caroline’s point is that the main bullet jumps straight to the submission, while the sub-bullets suddenly discuss questions from a meeting. I’d explicitly connect the submission → PRA follow-up → MRM review:
+
+PRA Internal Ratings-Based (IRB) Approach
+
+* The Firm completed the September month-end submission to the PRA for the enhanced IRB framework; following a recent meeting, the PRA provided follow-up questions on several model-related topics.
+    * Key PRA follow-up themes include third-party support (TPS), qualitative module weighting for Super Large Corporates, and temporary stability treatment for IRB Corporate Industry models.
+    * The Firm plans to respond to the PRA by October 16; MRM will review Strats’ responses before submission.
+
+EqSp VIF / Project Solaris
+
+* MRM approved the EqSp VIF model (GBM Public, Tier 1) to price Value-In-Force (VIF) financing payoffs, supporting the upcoming Project Solaris USD tranche in Arrow Re’s reinsurance business.
+    * MRM has validated models supporting more than 10 Arrow Re reinsurance programs, representing multiple billions of aggregate notional. Given the bespoke structures and risk factors across transactions, these models are reviewed on a deal-by-deal basis.
+    * EqSp VIF is the first approved calculator supporting VIF financing holistically and provides a framework that can be extended to future global VIF financing transactions.
+
+Risk Appetite Statement Metrics
+
+* All aged findings breaching the FRAC threshold (six months past original due date) have been resolved as of September 30.
+    * Remediation included migration of several GBM e-trading-related models from a legacy Transaction Cost Model and enhancements to risk capture in the CCR Equities Franchise benchmark model. [Confirm accuracy following closure of the remaining CCR finding.]
+    * This represents a significant milestone following the tightening of the FRAC aged-finding threshold from nine to six months approximately one year ago, with CCR findings having been a recurring driver of threshold breaches.
+    * We remain focused on reducing the population of findings aged three to six months.
+
+Regulatory Updates
+
+ECB Internal Models Method (IMM) Exam
+
+* The ECB issued a draft decision letter with 18 findings; GSBE has until October 6 to respond during the right-to-be-heard period.
+    * One finding requires GSBE-specific approval of MRM validation reports and extends this requirement beyond the IMM scope to all models used by the entity.
+    * MRM is challenging the broader application of this requirement, which does not appear to have a clear legal basis.
+
+PRA Fundamental Review of the Trading Book (FRTB) – Internal Model Approach (IMA)
+
+* The PRA commenced a cross-functional FRTB-IMA meeting series with GSUK across all three lines of defense.
+    * MRM is coordinating with Strats and Regulatory Engagement on potential acceleration of outstanding model submissions, including P&L Attribution, Risks-Not-in-Model for pegged currencies, and the Aggregator.
+    * The PRA requested a dedicated MRM follow-up on validation challenges arising from the FRTB-IMA framework, including phased submissions, evolving regulatory requirements, and associated validation and governance considerations.
+
+A few specific choices I made:
+
+For EqSp VIF, Caroline is right that “10+ programs, bespoke structures, billions” reads like three unrelated facts. The revised sentence explains why the 10+ validations matter: Arrow Re transactions are bespoke, so MRM has historically performed deal-by-deal validation. Then the next bullet explains why EqSp VIF is notable—it creates a more holistic/reusable framework.
+
+For the FRAC milestone, I think Caroline wants something stronger than simply stating that the threshold changed. The important message is: the threshold was tightened from nine to six months; CCR findings had repeatedly driven breaches; now there are no findings breaching it. I would still have Kainan confirm that characterization before sending.
+
+For FRTB-IMA, Caroline’s “not sure this belongs here vs Soo’s update” sounds more like an ownership/duplication question than a drafting issue. I would keep it in the working draft for now, but flag to Soo/group whether it is already covered elsewhere before finalizing.
+
+And for Caroline’s “weren’t we going to add the NFA one?”, I’d respond along these lines: “We discussed the NFA item with Bill on Monday. Bill asked us to continue investigating the underlying reference to MRM but questioned whether the CRO update was the appropriate place to report it, so I have left it out for now.”
 
 
 
