@@ -1,3 +1,34 @@
+I’d make the three sections more CRO-oriented: lead with the milestone/outcome, then only the MRM-relevant issue or next step. For the IRB section, I would not pull from the numbered PRA questions because those appear to be the FRTB-IMA follow-ups rather than IRB follow-ups. I’d use the IRB-specific themes you provided instead.
+
+Program Updates
+
+Risk Appetite Statement Metrics
+
+* All aged findings breaching the FRAC threshold (six months past original due date) have been resolved as of September 30.
+* This reflects completion of the Transaction Cost Model (TCM) migration across all downstream model usages and closure of the remaining aged Counterparty Credit Risk (CCR) finding.
+
+Regulatory Updates
+
+PRA Fundamental Review of the Trading Book (FRTB) – Internal Model Approach (IMA)
+
+* The PRA commenced a cross-functional FRTB-IMA meeting series with GSUK across all three lines of defense; MRM is coordinating with Strats and Regulatory Engagement on potential acceleration of outstanding model submissions, including P&L Attribution, Risks-Not-in-Model for pegged currencies, and the Aggregator.
+* The PRA requested a dedicated MRM follow-up on validation challenges arising from the FRTB-IMA framework, including the phased implementation and submission approach, evolving regulatory requirements, and implications for MRM validation and governance.
+
+PRA Internal Ratings-Based (IRB) Approach
+
+* The Firm completed its September month-end submission to the Prudential Regulation Authority (PRA) for the enhanced IRB framework.
+* Recent PRA follow-up questions include model-related topics that overlap with areas identified through second-line regulatory compliance review, including treatment of third-party-supported names, the qualitative module weighting for Super Large Corporates, and temporary stability treatment for IRB Corporate Industry models.
+* The Firm plans to respond to the PRA by October 16; MRM will review Strats’ responses to the model-related questions as part of the second-line review.
+
+One nuance on FRTB-IMA: I changed “PRA have requested MRM to highlight key challenges” to “requested a dedicated MRM follow-up on validation challenges.” That sounds less like MRM is being asked to generate a list of problems and more accurately conveys that the PRA wants to understand how MRM is handling the unusual validation environment.
+
+For IRB, I think the three-bullet structure works particularly well: submission completed → PRA’s model-risk themes → MRM next step.
+
+
+
+
+
+
 I’d streamline these into four CRO sections, keeping the key conclusions and stripping out the Strats-level implementation detail.
 
 Validation Activities
