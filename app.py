@@ -1,3 +1,13 @@
+Almost. Because “Differences” is plural, use “are”, not “is.” I’d also slightly tighten the ending:
+
+Differences compared with the corresponding desk implementation are also being discussed with Regulatory Policy, given the regulatory requirement for accounting and regulatory CVA to align.
+
+For CRO materials, I slightly prefer “differences from”:
+
+Differences from the corresponding desk implementation are also being discussed with Regulatory Policy, given the regulatory requirement for accounting and regulatory CVA to align.
+
+
+
 Sure — I’d keep it brief and make clear that it was intentionally omitted after the discussion with Bill.
 
 We discussed the NFA item with Bill on Monday. He agreed we should continue looking into the underlying issue, particularly what NFA is interpreting as an MRM requirement, but questioned whether the CRO update was the right place to report it. We therefore left it out for now pending further investigation.
