@@ -1,3 +1,94 @@
+I’d make the email to Caroline and Aini self-contained: summarize the proposed resolutions, clearly flag the questions for Aini, and then include the proposed Bill email below for Caroline’s review.
+
+Hi Caroline and Aini,
+
+Following our review of the Control Library exceptions, I summarized below the proposed updates and a few follow-ups for Aini. I have also included a draft email to Bill below for Caroline’s review.
+
+1. Model Inventory Control
+
+We identified two potential options:
+
+Option 1 – Update the control type and frequency
+
+* Control Type: Preventive → Detective
+* Frequency: Ad hoc → Quarterly
+* Description: No change
+
+This would align the classification with the existing description, which describes a quarterly review and attestation of the completeness and accuracy of the model inventory.
+
+Option 2 – Retain the existing classification and revise the description
+
+* Control Type: Preventive
+* Frequency: Ad hoc
+* Description: Revise the description to better reflect the preventive nature of the control.
+
+Proposed description:
+
+“Model Inventory Certifiers are required to ensure that models in use, in development, or undergoing validation are appropriately captured and maintained in the firm’s centralized model inventory system in accordance with the Firmwide Standards for Model Inventory Management. This control is intended to ensure that models are appropriately identified and recorded in the model inventory and that required model information is maintained accurately and completely. For clarity on the control requirements, please refer to the Firmwide Policy on Model Control.”
+
+We propose presenting both options to Bill for his view.
+
+2. Control Descriptions
+
+For the Model Development, Model Change Management, and Model Usage controls, we propose updating the descriptions to more clearly articulate the risks the controls are intended to mitigate. The proposed wording is included in the draft email to Bill below.
+
+3. Follow-ups for Aini
+
+Aini, could you please help clarify the following before we finalize the proposed changes?
+
+* For the Ongoing Monitoring Control, could you clarify how “Continuous” is defined for purposes of the Control Library frequency taxonomy? We would like to understand whether Continuous appropriately captures the nature of ongoing model monitoring before making any change to the frequency.
+* For the control relating to verification of adherence to assessment/review standards, could you please pull the analogous control currently used for Models in the Model Risk RCSA? We would like to compare the two and ensure that the treatment is consistent before making any changes.
+* For the AI-related observations, could you please leave these aside for now / coordinate with Richard as appropriate, given the ongoing work on the AI control framework?
+
+For the remaining observations relating to Risk Type, Control Type and Technology Control Taxonomy where we concluded that the comments do not represent substantive issues, we are proposing no change.
+
+Caroline – below is the draft I propose sending to Bill once we close out the above follow-ups.
+
+⸻
+
+Draft Email to Bill
+
+Hi Bill,
+
+We reviewed the Control Library exceptions and identified a small number of proposed updates for your review.
+
+Model Inventory Control
+
+The current control is classified as Preventive / Ad hoc, while the description focuses on the quarterly certification process under which Model Inventory Certifiers review and attest to the completeness and accuracy of the inventory. We see two potential approaches:
+
+1. Align the classification with the existing description: change the Control Type from Preventive to Detective and the Frequency from Ad hoc to Quarterly, with no substantive change to the description; or
+2. Retain Preventive / Ad hoc: revise the description to focus on the requirement to ensure models are appropriately captured and maintained in the model inventory, rather than the quarterly certification process.
+
+For Option 2, we propose:
+
+“Model Inventory Certifiers are required to ensure that models in use, in development, or undergoing validation are appropriately captured and maintained in the firm’s centralized model inventory system in accordance with the Firmwide Standards for Model Inventory Management. This control is intended to ensure that models are appropriately identified and recorded in the model inventory and that required model information is maintained accurately and completely. For clarity on the control requirements, please refer to the Firmwide Policy on Model Control.”
+
+Control Descriptions
+
+We also propose limited updates to three control descriptions to more explicitly articulate the risks being mitigated, without changing the underlying control requirements:
+
+* Model Development: Add: “This control is intended to mitigate the risk of model errors, ineffective implementation, and inaccurate or unreliable model outputs by requiring models to be developed and implemented in accordance with established standards and identified deficiencies to be appropriately remediated or mitigated.”
+* Model Change Management: Add: “This control is intended to mitigate the risk of unauthorized or unassessed model changes introducing model errors, adversely affecting model performance, or resulting in inappropriate model use.”
+* Model Usage: Add: “This control is intended to mitigate the risk of inappropriate model use, including use outside the model’s approved scope or without required approvals, restrictions, or safeguards.”
+
+The remaining observations either do not require changes or are being clarified with the Control Library team.
+
+Please let us know if you agree with the proposed approach, including which option you prefer for the Model Inventory Control.
+
+Thanks,
+Yibo
+
+⸻
+
+Thanks,
+Yibo
+
+One small point: I used “Aini” based on your latest message rather than “Ainu.” I also kept the Bill email focused on the decisions that actually require his attention rather than walking him through the full spreadsheet, consistent with Caroline’s direction.
+
+
+
+
+
 Yes. Based on your manager’s comments, I would keep this fairly targeted. The issue is not that the underlying control requirements are wrong; it is that the descriptions state the required activities without clearly articulating the risk/control objective — i.e., the “why” the control exists.
 
 Abbreviated issue
