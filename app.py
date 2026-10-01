@@ -1,3 +1,280 @@
+Yes. The catch-up covered several separate workstreams, but the most immediate asks from your manager are quite clear. I’d organize your action items by priority/deadline as follows.
+
+1. Control Library Exceptions — main immediate action
+
+This was the most detailed part of the discussion. Your manager does not want Bill to review the 30-row spreadsheet line by line. She wants you to resolve the detailed points first, then prepare a very clear email summary of only the changes that actually matter, agree those with her, and then take the proposed changes/options to Bill.
+
+A. Model Inventory control
+
+This is the main item that should be explicitly raised to Bill.
+
+Your manager’s view is that if the control is really the inventory attestation process, then it is effectively a detective control performed quarterly.
+
+You should present Bill with two options:
+
+* Option 1: Keep the existing description, but change:
+    * Control Type → Detective
+    * Frequency → Quarterly
+* Option 2: Keep the existing classification/frequency and instead revise the control description so it better reflects what the control is intended to represent.
+
+Your manager seemed to lean toward the first interpretation, but she specifically wants the options run by Bill rather than making the decision yourselves.
+
+B. Control descriptions requiring clarification
+
+For the controls where the review says the description does not clearly articulate the control or the risk being mitigated, your task is to draft improved wording.
+
+This particularly came up for the Model Development control and some of the other descriptions flagged in the spreadsheet.
+
+Your manager explicitly said:
+
+“You should come back to me with some better thing.”
+
+So don’t just accept/reject the reviewer comment. Draft the replacement language and send it to your manager for iteration over email.
+
+The revised descriptions should make clear:
+
+* what the control actually does
+* what risk it mitigates
+* why the activity constitutes a control
+
+C. Ongoing Monitoring — clarify “Continuous”
+
+The current frequency appears to be Continuous.
+
+Your manager does not want to change this yet because it is unclear what the taxonomy actually means by “continuous.”
+
+Action: Ask the reviewer/control-library contact:
+
+What is the definition of “Continuous” frequency under the control taxonomy, and how is it distinguished from Ad Hoc / Quarterly / other frequencies?
+
+Once you have the definition, determine whether Ongoing Monitoring should remain Continuous.
+
+D. Verification of adherence to assessment/review standards
+
+For the control relating to adherence to assessment/review standards, do not change it yet.
+
+Your manager believes there is an analogous control in the existing Model Risk RCSA / model controls.
+
+Action: Ask the reviewer to pull the corresponding existing Model Risk RCSA control so you can compare the wording/classification and ensure consistency.
+
+The principle from your manager was essentially: if you change this control, you should understand whether the analogous model validation control would need the same treatment.
+
+E. AI-related exceptions
+
+Don’t spend time trying to resolve the AI control taxonomy items yourselves.
+
+Your manager said to either:
+
+* leave the AI items aside because the framework is likely changing; or
+* have the reviewer loop in Richard for the AI-related controls.
+
+So separate these from the core Model Risk items in your response.
+
+F. Items that are just AI-generated wording observations
+
+For several of the exceptions — particularly things like Risk Type / Control Type / Tech Control Taxonomy — your manager’s view was that these are not genuine control issues and are largely the AI tool reacting to wording.
+
+Those should generally be No Change, unless one of the specific exceptions above applies.
+
+Final deliverable for this workstream
+
+After getting the clarifications, send your manager a concise email along the lines of:
+
+Changes proposed
+
+1. Inventory control — two options for Bill.
+2. Development control — proposed revised description.
+3. [Other controls] — proposed revised wording/classification.
+4. Ongoing Monitoring — outcome after clarification of “Continuous.”
+5. Assessment/review standards — recommendation after comparison against existing Model Risk RCSA control.
+
+No changes proposed
+
+* Risk/control/taxonomy observations that are wording-driven rather than substantive.
+* Other exceptions where you and your manager agreed “No.”
+
+Separately
+
+* AI-related observations to be handled with Richard / left pending the AI control framework changes.
+
+Then agree the summary with your manager first → get Bill’s approval → finalize the spreadsheet.
+
+⸻
+
+2. Model IT / IRR
+
+This sounds mostly dependent on another update.
+
+The core-end changes have not yet been made to Model IT.
+
+Once those changes are completed:
+
+Your action: Recalculate IRR, then circulate the updated result to:
+
+* your manager,
+* Bill,
+* Operational Risk.
+
+So this is currently a waiting/dependency item, rather than something you need to complete immediately.
+
+⸻
+
+3. FRAC materials — operational events need to be resolved before MGW
+
+This is important because your manager gave you a clear change in process.
+
+Timeline
+
+* Draft materials: October 14
+* Final materials: October 15
+* MGW: October 15
+
+The timing is tight, but your manager explicitly said do not wait for MGW to resolve issues.
+
+What she wants
+
+Before the October 15 MGW, particularly for the Operational Risk events, you should:
+
+1. Get the relevant manager’s view.
+2. Discuss the assessment with your manager.
+3. Bring in the relevant managers where necessary.
+4. Reach a final MRM view.
+5. Make sure a sufficiently senior person has agreed with the outcome.
+6. Have Bill comfortable with the materials before MGW.
+
+The key instruction was:
+
+Do not go into MGW with open questions.
+
+MGW should effectively be confirmation of an already-socialized position rather than the forum where MRM figures out its position.
+
+So I would start the Operational Risk event discussions well before October 14.
+
+⸻
+
+4. BRC deck — immediate / today
+
+The BRC talking points are due tomorrow.
+
+You said you would draft them today.
+
+Your actions
+
+First, draft the talking points, particularly the Executive Summary, initially as a small number of concise bullets.
+
+Second, check with the committee/secretariat team regarding the final Top Focus Areas being presented to BRC.
+
+You currently do not have visibility into their final materials, so you need to confirm what they have included.
+
+In particular, confirm the treatment of AI. Your understanding from Phil is that AI was removed from the Top Focus Areas because there is a separate AI presentation, but your manager wants this verified rather than assumed.
+
+Then make sure your Executive Summary/talking points align with what BRC will actually see.
+
+⸻
+
+5. CRO Priorities deck
+
+The CRO Priorities deck is due Tuesday next week.
+
+Your plan was:
+
+This week: Prepare the first draft of the overall deck.
+
+By Monday: Send Bill the three headline sections:
+
+* Near-term priorities
+* Long-term priorities
+* Accomplishments
+
+So I would treat Monday as the internal Bill review deadline, not Tuesday.
+
+⸻
+
+6. RCC notes — finalize, no Pam review required
+
+This changed after your conversation.
+
+You had sent the RCC notes to Pam, but your manager subsequently emailed you that Pam no longer needs to review them.
+
+Your action is simply:
+
+Read your manager’s email → incorporate whatever instructions she provided → finalize the RCC notes.
+
+Don’t wait for Pam’s comments.
+
+⸻
+
+7. Upcoming FRB quarterly meeting — contact John about agenda
+
+You have roughly three weeks, so this isn’t urgent today, but there is a specific ask.
+
+When you contact John about the agenda, your manager wants you to proactively flag SR 26-2.
+
+The message should convey that:
+
+* In the previous discussion with the Fed, MRM provided a high-level overview of the planned changes in response to SR 26-2.
+* MRM now has more concrete proposals.
+* Those proposals are expected to begin going through internal governance in November.
+* If the Fed thinks it would be useful, MRM would like to walk them through the more detailed proposals at the upcoming quarterly meeting.
+* Ask whether they have any other topics they would like added to the agenda.
+
+So this is more than simply asking John, “What is the agenda?” You should propose SR 26-2 as an agenda topic while soliciting their topics.
+
+⸻
+
+8. SR 26-2 — don’t add substantively to FRAC yet
+
+Your manager considers the detailed proposal too preliminary for FRAC at this stage.
+
+Current expected governance path sounds like:
+
+November: MRCC
+→ December: Board / Model Control Policy update
+→ subsequently reflected in the appropriate FRAC/MRCC annual update.
+
+You could check with Bill whether a very high-level bullet belongs in the FRAC quarterly materials, but your manager does not want the detailed proposal included yet.
+
+Also remember that the December Board materials are due toward the end of November, and the SR 26-2-driven policy updates will need to be incorporated there.
+
+⸻
+
+9. Year-end vacation
+
+Your manager is comfortable in principle with you taking approximately the last three weeks of December, subject to coverage.
+
+The key dependency is Ariana covering you during the first week you’re out, particularly around the week of December 14.
+
+Your action: Check with Ariana that she can cover you for that first week.
+
+Your manager expects the final two weeks to be relatively quiet and thinks some recurring reporting can potentially take a two-week break.
+
+Once Ariana confirms coverage, you should be able to finalize the leave plan.
+
+⸻
+
+Your practical to-do list
+
+Priority	Action	Timing
+🔴	Draft BRC talking points / Executive Summary	Today
+🔴	Check BRC Top Focus Areas with committee team, especially whether AI is excluded due to separate presentation	Today
+🔴	Control Library: draft better descriptions for controls where changes are needed	ASAP
+🔴	Ask for definition of “Continuous” for Ongoing Monitoring	ASAP
+🔴	Ask for analogous Model Risk RCSA control for assessment/review standards	ASAP
+🔴	Prepare concise Control Library change/no-change summary for your manager; include two Inventory options for Bill	After clarifications
+🟠	CRO Priorities — prepare first draft	This week
+🟠	Send near-term / long-term / accomplishments highlights to Bill	Monday
+🟠	Read your manager’s email and finalize RCC notes; no Pam review needed	ASAP
+🟠	Start resolving FRAC Operational Risk events with managers before materials are due	Before Oct. 14
+🟡	Recalculate IRR after Model IT changes and circulate to manager/Bill/Op Risk	Once changes land
+🟡	Contact John re FRB agenda + proposed SR 26-2 discussion	Upcoming weeks
+🟡	Keep detailed SR 26-2 proposal out of FRAC for now; track Nov MRCC / Dec Board	Future
+🟡	Confirm December vacation coverage with Ariana	When convenient
+
+The three things I would work on first today are: (1) BRC talking points and Top Focus Area confirmation, (2) send the Control Library clarification questions so you’re not blocked, and (3) start drafting the Control Library proposed wording/change summary while those answers are pending.
+
+
+
+
 Almost. Because “Differences” is plural, use “are”, not “is.” I’d also slightly tighten the ending:
 
 Differences compared with the corresponding desk implementation are also being discussed with Regulatory Policy, given the regulatory requirement for accounting and regulatory CVA to align.
