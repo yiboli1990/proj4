@@ -1,3 +1,11 @@
+Here’s a cleaner version that matches the tone and structure of the August accomplishments:
+
+* Completed a key milestone in the multi-year enhancement of the firm’s Internal Credit Ratings (ICR) framework, including approval of ten ICR and Probability of Default (PD) models and completion of the independent regulatory compliance assessment supporting the PRA Internal Ratings-Based (IRB) application.
+* Secured AI Risk Committee (ARC) and AIRCC approval of enhancements to the AI Policy and Standard, including changes to firmwide AI inventory scope and restrictions on development of AI use cases and use of AI coding tools.
+* Reapproved Prism, a Tier 2 GBM Public agentic AI model that answers trader queries on market research, trade ideas, and scenario analysis, following substantial code changes to address Technology Risk findings and improve model performance.
+* Resolved all Tier 2 and Tier 3 aged findings breaching the FRAC threshold as of September 30.
+
+
 I’d make the email to Caroline and Aini self-contained: summarize the proposed resolutions, clearly flag the questions for Aini, and then include the proposed Bill email below for Caroline’s review.
 
 Hi Caroline and Aini,
