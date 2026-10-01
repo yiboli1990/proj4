@@ -1,3 +1,10 @@
+I’d make it more executive and parallel in structure:
+
+Key drivers of ongoing validation activity include the firm’s multi-year Internal Credit Ratings (ICR) enhancement program, including requirements supporting the Prudential Regulation Authority (PRA) Internal Ratings-Based (IRB) application; continued expansion of Artificial Intelligence (AI) use cases, including increasingly autonomous and complex agentic AI models; Counterparty Credit Risk (CCR) model enhancements to harmonize shortfall methodologies and address validation findings; and enhancements to the Standard Initial Margin Model (SIMM) Interest Rate Delta methodology to improve initial margin calibration and reduce counterparty disputes.
+
+
+
+
 Yes. The catch-up covered several separate workstreams, but the most immediate asks from your manager are quite clear. I’d organize your action items by priority/deadline as follows.
 
 1. Control Library Exceptions — main immediate action
