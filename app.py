@@ -1,3 +1,37 @@
+Yes — with the correction that the current state is Preventive / Ad hoc, I read your manager’s two options the same way.
+
+The underlying issue is that the existing description explicitly describes a quarterly attestation, which naturally reads as a detective control. So the two alternatives are:
+
+Option 1 — Align classification to the current description
+
+Keep the description essentially unchanged, but change the metadata to reflect the quarterly inventory certification/attestation process:
+
+* Control Type: Preventive → Detective
+* Frequency: Ad hoc → Quarterly
+* Description: No substantive change
+
+Rationale: The control operates through Model Inventory Certifiers reviewing and attesting to the completeness and accuracy of the existing inventory. That is primarily detective because the control identifies potential inventory completeness/accuracy issues through a quarterly review. The description also explicitly states that the certification occurs quarterly.
+
+Option 2 — Retain Preventive / Ad hoc and revise the description
+
+Keep the existing classification:
+
+* Control Type: Preventive
+* Frequency: Ad hoc
+* Description: Revise so that the control is framed around the obligation to maintain a complete and accurate inventory, rather than the quarterly certification used to detect issues.
+
+I would propose this wording:
+
+Model Inventory Certifiers are required to ensure that models in use, in development, or undergoing validation are appropriately captured and maintained in the firm’s centralized model inventory system in accordance with the Firmwide Standards for Model Inventory Management. This control is intended to ensure that models are appropriately identified and recorded in the model inventory and that required model information is maintained accurately and completely. For clarity on the control requirements, please refer to the Firmwide Policy on Model Control.
+
+The important change is that Option 2 removes the quarterly review and attestation language. Otherwise, it is difficult to defend both Preventive and Ad hoc: a quarterly review of an existing inventory is inherently much closer to a quarterly detective control.
+
+For the summary to Bill, I would characterize the choice very simply as: Option 1 aligns the control type/frequency to the currently described quarterly certification process; Option 2 retains the existing Preventive/Ad hoc classification but revises the description to reflect the preventive nature of the underlying inventory-management requirement.
+
+If you want, we can move to the next Control Library exception and work through it the same way.
+
+
+
 I’d make it more executive and parallel in structure:
 
 Key drivers of ongoing validation activity include the firm’s multi-year Internal Credit Ratings (ICR) enhancement program, including requirements supporting the Prudential Regulation Authority (PRA) Internal Ratings-Based (IRB) application; continued expansion of Artificial Intelligence (AI) use cases, including increasingly autonomous and complex agentic AI models; Counterparty Credit Risk (CCR) model enhancements to harmonize shortfall methodologies and address validation findings; and enhancements to the Standard Initial Margin Model (SIMM) Interest Rate Delta methodology to improve initial margin calibration and reduce counterparty disputes.
