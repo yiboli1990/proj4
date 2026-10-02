@@ -1,3 +1,7 @@
+    Roll out enhancements to the AI Policy and Standard, including firmwide communication and training, expanded AI inventory collection, and divisional gap assessments and remediation by year-end.
+
+
+
 Here’s a cleaner version that matches the tone and structure of the August accomplishments:
 
 * Completed a key milestone in the multi-year enhancement of the firm’s Internal Credit Ratings (ICR) framework, including approval of ten ICR and Probability of Default (PD) models and completion of the independent regulatory compliance assessment supporting the PRA Internal Ratings-Based (IRB) application.
