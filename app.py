@@ -1,4 +1,7 @@
-    Roll out enhancements to the AI Policy and Standard, including firmwide communication and training, expanded AI inventory collection, and divisional gap assessments and remediation by year-end.
+    Socialize proposed changes to the Model Risk Management framework in response to SR 26-2, including opportunities to scale model governance based on materiality.
+
+
+Roll out enhancements to the AI Policy and Standard, including firmwide communication and training, expanded AI inventory collection, and divisional gap assessments and remediation by year-end.
 
 
 
