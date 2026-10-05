@@ -1,4 +1,24 @@
-    Socialize proposed changes to the Model Risk Management framework in response to SR 26-2, including opportunities to scale model governance based on materiality.
+I’d make both more concise and CRO-oriented by emphasizing what changed, the performance impact, and the remaining MRM action.
+
+Surveillance AI (Compliance, Tier 1)
+
+* MRM approved enhancements to Surveillance AI, used to close insider-trading alerts that would otherwise require human review.
+* The model was redesigned from an agentic maker-checker workflow to an LLM-based feature-extraction and machine-learning classification approach, reducing token usage by 40% and manual-review alerts by 19%, while maintaining 98.8% recall versus a 97% target.
+* MRM identified further efficiency opportunities from simplifying the validation workflow; additional enhancements are being tracked through a finding.
+
+Surveillance AI for Unusual Movement of Assets (UMA) (Compliance, Tier 1)
+
+* MRM approved enhancements to the UMA surveillance model, used to close transaction-monitoring alerts that would otherwise require human review.
+* Changes included prompt refinements based on Financial Crime Compliance feedback and replacement of deprecated Gemini 2.5 Pro models.
+
+If you want, I can also make these even more CRO-style, with each model limited to just 2 bullets.
+
+
+
+
+
+
+Socialize proposed changes to the Model Risk Management framework in response to SR 26-2, including opportunities to scale model governance based on materiality.
 
 
 Roll out enhancements to the AI Policy and Standard, including firmwide communication and training, expanded AI inventory collection, and divisional gap assessments and remediation by year-end.
