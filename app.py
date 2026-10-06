@@ -1,3 +1,9 @@
+* Zoom AI Expansion: AIRCC approved the phased expansion of Zoom AI through the VCR meeting summary portal to lower-risk users and use cases, with centralized human review, retention and monitoring controls.
+* Merlin AI: AIRCC conditionally approved Merlin AI for Natural Gas US and EM/SSA Bonds UK, using a fine-tuned LLM to extract RFQ economics and pre-fill inquiry forms, with human review before quotes are returned.
+
+
+
+
 Yes. I’d draft the 10/6 minutes this way. I’ve treated Caroline’s closing recap as authoritative for follow-ups / pre-go-live conditions, and I’ve deliberately removed those topics from the Key Discussion Points where they would otherwise be duplicative.
 
 [1] Zoom AI Expansion – Approval
