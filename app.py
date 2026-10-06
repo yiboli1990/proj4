@@ -1,3 +1,68 @@
+Yes. I’d draft the 10/6 minutes this way. I’ve treated Caroline’s closing recap as authoritative for follow-ups / pre-go-live conditions, and I’ve deliberately removed those topics from the Key Discussion Points where they would otherwise be duplicative.
+
+[1] Zoom AI Expansion – Approval
+
+Presenters: Tamilla Ghodsi, Miruna Stratan, Jon Gudmandsen
+
+Decision:
+AIRCC approved the phased expansion of Zoom AI through the VCR meeting summary portal for approved lower-risk users and in-scope lower-risk use cases.
+
+Pre-go-live Conditions:
+None.
+
+Other Follow-ups:
+
+1. Update AIRCC on enhancements to the monitoring control following the initial rollout period.
+2. Ensure Mainland China is excluded as a high-risk user population.
+
+Key Discussion Points:
+
+* In response to a question from a Council member regarding the meaning of out-of-scope users, the presenters clarified that higher-risk populations will not be entitled to host or co-host Zoom AI-enabled meetings, although they may participate in otherwise permitted meetings. Department-dependent populations will be assessed based on the nature of their expected use cases, with Legal, Compliance and divisional leadership determining appropriate access.
+* In response to questions regarding the classification of lower- and higher-risk populations, the presenters explained that the assessment is driven principally by the likelihood that a user population conducts meetings involving sensitive or otherwise out-of-scope topics. Larger or mixed populations, including Engineering, require more granular assessment given the range of potential meeting types.
+* In response to a question from a Council Chairperson regarding the monitoring framework, the presenters clarified that the initial control is deterministic and uses lexicon and participant-based rules to detect potential use of Zoom AI for out-of-scope meeting topics. The control is detective and operates on unedited summaries after they are generated; the team expects to develop a more sophisticated model-based control as additional data becomes available and subject to applicable governance and approvals.
+* Council members emphasized that the purpose of the monitoring control is to identify meetings for which the Firm does not want AI-generated summaries retained, rather than to assess the accuracy of the summaries. The presenters further clarified that training and user attestation provide additional controls, with users required to confirm that summaries have been reviewed and relate to an approved use case before saving.
+* In response to a question regarding the open high-severity Internal Audit finding associated with Zoom, the presenters and Internal Audit clarified that the finding relates to the broader Zoom application rather than specifically to the AI capability. Remediation actions are underway, including migration of Zoom mobile into the managed container and clarification of encryption controls, and the finding does not prevent the proposed Zoom AI expansion.
+
+I think five bullets is the right level here. In particular, I would not add the China discussion because Caroline explicitly captured it as a follow-up.
+
+⸻
+
+[2] Merlin AI – Approval
+
+Presenters: Peter Smith, Dev Bharadwaj, Elmar Okanovic
+
+Decision:
+AIRCC conditionally approved the Category 2, Tier 2 production use of Merlin AI for the Commodities – Natural Gas US and New Markets / EM – SSA and EM Bonds UK use cases, subject to satisfaction of the documented pre-go-live conditions.
+
+Pre-go-live Conditions:
+
+1. Complete Model Risk Management validation.
+2. Complete review of the applicable Compliance filters.
+3. Follow up with Legal regarding the use of other LLMs to generate synthetic training data.
+4. Confirm Technology Risk approval with Elton Nyema.
+
+Other Follow-ups:
+None.
+
+Key Discussion Points:
+
+* In response to questions from Council Chairpersons regarding the model design and training approach, the presenters explained that Merlin AI uses the same Gemma base-model approach as Equinox but is separately fine-tuned using product-specific data to extract RFQ economics into structured fields. Separate training datasets and models are contemplated for different product domains rather than training a single model across the broader FICC product set.
+* In response to questions regarding testing performance, the presenters explained that the initial rollout is deliberately limited to Natural Gas and EM/SSA Bonds and that testing targets at least 90% exact-match accuracy on the structured output. Training data incorporates historical parsed RFQs supplemented by synthetic examples where historical observations are limited.
+* Council members discussed how future expansion to additional products and desks should be governed. The discussion indicated that, where the existing architecture and control framework remain unchanged, subsequent onboarding could follow a streamlined review supported by a standardized performance assessment demonstrating accuracy for the new product population.
+* In response to a question from a Council Chairperson regarding why Merlin was developed separately from Equinox, the presenters clarified that Merlin applies the same underlying modeling approach but is intended to provide a more scalable platform for FICC products. The team noted that the capabilities could potentially converge over time rather than maintaining separate solutions indefinitely.
+* A Council Chairperson and Council members challenged the proposed full fine-tuning approach given the relatively limited training dataset and the greater complexity of FICC products. The discussion highlighted potential overfitting risk and alternative approaches, including low-rank adaptation and product-specific adapters, for the team and Model Risk to consider as the model design evolves.
+
+A couple of judgment calls I made
+
+For Zoom, I kept the IA finding because Philip specifically raised whether AIRCC should be comfortable proceeding given the high-severity finding, and IA clarified its scope. That is substantive governance discussion and is not one of Caroline’s two follow-ups.
+
+For Merlin, I intentionally did not repeat the Tech Risk, Legal/synthetic-data, Compliance-filter, or ongoing MRM-validation discussions in the Key Discussion Points because Caroline explicitly converted those into the four pre-go-live conditions. The fine-tuning / overfitting discussion is different: Michael raised it as broader model-design guidance, and Bo confirmed that adequacy of the training dataset was already an MRM concern. It therefore belongs in the discussion even though detailed model validation remains a pre-go-live condition.
+
+I also think the last Merlin bullet is important. Michael spent a meaningful amount of time on it, and omitting it would lose probably the most substantive technical challenge from the Chairs during the Merlin discussion.
+
+
+
+
 I’d make both more concise and CRO-oriented by emphasizing what changed, the performance impact, and the remaining MRM action.
 
 Surveillance AI (Compliance, Tier 1)
