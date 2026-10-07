@@ -1,3 +1,21 @@
+Understood — you want the full FRAC summary, retaining all the substantive details you provided for both GBM Private models, while combining them where it improves readability.
+
+Collateralized Lending
+
+There is continued focus on development and validation work supporting the Collateralized Lending business, related to extending model coverage for new collateral types, reducing reliance on fallback methodologies, enhancing model accuracy and capital treatment, and addressing validation findings. Recent approvals include:
+
+* MRM approved two Tier 1 GBM Private models supporting Collateralized Lending:
+    * A model used to estimate expected loss on loans backed by cashflows from fiber and energy projects, by assessing project debt repayment capacity at the event of default or facility maturity. Two high-severity findings, related to insufficient development evidence supporting risk factor selection and testing, were raised and remediated prior to approval.
+    * A model used to estimate expected loss on secured margin loans to Latin American borrowers, backed by high-quality sovereign and quasi-sovereign fixed-rate notes originated outside the borrower’s home jurisdiction. Two high-severity findings, related to the choice of model dynamics and modeled risk factors, were raised and remediated prior to approval.
+
+If you specifically want to combine the two models into a single bullet without losing any of those details, I would use:
+
+* MRM approved two Tier 1 GBM Private models supporting Collateralized Lending: one used to estimate expected loss on loans backed by cashflows from fiber and energy projects by assessing project debt repayment capacity at the event of default or facility maturity, and another used to estimate expected loss on secured margin loans to Latin American borrowers backed by high-quality sovereign and quasi-sovereign fixed-rate notes originated outside the borrower’s home jurisdiction. Four high-severity findings were raised across the two validations—two related to insufficient development evidence supporting risk factor selection and testing, and two related to the choice of model dynamics and modeled risk factors—and were remediated prior to approval.
+
+For FRAC, I prefer the first structure. It keeps the two models together under one thematic approval while preserving exactly which two high-severity findings belonged to which model.
+
+
+
 * Firmwide model inventory remained broadly stable quarter-over-quarter.
 * AI models are an increasing contributor to model inventory growth, with AI model inventory increasing X% quarter-over-quarter and X% year-over-year, reflecting continued adoption of Generative and Agentic AI capabilities across divisions.
 
