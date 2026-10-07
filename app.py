@@ -1,3 +1,16 @@
+I’d make those distinctions explicit:
+
+MRM Approvals
+
+* MRM approved enhancements to two Tier 1 Surveillance AI models used to close lower-risk surveillance alerts that would otherwise require manual investigation, covering potential Insider Trading and Unusual Movement of Assets (UMA).
+* For Insider Trading, the model was redesigned from an agentic maker-checker workflow to an LLM-based feature extraction and machine-learning classification approach, reducing token usage by 40% and manual-review alerts by approximately 20% while maintaining consistent performance.
+* MRM benchmarking identified an opportunity to further reduce token usage by approximately 35% while maintaining consistent performance; a validation finding was raised recommending the enhancement.
+* For UMA, enhancements included refinements based on Financial Crime Compliance feedback and an upgrade of the underlying LLM; the model remains agentic.
+
+
+
+
+
 Yes. The story is clear. For the surveillance section, I agree with Caroline’s suggestion: start with the common purpose of the two Tier 1 models, then distinguish the Insider Trading and UMA enhancements. I would remove the implementation-level terminology such as “predicate-validation,” Gemini versions, feature-extraction layer, and the detailed recall threshold.
 
 MRM Approvals
