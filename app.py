@@ -1,3 +1,69 @@
+Executive Summary
+There is continued focus on validation work related to the Collateralized Lending business, including recent approvals of:
+A Tier 1 GBM Private valuation model used to estimate expected loss for Infrastructure and Project Finance lending facilities
+A Tier 1 Core Engineering Real Estate Private Equity facility level ratings (FLR) model and enhancements to existing Tier 1 Core Engineering FLR, tail risk, and Current Expected Credit Losses (CECL) models to expand model coverage, reduce reliance on fallback methodologies, improve model accuracy and capital treatment, and address validation findings
+
+ICR
+There are continued efforts in the multi-year ICR enhancement program, supporting the firm's ERMF uplift plans and addressing regulatory feedback, including recent approvals of:
+Ten Tier 1 Core Engineering ICR and Probability of Default (PD) models for corporate counterparties and completion of an independent review of 713 rule compliance assessments supporting the PRA IRB application, completing a key milestone in the ICR enhancement program
+All three high-severity findings related to implementation errors and incomplete development data, all 24 medium-severity findings, and all other areas of non-compliance were remediated
+Three Tier 1 Core Engineering ICR models for sovereigns, private funds, and the Asset Secured Lending (ASL) business, developed as part of Phase 2 of the ICR ERMF uplift plans and to address supervisory feedback on the repeatability, transparency, and sustainability of the existing ICR framework
+All three high-severity findings related to missing-data treatment, development data quality, and implementation errors were remediated prior to approval
+
+AI
+There is continued growth in the development of AI models, including recent validation activities related to:
+Agentic AI models with greater autonomy and complexity, including:
+Reapproval of a Tier 2 GBM Public agentic AI model (Prism), which answers trader queries on market research, trade ideas, and scenario analysis through automatic email responses, following substantial code changes to address Technology Risk findings and improve model performance
+Approval of two Tier 2 Controllers agentic AI models developed with Anthropic, used (1) to investigate investment holding reconciliation breaks for XIG Fund Controllers (Funds Oversight Agentic AI) and (2) to automate complex transaction matching not handled by deterministic rules within the Harmony reconciliation platform (Controllers Data Reconciliation)
+
+Models supporting the OneGS 3.0 initiative, including approvals of two Tier 3 GBM Public generative / agentic AI models that (1) enable sales teams to profile client interests and preferences as part of the Sales Enablement workstream (Marquee Sales AI Chat) and (2) extract predefined regulatory attributes from legal agreements as part of the Regulatory Reporting workstream (Qualified Financial Contract (QFC)-DocAI)
+
+Neural network based machine learning models, including approvals of:
+Enhancements to the Tier 1 GBM Public equity share buyback pricing model (Buyback ML Pricer) to support additional daily execution constraints, enabling pricing of a €330 million share buyback transaction
+A Tier 2 GBM Public Recurrent Neural Network (RNN) model (Lupin AlgoNet) that uses market, sector, issuer, and security-specific data to generate corporate bond bid and ask quotes for downstream algorithmic trading, resolving a model waiver
+
+Other approvals of generative and agentic AI models across the firm used for operational efficiency, productivity, and client engagement
+
+
+Global Banking & Markets
+Validation activity during the period primarily related to:
+Risk management enhancements, including approvals of:
+Phase 1 enhancements to the Tier 1 GBM Public Agency Mortgage Fundamental model to address divergence between desk views of risk and Risk Division measurements. The enhancements improve mortgage prepayment modeling through recalibration and replacement of temporary adjustments with a strategic modeling approach
+The enhancements were prompted by remediation of a high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model related to incorrect treatment of pool price floors under stressed scenarios during the previous quarter; Phase 2 enhancements focused on the mortgage rate modeling are in progress
+
+Enhancements to the Tier 1 GBM Public Copula model used by the Asia Emerging Markets Structured desk, extending the framework to additional USD and KRW denominated interest rate products; this enhancement:
+Enables improved control variate calibration for dual spread range accruals by better capturing dependence across underlying interest rate factors
+Marks completion of a multi-year development effort to transition approximately $1.5 billion notional of long-dated notes, supporting improved dynamic risk measurement and valuation adjustments
+
+Valuation adjustments, including approvals of:
+A Tier 1 GBM Public model used to calculate Credit Valuation Adjustment (CVA) and Funding Valuation Adjustment (FVA) for Yield Curve Range Accrual Callable notes and Swaps (YCRAs), developed as part of ongoing work related to the new Fundamental Review of the Trading Book (FRTB) requirements and to cover products not supported by the desk's CVA engine, improving regulatory capital treatment
+
+Introduction of a term structure for correlation skew bumps within the Tier 1 GBM Public model used to account for asset correlation skew not captured by the standard local volatility model, enabling more consistent correlation skew (CorrSkew) pricing
+
+New business activities, including approval of a new Tier 1 GBM Public model used to price Value-In-Force (VIF) financing payoffs, supporting an upcoming reinsurance transaction (Project Solaris)
+This model provides a framework that can be extended to future global VIF financing transactions, reducing the need for deal-specific model development and Model Risk validation arising from bespoke payoff structures and underlying risk factors
+
+
+The Core Engineering
+Model Risk approved enhancements to the Tier 1 Core Engineering Long Term Stress Test (LTST) model, which assesses Global Core Liquid Assets (GCLA) under prolonged funding market stress scenarios, to incorporate recent stress periods and address an associated validation finding
+During validation, a high-severity finding related to GCLA monetization that resulted in underestimated three-month outflows was remediated through model enhancements
+Remaining outstanding medium-severity findings relate to insufficient justification of model assumptions
+
+Collateralized Lending
+There is continued focus on development and validation work supporting the Collateralized Lending business, related to extending model coverage for new collateral types, reducing reliance on fallback methodologies, enhancing model accuracy and capital treatment, and addressing validation findings. This includes approvals of:
+
+A Tier 1 Core Engineering model used to calculate facility level ratings (FLR) for real estate private equity deals, expanding coverage of bespoke deal structures and reducing reliance on fallback methodologies
+
+Enhancements to existing Tier 1 Core Engineering models to improve risk measurement accuracy, including (1) enhancements to the Private Credit FLR model to provide more appropriate treatment of facilities with equity collateral and (2) introduction of a multi-path framework for the Private Credit tail risk model, addressing the issue whereby Investment Grade (IG) facilities could receive excessive tail risk under the previous single-path approach
+
+Enhancements to Tier 1 Core Engineering Current Expected Credit Losses (CECL) models, including extension of the framework to calculate credit impairment for Available-for-Sale (AFS) debt securities, enhancements to debt-service coverage and guarantor recourse treatment for commercial real estate lending, and incorporation of prepayment modeling for corporate loans, expanding model coverage and addressing validation findings
+
+
+
+
+
+
+
 * Zoom AI Expansion: AIRCC approved the phased expansion of Zoom AI through the VCR meeting summary portal to lower-risk users and use cases, with centralized human review, retention and monitoring controls.
 * Merlin AI: AIRCC conditionally approved Merlin AI for Natural Gas US and EM/SSA Bonds UK, using a fine-tuned LLM to extract RFQ economics and pre-fill inquiry forms, with human review before quotes are returned.
 
