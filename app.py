@@ -1,3 +1,8 @@
+* Firmwide model inventory remained broadly stable quarter-over-quarter.
+* AI models are an increasing contributor to model inventory growth, with AI model inventory increasing X% quarter-over-quarter and X% year-over-year, reflecting continued adoption of Generative and Agentic AI capabilities across divisions.
+
+
+
 Eliann’s interpretation is more precise and matches the underlying discussion. The key follow-up was not simply excluding Mainland China users—the concern was that if a Mainland China attendee participates in a Zoom AI meeting hosted elsewhere, the resulting summary may need to be retained in the China Theta Lake.
 
 I would replace the current follow-up with:
