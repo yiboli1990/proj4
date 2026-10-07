@@ -1,3 +1,32 @@
+Yes. The story is clear. For the surveillance section, I agree with Caroline’s suggestion: start with the common purpose of the two Tier 1 models, then distinguish the Insider Trading and UMA enhancements. I would remove the implementation-level terminology such as “predicate-validation,” Gemini versions, feature-extraction layer, and the detailed recall threshold.
+
+MRM Approvals
+
+* MRM approved enhancements to two Tier 1 Surveillance AI models used to close lower-risk surveillance alerts that would otherwise require manual investigation, covering potential Insider Trading and Unusual Movement of Assets (UMA).
+* For Insider Trading, the model was redesigned while retaining an agentic workflow, reducing token usage by 40% and manual-review alerts by approximately 20% while maintaining consistent performance.
+* MRM benchmarking identified an opportunity to further reduce token usage by approximately 35% while maintaining consistent performance; a validation finding was raised to implement the recommended enhancement.
+* For UMA, enhancements included refinements based on Financial Crime Compliance feedback and an upgrade of the underlying LLM; the model continues to use an agentic workflow.
+
+I think this is substantially closer to the CRO style. In particular, the third bullet translates the “predicate-validation” issue into what the CRO actually needs to know: MRM found an additional efficiency opportunity, quantified it, and raised a finding.
+
+One small point: Preetam’s draft says the Insider Trading model was redesigned “from an agentic maker-checker workflow”, which could imply it is no longer agentic, while Caroline specifically said “we should probably indicate that this is still agentic.” I would confirm that fact with Preetam. If the redesigned Insider Trading model is no longer agentic, change bullet 2 to:
+
+For Insider Trading, the model was redesigned from an agentic workflow to a more streamlined approach, reducing token usage by 40% and manual-review alerts by approximately 20% while maintaining consistent performance.
+
+That distinction is worth getting exactly right.
+
+Program Update
+
+For Caroline’s second request, I would tie it directly to the approved Policy/Standard changes and then make AIRHub the concrete implementation activity:
+
+* MRM is progressing implementation of recently approved enhancements to the AI Policy and Standard, including firmwide communication and training, expanded AI inventory collection, and divisional gap assessments and remediation by year-end.
+* MRM is working with The Core Engineering to accelerate AIRHub enhancements supporting the expanded inventory requirements, including a lightweight registration process for user-developed AI.
+
+I think two bullets are enough for Program Update based on what we currently know. They tell a coherent story: the governance changes have been approved → MRM is now implementing them → AIRHub is being enhanced quickly to operationalize the expanded inventory requirement, particularly for user-developed AI.
+
+If Lucy provides more detail on the AIRHub implementation—such as timing, interim registration process, or specific functionality—we can make the second bullet more concrete rather than adding generic language.
+
+
 Executive Summary
 There is continued focus on validation work related to the Collateralized Lending business, including recent approvals of:
 A Tier 1 GBM Private valuation model used to estimate expected loss for Infrastructure and Project Finance lending facilities
