@@ -1,3 +1,30 @@
+Yes. I’d preserve the validators’ substantive detail but tighten the language and make the Executive Summary thematic, while the Details retain the model-level information and findings.
+
+Executive Summary
+
+There is continued focus on validation work related to the Collateralized Lending business, including recent approvals of:
+
+* Two Tier 1 GBM Private valuation models used to estimate expected loss for Infrastructure and Project Finance lending facilities and Latin American Margin Loans backed by sovereign and quasi-sovereign bonds.
+* A Tier 1 The Core Engineering Facility Level Ratings (FLR) model for Real Estate Private Equity deals, expanding model coverage and reducing reliance on fallback methodologies.
+* Enhancements to the Tier 1 The Core Engineering Tail Risk model for Private Credit facilities, introducing a multi-path framework to provide more robust risk differentiation and address limitations in the existing single-path approach.
+
+Details
+
+There is continued focus on development and validation work supporting the Collateralized Lending business, including recent validation activities related to:
+
+* Extending desk valuation model coverage for new collateral types, including approvals of two Tier 1 GBM Private models used to:
+    * Estimate expected loss on loans backed by cashflows from fiber and energy projects by assessing project debt repayment capacity at the event of default or facility maturity. Two high-severity findings related to insufficient development evidence supporting risk factor selection and testing were raised and remediated prior to approval.
+    * Estimate expected loss on secured margin loans to Latin American borrowers backed by high-quality sovereign and quasi-sovereign fixed-rate notes originated outside the borrower’s home jurisdiction. Two high-severity findings related to the choice of model dynamics and modeled risk factors were raised and remediated prior to approval.
+* Enhancements to The Core Engineering-owned FLR and Tail Risk frameworks, including approvals of:
+    * A Tier 1 The Core Engineering model used to calculate FLR for Real Estate Private Equity deals, expanding coverage of bespoke deal structures and reducing reliance on fallback methodologies.
+    * Enhancements to the existing Tier 1 The Core Engineering Tail Risk model for Private Credit facilities, introducing a multi-path approach to better differentiate risk for asset classes where limitations in the existing single-path approach had been observed. The enhancement addresses cases where investment-grade facilities could receive excessive Tail Risk estimates under the single-path approach.
+* Capital model enhancements, including approval of enhancements to the Tier 1 The Core Engineering Current Expected Credit Losses (CECL) model for Direct Commercial Real Estate (CRE) lending, incorporating enhanced debt-service coverage modeling in response to an MRM finding and recognition of guarantor recourse benefits.
+
+One change I made intentionally: in the Executive Summary, I changed “sovereign bonds” to “sovereign and quasi-sovereign bonds” so it stays consistent with the more precise description in the detailed section.
+
+
+
+
 Understood — you want the full FRAC summary, retaining all the substantive details you provided for both GBM Private models, while combining them where it improves readability.
 
 Collateralized Lending
