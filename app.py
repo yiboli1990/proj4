@@ -1,3 +1,18 @@
+Eliann’s interpretation is more precise and matches the underlying discussion. The key follow-up was not simply excluding Mainland China users—the concern was that if a Mainland China attendee participates in a Zoom AI meeting hosted elsewhere, the resulting summary may need to be retained in the China Theta Lake.
+
+I would replace the current follow-up with:
+
+Follow-up: Confirm the monitoring control identifies Zoom AI summaries involving Mainland China attendees and work with Engineering to ensure applicable summaries are retained in the China Theta Lake in accordance with local retention requirements. (Owner: Tamilla Ghodsi; Control-side Contact: Elizabeth Byrnes)
+
+I would drop the part about updating AIRCC materials with geographical exclusions, since Eliann confirmed those restrictions are already documented in AIRHUB and firmwide training. The PowerPoint update was not what Caroline captured as the substantive follow-up.
+
+You could respond to Eliann:
+
+Thanks, Eliann. Agreed — I’ve clarified the follow-up to focus on identifying summaries involving Mainland China attendees through the monitoring control and ensuring applicable summaries are retained in the China Theta Lake. I’ve removed the reference to updating the geographical exclusions in the materials given these are already captured in AIRHUB and the firmwide training.
+
+
+
+
 I’d make those distinctions explicit:
 
 MRM Approvals
