@@ -1,3 +1,39 @@
+I would tighten both Executive Summary bullets to emphasize the key validation milestones, while retaining the more technical information and outstanding findings in the CCR details. I’ve also kept the wording consistent with the FRAC style we’ve been using this week.
+
+Executive Summary
+
+Counterparty Credit Risk (CCR)
+
+There is continued focus on CCR management enhancements, including approval of the Prime Brokerage business migration to the Tier 1 GBM Public Unified Benchmark Model (UBM) for margin shortfall calculations, marking a key milestone in the multi-year effort to standardize methodologies and improve consistency across Prime and Franchise businesses.
+
+Collateralized Lending
+
+There is continued focus on validation work supporting the Collateralized Lending business, including recent approvals of two Tier 1 GBM Private valuation models extending coverage to new collateral types, a Tier 1 The Core Engineering Facility Level Ratings (FLR) model expanding coverage of bespoke deal structures, and a new multi-path framework for the Tier 1 The Core Engineering Private Credit Tail Risk model to improve risk differentiation.
+
+Detailed Thematic Updates
+
+Counterparty Credit Risk (CCR)
+
+There is continued focus on CCR management enhancements, including approval of the Prime Brokerage business migration to the Tier 1 GBM Public UBM for margin shortfall calculations.
+
+* The migration follows the earlier transitions of Synthetic Products Group portfolios and the Equities Franchise business, enabling cross-margin calculations and marking a key milestone in the multi-year effort to standardize methodologies across Prime and Franchise businesses. Prime Services Clearing (GSEC) is expected to follow by year-end.
+* The migration introduced structural enhancements to UBM, including combined equity and credit concentration scenarios, bidirectional concentration shocks, and other improvements to risk capture.
+* Six medium-severity findings remain outstanding, related to insufficient sector and concentration shocks, basis risk coverage, interest rate risk for convertible bonds and futures, and integrated collateral treatment.
+
+A few wording choices
+
+* “Approval of the Prime Brokerage business migration” is cleaner than “approval of migration of the Prime Brokerage business.”
+* “Standardize methodologies and improve consistency” conveys the multi-year UBM objective without repeating similar concepts.
+* For Collateralized Lending, I removed the individual benefits of reducing fallback methodologies and providing more robust Tail Risk measures from the Executive Summary. Those are already captured in the detailed section, and the shorter version creates space for CCR.
+* I used “The Core Engineering” consistently with the division name you’ve provided previously.
+* Since CCR and UBM are defined in the Executive Summary, they do not need to be defined again in the detailed section. I would also remove the parenthetical “(CCR)” from the detailed heading if both sections appear in the same document.
+
+One item to confirm: The final CCR bullet appears to list several distinct risk areas against six findings. I have preserved the substance, but I would confirm with the validator whether interest rate risk for convertible bonds and futures represents one issue or separate findings before finalizing.
+
+
+
+
+
 Yes. I’d preserve the validators’ substantive detail but tighten the language and make the Executive Summary thematic, while the Details retain the model-level information and findings.
 
 Executive Summary
