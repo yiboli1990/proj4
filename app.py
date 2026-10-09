@@ -1,3 +1,24 @@
+Sure — here is a concise draft in exactly those sections.
+
+Trade: Rangel Houses Historic Tax Credit Equity & Bridge Loan
+
+Counterparty: Rangel Houses HTC Investor LLC
+
+Notional: Up to $95.4mm of Federal Historic Tax Credit Equity and $65.7mm bridge loan
+
+Terms: The transaction provides GS with Federal Historic Tax Credit equity financing and a bridge loan for the Rangel Houses project, developed by Genesis Companies. The investment includes UIG-standard real estate investment guaranties on both the equity and debt. Bridge loan collateral includes LP and GP interests in the Master Tenant, providing GS the ability to claim the HTCs in the event of default.
+
+Economics: Expected pre-tax net P&L of approximately $46.3mm, comprising $32.5mm from the HTC equity investment and $13.8mm from the bridge loan.
+
+Reason for Waiver: The applicable model is currently undergoing MRM validation.
+
+Booking During Waiver Period: The transaction will be booked using the Bank Tax Credit Equity tradable with PM Bank Tax Credit Equity!Deferral.
+
+Limitations and Compensating Controls: The model remains subject to completion of MRM validation. Regression testing has been implemented and confirms that calculated dollar prices are consistent with expected results. The tradable also leverages the existing data flow and is expected to feed downstream systems automatically without additional integration work, mitigating booking and valuation risk during the waiver period.
+
+
+
+
 I would tighten both Executive Summary bullets to emphasize the key validation milestones, while retaining the more technical information and outstanding findings in the CCR details. I’ve also kept the wording consistent with the FRAC style we’ve been using this week.
 
 Executive Summary
