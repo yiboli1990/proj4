@@ -1,3 +1,221 @@
+I’ve organized this into the three deliverables, using the style we established for the weekly updates:
+
+* Strats: More detailed, with validation findings, model changes, governance discussions, and placeholders for managers to complete.
+* CRO: Higher-level and less technical, emphasizing approvals, material risks, outstanding findings, and business implications.
+* Alex: A change list identifying what to add or refresh, rather than a fully rewritten update.
+
+I’ve also incorporated the EY Roundtable information, particularly Caroline’s observations on SR 26-2, AI governance, and how peer firms are approaching model validation.
+
+One limitation: I can see your drafts and the EY Roundtable notes, but the new meeting transcript with Bill, Caroline, and the managers is not attached to this message. I’ll use the discussion topics you identified and relevant earlier context, with explicit [Manager to confirm] notes where the latest meeting conclusions are needed. I won’t treat unverified discussion points as approved decisions.
+
+1. Strats Updates — revised working draft
+
+Artificial Intelligence (AI)
+
+GBM Public Agentic AI in Production
+
+* Update the latest number of approved and in-production GBM Public generative and agentic AI models, including risk-tier breakdown and quarter-over-quarter changes, as applicable.
+* Confirm any newly deployed models or material changes that warrant highlighting to Bill.
+
+Notable Agentic AI Models in Pipeline
+
+* Bo to update the pipeline of notable generative and agentic AI models, focusing on higher-risk use cases, increased autonomy, or material changes to existing approved models.
+* Confirm whether any models involve removal of human review, expanded tool or data access, or greater autonomous decision-making, and whether additional MRM or AIRCC review is required.
+
+AI Policy and Standard Enhancements
+
+- Risk is working with key stakeholders to implement the recently approved enhancements to the AI Policy and Standard by year-end, including:
+
+* Working with The Core Engineering to accelerate AIRHub enhancements supporting expanded AI inventory requirements, particularly a lightweight registration process for user-developed AI (UDAI).
+* Coordinating with the Executive Office (EO), Engineering, Legal, and Compliance on policy publication, firmwide communication, training, and divisional gap assessments and remediation.
+* Lucy / AI Governance to confirm AIRHub delivery milestones, interim registration arrangements, and the timeline for divisional implementation.
+
+AI Risk and Controls Council (AIRCC)
+
+AIRCC approved:
+
+- Zoom AI Expansion (Engineering, AI Platform): Phased expansion of Zoom AI meeting summaries through the centralized VCR portal, initially for lower-risk users and approved use cases, with enhanced human review, access, retention, and surveillance controls.
+
+* Initial rollout targets approximately 3,000 existing pilot users, followed by approximately 8,000 additional Sales Enablement users, with subsequent expansion dependent on control effectiveness.
+* AIRCC requested follow-up on enhancements to the initial deterministic monitoring control and clarification of Mainland China-related record-retention requirements.
+* Confirm implementation status, timing of subsequent phases, and any outstanding control conditions.
+
+- Merlin AI (GBM Public, Tier 2): Initial use for U.S. Natural Gas and U.K. Emerging Markets / Sovereigns, Supranationals and Agencies (EM/SSA) Bonds desks, using a fine-tuned open-weight large language model (LLM) to extract trade economics from requests for quote (RFQs) and pre-populate inquiry forms, subject to trader review.
+
+* Approval is subject to completion of MRM validation and other pre-go-live conditions, including Legal review of synthetic training data generation, confirmation of Technology Risk approval, and review of relevant Compliance controls.
+* MRM identified concerns regarding training data sufficiency and potential overfitting from full model fine-tuning.
+* Bo to confirm validation progress, findings, and expected production timeline.
+
+MRM Approved
+
+* Insert this week's AI model approvals, including model name, division/tier, purpose, material enhancements, and significant validation findings.
+* Highlight any particularly notable agentic AI changes or risk implications, rather than listing all approvals.
+
+Counterparty Credit Risk (CCR) — Prime Brokerage Migration to UBM
+
+* MRM approved the migration of the Prime Brokerage business to the Tier 1 GBM Public Unified Benchmark Model (UBM) for margin shortfall calculations.
+* The migration follows the earlier transitions of Synthetic Products Group (SPG) portfolios and the Equities Franchise business, enabling cross-margin calculations and marking a key milestone in the multi-year effort to standardize methodologies and improve consistency across Prime and Franchise businesses.
+* Prime Services Clearing (GSEC) is the next business targeted for migration to UBM. Confirm target timing and any remaining dependencies.
+* The migration introduced structural enhancements to UBM, including combined equity and credit concentration scenarios, bidirectional concentration shocks, and other improvements to risk capture.
+* Six medium-severity findings remain outstanding, related to limitations in concentration and sector scenarios, basis risk coverage, interest rate risk and stress loss capping for convertible bonds, and futures-integrated collateral treatment.
+* CCR validation team to confirm remediation plans and timelines for the six findings, and whether any additional migration milestones should be highlighted.
+
+Mortgage Agency Pricing Model Uplift
+
+* MRM continues validation work on enhancements to the Agency Mortgage pricing framework, including updates to prepayment assumptions to better reflect recent market behavior and reduce discrepancies between desk and modelled risk.
+* Shuka / validation team to confirm whether the latest enhancement has been approved, the specific models affected, quantitative impact on pricing or risk sensitivities, and any outstanding findings.
+* Confirm whether subsequent phases of the mortgage pricing uplift, including mortgage rate modelling, should be highlighted.
+
+Mortgage Losses — additional item
+
+* Confirm the model or portfolio discussed with Bill, the nature of the mortgage-related losses, and whether the issue reflects model performance, market movements, hedging, or a validation concern.
+* Add a factual update on the size of the loss, underlying drivers, MRM assessment, and any follow-up actions once validated.
+
+I would keep this separate from the Agency Mortgage pricing uplift until the team confirms that the two issues are directly related.
+
+Bermudan Model Enhancement — additional item
+
+* David to confirm the model name, division and risk tier, nature of the Bermudan model enhancement, and current validation status.
+* Clarify the business purpose, relevant products, technical changes, and any material validation concerns or findings.
+
+I would avoid drafting a specific technical conclusion until David confirms which Bermudan model and enhancement were discussed.
+
+Fundamental Review of the Trading Book (FRTB) — CVA
+
+* MRM approved the IRP CVA CT IR Exot YCRA model (GBM Public, Tier 1), used to calculate Credit Valuation Adjustment (CVA) and Funding Valuation Adjustment (FVA) for callable range accrual notes and swaps.
+* The model was developed as part of ongoing work supporting FRTB requirements and to extend CVA coverage to products not supported by the corresponding desk CVA engine.
+* CVA validation team to confirm whether this approval forms part of the broader FRTB-CVA implementation, remaining model submissions, and any material differences between regulatory and desk implementations.
+* Confirm whether the previously discussed sensitivity stability and gap-risk methodology issues remain open and should be reported separately.
+
+Liquidity Metrics Platform (LMP)
+
+* MRM approved two of the four models and quantitative analyses (QAs) planned for the LMP migration in 2026, covering SIMM Initial Margin Modeled Liquidity Outflow and Secured Federal Home Loan Bank (FHLB) QAs (Treasury, Tier B).
+* Validation of the remaining DESCIFR and Collateral Allocator models (The Core Engineering, Tier 1) identified ten high-severity findings related to discrepancies between the legacy Slang and new Python implementations; remediation is in progress.
+* Liquidity validation team to confirm the nature and materiality of the implementation differences, remediation progress, revised approval timeline, and any impact on the migration schedule.
+
+Industry Update — EY Model Risk Management Roundtable
+
+18th Annual EY Model Risk Management Roundtable
+
+* Caroline and MRM attended the annual EY roundtable, with participation from seven of the eight U.S. global systemically important banks (G-SIBs), focusing on the implications of revised model risk guidance (SR 26-2), AI governance, and the evolving role of MRM.
+* SR 26-2: Most peer firms anticipate limited to moderate changes to their existing MRM frameworks, with approximately 80% estimating an impact of 15% or less. There is broad agreement on simplifying oversight of lower-risk models, but differing approaches to periodic reviews, revalidation, and ongoing monitoring.
+* Regulatory perspectives: Federal Reserve and OCC representatives emphasized that SR 26-2 provides greater flexibility while preserving accountability for effective model risk management. The explicit exclusion of generative and agentic AI from the guidance does not remove the expectation for appropriate governance and controls.
+* AI governance: Peer firms are generally cataloguing AI at the use-case level, with differing approaches to model classification and inventory integration. AI use cases are expanding rapidly, although agentic AI deployments remain relatively limited.
+* Agentic AI validation: Peer discussions highlighted the importance of evaluating the end-to-end AI system, including individual agents, orchestration, and interactions, with ongoing performance monitoring and human evaluation particularly important for higher-risk use cases.
+* AI adoption within MRM: Most firms are experimenting with AI-enabled validation and documentation tools, but few have achieved significant workflow automation, and no participating peer reported a fully integrated end-to-end AI-enabled validation process.
+* Caroline to confirm whether to highlight specific implications for the firm's SR 26-2 implementation, AI governance framework, or internal MRM productivity initiatives.
+
+Recommendation on placement: Keep the EY Roundtable in both the Strats and CRO updates, but at different levels of detail. For Strats, I would use the fuller version above because it provides Bill with peer practices and regulatory perspectives. For CRO, I would reduce this to two or three bullets.
+
+Revised Model Risk Guidance (SR 26-2)
+
+Proposed discussion item — confirm with Bill and Caroline before inclusion.
+
+* MRM continues to assess potential changes to its governance framework following SR 26-2, including opportunities to apply more proportionate oversight to lower-risk models while maintaining appropriate controls for material model risks.
+* The EY Roundtable indicated that peer firms are generally adopting a measured approach to framework changes, with regulatory representatives emphasizing flexibility, accountability, and the importance of controls irrespective of model classification.
+* Caroline / Governance to confirm the proposed scope of changes, internal consultation timeline, and governance milestones.
+
+My recommendation: Do not present specific SR 26-2 framework changes as finalized. Given the discussion around the November MRCC and December Board governance process, I would retain this as a short Strats discussion item or placeholder. The EY Roundtable section can cover the industry perspective without duplicating a detailed SR 26-2 section.
+
+2. CRO Updates — revised working draft
+
+For the CRO version, I would keep the approved model updates concise and reduce the implementation detail. I would also move the EY discussion into a short Industry Update rather than repeating all the peer observations.
+
+Top of Mind
+
+Counterparty Credit Risk (CCR)
+
+* MRM approved the migration of the Prime Brokerage business to the Unified Benchmark Model (UBM) (GBM Public, Tier 1) for margin shortfall calculations, marking a key milestone in the multi-year effort to standardize risk methodologies across Prime and Franchise businesses.
+* The migration follows earlier transitions of Synthetic Products Group portfolios and the Equities Franchise business, with Prime Services Clearing (GSEC) expected to follow. Confirm timing.
+* The migration introduced enhancements to risk capture, including more comprehensive concentration scenarios, while six medium-severity findings remain outstanding relating to scenario coverage and certain product-specific risks.
+
+Validation Activities
+
+Mortgage Agency Pricing Model Uplift
+
+* MRM is reviewing enhancements to the Agency Mortgage pricing framework intended to improve modelled risk sensitivities and better align pricing assumptions with recent market behavior.
+* Shuka to confirm the latest approval status, quantitative impact, outstanding findings, and any next steps.
+
+FRTB CVA
+
+* MRM approved a Tier 1 GBM Public model supporting CVA and FVA calculations for callable range accrual products, extending model coverage as part of ongoing FRTB implementation.
+* Confirm whether additional CVA models were approved or whether material validation issues should be highlighted.
+
+Liquidity Metrics Platform (LMP)
+
+* MRM approved two of the four models and quantitative analyses planned for the 2026 LMP migration, supporting the transition from legacy Slang to Python-based implementations.
+* Validation of the remaining two Tier 1 models identified ten high-severity findings related to implementation discrepancies; remediation is ongoing.
+* Confirm expected remediation and approval timelines and any impact on the broader migration.
+
+Additional validation items to consider
+
+* Bermudan model: Add only if David confirms a material approval, model change, or validation concern appropriate for the CRO audience.
+* Mortgage losses: Add if the losses have a material model-risk implication or require CRO attention; otherwise retain in Strats.
+
+Artificial Intelligence
+
+If the CRO update includes AI approvals this week, I would use the same one-bullet-per-item convention we established:
+
+* Zoom AI Expansion: AIRCC approved the phased expansion of Zoom AI meeting summaries to additional lower-risk users and use cases, supported by enhanced controls over user access, human review, monitoring, and retention.
+* Merlin AI: AIRCC approved Merlin AI (GBM Public, Tier 2), subject to pre-go-live conditions, to extract trade information from client and broker inquiries and pre-populate inquiry forms for selected U.S. and U.K. trading desks, with trader review required before use.
+
+Confirm whether these AIRCC approvals are already covered elsewhere in the CRO AI update to avoid duplication.
+
+Industry Update
+
+EY Model Risk Management Roundtable
+
+* MRM participated in the annual EY roundtable with seven of the eight U.S. G-SIBs, where discussions focused on SR 26-2 implementation, AI governance, and emerging model validation practices.
+* SR 26-2: Peer firms are generally taking a measured approach to implementation, with broad support for proportionate oversight of lower-risk models. Regulators emphasized that increased flexibility does not diminish firms’ responsibility for effective risk management, including appropriate controls for AI.
+* AI: Peer firms reported rapid growth in AI use cases but relatively limited agentic AI deployment, with ongoing challenges around governance, performance assessment, and validation. AI tools are increasingly used within MRM, although end-to-end validation automation remains uncommon.
+
+I would favor these three bullets over a longer discussion of individual survey results. They capture Caroline’s main observations and the regulatory implications without making the CRO update overly technical.
+
+3. Updates for Alex — proposed changes
+
+Since you asked for a change list rather than a rewritten update, I would use the following as the working checklist for the meeting with Alex.
+
+Topic	Proposed action	Information needed
+CCR — Prime Brokerage to UBM	Add or update	Approval milestone, remaining six medium findings, GSEC migration timeline
+Mortgage Agency Pricing	Update existing item	Shuka’s latest validation status, risk/pricing impact and next steps
+Mortgage-related losses	Potential new item	Clarify the nature of losses, model-risk implications and whether separate from the pricing uplift
+Bermudan model	Potential new item	David to confirm model, enhancement, status and significance
+FRTB CVA	Update existing item	YCRA model approval and remaining FRTB-CVA validation milestones
+LMP	Add or update	Two approvals, ten high-severity findings, remediation and migration timeline
+AI Policy / AIRHub	Update existing item	Approved policy rollout, lightweight UDAI registration, implementation milestones
+AI model inventory / pipeline	Refresh	Latest production counts and Bo’s notable pipeline models
+SR 26-2	Potential update	Current framework assessment and expected governance timeline
+EY Roundtable	Potential new item	Key SR 26-2 and AI peer/regulatory takeaways; avoid duplicating a separate industry update
+
+For Alex, I would prioritize CCR, Mortgage Agency Pricing, LMP, and AI Policy/AIRHub because these have concrete approval, validation, or implementation milestones. I would keep mortgage losses and the Bermudan item as placeholders until the meeting discussion is confirmed.
+
+4. Manager follow-ups before circulation
+
+To make the draft easy to send to the relevant managers, I would retain the bracketed requests and direct them as follows:
+
+Owner / team	Requested update
+Bo / AI validation	Notable agentic AI pipeline; Merlin validation progress and findings; any additional AI approvals
+Lucy / AI Governance	AI Policy and Standard implementation, AIRHub lightweight UDAI registration and delivery milestones
+Shuka / Mortgage validation	Agency Mortgage pricing uplift, latest metrics, status and any related mortgage-loss issue
+David	Bermudan model enhancement and validation implications
+CCR validation team	Remaining UBM findings, remediation timing and GSEC migration
+CVA validation team	YCRA approval context, remaining FRTB-CVA milestones and outstanding methodology issues
+Liquidity validation team	LMP approvals, ten high-severity findings, remediation and delivery schedule
+Caroline / Governance	SR 26-2 positioning, EY Roundtable takeaways and appropriate placement across updates
+
+My recommendation on the overall package
+
+I would make the Strats update the master working draft, containing all the detailed items and placeholders. The CRO update should draw only the significant approvals, material findings, and high-level industry takeaways from that draft.
+
+For the EY Roundtable, the strongest messages are that peer firms are proceeding cautiously under SR 26-2, regulators expect continued accountability despite greater flexibility, and AI governance and validation remain evolving areas with limited end-to-end automation. Those themes are relevant to both Bill and the CRO, but don’t require the same level of detail.
+
+For SR 26-2 specifically, I would avoid implying that MRM has finalized its response or is immediately relaxing requirements. The current message should remain one of assessment, stakeholder consultation, and proportionate governance.
+
+Please attach the meeting transcript from this morning. That is the missing source needed to confirm Bill’s and Caroline’s instructions, identify any additional items beyond the mortgage losses and Bermudan enhancement, and refine the placeholders into a manager-ready draft.
+
+
+
+
 Sure — here is a concise draft in exactly those sections.
 
 Trade: Rangel Houses Historic Tax Credit Equity & Bridge Loan
