@@ -1,3 +1,250 @@
+I’ve now reviewed the full meeting transcript alongside your drafts and the EY Roundtable notes. The discussion with Bill and Caroline changes several of the priorities from my previous version.
+
+The most important conclusions are:
+
+* Strats AI: Add the head-to-head comparison of Prism, Marquee, and other AI applications, and potentially a discussion of the proposed common GBM AI platform. Bill wants the comparison to be data-driven and neutral, highlighting overlapping capabilities rather than drawing premature conclusions.
+* SR 26-2: Keep only a brief Strats update. Bill’s message was that conventional Tier 1 pricing and risk models will see limited changes, while GenAI/agentic AI validation templates are still being developed.
+* EY Roundtable: Include in the CRO update and Alex meeting, but not as a standalone Strats item unless there is a particularly new or relevant takeaway.
+* Mortgage: There are two distinct topics: the significant Agency Mortgage model enhancement and the approximately $14 million mortgage trading loss. The latter should only become a formal model-risk update once its connection to the model has been established.
+* Rates: Add the significant Libor Market Model (LMM) change arising from a validation finding, and obtain a status update on the separate Bermudan model issue.
+* CCR: The Prime Brokerage migration is complete. Bill specifically wants the forward migration roadmap, including the next GSEC milestone and the work planned for 2027.
+
+Below is a revised, manager-ready working draft. I’ve retained [ ] placeholders where the validation teams need to supply or verify details.
+
+1. Strats Updates — revised draft
+
+D. Artificial Intelligence (AI)
+
+Approved GBM Public Agentic AI in Production
+
+- Update the latest number of approved and in-production GBM Public generative and agentic AI models, including risk-tier breakdown and changes since the previous reporting period.
+
+Notable Agentic AI Models in Pipeline
+
+* Bo to provide updates on notable generative and agentic AI models in development, including higher-risk use cases, new autonomous capabilities, and material changes to previously approved models.
+* Bo to identify any additional AI initiatives that may not yet be visible to the broader GBM Strats leadership, including initiatives originating in Engineering.
+
+Comparative Assessment of GBM AI Applications — New
+
+* MRM has conducted a comparative assessment of Prism, Marquee, and other GBM AI applications to evaluate overlapping capabilities and relative performance across common use cases.
+* Bo to provide the comparison results, including quantitative performance metrics, differences in available data and functionality, and areas where individual applications demonstrate distinct capabilities.
+* Present the results neutrally, highlighting potential duplication of functionality and implications for the broader GBM AI architecture. Bill will provide additional commentary during the meeting.
+
+Common GBM AI Platform — New / Discussion Item
+
+* GBM is exploring a common AI platform to support development and deployment of AI applications across GBM Public and Private.
+* Bo to confirm the status of the proposal, Engineering ownership, involvement of GBM Public and Private stakeholders, and whether the platform would provide shared infrastructure for existing applications such as Prism and Marquee.
+* Clarify whether the initiative is sufficiently developed to include in this week's Strats discussion.
+
+AI Policy and Standard Enhancements
+
+Risk is working with key stakeholders to implement enhancements to the AI Policy and Standard by year-end, including:
+
+* Working with The Core Engineering to accelerate AIRHub enhancements supporting expanded AI inventory requirements, particularly a lightweight registration process for user-developed AI (UDAI).
+* Coordinating with the Executive Office (EO), Engineering, Legal, and Compliance on policy publication, firmwide communication and training, and divisional gap assessments and remediation.
+* Lucy / AI Governance to confirm AIRHub implementation milestones and any interim registration arrangements.
+
+AI Risk and Controls Council (AIRCC)
+
+AIRCC approved:
+
+- Zoom AI Expansion (Engineering, AI Platform): Phased expansion of Zoom AI meeting summaries through the centralized VCR portal to lower-risk users and approved use cases, with enhanced controls over human review, access, retention, and monitoring.
+
+* Confirm rollout progress, effectiveness of initial monitoring controls, and timing of subsequent phases.
+
+- Merlin AI (GBM Public, Tier 2): Initial use for U.S. Natural Gas and U.K. Emerging Markets / Sovereigns, Supranationals and Agencies (EM/SSA) Bonds desks, using a fine-tuned open-weight large language model (LLM) to extract trade economics from requests for quote (RFQs) and pre-populate inquiry forms, subject to trader review.
+
+* Approval remains subject to completion of MRM validation and other pre-go-live conditions, including review of training data, Compliance controls, and Technology Risk approval.
+* Bo to confirm validation progress, findings, and expected go-live timing.
+
+MRM Approved
+
+- Insert this week's AI model approvals, including model name, division/tier, purpose, and material validation findings.
+
+E. Revised Model Risk Guidance (SR 26-2)
+
+I would retain this section, but limit it to two bullets given Bill’s comments.
+
+* MRM is assessing targeted changes to the Model Risk Policy, Standards, and validation practices in response to SR 26-2, with limited expected impact on GBM’s existing Tier 1 pricing and risk models.
+* Work is underway to develop validation templates tailored to generative and agentic AI, reflecting their distinct characteristics and risks.
+* Caroline / Governance to confirm whether any proposed changes are sufficiently mature for discussion; otherwise retain the two high-level bullets only.
+
+This reflects Bill’s key message: limited changes for traditional GBM models, with further development of the AI validation approach ongoing.
+
+F. Counterparty Credit Risk (CCR) — Prime Brokerage to UBM Migration
+
+* MRM approved the migration of the Prime Brokerage business to the Tier 1 GBM Public Unified Benchmark Model (UBM) for margin shortfall calculations.
+* The migration follows earlier transitions of Synthetic Products Group (SPG) portfolios and the Equities Franchise business, enabling cross-margin calculations and marking a key milestone in the multi-year effort to standardize methodologies across Prime and Franchise businesses.
+* The migration introduced structural enhancements to UBM, including combined equity and credit concentration scenarios, bidirectional concentration shocks, and other improvements to risk capture.
+* Six medium-severity findings remain outstanding, related to limitations in concentration and sector scenarios, basis risk coverage, interest rate risk and stress loss capping for convertible bonds, and futures-integrated collateral treatment.
+* Prime Services Clearing (GSEC) is the next business targeted for migration. Andreas / CCR team to confirm timing, remaining businesses and the broader UBM migration roadmap through 2027.
+
+G. Rates — Libor Market Model Enhancement (New)
+
+* MRM reviewed a significant enhancement to the Libor Market Model (LMM), arising from a validation finding related to the underlying model methodology.
+* The change materially affects modelled interest rate risk sensitivities and valuation. David / Rates validation team to confirm the nature of the methodology change, affected products, validation status, and quantitative impact.
+* Confirm whether the enhancement has been approved, the original finding's remediation status, and any implications for desk risk management.
+
+Bermudan Model — Separate Status Update
+
+* David to provide the status of the previously discussed Bermudan model issue, including the model name, nature of the concern, current remediation or validation status, and whether the issue remains active.
+* Clarify whether this issue is related to the LMM enhancement or should be reported separately.
+
+Bill specifically asked for the Bermudan status even if the issue has not progressed, because he considers it notable and potentially recurring.
+
+H. Mortgage Agency Pricing Model Uplift
+
+* MRM continues to review enhancements to the Agency Mortgage pricing framework, including a significant change to the fundamental model addressing limitations identified through validation.
+* Shipra to confirm the model name, the precise methodology change, approval status, and quantitative impact on modelled risk sensitivities and valuation.
+* The meeting referenced an approximately $300k DV01 impact and potentially significant valuation implications; confirm the exact measures, amounts, and affected portfolios before including these figures.
+
+Mortgage Trading Loss — Separate Investigation
+
+* Shipra to provide an update on the approximately $14 million mortgage trading loss discussed with Bill, including the drivers and whether there is a connection to the modelled risk discrepancies.
+* Assess whether the desk's reliance on trader-calculated risk sensitivities rather than fundamental model risk contributed to the loss, and whether use of the fundamental model would have produced a materially different risk assessment.
+
+Additional analysis requested by Bill
+
+* Prepare a product-level comparison of Agency Mortgage instruments, identifying the pricing and risk methodologies used by the desk versus the fundamental models used for independent valuation or risk assessment.
+* Clarify which products rely on trader regression-based sensitivities, cashflow/prepayment models, or the LMM framework, and identify any material differences in risk measurement.
+
+This is more than a request for a short update: Bill wants to understand how the desk manages its mortgage risk relative to the fundamental model framework.
+
+I would keep the trading-loss investigation as an internal placeholder until the model-risk connection is established.
+
+I. FRTB — Credit Valuation Adjustment
+
+* MRM approved the IRP CVA CT IR Exot YCRA model (GBM Public, Tier 1), used to calculate Credit Valuation Adjustment (CVA) and Funding Valuation Adjustment (FVA) for callable range accrual notes and swaps.
+* The model was developed as part of ongoing Fundamental Review of the Trading Book (FRTB) implementation and extends CVA coverage to products not supported by the corresponding desk CVA engine.
+* CVA validation team to confirm whether any material findings, outstanding approvals, or upcoming FRTB-CVA milestones should be highlighted.
+
+J. Liquidity Metrics Platform (LMP) / Project Boost
+
+* MRM approved two of the four models and quantitative analyses (QAs) planned for the 2026 Liquidity Metrics Platform migration, covering Standard Initial Margin Model (SIMM) Initial Margin Modeled Liquidity Outflow and Secured Federal Home Loan Bank QAs (Treasury, Tier B).
+* Validation of the remaining DESCIFR and Collateral Allocator models (The Core Engineering, Tier 1) identified ten high-severity findings related to discrepancies between the legacy Slang and new Python implementations; remediation is in progress.
+* Liquidity validation team to confirm the nature of the discrepancies, remediation progress, revised approval timelines, and any implications for the broader Project Boost migration.
+
+Industry Update: Remove the standalone EY Roundtable section from the Strats draft for now. Bill questioned whether the discussion offered sufficiently new information for that audience and agreed that the CRO biweekly update would be more appropriate.
+
+2. CRO Updates — revised draft
+
+I would keep CCR under Top of Mind, retain the major validation approvals, and add the Mortgage Agency and LMM items as provisional updates pending confirmation from Shipra and David.
+
+Top of Mind
+
+Counterparty Credit Risk (CCR)
+
+* MRM approved the migration of the Prime Brokerage business to the Unified Benchmark Model (UBM) (GBM Public, Tier 1) for margin shortfall calculations, marking a key milestone in the multi-year effort to standardize risk methodologies across Prime and Franchise businesses.
+* The migration follows earlier transitions of Synthetic Products Group portfolios and the Equities Franchise business, enabling cross-margin calculations, with Prime Services Clearing (GSEC) expected to follow. Confirm timing and remaining migration roadmap.
+* The migration introduced enhancements to risk capture, including more comprehensive concentration scenarios, while six medium-severity findings remain outstanding related to scenario coverage and certain product-specific risks.
+
+Validation Activities
+
+Mortgage Agency Pricing Model Uplift
+
+* MRM is reviewing significant enhancements to the Agency Mortgage fundamental pricing model to address identified methodology limitations and improve the measurement of interest rate risk sensitivities.
+* Shipra to confirm approval status, quantitative impact, relevant findings, and any implications for desk risk management.
+
+Mortgage Trading Loss — potential addition
+
+- Pending Shipra's assessment: determine whether the approximately $14 million mortgage trading loss was associated with discrepancies between desk risk measures and the fundamental pricing model, and whether any model-related remediation is required.
+
+I would not include the trading-loss bullet in the published CRO update yet. Bill explicitly asked whether there was a model aspect, and the meeting did not establish one.
+
+Rates — Libor Market Model Enhancement
+
+* MRM is reviewing a significant methodology enhancement to the Libor Market Model, addressing a validation finding and affecting modelled interest rate risk sensitivities and valuation.
+* David to confirm validation status, quantitative impact, and whether the enhancement warrants inclusion in the CRO update.
+
+FRTB CVA
+
+- MRM approved a Tier 1 GBM Public model supporting CVA and FVA calculations for callable range accrual products, extending model coverage as part of ongoing FRTB implementation.
+
+Liquidity Metrics Platform (LMP)
+
+* MRM approved two of the four models and quantitative analyses planned for the 2026 LMP migration, supporting the transition from legacy Slang to Python-based implementations.
+* Validation of the remaining two Tier 1 models identified ten high-severity findings related to implementation discrepancies; remediation is ongoing.
+* Liquidity validation team to confirm remediation milestones and any implications for the migration timeline.
+
+Industry Update
+
+EY Model Risk Management Roundtable
+
+This is the version I would use for the CRO, reflecting Caroline’s emphasis on both peer practices and the regulatory discussion.
+
+* MRM participated in the 18th Annual EY Model Risk Management Roundtable, attended by seven of the eight U.S. G-SIBs, with discussions focused on revised model risk guidance (SR 26-2) and AI governance.
+* SR 26-2: Peer firms are generally adopting a measured approach to implementation, with approximately 80% anticipating limited impact on existing MRM frameworks. Regulators emphasized that the greater flexibility provided by SR 26-2 does not diminish firms’ responsibility for effective risk management, including for AI applications outside the guidance’s explicit scope.
+* AI: Peer firms reported rapid growth in AI use cases but relatively limited agentic AI deployment, with continued challenges around governance, performance assessment, and validation. While firms are increasingly leveraging AI for MRM productivity, end-to-end automation of the validation lifecycle remains uncommon.
+
+I would keep this at three bullets. It provides useful industry benchmarking without reproducing the detailed roundtable notes.
+
+The distinction worth preserving is that SR 26-2 explicitly excludes generative and agentic AI, but supervisors still expect those activities to be governed appropriately. That is a more meaningful regulatory takeaway than simply stating that peer firms are reducing oversight of lower-risk models.
+
+3. Meeting with Alex — changes to make
+
+The transcript provides clear instructions for Alex’s materials: remove the previously discussed SR 26-2 item, update CCR and the metrics, and add a short EY Roundtable summary.
+
+I would use the following checklist.
+
+Topic	Action	Details / follow-up
+SR 26-2	Remove existing item	Already discussed with Alex; no need to repeat the preliminary framework proposals
+CCR — Prime Brokerage to UBM	Update	Mark Prime Brokerage migration as approved/completed; add the next GSEC milestone and remaining findings
+Model risk metrics	Refresh	[Update latest inventory, validation, findings and other relevant metrics]
+EY Roundtable	Add	Highlight peer approaches to SR 26-2 and AI, with emphasis on measured implementation and continued governance expectations
+Mortgage pricing	Potential addition	Add if Shipra confirms a material validation milestone or model-risk implication
+Mortgage trading loss	Conditional addition	Bill specifically wants Alex informed if the analysis establishes a model-related cause or material difference in risk measurement
+LMM / Bermudan	Potential addition	Include if David confirms a significant issue, approval, or material risk impact
+AI policy / AIRHub	Update if relevant	Reflect implementation of approved policy enhancements, including lightweight UDAI registration
+LMP / Project Boost	Consider adding	Ten high-severity implementation findings may warrant highlighting, subject to confirmation of severity, impact and remediation status
+
+Suggested EY Roundtable talking points for Alex
+
+I would keep these to two bullets:
+
+* SR 26-2: Discussions with peer U.S. G-SIBs indicated a generally measured approach to implementing SR 26-2, with most firms expecting limited changes to existing MRM frameworks. Regulators emphasized that greater flexibility should be accompanied by continued accountability and appropriate risk controls.
+* AI: Peer firms reported expanding AI inventories and evolving governance practices, with agentic AI deployment and validation still at relatively early stages. Regulators emphasized clear ownership of AI risks and appropriate controls regardless of whether an AI application falls within traditional model risk requirements.
+
+These would be suitable for Alex without needing to discuss individual survey statistics.
+
+4. Specific follow-ups from Bill’s meeting
+
+This is the most important checklist to retain when circulating the drafts.
+
+Owner	Required input	Destination
+Bo	Prism/Marquee/other AI head-to-head performance comparison, distinctive capabilities and overlap	Strats
+Bo / GBM AI stakeholders	Notable AI pipeline; common GBM AI platform proposal, ownership and scope	Strats
+Caroline / Governance	Confirm high-level SR 26-2 message and status of GenAI/agentic AI validation templates	Strats
+Andreas / CCR team	Forward UBM migration roadmap, GSEC timing and 2027 milestones	Strats, CRO, Alex
+Shipra	Mortgage fundamental model change, DV01/valuation impact, approval status	Strats, CRO
+Shipra	Investigation of approximately $14 million mortgage loss and relationship to desk versus model risk measures	Strats; Alex if material
+Mortgage validation team	Product-by-product comparison of desk pricing/risk measures and fundamental models	Separate follow-up for Bill
+David / Rates team	LMM methodology enhancement, validation finding and quantitative impact	Strats, potentially CRO
+David / Rates team	Status of separate Bermudan issue, including whether it remains active	Strats
+Liquidity validation team	LMP findings, remediation and migration schedule	CRO, potentially Alex
+Lucy / AI Governance	AIRHub delivery timeline and UDAI registration implementation	Strats
+You	Updated AI production metrics, latest MRM AI approvals and current model-risk metrics	All relevant updates
+
+Final editorial recommendations
+
+For Strats: The biggest new addition is the AI application comparison. Bill clearly wants to discuss potential duplication across Prism, Marquee and other general-purpose applications, as well as whether GBM should converge on shared architecture. I would give this more prominence than the routine AIRCC approvals.
+
+For CRO: CCR remains the strongest Top of Mind item. The Mortgage Agency enhancement and LMM change could be significant, but the draft should not imply they are approved until the validators confirm their status. The LMP findings are worth retaining because ten high-severity findings on a technology migration are a meaningful validation outcome.
+
+For Alex: Keep the update short. The clearest changes are the completed Prime Brokerage migration, refreshed metrics and EY Roundtable. The mortgage trading loss should only be added once the model-risk connection is established.
+
+For the EY Roundtable: Bill’s conclusion was that there was little fundamentally new for Strats. Caroline nevertheless saw value in showing that peer firms are taking broadly similar approaches. That is why I would include the roundtable in CRO and Alex, but remove it from Strats.
+
+One important distinction from the meeting: the LMM methodology change and the Agency Mortgage pricing-model enhancement should not automatically be treated as the same item. The transcript discussed both in the Rates/Mortgage conversation, but the precise model relationships and impacts need confirmation from David and Shipra.
+
+This should give you a working draft that can be circulated to the managers for updates without requiring them to reconstruct the discussion from the transcript.
+
+
+
+
+
+
+
+
 I’ve organized this into the three deliverables, using the style we established for the weekly updates:
 
 * Strats: More detailed, with validation findings, model changes, governance discussions, and placeholders for managers to complete.
