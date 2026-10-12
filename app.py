@@ -1,3 +1,8 @@
+    SR 26-2: Peer firms are taking a measured approach to implementation, with limited expected impact on existing MRM frameworks. Regulators emphasized continued accountability despite increased flexibility.
+* AI: Peer firms reported rapid growth in AI use cases, while agentic AI deployment and end-to-end automation of MRM validation remain limited.
+
+
+
 I’ve now reviewed the full meeting transcript alongside your drafts and the EY Roundtable notes. The discussion with Bill and Caroline changes several of the priorities from my previous version.
 
 The most important conclusions are:
