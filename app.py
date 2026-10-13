@@ -1,3 +1,299 @@
+Based on the transcript, Bill and Caroline were broadly comfortable with the content of the Q3 FRAC materials, but requested several changes to the Executive Summary, thematic updates, inventory analysis, and ETSC metrics.
+
+The most substantive new request from Bill was to quantify how much AI contributes to new model inventory, rather than simply stating that AI is driving inventory growth.
+
+Below is a detailed breakdown of the requested changes, distinguishing confirmed decisions from suggestions and follow-ups.
+
+1. Executive Summary
+
+Changes required
+
+Area	Requested change	Who raised it
+Order of topics	Reorder to ICR → Collateralized Lending → CCR → AI, grouping credit-related developments together.	Bill
+AI Policy & Standards	Remove the standalone policy enhancement update. Bill suggested either omitting it or incorporating a short sentence into the AI discussion, but leaned toward omission.	Bill
+SR 26-2	Remove the SR 26-2 policy update from the Executive Summary.	Bill
+Forward-looking priorities	Prepare verbal talking points on upcoming work, particularly FRTB, ICR and collateralized lending.	Bill / Caroline
+Presentation length	Keep the written Executive Summary concise, as FRAC departmental presentations have become shorter.	Bill
+
+Recommended final Executive Summary structure:
+
+* ICR / IRB Enhancements: Approval of 10 ICR and PD models, including remediation of three high-severity findings before submission.
+* Collateralized Lending: GBM Private valuation enhancements, new CRE FLR model and multipass framework for private credit tail risk.
+* CCR: Completion of the PB migration to UBM.
+* AI: Growing adoption of agentic AI, including Prism and other GenAI/agentic applications.
+
+The discussion suggests keeping forward-looking priorities as presenter talking points rather than adding more text to the slide.
+
+2. Thematic Updates — Change to Tabular Format
+
+Changes required
+
+Caroline proposed replacing the text-heavy thematic slides with a more concise table organized by area and theme.
+
+Bill explicitly agreed that the tabular format was better.
+
+Recommended format:
+
+Area	Theme	Key validation developments
+AI	Agentic AI	Prism and Controllers agentic AI models
+AI	One GS 3.0	Two Tier 3 GBM models
+AI	Traditional AI	Equity share buyback and algorithmic trading neural network models
+GBM	Pricing models	Agency mortgage pricing and copula enhancements
+GBM	Valuation adjustments	FRTB-related validation and correlation skew enhancements
+Credit Risk	ICR	IRB uplift and Phase 2 validations
+Credit Risk	Collateralized Lending	GBM Private valuation, FLR and tail risk models
+CCR	UBM	Prime Brokerage migration
+ETSC	Business activity updates	Existing content reformatted into the same table
+
+Specific follow-up: ETSC had not yet been converted into the proposed table format. You confirmed that Toru had no specific new developments to highlight, but the ETSC section should still be incorporated for consistency.
+
+3. ICR / IRB — Remove Rule Compliance Review Reference
+
+Explicit removal
+
+Bill agreed
+
+Caroline raised a specific concern regarding the reference to MRM’s independent review of rule compliance assessments.
+
+Her concern was that the FRAC materials could be viewed by other regulators, who might interpret this review as a standard MRM control performed across jurisdictions.
+
+Bill agreed that this activity is not part of the formal Model Control Policy requirements and should not create expectations for other regulators.
+
+Action: Remove references to the independent review of rule compliance assessments from the ICR thematic update.
+
+Keep the actual ICR model validation work, including the IRB uplift and Phase 2 developments.
+
+4. Key Regulatory Findings — Remove the Slide
+
+Explicit removal
+
+Bill supported
+
+You and Caroline proposed removing the Key Regulatory Findings slide.
+
+Bill agreed with the rationale:
+
+* The slide was originally introduced when the Firm had significant outstanding Federal Reserve model risk findings.
+* The remaining items are longstanding and do not appear to represent active remediation work relevant to this FRAC update.
+* Jurisdiction-specific regulatory findings are more appropriately reported through the relevant entity boards and governance committees.
+
+Action: Remove the Key Regulatory Findings slide from the FRAC deck going forward, subject to reconsideration if material firmwide regulatory findings arise.
+
+5. Model Inventory — Bill’s Most Significant New Request
+
+New analysis required
+
+This was one of the longest discussions and the clearest request for additional quantitative work.
+
+What Bill challenged
+
+The revised inventory highlights currently state:
+
+* Firmwide model inventory remained stable quarter-over-quarter.
+* AI models were the main contributor to inventory growth.
+
+Bill asked:
+
+“Where can I see that the AI is the main contribution?”
+
+His concern was that the current highlights do not provide supporting statistics.
+
+He wanted to understand whether the Firm’s model development activity is increasingly concentrated in AI, and whether that observation can be supported quantitatively.
+
+Statistics Bill requested
+
+Metric	Purpose
+New AI models during Q3	Establish the number of AI additions
+Total new models during Q3	Calculate AI’s share of new declarations
+AI share of new declarations	Quantify AI’s contribution
+Historical AI share of new declarations	Show whether AI is becoming a larger proportion of model development
+QoQ AI inventory growth	Show the pace of AI inventory expansion
+
+Bill referred to a roughly 28% QoQ AI growth statistic and discussed a hypothetical figure such as AI representing 70% of recent new models. The 70% was illustrative, not a confirmed statistic.
+
+He explicitly said he was not sure whether the underlying trend was true and wanted the numbers first.
+
+Recommended analysis
+
+Illustrative chart to prepare — replace with actual inventory data
+
+Example of the type of composition trend Bill wants to evaluate, using hypothetical numbers.
+
+A 100% stacked bar chart showing the proportion of new model declarations attributable to AI over the past four quarters would directly address his question.
+
+I would also calculate the share over the trailing 12 months to reduce quarter-to-quarter noise.
+
+Important distinction
+
+Bill did not ask you to immediately add a new slide.
+
+His direction was essentially:
+
+“Just give me the numbers, then we’ll figure out what to do.”
+
+Therefore, the immediate action is to prepare the statistics and share them with Bill and Caroline. They can then decide whether the data belongs in the inventory highlights, an existing AI inventory chart, or a separate slide.
+
+I would also avoid retaining the statement that AI is the primary contributor to inventory growth until the data supports it.
+
+6. Core Engineering Inventory — Add Verbal Commentary
+
+During the divisional model utilization discussion, Bill asked whether the figures reflected the latest Core Engineering changes.
+
+You explained that those changes occurred after quarter-end and would therefore appear in the following reporting period.
+
+Bill requested a verbal comment explaining that the metrics would be updated next quarter.
+
+Action: Prepare a short talking point:
+
+The Q3 inventory metrics reflect the quarter-end position. Changes to the Core Engineering inventory completed after quarter-end will be reflected in Q4 reporting.
+
+No restatement of Q3 metrics was requested.
+
+Caroline also confirmed that the previous supplementary table describing model usage categories by division had been removed. Bill did not object to this simplification.
+
+7. ETSC Metrics — Simplify and Rebalance Tables
+
+Formatting changes required
+
+This was another substantive discussion toward the end of the meeting.
+
+A. Retain the new outstanding findings metric
+
+Bill explained why he preferred the revised ETSC metrics presentation.
+
+Previously, the slide separately displayed findings outstanding for more than one year, including 13 business activities that were not classified as aged because remediation timelines had been extended.
+
+Bill did not want the presentation to invite unnecessary discussion about extended remediation timelines.
+
+The revised presentation instead includes a column showing the number of business activities with any outstanding findings.
+
+Bill supported this because it provides a more complete representation of ETSC validation activity.
+
+Action: Retain the new outstanding business activities metric and avoid reinstating the separate more-than-one-year outstanding findings presentation.
+
+B. Remove the redundant top-right table
+
+During the review, Bill and Caroline observed that the smaller table at the top right duplicated information already contained in the larger table below.
+
+They agreed that the smaller table was unnecessary.
+
+Action: Remove the redundant top-right table and retain the detailed table containing outstanding findings information.
+
+C. Rebalance the remaining tables
+
+Bill asked whether the tables could be better balanced visually.
+
+The discussion also distinguished the actual metrics table on the left from supporting metrics on the right.
+
+Action: Adjust the layout so the remaining tables are visually balanced and clearly separated by purpose.
+
+D. Clarify subtotals
+
+Toward the end of the transcript, there was a discussion that certain rows in the table were subtotals of the first line.
+
+The exact labels are unclear in the transcription, but the requested direction appears to be to make the subtotal hierarchy clearer and apply consistent treatment across both tables.
+
+Action: Review the subtotal formatting and make the relationship between total and component rows visually clear.
+
+8. Other Sections — No Major Changes Requested
+
+Section	Outcome
+AI detailed updates	Content generally accepted; convert to tabular format
+GBM pricing models	No substantive changes requested
+Valuation adjustments	No substantive changes requested
+Liquidity Risk	No changes requested
+Collateralized Lending	No content changes requested; move earlier in Executive Summary
+CCR / UBM	No changes requested
+QAs and DRC inventory	Simplified two-chart layout not challenged
+Findings metrics	Treated as standard reporting; no substantive review
+Historical metrics	No changes requested
+Divisional utilization	Simplified reporting accepted, with Core Engineering verbal clarification
+
+9. Consolidated Action Tracker
+
+FRAC revision checklist
+
+0 of 13 completed
+
+Reorder Executive Summary to ICR, Collateralized Lending, CCR, AI
+
+High
+
+Remove standalone AI Policy and SR 26-2 updates
+
+High
+
+Convert thematic updates to tabular format
+
+High
+
+Incorporate ETSC into the thematic update table
+
+Medium
+
+Remove independent rule compliance assessment reference
+
+High
+
+Remove Key Regulatory Findings slide
+
+High
+
+Calculate AI share of new declarations and historical trend
+
+High
+
+Share AI inventory statistics with Bill and Caroline before deciding presentation
+
+High
+
+Prepare verbal talking points on FRTB and upcoming credit validation work
+
+Medium
+
+Add verbal commentary on Q4 Core Engineering inventory updates
+
+Medium
+
+Retain revised ETSC outstanding business activities metric
+
+Medium
+
+Remove redundant top-right ETSC table
+
+High
+
+Rebalance ETSC tables and clarify subtotal hierarchy
+
+Medium
+
+Copy checklist
+
+10. My Assessment of Bill and Caroline’s Feedback
+
+I would prioritize the work in three groups.
+
+First — Structural revisions. Reorder the Executive Summary, remove the policy and regulatory findings content, and convert the thematic slides to the table format. These are straightforward decisions that were clearly agreed during the meeting.
+
+Second — New analytical work. Obtain the AI inventory statistics. This is particularly important because Bill challenged the narrative rather than simply the presentation. The data may lead to a stronger strategic message about how the Firm’s model development is changing.
+
+Third — Presentation refinements. Simplify the ETSC metrics and prepare forward-looking verbal commentary. These changes should make the presentation more effective without adding unnecessary written detail.
+
+One broader observation: Bill appears to want the FRAC presentation to move away from a comprehensive catalogue of completed validations and toward a concise explanation of significant model risk developments, supported by meaningful trends and forward-looking priorities.
+
+That should guide the final revisions, particularly given the limited presentation time at next Tuesday’s FRAC meeting.
+
+
+
+
+
+
+
+
+
+
+
+
 * Sibyl AI: AIRCC conditionally approved Sibyl AI (GBM Public, Tier 2) for production deployment, subject to completion of pre-go-live conditions. The application uses generative AI to combine trading risk and P&L data with market news and research to support intraday risk analysis and trading decisions, with human oversight and independent checks of AI-generated outputs.
 
 AIRCC Meeting Minutes – October 13, 2026
