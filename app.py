@@ -1,3 +1,24 @@
+I would add a little more detail on the LMM methodology change and the rationale for the Bermudan proposal, while keeping the language appropriate for CRO reporting.
+
+Libor Market Model (LMM) and Mortgage Agency Pricing
+
+* MRM approved enhancements to the Libor Market Model (GBM Public, Tier 1) to address unstable short-term interest rate simulations identified during recent revalidation.
+* The enhancement replaces the existing interpolation methodology with a more stable approach, incorporating additional controls on simulated interest rate volatility to improve model reliability.
+* The change also affects Mortgage Agency pricing, with an estimated $0.3mm/bp impact on interest rate risk sensitivities, primarily concentrated in certain inverse interest-only mortgage products.
+* Further MRM investigation identified additional methodology and testing limitations in the Mortgage Agency pricing model, including issues with interest rate simulations and insufficient testing of model stability.
+* MRM raised a validation finding to track remediation of the identified limitations.
+
+NY Volex – Bermudan Risk Management
+
+* Following a significant decline in the premium of Bermudan options relative to comparable European options, Volex Trading proposed changing the production model to value and manage Bermudan options using a European option methodology.
+* MRM rejected the proposed approach, as it would create inconsistencies between the firm’s P&L and risk measures, with potential downstream implications for risk management, margin and valuations.
+* Trading continues to monitor the potential risk impact of the proposed change, but has not implemented any changes to the production model.
+
+This version retains the important methodology change without naming cubic or Hermite interpolation, and gives the Bermudan issue enough context to explain why MRM’s challenge was necessary.
+
+
+
+
 I agree with combining the LMM enhancement and Mortgage Agency Pricing under one topic, while keeping the Bermudan risk management issue separate. For CRO, I would use the following wording, focusing on the validation outcomes and risk implications rather than technical methodology or P&L impacts.
 
 Libor Market Model (LMM) and Mortgage Agency Pricing
