@@ -1,4 +1,66 @@
-    SR 26-2: Peer firms are taking a measured approach to implementation, with limited expected impact on existing MRM frameworks. Regulators emphasized continued accountability despite increased flexibility.
+* Sibyl AI: AIRCC conditionally approved Sibyl AI (GBM Public, Tier 2) for production deployment, subject to completion of pre-go-live conditions. The application uses generative AI to combine trading risk and P&L data with market news and research to support intraday risk analysis and trading decisions, with human oversight and independent checks of AI-generated outputs.
+
+AIRCC Meeting Minutes – October 13, 2026
+
+1 Sibyl AI – Approval
+
+Presenters: Elie Franko, Santhosh Meiyappan, Hekmat Tannous, Steve Spicer
+
+Decision:
+
+AIRCC conditionally approved the production deployment of Sibyl AI for the proposed FICC Trading business scope, subject to satisfaction of the documented pre-go-live conditions. Future business and feature expansions will follow the applicable change-management requirements under the Firmwide AI Standard.
+
+Pre-Go-Live Conditions:
+
+* Finalize user training in coordination with GBM Compliance. (Owner: Elie Franko; Control-side Contact: Ritu Narula)
+* Establish a quantitative accuracy metric to support pre-go-live testing and performance assessment. (Owner: Elie Franko; Control-side Contact: Bo Hu)
+
+Other Follow-Ups:
+
+* Update AIRCC materials to replace references to “chat history” with “prompt history,” clarifying the applicable retention requirements. (Owner: Elie Franko; Control-side Contact: Ritu Narula)
+* Follow up with Compliance and Privacy regarding the proposed application-level storage of prompts, including access controls and retention requirements across multiple systems. (Owner: Elie Franko; Control-side Contact: Lyndsay Huot)
+
+Key Discussion Points:
+
+- In response to questions regarding the proposed pilot and future expansion governance, Caroline clarified that the recently updated Firmwide AI Policy restricts pre-approval activity to development and testing, rather than broader business-user pilots. Future business and functionality expansions must follow the Firmwide AI Standard, with AIRCC coordinators determining whether streamlined or full Council review is appropriate.
+
+- In response to questions regarding the agentic nature of Sibyl, the presenters clarified that the application uses an LLM-based interface and orchestrator to retrieve and synthesize information but does not autonomously execute trades or modify underlying data. Scheduled daily digests are initiated through predefined application workflows rather than autonomous agent actions.
+
+- In response to a question from a Council member regarding external data sources, the presenters confirmed that market data and news are accessed through existing firm-approved APIs, while external web grounding is provided through the GS AI Gateway. No separate external connectivity has been introduced by Sibyl.
+
+- In response to questions regarding the applicability of Architecture Review and Operational Readiness Review requirements, Caroline clarified that the new requirements apply to Category 1 and specified agentic Category 2 use cases, and that Sibyl does not appear to meet those criteria. Council members also clarified that the GBM AI Risk Council is a divisional governance forum distinct from the Firmwide Architecture Review Committee.
+
+- In response to questions regarding the reliability of AI-generated analysis, the presenters clarified that Sibyl retrieves P&L and risk figures directly from existing risk infrastructure rather than generating or independently recalculating them. An asynchronous validator checks the consistency of LLM-generated responses against underlying data, while inference labeling, source attribution and human review provide additional safeguards.
+
+- In response to questions from Council members regarding data quality and operational resilience, the presenters explained that stale P&L or risk data generally originates from the underlying Griffin infrastructure rather than the AI application. Sibyl flags stale data, provides links for reconciliation against Griffin, and allows users to revert to existing risk tools if the application becomes unavailable.
+
+2 Administrative Items – AIRCC Quarterly Reporting
+
+Key Discussion Points:
+
+- Caroline presented the Q3 2026 AIRCC quarterly report, highlighting continued growth in the generative and agentic AI inventory, with new declarations increasing to 149 from 99 in the prior quarter. Over half of the new entries were agentic AI, primarily driven by GBM and Engineering, with an increasing proportion classified in higher model risk tiers.
+
+- Model approvals increased to 369 from 310 in the prior quarter, alongside an increase in outstanding validation findings. The report also highlighted increased AIRCC approval activity, including 89 new use cases and 39 extensions approved during Q3.
+
+- In response to a question from a Council member regarding inactivated AI inventory entries, Caroline clarified that deactivations are reviewed by the Model Risk Governance team to confirm that the models are no longer used. Examples include duplicate or incorrectly declared entries, superseded LLM versions and discontinued models, with historical records retained in the Firmwide Model Inventory.
+
+- Caroline reviewed outstanding AIRCC follow-ups, noting that updates on GS AI Assistant remain pending and that the AI Metrics and Incidents Oversight Group is expected to provide an update at the next Council meeting.
+
+A few drafting judgments to flag before circulation:
+
+The transcript supports two AIRCC-specific pre-go-live conditions and two other follow-ups, as recorded above. Caroline separately confirmed that MRM validation and Technology Risk review must be completed before production deployment. I have not added those as additional numbered AIRCC conditions because you asked us to follow Caroline’s explicit condition recap.
+
+Elie also requested inclusion of the evaluation framework and token-consumption monitoring requirements raised by the GBM AI Risk Council. Caroline said their treatment would be resolved offline, so I have not added them as AIRCC pre-go-live conditions.
+
+For control-side contacts, Bo Hu is the strongest assignment for the accuracy metric given MRM’s evaluation role. The assignments to Ritu Narula and Lyndsay Huot are reasonable functional estimates rather than explicitly confirmed owners. The prompt-retention follow-up may warrant confirmation with Luke Jones or the relevant Privacy representative before finalizing.
+
+I kept the quarterly-report section relatively brief because most of it was a presentation of the materials rather than substantive Council discussion.
+
+
+
+
+
+SR 26-2: Peer firms are taking a measured approach to implementation, with limited expected impact on existing MRM frameworks. Regulators emphasized continued accountability despite increased flexibility.
 * AI: Peer firms reported rapid growth in AI use cases, while agentic AI deployment and end-to-end automation of MRM validation remain limited.
 
 
