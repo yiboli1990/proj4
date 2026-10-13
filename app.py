@@ -1,3 +1,8 @@
+AI models are an increasing contributor to model inventory growth, with inventory reaching 497 models as of Q3 2026, representing a 28% quarter-over-quarter and 85% year-over-year increase, reflecting continued adoption of AI capabilities across divisions.
+
+
+
+
 Based on the transcript, Bill and Caroline were broadly comfortable with the content of the Q3 FRAC materials, but requested several changes to the Executive Summary, thematic updates, inventory analysis, and ETSC metrics.
 
 The most substantive new request from Bill was to quantify how much AI contributes to new model inventory, rather than simply stating that AI is driving inventory growth.
