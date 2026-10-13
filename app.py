@@ -1,4 +1,63 @@
-    Sibyl AI: AIRCC conditionally approved Sibyl AI (GBM Public, Tier 2) for production deployment, subject to completion of pre-go-live conditions. The application uses generative AI to combine trading risk and P&L data with market news and research to support intraday risk analysis and trading decisions, with human oversight and independent checks of AI-generated outputs.
+Based on the managers’ updates, I would incorporate all three items into the Strats update, with more technical detail, and include the LMM enhancement and Berm risk management issue in the CRO update. The Mortgage Agency finding can also be highlighted in CRO, particularly given the material DV01 impact.
+
+I’ve kept the Strats wording close to the managers’ submissions, while simplifying the CRO bullets.
+
+1. Strats Updates
+
+[G] IRP – Libor Market Model (LMM) Enhancement
+
+* MRM approved enhancements to the modelling of short-tenor rates in the Libor Market Model (LMM).
+* The changes were motivated by an MRM finding raised during the Sig Tier 1 revalidation, which identified extreme and unstable simulated volatility for 1-day rates in the LMM, affecting the pricing of callable range accrual products referencing 1-day SOFR.
+* The enhancement replaces the existing cubic interpolation between successive LIBOR rates with a more stable Hermite-based interpolation, incorporating additional controls on volatility levels.
+* The change resulted in an approximately $1mm P&L reduction, reflecting offsetting impacts on YCRAs (+$1mm) and Bermudans (-$2mm), and also affects Mortgage pricing.
+
+[H] NY Volex Berm Risk Management Update
+
+* At the beginning of October, the payup for accreters (Bermudan price less the most expensive European option price) reached a historical low of approximately $140mm.
+* As a result, Volex Trading considered managing Bermudan risk as though the positions were European options, and requested a change to the production model to use the Most Expensive European valuation, with the expectation that Controllers would reserve the resulting loss.
+* MRM rejected the proposed approach, as it would create inconsistencies between the firm’s P&L and risk measures, with downstream implications for risk management, margin and valuations.
+* Trading is currently monitoring the delta impact of the proposed approach, but has not implemented the change.
+
+[I] Mortgage Agency Pricing Model Uplift
+
+* The LMM interpolation enhancement in NY Volex is expected to result in an approximately -$0.3mm/bp DV01 impact on the Mortgages business, primarily concentrated in Inverse IO positions with coupons linked to 1-month SOFR and subject to caps and floors.
+* MRM identified that the simulation of 1-month SOFR is affected by the same interpolation issue previously observed for 1-day rates.
+* Further investigation of the Mortgage LMM implementation identified additional limitations, including interpolation across time, lack of control variates, and insufficient testing of simulation path counts for Inverse IO payoffs.
+* MRM raised a finding to address these additional methodology and testing limitations. [Mortgage validation team to confirm remediation plans, timelines, and any implications for model approval or usage.]
+
+2. CRO Updates
+
+I would place these under Validation Activities, except the Berm risk management issue, which could also sit under Top of Mind if Bill considers it sufficiently material.
+
+IRP – Libor Market Model Enhancement
+
+* MRM approved enhancements to the Tier 1 interest rate pricing model to address unstable short-term interest rate simulations identified during revalidation.
+* The enhancement improves model stability and results in an approximately $1mm net P&L reduction, with offsetting impacts across callable range accrual and Bermudan products.
+
+NY Volex – Berm Risk Management
+
+* MRM rejected a proposed change to the valuation and risk management of Bermudan options that would have created inconsistencies between the firm’s P&L and risk measures, with potential downstream implications for risk management, margin and valuations.
+* Trading continues to monitor the potential risk impact but has not implemented the proposed change.
+
+Mortgage Agency Pricing Model
+
+* MRM identified additional methodology and testing limitations in the Mortgage Agency pricing model following enhancements to the interest rate modelling framework, with an estimated $0.3mm/bp impact on interest rate risk sensitivities.
+* A validation finding has been raised, with remediation plans and timelines to be confirmed.
+
+3. A few points to confirm before circulation
+
+* Mortgage DV01: The source specifies -$0.3mm/bp, so I would preserve the negative sign in Strats. For CRO, I used the absolute magnitude to emphasize materiality without implying a direction of risk exposure.
+* LMM P&L: The $1mm reduction is a net effect of +$1mm on YCRAs and -$2mm on Bermudans. I would retain the breakdown in Strats but not necessarily CRO.
+* Bermudan proposal: This is a risk management and model usage issue, not a completed model enhancement. The CRO wording should emphasize that MRM rejected the proposed approach and no change has been implemented.
+* Mortgage loss: The separate approximately $14mm trading loss discussed yesterday has not been linked to the model issues in the information provided. I would continue to exclude it from CRO until Shipra confirms whether there is a model-risk connection.
+
+My recommendation is to include all three CRO topics, with the Bermudan issue particularly worth highlighting because it demonstrates MRM’s effective challenge of a proposed model change with potentially material downstream consequences.
+
+
+
+
+
+Sibyl AI: AIRCC conditionally approved Sibyl AI (GBM Public, Tier 2) for production deployment, subject to completion of pre-go-live conditions. The application uses generative AI to combine trading risk and P&L data with market news and research to support intraday risk analysis and trading decisions, with human oversight and independent checks of AI-generated outputs.
 
 
 
