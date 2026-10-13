@@ -1,3 +1,26 @@
+I agree with combining the LMM enhancement and Mortgage Agency Pricing under one topic, while keeping the Bermudan risk management issue separate. For CRO, I would use the following wording, focusing on the validation outcomes and risk implications rather than technical methodology or P&L impacts.
+
+Libor Market Model (LMM) and Mortgage Agency Pricing
+
+* MRM approved enhancements to the Libor Market Model (GBM Public, Tier 1) to address unstable short-term interest rate simulations identified during recent revalidation.
+* The enhancement improves the stability and reliability of interest rate simulations used in pricing interest rate derivatives.
+* The change also affects Mortgage Agency pricing, with a material impact on interest rate risk sensitivities for certain mortgage products.
+* Further MRM investigation identified additional methodology and testing limitations in the Mortgage Agency pricing model, including deficiencies in the simulation of interest rates and the robustness of model testing.
+* MRM raised a validation finding to track remediation of the identified limitations.
+
+NY Volex – Bermudan Risk Management
+
+* Following a significant decline in Bermudan option premiums relative to comparable European options, Volex Trading proposed changing the production model to value and manage Bermudan options as European options.
+* MRM rejected the proposed approach due to potential inconsistencies between the firm’s P&L and risk measures, with downstream implications for risk management, margin and valuations.
+* Trading continues to monitor the potential risk impact of the proposed change, but no changes to the production model have been implemented.
+
+I would retain five bullets for LMM/Mortgage because they clearly distinguish the approved enhancement, its impact on Mortgage Agency pricing, and the additional findings raised by MRM.
+
+For Bermudan risk management, the three bullets establish the background, MRM’s challenge, and the current status without getting too technical.
+
+
+
+
 Based on the managers’ updates, I would incorporate all three items into the Strats update, with more technical detail, and include the LMM enhancement and Berm risk management issue in the CRO update. The Mortgage Agency finding can also be highlighted in CRO, particularly given the material DV01 impact.
 
 I’ve kept the Strats wording close to the managers’ submissions, while simplifying the CRO bullets.
