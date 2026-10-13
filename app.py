@@ -1,3 +1,32 @@
+I reviewed the transcript again. Caroline is correct on both comments. Neither discussion was initiated by a direct question from a Council member. Both were explanations volunteered by the presenters, so the phrase “In response to questions” is inaccurate.
+
+1. Agentic nature of Sibyl
+
+What happened: Elie proactively explained that Sibyl is primarily a generative AI application, with an orchestrator that selects tools but does not autonomously execute actions. Later, the presenters clarified how scheduled daily digests operate during the discussion of key risks and mitigants.
+
+Recommended action: Revise the bullet.
+
+The presenters clarified that Sibyl uses an LLM-based interface and orchestrator to retrieve and synthesize information but does not autonomously execute trades or modify underlying data. Scheduled daily digests are initiated through predefined application workflows rather than autonomous agent actions.
+
+2. Reliability of AI-generated analysis
+
+What happened: During the presentation of testing and monitoring controls, Hekmat proactively emphasized that Sibyl sources P&L and risk figures from existing infrastructure rather than generating them. Elie then explained the independent validator, inference labeling and other safeguards.
+
+There were subsequent questions from Philip Renton and Pam regarding stale data and underlying P&L infrastructure, but those questions did not prompt the original explanation of the validation controls.
+
+Recommended action: Remove this bullet.
+
+The existing bullet largely summarizes presentation materials rather than new Council discussion. The separate bullet on data quality and operational resilience already captures the substantive Council challenge and resulting clarification.
+
+Suggested response to Caroline
+
+Thanks, Caroline. You’re right — both points were proactively explained by the presenters rather than raised in response to Council questions. I’ve removed the “In response to questions” language from the first bullet and deleted the second, as the validation controls were covered in the presentation and the subsequent data quality discussion is already captured separately.
+
+This also aligns with our established approach of keeping Key Discussion Points focused on substantive Council questions and clarifications, rather than repeating the presentation.
+
+
+
+
 AI models are an increasing contributor to model inventory growth, with inventory reaching 497 models as of Q3 2026, representing a 28% quarter-over-quarter and 85% year-over-year increase, reflecting continued adoption of AI capabilities across divisions.
 
 
