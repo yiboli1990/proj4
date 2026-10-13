@@ -1,3 +1,8 @@
+    Sibyl AI: AIRCC conditionally approved Sibyl AI (GBM Public, Tier 2) for production deployment, subject to completion of pre-go-live conditions. The application uses generative AI to combine trading risk and P&L data with market news and research to support intraday risk analysis and trading decisions, with human oversight and independent checks of AI-generated outputs.
+
+
+
+
 I reviewed the transcript again. Caroline is correct on both comments. Neither discussion was initiated by a direct question from a Council member. Both were explanations volunteered by the presenters, so the phrase “In response to questions” is inaccurate.
 
 1. Agentic nature of Sibyl
