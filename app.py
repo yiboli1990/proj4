@@ -1,4 +1,45 @@
-    The proposal followed a significant decline in Bermudan option premiums relative to their MEE valuations, prompting Volex Trading to consider switching the production model to MEE, with the resulting valuation difference reserved by Controllers.
+Beyond the metrics we’ve already discussed, I think there are several more interesting analyses that could provide new insights for Bill and the FRAC, rather than simply repeating AI inventory growth.
+
+Metric	What it tells us	FRAC relevance
+1. AI declaration vs. deactivation rate	Whether AI growth reflects sustained new development or also substantial model turnover	High
+2. AI models in development vs. in use	How much of the AI pipeline has actually reached production	Very high
+3. Agentic AI growth vs. GenAI growth	Whether increasingly autonomous applications are becoming more prevalent	Very high
+4. AI model validation pipeline	Number of AI models awaiting validation, undergoing validation and approved	Very high
+5. AI model concentration by division	Which divisions account for the largest share of AI inventory and growth	Medium
+6. AI validation findings vs. traditional models	Whether AI models exhibit different control weaknesses or validation challenges	Very high
+7. AI model tier migration	Whether existing AI models are moving into higher risk tiers as their use expands	High
+8. AI model use cases	Whether growth is concentrated in productivity, client engagement, risk management or other applications	Medium
+
+My top three additional recommendations
+
+1. AI models in development versus in use
+
+This would distinguish rapid experimentation from actual deployment. For example, if AI inventory increases 85% YoY but production AI models increase significantly faster, that would be a particularly interesting observation for the FRAC.
+
+2. AI validation findings versus non-AI models
+
+Compare the proportion of validated AI and non-AI models with medium- or high-severity findings, ideally controlling for tier. This would provide a model risk perspective, rather than just an inventory statistic. Small sample sizes and differences in model complexity would need to be considered.
+
+3. Agentic AI as a proportion of total AI inventory
+
+Given the discussion around Prism and increasingly autonomous applications, I would track whether agentic AI is becoming a larger proportion of AI inventory and whether those models are concentrated in higher risk tiers.
+
+One additional metric I particularly like
+
+AI contribution to net firmwide inventory growth.
+
+\frac{\Delta\text{AI Inventory}}{\Delta\text{Firmwide Inventory}}
+
+This could reveal that AI models account for more than 100% of net firmwide inventory growth if non-AI inventory is declining. However, because Bill noted that overall inventory is relatively stable, this ratio could become misleading when the denominator is close to zero.
+
+A better presentation may be to show the absolute change in AI and non-AI models side by side.
+
+For this FRAC cycle, I would prioritize AI models in use versus development, agentic AI growth, and AI validation findings. Together, these tell Bill whether the Firm is moving from AI experimentation to production, whether complexity is increasing, and whether MRM is observing emerging model risk concerns.
+
+
+
+
+The proposal followed a significant decline in Bermudan option premiums relative to their MEE valuations, prompting Volex Trading to consider switching the production model to MEE, with the resulting valuation difference reserved by Controllers.
 * Trading continues to monitor the potential impact on risk sensitivities but has not implemented the proposed change.
 
 
