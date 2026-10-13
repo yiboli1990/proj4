@@ -1,3 +1,9 @@
+    The proposal followed a significant decline in Bermudan option premiums relative to their MEE valuations, prompting Volex Trading to consider switching the production model to MEE, with the resulting valuation difference reserved by Controllers.
+* Trading continues to monitor the potential impact on risk sensitivities but has not implemented the proposed change.
+
+
+
+
 NY Volex – Bermudan Risk Management
 
 * MRM rejected a proposed change to the valuation and risk management of Bermudan options, which would have created inconsistencies between the firm’s P&L and risk measures, with downstream implications for risk management, margin and valuations.
