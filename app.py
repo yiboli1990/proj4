@@ -1,3 +1,11 @@
+NY Volex – Bermudan Risk Management
+
+* MRM rejected a proposed change to the valuation and risk management of Bermudan options, which would have created inconsistencies between the firm’s P&L and risk measures, with downstream implications for risk management, margin and valuations.
+* The proposal followed a significant decline in Bermudan option premiums relative to comparable European options, prompting Volex Trading to consider valuing and managing Bermudan options using a European option methodology.
+* Trading continues to monitor the potential impact on risk sensitivities but has not implemented the proposed change to the production model.
+
+
+
 I would add a little more detail on the LMM methodology change and the rationale for the Bermudan proposal, while keeping the language appropriate for CRO reporting.
 
 Libor Market Model (LMM) and Mortgage Agency Pricing
