@@ -1,3 +1,89 @@
+Based on your discussion with Caroline, the MGW presentation should be a concise, high-level summary of the Operational Risk events, focusing on root causes, MRM implications, and follow-up actions rather than reviewing every event individually.
+
+Caroline’s main point was that Bill should understand what went wrong, whether there are broader model risk implications, and what MRM is doing about it.
+
+1. Recommended MGW presentation structure
+
+I would organize your presentation into four parts.
+
+Section	What to cover
+1. Context	Explain the quarterly review process, including identification of potentially model-related Operational Risk events, review with validation managers, and reporting to FRAC.
+2. Overall results	Provide the number of events reviewed, model-related classifications, and a summary of root causes.
+3. Nature of events	Categorize events into coding bugs, parameter/configuration issues, and undocumented model usage or calculations outside the declared model scope.
+4. MRM follow-up actions	Highlight remediation, potential look-across reviews, validation enhancements, and any outstanding actions requiring management attention.
+
+You should then offer to discuss individual events if Bill would like additional details, particularly for significant models or events with broader implications.
+
+2. Suggested speaking script for MGW
+
+As part of our quarterly review of Operational Risk events, MRM identifies events with potential model risk implications and works with validation managers to assess whether they are model-related.
+
+We have reviewed the classifications and conclusions with Big Wen, and the results will be incorporated into the quarterly FRAC reporting.
+
+In terms of the nature of the events, the primary drivers include coding bugs, incorrect model parameter configurations, and model usage or calculations that were not fully captured within the declared model scope.
+
+Beyond confirming the classifications, we are also assessing whether additional MRM actions are warranted. These may include look-across reviews of similar models, enhancements to regression testing, or bringing previously undocumented calculations and processes within the model scope.
+
+We are following up with the relevant validation managers and reviewing the Operational Risk remediation tickets to confirm existing remediation plans and identify any additional MRM actions.
+
+We can also walk through the individual model-related events in more detail if helpful.
+
+This should take approximately one to two minutes, assuming no detailed questions.
+
+3. How to categorize the events
+
+Based on the four events from your earlier meeting, I would prepare the following table as supporting material.
+
+Category	Event	Potential MRM Follow-up
+Coding bug	EMEA Bond Market-Making Algo – incorrect NaN handling introduced during technology migration	Assess regression testing coverage and potential look-across to similar e-trading algos.
+Parameter configuration	EM IRP Market-Making Algo – incorrect application of maximum spread parameter	Review parameter controls and assess similar configurations across market-making models.
+Undocumented model usage / scope	AWM Axioma Optimizer – constraint-handling workflow excluded from declared model scope	Engage developers to clarify model scope and determine whether documentation or validation enhancements are needed.
+Calculation bug	Controllers QA – incorrect netting across tenors	Assess validation coverage for other Controllers-validated QAs and potential look-across.
+
+These are the four events discussed in the transcript you provided, not necessarily the complete quarterly population.
+
+4. What Caroline specifically wants you to do before MGW
+
+Her final comments are important because she wants more than a list of classifications.
+
+* Check the Operational Risk event tickets: Review the remediation plans and actions already identified by the event owners.
+* Follow up with validation managers: Determine whether additional MRM actions are required beyond the existing Operational Risk remediation.
+* Consider look-across reviews: For example, whether a coding bug identified in one model could exist in other models using similar components.
+* Assess validation enhancements: Determine whether MRM should raise findings to improve regression testing or bring undocumented calculations within the model scope.
+* Identify notable events: Prioritize significant model failures or issues with broader implications that Bill may want to discuss.
+
+Importantly, Caroline did not say that every event needs an MRM finding or look-across. The objective is to assess whether additional actions are warranted, not automatically introduce new remediation requirements.
+
+5. Likely questions from Bill
+
+Potential question	Suggested response
+Why did we have more events this quarter?	Explain the distribution by root cause and whether there is evidence of a common underlying weakness. Avoid concluding there is a trend before completing the analysis.
+Could MRM have identified these issues during validation?	Explain that detectability varies. Coding and calculation bugs may be detectable through testing, whereas undocumented downstream usage can be more difficult to identify when not disclosed by developers.
+Are there broader issues across similar models?	Explain that MRM is assessing the need for targeted look-across reviews based on the nature of the identified issues.
+What additional actions are we taking?	Summarize any confirmed look-across reviews, findings, documentation enhancements, or validation changes. Distinguish confirmed actions from those under consideration.
+Which events are most concerning?	Highlight events affecting significant models, revealing potential validation coverage gaps, or suggesting issues that could extend to other models.
+
+6. My recommendation for your MGW material
+
+Rather than preparing a detailed slide for each event, I would use one summary table containing:
+
+Nature of Event	Number of Events	MRM Follow-up
+Coding / calculation bugs	TBD	Review testing coverage and potential look-across.
+Parameter configuration issues	TBD	Assess parameter controls and validation implications.
+Undocumented model usage / scope	TBD	Clarify model boundaries and determine documentation or validation enhancements.
+Other	TBD	Determine appropriate actions based on root cause.
+
+Use the full quarterly population to populate the counts, rather than just the four events discussed.
+
+One additional point: Caroline specifically mentioned that some events may be more interesting to Bill than others. I would be prepared to highlight the AWM Axioma Optimizer because of the model-scope question, and the Controllers QA because of the potential validation coverage gap.
+
+For the actual MGW discussion, I would lead with the short speaking script, present the root-cause categories and MRM actions, and leave the individual event details for questions. This is consistent with Caroline’s explicit direction to avoid spending another 30 minutes reviewing the events one by one.
+
+
+
+
+
+
 I would retain the existing eight events and financial impacts, while refining the Primary Failure Type and Follow-up Actions columns to make them more consistent, concise, and suitable for MGW reporting.
 
 The key is to distinguish completed remediation, completed MRM look-across reviews, and additional actions under consideration.
