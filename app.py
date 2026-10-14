@@ -1,3 +1,10 @@
+AWM – Axioma Optimizer
+
+Undocumented model usage / constraint-handling issue
+
+Engage developers to clarify model scope and pursue inclusion of constraint-handling workflow in model documentation.
+
+
 Mortgage Agency Pricing Model
 
 * A persistent discrepancy between desk and modeled risk sensitivities was observed in September, with the model reflecting materially longer duration across the Collateralized Mortgage Obligation (CMO) portfolio.
