@@ -1,3 +1,13 @@
+Mortgage Agency Pricing Model
+
+* A persistent discrepancy between desk and modeled risk sensitivities was observed in September, with the model reflecting materially longer duration across the Collateralized Mortgage Obligation (CMO) portfolio.
+* The discrepancy persisted during a period of significant trading losses in the Mortgage Agency business, driven by a sharp interest rate sell-off and widening agency mortgage basis spreads.
+* MRM’s P&L attribution analysis identified a material difference in estimated rate-driven losses using desk versus modeled risk sensitivities.
+* MRM estimated that hedging against modeled risk sensitivities could have reduced trading losses by approximately $20mm.
+* MRM continues to investigate the underlying drivers of the discrepancy and assess potential remediation actions.
+
+
+
 Mortgage Agency – P&L and Risk Attribution
 
 * The Mortgage Agency trading business incurred a significant loss in September, driven by a sharp interest rate sell-off and widening agency mortgage basis spreads.
