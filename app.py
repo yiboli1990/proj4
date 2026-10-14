@@ -1,3 +1,50 @@
+For tomorrow’s MGW, I would keep the discussion to 2–3 minutes, starting with the overall results and then highlighting the more notable events.
+
+1. Overall Summary
+
+* As part of our quarterly Operational Risk review, MRM identified eight model-related events, with classifications reviewed and agreed with Big Wen.
+* In terms of root causes, six events involved coding or calculation errors, one involved incorrect model parameter configuration, and one involved model scope and constraint handling.
+* We also reviewed the remediation actions and are assessing whether additional MRM follow-ups are warranted, including look-across reviews and enhancements to regression testing.
+
+2. Notable Events
+
+EM IRP – Bond Quoting Algo
+
+* The maximum spread parameter was incorrectly applied, resulting in an off-market trade.
+* The subsequent widening of the spread prevented required quoting activity, resulting in regulatory penalty points.
+* MRM is following up to confirm the root cause and whether additional actions are needed.
+
+Controllers – IR Vega VA
+
+* A spreadsheet calculation error incorrectly netted risks across tenors, resulting in an understatement of the valuation adjustment.
+* The issue was identified during migration to a standardized Controllers model.
+* We are assessing whether additional review of other Controllers-validated QAs is warranted.
+
+AWM – Portfolio Optimizer
+
+* The optimizer failed to enforce portfolio diversification constraints under certain scenarios.
+* The workflow has been enhanced to flag failures for manual intervention.
+* MRM is engaging developers to clarify whether the constraint-handling process should be included within the declared model scope.
+
+3. Other Events and Follow-ups
+
+* The remaining five events primarily involved algo coding and logic defects, including errors in fallback logic, holiday handling, and quote generation.
+* The identified bugs have been remediated. MRM has performed look-across checks for the four Equity events and is assessing whether further regression testing enhancements are warranted.
+
+4. Closing
+
+* Overall, our focus is on identifying any broader model risk implications and ensuring appropriate follow-up actions are taken.
+* We can walk through individual events in more detail if helpful.
+
+My suggestion: Don’t read all eight events individually. Lead with the three root-cause categories, highlight the Controllers QA and AWM Optimizer as examples of potential broader MRM implications, and mention EM IRP because of the regulatory penalty points.
+
+If Bill doesn’t ask questions, you can finish after the overall summary and follow-up actions.
+
+
+
+
+
+
 Based on your discussion with Caroline, the MGW presentation should be a concise, high-level summary of the Operational Risk events, focusing on root causes, MRM implications, and follow-up actions rather than reviewing every event individually.
 
 Caroline’s main point was that Bill should understand what went wrong, whether there are broader model risk implications, and what MRM is doing about it.
