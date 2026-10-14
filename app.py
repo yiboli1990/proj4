@@ -1,3 +1,131 @@
+I would retain the existing eight events and financial impacts, while refining the Primary Failure Type and Follow-up Actions columns to make them more consistent, concise, and suitable for MGW reporting.
+
+The key is to distinguish completed remediation, completed MRM look-across reviews, and additional actions under consideration.
+
+Revised Operational Risk Events Table
+
+Event ID	Primary Failure Type	Revised Follow-up Actions
+2723335	Incorrect model parameter configuration	Model spread parameters were adjusted following the incident. MRM to confirm the root cause, adequacy of remediation, and whether similar parameter configuration issues warrant further review.
+2724640	QA calculation error	Error identified during migration to the standardized Controllers model. MRM to assess potential validation coverage gaps and whether a look-across of other Controllers-validated QAs is warranted.
+2708908	Code defect during technology migration	Bug remediated to prevent quoting when the spread is returned as NaN. MRM to assess whether additional regression testing or a look-across of similar algo components is warranted.
+2708237	Holiday logic error	Logic remediated. MRM completed a look-across of similar models in other regions and will assess the adequacy of regression testing coverage.
+2697663	Algo code defect	Bug remediated. MRM completed a look-across of similar models in other regions and will assess the adequacy of regression testing coverage.
+2723651	Fallback logic error	Logic remediated with PCC approval. MRM completed a look-across of similar models in other regions and will assess the adequacy of regression testing coverage.
+2710113	Timing logic error	Logic remediated. MRM completed a look-across of similar models in other regions and will assess the adequacy of regression testing coverage.
+2710357	Constraint-handling logic / model scope issue	Workflow updated to flag optimization failures for manual intervention. MRM to engage developers to clarify model scope and pursue inclusion of the constraint-handling workflow in model documentation.
+
+Suggested improvements before presenting to MGW
+
+1. Group the failure types into three broader categories.
+
+For Bill’s discussion, the eight events can be summarized as:
+
+Category	Events	Count
+Coding / calculation / logic defects	2724640, 2708908, 2708237, 2697663, 2723651, 2710113	6
+Model parameter configuration	2723335	1
+Constraint handling / model scope	2710357	1
+Total		8
+
+This aligns with Caroline’s request to highlight the nature of the events rather than discussing each individually.
+
+2. Confirm the first two follow-up actions with David.
+
+For the EM IRP event, David indicated that the maximum spread parameter had been widened after the initial off-market trade, which subsequently prevented required quoting. It is not yet clear whether the underlying configuration issue has been fully remediated.
+
+For the Controllers QA event, the spreadsheet calculation issue was discovered during migration. The potential validation coverage gap was discussed, but no specific MRM look-across was agreed.
+
+3. Avoid overstating completed MRM actions.
+
+For the four Equity events, your original table states that MRM has already checked similar models in other regions. I preserved this as a completed action, while retaining the regression testing assessment as prospective.
+
+For the Credit event, the transcript establishes that the bug was fixed, but does not confirm that MRM committed to a broader look-across.
+
+Suggested MGW summary
+
+Operational Risk Events – Quarterly Review
+
+* MRM reviewed eight model-related Operational Risk events, primarily driven by coding and calculation defects (six events), incorrect model parameter configuration (one event), and constraint-handling/model scope issues (one event).
+* Identified issues have generally been addressed through code or logic enhancements, with MRM conducting targeted look-across reviews of similar models where appropriate.
+* MRM is assessing additional follow-up actions, including regression testing coverage, potential validation gaps in Controllers QAs, and clarification of model scope for the portfolio optimization workflow.
+
+I would use this three-bullet summary to lead the MGW discussion, with the revised eight-event table available as backup. This gives Bill the root-cause breakdown and the potential broader MRM implications without requiring a detailed event-by-event walkthrough.
+
+
+
+
+I would address Caroline’s comments directly while preserving the existing structure and level of detail. The main changes are to define technical terms, simplify the CCR findings, distinguish the Mortgage Agency desk/model discrepancy from the outstanding validation finding, and clarify the purpose of the LMP migration.
+
+Revised CRO Update
+
+Top of Mind
+
+CCR – Unified Benchmark Model
+
+* MRM approved the migration of the Prime Brokerage business to the Unified Benchmark Model (UBM) (GBM Public, Tier 1) for margin shortfall calculations.
+* The approval enables cross-margin calculations, marking a key milestone in the multi-year effort to standardize methodologies across Prime and Franchise businesses. The migration also introduced enhancements to concentration risk scenarios and broader risk capture.
+* Six medium-severity findings remain outstanding, related to limitations in concentration risk scenarios, basis and interest rate risk coverage, stress loss calculations for convertible bonds, and collateral treatment for futures positions.
+* The enhancement follows earlier migrations of Synthetic Products Group portfolios and the Equities Franchise business, with Prime Services Clearing (GSEC) planned next.
+
+Mortgage Agency Pricing Model (GBM Public, Tier 1)
+
+* MRM is reviewing the Mortgage Agency Pricing Model following significant September trading losses driven by a sharp interest rate sell-off and widening agency mortgage basis spreads.
+* A persistent discrepancy between desk and modeled risk sensitivities was observed, with the model reflecting materially longer duration across the Collateralized Mortgage Obligation (CMO) portfolio.
+* MRM’s P&L attribution analysis identified a material difference in estimated rate-driven losses using desk versus modeled sensitivities. MRM estimated that hedging against modeled sensitivities could have reduced trading losses by approximately $20mm.
+* MRM continues to investigate the drivers of the discrepancy. The existing validation finding relates to model performance against empirical data and is separate from the desk-versus-model risk differences.
+
+Validation Activities
+
+LIBOR Market Model Enhancement
+
+* MRM approved enhancements to the LIBOR Market Model (GBM Public, Tier 1) to address unstable short-term interest rate simulations identified during recent revalidation.
+* The enhancement replaces the existing interpolation methodology with a more stable Hermite-based approach, incorporating additional controls on simulated interest rate volatility.
+* The change also affects Mortgage Agency pricing, with an estimated -$0.3mm/bp impact on interest rate risk sensitivities, primarily concentrated in inverse interest-only mortgage products.
+* Further MRM investigation identified additional methodology and testing limitations in the Mortgage Agency pricing model, which are being tracked through a separate validation finding.
+
+NY Volex – Bermudan Risk Management
+
+* MRM rejected a proposed change to the valuation and risk management of Bermudan swaptions (GBM Public, Tier 1), which would have created inconsistencies between the firm’s P&L and risk measures.
+* The proposal followed a significant decline in Bermudan option premiums relative to their Most Expensive European (MEE) valuations, prompting Volex Trading to consider switching the production model to MEE, with the resulting valuation difference reserved by Controllers.
+* Trading continues to monitor the potential impact on risk sensitivities but has not implemented the proposed change.
+
+FRTB CVA
+
+* MRM approved the IRP CVA CT IR Exot YCRA model (GBM Public, Tier 1), used to calculate credit valuation adjustment (CVA) and funding valuation adjustment (FVA) for callable range accrual notes and swaps (YCRAs).
+* The model was developed as part of ongoing work to meet new Fundamental Review of the Trading Book (FRTB) requirements and extend coverage to products not supported by the desk’s existing CVA engine.
+
+Liquidity Metrics Platform (LMP)
+
+* MRM approved two of the four model-related deliverables planned for the LMP migration in 2026, covering modeled liquidity outflows for initial margin and secured Federal Home Loan Bank (FHLB) funding.
+* The migration involves reimplementing existing liquidity models from Slang into Python as part of the broader modernization of the liquidity risk calculation platform.
+* Ten high-severity findings were identified in the DESCIFR and Collateral Allocator models (Core Engineering, Tier 1), related to inconsistencies between the existing Slang implementations and their Python replacements. Remediation is in progress.
+
+How Caroline’s comments were addressed
+
+Comment	Revision
+Define UBM	Spelled out Unified Benchmark Model on first reference.
+Simplify futures-integrated collateral	Changed to “collateral treatment for futures positions,” while retaining the other findings at a higher level.
+Make Mortgage Agency more model-risk focused	Starts with MRM’s review rather than the trading loss itself.
+Clarify connection to existing finding	Explicitly distinguishes the desk/model DV01 discrepancy from the finding concerning model performance against empirical data.
+Bermudan pricing terminology	Changed to “valuation and risk management of Bermudan swaptions.”
+Define MEE	Spelled out Most Expensive European on first reference.
+Remove LMP QA terminology	Replaced specific QA approvals with a description of the underlying liquidity risk calculations.
+Explain Slang versus Python	Added an introductory bullet explaining the migration from Slang to Python.
+
+Two points I would be careful about
+
+1. Mortgage Agency findings
+
+Based on the manager’s response, I would not imply that MRM has raised a finding specifically because desk and model DV01 differ. The existing finding concerns performance against empirical data, and the team has limited transparency into the trader’s DV01 calculation.
+
+The manager also noted that a separate monitoring report flags discrepancies exceeding $1mm/bp, whereas the September differences reached approximately $750k/bp. I would leave that threshold detail out of CRO unless Caroline specifically asks about escalation, but it is useful context for responding to her.
+
+2. LMP migration
+
+The wording “two of the four model-related deliverables” avoids emphasizing the QA designation, as Caroline requested. I would nevertheless confirm that both approved items fall within the LMP migration scope and that the Python reimplementation description applies to the DESCIFR and Collateral Allocator workstream, rather than necessarily every LMP component.
+
+Overall, the revised version should address Caroline’s comments without materially changing the content or adding unnecessary technical detail.
+
+
 AWM – Axioma Optimizer
 
 Undocumented model usage / constraint-handling issue
