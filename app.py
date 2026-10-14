@@ -1,3 +1,12 @@
+Mortgage Agency – P&L and Risk Attribution
+
+* The Mortgage Agency trading business incurred a significant loss in September, driven by a sharp interest rate sell-off and widening agency mortgage basis spreads.
+* MRM observed a persistent discrepancy between desk and model interest rate risk sensitivities, with the model reflecting materially longer duration across the Collateralized Mortgage Obligation (CMO) portfolio.
+* MRM’s P&L attribution analysis identified a significant difference in estimated rate-driven losses using desk versus model risk sensitivities.
+* As trading hedges were based on desk rather than model sensitivities, the portfolio maintained a larger unhedged long-duration exposure during the sell-off. MRM estimated that hedging against model sensitivities could have reduced losses by approximately $20mm.
+* MRM continues to assess the underlying drivers of the discrepancy, including previously identified mortgage prepayment modelling limitations, and potential remediation actions.
+
+
 Beyond the metrics we’ve already discussed, I think there are several more interesting analyses that could provide new insights for Bill and the FRAC, rather than simply repeating AI inventory growth.
 
 Metric	What it tells us	FRAC relevance
