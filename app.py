@@ -1,3 +1,42 @@
+I would retain the established FRB introduction and use five bullets, combining the two Earnings-at-Risk findings. The wording below focuses on the underlying model performance or risk measurement issues identified through ongoing monitoring, rather than the monitoring process itself.
+
+Ongoing Monitoring Including Thematic Issues and Impact
+
+There were no high-severity findings raised during the quarter relating to ongoing monitoring. Notable medium-severity findings raised based on Model Risk review of ongoing monitoring results relate to:
+
+* Underestimation of liquidation risk for certain single-name credit derivative positions in the Tier 1 GBM Public Credit Franchise Benchmark model, where ongoing monitoring identified insufficient charges for the size of risk exposures; remediation is in progress.
+* Incorrect application of risk haircuts for certain Solana and XRP cryptocurrency positions in the Tier 1 GBM Public CREST margin model used for margining and shortfall benchmarking, resulting in lower charges than prescribed by Risk Management; remediation is in progress.
+* Backtesting breaches in the Tier 1 retail securities-based lending capital models used to estimate Probability of Default (PD) and Exposure at Default (EAD), indicating the need to recalibrate credit risk parameters; remediation is in progress.
+* Performance deterioration identified through maturation testing of the Tier 1 credit card model used to project charge-offs and delinquent balances for the Comprehensive Capital Analysis and Review (CCAR), requiring enhancements to better reflect observed credit performance across borrower segments; the finding has been remediated through model enhancements.
+* Backtesting breaches in projected cash collateral and repurchase agreement (repo) volumes for Tier 1 Corporate Treasury and GBM Public models used to calculate Net Interest Income (NII) and Earnings-at-Risk (EaR) sensitivities; investigation and methodology enhancements are in progress.
+
+Points to confirm before finalizing
+
+1. Finding 1 — potential mismatch between description and remediation
+
+The finding description identifies underestimation of liquidation risk due to insufficient risk-size penalties, but the MRM recommendation and remediation plan discuss insufficient monitoring coverage and representativeness.
+
+I drafted the bullet around the underlying risk underestimation, consistent with your selection criteria. However, I would confirm that the remediation actually addresses the liquidation risk-size penalty. Otherwise, this finding may be more closely related to monitoring coverage than the substantive model issue.
+
+2. Finding 3 — PD and EAD terminology
+
+I used retail securities-based lending capital models to make the model purpose understandable to FRB members. The finding specifically concerns PD backtesting breaches and volatility in the unutilized exposure component, so “recalibrate credit risk parameters” summarizes both issues without introducing the more technical Utilization at Default (UaD) terminology.
+
+3. Finding 4 — remediation status
+
+I described the credit card finding as remediated because it is closed. This assumes the closure reflects completion of the planned maturation-curve enhancements.
+
+4. Findings 5 and 6 — different remediation stages
+
+The combined bullet currently says investigation and methodology enhancements are in progress. Strictly speaking, the cash collateral finding has only been raised, while the repo finding is in remediation. If you want the status to be fully precise, the ending could instead read:
+
+“…; investigation of the cash collateral breaches and remediation of the repo volume methodology are underway.”
+
+My recommendation: The five bullets are at approximately the right level for FRB reporting. The first two highlight market risk and margining issues, the next two address credit model performance, and the final bullet covers Treasury and GBM interest rate risk projections.
+
+
+
+
 GSET AI (Tier 3)
 
 * MRM approved GSET AI for trading support usage, an LLM-powered conversational assistant enabling Equities and Options sales and trading teams to retrieve and analyze trading data, client information, execution quality metrics and algorithmic analytics through natural-language queries across regions.
