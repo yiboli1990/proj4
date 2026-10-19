@@ -1,3 +1,21 @@
+I would structure this as a continuation of last quarter’s update, moving from remediation of the high-severity finding → progress on broader model enhancements → September market event and ongoing MRM review. This creates a clearer narrative for the FRB without implying that the September discrepancy has been resolved.
+
+Emerging Risk
+
+Model Risk continues to monitor the impact of evolving market conditions and business activity on model performance. Notable highlights from Q3:
+
+* Following the remediation and closure of the high-severity finding on the Tier 1 GBM Public Mortgage Pass-Through Pools Pricing model reported in Q2, Model Risk continues to oversee broader enhancements to the Agency Mortgage pricing and risk framework.
+* Model Risk approved Phase 1 enhancements to the Tier 1 GBM Public Agency Mortgage Fundamental model, improving mortgage prepayment assumptions through recalibration and replacement of temporary adjustments with a more comprehensive modeling approach. Phase 2 enhancements focused on interest rate modeling remain in progress.
+* During September, the Mortgage Agency trading business incurred significant losses amid a sharp interest rate sell-off and widening agency mortgage basis spreads. Model Risk observed a persistent discrepancy between trading desk and modeled risk sensitivities, with the model reflecting longer duration across the Collateralized Mortgage Obligation (CMO) portfolio.
+* Model Risk is reviewing the differences between desk and modeled risk measures, including their implications for risk management and hedging effectiveness.
+
+I would retain four bullets because each serves a distinct purpose. The first establishes continuity with the Q2 FRB report, the second communicates remediation progress, and the final two explain why the issue remains relevant following September’s market volatility.
+
+One important distinction is that the previously closed high-severity finding, the Phase 1/Phase 2 enhancements, and the September desk-versus-model discrepancy should not be presented as the same issue. The wording connects them as developments within the broader Agency Mortgage risk framework without implying that the model enhancements were specifically designed to resolve the trader DV01 discrepancy.
+
+
+
+
 I would retain the established FRB introduction and use five bullets, combining the two Earnings-at-Risk findings. The wording below focuses on the underlying model performance or risk measurement issues identified through ongoing monitoring, rather than the monitoring process itself.
 
 Ongoing Monitoring Including Thematic Issues and Impact
