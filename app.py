@@ -1,3 +1,8 @@
+* AIRCC Updates: Engineering, MRM, Operational Risk and Compliance provided updates on AI governance and controls, including enhanced safeguard monitoring and incident escalation, risk-based model validation and ongoing performance monitoring, data-driven RCSA guidance for assessing inherent AI risk, and a proposal to reduce AI prompt and response retention from six months to 90 days to mitigate litigation, regulatory and data protection risks.
+
+This adds more substance to each of the four topics while keeping them consolidated into a single CRO-style bullet, as Caroline requested.
+
+
 Explore establishing a centralized repository for first-line model developers to submit ongoing model performance monitoring results, to support scalable MRM oversight and reduce reliance on manual reporting. (Owners: Bo Hu / Engineering — to be confirmed)
 
 
