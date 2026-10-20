@@ -1,3 +1,7 @@
+Explore establishing a centralized repository for first-line model developers to submit ongoing model performance monitoring results, to support scalable MRM oversight and reduce reliance on manual reporting. (Owners: Bo Hu / Engineering — to be confirmed)
+
+
+
 1. Provide AIRCC with an update on the detection and monitoring controls for unauthorized AI usage, including attempts to circumvent secured development environments, and clarify the applicable Firmwide policies and consequences for violations. (Owner: Alexis Vassilakas)
 
 
