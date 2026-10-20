@@ -1,3 +1,7 @@
+1. Provide AIRCC with an update on the detection and monitoring controls for unauthorized AI usage, including attempts to circumvent secured development environments, and clarify the applicable Firmwide policies and consequences for violations. (Owner: Alexis Vassilakas)
+
+
+
 I’ve drafted the October 20 AIRCC minutes based on the transcript, focusing on substantive Council questions, clarifications and governance discussions rather than repeating the presentation materials. I’ve also excluded individual names from the Key Discussion Points, as requested.
 
 AIRCC Meeting Minutes – October 20, 2026
