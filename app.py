@@ -1,3 +1,68 @@
+I’ve drafted the October 20 AIRCC minutes based on the transcript, focusing on substantive Council questions, clarifications and governance discussions rather than repeating the presentation materials. I’ve also excluded individual names from the Key Discussion Points, as requested.
+
+AIRCC Meeting Minutes – October 20, 2026
+
+1 AI Metrics and Incidents Oversight Group – Quarterly Update
+
+Key Discussion Points:
+
+- In response to a question regarding the process for addressing safeguard threshold breaches, the presenters clarified that the Oversight Group engages the relevant safeguard and use case owners to investigate flagged prompts, determine the underlying cause and track remediation actions through completion, with an initial assessment targeted within 30 days.
+
+- In response to questions from the Council Chairperson regarding the detection of unauthorized AI usage and circumvention of secured development environments, the presenters explained that existing security monitoring has identified instances of unauthorized connectivity, with remediation coordinated across relevant teams. Further enhancements to detection capabilities are being developed to address evolving circumvention techniques.
+
+- The Council Chairperson emphasized the importance of transparency into the effectiveness of monitoring controls for unauthorized AI usage, particularly the ability to detect and respond to attempts to bypass secured development environments. The presenters agreed to provide further information on the detection and monitoring approach.
+
+- In response to questions from Council members and the Council Chairperson regarding applicable policies and employee consequences, the presenters clarified that existing information security policies prohibit deliberate circumvention of security controls, with violations subject to disciplinary action, including potential termination. The presenters agreed to provide further details on the relevant firmwide policies.
+
+2 AI Model Risk Management – Update
+
+Key Discussion Points:
+
+- The Council discussed the risk-based nature of MRM oversight, including the distinction between independent validation requirements for higher-risk models and the lighter-touch approach for Tier 4 models, which are not subject to independent MRM validation.
+
+- In response to questions from the Council Chairperson regarding ongoing model performance monitoring, the presenters clarified that developers currently provide evaluation results through application-specific dashboards or direct submissions to MRM, with monitoring expectations established during model validation based on model risk tier.
+
+- In response to further questions from the Council Chairperson regarding scalability, the Council discussed establishing a centralized repository for developers to submit standardized ongoing performance metrics, reducing reliance on manual collection and follow-up by MRM.
+
+- Council members clarified that the proposed repository would capture first-line developer monitoring results, rather than independent MRM validation results. The discussion also highlighted challenges associated with the increasing frequency of model and code changes and the importance of timely reporting to support effective second-line oversight. The Council agreed to explore potential solutions with Engineering.
+
+3 RCSA Guidance for AI – Update
+
+Key Discussion Points:
+
+- In response to a question regarding the implementation timeline for the updated AI risk assessment guidance, the presenters clarified that centrally guided AI risk instances are expected to be introduced into the RCSA process beginning in November, supported by indicative inherent risk ratings and corresponding assessment rationales in the NFR tooling.
+
+- The presenters further clarified that the indicative ratings are intended to provide a consistent starting point rather than replace risk assessor judgment. Assessors may override the proposed ratings where appropriate, subject to documenting the supporting rationale.
+
+4 Amendment to Data Retention of Prompts and AI Responses – Update
+
+Key Discussion Points:
+
+- In response to a question from the Council Chairperson regarding prompts and responses embedded within AI applications, the presenters clarified that the proposed 90-day default retention period would apply at the GS AI Platform level and be inherited by applications built on the platform, subject to application-specific Legal and Compliance requirements. Additional work is needed to assess retention practices across embedded applications and other systems.
+
+- Council members discussed the potential benefits of implementing retention and litigation-hold controls centrally within the AI Platform to support consistent application across use cases, while accommodating specific business or regulatory retention requirements.
+
+- In response to questions regarding the impact of the proposed 90-day retention period on user experience, the presenters clarified that prompt and response histories would no longer be available after the retention period, absent applicable exceptions. Council members raised concerns regarding the potential loss of historical interactions used to support business decisions and product functionality.
+
+- The Council discussed the trade-off between retaining AI interactions for business functionality, auditability and future reference, and limiting retention to reduce litigation, regulatory and data protection risks. The presenters clarified that application-specific functional data needs should be distinguished from default retention of prompt and response histories, with exceptions considered where justified.
+
+- Council members also highlighted the importance of addressing downstream copies of AI interactions, noting that deleting records from the primary platform may not eliminate retention and associated risks where the same information is stored elsewhere.
+
+CRO AI Updates – October 20, 2026
+
+* Engineering: Provided a quarterly update on AI safeguard monitoring and incident oversight, including enhanced risk-based thresholds, incident escalation procedures and monitoring of unauthorized AI usage.
+* MRM: Presented an overview of the AI model risk management framework, including risk-based validation, independent testing, ongoing performance monitoring and model change governance.
+* Operational Risk: Presented updated RCSA guidance for AI, introducing a data-driven approach to assessing inherent AI risk with standardized indicative ratings and risk assessor judgment.
+* Compliance: Presented a proposal to reduce the default retention period for AI prompts and responses from six months to 90 days, balancing business needs with litigation, regulatory and data protection risks.
+
+Two points worth considering before finalizing
+
+1. MRM discussion: The central repository discussion was the most substantive Council challenge during the MRM presentation. I recommend keeping those three related bullets, particularly the distinction between first-line monitoring and independent MRM testing. The transcript supports an agreement to explore the approach offline, but not a formally assigned follow-up.
+
+2. Retention discussion: The Council discussed the proposed 90-day retention approach extensively, particularly the tension between business functionality and legal risk. The transcript supports moving forward with implementation planning and further discussions on embedded applications, but does not establish a separate formal approval decision. I have therefore kept this within Key Discussion Points rather than adding a Decision section.
+
+
+
 I would structure this as a continuation of last quarter’s update, moving from remediation of the high-severity finding → progress on broader model enhancements → September market event and ongoing MRM review. This creates a clearer narrative for the FRB without implying that the September discrepancy has been resolved.
 
 Emerging Risk
