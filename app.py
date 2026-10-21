@@ -1,3 +1,28 @@
+I would keep the existing structure but strengthen the connection between increasing AI complexity, emerging model risks, and enhancements to the firm’s governance and control framework. The wording below is tailored for FRB reporting.
+
+Emerging Risks
+
+Model Risk continues to monitor the impact of evolving market conditions, business activity and emerging technologies on model performance and risk management.
+
+* AI adoption continues to grow across the firm. While the AI inventory remains concentrated in lower-risk tiers, Model Risk is observing increased adoption of agentic AI applications with greater autonomy and complexity, introducing new challenges for risk assessment and oversight.
+* Model Risk continues to strengthen the AI governance and control framework to address emerging risks associated with expanding AI capabilities, including recent enhancements to the Firmwide Policy on Artificial Intelligence and Firmwide Standard on Artificial Intelligence.
+* Key enhancements include (i) expanded requirements for inclusion in the firmwide AI inventory, with all applications subject to risk tiering and more stringent controls for higher-risk applications; and (ii) strengthened development standards, including restrictions on AI use case development and the use of AI coding tools, particularly by non-Engineering personnel.
+* The enhancements were approved by the AI Risk Committee (ARC) and AI Risk and Controls Council, respectively. Model Risk is working with key stakeholders on implementation, including supporting system and tooling enhancements, firmwide communications and training.
+
+I made three targeted changes:
+
+* Emerging risk framing: Connected growing agentic AI adoption to the challenges of autonomy, complexity and oversight, rather than presenting inventory growth alone.
+* Risk-based governance: Emphasized that controls are proportionate to application risk tiers, which is the key regulatory message.
+* Implementation: Distinguished governance approvals from ongoing implementation activities, avoiding the impression that all enhancements are already operational.
+
+One point to verify before circulation: the approval attribution between ARC and AIRCC should correspond to the Policy and Standard, respectively, as intended in your original draft.
+
+
+
+
+
+
+
 I would respond to Caroline’s first comment without changing the bullet, since she explicitly says it is for her understanding. For the second comment, I would explain the metrics and recommend a small wording change to make the validation results more intuitive for CRO reporting.
 
 1. First comment — Execution quality metrics and algorithmic analytics
