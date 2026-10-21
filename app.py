@@ -1,3 +1,39 @@
+Bill’s comments are valid. Based on the additional use case descriptions, I would replace “trade economics” with “trade terms” and clarify that Merlin AI extracts information from broker/client chat messages and passes it to downstream trading systems to pre-populate RFQ fields.
+
+One important distinction is that Merlin AI does not itself price the trade or directly populate the trading system. It returns structured trade terms to the calling service, which are then used by downstream systems such as Boltweb.
+
+1. Draft response to Bill
+
+Yes, “trade terms” is more precise here. Merlin AI extracts contractual details such as the underlying instrument, coupon and maturity from unstructured broker/client RFQ messages and converts them into structured data.
+
+The extracted information is passed to downstream trading systems such as Boltweb to pre-populate RFQ fields for pricing. Traders or salespeople review and can correct the information before a quote is generated and returned to the client.
+
+I’ve updated the wording to clarify this workflow.
+
+2. Revised CRO update
+
+I would retain the existing first bullet on the high-severity finding and revise the second bullet to explain the functionality more clearly.
+
+Merlin AI (GBM Public, Tier 2)
+
+* MRM identified a high-severity finding on Merlin AI concerning inadequate model performance and insufficient training data.
+* Merlin AI uses a fine-tuned large language model to extract trade terms from unstructured broker and client requests for quote (RFQs), which are passed to downstream trading systems to pre-populate inquiry fields for pricing. The application supports the U.S. Natural Gas and U.K. Emerging Markets / Sovereigns, Supranationals & Agencies (EM/SSA) Bonds desks, with trader review before quotes are returned to clients.
+
+Why I prefer this version
+
+* “Trade terms” directly addresses Bill’s concern about the distinction between contractual details and pricing economics.
+* “Passed to downstream trading systems to pre-populate inquiry fields for pricing” makes the workflow understandable without relying on internal terminology such as Boltweb.
+* “With trader review before quotes are returned” highlights the human oversight control, which is relevant for CRO reporting.
+* The two-bullet structure preserves the emphasis on MRM’s high-severity finding while providing sufficient context about the application.
+
+I would not include the technical details about Gemma, Equinox, structured s-expressions or Conversation Service in the CRO update. They are useful background for answering questions but not necessary for senior management reporting.
+
+
+
+
+
+
+
 I’ve incorporated Bill’s comments while keeping the existing CRO structure and wording largely unchanged. I also separated the Sibyl AI pre-go-live conditions into a sub-bullet, as suggested.
 
 Below is the revised version with additions in bold and deletions struck through.
