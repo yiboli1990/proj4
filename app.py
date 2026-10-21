@@ -1,3 +1,50 @@
+I’ve incorporated Bill’s comments while keeping the existing CRO structure and wording largely unchanged. I also separated the Sibyl AI pre-go-live conditions into a sub-bullet, as suggested.
+
+Below is the revised version with additions in bold and deletions struck through.
+
+CRO AI Update — Tracked Changes
+
+AI Risk and Controls Council (AIRCC)
+
+* AIRCC conditionally approved Sibyl AI (GBM Public, Tier 2) for the Asia GCEM trading desk, which combines trading risk and P&L data with market news and research to support intraday risk analysis and trading decisions, with human oversight and independent checks of AI-generated outputs.
+    * Pre-go-live conditions include confirming the effectiveness of Compliance filters, completing Legal follow-up on the use of other large language models (LLMs) to generate synthetic training data, and obtaining Technology Risk approval.
+* Other recent topics include the AI Metrics and Incidents Oversight Group quarterly update and postings presentations on AI Model Risk Management, updated Risk and Control Self-Assessment (RCSA) guidance for AI, and an amendment to data retention of prompts and AI responses.
+
+Model Validation Activities
+
+* MRM identified a high-severity finding on Merlin AI (GBM Public, Tier 2) concerning inadequate performance and insufficient training data.
+    * Merlin AI uses a fine-tuned open-weight LLM to extract economics from requests-for-quote (RFQ) to pre-fill inquiry forms downstream trade economics from unstructured requests for quote (RFQs) and convert them into structured data to automatically populate trading inquiry forms for the U.S. Natural Gas and U.K. Emerging Markets / Sovereigns, Supranationals & Agencies (EM/SSA) Bonds desks.
+* MRM approved GSET AI (GBM Public, Tier 3), which enables Equities and Options sales and trading teams to retrieve and analyze trading data, client information, execution quality metrics and algorithmic analytics through natural-language queries across regions for One Delta Sales desks.
+    * MRM analysis shows 95% of query executions and 92% of adversarial test cases passing validation assessments; one medium-severity finding remains outstanding requesting further enhancements to agent boundary guardrails.
+* MRM approved ML GC Calculation for RFQ model (GBM Public, Tier 3), a neural network-based machine learning model used by the Asia PIPG desk to calculate gross credit (GC) used by charges for the Halo RFQ market-making system.
+    * The model leverages the Agni fast pricer framework to dynamically determine sales charges for structured product quotes, replacing the existing rules-based methodology for a subset of these products.
+
+Program Updates
+
+* New page in AirHub to register A new AirHub registration workflow for User Developed AI Solutions (UDAI) went live last week in conjunction with publication of the updated AI Policy and Standard and firmwide communication.
+* 30 UDAI applications have been submitted thus far, with another ~10 in draft state; MRM is guiding teams and beginning to analyze the submissions to inform the risk assessment approach.
+
+Key changes addressing Bill’s comments
+
+Item	Change
+Sibyl AI	Added Asia GCEM trading desk, clarified conditional approval and listed three pre-go-live conditions.
+Merlin AI	Added the two trading desks and clarified that the model converts unstructured RFQ text into structured data used to populate trading inquiry forms.
+ML GC Calculation	Added Asia PIPG desk and clarified the model’s role in determining gross credit charges.
+AirHub	Replaced “new page” with “new AirHub registration workflow,” emphasizing the implementation of a registration process rather than a simple webpage.
+
+One point to confirm
+
+The three Sibyl AI pre-go-live conditions you provided concern Compliance filters, Legal follow-up and Technology Risk approval. These differ from the Sibyl AI conditions discussed in the earlier AIRCC materials, which also included MRM validation and quantitative testing requirements.
+
+I have included only the three conditions you provided, rather than assuming the list is exhaustive. The wording “conditions include” deliberately leaves room for additional requirements.
+
+I would also retain “registration workflow” for AirHub. It communicates a substantive process and supporting system functionality without implying a broader implementation scope than the information establishes.
+
+
+
+
+
+
 I would keep the existing structure but strengthen the connection between increasing AI complexity, emerging model risks, and enhancements to the firm’s governance and control framework. The wording below is tailored for FRB reporting.
 
 Emerging Risks
