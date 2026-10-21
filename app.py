@@ -1,3 +1,62 @@
+I would structure the response around three elements: (1) the general ongoing performance monitoring framework, (2) daily regression testing and escalation, and (3) other monitoring and reporting practices. This follows Caroline’s direction and directly addresses the FRB’s questions on aggregation, thresholds, escalation and reporting recipients.
+
+One important distinction: RegTests primarily monitor model implementation and expected behavior, while backtesting, benchmarking and outcomes analysis provide additional evidence of model performance and potential deterioration over time. I would preserve this distinction in the regulatory response.
+
+Proposed FRB Response — Question 10
+
+The Firm has established ongoing performance monitoring (OPM) requirements to assess whether models continue to perform as intended and remain appropriate for their approved uses. MRM specifies monitoring requirements based on model type and risk tier, including regression testing, backtesting, sensitivity analysis, benchmarking and outcomes analysis, as applicable. Monitoring results are reviewed through ongoing monitoring processes, annual reviews and additional validation activities where warranted.
+
+Regression Testing (RegTests)
+
+All Tier 1 models are subject to daily automated regression testing to assess whether models remain correctly implemented and behave as expected under changing market conditions.
+
+* RegTests evaluate model behavior against predefined expectations, including pricing consistency, numerical convergence, calibration and sensitivity to model inputs. Individual tests produce pass/fail results based on established tolerances reviewed and approved by MRM.
+* Test failures are reported to model developers, with repeated failures escalated to MRM. A RegTest failure persisting for 14 consecutive days results in the model being “unblessed,” preventing new use of the model.
+* RegTest results are monitored at the individual model level and through consolidated reporting, providing visibility into test failures and recurring issues across the model population.
+
+[Insert screenshot of the Wednesday RegTest report distributed by Olivia, illustrating consolidated monitoring results, escalation indicators and reporting recipients.]
+
+Other Ongoing Performance Monitoring
+
+In addition to RegTests, model performance is monitored through model-specific tests, including backtesting, benchmarking, sensitivity analysis and outcomes analysis, as appropriate for the model type.
+
+* Monitoring results are evaluated against model-specific thresholds to identify performance deterioration, unexpected model behavior or deviations from observed outcomes.
+* MRM reviews monitoring results as part of ongoing oversight and annual reviews. Identified performance concerns may result in further investigation, validation findings, model enhancements or additional validation activities, including revalidation.
+* Monitoring results and identified issues are reported to relevant model developers and MRM stakeholders, with escalation through applicable model risk governance processes based on the nature and severity of the issues.
+
+Levels of Aggregation and Reporting
+
+Model performance is primarily assessed against established thresholds at the individual model level. Consolidated RegTest reporting provides an additional view of failures and recurring issues across models, complementing model-specific performance monitoring and the enterprise MRM Risk Appetite Statement metrics.
+
+[Insert confirmed RegTest report recipients and any additional model performance monitoring reports, including applicable aggregation levels, thresholds and escalation criteria.]
+
+How I leveraged the prior FRB response
+
+Prior response content	How it is reflected in the draft
+Section H.7 and K ongoing monitoring standards	General framework, risk-tier-based requirements and monitoring objectives
+Daily automated RegTests for Tier 1 models	Dedicated RegTest section
+Binary pass/fail tests and MRM-approved tolerances	Description of RegTest metrics and thresholds
+Repeated failure escalation and 14-day unblessing	Specific escalation criteria
+Sensitivity analysis, benchmarking and outcomes analysis	Additional monitoring methods
+Annual reviews and revalidations	How performance concerns lead to further MRM action
+
+Items to confirm before submission
+
+The historical response supports the model-level thresholds and 14-day escalation mechanism. It does not establish a firmwide aggregate performance threshold, so I would not introduce one without supporting evidence.
+
+I would confirm three details with Olivia or the relevant reporting owners:
+
+* Wednesday RegTest report: What aggregation does it show (e.g., model, division, risk category, failure duration), and who receives it?
+* Other monitoring reports: Which existing backtesting or performance reports can be cited as examples, and who receives them?
+* Current requirements: Whether the historical Tier 1 daily testing and 14-consecutive-day unblessing rules remain unchanged under the current policy.
+
+For the second point, a useful additional example could be Market Risk backtesting reporting, where model performance is assessed through backtesting exceptions and reported through established risk governance channels. We should confirm the precise metrics and recipients before adding that to the FRB response.
+
+My recommendation: Keep the final response to approximately three or four substantive paragraphs, supported by Olivia’s RegTest screenshot and one or two concrete backtesting examples. The RegTest report should be the centerpiece, as Caroline requested, while the other examples demonstrate that performance deterioration is monitored beyond implementation testing and enterprise RAS metrics.
+
+
+
+
 Based on the prior FRB response you provided, I would focus on MRM’s structured training curriculum, specialized domain training, and access to policies and technical resources. The response should emphasize how these support validators in developing the knowledge necessary to independently review and challenge models.
 
 One distinction is that the FRB’s current question goes beyond whether training is available. It asks how MRM ensures validators possess the appropriate expertise, particularly for specialized areas such as BSA/AML and Generative AI. We should therefore address both the training framework and its relevance to validation responsibilities.
