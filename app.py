@@ -1,3 +1,47 @@
+Based on the prior FRB response you provided, I would focus on MRM’s structured training curriculum, specialized domain training, and access to policies and technical resources. The response should emphasize how these support validators in developing the knowledge necessary to independently review and challenge models.
+
+One distinction is that the FRB’s current question goes beyond whether training is available. It asks how MRM ensures validators possess the appropriate expertise, particularly for specialized areas such as BSA/AML and Generative AI. We should therefore address both the training framework and its relevance to validation responsibilities.
+
+Proposed FRB Response
+
+MRM maintains a structured training program to support validators in developing the business-specific knowledge, risk domain expertise, and technical skills necessary to independently review and challenge models within their validation responsibilities.
+
+The program includes an MRM Induction Training Series for new validators, covering model validation practices across key business and risk areas, including market risk, credit risk, liquidity risk, banking book models, electronic trading, and machine learning. These sessions complement targeted training on model risk policies, standards, validation methodologies, model performance assessment, and findings management.
+
+For models requiring specialized technical expertise, including Artificial Intelligence (AI) and Machine Learning (ML) models, validators have access to additional targeted training, including the Firmwide AI Development Training. MRM also maintains supporting resources, including model validation documentation, relevant policies and standards, and the Risk Division’s Model Risk Management Knowledge Bank.
+
+Training materials are periodically reviewed and updated to reflect evolving model risk requirements and validation practices, supporting validators’ continued development of relevant expertise.
+
+How I leveraged the prior FRB response
+
+Prior response information	How it was incorporated
+MRM Induction Training Series	Established the core training framework for new validators.
+Specialized sessions covering banking book, credit risk, liquidity risk, trading book, electronic trading and machine learning	Demonstrated that training covers different business activities and risk domains, rather than generic validation requirements alone.
+Firmwide AI Development Training	Provided an example of targeted technical training relevant to the FRB’s question on GenAI.
+Policy, standards and model validation documentation	Demonstrated the availability of reference materials supporting validation work.
+Risk Division’s MRM Knowledge Bank	Highlighted a centralized resource for ongoing learning.
+Periodic training material updates	Supported the statement that training evolves alongside changes in model risk requirements.
+
+What I would confirm before submitting
+
+The response is grounded in your prior materials, but two aspects of the FRB’s question are not fully addressed by those materials.
+
+1. Assignment of appropriately qualified validators
+
+The FRB may expect an explanation of how MRM assigns validators with relevant experience to particular models, and how expertise is assessed when assigning validation responsibilities. The previous response documents training but does not establish a formal staffing or competency assessment process.
+
+If MRM has a process for matching validators’ technical backgrounds and business expertise to model assignments, I would add a sentence explaining it. We should not assert that such a process exists without confirmation.
+
+2. BSA/AML-specific expertise
+
+The prior materials explicitly identify AI/ML training but do not describe training or specialist support for Bank Secrecy Act / Anti-Money Laundering (BSA/AML) models.
+
+I would avoid claiming that MRM provides BSA/AML-specific training unless this can be substantiated.
+
+My recommendation: Use the draft as the training component of the response, then supplement it with one or two sentences on validator assignment and specialized expertise if those processes can be confirmed. That would more directly answer the FRB’s question about how MRM ensures sufficient expertise, rather than simply describing available training.
+
+
+
 Bill’s comments are valid. Based on the additional use case descriptions, I would replace “trade economics” with “trade terms” and clarify that Merlin AI extracts information from broker/client chat messages and passes it to downstream trading systems to pre-populate RFQ fields.
 
 One important distinction is that Merlin AI does not itself price the trade or directly populate the trading system. It returns structured trade terms to the calling service, which are then used by downstream systems such as Boltweb.
