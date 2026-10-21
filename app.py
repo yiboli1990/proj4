@@ -1,3 +1,7 @@
+* Backtesting breaches in the Tier 1 GBM Public CREST margin model driven by insufficient stress shocks to capture heightened post-IPO volatility, sector rotation risk, and concentration risk arising from large single-name exposures and correlated stock movements; remediation is in progress.
+
+
+
 1. Sibyl AI – Updated Pre-Go-Live Conditions
 
 * Pre-go-live conditions: Finalize and roll out user training in coordination with GBM Compliance, and establish a quantitative accuracy metric to support pre-go-live testing and performance assessment.
