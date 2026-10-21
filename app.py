@@ -1,3 +1,46 @@
+I would respond to Caroline’s first comment without changing the bullet, since she explicitly says it is for her understanding. For the second comment, I would explain the metrics and recommend a small wording change to make the validation results more intuitive for CRO reporting.
+
+1. First comment — Execution quality metrics and algorithmic analytics
+
+Caroline asks:
+
+For my understanding can you clarify what “execution quality metrics” and “algorithmic analytics” are?
+
+Based on the validation information you provided, GSET AI retrieves data from internal trading systems, including Compass algorithmic trading and Smart Order Routing (SOR) analytics, venue analytics, and order and execution records.
+
+I would respond:
+
+Execution quality metrics refer to information used to assess trade execution outcomes, while algorithmic analytics refer to data and analysis relating to algorithmic trading and smart order routing. GSET AI allows users to retrieve and analyze this information from existing internal trading systems through natural-language queries.
+
+This stays within the information you provided without inventing specific metrics such as execution slippage, fill rates or transaction costs, which were not explicitly described in the validation summary.
+
+2. Second comment — Validation performance metrics
+
+Caroline asks:
+
+What is “end-to-end pass rate” and “pass rate on adversarial testing” — this sounds a bit different from the metrics we normally quote.
+
+Her observation is reasonable because these are LLM/agent-specific validation measures, rather than traditional model backtesting or predictive accuracy metrics.
+
+Based on the validation summary:
+
+* End-to-end pass rate (95.3%) measures whether the agent both selected and used the appropriate tools and generated an accurate, appropriate final response. MRM tested 47 queries, each executed five times, with 224 of 235 runs passing.
+* Adversarial testing pass rate (92.1%) measures the proportion of 140 challenging or deliberately problematic queries that passed MRM’s stress tests. These covered prompt injection, compliance, ambiguous instructions, content manipulation and other edge cases, with 129 of 140 passing.
+
+I would respond to Caroline with the explanation, and revise the bullet slightly to avoid relying on unfamiliar metric names.
+
+These are agent-specific validation metrics. The end-to-end pass rate measures whether the model correctly selects and uses the relevant tools and produces an accurate and appropriate response to a user query. Adversarial testing assesses the model’s robustness against challenging inputs, including prompt injection, ambiguous queries and attempts to manipulate responses. MRM tested 235 query executions and 140 adversarial scenarios, achieving pass rates of 95% and 92%, respectively.
+
+Recommended revised CRO bullet
+
+* MRM testing demonstrated strong performance in tool selection, data retrieval and response accuracy, with 95% of query executions and 92% of adversarial test cases passing validation assessments. One medium-severity finding remains outstanding related to enhancing agent boundary guardrails.
+
+I prefer this version for CRO because it communicates what MRM tested and the outcome, rather than emphasizing technical metrics that senior management may not recognize.
+
+One qualification: the 95% result is an overall measure of successful task execution, not a standalone response accuracy rate. The revised wording avoids conflating those measures.
+
+
+
 * AIRCC Updates: Engineering, MRM, Operational Risk and Compliance provided updates on AI governance and controls, including enhanced safeguard monitoring and incident escalation, risk-based model validation and ongoing performance monitoring, data-driven RCSA guidance for assessing inherent AI risk, and a proposal to reduce AI prompt and response retention from six months to 90 days to mitigate litigation, regulatory and data protection risks.
 
 This adds more substance to each of the four topics while keeping them consolidated into a single CRO-style bullet, as Caroline requested.
