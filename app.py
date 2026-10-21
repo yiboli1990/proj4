@@ -1,3 +1,26 @@
+1. Sibyl AI – Updated Pre-Go-Live Conditions
+
+* Pre-go-live conditions: Finalize and roll out user training in coordination with GBM Compliance, and establish a quantitative accuracy metric to support pre-go-live testing and performance assessment.
+
+This replaces the previously listed conditions in the CRO AI update.
+
+2. FSB Report – CRO AI Update
+
+I recommend one bullet for the CRO update, focusing on the publication and the key risk management expectations.
+
+* Financial Stability Board (FSB): Published its final report on Sound Practices for Responsible Adoption of Artificial Intelligence, outlining 12 sound practices covering board and senior management oversight, AI governance and accountability, risk assessment, model performance evaluation, human oversight, and third-party AI risk management.
+
+This captures the main themes without listing all 12 practices.
+
+If you prefer two bullets, I would separate governance expectations from lifecycle risk management:
+
+* Financial Stability Board (FSB): Published its final report on Sound Practices for Responsible Adoption of Artificial Intelligence, establishing 12 sound practices to support responsible AI adoption across financial institutions.
+* The practices emphasize board and senior management oversight, clear accountability, and integration of AI risks into existing risk management frameworks, alongside lifecycle controls covering risk assessment, model performance, human oversight, cybersecurity, and third-party dependencies.
+
+My preference is the one-bullet version for CRO reporting. I would also use “sound practices” rather than “standards” or “requirements,” since the FSB describes these as guidance that institutions can tailor to their risk profiles, not binding regulatory obligations.
+
+
+
 I would structure the response around three elements: (1) the general ongoing performance monitoring framework, (2) daily regression testing and escalation, and (3) other monitoring and reporting practices. This follows Caroline’s direction and directly addresses the FRB’s questions on aggregation, thresholds, escalation and reporting recipients.
 
 One important distinction: RegTests primarily monitor model implementation and expected behavior, while backtesting, benchmarking and outcomes analysis provide additional evidence of model performance and potential deterioration over time. I would preserve this distinction in the regulatory response.
