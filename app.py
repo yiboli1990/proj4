@@ -1,3 +1,16 @@
+AI Model Risk Management – Generative and Agentic AI
+
+* MRM applies a risk-based validation framework to generative and agentic AI models, with independent testing focused on model accuracy, hallucinations, robustness, unauthorized agent actions and fitness for purpose.
+* As agentic AI adoption increases, MRM is enhancing its validation approach to assess emerging risks, including agents operating beyond their authorized scope, executing unintended actions and interacting with other agents.
+* MRM provides ongoing oversight through model change management, performance monitoring and periodic reviews, with validation requirements proportionate to model risk tier. MRM is also exploring more scalable collection of ongoing monitoring results from model developers.
+
+These three bullets emphasize existing MRM controls, emerging agentic AI risks and ongoing oversight, which should fit the FRB section on MRM policies and activities.
+
+
+
+
+
+
 * Backtesting breaches in the Tier 1 GBM Public CREST margin model driven by insufficient stress shocks to capture heightened post-IPO volatility, sector rotation risk, and concentration risk arising from large single-name exposures and correlated stock movements; remediation is in progress.
 
 
