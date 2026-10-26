@@ -1,3 +1,58 @@
+For Agenda Item 10 – Ongoing Performance Monitoring (OPM), Bill wanted talking points that demonstrate how MRM monitors model performance and identifies deterioration beyond the enterprise Risk Appetite Statement (RAS) metrics.
+
+Based on the transcript, I would prepare the following five talking points.
+
+Suggested talking points for the Fed
+
+1. RegTests as the primary monitoring mechanism
+
+* RegTests are centrally executed by Engineering, with automated daily results distributed to first- and second-line stakeholders.
+* MRM reviews and approves RegTest specifications as part of model validation to ensure appropriate coverage of model performance.
+* Tier 1 models are required to have daily RegTests, with failures subject to investigation and potential rejection of model changes.
+
+2. MRM oversight and escalation
+
+* MRM independently monitors RegTest outcomes and provides additional weekly reporting on unblessed or rejected models to developers and management.
+* Material failures are investigated and escalated, with corrective actions required where appropriate.
+* This provides ongoing oversight of model performance beyond the initial validation.
+
+3. Monitoring across model tiers
+
+* Ongoing monitoring requirements are risk-based, with more stringent requirements for higher-tier models.
+* Tier 2 models are generally subject to quarterly ongoing monitoring, while RegTest requirements are more flexible.
+* Approximately 70% of Tier 2 and 45% of Tier 3 models have RegTests, demonstrating monitoring practices beyond minimum requirements.
+
+4. Additional monitoring for AI models
+
+* AI models are subject to applicable ongoing monitoring requirements based on their risk classification.
+* MRM should be prepared to explain additional AI-specific monitoring requirements, particularly around model outputs, performance deterioration, and emerging risks associated with GenAI and agentic AI.
+* Follow-up required: Confirm whether AI standards impose additional requirements beyond the standard Tier 2 monitoring framework.
+
+5. Performance reporting beyond RAS
+
+* Model performance is monitored through RegTest results, backtesting, and other model-specific monitoring reports, as applicable.
+* Results and identified issues are communicated to relevant technical stakeholders, including developers, business management, and MRM.
+* This complements enterprise RAS metrics by enabling more granular monitoring and timely identification of model performance deterioration.
+
+What Bill specifically wanted you to verify
+
+Topic	Follow-up
+Tier 2 standards	Confirm quarterly monitoring and whether RegTests are explicitly required
+AI monitoring	Determine whether AI models have additional monitoring requirements beyond standard Tier 2
+RegTest coverage	Verify the 70% Tier 2 and 45% Tier 3 statistics
+Reporting	Ensure the slide distinguishes daily centralized Engineering notifications from MRM’s additional weekly reporting
+
+Recommended short speaking script
+
+Our ongoing performance monitoring framework is primarily supported by RegTests, which are centrally executed by Engineering, with automated daily results distributed to relevant first- and second-line stakeholders.MRM reviews and approves RegTest specifications during validation and provides additional oversight through weekly reporting and escalation of unblessed or rejected models.While daily RegTests are explicitly required for Tier 1 models, monitoring requirements are risk-based across other tiers. Approximately 70% of Tier 2 and 45% of Tier 3 models also have RegTests.Beyond RegTests, model-specific backtesting and other monitoring reports are used where applicable, with results communicated to relevant technical stakeholders. Together, these practices support identification and remediation of model performance deterioration beyond enterprise-level RAS metrics.
+
+One important point from Bill: He emphasized that the Fed may be looking for reporting and monitoring above the individual-model level, but outside the enterprise RAS framework. Be prepared to explain how daily RegTest results are consolidated, reviewed, and escalated to technical management, rather than focusing solely on individual test results.
+
+I would keep the five topics as speaker notes rather than adding extensive detail to the slides, consistent with the discussion about maintaining high-level materials and providing additional examples if the Fed probes further.
+
+
+
+
 Based on the transcript, the main direction is to expand the Strats and CRO updates beyond routine validation approvals, with particular emphasis on emerging AI applications, mortgage model issues, FRTB-CVA, and material model performance concerns.
 
 I would organize the follow-ups into three sections: Strats updates, CRO updates, and additional items requiring confirmation. Below are proposed bullets with placeholders for owners and outstanding information.
