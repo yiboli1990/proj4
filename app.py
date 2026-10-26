@@ -1,3 +1,151 @@
+Based on the transcript, the main direction is to expand the Strats and CRO updates beyond routine validation approvals, with particular emphasis on emerging AI applications, mortgage model issues, FRTB-CVA, and material model performance concerns.
+
+I would organize the follow-ups into three sections: Strats updates, CRO updates, and additional items requiring confirmation. Below are proposed bullets with placeholders for owners and outstanding information.
+
+1. Strats Update — Required Changes
+
+A. AI applications and governance
+
+Priority: High
+
+The most significant new request is to identify all Prism-like applications being developed across GBM. Management wants to understand whether there is unnecessary duplication and whether teams are independently developing similar capabilities.
+
+AI Applications and Governance
+
+* Multiple Prism-like AI applications are being developed across GBM, generally combining proprietary datasets with conversational interfaces. MRM is compiling a comprehensive inventory of these applications to assess their respective use cases, potential overlap and opportunities for consolidation. [Owner: You / Bill; obtain complete application list, developers, use cases and development status]
+* GBM is exploring additional AI testing infrastructure. Further clarification is being sought on the proposed framework, its ownership and whether it will be used by Prism and other AI applications. [Owner: David; follow up with relevant Engineering / AI stakeholders]
+* Recent GBM AI governance discussions included the proposed centralized AI validation framework, responsibilities for setting AI risk targets across GBM and control functions, and the availability of AI development solutions for non-Engineering personnel. [Owner: You / Bill; confirm key developments and relevance for Strats]
+
+What to collect: A comprehensive list of Prism-like applications, including Risk Insights AI if it meets the same definition. The discussion suggested approximately six applications, but that number was not confirmed.
+
+Management also wants to challenge whether these applications offer meaningfully different functionality beyond chatbot interfaces over Goldman datasets.
+
+B. RegTest failures and model unblessing
+
+Management requested analysis of whether recurring RegTest failures reflect persistent weaknesses in particular models or isolated failures across a broader population.
+
+Regression Testing and Model Unblessing
+
+* MRM continues to monitor RegTest failures and model unblessing activity, with approximately [X] models unblessed during [period]. Most identified issues are remediated within approximately [X] days.
+* Additional analysis is underway to assess the frequency of repeat failures in individual models and determine whether unblessing activity is concentrated in a subset of models or distributed across the broader pricing model population. [Owner: TBD; obtain historical model-level RegTest and unblessing data]
+
+The observation of roughly two rejected models per week and remediation within a week came from the discussion. I would not present these as confirmed statistics until the data is collected.
+
+C. Other Strats updates
+
+Other Model Risk Updates
+
+* GSS thematic finding: Provide an update on the recently identified thematic finding, including its scope, underlying issues and remediation status. [Owner: TBD; obtain details]
+* Model usage and validation status: Confirm whether the CSG loan-related model is being used before validation approval, including any applicable waiver arrangements and the distinction between testing and production use. [Owner: Hui / TBD]
+* Mortgage Agency: Provide a consolidated update on ongoing pricing model enhancements, differences between trader and model risk sensitivities, and related model performance concerns. [Owner: Shipra / David / TBD]
+* CCR EV+: Provide the latest validation status, outstanding issues and expected approval timeline. [Owner: TBD]
+* GBM PPNR / risk capacity: A potential error was identified in results used for risk capacity and risk limit calibration. Controllers are assessing the impact, including whether revised limits require further governance approval. [Owner: TBD; confirm responsible Strats team, root cause, impact and next steps]
+
+The transcript was unclear on the exact nature and ownership of the PPNR/risk-capacity error. I would keep this as a placeholder rather than attribute it to a specific team.
+
+2. CRO Update — Required Changes
+
+A. Mortgage Agency — expanded discussion
+
+This was one of the clearest requests: management wants a more comprehensive mortgage update, not just a brief validation status.
+
+Mortgage Agency
+
+* MRM continues to oversee enhancements to the Tier 1 Mortgage Agency pricing framework, including [latest prepayment model enhancements], [interest rate modeling enhancements] and [outstanding validation issues].
+* Following recent Mortgage Agency trading losses, MRM is reviewing differences between trader and model risk sensitivities, including implications for hedging and risk measurement. [Owner: Shipra / David; confirm latest developments, LMM-related issues and outstanding actions]
+
+Confirm whether the LMM discussion is a distinct model issue or part of the broader mortgage risk story. The previous discussions established that prepayment-model findings and trader-versus-model DV01 differences should not be conflated.
+
+B. CCR and collateralized lending
+
+CCR and Collateralized Lending
+
+* CCR EV+: Validation of [model enhancement / scope] is nearing completion, with [outstanding issues] and approval targeted for [date]. [Owner: TBD]
+* Collateralized Lending: MRM completed or progressed several model validations and enhancements during Q3, including [Model 1], [Model 2] and [Model 3]. Key developments include [approval / methodology enhancement / findings]. [Owner: TBD; consolidate quarterly validation activities]
+
+C. FRTB-CVA — significant issue to highlight
+
+Management explicitly requested an interim update even though the issue remains under discussion.
+
+FRTB-CVA
+
+* MRM validation of the initial Standardized Approach for CVA (SA-CVA) models is progressing, with the first approvals targeted for [date].
+* An ongoing discussion concerning the treatment of cross-currency basis risk has identified a potentially significant issue that could affect validation approval and implementation timelines. MRM is working with developers to assess the impact and determine appropriate next steps. [Owner: Hui / relevant CVA validation lead; confirm issue, severity, impact and resolution timeline]
+
+I would avoid calling this a formal finding or confirmed approval blocker until the issue is characterized.
+
+D. Liquidity Metrics Platform
+
+Liquidity Metrics Platform (LMP)
+
+* MRM continues to oversee remediation of implementation differences identified during the migration of liquidity risk models from Slang to Python. Investigation and reconciliation of outstanding differences are expected to be completed by [date], subject to confirmation. [Owner: LMP validation lead / TBD]
+
+The meeting indicated that completion of the reconciliation work was expected this week, but not necessarily final model approval or closure of every finding.
+
+E. Compliance Internal Audit finding
+
+This needs careful drafting because management specifically requested an accurate description of the sequence of events and MRM’s involvement.
+
+Compliance Model Ongoing Monitoring
+
+* Internal Audit identified an issue relating to the scope of ongoing monitoring following a Compliance model change, including the treatment of below-the-line testing.
+* MRM’s review of the Q1 and Q2 ongoing monitoring submissions did not identify deficiencies in the materials submitted at that time. The concern relates to monitoring requirements following a subsequent model change, which were not explicitly updated and would affect the Q3 submission that had not yet been received by MRM.
+* Internal Audit has not raised a finding against MRM. [Owner: Compliance MRM lead / TBD; confirm IA finding language, chronology, MRM actions and remediation status]
+
+This is an item where I would verify the exact Internal Audit scope before using the wording in CRO materials. Management explicitly cautioned against overstating what IA concluded.
+
+F. Credit Risk — PE backtesting issue
+
+Credit Risk – Potential Exposure (PE)
+
+* MRM identified a potential model methodology issue through PE backtesting, relating to the treatment of compounded overnight reference rates, including SOFR and SONIA. The existing model may incorrectly assume rates are fixed at the beginning of the relevant period, contributing to backtesting breaches.
+* Investigation is ongoing to determine the scope, impact and required remediation. [Owner: Credit Risk MRM lead / TBD; confirm affected model, backtesting trigger, observed breaches and remediation status]
+
+This is an important emerging item, but I would confirm whether it has been formally classified as a model issue or finding before including it in the final CRO deck.
+
+3. Other Updates and Follow-Ups
+
+Topic	Required action	Owner / assignment
+Trade violations	Update the latest trade violation in Strats Section B	[TBD]
+Tail risk models	Confirm expected multipath / tail risk approvals and material findings	[TBD]
+SR 26-2	Include upcoming MRCC agenda covering proposed policy changes	[MRM Governance / TBD]
+RCSA	Include proposed updates to RCSA guidance	[MRM Governance / TBD]
+FRTB-IMA / PRA	Summarize recent PRA methodology discussions and planned November follow-up	[FRTB validation lead / TBD]
+PRA PMAs	Confirm status of outstanding PRA PMA approvals	[Antonus / TBD]
+Fed regulatory meeting	Add material regulatory developments following Thursday’s meeting	[Regulatory lead / TBD]
+ECB funds transfer pricing exam	Monitor November examination; include only if material model-related developments arise	[Treasury MRM / TBD]
+Industry update	Move to Additional Highlights and shorten	[You]
+
+4. Suggested priority order
+
+Based on the discussion, I would focus on the following first:
+
+P1
+
+Prism-like AI applications: Obtain the comprehensive inventory from Bill and clarify the new testing infrastructure with David.
+
+P1
+
+Mortgage Agency: Coordinate with Shipra and David to assemble a complete update covering pricing, model enhancements and risk sensitivities.
+
+P1
+
+FRTB-CVA: Obtain the latest cross-currency basis issue and its potential impact on approval timelines.
+
+P2
+
+RegTests and PE backtesting: Gather quantitative evidence on recurring unblessing and investigate the overnight-rate methodology issue.
+
+P2
+
+Compliance IA and GBM PPNR: Confirm the exact facts, ownership and governance implications before drafting definitive conclusions.
+
+My overall recommendation: For the next Strats/CRO materials, the most valuable additions are the Prism-like AI inventory, a more substantive Mortgage Agency discussion, and the FRTB-CVA cross-currency basis concern. These were the areas where management explicitly requested deeper analysis rather than a routine status update.
+
+
+
+
+
 AI Model Risk Management – Generative and Agentic AI
 
 * MRM applies a risk-based validation framework to generative and agentic AI models, with independent testing focused on model accuracy, hallucinations, robustness, unauthorized agent actions and fitness for purpose.
