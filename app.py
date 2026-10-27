@@ -1,3 +1,64 @@
+AIRCC Meeting – August 25, 2026
+
+Rough working notes for Caroline’s review
+
+These notes are reconstructed from our original August 25 discussion and drafted minutes. They capture the substantive points, but are not a verbatim transcript.
+
+1. AWS DevOps Agent
+
+Decision: Conditionally approved for read-only production use.
+
+Rough discussion notes
+
+* AWS DevOps Agent is intended to support production incident investigation, root-cause analysis and recommended remediation actions.
+* Council members discussed the agent’s access to production AWS environments, including which accounts and jurisdictions would be covered.
+* The presenters clarified that the agent operates with read-only permissions and cannot independently execute remediation actions or modify production infrastructure.
+* Questions were raised regarding the transparency of the underlying AWS models and the firm’s ability to independently evaluate their performance and risks.
+* The Council discussed the evaluation methodology for agentic AI applications, including the need to align with the evolving firmwide agentic AI evaluation framework.
+* Questions were raised about potential information leakage through agent memory, retained feedback or context shared across users.
+* The Council discussed the importance of appropriate model classification and inventory tagging for agentic AI applications.
+* Future expansion beyond read-only capabilities would require further assessment under the applicable governance process.
+
+Pre-Go-Live Condition
+
+- Confirm the eligible production-account population and applicable jurisdictional scope before deployment.
+
+Other Follow-Ups
+
+* Align the agent’s evaluation approach with the firmwide agentic AI evaluation framework once finalized.
+* Clarify the appropriate agentic AI classification and inventory tagging.
+
+2. Claude Code WSL2 / NDS.Next
+
+Decision: Approved the proposed WSL2 deployment.
+
+Rough discussion notes
+
+* The proposal extends Claude Code functionality to the WSL2 environment within NDS.Next, supporting Linux-based development workflows.
+* The presenters explained that the extension would retain existing models, connectivity restrictions, logging and governance arrangements.
+* Council members discussed the security implications of allowing Claude Code to operate within WSL2, particularly the potential to bypass sandbox restrictions.
+* Tech Risk testing considered potential sandbox bypass techniques, configuration tampering and endpoint monitoring capabilities.
+* The discussion addressed whether existing security controls would continue to operate effectively within the WSL2 environment.
+* Existing controls include restricted connectivity, sandboxing and endpoint security monitoring.
+* The Council discussed the governance implications of future functionality or connectivity expansions, including additional MCP integrations.
+* Such expansions would remain subject to applicable Tech Risk assessment and change-management requirements.
+
+Pre-Go-Live Conditions: None.
+
+Other Follow-Ups: None.
+
+Points worth checking against the original transcript
+
+* AWS production scope: The exact wording of the production-account and jurisdictional restriction.
+* AWS evaluation: Whether alignment with the firmwide evaluation framework was a formal follow-up or a broader discussion point.
+* AWS inventory tagging: Whether this was explicitly assigned as a follow-up.
+* Claude Code: Whether all the security controls described above were explicitly confirmed during the meeting.
+
+For Caroline, the main distinction is that AWS DevOps Agent raised questions about production access, model transparency and agentic AI evaluation, whereas Claude Code WSL2 focused on sandbox security and whether existing development-environment controls remained effective.
+
+I have intentionally avoided attributing questions to specific Council members without the original transcript in front of me.
+
+
 For Agenda Item 10 – Ongoing Performance Monitoring (OPM), Bill wanted talking points that demonstrate how MRM monitors model performance and identifies deterioration beyond the enterprise Risk Appetite Statement (RAS) metrics.
 
 Based on the transcript, I would prepare the following five talking points.
