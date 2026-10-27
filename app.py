@@ -1,3 +1,18 @@
+For the Strats update, I recommend two concise bullets, distinguishing the framework’s capabilities from the outstanding question around Prism adoption.
+
+GBM AI Evaluation Framework
+
+* GBM is developing an AI evaluation framework for testing and ongoing monitoring of AI applications, leveraging the third-party Braintrust platform to perform deterministic and LLM-as-judge evaluations of agent execution traces.
+* Adoption by Prism remains under discussion, as the Prism team has an existing testing framework and has not identified a need to migrate to the new platform.
+
+I would avoid saying Prism will not adopt the framework, since David indicated that views differ.
+
+Suggested discussion point for Bill: Whether GBM intends to establish a common evaluation framework across AI applications or allow individual teams to maintain separate testing infrastructures, and how consistency of testing standards will be ensured.
+
+
+
+
+
 Based on the transcript, both “offline regression testing” and “LLM-as-a-judge” were explicitly described by the presenter as planned evaluation approaches, although the Council Chairperson also made additional recommendations.
 
 Comment 1: “Offline”?
