@@ -1,3 +1,34 @@
+Fed Market Risk Exam – Key Findings
+
+Overall Rating: Satisfactory, with 1 MRA and 3 observations. Valuation controls were assessed as Needs Improvement, while the remaining areas were rated Satisfactory.
+
+1. MRA – Weaknesses in Valuation Adjustment Practices
+
+* The Fed identified weaknesses in valuation adjustment (VA) practices, particularly within Interest Rate Products.
+* Key concerns included untimely updates to market inputs, insufficient support for judgmental overrides, and inadequate oversight of valuation controls.
+* Certain VA balances were not appropriately reflective of prevailing market conditions, particularly during periods of heightened volatility.
+
+2. Observation 1 – Risk Identification and Measurement
+
+* The Fed identified gaps in capturing idiosyncratic risks associated with illiquid and concentrated trading positions.
+* Examples included incomplete risk measurement and stress testing for IRP Volex, equity autocallables, and rates deal-contingent trades.
+* The Fed acknowledged ongoing initiatives to enhance risk identification and measurement.
+
+3. Observation 2 – Pre-Trade Approval Controls
+
+* The Fed identified insufficiently defined criteria for determining which products and activities require pre-trade approval.
+* Existing approval thresholds may not adequately capture liquidity and concentration risks for certain complex products.
+* The Fed acknowledged ongoing enhancements to the pre-trade approval framework.
+
+4. Observation 3 – Internal Audit
+
+- A separate observation was identified for Internal Audit; details were not covered in the provided transcript.
+
+Next Steps: The Fed requires a written MRA remediation plan within 45 days. No formal responses are required for the observations.
+
+
+
+
 For the Strats update, I recommend two concise bullets, distinguishing the framework’s capabilities from the outstanding question around Prism adoption.
 
 GBM AI Evaluation Framework
