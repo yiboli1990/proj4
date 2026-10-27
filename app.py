@@ -1,3 +1,8 @@
+AIRCC approved the proposed externalization of Pia Portfolio Analyzer to two selected US-based Registered Investment Advisor (RIA) firms in December 2026, with a broader rollout to US-based TPW financial advisors planned for 2027, subject to the specified pre-go-live condition and ARC approval.
+
+
+
+
 Understood. I reviewed our previous AIRCC minutes and your earlier instructions. The correct approach is to use “the presenter” or “the presenters”, not individual names, in the discussion bullets.
 
 I’ll also follow these rules consistently:
