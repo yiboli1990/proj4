@@ -1,3 +1,58 @@
+Understood. I reviewed our previous AIRCC minutes and your earlier instructions. The correct approach is to use “the presenter” or “the presenters”, not individual names, in the discussion bullets.
+
+I’ll also follow these rules consistently:
+
+* Focus on substantive questions, responses and clarifications rather than summarizing presentation slides.
+* Use “In response to questions regarding…” only when questions were actually asked.
+* Use “The presenters clarified…” for relevant explanations that were not prompted by questions.
+* Include only the Decision, Pre-Go-Live Conditions and Other Follow-Ups explicitly confirmed by Caroline. Do not promote discussion points into formal actions.
+* Keep the language concise, factual and appropriate for official committee minutes.
+
+October 27, 2026 – AIRCC Meeting Minutes
+
+1. Pia External – Portfolio Analyzer
+
+Decision: AIRCC agreed to refer the proposal to ARC with a recommendation for approval, subject to the pre-go-live condition below.
+
+Pre-Go-Live Condition
+
+- Escalate any material findings identified through the outstanding MRM review, Tech Risk assessment and penetration testing to AIRCC for further consideration before go-live, including their implications for the proposed rollout.
+
+Key Discussion Points
+
+- In response to questions regarding the risk of providing investment advice, the presenters clarified that the chatbot is designed to provide factual portfolio information rather than investment recommendations. Controls include AI guardrails, evaluation testing and ongoing conversation monitoring. The approach has been reviewed by internal Legal and Compliance and external counsel, with additional safeguards arising from the tool’s use by professional financial advisors rather than end investors.
+
+- In response to questions regarding accuracy and ongoing monitoring, the presenters explained that portfolio analytics are generated through existing deterministic models rather than AI. The Council emphasized that chatbot interpretations and summaries may nevertheless be inaccurate or deteriorate over time, particularly for previously unseen questions. The presenters outlined plans for offline regression testing, live conversation evaluations using an LLM-as-judge and monthly manual reviews.
+
+- The Council emphasized the importance of assessing the quality of the external-facing product in addition to managing risks, including incorporating real user interactions and feedback into ongoing evaluations. The presenters indicated that additional evaluation and guardrail capabilities may be adopted from the firmwide agentic AI platform as it matures.
+
+- The presenters explained that the external application will operate through dedicated, sandboxed instances of the Pia framework and Portfolio Analyzer, with restricted access to approved analytics and data services. The Council suggested that future submissions focus on incremental changes to previously approved platform capabilities.
+
+- The Council supported receiving an update following the initial pilot, including key learnings and identified issues, before the broader rollout. The presenters indicated that this could be provided through an AIRCC posting.
+
+- In response to questions regarding the initial rollout, the presenters clarified that the two selected RIA firms are still being finalized and are expected to comprise a few dozen financial advisors each. The proposed December 7 launch remains subject to ARC approval and completion of outstanding MRM and Tech Risk reviews. The Council emphasized that material findings arising from these reviews should be escalated before deployment.
+
+2. GS AI Agentic Platform – Posting
+
+- In response to questions regarding the rollout timeline, the presenters clarified that the managed control plane is targeted for general availability on November 16, 2026. New agents built on AWS Bedrock AgentCore are expected to use the platform for onboarding and provisioning, while existing applications will be supported through migration. Additional managed runtime capabilities are planned for Q1 2027.
+
+3. Banker Copilot Grok Follow-Up – Posting
+
+- An update on feedback from the initial rollout was included in the meeting materials. No substantive discussion was recorded.
+
+4. Google Vertex AI Vector Search 2.0 – Posting
+
+- In response to questions regarding the use of generative AI, the presenters clarified that Gemini embedding models are used to generate vector representations during document ingestion. The search service itself does not perform generative AI or agentic functions, although it supports downstream applications using these capabilities.
+
+- In response to questions regarding the impact on existing applications, the presenters explained that migration from Vespa to Google Vertex AI Vector Search is planned during 2027 as part of the broader Unified Document Management System initiative.
+
+- The Council highlighted that changes to the underlying search infrastructure could affect downstream AI model accuracy and performance, even if overall search quality remains comparable. The presenters confirmed that evaluations would be conducted to ensure search quality does not deteriorate relative to Vespa, while the Council emphasized the importance of assessing the impact on downstream applications.
+
+I have kept the post-pilot Pia update within the discussion points rather than creating a formal Other Follow-Up, since Caroline did not explicitly designate it as one. Likewise, no formal follow-ups have been added for the administrative postings.
+
+
+
+
 AWS DevOps Agent
 
 * Conditionally approved the read-only deployment of AWS DevOps Agent across production AWS accounts to support incident investigation, root-cause analysis and remediation recommendations. The agent cannot modify production resources or execute remediation actions.
