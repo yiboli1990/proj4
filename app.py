@@ -1,3 +1,28 @@
+AWS DevOps Agent
+
+* Conditionally approved the read-only deployment of AWS DevOps Agent across production AWS accounts to support incident investigation, root-cause analysis and remediation recommendations. The agent cannot modify production resources or execute remediation actions.
+* AWS controls the underlying LLMs, which may change over time. Limited transparency and control over model selection raised concerns regarding model performance, monitoring and potential jurisdictional restrictions, particularly Hong Kong and China.
+* Initial manual evaluations covered three scenarios with ten iterations each. An automated evaluation framework is being developed to assess root-cause correctness, mitigation effectiveness and citation accuracy, with proposed weekly testing.
+* There was extensive discussion on whether comprehensive offline and online evaluations should be required before deployment. Given the read-only nature of the tool and continued human oversight, the existing testing was considered sufficient to proceed, subject to implementing forthcoming firmwide agentic AI evaluation requirements.
+* The importance of preventing overreliance on AI-generated recommendations was discussed, including operational guidance requiring engineers to validate outputs before taking action. Future evaluations should also measure business value, such as improvements in accuracy and incident resolution time.
+* Access will follow existing AWS production permissions and engineering roles. The production-account population and geographic scope need to be confirmed, including applicable China restrictions.
+* Feedback functionality was discussed due to potential information leakage. Standard feedback is manually submitted to AWS support, while agent-specific feedback may incorporate investigation logs and metrics into agent memory within the AWS environment. The team is exploring whether agent-specific feedback can be independently disabled.
+* Pre-Go-Live Condition: Confirm the eligible production AWS accounts and geographic scope, and provide the information to the relevant stakeholders.
+* Other Follow-Ups: Implement firmwide agentic AI evaluation requirements once finalized (not a go-live blocker); clarify agentic AI capability tagging and inventory classification.
+
+Claude Code WSL2 / NDS.Next
+
+* Approved extending the existing Claude Code capability to WSL2 on NDS.Next, enabling Linux-native development workflows without introducing new AI functionality or models.
+* Existing approved models, authentication, AI Gateway connectivity, logging and governance arrangements remain unchanged. Initial connectivity is limited to approved repositories, artifact stores and specified enterprise endpoints.
+* Security controls include Claude Code sandbox restrictions, hardened WSL2 configurations, centrally managed settings disabling permission bypass, and existing NDS.Next endpoint monitoring and network controls.
+* Tech Risk conducted security reviews and penetration testing focused on sandbox bypass, configuration tampering and endpoint visibility. Most identified findings had been addressed, with residual risks subject to ongoing monitoring and control enhancements.
+* Future expansions, including additional MCP integrations or broader connectivity, will follow existing governance requirements.
+* Pre-Go-Live Conditions / Other Follow-Ups: None.
+
+
+
+
+
 AIRCC Meeting – August 25, 2026
 
 Rough working notes for Caroline’s review
