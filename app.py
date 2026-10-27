@@ -1,3 +1,35 @@
+Based on the transcript, both “offline regression testing” and “LLM-as-a-judge” were explicitly described by the presenter as planned evaluation approaches, although the Council Chairperson also made additional recommendations.
+
+Comment 1: “Offline”?
+
+The presenter specifically stated:
+
+“We’re doing 2 kinds of evals. We’re doing static evals, which is like you said, the regression testing stuff where we just come up with the prompts we think are reasonable, but then we’re also going to be running evals on live conversations.”
+
+Suggested response to Caroline: The presenter referred to these as “static evals” or regression testing using predefined prompts. I’ve changed “offline” to “static” to align more closely with the transcript.
+
+Comment 2: “LLM-as-judge”: I thought this was suggested, did they say they would do this?
+
+Yes. The presenter explicitly described using a separate AI model to evaluate conversations:
+
+“We’re going to be having AI, a separate AI model as a judge…”
+
+The presenter also confirmed that every live conversation would undergo evaluations assessing potential investment advice, complaints, whether user objectives were met and response accuracy.
+
+However, the Council Chairperson separately suggested further strengthening the evaluation approach, including using actual user inputs and outputs to assess performance over time.
+
+Suggested response to Caroline: The presenter confirmed plans to use a separate AI model as a judge to evaluate live conversations. The Council Chairperson additionally recommended strengthening ongoing evaluations using actual user interactions. I’ve clarified the distinction in the revised bullet.
+
+Revised bullet
+
+In response to questions from the Council Chairperson regarding accuracy and ongoing monitoring, the presenter explained that portfolio analytics are generated through existing deterministic models rather than AI. The presenter outlined plans for static regression testing using predefined prompts, ongoing evaluations of live conversations using a separate AI model as a judge, and monthly manual reviews. The Council Chairperson emphasized the importance of monitoring response accuracy using actual user interactions, while the presenter indicated that additional evaluation and guardrail capabilities may be adopted from the firmwide agentic AI platform as it matures.
+
+This version stays closer to the transcript and distinguishes what the presenter committed to doing from what the Chairperson recommended.
+
+
+
+
+
 AIRCC approved the proposed externalization of Pia Portfolio Analyzer to two selected US-based Registered Investment Advisor (RIA) firms in December 2026, with a broader rollout to US-based TPW financial advisors planned for 2027, subject to the specified pre-go-live condition and ARC approval.
 
 
