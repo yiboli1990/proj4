@@ -1,3 +1,12 @@
+Market Risk – LatAm Model Performance
+
+* MRM reviewed calibration and pricing challenges in Latin American FX and interest rate models arising from heightened market volatility surrounding the Brazilian elections.
+* FX: MRM approved robust pricing following multi-currency FX calibration failures driven by extreme BRL correlations. Fast volatility extrapolation was also disabled for BRL FX options.
+* IRP: Unexpected negative forward rates from intraday market data caused SABR caplet pricing failures. Market data subsequently normalized, with investigation and development of a more robust pricing approach ongoing.
+
+
+
+
 I would use “cross-currency swaps with periodically resetting notionals” instead of “CT Swap Notional MTM.” This is more intuitive for CRO readers while accurately describing the product.
 
 FRTB-CVA
