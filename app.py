@@ -1,3 +1,41 @@
+Here is the proposed CRO update, keeping the bullets concise and consistent with the existing reporting style.
+
+Regulatory & Internal Audit Updates
+
+FRB Quarterly Meeting
+
+* Discussed proposed enhancements in response to SR 26-2 during the FRB-MRM Quarterly Meeting.
+* [Placeholder: FRB feedback and follow-up actions following the meeting.]
+
+PRA FRTB-IMA Review
+
+* Participated in a series of PRA meetings on the FRTB-IMA application submitted in 2025, covering model methodologies, expected shortfall calculations and independent validation.
+* The next meeting on November 16 will focus on default risk charge methodology. Remaining model development and validation activities are targeted for completion in Q1 2027.
+
+Internal Audit – Quantifind
+
+* Internal Audit raised a finding concerning inadequate ongoing monitoring, including below-the-line testing, of the Quantifind vendor model used for client screening during onboarding.
+* While the finding was not directed at MRM, MRM is working with model developers to validate an updated below-the-line sampling strategy for recall calculation.
+
+Other Updates
+
+Model Risk Governance
+
+* Proposed enhancements in response to SR 26-2 and updated Model Risk RCSA guidance will be reviewed at next week’s Model Risk Control Committee (MRCC) meeting.
+
+Prime Services Model Inventory
+
+* MRM raised a medium-severity thematic finding concerning model inventory completeness within Prime Services Inventory Management, following repeated instances of models omitted from the inventory.
+* Remediation will focus on addressing identified inventory gaps and strengthening first-line controls to ensure model inventory completeness.
+
+Two details to note: I used “will be reviewed” for the upcoming MRCC meeting, without implying approval has occurred. I also retained the distinction that the Quantifind finding was raised against Financial Crime Compliance rather than MRM.
+
+For the FRB meeting, the first bullet is phrased as a completed discussion as requested; it should be updated after tomorrow’s meeting to reflect what was actually discussed.
+
+
+
+
+
 CCR – CREST Futures Commod
 
 * MRM approved enhancements to the CREST Futures Commod model (GBM Public, Tier 1), used to calculate margin requirements for Prime Services clients’ commodity futures portfolios.
