@@ -1,3 +1,25 @@
+I would use “cross-currency swaps with periodically resetting notionals” instead of “CT Swap Notional MTM.” This is more intuitive for CRO readers while accurately describing the product.
+
+FRTB-CVA
+
+* MRM is finalizing validation of the Standardized Approach for CVA (SA-CVA) capital models, comprising six desk-level CVA engines and an aggregator (The Core Engineering, Tier 1), ahead of the 2027 PRA go-live.
+* Medium-severity findings relate to incomplete risk-factor sensitivities, wrong-way risk and SIMM projection simplifications, ongoing monitoring gaps, and model-specific pricing and calibration issues; remediation is in progress.
+* MRM identified a separate concern involving cross-currency swaps with periodically resetting notionals, where cross-currency basis is treated as deterministic rather than simulated as required under UK Basel 3.1.
+* Benchmarking indicated an immaterial CVA impact, reflecting full collateralization and limited basis volatility. Remediation is in progress and tracked through a medium-severity finding.
+
+Credit Risk
+
+* MRM identified a methodology defect in the Interest Rate Product (IRP) Potential Exposure (PE) model (The Core Engineering, Tier 1), affecting compounded overnight reference rates, including SOFR and SONIA.
+* The model incorrectly treats in-progress coupon rates as fixed at the start of the accrual period, understating near-term potential exposure used for IMM capital and counterparty credit limits.
+* Model developers are preparing a remediation, which will be subject to MRM review. Regulatory approval may be required before implementation.
+
+A couple of refinements worth highlighting:
+
+* Cross-currency basis: I kept the concern specific to swaps with resetting notionals, rather than implying that the deterministic treatment affects all cross-currency swaps.
+* Credit Risk: “In-progress coupon rates” is more understandable than “in-flight coupon rates,” while preserving the technical issue.
+* Regulatory approval: I retained “may be required” because the requirement has not yet been confirmed.
+
+
 Here is the proposed CRO update, keeping the bullets concise and consistent with the existing reporting style.
 
 Regulatory & Internal Audit Updates
