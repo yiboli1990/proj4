@@ -1,3 +1,12 @@
+CCR – CREST Futures Commod
+
+* MRM approved enhancements to the CREST Futures Commod model (GBM Public, Tier 1), used to calculate margin requirements for Prime Services clients’ commodity futures portfolios.
+* The enhancements introduce a revised cross-commodity correlation matrix and aggregation methodology, alongside recalibrated macro spot shocks for selected commodity products.
+* The changes improve margin efficiency for diversified commodity portfolios while strengthening risk coverage during volatile market conditions.
+* MRM validation resulted in additional enhancements to the aggregation methodology, correlation assumptions and commodity shocks to better capture stressed market movements.
+
+
+
 Fed Market Risk Exam – Key Findings
 
 Overall Rating: Satisfactory, with 1 MRA and 3 observations. Valuation controls were assessed as Needs Improvement, while the remaining areas were rated Satisfactory.
