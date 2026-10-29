@@ -1,3 +1,12 @@
+Geopolitical Risk
+
+* MRM reviewed calibration and pricing challenges in LatAm FX and IRP models arising from heightened market volatility surrounding the Brazilian elections. The identified issues have been limited in scope, with mitigating actions implemented or underway.
+    * FX: MRM approved calibration adjustments given the limited risk exposure, and additional volatility modeling adjustments were implemented to address extreme market movements.
+    * IRP: Temporary market data anomalies caused intraday pricing failures. Market data has since normalized, and model developers are working on enhancements to prevent recurrence.
+
+
+
+
 Market Risk – LatAm Model Performance
 
 * MRM reviewed calibration and pricing challenges in Latin American FX and interest rate models arising from heightened market volatility surrounding the Brazilian elections.
