@@ -1,3 +1,9 @@
+* Discussed proposed changes to the MRM framework in response to SR 26-2 with the FRB during the Q3 quarterly meeting on October 29.
+* The FRB focused on the implementation timeline, governance approvals, proposed simplifications to documentation and validation requirements, and potential resource implications. The FRB also indicated that SR 26-2 implementation will become a standing agenda item.
+* David Palmer (FRB) clarified that SR 26-2 does not preclude MRM oversight of GenAI and agentic AI, and that periodic revalidation is not a prescriptive requirement, provided effective ongoing monitoring and controls are maintained.
+
+
+
 Meeting Minutes: Q3 2026 Quarterly MRM Meeting with FRB – October 29, 2026
 
 MRM hosted the Q3 2026 Quarterly Model Risk Management meeting with FRB.
