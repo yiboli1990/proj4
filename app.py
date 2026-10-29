@@ -1,3 +1,60 @@
+Meeting Minutes: Q3 2026 Quarterly MRM Meeting with FRB – October 29, 2026
+
+MRM hosted the Q3 2026 Quarterly Model Risk Management meeting with FRB.
+
+* The discussion primarily focused on proposed changes to the MRM framework in response to SR 26-2, including model risk tiering, documentation, annual review, revalidation, and governance.
+* The meeting also covered standard quarterly updates, including validation activity and findings, Internal Audit findings, RAS metrics and exceptions, and AI model inventory growth.
+
+Key Discussions
+
+1. SR 26-2: Summary of Proposed Changes
+
+* Caroline (GS) provided an overview of the proposed refinements to the MRM framework following SR 26-2, emphasizing that the changes are intended to streamline existing requirements and maintain a risk-based approach rather than address compliance gaps.
+* Makaylah (FRB) asked about the approval and implementation timeline, including whether the Board would remain involved if policy approval authority moved to the Enterprise Risk Committee (ERC). Caroline (GS) explained that GS expects to seek approval of the standards through MRCC in November and the policy through either ERC or the Board Risk Committee in December. Templates would be approved by Bill, and material framework changes would continue to be reported to the Board Risk Committee. Implementation may be phased, with CCAR-related changes targeted for the upcoming cycle.
+* Patrick (FRB) asked whether GS is considering broader changes to its Tier 4 AI governance framework. Caroline (GS) explained that Tier 4 was established in 2023 and includes annual reassessment and requirements for developers to notify MRM of material changes, which may trigger reclassification to a higher tier. Bill (GS) added that Tier 4 was introduced to bring very low-risk AI applications into the inventory and provide greater visibility and control as their use evolves.
+* David Palmer (FRB) reiterated that excluding GenAI and agentic AI from SR 26-2 does not preclude MRM involvement in their governance. He also clarified that periodic revalidation is not a prescribed requirement under the guidance, provided institutions have effective mechanisms to assess continued model performance and controls. David noted the publication of the Financial Stability Board’s final report on AI sound practices and welcomed further questions.
+* Makaylah (FRB) asked whether the flexibility provided by SR 26-2 and growing AI activity would lead to changes in MRM resources. Bill (GS) explained that AI is generating efficiencies in validation activities while also increasing demand for independent validation of AI models. He expects MRM headcount to remain broadly stable, with potential modest growth. Makaylah noted that the FRB intends to include SR 26-2 implementation and related resource changes as a standing agenda item in future quarterly meetings.
+* Makaylah (FRB) asked about the impact of proposed tiering changes, noting GS’s relatively large Tier 1 population. Bill (GS) explained that the conservative tiering approach largely reflects the historical treatment of pricing models. Caroline and Bill clarified that the proposed grid adjustments primarily affect lower-risk models and are expected to result in only a handful of reclassifications.
+* Makaylah (FRB) asked about the proposed simplification of Tier 2 and Tier 3 documentation and validation templates, particularly the removal of sections addressing assumptions, model testing, scope of validation, and process controls. Caroline (GS) explained that the changes primarily eliminate duplication and provide greater flexibility in documenting testing, while retaining substantive requirements for assumptions, validation scope, and controls. Updated templates would apply prospectively following approval.
+* Arel (FRB) asked whether the overall assessment of model outputs, which was removed as a separate section, would continue to be documented. Caroline (GS) confirmed that the assessment remains captured in the executive summary.
+* Makaylah (FRB) asked whether GS is considering changes to ongoing performance monitoring, including regression testing. Caroline (GS) confirmed that no material changes are planned, noting that ongoing monitoring and daily regression testing remain core components of the framework.
+* Makaylah (FRB) asked about the proposed changes to CCAR revalidation requirements. Caroline (GS) explained that CCAR models would remain Tier 1, with significant Tier 1 models revalidated every two years and other models subject to annual review and trigger-based revalidation. GS would continue assessing planned model changes ahead of each CCAR cycle and performing additional validations where warranted.
+* Makaylah (FRB) asked whether assumptions and overall output assessments would remain adequately documented under the streamlined qualitative approach templates. Caroline (GS) clarified that the information would be retained within other sections, including approach development, while reducing repetitive documentation.
+
+2. Model Validations and Status of Findings
+
+* Makaylah (FRB) asked about the five models identified for revalidation following annual reviews and whether those revalidations had already occurred. Caroline (GS) clarified that the annual reviews had triggered planned revalidations, rather than completed revalidations. The population includes one Tier 1 CVA model, one Tier 1 Treasury valuation model, and three Tier 2 electronic trading models. Results will be reflected in quarterly validation outcomes once completed.
+
+3. MRM Issues Raised by Internal Audit and Remediation Status
+
+* Makaylah (FRB) asked whether an Internal Audit finding involving several Internal Credit Rating (ICR) models had triggered a broader review of the ICR model population. Caroline and Rama (GS) explained that the finding involved a minor documentation deficiency relating to validation test cases, had already been remediated, and was not considered a pervasive issue requiring broader remediation.
+
+4. Changes to Risk Appetite Statement Metrics
+
+* Makaylah (FRB) asked whether the changes to Board-level RAS metrics were directly related to SR 26-2. Caroline (GS) explained that the changes were driven by a broader Board request to simplify risk appetite reporting across risk stripes, rather than SR 26-2.
+* Makaylah (FRB) asked whether management committees would continue receiving detailed metrics. Caroline (GS) confirmed that the changes primarily consolidate Board-level reporting without changing existing thresholds. Detailed reporting remains available at FRAC, including breakdowns by risk tier and additional information on aged findings.
+
+5. RAS Exceptions
+
+* Makaylah (FRB) asked about the increase in unvalidated Tier 3 models in use and whether it reflected an emerging trend. Caroline (GS) explained that AI models are an increasing contributor, particularly in lower-risk tiers, and that the prior-quarter population had been unusually low. The current level was not considered indicative of a broader control issue.
+* Makaylah (FRB) asked about the rejected Tier 1 model in use. Caroline (GS) explained that the GBM model, used for asset liability management, had been rejected following regression test failures exceeding the permitted remediation period. The issue did not necessarily indicate a model performance deficiency, and the model has since been reapproved.
+* Makaylah (FRB) asked about the approved Tier 1 model with findings aged more than six months. Caroline (GS) explained that the finding related to a GBM counterparty credit risk model and had since been resolved, bringing the Tier 1 aged-finding RAS metric back to zero.
+
+6. Firmwide Model Inventory: Summary of Changes
+
+* Caroline (GS) provided an overview of model inventory changes, highlighting continued growth in AI models, particularly GenAI and agentic AI applications.
+* Makaylah (FRB) asked whether the increase in AI inventory was primarily driven by traditional AI or GenAI and how many applications were currently in production. Caroline (GS) explained that most recent growth is driven by GenAI and agentic AI, with approximately 300 GenAI and 150 agentic AI inventory entries, including those in development. She estimated that approximately 150 GenAI and 40 agentic AI entries are in production, across risk tiers and including AI platforms that are governed separately from model validation.
+* David Palmer (FRB) closed by encouraging GS to continue engaging with the FRB on SR 26-2 implementation and the FSB’s AI sound practices report as the Firm further develops its approach.
+
+Follow-Ups
+
+* GS to provide the FRB with finalized documentation and validation templates following governance approval.
+* GS to provide ongoing quarterly updates on SR 26-2 implementation, including any associated changes to MRM resources.
+
+
+
+
+
 Geopolitical Risk
 
 * MRM reviewed calibration and pricing challenges in LatAm FX and IRP models arising from heightened market volatility surrounding the Brazilian elections. The identified issues have been limited in scope, with mitigating actions implemented or underway.
