@@ -1,3 +1,6 @@
+Proposed changes to the MRM framework in response to SR 26-2 were presented to the FRB during the quarterly meeting on October 29, including refinements to model risk tiering, streamlined documentation and annual review requirements, changes to CCAR revalidation, and simplified Board reporting. The proposed changes are expected to be reviewed by MRCC in November and the Board Risk Committee or Enterprise Risk Committee in December, with phased implementation thereafter and CCAR-related changes targeted for the upcoming cycle.
+
+
 1. EDHF – Holiday Hedging Logic
 
 Model Change / Enhancement: Remediation of EDHF holiday hedging logic for indices without futures.
