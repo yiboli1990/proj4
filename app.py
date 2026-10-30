@@ -1,3 +1,25 @@
+Sure — here is a concise draft in the same sections.
+
+Trade: EUR Single-Name Corporate Bond Put Options
+
+Counterparty: Not provided
+
+Notional: EUR 50 million aggregate, across 10 trades of EUR 5 million each
+
+Terms: Portfolio of 10 long-dated EUR-denominated put options on single-name corporate bonds, each with approximately 1-year expiry. The underliers include corporate bonds issued by names such as Uber, Crédit Agricole, Honda, Suez, Mitsubishi Electric, UBS and others.
+
+Economics: Expected premium / P&L of approximately EUR 2.2 million in aggregate, based on an average premium of approximately 4.45%.
+
+Reason for Waiver: The CD CLN Bond Switch tradable is currently fully approved for callable repacks, but not yet formally approved for bond put options. MRM and Strats are completing validation of the bond option implementation, which is expected to conclude shortly.
+
+Booking During Waiver Period: The trades will be booked using the existing CD CLN Bond Switch tradable, which is already approved and used for callable repacks.
+
+Limitations and Compensating Controls: The primary limitation is that the bond put option implementation has not yet completed formal MRM validation. The trades will use an existing approved tradable and callable repack framework, with the incremental put-option functionality currently undergoing MRM and Strats review; any validation findings or open items will be addressed prior to formal approval.
+
+
+
+
+
 * Discussed proposed changes to the MRM framework in response to SR 26-2 with the FRB during the Q3 quarterly meeting on October 29.
 * The FRB focused on the implementation timeline, governance approvals, proposed simplifications to documentation and validation requirements, and potential resource implications. The FRB also indicated that SR 26-2 implementation will become a standing agenda item.
 * David Palmer (FRB) clarified that SR 26-2 does not preclude MRM oversight of GenAI and agentic AI, and that periodic revalidation is not a prescriptive requirement, provided effective ongoing monitoring and controls are maintained.
