@@ -1,3 +1,23 @@
+I would keep the Key Accomplishments consistent with last month’s format: one concise bullet per achievement, emphasizing approvals, implementation milestones and business impact.
+
+Key Accomplishments
+
+* Discussed proposed enhancements in response to SR 26-2 with the FRB during the quarterly MRM meeting.
+* Rolled out a new AirHub registration workflow for User Developed AI Solutions (UDAI), developed in collaboration with The Core Engineering, alongside publication of the updated AI Policy and Standard.
+* Approved enhancements to the CREST Futures Commod margin model, improving margin efficiency for diversified commodity portfolios while strengthening risk coverage under volatile market conditions.
+* Approved the IRP CVA CT IR Exot YCRA model to support CVA and FVA calculations for callable range accrual products under the evolving FRTB requirements.
+
+Upcoming Priorities
+
+For the last bullet, I recommend separating the three validation priorities more clearly within one sentence.
+
+* Progress validation of the new Standardized Approach for CVA (SA-CVA) models under FRTB, mortgage pricing model enhancements to address differences between desk and modeled risk sensitivities, and Equity Relative Value (RV+) shock enhancements for margin shortfall models.
+
+I used “Progress validation” rather than “Validate” because the three workstreams may be at different stages of completion, and it avoids implying that all three will necessarily receive final approval in the same period.
+
+
+
+
 Proposed changes to the MRM framework in response to SR 26-2 were presented to the FRB during the quarterly meeting on October 29, including refinements to model risk tiering, streamlined documentation and annual review requirements, changes to CCAR revalidation, and simplified Board reporting. The proposed changes are expected to be reviewed by MRCC in November and the Board Risk Committee or Enterprise Risk Committee in December, with phased implementation thereafter and CCAR-related changes targeted for the upcoming cycle.
 
 
