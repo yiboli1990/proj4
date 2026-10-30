@@ -1,3 +1,46 @@
+1. EDHF – Holiday Hedging Logic
+
+Model Change / Enhancement: Remediation of EDHF holiday hedging logic for indices without futures.
+
+Description: During a partial European market holiday in May 2026, EDHF incorrectly classified an index without futures, resulting in inappropriate delta hedging. The trading desk identified the issue through routine risk monitoring. The underlying logic has been remediated. MRM completed a look-across of similar models across regions and will assess the adequacy of regression testing coverage.
+
+Impact: Net trading loss of $0.4mm.
+
+2. ETF Forward Trade – FX Risk Calculation Logic
+
+Model Change / Enhancement: Remediation of FX risk calculation logic for forward-starting ETF trades.
+
+Description: In July 2026, a system limitation in the Freddy risk engine resulted in artificial FX risk being displayed for a forward-starting ETF trade involving USD-denominated assets traded in GBP. While the NAV workflow correctly separated FX and equity risk, the subsequent risk calculation incorrectly indicated additional FX exposure, prompting the trader to execute an unnecessary FX hedge. The issue was identified during the following day’s risk review, and the hedge was subsequently unwound. The underlying logic has been remediated with PCC approval. MRM completed a look-across of similar models across regions and will assess the adequacy of regression testing coverage.
+
+Impact: Net trading gain of $1.1mm.
+
+3. Copula Model – Asia Emerging Markets Structured Products
+
+Model Change / Enhancement: Enhancement of the Copula model to support additional USD- and KRW-denominated interest rate products.
+
+Description: MRM approved enhancements to the Tier 1 Copula model used by the Asia Emerging Markets Structured desk, improving control variate calibration for dual spread range accruals and the modeling of dependence between underlying interest rate factors. The enhancement completes a multi-year development effort supporting the transition of approximately $1.5bn notional of long-dated notes.
+
+Impact: Improved dynamic risk management and valuation adjustments, with a day-one P&L impact of approximately +$0.002mm.
+
+4. LIBOR Market Model (LMM) – Short-Tenor Rate Interpolation
+
+Model Change / Enhancement: Enhancement of LMM interpolation methodology to improve short-tenor interest rate simulations.
+
+Description: MRM approved the replacement of cubic interpolation with a more stable Hermite-based methodology to address excessive and unstable simulated volatility for short-tenor rates, as identified during a Tier 1 model revalidation. The enhancement affects the pricing of SOFR-linked yield curve range accruals (YCRAs), Bermudan options, and mortgage products. Further investigation identified additional limitations in the Mortgage LMM implementation, including time interpolation, lack of control variates, and insufficient simulation path testing, for which MRM raised findings.
+
+Impact: Net P&L impact of approximately -$1mm, reflecting offsetting impacts on YCRAs (+$1mm) and Bermudan options (-$2mm). The enhancement is also expected to reduce Mortgage Agency DV01 by approximately $0.3mm/bp, primarily affecting Inverse IO positions.
+
+5. Core Commodities – GnF Model Enhancement
+
+Model Change / Enhancement: Enhancement and unification of the core GnF modeling framework across US and London Commodities businesses.
+
+Description: The Commodities desk is developing a unified modeling approach to better capture the pricing dynamics of short-dated options, particularly in Power and Gas markets. The proposed enhancement partitions the option lifecycle into three periods, applying GnF two-factor volatility before monthly option expiry and cash volatility thereafter through futures delivery, replacing existing desk-specific adjustments. The proposed enhancement is currently under MRM review.
+
+Impact: Expected to improve pricing consistency and modeling of short-dated commodity options across regions. Quantitative impacts have not yet been finalized.
+
+
+
+
 Sure — here is a concise draft in the same sections.
 
 Trade: EUR Single-Name Corporate Bond Put Options
