@@ -1,3 +1,12 @@
+Global Equities Exotics – CSL Tungsten Equity Correlation Skew Model
+
+Model Change / Enhancement: Enhancement of the CSL Tungsten Equity Correlation Skew model to introduce local bumps.
+
+Description: MRM approved enhancements to the Tier 1 CSL Tungsten Equity Correlation Skew model, which captures asset correlation skew not reflected in the standard Local Volatility model. The enhancement replaces the existing global bump calibration with a term structure of local bumps, allowing at-the-money-forward (ATMF) basket option prices to match Local Volatility prices across all correlation term structure dates. MRM validation included independent analyses of calibration residuals, comparisons of local versus global bumps, reserve impacts, and runtime performance.
+
+Impact: Approximately +$0.5mm as of July 10, 2026, reflecting a reduction in the Correlation Skew Reserve.
+
+
 I would keep the Key Accomplishments consistent with last month’s format: one concise bullet per achievement, emphasizing approvals, implementation milestones and business impact.
 
 Key Accomplishments
