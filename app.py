@@ -1,3 +1,7 @@
+* The enhancement improves the quality of narrative summaries by incorporating compliance reviewer feedback, without affecting underlying insider trading alert decisions or the precision and recall of the TOII model.
+
+
+
 Below are three proposed CRO AI updates, consistent with the style of your previous reports. Each highlights the model approval, business impact, and key MRM validation observations.
 
 1. Surveillance AI – Human-in-the-Loop (HITL)
