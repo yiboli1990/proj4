@@ -1,5 +1,11 @@
 I’ve reviewed your rough notes and the full November 3 transcript against the agenda and materials. The most important outcome is that Agentic Bar Raising was approved for all four phases, rather than only Phases 1–2 as originally requested, with a required check-in before expansion to Phases 3–4.
 
+
+- Agentic Bar Raising: AIRCC approved the phased rollout of Agentic Bar Raising, a voluntary, AI-powered tool used by developers to assess agentic AI code against the firm’s existing Bar Raising standards, identify potential risks and recommend improvements, while retaining human oversight and existing governance controls. Expansion to Phases 3–4 is subject to an AIRCC check-in following the initial rollout.
+
+- Vulcan MNPI: AIRCC approved Vulcan MNPI, an LLM-based surveillance model used by Communications Compliance to identify potentially inappropriate sharing of material non-public information in electronic communications, improving detection capabilities and reducing false-positive alerts compared with existing rule-based surveillance, with Compliance investigators retaining responsibility for reviewing and escalating potential cases.
+
+
 I’ll use “the presenter” throughout, including when multiple people contributed. The draft below focuses on the Council’s questions and responses, with only Caroline-confirmed conditions and follow-ups listed separately.
 
 November 3, 2026 — AIRCC Meeting Minutes
