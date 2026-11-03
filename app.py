@@ -1,3 +1,16 @@
+Agreed. Assuming the second presenter’s explanation applies to Vulcan MNPI, Caroline’s interpretation is correct. We should revise the bullet to reflect the use of the standard maker-checker framework.
+
+Revised bullet:
+
+In response to a question regarding key risks and mitigants, the presenter explained that the model follows the standard maker-checker framework used across AI surveillance models, where a second LLM validates the initial assessment. The presenter noted that even marginal improvements in accuracy are considered valuable given the importance of minimizing missed surveillance cases.
+
+Suggested response to Caroline:
+
+Agreed. I interpreted the earlier discussion as indicating that Vulcan would use a single LLM inference without a maker-checker framework. However, the subsequent clarification indicated that the standard maker-checker approach applies. I’ve revised the bullet accordingly.
+
+
+
+
 I reviewed both comments against the November 3 transcript. The first bullet is supported but could be clearer. For the second, I believe the original wording is correct, although the discussion included a potentially confusing reference to the standard maker-checker framework.
 
 1. Agentic Bar Raising — Insufficient evidence of control effectiveness
