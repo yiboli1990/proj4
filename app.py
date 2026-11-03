@@ -1,3 +1,7 @@
+    allowing US financial advisors to analyze client portfolios, compare investment alternatives and generate client-facing portfolio reports
+
+
+
 Agreed. Assuming the second presenter’s explanation applies to Vulcan MNPI, Caroline’s interpretation is correct. We should revise the bullet to reflect the use of the standard maker-checker framework.
 
 Revised bullet:
