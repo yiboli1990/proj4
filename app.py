@@ -1,3 +1,57 @@
+I reviewed both comments against the November 3 transcript. The first bullet is supported but could be clearer. For the second, I believe the original wording is correct, although the discussion included a potentially confusing reference to the standard maker-checker framework.
+
+1. Agentic Bar Raising — Insufficient evidence of control effectiveness
+
+Who raised it? Anton Plechakov, during the discussion about similar automated code assessments.
+
+Anton explained that his team had encountered difficulties determining whether a control was actually implemented, particularly when applications span multiple repositories. He distinguished between having affirmative evidence that a control is implemented and simply finding no evidence of a violation.
+
+He also suggested using three assessment categories: pass, fail and unknown.
+
+The presenter responded that the tool supports multiple repositories and that where there is insufficient evidence, the assessment can be marked as N/A rather than assigned a score.
+
+My recommendation: Change the wording to “insufficient evidence to assess whether controls are implemented.” This is clearer and closer to the discussion.
+
+In response to a question regarding challenges in automated code assessments, including fragmented repositories and insufficient evidence to assess whether controls are implemented, the presenter clarified that Agentic Bar Raising supports multiple repositories and allows assessments to be marked as not applicable where evidence is insufficient.
+
+Suggested response to the comment:
+
+This was raised by Anton during the discussion of similar automated code assessments. He highlighted challenges in verifying whether controls are actually implemented, particularly across multiple repositories. I’ve revised the wording to clarify that this refers to insufficient evidence to assess control implementation.
+
+2. Vulcan MNPI — Maker-checker framework
+
+This one is more nuanced.
+
+The transcript includes two statements:
+
+First, the presenter explained the approach specific to Vulcan MNPI:
+
+“We did experiment with multiple combination of different frontier models, and we saw that these percentages were very, very minimal.”
+
+The presenter explained that the team had tested multiple LLM calls and maker-checker configurations but found limited incremental benefit. The supporting analysis had been provided to MRM.
+
+Then, another presenter discussed the broader surveillance framework:
+
+“For almost every surveillance AI that we have launched … we have maker-checker process … even the few percentage accuracy that we had … we said, okay, that is worthwhile.”
+
+That second statement describes the firm’s established approach across other surveillance models. It does not clearly confirm that Vulcan MNPI itself uses maker-checker.
+
+In fact, the earlier statement explicitly says Vulcan currently uses a single LLM call and that the team decided against additional calls or maker-checker because the testing did not demonstrate sufficient incremental benefit.
+
+My recommendation: Keep the substance of the original bullet, but clarify the distinction between Vulcan’s proposed implementation and the broader surveillance framework.
+
+In response to a question regarding key risks and mitigants, the presenter explained that Vulcan MNPI uses a single LLM inference, noting that testing of multiple calls and maker-checker configurations showed limited incremental benefit. The presenter clarified that maker-checker frameworks have been adopted for other AI surveillance models where even marginal improvements in accuracy were considered worthwhile.
+
+Suggested response to the comment:
+
+My understanding from the transcript is that Vulcan MNPI currently uses a single LLM call, as testing of multiple calls and maker-checker configurations showed limited incremental benefit. The subsequent discussion referred to the standard maker-checker framework used in other surveillance models, where even marginal improvements were considered worthwhile. I’ve revised the bullet to distinguish the two.
+
+One caveat: The second presenter’s wording about Vulcan following a “similar technique” is somewhat ambiguous. I would not describe the maker-checker configuration as definitively confirmed without checking with the use-case team. If Caroline’s understanding differs, we could omit the implementation-specific claim and simply state that the presenter discussed LLM variability and testing of alternative inference and verification approaches.
+
+
+
+
+
 I’ve reviewed your rough notes and the full November 3 transcript against the agenda and materials. The most important outcome is that Agentic Bar Raising was approved for all four phases, rather than only Phases 1–2 as originally requested, with a required check-in before expansion to Phases 3–4.
 
 
