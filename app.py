@@ -1,3 +1,108 @@
+I’ve reviewed your rough notes and the full November 3 transcript against the agenda and materials. The most important outcome is that Agentic Bar Raising was approved for all four phases, rather than only Phases 1–2 as originally requested, with a required check-in before expansion to Phases 3–4.
+
+I’ll use “the presenter” throughout, including when multiple people contributed. The draft below focuses on the Council’s questions and responses, with only Caroline-confirmed conditions and follow-ups listed separately.
+
+November 3, 2026 — AIRCC Meeting Minutes
+
+I. Agentic Bar Raising — Approval
+
+Decision
+
+AIRCC approved the proposed Agentic Bar Raising tool for all four phases of the rollout, subject to the pre-go-live condition and follow-ups below.
+
+Pre-Go-Live Conditions
+
+- Complete the ongoing MRM validation prior to rollout.
+
+Other Follow-Ups
+
+* Connect with Tech Risk and the control assurance initiative to explore alignment of the assessment framework and opportunities to leverage existing control assurance capabilities.
+* Conduct comparative testing using different LLMs to assess potential differences in code review results.
+* Provide regular updates to AIRCC on adoption and usage across the rollout phases.
+* Report back to AIRCC on the results of Phases 1–2, including any significant issues, before proceeding to Phases 3–4.
+
+Key Discussion Points
+
+- In response to questions from the Council Chairperson regarding the voluntary nature of the tool, the presenter explained that the initial rollout is intended to assess effectiveness and encourage adoption before considering making it a mandatory control. The Council highlighted the potential benefits of broader adoption across the firm and requested ongoing visibility into usage.
+
+- In response to questions regarding alignment with the existing AI risk assessment framework, the presenter clarified that the tool uses an eight-dimension rubric covering accuracy, safety and efficiency. The Council suggested aligning the rubric with the firm’s agentic AI control requirements and leveraging the tool to support broader control assessments.
+
+- In response to questions regarding potential bias from using the same LLM to generate and subsequently assess agentic code, the presenter explained that the assessment is grounded in a separate review rubric and that an independent model is used to verify findings. The Council recommended comparing results across different LLMs to assess the potential impact.
+
+- In response to observations from Operational Risk regarding challenges in automated code assessments, including fragmented repositories and insufficient evidence of control effectiveness, the presenter clarified that the tool supports multiple repositories and allows assessments to be marked as not applicable where evidence is insufficient. The Council encouraged collaboration with existing control assurance initiatives to incorporate relevant lessons learned.
+
+- The Council discussed the proposed approval scope and risks associated with expanding the tool before sufficient pilot experience is available, including the possibility of creating false confidence in code quality. The presenter clarified that the tool remains advisory and does not replace existing human review, MRM or other governance requirements. The Council agreed to approve all four phases, with a requirement to report back on the results of Phases 1–2 before further expansion.
+
+II. Vulcan – MNPI — Approval
+
+Decision
+
+AIRCC approved the proposed Vulcan MNPI surveillance model, incorporating an LLM-based contextual evaluation to identify potentially inappropriate sharing of material non-public information.
+
+Other Follow-Ups
+
+* Conduct a separate discussion with relevant control-side representatives regarding the model’s controls.
+* Assess whether the use case falls within the high-risk AI classification under the EU AI Act and determine any additional governance requirements, as applicable, ahead of the relevant regulatory implementation date.
+
+Key Discussion Points
+
+- In response to questions regarding the model’s precision, the presenter explained that approximately 7.7% of the alerts flagged by the LLM in the test set warranted further escalation, representing a significant improvement over the existing lexicon-based surveillance. The presenter clarified that an escalation does not necessarily indicate confirmed MNPI disclosure, as further investigation by Compliance is required.
+
+- In response to questions regarding the scope of contextual evaluation, the presenter clarified that the LLM assesses the full email or communication thread following the initial filtering stages, but does not currently aggregate separate historical conversations. The Council discussed the potential benefits of incorporating cross-thread analysis in future enhancements.
+
+- In response to questions regarding the use of current information on restricted or watch lists, the presenter explained that relevant information is maintained through the firm’s existing List Manager process. The presenter further clarified that the proposed surveillance complements existing MNPI controls by identifying potentially inappropriate disclosures involving information not captured by the firm’s existing restricted or gray lists.
+
+- In response to questions regarding key risks and mitigants, the presenter explained that the model uses a single LLM inference rather than multiple calls or a separate maker-checker framework. Comparative testing indicated limited variability and no material improvement from additional LLM checks, with supporting analysis provided to MRM.
+
+- In response to questions regarding outstanding control reviews, the presenter clarified that MRM, Tech Risk and Compliance reviews were substantially complete, with formal approvals pending. The Council also discussed the need to assess the use case against the EU AI Act’s high-risk classification requirements and any associated future governance obligations.
+
+III. Administrative Items
+
+Change to the Firmwide Standard on Artificial Intelligence — Posting
+
+- The Council was informed of a clarification to the definition of qualified engineers in the Firmwide Standard on Artificial Intelligence, which had been approved offline.
+
+ARC Decision on Chinese Open-Weight Models — Posting
+
+- The Council was informed of ARC’s decision to prohibit the use of Chinese open-weight models, except for limited onshore China use cases. The presenter noted that affected users would be notified and required to migrate to alternative models by year-end. In response to a question regarding a potential Tech Risk exception, the presenter agreed to confirm the scope of the decision.
+
+Pia 2.0 Follow-Up — Posting
+
+- Materials regarding the proposed approach for managing future Pia 2.0 changes were posted for Council review. No substantive discussion took place.
+
+Points I recommend checking before finalizing
+
+1. Agentic Bar Raising — Phase 3–4 gating requirement
+
+This is particularly important. Caroline explicitly discussed making the return to AIRCC a condition for proceeding to Phases 3–4, and the Chairperson supported requiring a posting rather than another full approval discussion.
+
+I would therefore consider moving the fourth Other Follow-Up to a separate condition:
+
+Condition for Phase 3–4 Rollout: Provide AIRCC with an update on the results of Phases 1–2, including any significant issues identified, before proceeding to Phases 3–4.
+
+This better reflects the distinction between a routine follow-up and a required rollout gate. It is separate from the pre-go-live MRM validation requirement.
+
+2. Agentic Bar Raising — Tech Risk collaboration
+
+Caroline specifically identified connecting with Tech Risk and the control assurance initiative, testing different models, and reporting adoption and usage as follow-ups. These should remain in the formal follow-up section.
+
+3. Vulcan MNPI — Formal approvals
+
+The presenter said that formal MRM and other control approvals were still pending. Caroline did not explicitly designate their completion as a pre-go-live condition in her closing summary, so I have not created one.
+
+4. Vulcan MNPI — EU AI Act
+
+Caroline explicitly confirmed the EU AI Act assessment and separate controls discussion as follow-ups. The EU AI Act assessment was described as post-go-live, rather than a condition for the November 13 launch.
+
+5. Additional administrative posting
+
+The transcript includes the ARC decision on Chinese open-weight models, even though it was absent from the agenda you originally provided. I have included it because it was substantively discussed.
+
+My recommendation is to refine Agentic Bar Raising first, especially the distinction between the Phase 3–4 rollout condition and the other follow-ups. That is where the Council spent the most time clarifying what it was approving.
+
+
+
+
 * The enhancement improves the quality of narrative summaries by incorporating compliance reviewer feedback, without affecting underlying insider trading alert decisions or the precision and recall of the TOII model.
 
 
