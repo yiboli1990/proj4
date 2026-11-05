@@ -1,4 +1,93 @@
-    allowing US financial advisors to analyze client portfolios, compare investment alternatives and generate client-facing portfolio reports
+For your 2026 annual performance review with your manager at Goldman Sachs, I would structure the conversation similarly to what we’ve done before, but with a stronger emphasis on your contributions, increased responsibilities, professional development, and career progression.
+
+Given your VP role in Model Risk Management, the goal is to demonstrate that you’re not just executing assigned tasks, but increasingly taking ownership, exercising judgment, and contributing to broader MRM priorities.
+
+1. Overall performance and accomplishments
+
+You can start with a positive summary of the year.
+
+Overall, I think it’s been a productive year. I’ve continued to build on my responsibilities, become more comfortable managing different workstreams independently, and developed a better understanding of MRM’s broader priorities.I think I’ve made good progress in terms of the quality of my work, communication with stakeholders, and ability to manage deliverables with less guidance.
+
+Then highlight three areas:
+
+* Regulatory engagement: Continued supporting FRB and FDIC quarterly meetings, regulatory examinations, and follow-up activities, including preparing materials, coordinating across teams, and communicating key MRM developments.
+* Senior management and committee reporting: Supported FRAC, BRC, AIRCC, and other governance forums, improving the quality and clarity of reporting materials and ensuring important model risk issues are appropriately highlighted.
+* Broader MRM exposure: Developed a deeper understanding of model governance, validation activities, regulatory expectations, AI model oversight, and emerging model risk issues.
+
+2. Strengths and improvements
+
+I would focus on three improvements that are particularly relevant to your position.
+
+Independence and ownership
+
+I think one area where I’ve improved is taking more ownership of my work. I’m more comfortable managing deliverables independently, identifying issues, and coordinating with different teams to get things done.
+
+Communication and judgment
+
+I’ve also continued to improve my communication, particularly in summarizing complex model risk topics for senior management and regulators. I think I’ve become better at identifying what’s important and presenting information in a concise and effective way.
+
+Broader business knowledge
+
+Through working on different committees, regulatory engagements, and model risk issues, I’ve gained a much broader understanding of MRM activities and how different areas fit together.
+
+3. Development areas
+
+You should acknowledge opportunities for improvement without unnecessarily emphasizing weaknesses.
+
+Going forward, I think there are still areas where I can improve. One is becoming more proactive in anticipating questions and identifying potential issues before they come up.Another is continuing to strengthen my technical understanding of different model types and regulatory developments so I can contribute more substantively to discussions, rather than primarily focusing on coordination and reporting.
+
+This is particularly important because you want to demonstrate a progression from execution toward independent judgment and leadership.
+
+4. Career development and next steps
+
+This is an important part of your annual review, especially as a VP.
+
+Looking ahead, I’d like to continue taking on more responsibility and getting involved in higher-level discussions and decision-making.I’d also appreciate your feedback on where you think I stand in terms of my performance and what I should focus on to continue progressing in my career.
+
+You can then ask:
+
+* How do you think I’ve performed this year compared with your expectations?
+* What are the main areas I should focus on to get to the next level?
+* Are there opportunities for me to take on more ownership or leadership responsibilities?
+* What would you like to see me accomplish over the next year?
+
+5. Compensation and recognition
+
+Depending on your relationship with your manager and how compensation discussions are handled, you could say:
+
+Given the responsibilities I’ve taken on and the contributions I’ve made this year, I hope those are reflected in my overall performance assessment. I’d also appreciate any feedback on how I’m positioned relative to expectations for my level.
+
+I would avoid opening with compensation, but it’s reasonable to discuss recognition toward the end.
+
+My suggested 2-minute version
+
+This is what I would actually recommend saying in your meeting. It should sound natural rather than rehearsed.
+
+Overall, I think it’s been a good and productive year. I’ve continued to build on my responsibilities and become more comfortable managing different workstreams independently.
+
+I think I’ve made good progress in a few areas. First, I’ve taken more ownership of my deliverables, particularly around regulatory engagements, committee reporting, and coordinating with different teams. Second, I’ve continued improving my communication, especially in terms of summarizing complex topics and presenting key messages to senior management. Third, I’ve developed a broader understanding of MRM activities and regulatory priorities through exposure to different projects and discussions.
+
+In terms of areas for improvement, I think I can continue to be more proactive in anticipating issues and further develop my technical knowledge so I can contribute more to substantive discussions and decision-making.
+
+Looking ahead, I’d like to continue taking on more responsibility, getting involved in more challenging work, and developing my leadership skills.
+
+I’d also really appreciate your feedback on how you think I’ve performed this year, whether there are areas where I should improve, and what I should focus on to continue progressing in my career.
+
+One additional point I’d recommend
+
+Since you’re already a VP, I think your conversation should increasingly shift from “I’ve improved at my job” to “I’m ready to take on more responsibility.”
+
+In particular, I would want your manager to recognize three things: you can independently manage important deliverables, you understand the broader implications of model risk issues, and you can be trusted to represent MRM effectively in senior management and regulatory discussions.
+
+One question: Is your main objective for this review to secure a strong year-end performance rating and bonus, or are you also looking to start positioning yourself for an eventual promotion to Executive Director/Managing Director?
+
+That would change how assertively I’d recommend framing your achievements and career discussion.
+
+
+
+
+
+allowing US financial advisors to analyze client portfolios, compare investment alternatives and generate client-facing portfolio reports
 
 
 
