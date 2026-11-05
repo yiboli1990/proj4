@@ -1,3 +1,19 @@
+I would build on the previous CRO update, shifting the focus from the proposed redesign to MRM approval, enhanced pricing capabilities, and alignment of the global Power and Gas businesses.
+
+Commod GnF Model Enhancement
+
+* MRM approved a significant enhancement to the Commod GnF model (GBM Public, Tier 1), introducing a new Geometric Partition/Cash Volatility framework to better capture daily price dynamics in Power and Gas markets.
+* The enhancement enables more effective pricing of Power and Gas daily options, daily spark spread options and other cash volatility-sensitive products, addressing limitations of the existing framework as these markets have evolved.
+* The approval supports the adoption of a consistent volatility modeling framework across the U.S. and European businesses, including the planned retirement of legacy modeling approaches and further expansion to Clean Spread and Clean Spark Spread options. MRM completed the significant Tier 1 revalidation with no open findings.
+
+I think the most important points for the CRO are that the enhancement has now been approved, it supports an expanded range of Power and Gas products, and it enables convergence toward a consistent global modeling approach.
+
+One distinction worth preserving: the model enhancement has been approved, but the broader European rollout and retirement of legacy models are still planned activities, not completed milestones.
+
+
+
+
+
 For your 2026 annual performance review with your manager at Goldman Sachs, I would structure the conversation similarly to what we’ve done before, but with a stronger emphasis on your contributions, increased responsibilities, professional development, and career progression.
 
 Given your VP role in Model Risk Management, the goal is to demonstrate that you’re not just executing assigned tasks, but increasingly taking ownership, exercising judgment, and contributing to broader MRM priorities.
