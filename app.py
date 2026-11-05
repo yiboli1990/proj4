@@ -1,3 +1,6 @@
+https://us.list-manage.com/jvCGXyJ8O63?e=a5d6edc963&c2id=4dec38bd4f2dc5556f4573644ee5fa1b
+
+
 I think four bullets would be better for the CRO update. There are several meaningful observations beyond SR 26-2, particularly around AI governance and the use of AI within MRM.
 
 Industry Update – PwC MRM Roundtable
