@@ -1,3 +1,27 @@
+I think four bullets would be better for the CRO update. There are several meaningful observations beyond SR 26-2, particularly around AI governance and the use of AI within MRM.
+
+Industry Update – PwC MRM Roundtable
+
+* Attended PwC’s Model Risk Management Roundtable, which focused on industry responses to SR 26-2, model risk governance practices and emerging approaches to AI oversight.
+* Peer discussions indicated that firms generally intend to retain Board approval of Model Risk Policies, with some shifting greater responsibility to the first line for model risk tiering and ongoing monitoring.
+* Peers highlighted common challenges in managing model waivers, exceptions and overdue validation findings, with varying approaches to thematic findings, escalation and integration with enterprise issue management.
+* AI discussions highlighted differing approaches to generative and agentic AI oversight, including dedicated AI risk teams within MRM, validation activities for AI applications not classified as models, and additional governance requirements for AI tools used in MRM workflows.
+
+I would retain these four themes because they are the most relevant to the CRO:
+
+* SR 26-2 governance: Board approval and first-line responsibilities.
+* Model risk controls: Waivers, findings and remediation challenges.
+* AI oversight: Differences in how peers govern generative and agentic AI.
+* AI adoption within MRM: Independent validation and governance of internal AI tools.
+
+One additional observation worth including, particularly given the regulatory focus on financial crime models, is the discussion around independent testing of BSA/AML systems regardless of whether they are rule-based or AI-driven. You could add:
+
+* Participants also emphasized the importance of independent testing of BSA/AML systems, regardless of whether they rely on traditional rules-based approaches or generative AI.
+
+I would include this fifth bullet if the report has room, since it adds a distinct regulatory perspective rather than repeating the general AI governance discussion.
+
+
+
 I would build on the previous CRO update, shifting the focus from the proposed redesign to MRM approval, enhanced pricing capabilities, and alignment of the global Power and Gas businesses.
 
 Commod GnF Model Enhancement
