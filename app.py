@@ -1,3 +1,18 @@
+I would follow the structure of the Sovereign ICR update, emphasizing MRM approval, the rating methodology, and key validation findings.
+
+Lotus ICR Uplifts – REITs
+
+* MRM approved the REITs ICR model (Risk, Tier 1), developed as part of the Phase II Credit Risk uplift program to assign internal credit ratings to Real Estate Investment Trusts (REITs) and Real Estate Operating Companies (REOCs).
+* Given the limited default history, the model adopts a rating-replication approach using weighted least squares regression, combining financial metrics and qualitative risk factors to replicate Credit Risk-assigned ratings.
+* MRM identified six medium-severity findings related to risk factor capture, model methodology and evaluation, rating philosophy and Probability of Default (PD) linkage, panel data treatment, documentation and ongoing monitoring. All findings remain open with agreed remediation plans targeted for April–May 2027.
+
+This is consistent with the previous Sovereign ICR update while highlighting the distinct REITs methodology and validation observations.
+
+One notable difference is that the REITs model has six open Severity 2 findings. I would retain that information in the CRO update rather than simply stating that enhancements are underway, given the findings concerning risk factor capture and the evaluation methodology.
+
+
+
+
 https://us.list-manage.com/jvCGXyJ8O63?e=a5d6edc963&c2id=4dec38bd4f2dc5556f4573644ee5fa1b
 
 
