@@ -1,3 +1,22 @@
+I would frame this as a model control and trade booking concern, emphasizing the risk impact, remediation status and potential policy violations.
+
+Trade Booking and Model Control – Private-Side Transaction
+
+* MRM identified multiple booking and model control deficiencies associated with a large private-side loan transaction, including unsupported coupon features, incorrect booking terms and unauthorized end-of-day adjustments.
+* The deficiencies resulted in inaccurate risk representation, including interest rate and credit risk exposures. Booking corrections were implemented as of November 4, with the significant interest rate risk discrepancy subsequently resolved. Market Risk is confirming the final risk metrics and assessing potential VaR implications, with no missed breaches currently expected.
+* MRM is evaluating potential Model Control Policy violations and the need for model and booking waivers, in coordination with Market Risk, GBM and Operational Risk.
+
+I would be careful with two distinctions:
+
+* Risk impact: The email confirms that the large interest rate risk discrepancy has been corrected and that Market Risk does not currently believe any VaR breaches were missed. However, final risk metrics remain subject to confirmation.
+* Governance: Logging a violation and obtaining model and booking waivers are Shipra’s recommendations, not yet confirmed actions. Therefore, “evaluating” is more accurate than “raised” or “required.”
+
+For CRO reporting, I would retain these three bullets until the final risk numbers and governance treatment are confirmed.
+
+
+
+
+
 I would follow the structure of the Sovereign ICR update, emphasizing MRM approval, the rating methodology, and key validation findings.
 
 Lotus ICR Uplifts – REITs
