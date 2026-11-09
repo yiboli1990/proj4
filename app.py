@@ -1,3 +1,28 @@
+I would consolidate your questions into three points, keeping the email concise while making sure it addresses Caroline’s concerns about divisional evidence requirements.
+
+Hi Aini,
+
+Thanks for the clarification and for putting together the proposed evidence descriptions.
+
+A few questions to help clarify the expectations:
+
+* Evidence Description: Can you confirm that MRM will provide the standardized descriptions centrally to Op Risk, rather than to individual divisions? Also, are the proposed descriptions intended as templates, given that they all reference a “Highly Effective” rating, which may vary by quarter and division?
+* Evidence Location: What is the expectation for evidence location? Given that MRM already provides the quarterly KCI ratings and supporting metrics to Op Risk, can the evidence location be maintained centrally by Op Risk, without requiring divisions to separately upload evidence?
+* Related Request: Is this uplift related to the request in the attached email? Could you help us understand what is being requested and whether any additional actions are expected from MRM or the divisions?
+
+We want to ensure the requirements are consistent with the existing centralized process and avoid introducing unnecessary evidence requirements for divisions.
+
+Thanks,
+Yibo
+
+I particularly recommend keeping the “Highly Effective” question. This is a valid observation: if the descriptions are meant to be standardized across divisions, they should not hardcode a control effectiveness rating that may differ across divisions or reporting periods.
+
+The evidence location question is also important because it directly addresses Caroline’s concern that divisions should not be required to collect or upload separate evidence for MRM-prescribed controls.
+
+
+
+
+
 Op Risk’s response does not address evidence location. Aini only discusses the Control Evidence Description and asks MRM to review the standardized wording.
 
 This leaves an important question unresolved, particularly given Caroline’s concerns.
