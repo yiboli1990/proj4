@@ -1,3 +1,29 @@
+Op Risk’s response does not address evidence location. Aini only discusses the Control Evidence Description and asks MRM to review the standardized wording.
+
+This leaves an important question unresolved, particularly given Caroline’s concerns.
+
+My understanding is:
+
+* Evidence Description: MRM can help standardize the language describing the centrally provided KCI ratings and supporting metrics.
+* Evidence Location: Since MRM sends the quarterly ratings and supporting information to Op Risk, the evidence location could potentially reference where Op Risk maintains those records.
+* Divisional responsibility: Divisions should not need to independently collect or upload evidence if the centrally provided information is sufficient.
+
+I would add one question to your reply to Aini:
+
+Thanks, Aini. We can review the proposed evidence descriptions.
+
+Could you also clarify the expectation for the Control Evidence Location? Given that MRM centrally provides the quarterly KCI ratings and supporting metrics to Op Risk, would the evidence location also be maintained centrally, rather than requiring individual divisions to separately upload or maintain evidence?
+
+We want to ensure the approach is consistent across divisions and does not introduce additional evidence requirements for the control owners.
+
+One thing I would avoid: Suggesting Model IT or MRM’s internal dashboards as the evidence location without further discussion. Those systems are sources for the underlying data, but they may not represent the actual evidence supporting the ratings uploaded into Control 360.
+
+The key question for Aini is where the centrally provided ratings and supporting information will be retained and referenced in Control 360, and who is responsible for maintaining that reference.
+
+
+
+
+
 Op Risk’s response is actually quite helpful. They are asking MRM to provide a standardized Control Evidence Description that divisions can reuse, rather than asking every division to develop its own description.
 
 However, there is an important distinction between what Caroline wants and what Op Risk is requesting.
