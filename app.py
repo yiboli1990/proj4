@@ -1,3 +1,80 @@
+Op Risk’s response is actually quite helpful. They are asking MRM to provide a standardized Control Evidence Description that divisions can reuse, rather than asking every division to develop its own description.
+
+However, there is an important distinction between what Caroline wants and what Op Risk is requesting.
+
+1. What Op Risk is saying
+
+Aini’s email states:
+
+“The Program Team has requested that we provide the Control Evidence Description centrally. The purpose is for the division to use this standardized Control Evidence Description and apply it to the associated Control Instance.”
+
+In other words:
+
+* Op Risk wants a centrally standardized description. Instead of each division writing its own evidence description, they want consistent language across all divisions adopting these controls.
+* Aini has already drafted the descriptions. She populated the yellow-highlighted “Control Evidence Description” column based on her understanding of MRM’s KCI metrics.
+* They want MRM to review and complete the descriptions. They are asking you to validate the wording and fill in any blanks before the descriptions are applied to divisional control instances.
+
+For example, for the Model Ongoing Monitoring Control, Aini proposes describing the evidence in terms of the KCI measuring models with unresolved monitoring issues and the underlying MRM calculations.
+
+2. How this differs from Caroline’s understanding
+
+Caroline’s expectation	Op Risk’s request
+MRM centrally provides control ratings and supporting data	MRM reviews standardized descriptions of those ratings and metrics
+Divisions should not separately collect or upload evidence	Divisions apply the standardized descriptions to their control instances
+Avoid additional manual work for divisions	Establish consistent evidence descriptions across divisions
+
+These positions are not necessarily contradictory.
+
+Op Risk may simply be asking MRM to confirm how the centrally generated ratings are supported, without requiring divisions to upload separate evidence.
+
+However, Aini’s response does not explicitly confirm that divisions will be exempt from separate evidence uploads.
+
+3. What I think you should do
+
+I would not immediately start editing all the descriptions.
+
+First, clarify two things with Aini:
+
+* Whether the standardized descriptions are intended to reference MRM’s centrally provided KCI ratings and supporting metrics, without requiring divisions to independently upload evidence.
+* Whether Op Risk will centrally populate the descriptions across all applicable control instances, rather than requiring individual divisions to do so.
+
+You could respond:
+
+Hi Aini,
+
+Thanks for the clarification and for putting together the proposed evidence descriptions.
+
+Just to confirm our understanding, the intent is to standardize the evidence descriptions across divisions based on the KCI ratings and supporting metrics centrally provided by MRM, without requiring individual divisions to separately collect or upload evidence for these controls.
+
+Could you please confirm whether this is the intended approach and whether the standardized descriptions will be populated centrally across the applicable control instances?
+
+Once confirmed, we can review the proposed descriptions and provide feedback.
+
+Thanks,
+Yibo
+
+4. One additional concern
+
+Looking at Aini’s table, some descriptions go beyond simply identifying the evidence. They describe the control design and the methodology used to calculate KCI ratings.
+
+For example, the Model Change Management Control references automated preventive change controls, PCC pipelines, and mandatory MRM pre-release approval rules.
+
+Those statements may be accurate, but they are not necessarily the evidence supporting the quarterly control effectiveness rating.
+
+I would distinguish between:
+
+* Control description: What the control does and what risk it mitigates.
+* Control performance evaluation: How MRM evaluates the control using KCIs.
+* Control evidence: The actual ratings, supporting metrics, reports, or other records demonstrating the evaluation.
+
+This distinction matters because Caroline specifically wants divisions to rely on centrally provided information rather than creating additional evidence.
+
+My assessment: Op Risk appears to be trying to standardize the documentation, not necessarily introduce a new evidence collection requirement. But before agreeing to the uplift, you should confirm that interpretation explicitly.
+
+
+
+
+
 Based on this discussion, Caroline wants you to flag the issue to Operational Risk and confirm that divisions are not being asked to provide evidence for the five centrally prescribed model risk controls. MRM’s ratings and supporting data should be used instead.
 
 I would keep the email short and collaborative, without making it sound like Operational Risk has done something wrong.
