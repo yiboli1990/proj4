@@ -1,3 +1,31 @@
+Based on your discussion with Caroline, the key is to clarify ownership of the evidence description and evidence location for the five model owner/developer controls, rather than immediately agreeing that MRM should update them.
+
+Caroline’s position is that MRM provides recommended control ratings and supporting metrics to Operational Risk, but the controls are adopted and owned by individual divisions. Therefore, MRM should confirm whether the evidence fields should be maintained centrally by Operational Risk or by the respective divisions.
+
+I would send a concise, neutral email to Aini:
+
+Hi Aini,
+
+We would like to clarify the evidence requirements for the five centrally prescribed model risk controls adopted by model owners and developers across divisions, particularly in light of the recent data quality remediation requests.
+
+MRM currently provides recommended control ratings, along with supporting metrics and definitions, to Operational Risk on a quarterly basis. Operational Risk subsequently uploads the ratings into the system. While MRM has previously worked with your team to update the control descriptions and related metadata, the controls themselves are owned and adopted by the respective divisions.
+
+Could you please clarify whether MRM is expected to centrally provide the evidence descriptions and locations for these controls, or whether these should be maintained by Operational Risk or the respective control owners? Our understanding is that MRM’s responsibility is limited to providing the recommended ratings and supporting information.
+
+Thanks,
+Yibo
+
+Why I recommend this wording:
+
+* It acknowledges that MRM has already worked with Operational Risk to update the control descriptions and metadata.
+* It distinguishes recommended ratings from control evidence, which was the main source of confusion in the discussion.
+* It avoids prematurely assigning responsibility to Operational Risk, while making clear that MRM does not own the divisional controls.
+* It directly addresses Caroline’s requested next step: confirm whether MRM is expected to provide the evidence descriptions and locations.
+
+I would not propose using MRM’s internal dashboards or Model IT as the evidence location at this stage. Caroline’s discussion suggested that the quarterly emails containing recommended ratings and supporting metrics might serve as evidence, but that was not definitively agreed. The email should first establish who is responsible for maintaining those fields.
+
+
+
 Industry Update – Deloitte Financial Services AI Expo
 
 * Attended Deloitte’s Financial Services AI Expo, bringing together regulators, peer financial institutions and technology firms to discuss AI governance, emerging risks and adoption trends.
