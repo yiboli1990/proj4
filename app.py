@@ -1,3 +1,21 @@
+I’ve shortened the Commod GnF bullets while retaining the key model enhancements and business impact. For the PwC Roundtable, I’ve consolidated the discussion into three bullets.
+
+Validation Activities – Commod GnF Model
+
+* MRM approved enhancements to the Commod GnF model (GBM Public, Tier 1), introducing a new Geometric Partition/Cash Volatility framework to better capture daily price dynamics in Power and Gas markets.
+* The enhancement improves pricing of daily Power and Gas options and other cash volatility-sensitive products, addressing limitations of the existing framework.
+* The approval supports a consistent modeling framework across the U.S. and European businesses, with planned retirement of legacy approaches and expansion to additional spread options.
+
+Industry Update – PwC Model Risk Management Roundtable
+
+* Attended PwC’s Model Risk Management Roundtable, covering industry responses to SR 26-2, model governance and emerging AI oversight practices.
+* Peers generally expect to retain Board approval of Model Risk Policies, with some shifting tiering and monitoring responsibilities to the first line. Common challenges include model waivers, exceptions and overdue validation findings.
+* AI discussions highlighted varying approaches to agentic AI oversight, including dedicated MRM teams, validation of non-model AI applications and additional controls for AI tools used in MRM workflows.
+
+The revised versions preserve the main messages without getting into too much detail for the CRO audience.
+
+
+
 Based on the discussion with Bill, the main direction is to refine the CRO update, make the Strats update more relevant to GBM, and add a broader discussion of competing AI platforms and governance.
 
 Below are the changes and follow-ups I would make.
