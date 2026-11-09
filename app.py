@@ -1,3 +1,32 @@
+Based on this discussion, Caroline wants you to flag the issue to Operational Risk and confirm that divisions are not being asked to provide evidence for the five centrally prescribed model risk controls. MRM’s ratings and supporting data should be used instead.
+
+I would keep the email short and collaborative, without making it sound like Operational Risk has done something wrong.
+
+Hi Aini,
+
+We have received questions from divisions regarding the evidence description and location requirements for the five model risk controls prescribed by MRM.
+
+Our understanding is that divisions should not be required to separately provide or upload evidence for these controls, as the control ratings and supporting data are centrally provided by MRM to Operational Risk.
+
+Could you please help clarify why divisions are receiving these requests and confirm whether the guidance communicated to them is consistent with this approach? We would like to ensure that divisions are not undertaking unnecessary evidence collection or uploads for these controls.
+
+Separately, we would also appreciate an update on the plan to automate the integration of MRM’s control ratings into the system.
+
+Thanks,
+Yibo
+
+This captures Caroline’s three main points:
+
+* Understand the requests: Why are divisions being asked about evidence descriptions and locations?
+* Align on guidance: Divisions should rely on MRM’s centrally provided ratings and supporting data rather than separately uploading evidence.
+* Advance automation: Continue working toward directly feeding MRM’s ratings into the system to eliminate manual processes.
+
+I would also follow up separately with Olivia about the Friday email, as Caroline specifically asked you to understand what that request concerns and whether Operational Risk is introducing any additional requirements.
+
+
+
+
+
 Based on your discussion with Caroline, the key is to clarify ownership of the evidence description and evidence location for the five model owner/developer controls, rather than immediately agreeing that MRM should update them.
 
 Caroline’s position is that MRM provides recommended control ratings and supporting metrics to Operational Risk, but the controls are adopted and owned by individual divisions. Therefore, MRM should confirm whether the evidence fields should be maintained centrally by Operational Risk or by the respective divisions.
