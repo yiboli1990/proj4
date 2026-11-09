@@ -1,3 +1,108 @@
+Based on the discussion with Bill, the main direction is to refine the CRO update, make the Strats update more relevant to GBM, and add a broader discussion of competing AI platforms and governance.
+
+Below are the changes and follow-ups I would make.
+
+1. CRO Update
+
+Topic	Bill’s feedback / Required action
+FRTB SA-CVA	Update validation status. Most engines may be approved this week, but IRP is the most significant engine. Do not characterize the overall validation as complete while IRP remains outstanding.
+Commod GnF	Include the completed validation, but revise the narrative to emphasize improvements to an existing modeling framework rather than enabling a major new business.
+IRP risk transfer	Include an update on the risk transfer from EMEA VolEx to US VolEx. Bill wants to meet the relevant team and understand the changes and validation status before approval. Coordinate with Hui.
+Recent risk events	Obtain details from Shipra on mortgage limit breaches, the misbooked SpaceX transaction, and the private loan booking deficiencies.
+PwC MRM Roundtable	Shorten the industry update. Bill considered the existing version too detailed.
+
+Specific change to the Commod GnF update
+
+Bill spent considerable time understanding the business rationale. His conclusion was that this is primarily a longstanding model improvement, not a major new revenue opportunity.
+
+I would revise the previously drafted CRO bullets as follows:
+
+Commod GnF Model Enhancement
+
+* MRM approved a significant enhancement to the Commod GnF model (GBM Public, Tier 1), introducing a new framework to better capture daily price dynamics in Power and Gas markets.
+* The enhancement improves the pricing of daily Power and Gas options, addressing limitations in the existing methodology and establishing a more consistent modeling approach across the U.S. and European businesses.
+* The enhancement represents a longstanding methodology improvement rather than a change driven by a new business initiative. MRM completed the significant Tier 1 revalidation with no open findings.
+
+2. Strats Update
+
+AI governance and validation
+
+Topic	Required change
+AI Policy and Standard	Replace the broad AirHub/UDAI program update with a discussion of AI policy enhancements, including coding tools, implications for GBM and any emerging GBM UDAI registrations.
+Banker Copilot / Prism	Assess whether applications built within these platforms should be classified as UDAIs. Bill’s initial view is that the existing validation of the platforms and their intended use cases may already provide appropriate coverage, but this should be challenged and confirmed.
+Agentic Bar Raising	Include this as a potentially relevant capability for GBM.
+Vulcan MMP	Remove from the Strats update, as Bill does not consider it particularly relevant to GBM.
+Prism	Add the roadmap, particularly Composer and Workspaces, and upcoming features returning through AIRCC.
+GBM ARC	Obtain any additional topics from the upcoming discussion, including developments in the GBM AI evaluation framework.
+
+AI platforms — a major new focus
+
+This was the longest strategic discussion in the meeting. Bill wants a more systematic view of the competing AI applications across GBM and the broader firm.
+
+Platforms and developments to track
+
+* Nexa: Gaining visibility through senior committees, but progressing slowly through MRM validation and AIRCC. Determine the business sponsor and senior Engineering stakeholders, and encourage the team to engage AIRCC promptly.
+* Compass / Sybil: Compass is gaining traction and preparing Tier 2 documentation and approval. Consider how Compass and Sybil fit together within a broader strategy.
+* Prism: Track its roadmap, adoption and competitive positioning.
+* GBM central AI hub: Development continues on a central interface that routes user requests to the appropriate applications.
+* External competition: Consider adding Ask Bloomberg as an external benchmark.
+* Other divisions: Include emerging platforms where relevant, including Risk’s AI initiative.
+
+Bill specifically requested a regular comparison table that ranks platforms by maturity, ambition, capabilities and progress.
+
+3. Broader AI architecture and fragmentation
+
+Bill also wants to elevate the discussion beyond individual applications.
+
+The team noted that AI platforms across the firm are being developed using different agent frameworks, MCP implementations and integration approaches, potentially creating fragmentation and limiting interoperability.
+
+The discussion referenced an internal scan of approximately 118,000 GitLab projects, including around 900 GenAI repositories and 350 repositories with agent frameworks or agentic setups.
+
+Requested follow-up: Develop a data-supported discussion for a future Strats update on AI platform fragmentation, opportunities for common frameworks and whether greater centralization is warranted. Bill also suggested that the topic may be worth discussing separately with Alex.
+
+4. Other Strats topics
+
+Continue including the Commod GnF enhancement, mortgage limit breaches and Brazilian election-related market volatility. Add a brief update on the VolEx risk transfer, since Bill believes GBM leadership may not have full visibility into the work.
+
+The Financial Services AI Expo can remain as an industry update, with a concise summary of relevant takeaways.
+
+5. Your action checklist
+
+Preparation tracker
+
+0 of 12 completed
+
+Update FRTB SA-CVA validation status, especially IRP
+
+Revise Commod GnF narrative to emphasize longstanding methodology improvements
+
+Coordinate with Hui to arrange Bill’s pre-approval review of the IRP risk transfer
+
+Obtain mortgage, SpaceX and private loan booking updates from Shipra
+
+Shorten the PwC MRM Roundtable summary
+
+Refocus Strats AI program updates on policy changes and GBM implications
+
+Clarify UDAI treatment for Banker Copilot and Prism
+
+Add Agentic Bar Raising and remove Vulcan MMP
+
+Get Prism roadmap and upcoming AIRCC feature details
+
+Identify Nexa’s business sponsor and senior Engineering stakeholders; follow up on AIRCC engagement
+
+Prepare the comparative AI platform table, including external competition
+
+Develop a future discussion on fragmented AI agent frameworks and centralization
+
+My suggested priorities: First, resolve the FRTB SA-CVA status and the IRP risk transfer review, since these have immediate validation implications. Second, obtain Shipra’s risk event updates. For Strats, the most important new deliverable is the AI platform comparison and broader fragmentation discussion, which Bill explicitly requested.
+
+
+
+
+
+
 I would frame this as a model control and trade booking concern, emphasizing the risk impact, remediation status and potential policy violations.
 
 Trade Booking and Model Control – Private-Side Transaction
