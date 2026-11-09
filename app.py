@@ -1,3 +1,15 @@
+Industry Update – Deloitte Financial Services AI Expo
+
+* Attended Deloitte’s Financial Services AI Expo, bringing together regulators, peer financial institutions and technology firms to discuss AI governance, emerging risks and adoption trends.
+* The FCA emphasized clear accountability, robust testing, ongoing monitoring and contingency plans, including kill switches. Participants also highlighted emerging risks from autonomous AI agents and open-source models.
+* Industry discussions indicated that most firms remain in the early stages of scaling AI, with limited realized financial benefits. Automated evaluations, stronger data integration and cost-efficient model selection were identified as key enablers of broader adoption.
+
+This keeps the update at three bullets, with the emphasis on regulatory expectations, emerging AI risks and industry adoption, which are the most relevant takeaways for the CRO.
+
+
+
+
+
 I’ve shortened the Commod GnF bullets while retaining the key model enhancements and business impact. For the PwC Roundtable, I’ve consolidated the discussion into three bullets.
 
 Validation Activities – Commod GnF Model
