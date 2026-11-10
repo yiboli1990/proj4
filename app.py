@@ -1,3 +1,11 @@
+Model Risk Framework: Proposed updates following the revised interagency model risk guidance (SR 26-2), with no significant changes to the underlying Model Risk Policy.
+Governance: Proposed transition of policy approval responsibility from BRC to the Enterprise Risk Committee, subject to applicable governance approvals.
+Risk-Based Practices: Further streamlining of model documentation, annual reviews, revalidation requirements, and oversight for lower-risk models.
+
+
+
+
+
 1. Risk Insights Agentic Models
 
 * AIRCC approved Risk Insights Agentic Models (Core Engineering, Tier 2), an AI assistant used by Liquidity, Market Risk and Credit Risk specialists to retrieve risk metrics and explain changes in risk exposures.
