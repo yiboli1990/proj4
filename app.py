@@ -1,3 +1,62 @@
+I reviewed Caroline’s three comments against the November 10 transcript. I agree with her on all three. The underlying content is largely correct, but the ordering and wording can be improved.
+
+1. Risk Insights — Order of discussion bullets
+
+Caroline is right. I originally grouped the bullets by topic rather than following the sequence of the meeting. For AIRCC minutes, we should generally follow the discussion order, while consolidating related questions where appropriate.
+
+I recommend the following order:
+
+* Data sources and grounding of financial information (Alexis)
+* Intended users and existing workflows (Bill)
+* Pilot population and information entitlements (Andy)
+* Skills files and technical architecture (Alexis)
+* Access to stored conversations (Pam)
+* Operational resilience and reliance on the tool (Philip)
+* Agent performance, evaluation thresholds and accountability (Alexis and Bill)
+* User training and appropriate review of outputs (Luke)
+
+Suggested response to Caroline:
+
+I had grouped the discussion points by topic rather than following the meeting sequence. Agreed that it would be clearer to follow the order of discussion. I’ll reorder the bullets accordingly.
+
+2. Risk Insights — Access controls and pilot population
+
+Caroline is correct. The transcript makes clear that user-level entitlements and access controls apply to the application generally, not just to the initial pilot.
+
+The presenter explained that access is authenticated at both the application and underlying data levels, with user entitlements passed through to individual tool calls.
+
+I recommend separating the pilot population from the broader entitlement controls.
+
+Revised bullet:
+
+In response to questions regarding the initial pilot population and information access, the presenter explained that pilot users would be selected with consideration of information barriers. The presenter clarified that existing user entitlements are maintained throughout tool execution, preventing users from accessing data beyond their authorized permissions.
+
+The separate discussion about access to stored conversations should appear later, when Pam raised it.
+
+Suggested response to Caroline:
+
+Agreed. The entitlement controls apply to all users, not just the pilot population. I’ve revised the wording to distinguish the initial pilot population from the broader access controls.
+
+3. LLM Onboarding Standard — Model evaluation benchmarks
+
+I agree with Caroline’s replacement. Her wording more accurately reflects the substantive exchange between Alexis and the presenter.
+
+Alexis asked how the proposed certification framework would affect the firm’s existing evaluation benchmarks. The presenter responded that provider model cards and evaluations are a useful starting point, but the firm must independently assess models against its own requirements and risk appetite.
+
+The Internal Audit point was a separate, brief suggestion about positioning Audit under the assurance function rather than enforcement. It does not need to be included in the minutes.
+
+Recommended bullet (minor grammatical refinement):
+
+In response to a question regarding model evaluation benchmarks, the presenter explained that provider model cards provide a useful starting point, but the firm must also consider its own data and safety requirements and risk appetite when assessing models.
+
+Suggested response to Caroline:
+
+Agreed. Your wording better captures the discussion regarding provider model cards and the firm’s own evaluation requirements. I’ve incorporated the revised bullet and removed the IA reference.
+
+Overall, I would accept all three comments without pushing back. The revised wording is more precise and consistent with the transcript.
+
+
+
 AIRCC Approval Pipeline
 
 * Upcoming AIRCC reviews include Prism enhancements (Composer and Workspaces), SmartFIX and Sonic Agent, reflecting continued expansion of agentic AI applications across GBM.
