@@ -1,3 +1,97 @@
+I’ve reviewed the November 10 agenda, materials, rough notes and full transcript against the AIRCC minutes approach we’ve established.
+
+Two points are particularly important for this meeting:
+
+* Risk Insights Agentic Models: Caroline confirmed conditional approval with one formal pre-go-live condition concerning targeted business-user training or attestation. Completion of MRM validation remains a separate requirement before go-live, but Caroline explicitly decided not to create an overlapping accuracy-related condition.
+* LLM Onboarding Standard: This was a posting, not an approval request. The central Council concern was the need for clear criteria governing when new or modified LLMs require AIRCC review and what level of approval is appropriate.
+
+I’ve used “the presenter” throughout, avoided individual names in the discussion bullets, and separated Caroline-confirmed actions from general Council suggestions.
+
+November 10, 2026 — Draft AIRCC Meeting Minutes
+
+I. Risk Insights Agentic Models — Approval
+
+Decision
+
+AIRCC conditionally approved the Risk Insights Agentic Models for the specified Liquidity, Market Risk and Credit & Counterparty Risk metrics, subject to the pre-go-live condition below.
+
+Pre-Go-Live Condition
+
+- Share the proposed targeted training or attestation design for business users, including guidance on appropriate use and review of AI-generated outputs, prior to go-live.
+
+Key Discussion Points
+
+- In response to questions regarding the source and reliability of financial information, the presenter clarified that the agent retrieves risk metrics and underlying attribution data directly from existing firm data sources through approved tools, rather than generating financial figures independently. The presenter explained that the agent is designed to decline questions where the necessary information or tools are unavailable.
+
+- In response to questions from the Council Chairperson regarding intended users and existing processes, the presenter explained that the tool is intended for specialists across Corporate Treasury, Market Risk and Credit Risk, who currently rely on multiple dashboards, spreadsheets and manual analyses to explain changes in risk metrics. The tool is expected to streamline information retrieval and codify existing analytical knowledge while retaining human review of outputs.
+
+- In response to questions regarding data access and information security, the presenter clarified that existing user entitlements are maintained throughout tool execution and that access to stored conversations is restricted to specifically authorized personnel. The presenter also explained that the initial pilot population is limited, with access controls designed to prevent users from retrieving information beyond their existing permissions.
+
+- In response to questions regarding agent performance and monitoring, the presenter explained that the tool is subject to automated validation checks, daily evaluations against predefined scenarios and user feedback monitoring. The Council discussed the proposed 98% evaluation success threshold and emphasized the importance of clear first-line accountability for the associated risk appetite, including awareness and acceptance by relevant business leadership.
+
+- In response to questions regarding user reliance on the tool, the presenter clarified that the initial objective is to improve the efficiency and consistency of risk analysis rather than replace existing specialist judgment. The Council emphasized the importance of targeted user training to ensure that outputs are appropriately reviewed before being used in risk management decisions.
+
+- In response to questions regarding the agentic architecture, the presenter clarified that separate skills files guide the interpretation of risk metrics for each business area, while tools currently access underlying data sources directly, with migration to MCP servers planned. The Council also questioned the level of autonomous planning and circumstances that would warrant disabling the agent. The presenter explained that daily evaluations and a 98% success threshold are used to monitor performance, with different evaluation approaches for factual lookups and more complex risk attribution questions.
+
+Pre-Go-Live Condition — Suggested Ownership
+
+	Suggested assignment
+Business owner	Ankit Jain
+Control-side contact	Andy Snow / Ritu Narula (Compliance)
+Condition	Share the targeted training or attestation design for business users prior to go-live
+
+Ownership is inferred from the agenda and discussion, not expressly assigned by Caroline. MRM validation must also be completed before rollout, but was not designated as an additional formal pre-go-live condition.
+
+II. LLM Onboarding Standard — Posting
+
+Key Discussion Points
+
+- The presenter provided an update on the proposed LLM onboarding and certification framework, incorporating vendor-provided evidence, independent firm certification and ongoing governance throughout the model lifecycle. The framework is intended to establish consistent ownership and requirements across Engineering, Tech Risk, MRM, Legal and Compliance.
+
+- In response to questions regarding provider-level safeguards, the presenter clarified that vendor safety evaluations and embedded guardrails would be considered within the assessment framework, while further alignment across control functions is needed to establish consistent certification requirements.
+
+- In response to questions regarding new model versions and open-weight models, the presenter acknowledged that increasingly material changes in model capabilities require a more structured approach to reassessment and certification. The presenter agreed to engage Legal and Compliance to further develop the framework.
+
+- The Council Chairperson emphasized the need for clear criteria defining when new or modified LLMs require AIRCC review, the appropriate approval pathway and what AIRCC is expected to approve. The presenter agreed to develop more specific guidance, including the distinction between full committee review, streamlined approval and other governance pathways.
+
+- The Council also discussed how the proposed framework would align with existing model evaluation benchmarks and the role of Internal Audit in providing independent assurance. The presenter acknowledged the need to incorporate these considerations as the framework is developed into a formal standard.
+
+Other Follow-Ups
+
+1. Engage relevant stakeholders to refine the LLM onboarding framework.
+
+The presenter to connect with Legal, Compliance and relevant Engineering stakeholders to further develop the certification requirements, including the treatment of new model versions, open-weight models and existing evaluation frameworks.
+
+Suggested owner: Archana Vemulapalli
+
+Control-side contacts: Legal, Compliance (Luke / Pam), Elton Nyema (Tech Risk)
+
+2. Develop and formalize the LLM onboarding standard, including AIRCC approval criteria.
+
+Establish clear criteria for when new or modified LLMs require AIRCC review, the applicable approval pathway and responsibilities across the model lifecycle, and incorporate these requirements into the formal standard.
+
+Suggested owner: Archana Vemulapalli
+
+Control-side contacts: Caroline / AIRCC Secretariat, Legal and Compliance, Tech Risk
+
+These follow-ups reflect Caroline’s closing summary. Suggested owners and contacts are inferred; the presenter indicated that detailed responsibilities would be coordinated with Engineering leadership.
+
+Items to verify before circulating
+
+There are three areas where I would be particularly careful.
+
+1. Risk Insights — 98% accuracy threshold. The Council Chairperson challenged who owns the risk appetite underlying the threshold. The presenter agreed to discuss it with relevant business leadership, but Caroline did not designate this as a separate formal follow-up or pre-go-live condition. I have therefore kept it in the discussion.
+
+2. Risk Insights — MRM validation. Caroline stated that model validation must be completed before go-live. She then explicitly referred to the training or attestation requirement as the one pre-go-live condition supporting conditional AIRCC approval. We should preserve that distinction.
+
+3. LLM Onboarding Standard — Follow-up structure. Caroline’s summary covered stakeholder engagement and the eventual development of a detailed standard, including AIRCC review criteria. I have presented these as two related follow-ups for tracking purposes, but they could be combined into one if that better matches your established AIRCC action tracker.
+
+My recommendation is to keep the Risk Insights discussion focused on data grounding, entitlements, evaluation accuracy and first-line accountability, and user training, while ensuring that the LLM Onboarding Standard discussion emphasizes the specific governance question the Chairperson wanted answered.
+
+
+
+
+
 I would consolidate your questions into three points, keeping the email concise while making sure it addresses Caroline’s concerns about divisional evidence requirements.
 
 Hi Aini,
