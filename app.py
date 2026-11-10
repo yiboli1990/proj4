@@ -1,3 +1,20 @@
+1. Risk Insights Agentic Models
+
+* AIRCC approved Risk Insights Agentic Models (Core Engineering, Tier 2), an AI assistant used by Liquidity, Market Risk and Credit Risk specialists to retrieve risk metrics and explain changes in risk exposures.
+    * Pre-go-live condition: Share the targeted user training or attestation design. MRM validation must also be completed before rollout.
+
+2. LLM Onboarding Standard
+
+* Engineering posted an update to AIRCC on the proposed LLM Onboarding Standard, covering vendor assessments, internal certification and ongoing model governance.
+* Follow-ups include defining when new or modified LLMs require AIRCC approval and formalizing the requirements in a firmwide standard.
+
+3. Proposed Prism Enhancements
+
+* Proposed Prism enhancements, including Composer and Workspaces, are expected to come to AIRCC for approval, enabling interactive dashboard creation and secure collaboration across users.
+* The enhancements do not materially change Prism’s agentic capabilities. Tech Risk, MRM, Legal and Compliance reviews are ongoing, focusing on information security, access controls and retention requirements.
+
+
+
 I’ve reviewed the November 10 agenda, materials, rough notes and full transcript against the AIRCC minutes approach we’ve established.
 
 Two points are particularly important for this meeting:
