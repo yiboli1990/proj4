@@ -1,3 +1,15 @@
+Yes, starting with “Proposed updates to…” is grammatically correct and appropriate for a CRO summary. It works as a concise reporting bullet, even though it is not a complete sentence.
+
+For a more polished version, I would write:
+
+* Proposed updates to the Firmwide Policy on Model Control in response to SR 26-2 include changes to policy approval governance and further streamlining of model risk management practices, with no significant changes to the overall framework.
+* Key changes include transitioning policy approval from BRC to ERC, broadening the Tier 4 definition, streamlining reporting requirements, and limiting vendor selection requirements to Tier 1 models.
+
+I would keep “Proposed updates” because the changes have not yet been approved or implemented.
+
+
+
+
 Model Risk Framework: Proposed updates following the revised interagency model risk guidance (SR 26-2), with no significant changes to the underlying Model Risk Policy.
 Governance: Proposed transition of policy approval responsibility from BRC to the Enterprise Risk Committee, subject to applicable governance approvals.
 Risk-Based Practices: Further streamlining of model documentation, annual reviews, revalidation requirements, and oversight for lower-risk models.
