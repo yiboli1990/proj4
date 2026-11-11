@@ -1,3 +1,35 @@
+I’ve revised the four sections for the BRC materials, keeping the language concise, high-level and focused on business impact. I’ve also standardized the (Division, Tier) format throughout, retaining The Core Eng as the division name.
+
+1. Artificial Intelligence (AI)
+
+AI adoption continues to grow across the firm, including increasingly complex agentic AI applications. Recent validation activity includes enhancements to Surveillance AI models (Compliance, Tier 1) supporting insider trading and unusual asset movement monitoring, including simplification of the insider trading model to improve efficiency while maintaining performance. Model Risk also approved a new human-in-the-loop model (The Core Eng, Tier 3) that incorporates compliance reviewer feedback to improve surveillance summaries.
+
+This captures the broader growth in agentic AI while highlighting that model simplification can also improve efficiency. It also distinguishes the two Tier 1 surveillance models from the new Tier 3 HITL model.
+
+2. FRTB CVA
+
+There is ongoing focus on validation work supporting the Fundamental Review of the Trading Book (FRTB) CVA requirements, ahead of the January 2027 PRA go-live. Recent activity includes approvals of six asset-class-specific CVA models (The Core Eng, Tier 1) used to calculate CVA sensitivities, alongside an aggregation model for calculating regulatory capital.
+
+I’ve removed the repetition between “six desk-level CVA engines” and “six asset-class-specific CVA models,” as they refer to the same validation stream.
+
+3. Collateralized Lending
+
+There is ongoing focus on validation work supporting the Collateralized Lending business, including recent approvals of new valuation models (GBM Private, Tier 1) extending coverage to additional collateral types, and new facility-level rating and tail risk models (The Core Eng, Tier 1) supporting bespoke deal structures and reducing reliance on fallback methodologies. Enhancements also include a new multi-path framework to improve model accuracy.
+
+This preserves the three key developments while improving readability and reducing technical detail.
+
+4. Commodities Pricing Model
+
+Model Risk approved enhancements to a commodities pricing model (GBM Public, Tier 1), introducing an improved approach to modeling daily price movements in Power and Gas markets. The enhancements improve pricing of daily options and other related products, while supporting a more consistent modeling framework across the U.S. and European businesses.
+
+I agree with using “commodities pricing model” rather than the full Gaussian n-Factor name for the Board audience. It communicates the model’s purpose without introducing unnecessary technical terminology.
+
+One point to confirm before finalizing: the FRTB CVA wording assumes the six desk-level models and aggregator have been approved, as indicated in your latest draft. If any approvals remain outstanding, I would change “recent activity includes approvals” to “validation work is progressing on” to avoid overstating completion.
+
+
+
+
+
 I’ve revised the updates to improve the flow, distinguish the two FRTB CVA validation streams, and make the language more concise and appropriate for the CRO.
 
 Top of Mind
