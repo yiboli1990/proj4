@@ -1,3 +1,69 @@
+I’ve reordered the discussion points to follow the November 10 transcript and made targeted edits to address Caroline’s comments. I’ve also separated the architecture discussion from the later discussion of the 98% accuracy threshold to avoid repetition.
+
+Tracked changes: Strikethrough indicates deletions; bold indicates additions. Bullets without changes are retained as provided.
+
+Key Discussion Points — Revised Order (Tracked Changes)
+
+1. Data sources and reliability
+
+In response to questions regarding the source and reliability of financial information, the presenter clarified that the agent retrieves risk metrics and underlying attribution data directly from existing firm authoritative data sources (ADS) through tools, rather than generating financial figures independently. The presenter explained that the agent is designed to decline questions where the necessary information or tools are unavailable.
+
+2. Intended users and existing processes
+
+In response to a question from the Council Chairperson regarding intended users and existing processes, the presenter explained that the tool is intended for Risk Specialists across Corporate Treasury, Market Risk and Credit Risk, who currently rely on dashboards, spreadsheets and manual analyses to explain changes in risk metrics. Risk Insights Agentic Models are expected to streamline information retrieval and codify existing analytical knowledge while retaining human review of outputs.
+
+3. Pilot population and data access
+
+In response to a question regarding data access, the presenter clarified that existing user entitlements are maintained throughout execution and that access to stored conversations is restricted to specifically authorized personnel. The presenter also explained that the initial pilot population is limited, and that access controls designed to prevent users from retrieving information beyond their existing permissions while access controls apply to all users to prevent them from retrieving information beyond their existing permissions.
+
+This fixes the incomplete sentence and makes clear that entitlement controls are not limited to the pilot.
+
+4. Agentic architecture
+
+Moved from original bullet 6 to bullet 4. The performance discussion has been moved to bullet 6, where it occurred in the meeting.
+
+In response to a question regarding the agentic architecture, the presenter clarified that separate skills files guide the interpretation of risk metrics for each business area, while models currently access underlying data sources directly, with migration to MCP servers planned. A Council member also questioned the level of autonomous planning and circumstances that would warrant disabling the agent. The presenter explained that daily evaluations and a 98% success threshold are used to monitor performance, with different evaluation approaches for factual lookups and more complex risk attribution questions.
+
+5. User reliance on Risk Insights Agentic Models
+
+In response to a question regarding user reliance on the Risk Insights Agentic Models, the presenter clarified that the initial objective is to improve the speed, efficiency, and consistency of risk analysis.
+
+6. Agent performance, monitoring and accuracy
+
+Moved from original bullet 4 to bullet 6. Consolidates the later discussion of the functional kill switch, evaluation threshold and business accountability.
+
+In response to a question regarding agent performance and monitoring, the presenter explained that the tool is subject to automated validation checks, daily evaluations against predefined scenarios and user feedback monitoring. The presenters confirmed The presenter explained that the target success rate on evaluations is 98%, which is still in the process of being socialized with key business stakeholders. The Council discussed the importance of user awareness of accuracy of the models first-line accountability for the accuracy threshold and ensuring relevant business stakeholders understand and accept the associated risk.
+
+7. Model validation
+
+The Council Secretary noted that model validation is in progress and that completion of the process is required prior to use.
+
+One additional sequencing issue
+
+There is a distinction between the order of questions and the order of topics within the current combined bullets.
+
+In the transcript, the sequence was:
+
+ACTUAL DISCUSSION ORDER
+
+* Data grounding and reliability
+* Intended users and existing processes
+* Pilot population and entitlement controls
+* Skills files and architecture
+* Access to stored conversations
+* User reliance and operational resilience
+* Autonomous planning, kill switch and 98% evaluation threshold
+* Accuracy accountability and testing methodology
+* User training
+* Validation and pre-go-live requirements
+
+My recommendation: If Caroline wants the minutes to follow the transcript as closely as possible, the data access bullet should ideally be split into two, because the discussion about stored conversations occurred after the skills-file discussion.
+
+The version above preserves your existing seven-bullet structure with minimal edits, but splitting that bullet would provide the most accurate chronology.
+
+
+
+
 I reviewed Caroline’s three comments against the November 10 transcript. I agree with her on all three. The underlying content is largely correct, but the ordering and wording can be improved.
 
 1. Risk Insights — Order of discussion bullets
