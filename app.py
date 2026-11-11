@@ -1,3 +1,7 @@
+establishes a consistent modeling approach across the U.S. and European businesses, replacing previously differing methodologies, with further expansion to additional spread options planned.
+
+
+
 I would combine the two bullets and emphasize the broader effort to expand SA-CVA coverage and reduce FRTB RWA. For the product descriptions, I would use “products with payoffs linked to reserves” and “products involving a single cash flow.”
 
 Revised CRO Update – Track Changes
