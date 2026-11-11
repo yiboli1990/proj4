@@ -1,3 +1,21 @@
+I’ve shortened the AI summary substantially while retaining the three key messages: growing AI adoption, greater focus on efficiency and human oversight, and recent Surveillance AI enhancements. The remaining bullets have been lightly refined for clarity and flow.
+
+* Artificial Intelligence: AI adoption continues to grow across the firm, with increasing use of agentic AI and greater emphasis on cost efficiency, performance optimization and human oversight. Recent validation activity includes enhancements to Surveillance AI models (The Core Eng, Tier 1), including simplification of the insider trading model to reduce costs and manual reviews, improvements to unusual asset movement surveillance, and approval of a new human-in-the-loop model (The Core Eng, Tier 3) to improve surveillance summaries through compliance reviewer feedback.
+* FRTB CVA: There is ongoing focus on validation work supporting the new Fundamental Review of the Trading Book (FRTB) requirements, including approval of seven Standardized Approach for Credit Valuation Adjustment (SA-CVA) capital models (The Core Eng, Tier 1), completing the FRTB CVA validation work ahead of the Prudential Regulation Authority (PRA) go-live in January 2027.
+* Counterparty Credit Risk: There is continued focus on Counterparty Credit Risk (CCR) management enhancements, including approval of the Prime Brokerage business migration to the Unified Benchmark Model (GBM Public, Tier 1) for margin shortfall calculations, marking a key milestone in the multi-year effort to standardize methodologies across Prime and Franchise businesses.
+* Collateralized Lending: There is ongoing focus on validation work supporting the Collateralized Lending business, including approval of new collateral valuation models (GBM Private, Tier 1) extending coverage to additional collateral types, and new facility-level rating and tail risk models (The Core Eng, Tier 1) supporting bespoke deal structures and reducing reliance on fallback methodologies. Enhancements also include a new multi-path framework to improve model accuracy.
+* Commodities Pricing: Model Risk approved enhancements to a commodities pricing model (GBM Public, Tier 1), introducing an improved framework for modeling daily price movements in Power and Gas markets. The enhancements improve pricing of daily options and related products while supporting a consistent modeling approach across the U.S. and European businesses.
+
+One point to check before finalizing: the AI summary groups the Tier 1 surveillance enhancements under The Core Eng, consistent with your draft, although the earlier CRO materials identified those models as Compliance, Tier 1. It would be worth confirming the division designation.
+
+Otherwise, the language is suitable for the BRC audience and preserves the substance of your near-final draft.
+
+
+
+
+
+
+
 I would frame this as an increasing focus on efficiency and performance optimization as AI adoption matures, rather than a shift away from agentic AI.
 
 AI adoption continues to grow across the firm, with increasing complexity and autonomy of agentic AI applications. Alongside this growth, Model Risk is seeing greater emphasis on cost efficiency, performance optimization and human oversight. Recent validation activity includes:
