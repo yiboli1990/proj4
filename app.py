@@ -1,3 +1,21 @@
+I would combine the two bullets and emphasize the broader effort to expand SA-CVA coverage and reduce FRTB RWA. For the product descriptions, I would use “products with payoffs linked to reserves” and “products involving a single cash flow.”
+
+Revised CRO Update – Track Changes
+
+* Separately, MRM approved the CVA Reserve Linked Payoffs and CVA Single Cashflow models two standalone CVA models (GBM Public, Tier 1), used to calculate CVA and FVA for reserve-linked payoffs and single-cashflow products products with payoffs linked to reserves and products involving a single cash flow.
+* These models extend CVA and FVA coverage to standalone securities not supported by the desk-level CVA engines. The approvals support broader efforts to expand SA-CVA coverage to products that would otherwise be subject to the Basic Approach, contributing to a reduction in FRTB risk-weighted assets (RWA).
+
+Clean Version
+
+* Separately, MRM approved two standalone CVA models (GBM Public, Tier 1), covering products with payoffs linked to reserves and products involving a single cash flow.
+* The approvals support broader efforts to expand SA-CVA coverage to products that would otherwise be subject to the Basic Approach, contributing to a reduction in FRTB risk-weighted assets (RWA).
+
+This addresses both of Caroline’s comments by explaining the products in simpler terms and clarifying why the approvals matter from a capital perspective.
+
+I would use “contributing to a reduction” rather than specifying a capital benefit, since the amount of RWA reduction has not been quantified.
+
+
+
 I’ve shortened the AI summary substantially while retaining the three key messages: growing AI adoption, greater focus on efficiency and human oversight, and recent Surveillance AI enhancements. The remaining bullets have been lightly refined for clarity and flow.
 
 * Artificial Intelligence: AI adoption continues to grow across the firm, with increasing use of agentic AI and greater emphasis on cost efficiency, performance optimization and human oversight. Recent validation activity includes enhancements to Surveillance AI models (The Core Eng, Tier 1), including simplification of the insider trading model to reduce costs and manual reviews, improvements to unusual asset movement surveillance, and approval of a new human-in-the-loop model (The Core Eng, Tier 3) to improve surveillance summaries through compliance reviewer feedback.
