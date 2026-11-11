@@ -1,3 +1,36 @@
+I’ve revised the updates to improve the flow, distinguish the two FRTB CVA validation streams, and make the language more concise and appropriate for the CRO.
+
+Top of Mind
+
+FRTB CVA
+
+* MRM is finalizing validation of the FRTB Standardized Approach for CVA (SA-CVA) capital models (The Core Engineering, Tier 1), comprising the desk-level CVA engines and an aggregator. Approvals are targeted for next week, ahead of the January 2027 PRA go-live.
+* Medium-severity findings relate to incomplete risk-factor sensitivities, wrong-way risk and SIMM projection simplifications, ongoing monitoring gaps, and calibration deficiencies.
+* Separately, MRM approved the CVA Reserve Linked Payoffs and CVA Single Cashflow models (GBM Public, Tier 1), extending CVA and FVA coverage to standalone securities not supported by the desk-level CVA engines.
+* Together, these validation efforts support the firm’s FRTB SA-CVA implementation by covering both the desk-level capital models and additional products requiring standalone valuation models.
+
+Validation Activities
+
+Commod GnF Model Enhancement
+
+* MRM approved enhancements to the Commod GnF model (GBM Public, Tier 1), introducing a new framework to better capture daily price dynamics in Power and Gas markets.
+* The enhancement improves pricing of daily Power and Gas options and other cash volatility-sensitive products, addressing limitations of the existing framework.
+* The approval supports a consistent modeling framework across the U.S. and European businesses, with planned retirement of legacy approaches and expansion to additional spread options.
+
+Risk Representation – SpaceX GPU Financing Transaction
+
+* MRM is investigating booking and model control deficiencies associated with a large private-side financing commitment, including unsupported coupon features, incorrect booking terms and unapproved end-of-day adjustments.
+* The deficiencies resulted in inaccurate interest rate and credit risk representation. Booking corrections were implemented as of November 4, with the interest rate risk discrepancy subsequently resolved through a floating-rate proxy.
+* MRM is evaluating potential Model Control Policy violations and the need for model and booking waivers, in coordination with GBM and Operational Risk.
+
+For FRTB CVA, I deliberately separated the capital-model validation from the standalone GBM model approvals. The first two bullets cover the desk-level engines and outstanding findings; the third covers the approved models for securities outside those engines. The final bullet connects the two streams for the CRO audience.
+
+For SpaceX, I retained “evaluating” for potential violations and waivers because the earlier correspondence did not confirm that these had formally been raised. I also used “floating-rate proxy” to clarify that the corrected booking represents the transaction’s risk rather than its full contractual coupon structure.
+
+
+
+
+
 The removal was primarily to avoid duplication, while the addition better captures Bill’s concern about accountability for the 98% accuracy threshold.
 
 1. Why the autonomous planning / 98% paragraph was removed
