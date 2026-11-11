@@ -1,3 +1,20 @@
+The removal was primarily to avoid duplication, while the addition better captures Bill’s concern about accountability for the 98% accuracy threshold.
+
+1. Why the autonomous planning / 98% paragraph was removed
+
+I removed this portion to avoid duplicating the discussion of the 98% evaluation threshold, which is now captured in the subsequent performance and monitoring bullet. This also helps keep the discussion points in chronological order.
+
+One clarification: The question about autonomous planning and the functional kill switch was also part of the discussion, but is no longer explicitly captured. We could retain a brief reference if we want to preserve that point.
+
+2. Why “first-line accountability” was added
+
+I added this to better reflect Bill’s question regarding who is accountable for the 98% accuracy threshold. Compliance also emphasized that relevant business MDs should understand and stand behind the accuracy metrics, rather than simply being made aware of them.
+
+I would keep the first-line accountability language because it captures one of the more substantive governance discussions in the meeting.
+
+
+
+
 I’ve reordered the discussion points to follow the November 10 transcript and made targeted edits to address Caroline’s comments. I’ve also separated the architecture discussion from the later discussion of the 98% accuracy threshold to avoid repetition.
 
 Tracked changes: Strikethrough indicates deletions; bold indicates additions. Bullets without changes are retained as provided.
