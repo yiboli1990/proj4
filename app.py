@@ -1,3 +1,14 @@
+I would frame this as an increasing focus on efficiency and performance optimization as AI adoption matures, rather than a shift away from agentic AI.
+
+AI adoption continues to grow across the firm, with increasing complexity and autonomy of agentic AI applications. Alongside this growth, Model Risk is seeing greater emphasis on cost efficiency, performance optimization and human oversight. Recent validation activity includes:
+
+* Approval of enhancements to two Surveillance AI models (Compliance, Tier 1) supporting insider trading and unusual asset movement monitoring. The insider trading model was redesigned to replace its agentic workflow with a simpler approach, reducing token usage by 40% and manual-review alerts by approximately 20% while maintaining performance. The unusual asset movement model was enhanced to improve performance while retaining its agentic workflow.
+* Approval of a new Surveillance AI human-in-the-loop model (The Core Eng, Tier 3), incorporating compliance reviewer feedback to improve the quality of surveillance summaries without affecting underlying alert decisions.
+
+This gives the Board a clearer message: AI governance is increasingly focused not only on managing growing complexity, but also on optimizing existing applications and strengthening human oversight.
+
+
+
 I’ve revised the four sections for the BRC materials, keeping the language concise, high-level and focused on business impact. I’ve also standardized the (Division, Tier) format throughout, retaining The Core Eng as the division name.
 
 1. Artificial Intelligence (AI)
