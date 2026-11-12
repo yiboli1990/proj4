@@ -1,3 +1,6 @@
+Artificial Intelligence &#40;AI&#41; adoption continues to grow across the firm, with increasing use of agentic AI applications and a growing pipeline of models undergoing validation\. Recent activity includes approval of a new agentic AI model, Marquee AI Agent &#40;GBM Public, Tier 2&#41;, which leverages multiple information sources to respond to internal and external client queries on market research, trading commentary and market data, with additional compliance controls for external use\.
+
+
 establishes a consistent modeling approach across the U.S. and European businesses, replacing previously differing methodologies, with further expansion to additional spread options planned.
 
 
