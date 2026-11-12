@@ -1,3 +1,8 @@
+Artificial Intelligence (AI) adoption continues to grow across the firm, with increasing use of agentic AI applications and a growing pipeline of models undergoing validation. Recent activity includes approval of a new agentic AI model, Marquee AI Agent (GBM Public, Tier 2), which leverages an agentic architecture to retrieve and synthesize information from multiple sources, replacing the previous prompt-based approach to support internal and external users, with additional compliance controls for external use.
+
+
+
+
 Artificial Intelligence &#40;AI&#41; adoption continues to grow across the firm, with increasing use of agentic AI applications and a growing pipeline of models undergoing validation\. Recent activity includes approval of a new agentic AI model, Marquee AI Agent &#40;GBM Public, Tier 2&#41;, which leverages multiple information sources to respond to internal and external client queries on market research, trading commentary and market data, with additional compliance controls for external use\.
 
 
