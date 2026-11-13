@@ -1,3 +1,9 @@
+Collateralized Lending: Recent approvals of desk valuation models (GBM Private, Tier 1), facility-level rating (FLR) and tail risk models (The Core Eng, Tier 1), and methodology enhancements to extend coverage to additional collateral types and bespoke deal structures, reduce reliance on fallback methodologies, and improve model accuracy.
+
+
+
+
+
 Artificial Intelligence (AI) adoption continues to grow across the firm, with increasing use of agentic AI applications and a growing pipeline of models undergoing validation. Recent activity includes approval of a new agentic AI model, Marquee AI Agent (GBM Public, Tier 2), which leverages an agentic architecture to retrieve and synthesize information from multiple sources, replacing the previous prompt-based approach to support internal and external users, with additional compliance controls for external use.
 
 
