@@ -1,3 +1,12 @@
+GBM Public – Prism New Feature Approvals
+
+* MRM has reviewed and approved three new features (Composer, Workspace and Proactive) for Prism (Tier 2), an agentic AI model that supports GBM trading and sales by generating intraday market research reports and responding to user queries.
+* Composer provides a web-based interface to interact with Prism; Workspace enables users to collaboratively schedule tasks and share prompts; and Proactive delivers scheduled emails covering usage statistics and recommendations.
+* MRM benchmarking demonstrated comparable response quality for Composer and slightly lower response quality for Workspace relative to existing email functionality, primarily attributable to data pipeline failures, which will be monitored through an MRM observation. Proactive was assessed to perform as expected.
+
+
+
+
 Model Validation Activities
 
 I would order the updates by model tier and focus on business usage, key validation outcomes, risk mitigating controls and outstanding findings, consistent with our previous CRO updates.
