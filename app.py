@@ -1,3 +1,64 @@
+Model Validation Activities
+
+I would order the updates by model tier and focus on business usage, key validation outcomes, risk mitigating controls and outstanding findings, consistent with our previous CRO updates.
+
+Funds Data Extraction (The Core Eng, Tier 1)
+
+* MRM approved Funds Data Extraction, an AI model used to extract financial and credit data from hedge fund documents to support internal credit rating (ICR) determinations, with all extracted data subject to human review and sign-off.
+* MRM’s independent testing demonstrated an overall extraction accuracy of 94.7%, with all 16 approved data fields meeting the 90% accuracy threshold. The model also demonstrated resilience to document manipulation and prompt injection.
+* Three medium-severity findings remain open, relating to enhancements to automated data validation controls, field-level ongoing monitoring and restrictions on the use of underperforming or independently unvalidated data fields.
+
+Vulcan-MNPI (The Core Eng, Tier 2)
+
+* MRM approved Vulcan-MNPI, an AI model used to identify potential inappropriate sharing of material non-public information (MNPI) in e-communications, improving detection capabilities and reducing false-positive alerts compared with the existing rule-based surveillance.
+* The remaining medium-severity findings relate to model robustness, enhancements to model testing and ongoing monitoring, and refinement of AI prompts.
+
+Controllers Data Reconciliation (The Core Eng, Tier 2)
+
+* MRM approved the expanded use of Controllers Data Reconciliation, an agentic AI model developed with Anthropic to automate complex transaction matching not handled by existing rules within the Harmony reconciliation platform, extending coverage from 5 to 49 reconciliation breaksheets.
+* MRM’s independent testing demonstrated that the model exceeded its performance thresholds, with 97% of proposed matches being correct. All model recommendations remain subject to human review and approval.
+* Two medium-severity findings remain open, relating to limitations in the testing environment and insufficient representative test data.
+
+Risk and Review Agent - MR (The Core Eng, Tier 2)
+
+* MRM approved Risk and Review Agent - MR, which automates aspects of the daily review of market risk metrics by identifying unusual risk movements, their key drivers and potential interventions, with initial coverage limited to the Equity TopSheet.
+* The model uses rule-based calculations, with AI usage limited to generating summaries and assessing proposed interventions. MRM’s independent testing demonstrated that the model captured 98% of anomalies identified as relevant by reviewers, who retain final sign-off authority.
+* Two medium-severity findings remain open, relating to enhancements to ongoing monitoring and model code change controls.
+
+Marquee AI Agent (GBM Public, Tier 2)
+
+* MRM revalidated and approved Marquee AI Agent, which leverages an agentic architecture to retrieve and synthesize information from multiple sources to respond to internal and external client queries on market research, trading commentary and market data, replacing the previous internal-only, prompt-based model.
+* The model achieved a response accuracy rate of 95%, meeting its performance target, with additional compliance controls in place for external client use.
+* Three medium-severity findings remain open, relating to model code change controls, validation of final responses and alignment of Restricted Trading List controls with Compliance requirements.
+
+AI Driven Graph Gen (GBM Private, Tier 2)
+
+* MRM approved AI Driven Graph Gen, an agentic AI model that translates warehouse lending agreements into calculation frameworks used to generate client fee and interest invoices, reducing manual effort in implementing deal-specific calculation requirements.
+* MRM’s independent testing confirmed model errors in approximately 9% of loans, with the model identifying approximately half of these errors for review. All calculation frameworks require human review and approval before use in invoice generation.
+* Three medium-severity findings remain open, relating to visibility of fallback assumptions to reviewers, end-to-end testing and enhancements to ongoing monitoring.
+
+NFPR AI - Enquiry Tracking (The Core Eng, Tier 3)
+
+* MRM approved NFPR AI - Enquiry Tracking, which automates the extraction of information from shareholder ownership enquiries submitted by public companies or their authorized representatives, with all extracted data subject to human review and sign-off.
+
+ORCA Agents (GBM Private, Tier 3)
+
+* MRM approved ORCA Agents, developed as part of the OneGS 3.0 Client Onboarding and Know Your Client (KYC) initiative, to automate the summarization of outstanding KYC requirements and drafting of internal and external communications, with all outputs subject to human review and approval.
+
+A few points to confirm before finalizing
+
+* Vulcan-MNPI: The approval summary states that four of the five medium-severity findings remain open, but the detailed findings section lists all five as open. I have intentionally omitted the count.
+* Funds Data Extraction: I emphasized full human review rather than review of low-confidence extractions only, as this is an important control confirmed in the approval email.
+* Controllers Data Reconciliation: The reported 97% performance excludes data quality-related cases.
+* Marquee AI Agent: I retained “revalidated and approved” for the CRO update to align with the formal approval email. The email does not identify a specific desk.
+* NFPR AI and ORCA Agents: I omitted the findings from the summaries because all findings have been remediated and closed.
+* Division names: I followed your latest division assignments and standardized The Core Engineering to The Core Eng.
+
+
+
+
+
+
 Collateralized Lending: Recent approvals of desk valuation models (GBM Private, Tier 1), facility-level rating (FLR) and tail risk models (The Core Eng, Tier 1), and methodology enhancements to extend coverage to additional collateral types and bespoke deal structures, reduce reliance on fallback methodologies, and improve model accuracy.
 
 
