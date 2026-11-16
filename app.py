@@ -1,3 +1,7 @@
+MRM validation identified a bug that caused the new Prism features to omit special characters, including minus signs, making positive and negative returns indistinguishable. The issue was remediated prior to approval, preventing erroneous outputs from reaching production.
+
+
+
 GBM Public – Prism New Feature Approvals
 
 * MRM has reviewed and approved three new features (Composer, Workspace and Proactive) for Prism (Tier 2), an agentic AI model that supports GBM trading and sales by generating intraday market research reports and responding to user queries.
