@@ -1,4 +1,10 @@
-    AIRCC approved QIS Aster (AWM QIS, Tier 2), an agentic AI research tool that enables quantitative researchers to analyze investment performance, test trading strategy hypotheses, execute research code, and generate analytical reports and presentations through a multi-agent framework.
+* MRM approved NFPR AI - Enquiry Tracking (The Core Eng, Tier 3), used by Controllers to automate the extraction of information from emails and attachments submitted by public companies or their authorized representatives requesting shareholder ownership information, with human review and sign-off required before downstream reporting.
+
+
+
+
+
+AIRCC approved QIS Aster (AWM QIS, Tier 2), an agentic AI research tool that enables quantitative researchers to analyze investment performance, test trading strategy hypotheses, execute research code, and generate analytical reports and presentations through a multi-agent framework.
 
 
 
