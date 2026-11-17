@@ -1,3 +1,8 @@
+* MRM approved NFPR AI - Enquiry Tracking (The Core Eng, Tier 3), used by Controllers to help respond to requests from public companies seeking information on who owns their shares, by automatically extracting relevant information from emails and attachments, subject to human review and approval.
+
+
+
+
 * MRM approved NFPR AI - Enquiry Tracking (The Core Eng, Tier 3), used by Controllers to automate the extraction of information from emails and attachments submitted by public companies or their authorized representatives requesting shareholder ownership information, with human review and sign-off required before downstream reporting.
 
 
