@@ -1,3 +1,9 @@
+    AIRCC approved QIS Aster (AWM QIS, Tier 2), an agentic AI research tool that enables quantitative researchers to analyze investment performance, test trading strategy hypotheses, execute research code, and generate analytical reports and presentations through a multi-agent framework.
+
+
+
+
+
 I’ve reviewed the November 17 agenda, materials, rough notes and transcript, along with Caroline’s feedback on the November 10 minutes.
 
 I’ll apply the same AIRCC minutes conventions:
