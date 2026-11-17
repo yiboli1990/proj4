@@ -1,3 +1,143 @@
+I’ve reviewed the November 17 agenda, materials, rough notes and transcript, along with Caroline’s feedback on the November 10 minutes.
+
+I’ll apply the same AIRCC minutes conventions:
+
+* Follow the chronological order of the discussion, rather than grouping questions by topic.
+* Use “the presenter” throughout the discussion bullets, without individual names.
+* Focus on Council questions, responses, governance concerns and decisions rather than repeating presentation materials.
+* Include only Caroline-confirmed formal conditions and follow-ups. Distinguish these from MRM, Tech Risk and other standard approval requirements.
+* Include suggested business owners and control-side contacts separately, identifying assignments that are inferred rather than confirmed.
+
+Firmwide AI Risk and Controls Council
+
+November 17, 2026 — Draft Meeting Minutes
+
+I. QIS Aster — Approval
+
+Decision
+
+AIRCC approved QIS Aster, an agentic AI research and ideation tool for AWM Quantitative Investment Strategies (QIS), subject to completion of the applicable pre-go-live requirements.
+
+Pre-Go-Live Conditions
+
+1. Complete the Architecture Review and Operational Readiness Review (ARR/ORR) process prior to go-live.
+
+Other Follow-Ups
+
+1. Confirm whether Enterprise Web Grounding remains available and is the appropriate description of Aster’s web-search functionality, including in production.
+
+Key Discussion Points
+
+- In response to a question from the Council Chairperson regarding the industry momentum time-series scores presented in an example, the presenter clarified that Aster retrieves previously calculated scores from an existing model rather than independently calculating the underlying metric.
+
+- In response to a question regarding whether Aster warrants full AIRCC review given its research and ideation scope, the presenter explained that the multi-agent architecture, access to proprietary information and complexity of its analytical capabilities support independent governance review. The Council discussed whether the approval framework should distinguish between research tools and production-facing applications, with further consideration to take place offline.
+
+- In response to questions regarding proprietary and sensitive information, Council members highlighted the importance of appropriate controls over the data accessible to Aster, notwithstanding its limited use in research and ideation.
+
+- In response to a question regarding Enterprise Web Grounding, the presenter explained that this functionality is available in the development environment but agreed to confirm its availability and configuration in production. The Council questioned whether Enterprise Web Grounding should continue to be described as a specific risk mitigant.
+
+- In response to a question regarding Aster’s future development, the presenter explained that the immediate objective is to improve research productivity and idea generation. While greater autonomy may be considered in the future, material changes beyond the current research and ideation scope would be brought back to AIRCC as appropriate.
+
+Suggested ownership and control-side contacts
+
+Item	Business owner	Control-side contact
+ARR/ORR completion	Philip Yan	Elton Nyema (Tech Risk) / relevant ARR/ORR reviewers
+Enterprise Web Grounding confirmation	Philip Yan	Andy Snow / Elton Nyema
+
+These assignments are inferred. MRM validation and applicable Tech Risk reviews must also be completed before go-live, but Caroline did not designate them as additional AIRCC-specific pre-go-live conditions.
+
+II. Printing Surveillance — Approval
+
+Decision
+
+AIRCC conditionally approved Printing Surveillance, including its LLM-based classifier for detecting potentially fictitious trade execution claims in electronic communications, with an initial rollout covering municipal bonds.
+
+Pre-Go-Live Conditions
+
+1. Provide background on the identified escalations, including their investigation outcomes and whether they resulted in further escalation, such as Level 3 cases or suspicious activity reporting.
+
+Other Follow-Ups
+
+1. Conduct a post-go-live EU AI Act assessment to determine whether Printing Surveillance could be classified as a high-risk AI system and identify any additional governance requirements, if applicable.
+
+Key Discussion Points
+
+- In response to a question regarding surveillance scope, the presenter clarified that the initial release focuses on Bloomberg instant messages sent by registered representatives to external clients. Email and voice communications are excluded from the initial scope based on the trading activity and communication channels being targeted.
+
+- In response to questions regarding false positives and investigative workload, the presenter explained that the surveillance uses a multi-stage filtering process to distinguish potentially misleading execution claims from legitimate trading communications. The presenter noted that the initial municipal bond rollout is expected to generate approximately 20 alerts per day, with human investigators responsible for reviewing potential cases.
+
+- The Council discussed the outcomes of previously identified escalations and whether these cases resulted in further investigation or regulatory reporting. The presenter explained that the relevant Compliance team was reviewing the cases and expected to provide additional information before go-live.
+
+- The presenter clarified that the initial release covers municipal bonds, although broader testing was conducted across products. The presenter reported approximately 97% recall and 60% precision across the broader test set, compared with 98% recall and 83% precision for municipal bonds.
+
+- In response to questions regarding model robustness and monitoring, the presenter explained that testing demonstrated limited variability across repeated LLM calls, supporting the use of a single call for each classification and extraction task. The presenter also outlined daily negative-sample reviews, quarterly performance assessments and regression testing, including automatic shutdown if predefined critical test cases fail.
+
+- In response to a question regarding the fallback process if the surveillance is disabled, the presenter explained that existing manual controls would remain in place during the initial rollout. Depending on the nature and duration of an issue, remediation could include retrospective reviews of affected communications.
+
+- In response to questions regarding the scope of approval, the presenter clarified that the request covers the Printing Surveillance architecture across products, with municipal bonds as the initial deployment. The Council agreed that expansion to other product classes would not require separate AIRCC approval solely because of the product expansion, while applicable MRM reviews would continue.
+
+- A Council member highlighted the need to assess whether the surveillance falls within the EU AI Act’s high-risk classification. The assessment was recorded as a non-blocking, post-go-live follow-up.
+
+Suggested ownership and control-side contacts
+
+Item	Business owner	Control-side contact
+Pre-go-live escalation outcomes	David Isherwood / Bachir Aoun	Andy Snow / Ritu Narula (Compliance)
+Post-go-live EU AI Act assessment	Sreenath Maikkara / Anna Han	Andy Snow / Ritu Narula (Compliance)
+
+Ownership is inferred from the discussion. Caroline separately confirmed that MRM validation and Tech Risk review must be completed before go-live; these are not additional AIRCC-specific conditions.
+
+III. Updated RCSA Inherent Risk Guidance — Posting
+
+Key Discussion Points
+
+- The presenter provided an update to the RCSA inherent risk assessment methodology for Generative and Agentic AI, following feedback received after the October posting. The revised approach distinguishes knowledge-worker AI use cases from developer enablement tools.
+
+- The presenter explained that developer enablement tools are now allocated across the relevant Assessment Units (AUs), reflecting where risks associated with AI-assisted software development materialize. The methodology also incorporates AIRCC use-case classifications as minimum inherent risk ratings, with Category 1 and Category 2 use cases subject to high and moderate minimum ratings, respectively.
+
+- The presenter noted that the revised methodology increases the proportion of AUs assessing AI risks from approximately 45% to more than two-thirds. Council members were encouraged to review the supporting examples and assessment workbooks in the appendix.
+
+IV. Unified Document Management Service — Posting
+
+Key Discussion Points
+
+- The presenter provided an update on the Unified Document Management Service (UDMS), which aims to consolidate fragmented enterprise document platforms into a common, governed solution supporting document storage, search and AI-enabled extraction. The presenter clarified that the initial rollout does not introduce new AI capabilities beyond those previously approved by AIRCC.
+
+- The presenter explained that UDMS is currently undergoing user acceptance testing, with an initial rollout targeted for December 2026. Future enhancements to make the platform agent-ready would be brought back to AIRCC for review as appropriate.
+
+- In response to a question regarding consistent performance monitoring across the centralized platform, the presenter clarified that UDMS would be subject to standard Engineering controls, including operational readiness review and service-level objectives covering availability, latency and response times.
+
+Items worth confirming before circulating
+
+QIS Aster: Caroline explicitly mentioned ARR/ORR as a pre-go-live condition and Enterprise Web Grounding as an additional follow-up. The Council also discussed the broader question of whether research-only tools warrant full AIRCC review, but Caroline did not formally record that discussion as a follow-up. I have therefore kept it in the discussion section.
+
+Printing Surveillance: The approval covers the proposed architecture, with municipal bonds as the initial deployment. The Council did not require another AIRCC approval solely for expansion to additional product classes. The only AIRCC-specific pre-go-live condition was the request for escalation outcomes; the EU AI Act assessment is non-blocking.
+
+RCSA and UDMS: Both were postings, so I have not included approval decisions or formal action items.
+
+CRO Reporting Summaries
+
+QIS Aster
+
+* AIRCC approved QIS Aster (AWM QIS, Tier 2), an agentic AI tool used by quantitative researchers to accelerate investment research, idea generation and strategy testing, while retaining existing production governance.
+    * Pre-go-live condition: Complete the ARR/ORR process. MRM validation must also be completed before rollout.
+    * Follow-up: Confirm the availability and use of Enterprise Web Grounding in production.
+
+Printing Surveillance
+
+* AIRCC conditionally approved Printing Surveillance, an LLM-based surveillance model used by Market Surveillance Compliance to identify potentially fictitious trade execution claims in electronic communications for human investigation.
+    * Pre-go-live condition: Provide investigation outcomes for identified escalations. MRM validation and Tech Risk review must also be completed before rollout.
+    * Follow-up: Complete a post-go-live EU AI Act high-risk classification assessment. Initial deployment will cover municipal bonds, with expansion to other products permitted without separate AIRCC approval.
+
+The minutes above are organized in the order of the substantive discussion within each agenda item, rather than by control theme. The CRO summaries are intentionally shorter and focused on the approval, purpose and key conditions.
+
+
+
+
+
+
+
+
+
 MRM validation identified a bug that caused the new Prism features to omit special characters, including minus signs, making positive and negative returns indistinguishable. The issue was remediated prior to approval, preventing erroneous outputs from reaching production.
 
 
