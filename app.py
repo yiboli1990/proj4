@@ -1,3 +1,12 @@
+I agree with Caroline that the significance should be more explicit. I would highlight that this is a major modernization of a longstanding pricing framework, with a placeholder for the number of years until the validators confirm it.
+
+Model Risk approved the first major enhancement in [X] years to the commodities pricing model (GBM Public, Tier 1), introducing an improved framework to capture daily price movements in Power and Gas markets and establish a consistent modeling approach across the U.S. and European businesses. The enhancement addresses limitations of the longstanding framework, which predates the significant growth of daily options and led to divergent modeling approaches across regions.
+
+I would confirm two points with the validators before finalizing: how many years since the last major enhancement, and whether the new framework replaces the existing approaches immediately or supports their planned retirement. The latter distinction matters because the earlier validation updates described retirement as planned rather than completed.
+
+
+
+
 Below is a comprehensive draft of the MRCC minutes, following the style of your August 5 example but with greater emphasis on committee questions, management responses, and governance implications, rather than detailed walkthroughs of the presentation materials.
 
 I’ve retained the substantive discussions, particularly around RCSA sustainability and assessment unit mapping, regulatory expectations under SR 26-2, CCAR revalidation, and potential efficiency gains from the proposed framework changes.
