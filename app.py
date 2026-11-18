@@ -1,3 +1,84 @@
+Caroline’s main point is that the RCSA centralized control procedure review should not introduce redundant evidence collection or additional administrative work for divisions. She wants Operational Risk to clarify the purpose of the proposed changes before MRM agrees to any updates.
+
+More importantly, she believes MRM controls should be treated differently from other RCSA controls, because MRM already centrally manages and oversees the firm’s model risk control framework.
+
+1. Evidence Description
+
+Caroline questions why new or standardized evidence descriptions are necessary.
+
+Operational Risk appears to be proposing centralized evidence descriptions that divisions would use when documenting their controls.
+
+Caroline’s concerns are:
+
+* The original understanding was that MRM’s control metrics would automatically flow into the RCSA system and serve as control evidence.
+* She does not understand why additional evidence descriptions are now being requested or what value they would add.
+* She strongly opposes requiring divisions to repeatedly upload the same evidence or use standardized descriptions as part of a manual process.
+
+Her key question is:
+
+“What are we trying to achieve here?”
+
+Her expectation: The existing MRM metrics should constitute the evidence, without introducing additional divisional documentation requirements.
+
+2. Evidence Location
+
+Caroline wants to preserve the previously discussed automated evidence integration rather than establish a new manual evidence submission process.
+
+She specifically stated:
+
+“We were supposed to be working towards automatically flowing our metrics. And that should be the evidence. That’s it.”
+
+Her position is that:
+
+* MRM metrics should automatically feed into the Operational Risk/RCSA system.
+* Divisions should not have to separately upload evidence for centrally managed model controls.
+* Operational Risk needs to explain where the proposed centralized descriptions would reside, how they would be used, and whether they would create new divisional obligations.
+
+Important distinction: Caroline did not explicitly approve or reject a particular evidence location. Her objection is primarily to the proposed process and the possibility of duplicative evidence collection.
+
+3. Centralized Control Procedure Review
+
+This is Caroline’s broader and most important point.
+
+She emphasized that the MRM control framework is fundamentally different from other RCSA control frameworks.
+
+Typical RCSA controls	MRM controls
+Divisions implement and assess their own controls	MRM centrally manages the model risk control framework
+RCSA helps coordinate control assessment and testing	MRM already provides independent oversight and validation
+Divisional evidence collection may be necessary	Central MRM metrics should provide the relevant evidence
+RCSA plays a substantive role in the control assessment process	RCSA primarily serves a reporting function for model controls
+
+Caroline believes Operational Risk may be applying a generic RCSA process to MRM without recognizing these differences.
+
+She stated:
+
+“Our program is fully managed under us. We make sure all the right things happen. RCSA does nothing in terms of helping us manage model risk.”
+
+Her expectation is that any centralized procedure review should recognize MRM’s existing governance framework and avoid unnecessary divisional activities.
+
+4. What Caroline wants you to do next
+
+She explicitly asked you to challenge Operational Risk’s proposal and arrange a discussion if necessary.
+
+I would focus the follow-up on four questions:
+
+* Purpose: What is the objective of updating the evidence descriptions and locations, and what specific requirement is driving the changes?
+* Automation: What happened to the previously discussed solution to automatically feed MRM control metrics into the RCSA system?
+* Divisional responsibilities: Will the proposal require divisions to manually upload evidence, adopt standardized descriptions, or perform additional control procedures?
+* MRM-specific treatment: Can the procedure review recognize MRM’s centrally managed control framework and avoid duplicative divisional requirements?
+
+5. Suggested summary of Caroline’s feedback
+
+For your own notes or an internal follow-up:
+
+Caroline questioned the purpose and value of the proposed updates to centralized control evidence descriptions and locations, emphasizing that MRM metrics were expected to automatically feed into the RCSA system and serve as control evidence. She reiterated that MRM controls are centrally managed and should not be subject to the same divisional evidence collection requirements as other RCSA controls. She requested further clarification from Operational Risk on the proposed process and its rationale, with a focus on avoiding duplicative administrative requirements for divisions.
+
+Bottom line: Caroline is not simply asking you to revise the evidence descriptions or identify the correct evidence locations. She wants you to challenge whether the proposed changes are necessary at all, particularly if they depart from the original automation approach or create unnecessary work for divisions.
+
+
+
+
+
 Commod GnF Model: Model Risk approved significant enhancements to the commodities pricing model (GBM Public, Tier 1) to better capture daily price movements in Power and Gas markets and establish a consistent modeling framework across the U.S. and European businesses. The enhancements modernize a longstanding framework that had not kept pace with the growth of daily options, resulting in differing modeling approaches across regions.
 
 
