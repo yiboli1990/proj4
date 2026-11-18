@@ -1,3 +1,108 @@
+Below is a comprehensive draft of the MRCC minutes, following the style of your August 5 example but with greater emphasis on committee questions, management responses, and governance implications, rather than detailed walkthroughs of the presentation materials.
+
+I’ve retained the substantive discussions, particularly around RCSA sustainability and assessment unit mapping, regulatory expectations under SR 26-2, CCAR revalidation, and potential efficiency gains from the proposed framework changes.
+
+Model Risk Control Committee (MRCC)
+
+Draft Meeting Minutes
+
+Materials: Model Risk Control Committee Pack dated [Meeting Date], 2026
+
+1) Operational Risk and Control Self-Assessment – Approval
+
+Scott Field presented an overview of the proposed Model Risk Risk and Control Self-Assessment (“RCSA”) guidance, directing the committee to the materials distributed. He explained that the guidance builds on the integration of Model Risk into the RCSA framework introduced in the prior year and is intended to further align RCSA assessments with the existing Model Risk control framework. Under the proposed approach, Model Risk inventory data, risk tier classifications and control performance metrics will be used to derive indicative risk and control ratings within the RCSA, with the objective of reducing subjectivity and improving consistency across assessment units (“AUs”).
+
+Caroline Shulman clarified that Model Risk differs from other non-financial risk categories in that model development, implementation, validation and ongoing monitoring are already governed by prescribed controls under the Firmwide Policy on Model Control and related standards, with oversight by Model Risk Management (“MRM”). She emphasized that the proposed guidance does not introduce new control requirements for model developers but instead establishes how existing Model Risk controls and their performance will be represented within the RCSA framework.
+
+The Committee Chairperson noted that certain changes to the mapping of Model Risk assessment units will be introduced this year, particularly within Global Banking & Markets (“GBM”) and Core Engineering, and encouraged the relevant businesses to review the changes.
+
+Ajit Nema asked about the sustainability of the proposed process and the level of ongoing effort expected from the Strats teams. The Committee Chairperson explained that the process has been designed to be as automated as possible, with information from the existing Model Risk control program feeding into the RCSA through an algorithmic approach. He noted that the Strats teams would receive indicative ratings and supporting control performance metrics, either through a system-based solution or spreadsheets, providing a consistent starting point for their assessments rather than requiring them to independently recreate the underlying analysis.
+
+In response to questions on the operational challenges associated with the proposed approach, Ms. Shulman explained that the primary complexity relates to mapping assessment units in Model-IT to those in the RCSA, as the two frameworks are organized differently. She highlighted that this is particularly relevant for GBM, where Model-IT assessment units are generally organized around Strats teams, while RCSA assessment units may be organized at the trading desk level. As a result, a single Model-IT assessment unit may map to multiple RCSA assessment units. By way of example, she explained that a model supporting multiple rates trading desks could be reflected across several corresponding RCSA assessment units. The Committee Chairperson further clarified that the mapping is intended to reflect the models and related controls for which the respective Strats teams are responsible.
+
+Mr. Field noted that the revised inherent risk ratings are expected to be implemented by the end of November 2026, followed by key control ratings in January 2027, with a complete RCSA assessment cycle expected by February 2027.
+
+With no further questions or objections raised, the committee approved the proposed Model Risk RCSA guidance.
+
+2) Proposed Changes to Policy and Standards – Approval
+
+Caroline Shulman presented the proposed changes to the Firmwide Policy on Model Control and related standards following MRM’s assessment of the framework against the revised interagency model risk management guidance, SR 26-2, which supersedes SR 11-7. She explained that the revised guidance maintains the core principles of model risk management while emphasizing a more risk-based approach and providing firms with greater flexibility in implementation. MRM concluded that the existing Model Risk framework remains well aligned with the revised guidance, with no material gaps identified. The proposed changes are therefore intended to further tailor requirements to model risk and focus resources on the most material models.
+
+Ms. Shulman noted that the proposed changes have been discussed with the Federal Reserve during the last two quarterly meetings. She explained that while the Federal Reserve raised questions, no significant concerns were expressed regarding the proposed approach. She further highlighted that the Federal Reserve has cautioned against interpreting the revised guidance as a broad relaxation of model risk management expectations and remains focused on ensuring that changes made by supervised institutions are consistent with regulatory intent.
+
+Asad Naqvi asked whether MRM had assessed the implications of the proposed changes against regulatory requirements in other jurisdictions, particularly those of the Prudential Regulation Authority (“PRA”) and European Central Bank (“ECB”). Ms. Shulman confirmed that the review considered other applicable regulatory requirements, particularly the PRA’s Supervisory Statement SS1/23, which remains more prescriptive and closely aligned with the prior SR 11-7 framework. She explained that the Firm operates a global Model Risk framework and that many material models are used across multiple legal entities, limiting the ability to apply materially different requirements by jurisdiction. Accordingly, the proposed changes have been carefully assessed for consistency with PRA expectations. She further noted that while the ECB does not have equivalent overarching model risk guidance, its supervisory expectations remain particularly high for capital and pricing models. As a result, the proposed changes largely preserve the existing requirements for Tier 1 models, with more targeted simplifications for lower-risk models.
+
+Ms. Shulman directed the committee to the materials outlining the proposed changes across model inventory and risk assessment, development and validation documentation, annual review, revalidation, reporting and qualitative approaches (“QAs”). She highlighted that the changes include broadening the Tier 4 definition by removing the requirement for models to be used only with human supervision, allowing greater flexibility to classify very low-risk models, including non-AI models, as Tier 4. Other changes include streamlining documentation requirements for Tier 2 and Tier 3 models and Tier B QAs, tailoring annual review requirements by model risk tier and recent validation activity, and aligning the revalidation requirements for Comprehensive Capital Analysis and Review (“CCAR”) models with those applicable to other Tier 1 models. She also noted the proposed transition of approval authority for the Firmwide Policy on Model Control from the Board Risk Committee (“BRC”) to the Enterprise Risk Committee (“ERC”), together with simplifications to Model Risk reporting and certain vendor selection requirements.
+
+In response to questions from Mr. Naqvi on the proposed changes to CCAR revalidation, Ms. Shulman explained that the existing requirement to revalidate all CCAR models annually would be replaced by the standard Tier 1 revalidation framework. Under this approach, Significant Tier 1 CCAR models would generally be subject to revalidation every two years, while other CCAR models would be subject to trigger-based revalidation. Mr. Naqvi asked whether the Firm intended to alternate between comprehensive and streamlined validations across CCAR cycles or stagger the revalidation schedule across the model population. Ms. Shulman clarified that MRM is evaluating how to distribute the revalidation work across the two-year cycle, taking into consideration the benefits of staggering workloads as well as validating related models together where appropriate. She noted that the CCAR inventory comprises approximately 130 models, of which roughly half are Significant Tier 1 models subject to biennial revalidation.
+
+The Committee Chairperson further clarified that material model changes would continue to be subject to validation regardless of the periodic revalidation schedule. Ms. Shulman added that certain models, including regression-based Pre-Provision Net Revenue (“PPNR”) models, may continue to require validation work during each CCAR cycle given the frequency of model changes. She emphasized that the proposed approach is intended to provide greater flexibility in allocating validation resources rather than eliminating necessary validation activities, with existing preventive change controls, daily regression testing, ongoing monitoring and annual reviews continuing to apply.
+
+Sai Chintala asked about the anticipated reduction in time and effort associated with the proposed changes, particularly the streamlined documentation requirements. Ms. Shulman explained that the most significant efficiency gains are expected from relaxing the annual CCAR revalidation requirement, although the actual savings will depend on the extent of model changes between cycles and the validation work that remains necessary. She noted that documentation preparation has also become more efficient with the increasing use of AI tools.
+
+The Committee Chairperson added that the streamlined documentation requirements for lower-tier models should provide some benefits, although these may be relatively modest given the increasing use of AI-assisted documentation. He emphasized that an important objective is to improve the clarity and readability of model documentation by removing unnecessary repetition and prescriptive requirements that were introduced as part of the prior regulatory framework. He noted that the revised approach would allow documentation to focus more directly on model methodology, implementation and testing, while remaining proportionate to the associated model risk.
+
+Ms. Shulman further noted that the proposed changes to annual review requirements are intended to reduce unnecessary explanatory commentary for routine assessment questions, while retaining more substantive explanations where warranted. For Tier 1 models validated in the prior year, certain assessment questions would be removed in recognition of recent independent validation and existing preventive controls. The requirements for Tier 3 models would also be streamlined, while Tier 4 annual reviews would continue to focus on confirming that the model remains appropriate for its low-risk classification.
+
+Ms. Shulman reminded the committee that the proposed changes to the policy will also be subject to ERC approval and that the corresponding documentation templates, which are approved by the Head of MRM, are not themselves subject to MRCC approval. She directed the committee to the redlined policy and standards included in the materials for additional details.
+
+With no further questions or objections raised, the committee approved the proposed changes to the Firmwide Policy on Model Control and related standards, subject to the applicable ERC approval for the policy.
+
+3) Independent Review of Qualitative Approaches – Approval
+
+Caroline Shulman presented the proposed changes to the designation and scope of Independent Review Groups (“IRGs”) responsible for validating QAs, directing the committee to the materials distributed. She reminded the committee that the Firmwide Policy on Qualitative Approaches and related standards permit independent groups outside MRM to perform QA validations, subject to designation by MRCC and applicable independence requirements.
+
+Ms. Shulman explained that the proposed changes primarily reflect organizational changes within Core Engineering and corresponding updates to the scope of existing IRGs. In particular, the scope of the Risk Review Group and Compliance Surveillance Approval Group would be updated to reflect QAs developed within Core Engineering that were previously associated with other divisions. She noted that these changes are not expected to materially alter the underlying validation responsibilities.
+
+Ms. Shulman further discussed the proposed expansion of Finance Risk’s remit to include QAs developed by Controllers, in addition to Corporate Treasury, noting that Finance Risk is independent of both functions. She also highlighted clarifications to the scope of Controllers Risk Governance to reflect its responsibilities for QAs developed by other departments within Controllers and QAs developed by other divisions for regulatory capital and related purposes, including CCAR, Internal Capital Adequacy Assessment Process (“ICAAP”), recovery and resolution planning, and other regulatory submissions.
+
+Ms. Shulman emphasized that the designation of IRGs remains subject to applicable independence requirements and that MRM may also serve as an independent review group for QAs where appropriate.
+
+With no questions or objections raised, the committee approved the proposed changes to the designation and scope of the Independent Review Groups.
+
+4) Model Risk Update – Posting
+
+Caroline Shulman directed the committee to the materials outlining recent Model Risk developments, including changes to the Model Risk Appetite Statement (“RAS”) metrics and current utilization.
+
+Ms. Shulman explained that the RAS metric changes were implemented as part of a broader initiative requested by the BRC to streamline risk appetite reporting across risk departments. The changes include removing Tier 3 models under waiver from BRC-level reporting, while retaining the corresponding threshold at the Firmwide Risk Appetite Committee (“FRAC”) level. She further noted that aged model finding metrics have been consolidated at both the BRC and FRAC levels, given their common zero thresholds. She emphasized that these changes simplify reporting without altering the underlying risk appetite thresholds or monitoring expectations.
+
+Regarding RAS utilization, Ms. Shulman noted that the use of models under waiver remains generally controlled and within established thresholds. She highlighted an emerging trend in which AI models account for an increasing proportion of Tier 2 and Tier 3 models under waiver, reflecting the continued growth in AI model development across the Firm. She noted that MRM will continue to monitor this trend.
+
+Ms. Shulman further reported that, while the materials reflected the aged finding metrics as of September 30, 2026, all breaches had subsequently been resolved, including those associated with counterparty credit risk models.
+
+Ms. Shulman directed the committee to the remaining materials for additional Model Risk updates.
+
+5) Administrative Matters – Approval
+
+Ms. Shulman directed the committee to the proposed changes to the MRCC Charter included in the materials. She explained that the changes are primarily administrative, including removing references to the superseded SR 11-7 guidance and reflecting the proposed transition of approval authority for the Firmwide Policy on Model Control from the BRC to the ERC.
+
+With no questions or objections raised, the committee approved the proposed changes to the MRCC Charter.
+
+6) Prior Meeting Minutes Approval
+
+Minutes from the Committee’s meeting held on August 5, 2026 were approved.
+
+The Committee Chairperson emphasized the importance of committee members carefully reviewing the Firm’s Model Risk policies and standards, noting that these documents underpin the overall Model Risk control framework.
+
+Having no further business to discuss, the Chairperson closed the meeting.
+
+To the extent transaction(s) were discussed, no committee member raised issues related to the transactions regarding any (i) material conflict of interest, (ii) material exposure to high-risk assets or high-risk trading strategies that could significantly increase the likelihood that the Firm could incur a substantial financial loss, or (iii) activity that would otherwise pose a threat to the safety and soundness of the Firm or the financial stability of the United States.
+
+Points to verify before finalizing
+
+I would check four details against the meeting pack or attendance records:
+
+* Meeting date and prior minutes: The transcript does not explicitly state the current meeting date. I used August 5, 2026 as the prior meeting based on your example, but this should be confirmed.
+* RCSA presenter: Your notes say Scott Field, while the transcript sounds like “Scott Fields.” I used Scott Field.
+* Speaker names: I used Asad Naqvi, Ajit Nema and Sai Chintala based on your rough notes, but their spelling should be verified.
+* Approval of policy: The committee approved the proposed changes, but the policy itself remains subject to ERC approval, which is important to preserve.
+
+Editorial assessment: Sections 1 and 2 carry the most substantive discussion and appropriately receive the greatest detail. Section 2 is particularly important because the committee challenged both the cross-jurisdictional regulatory implications and the practical implementation of CCAR revalidation. I have deliberately kept the remaining sections shorter where the transcript contains no material committee challenge.
+
+One further refinement I would consider is reducing the general description of the policy changes in Section 2 by another 15–20%, while preserving the full exchanges with Asad and Sai. That would bring the minutes even closer to your preferred discussion-focused AIRCC style.
+
+
+
 Caroline’s main point is that the RCSA centralized control procedure review should not introduce redundant evidence collection or additional administrative work for divisions. She wants Operational Risk to clarify the purpose of the proposed changes before MRM agrees to any updates.
 
 More importantly, she believes MRM controls should be treated differently from other RCSA controls, because MRM already centrally manages and oversees the firm’s model risk control framework.
