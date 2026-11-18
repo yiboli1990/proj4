@@ -1,3 +1,11 @@
+Thanks, Caroline. I was trying to capture Bill’s clarification that a single model may be used across multiple trading desks and therefore mapped to multiple RCSA assessment units.
+
+I’ve revised the sentence to make this clearer:
+
+“The Committee Chairperson further clarified that where a model is used across multiple trading desks, the model and its associated controls would be reflected in each relevant RCSA assessment unit.”
+
+
+
 I agree with Caroline that the significance should be more explicit. I would highlight that this is a major modernization of a longstanding pricing framework, with a placeholder for the number of years until the validators confirm it.
 
 Model Risk approved the first major enhancement in [X] years to the commodities pricing model (GBM Public, Tier 1), introducing an improved framework to capture daily price movements in Power and Gas markets and establish a consistent modeling approach across the U.S. and European businesses. The enhancement addresses limitations of the longstanding framework, which predates the significant growth of daily options and led to divergent modeling approaches across regions.
