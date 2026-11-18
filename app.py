@@ -1,3 +1,7 @@
+Commod GnF Model: Model Risk approved significant enhancements to the commodities pricing model (GBM Public, Tier 1) to better capture daily price movements in Power and Gas markets and establish a consistent modeling framework across the U.S. and European businesses. The enhancements modernize a longstanding framework that had not kept pace with the growth of daily options, resulting in differing modeling approaches across regions.
+
+
+
 Collateralized Lending: Approvals of desk valuation models (GBM Private, Tier 1), facility-level rating (FLR) and tail risk models (The Core Eng, Tier 1), and methodology enhancements to extend collateral coverage to Infrastructure and Project Finance lending facilities and Latin American margin loans backed by sovereign bonds, supporting downstream FLR and tail risk assessments, expanding coverage of bespoke deal structures to reduce reliance on fallback methodologies, and improving model accuracy.
 
 
