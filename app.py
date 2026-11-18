@@ -1,3 +1,7 @@
+Collateralized Lending: Approvals of new valuation models (GBM Private, Tier 1) extending collateral coverage to Infrastructure and Project Finance lending facilities and Latin American margin loans backed by sovereign bonds, alongside facility-level rating (FLR) and tail risk model enhancements (The Core Eng, Tier 1) to support bespoke deal structures, reduce reliance on fallback methodologies and improve model accuracy.
+
+
+
 Below are the proposed revisions incorporating Bill’s feedback. I would keep each BRC update to a single paragraph, with more emphasis on the business significance of the approvals.
 
 1. Collateralized Lending
