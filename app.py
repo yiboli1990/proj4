@@ -1,3 +1,43 @@
+Below are the proposed revisions incorporating Bill’s feedback. I would keep each BRC update to a single paragraph, with more emphasis on the business significance of the approvals.
+
+1. Collateralized Lending
+
+Collateralized Lending: Approvals of new valuation models (GBM Private, Tier 1) covering Infrastructure and Project Finance lending facilities and Latin American margin loans backed by sovereign bonds, alongside facility-level rating (FLR) and tail risk model enhancements (The Core Eng, Tier 1) to support bespoke deal structures, reduce reliance on fallback methodologies and improve model accuracy.
+
+This makes the newly covered lending facilities and collateral explicit, while simplifying the discussion of FLR, tail risk and methodology enhancements.
+
+2. Commod GnF Model
+
+Commod GnF Model: Model Risk approved a significant modernization of the commodities pricing model (GBM Public, Tier 1), whose existing framework predates the growth of daily options in Power and Gas markets. The enhancements improve the modeling of daily price movements and establish a consistent methodology across the U.S. and European businesses, replacing previously divergent approaches.
+
+I would use “significant modernization” to communicate the importance of the update. It highlights why the change was needed without suggesting an unsubstantiated financial impact. I would avoid saying the legacy approaches have already been replaced, however, if their retirement is still planned. In that case, change the ending to “with plans to replace previously divergent approaches.”
+
+3. Model Inventory — AI Growth
+
+Since the BRC reporting dates are not aligned with quarter-end, I recommend replacing QoQ and YoY comparisons with changes since the previous BRC reporting date and over the past year.
+
+Net model inventory growth continues to be driven by AI, with the number of AI models reaching [XXX] as of November 16, 2026 ([XX]% of total inventory, compared with [XX]% a year ago), representing an increase of [XX]% since September 21, 2026 and [XX]% over the past year. AI accounted for [XX]% of newly declared models ([XXX] of [XXX]) since the previous reporting date.
+
+For consistency, I suggest using these comparison periods:
+
+Metric	Comparison dates
+Current AI inventory and share	November 16, 2026
+Growth since prior BRC	September 21 – November 16, 2026
+Growth over the past year	September 22, 2025 – November 16, 2026
+AI share of newly declared models	September 21 – November 16, 2026
+
+The year-over-year comparison is approximately 14 months, not 12 months. For precision, I would therefore replace “over the past year” with “since September 2025” unless you have a November 2025 inventory snapshot.
+
+I would also calculate the newly declared model percentage using the actual September 21–November 16 period rather than carrying forward the Q3 figure of 73%.
+
+
+
+
+
+
+
+
+
 * MRM approved NFPR AI - Enquiry Tracking (The Core Eng, Tier 3), used by Controllers to help respond to requests from public companies seeking information on who owns their shares, by automatically extracting relevant information from emails and attachments, subject to human review and approval.
 
 
