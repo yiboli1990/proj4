@@ -1,3 +1,126 @@
+Based on this discussion with Caroline and Operational Risk, we now have a clear path forward. There are three workstreams: control evidence descriptions, evidence locations, and the library control program review.
+
+The key agreement is that MRM will handle the updates centrally, without requiring divisions to make individual changes or upload evidence.
+
+1. Action items and ownership
+
+Item	What needs to be done	Owner
+1. Control evidence descriptions	Draft standardized, high-level descriptions for the five MRM library controls and send them to Caroline for review.	You
+2. Bulk upload	Coordinate the centralized upload of approved descriptions to all applicable control instances.	You / Operational Risk
+3. Evidence location	Confirm whether the evidence location field is mandatory and what link should be used.	Operational Risk
+4. Central evidence repository	Determine whether the existing Confluence guidance page can host the MRM control evidence, or whether the RCSA system itself is sufficient.	Operational Risk, with your input
+5. Library control program review	Confirm whether the relevant control should move from Model Risk to Corporate Governance and verify the affected divisions.	Operational Risk
+
+2. Control evidence descriptions — Your immediate priority
+
+Caroline and Operational Risk agreed that the descriptions should be generic and high-level, rather than detailed explanations of the underlying KCI calculations.
+
+Caroline specifically said:
+
+“We don’t want to put the metrics in there because, like, if we change the threshold…”
+
+This means:
+
+* Describe the general nature of the MRM metrics and the control activities they measure.
+* Do not include formulas, specific thresholds, or detailed calculation methodologies.
+* Where appropriate, reference the existing KCI metric definitions rather than reproducing them.
+* Use consistent wording across all instances of each library control.
+
+For example, for a control related to findings remediation:
+
+Proposed evidence description
+
+Control performance is evidenced by centrally calculated MRM metrics assessing the timeliness of model risk findings remediation, in accordance with the applicable Model Risk Management framework and metric definitions.
+
+Copy
+
+This is the level of detail Caroline appears to want.
+
+Next step: Draft all five descriptions and send them to Caroline before coordinating the bulk upload.
+
+3. Evidence location — Waiting for Operational Risk
+
+This was the main unresolved issue in the meeting.
+
+Operational Risk clarified that:
+
+* The evidence description field is now mandatory, replacing the previous requirement to upload at least one piece of evidence.
+* The evidence location field was renamed from evidence link, but its underlying guidance has not changed.
+* Evidence location is intended to identify where supporting evidence is maintained during normal operations, such as a SharePoint folder or Confluence page.
+
+Caroline’s preferred solution is to have a single centrally managed evidence location, which Operational Risk can populate for all applicable divisions.
+
+Two possible solutions were discussed:
+
+Option A — Existing Confluence page
+
+Operational Risk will check whether the existing Model Risk RCSA guidance page, currently maintained by Jessica, can also host the supporting control evidence and calculation results.
+
+Option B — RCSA system
+
+Since you are already working on uploading control ratings directly into the RCSA system, Operational Risk suggested that the system itself might serve as the evidence location.
+
+However, neither solution was confirmed during the meeting.
+
+Your next steps are to wait for Operational Risk’s confirmation, then provide the supporting evidence or system reference as needed. There is no need to create a separate repository until that is resolved.
+
+4. Library control program review — Operational Risk to resolve
+
+The discussion identified a control currently associated with the Model Risk program that may more appropriately belong under Corporate Governance.
+
+Operational Risk explained that:
+
+* The control relates to independent review or validation activities performed across different divisions.
+* It is not exclusively a Model Risk control.
+* Moving it to Corporate Governance would be a lift and shift, without changing the underlying control activities.
+* The Corporate Governance program would then be responsible for the corresponding RCSA guidance.
+
+There was also a discrepancy in the mapped divisions. You indicated that the control had previously been mapped to Risk, Compliance, and Controllers, whereas Operational Risk had recently seen only Controllers.
+
+Operational Risk agreed to investigate both the program classification and the divisional mappings.
+
+For now, you should not independently change the library control’s program classification. Wait for Operational Risk’s confirmation.
+
+5. What I recommend doing now
+
+Your working checklist
+
+Track completion
+
+Draft high-level evidence descriptions for the five MRM controls
+
+Send draft descriptions to Caroline for review
+
+Coordinate bulk upload of approved descriptions with Operational Risk
+
+Follow up on acceptable evidence location and mandatory-field requirement
+
+Follow up on Corporate Governance control reclassification and divisional mappings
+
+0 of 5 completed
+
+6. What Caroline expects from you
+
+There are two important distinctions from the earlier discussion.
+
+First, Caroline is now comfortable with standardized evidence descriptions, provided they are high-level, centrally maintained, and do not require divisions to perform additional work.
+
+Second, Caroline still wants the evidence process to be automated eventually, but acknowledged that Operational Risk has not prioritized the necessary technology solution. In the meantime, a centralized process using existing MRM evidence is acceptable.
+
+At the end of the meeting, she agreed with your proposed approach:
+
+“We’ll work on the high level … control evidence descriptions and then get that reviewed with you, Caroline.”
+
+So your most immediate deliverable is a revised set of five control evidence descriptions for Caroline’s review. The evidence location and Corporate Governance questions are follow-ups for Operational Risk, not items you need to resolve independently.
+
+If you share the current five library control descriptions and their associated KCI metrics, I can help rewrite the evidence descriptions in exactly the high-level style Caroline requested.
+
+
+
+
+
+
+
 Thanks, Caroline. I was trying to capture Bill’s clarification that a single model may be used across multiple trading desks and therefore mapped to multiple RCSA assessment units.
 
 I’ve revised the sentence to make this clearer:
