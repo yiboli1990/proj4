@@ -1,3 +1,31 @@
+Based on Sergei’s and Anthony’s comments, I would frame the response around the expected treatment of EqSp VIF, while making clear that the specific risk treatment has not yet been confirmed. I would avoid stating that EqSp VIF definitively follows Koala and YMCA until Sergei completes his checks.
+
+Proposed response
+
+The EqSp VIF tradable was developed to support the proposed Project Solaris USD tranche, which is expected to reference the GS Macro Insights Strategy index, a volatility-controlled underlying. Based on the current understanding, the trade has not yet been booked.
+
+The EqSp VIF model documentation primarily addresses pricing methodology and does not explicitly describe the treatment of specific risk. Based on the proposed trade structure, the tradable is expected to have equity spot and volatility risk factors, as well as other risk factors, including interest rate, FX and mortality exposures.
+
+For specific risk, equity spot risk is generally captured in VaR through either a factor model or the underlying’s own historical time series, while equity volatility risk may be partially proxied depending on the applicable market model. Other market risk factors are captured in VaR, while mortality risk is expected to be reflected in the Risk Factor Inventory (RFI) reporting.
+
+The proposed treatment is expected to be broadly consistent with similar Project Solaris transactions, including the existing JPY tranche booked through EqSp Koala and EqSp YMCA. From a pricing perspective, the mortality modeling approach is unchanged.
+
+We are confirming the applicable market model, equity volatility proxy treatment and mortality risk reporting before providing a definitive comparison of specific risk treatment across the tradables.
+
+Items to confirm internally
+
+Before sending this to the requester, I would ask Sergei and Anthony to confirm:
+
+* Market model and volatility proxy: Which market model will be applied to EqSp VIF, and whether the equity volatility exposure will be proxied using realized SPX volatility, as with other Volta-related tradables.
+* Specific risk comparison: Whether EqSp VIF will follow the same equity spot and volatility VaR treatment as EqSp Koala and EqSp YMCA.
+* Mortality risk: Whether mortality risk factors will be included in RFI reporting.
+* Documentation: Which existing EqSp VIF pricing documentation can be provided, and whether separate VaR or risk-factor mapping documentation is available.
+
+One important distinction: similar pricing methodology does not necessarily establish identical specific risk treatment. Anthony confirms that mortality modeling is unchanged from comparable trades, but his expectation of similar risk treatment is tentative.
+
+For a regulatory follow-up, I would recommend holding the detailed risk-treatment paragraphs until Sergei confirms the outstanding points. The current comments support a preliminary explanation, but not yet a definitive response to both parts of the question.
+
+
 Based on this discussion with Caroline and Operational Risk, we now have a clear path forward. There are three workstreams: control evidence descriptions, evidence locations, and the library control program review.
 
 The key agreement is that MRM will handle the updates centrally, without requiring divisions to make individual changes or upload evidence.
