@@ -1,3 +1,13 @@
+1. Utilization for model risk metrics remained within thresholds during the period.
+2. There are no significant concerns to highlight with respect to model risk.
+3. AI remains a key focus for model risk, with increasing adoption of agentic AI applications across the firm and a growing pipeline of AI models undergoing validation.
+4. Other key drivers of ongoing validation work relate to Counterparty Credit Risk (CCR) model enhancements as part of ongoing methodology harmonization efforts; Fundamental Review of the Trading Book (FRTB) requirements, including completion of CVA validation work ahead of the PRA go-live in January 2027; enhancements to models supporting the Collateralized Lending business; and the first significant enhancement to the commodities pricing model in seven years to better reflect current Power and Gas markets.
+5. The Firmwide Policy on Model Control and supporting standards are being revised, with the Policy to be approved by the Enterprise Risk Committee (ERC) instead of the Board Risk Committee (BRC) going forward. Other key changes relate to model risk tiering, further tailoring of annual review and lower-tier model requirements, and alignment of CCAR model revalidation requirements with those of other Tier 1 models.
+
+I have separated AI into a standalone talking point consistent with the previous meeting and removed the explicit reference to SR 26-2, making the change in policy approval authority the primary message of the last bullet.
+
+
+
 Based on Caroline’s guidance and the actual KCI metrics, I would keep each control evidence description to one high-level sentence describing what the centrally calculated MRM metrics measure.
 
 The descriptions should reflect the actual evidence used to assess control effectiveness, rather than restating the broader library control requirements. We should also avoid specific thresholds, calculation methodologies, assessment periods, and evidence locations so that the descriptions remain valid if the underlying metrics or processes change.
