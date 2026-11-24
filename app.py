@@ -1,3 +1,14 @@
+1. Utilization for model risk metrics remained within thresholds during the period.
+2. There are no significant concerns to highlight with respect to model risk.
+3. Key drivers of ongoing validation work relate to the growing adoption of AI, including applications with greater agentic capabilities; Counterparty Credit Risk (CCR) model enhancements as part of ongoing methodology harmonization efforts; Fundamental Review of the Trading Book (FRTB) requirements, including completion of CVA validation work ahead of the PRA go-live in January 2027; enhancements to models supporting the Collateralized Lending business; and a significant modernization of the commodities pricing framework to better reflect current Power and Gas markets.
+4. The Firmwide Policy on Model Control and supporting standards are being revised in response to the Federal Reserve’s revised model risk management guidance (SR 26-2), with key changes to governance and oversight, model risk tiering, annual review and revalidation requirements, and further tailoring of requirements for lower-tier models.
+
+I have kept the first two bullets unchanged, consolidated the validation activities into a single bullet consistent with the previous talking points, and kept the policy update focused on the key areas of change rather than individual requirements.
+
+
+
+
+
 I’ve revisited our AIRCC minutes instructions, including Caroline’s feedback on the previous meetings. For the November 24 minutes, I have applied the following principles:
 
 * Follow the actual chronological order of the discussion, without consolidating questions raised at different points in the meeting.
