@@ -1,3 +1,23 @@
+Hi Fragomen Team,
+
+I am planning to travel to China from December 18, 2026, through January 1, 2027, and need to renew my H-1B visa stamp during the trip. My current visa stamp has expired, while my I-797 approval is valid through March 2028. I have completed my DS-160 and paid the visa application fee, but have been unable to secure a visa interview appointment within my travel window.
+
+Could you please advise whether I may qualify for an expedited visa interview appointment through the consulate’s official process, and whether Goldman Sachs could support the request with an employer letter or other documentation explaining my need to return to work in the U.S.?
+
+Separately, could you please provide a copy of my most recent filed Form I-129, including the supporting petition materials and certified LCA, for my visa interview?
+
+Thank you for your guidance and assistance.
+
+Best regards,
+Yibo
+
+
+
+
+
+
+
+
 1. Utilization for model risk metrics remained within thresholds during the period.
 2. There are no significant concerns to highlight with respect to model risk.
 3. AI remains a key focus for model risk, with increasing adoption of agentic AI applications across the firm and a growing pipeline of AI models undergoing validation.
