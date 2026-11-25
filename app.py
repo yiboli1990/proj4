@@ -1,3 +1,7 @@
+H-1B Visa Appointment Expedite Support and Form I-129 Request
+
+
+
 Hi Fragomen Team,
 
 I am planning to travel to China from December 18, 2026, through January 1, 2027, and need to renew my H-1B visa stamp during the trip. My current visa stamp has expired, while my I-797 approval is valid through March 2028. I have completed my DS-160 and paid the visa application fee, but have been unable to secure a visa interview appointment within my travel window.
