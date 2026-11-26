@@ -1,3 +1,28 @@
+Hi Team,
+
+Thank you for looping in Catherine and confirming where to find the I-129.
+
+To clarify my original request, I would like guidance on whether I may qualify for an expedited H-1B visa interview appointment through the consulate’s official process, and whether Goldman Sachs could support the request with an employer letter or other documentation. I have been unable to secure an appointment within my planned travel window. My travel is contingent on securing a visa interview appointment, and I will not travel if I cannot obtain one.
+
+Please see my responses below.
+
+* Departure and return dates: Tentatively departing the U.S. on December 18, 2026, and returning on January 1, 2027, subject to securing an interview appointment.
+* Countries being visited: China, with a transit through Switzerland.
+* Valid visa stamp: My H-1B visa stamp has expired. My I-797 approval is valid through March 2028.
+* Plans to apply for a new visa stamp: Yes, I plan to renew my H-1B visa stamp in China. I have completed the DS-160 and paid the visa application fee. The consular post will depend on appointment availability.
+* Passport expiring within six months: [Yes/No; expiration date].
+* Prior arrests or criminal convictions: [None / provide details].
+* Travel concerns: Securing an interview appointment that allows sufficient time for visa processing and my planned return to work in the U.S.
+* Previous visa delays or questioning by U.S. Customs: [None / provide details].
+
+I would appreciate Catherine’s guidance on the expedited appointment request and the employer support available.
+
+Thank you,
+Yibo
+
+
+
+
 H-1B Visa Appointment Expedite Support and Form I-129 Request
 
 
